@@ -1,0 +1,19 @@
+{
+  "name": "Caçador",
+  "description": "Nenhuma presa é grande demais. Só longe demais, e isso a gente resolve. Papel: dano à distância e marcação. Armas: arcos e bestas. Escolas: Natureza e Ender. Combina com: Assassino e Mago. Dificuldade: ★☆☆",
+  "icon": {
+    "item": "minecraft:bow"
+  },
+  "impact": 2,
+  "order": 5,
+  "powers": [
+    "gurizes:classe/cacador/registro",
+    "gurizes:classe/cacador/olho_de_falcao",
+    "gurizes:classe/cacador/olho_de_falcao_flecha",
+    "gurizes:classe/cacador/rastreador",
+    "gurizes:classe/cacador/disparo_venenoso",
+    "gurizes:classe/cacador/marca_do_cacador",
+    "gurizes:classe/cacador/chuva_estelar",
+    "gurizes:classe/cacador/maos_de_arqueiro"
+  ]
+}

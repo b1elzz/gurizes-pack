@@ -1,0 +1,32 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Pele Seca",
+  "description": "Fraqueza: −10% de velocidade de ataque no calor ou no Nether.",
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:biome",
+        "condition": {
+          "type": "origins:temperature",
+          "comparison": ">=",
+          "compare_to": 1.5
+        }
+      },
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+      }
+    ]
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "multiply_base",
+      "value": -0.1,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

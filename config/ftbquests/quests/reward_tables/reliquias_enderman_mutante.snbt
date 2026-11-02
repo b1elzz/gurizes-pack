@@ -1,0 +1,18 @@
+{
+	icon: "minecraft:splash_potion"
+	id: "0420E83294EE279F"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: "mutantmonsters:endersoul_hand"
+		}
+		{
+			item: "mutantmonsters:hulk_hammer"
+		}
+		{
+			item: "mutantmonsters:mutant_skeleton_skull"
+		}
+	]
+	title: "Relíquias Errantes: Enderman Mutante"
+}

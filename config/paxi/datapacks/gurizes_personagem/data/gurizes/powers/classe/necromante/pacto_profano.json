@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Pacto Profano",
+  "description": "Restrição: −1 coração e −10% de cura recebida.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -2,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

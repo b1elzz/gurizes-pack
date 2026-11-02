@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "name": "Vento de Nymara (Menor)",
+  "description": "+4% de velocidade, +8% de poder de Raio.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.04,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "operation": "addition",
+      "value": 0.08,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

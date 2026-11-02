@@ -1,0 +1,20 @@
+{
+  "name": "Alquimista",
+  "description": "Frascos que salvam o grupo no meio da luta. Seus efeitos positivos duram mais.",
+  "icon": {
+    "item": "minecraft:brewing_stand"
+  },
+  "impact": 0,
+  "order": 2,
+  "powers": [
+    "gurizes:oficio/alquimista/registro",
+    "gurizes:oficio/alquimista/metabolismo",
+    "gurizes:oficio/alquimista/receita_frasco_de_cura",
+    "gurizes:oficio/alquimista/receita_tonico_de_mana",
+    "gurizes:oficio/alquimista/receita_oleo_de_lamina_fogo",
+    "gurizes:oficio/alquimista/receita_oleo_de_lamina_veneno",
+    "gurizes:oficio/alquimista/receita_elixir_do_heroi",
+    "gurizes:oficio/alquimista/receita_frasco_maior",
+    "gurizes:oficio/alquimista/receitas"
+  ]
+}

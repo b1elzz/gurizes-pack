@@ -1,0 +1,13 @@
+{
+  "type": "origins:attribute",
+  "hidden": true,
+  "modifiers": [
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

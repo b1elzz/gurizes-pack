@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "02_ato2_o_bosque_que_sangra"
+	group: "7A0A9C2928225198"
+	icon: "gurizes:coracao_de_seiva"
+	id: "673607FD7D095B9A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"\"A seiva que escorre das árvores daqui é roxa e quente. Árvore não devia ser quente."
+				"Junte oito frascos para a Irmã Ramalda e lave as mãos depois.\""
+				"Mobs de floresta escura, pântano e mangue deixam cair Seiva Corrompida."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:seiva_corrompida"
+			id: "66BA44D77F2851FF"
+			rewards: [
+				{
+					count: 4
+					id: "2C8C928975A2AB7B"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "70E2C21AAA50B632"
+					item: "gurizes:seiva_corrompida"
+					type: "item"
+				}
+			]
+			title: "Seiva Negra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66BA44D77F2851FF"]
+			description: [
+				"O Círculo de Tellura se esconde nas florestas escuras."
+				"Encontre a Irmã Ramalda na mata fechada."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:dark_oak_sapling"
+			id: "6FC661A5E4A44E80"
+			rewards: [
+				{
+					count: 3
+					id: "439CBB94C749893F"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:dark_forest"
+					id: "6652E3E3AAD2289C"
+					type: "biome"
+				}
+			]
+			title: "O Círculo"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FC661A5E4A44E80"]
+			description: [
+				"Os Brotos do Círculo precisam de mudas e de farinha de osso para curar a terra."
+				"Em troca, Ramalda entrega o &eSelo de Tellura&r."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:bone_meal"
+			id: "7E9A1AD044EAD96B"
+			rewards: [
+				{
+					id: "3D74DB64B9818EF7"
+					item: "gurizes:selo_de_tellura"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "64E03DB3851B40AC"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "1A5E8AC723C2D112"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "1296EDE53AC1F517"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "3BC585B222EFE18E"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+			]
+			title: "Três Brotos"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E9A1AD044EAD96B"]
+			description: [
+				"Crafte o Coração de Seiva: 4 Seiva Corrompida, 4 farinha de osso e o Selo de Tellura (devolvido)."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:coracao_de_seiva"
+			id: "3F9CC400929FFEFE"
+			rewards: [
+				{
+					count: 4
+					id: "39E948D35D46857E"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33AC2429D0E45916"
+					item: "gurizes:coracao_de_seiva"
+					type: "item"
+				}
+			]
+			title: "Coração de Seiva"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"\"Vorthra cuidava deste bosque quando o mundo ainda era verde. Agora ela só lembra de crescer. Plante o Coração de Seiva no Altar de Raízes e fique longe das raízes que se mexem. Todas se mexem.\""
+				""
+				"&6Como invocar:&r plante o Coração de Seiva no Altar de Raízes do Bosque Sangrado."
+				"&6Como vencer:&r saia das nuvens roxas de esporos, mate as raízes que curam e interrompa o Florescer. Na fase 2, o coração fica exposto nas costas."
+				"&aFraquezas:&r fogo, machados, coração exposto (dano dobrado)."
+				"&cPontos fortes:&r imune a veneno; quase imune a natureza; casca resiste a projéteis; regenera se ficar 5 s sem apanhar."
+				""
+				"&7O boss escala com o grupo: vida ×2,1 com 2 jogadores e ×4,3 com 4."
+				"&7Ficha completa no wiki do pack."
+			]
+			icon: "gurizes:coracao_de_seiva"
+			id: "299A96D053605996"
+			rewards: [
+				{
+					id: "37F0658A8910346E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "79BC9703C6D477D8"
+					stage: "ato_3"
+					type: "astages_ftbquests:server"
+				}
+				{
+					command: "/advancement grant {p} only gurizes:campanha/ato_2_vencido"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "43E15EA59FD4FF1D"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&6Porteiro"
+			tasks: [
+				{
+					advancement: "gurizes:campanha/ato_2_vencido"
+					criterion: ""
+					id: "306D110ADFEEB1A7"
+					type: "advancement"
+				}
+			]
+			title: "O Bosque Sangrado"
+			x: 8.5d
+			y: 0.0d
+		}
+	]
+	title: "Ato II: O Bosque que Sangra"
+}

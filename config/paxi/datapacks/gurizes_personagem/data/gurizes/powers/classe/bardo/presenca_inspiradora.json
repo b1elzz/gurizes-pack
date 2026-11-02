@@ -1,0 +1,31 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Presença Inspiradora",
+  "description": "Você e os aliados a até 10 blocos ganham Velocidade I.",
+  "interval": 60,
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 10,
+    "include_target": true,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "duration": 80,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      }
+    }
+  }
+}

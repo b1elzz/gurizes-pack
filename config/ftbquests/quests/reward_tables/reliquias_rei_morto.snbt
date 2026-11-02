@@ -1,0 +1,18 @@
+{
+	icon: "irons_spellbooks:blood_staff"
+	id: "51A1F9C799DFFC34"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: "irons_spellbooks:misery"
+		}
+		{
+			item: "irons_spellbooks:blood_staff"
+		}
+		{
+			item: "irons_spellbooks:decrepit_scythe"
+		}
+	]
+	title: "Relíquias Errantes: Rei Morto"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Paladino",
+  "description": "Escudo do grupo e luz no campo de batalha. Papel: tanque e suporte. Armas: espada ou maça e escudo. Escolas: Sagrada e Evocação. Combina com: Bardo e Assassino. Dificuldade: ★☆☆",
+  "icon": {
+    "item": "minecraft:shield"
+  },
+  "impact": 2,
+  "order": 1,
+  "powers": [
+    "gurizes:classe/paladino/registro",
+    "gurizes:classe/paladino/couraca",
+    "gurizes:classe/paladino/devocao",
+    "gurizes:classe/paladino/luz_restauradora",
+    "gurizes:classe/paladino/escudo_dos_fieis",
+    "gurizes:classe/paladino/juramento_inquebravel",
+    "gurizes:classe/paladino/honra_do_aco"
+  ]
+}

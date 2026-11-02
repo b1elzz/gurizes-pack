@@ -1,0 +1,18 @@
+{
+	icon: "meetyourfight:violet_bloom"
+	id: "1A6C0AD39CFCA360"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: "meetyourfight:violet_bloom"
+		}
+		{
+			item: "meetyourfight:twilights_thorn"
+		}
+		{
+			item: "meetyourfight:blossoming_mind"
+		}
+	]
+	title: "Relíquias Errantes: Rosalyne"
+}

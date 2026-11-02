@@ -1,0 +1,52 @@
+{
+  "type": "origins:active_self",
+  "name": "Véu da Noite (III, H)",
+  "description": "Após o porteiro do Ato IV: invisível e veloz por 6 s; o próximo golpe causa +50%. Recarga de 1 min 40 s.",
+  "cooldown": 2000,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:invisibility",
+          "duration": 120,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "duration": 120,
+          "amplifier": 1,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "gurizes:golpe_sombrio",
+          "duration": 120,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_4_vencido"
+  }
+}

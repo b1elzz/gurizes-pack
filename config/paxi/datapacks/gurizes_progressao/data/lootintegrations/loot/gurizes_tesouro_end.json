@@ -1,0 +1,7 @@
+{
+  "loot_table": "gurizes:chests/tesouro_end",
+  "max_result_itemcount": 20,
+  "integrated_loot_tables": {
+    "minecraft:chests/end_city_treasure": 3
+  }
+}

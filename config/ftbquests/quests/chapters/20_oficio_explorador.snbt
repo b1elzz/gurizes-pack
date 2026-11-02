@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20_oficio_explorador"
+	group: "4DA834C500C67B4B"
+	icon: "minecraft:compass"
+	id: "585DFA81A393164B"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
+			description: [
+				"Você escolheu o ofício Explorador. Acha masmorras e leva o grupo de volta para casa."
+				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:compass"
+			id: "7CDC7B0A10370C97"
+			rewards: [
+				{
+					id: "77CD1DCD779A7737"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:interno/oficio_explorador"
+					criterion: ""
+					id: "75DAAB826008F6A1"
+					type: "advancement"
+				}
+			]
+			title: "Aprendiz de Explorador"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CDC7B0A10370C97"]
+			description: ["Faça a primeira Bússola de Masmorra."]
+			hide_until_deps_visible: true
+			icon: "gurizes:bussola_de_masmorra"
+			id: "51E64425909BD116"
+			rewards: [
+				{
+					id: "3E968EE4587CC096"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7BD4867987EE94CF"
+					item: "gurizes:bussola_de_masmorra"
+					type: "item"
+				}
+			]
+			title: "Bússola de Masmorra"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51E64425909BD116"]
+			description: ["Faça o primeiro Pergaminho de Retorno."]
+			hide_until_deps_visible: true
+			icon: "gurizes:pergaminho_de_retorno"
+			id: "7298E28A0BEC6A0D"
+			rewards: [
+				{
+					id: "52CBDF5B70C37959"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "64A1A6E03CA18DC8"
+					item: "gurizes:pergaminho_de_retorno"
+					type: "item"
+				}
+			]
+			title: "Pergaminho de Retorno"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7298E28A0BEC6A0D", "1F82201E3EE0EE78"]
+			description: [
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:compass"
+			id: "78568052A66DD933"
+			rewards: [
+				{
+					count: 2
+					id: "5906B7C5D83D454C"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5C3954DE38833CF1"
+					type: "checkmark"
+				}
+			]
+			title: "Mestre Explorador"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78568052A66DD933"]
+			description: ["Faça o primeiro Pergaminho de Retorno do Grupo."]
+			hide_until_deps_visible: true
+			icon: "gurizes:pergaminho_de_retorno_grupo"
+			id: "2B4102682E481B5F"
+			rewards: [
+				{
+					count: 2
+					id: "369E3404637530E6"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "36867FF83031AEA1"
+					item: "gurizes:pergaminho_de_retorno_grupo"
+					type: "item"
+				}
+			]
+			title: "Pergaminho de Retorno do Grupo"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Ofício: Explorador"
+}

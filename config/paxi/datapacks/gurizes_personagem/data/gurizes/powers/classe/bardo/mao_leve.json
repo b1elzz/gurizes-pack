@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Mão Leve",
+  "description": "Restrição: −10% de dano de todas as fontes.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.1
+  }
+}

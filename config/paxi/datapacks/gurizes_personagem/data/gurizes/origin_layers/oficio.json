@@ -1,0 +1,18 @@
+{
+  "order": 40,
+  "enabled": true,
+  "name": "Ofício",
+  "gui_title": {
+    "choose_origin": "Escolha seu ofício",
+    "view_origin": "Seu ofício"
+  },
+  "allow_random": true,
+  "origins": [
+    "gurizes:oficio/ferreiro",
+    "gurizes:oficio/alquimista",
+    "gurizes:oficio/cozinheiro",
+    "gurizes:oficio/explorador",
+    "gurizes:oficio/mercador",
+    "gurizes:oficio/encantador"
+  ]
+}

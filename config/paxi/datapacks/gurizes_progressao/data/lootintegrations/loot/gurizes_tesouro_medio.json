@@ -1,0 +1,14 @@
+{
+  "loot_table": "gurizes:chests/tesouro_medio",
+  "max_result_itemcount": 15,
+  "integrated_loot_tables": {
+    "minecraft:chests/simple_dungeon": 2,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "minecraft:chests/pillager_outpost": 2,
+    "minecraft:chests/desert_pyramid": 2,
+    "minecraft:chests/jungle_temple": 2,
+    "minecraft:chests/buried_treasure": 2,
+    "minecraft:chests/underwater_ruin_big": 1,
+    "minecraft:chests/shipwreck_treasure": 2
+  }
+}

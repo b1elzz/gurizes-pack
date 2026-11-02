@@ -1,0 +1,9 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "interval": 100,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "scoreboard players enable @s gurizes.elemento"
+  }
+}

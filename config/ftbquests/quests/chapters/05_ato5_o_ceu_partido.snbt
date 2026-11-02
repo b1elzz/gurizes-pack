@@ -1,0 +1,178 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05_ato5_o_ceu_partido"
+	group: "7A0A9C2928225198"
+	icon: "gurizes:lente_estelar"
+	id: "6BAB7A4E5903F058"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"Ache a fortaleza, acenda o portal e entre no End."
+				"O Dragão do Ender é opcional: está nos Contratos de Caça."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:end_portal_frame"
+			id: "1CB951A2E45D104A"
+			rewards: [
+				{
+					count: 2
+					id: "6BC07FBAC9EE4669"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "364A0C68CCC84051"
+					type: "dimension"
+				}
+			]
+			title: "Além do Portal"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CB951A2E45D104A"]
+			description: [
+				"Endermen e shulkers do End deixam cair Poeira Estelar. Traga oito punhados."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:poeira_estelar"
+			id: "75E87D6A32783268"
+			rewards: [
+				{
+					count: 2
+					id: "1D8EAB5225787B6E"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "20118F8F6C4C0DAB"
+					item: "gurizes:poeira_estelar"
+					type: "item"
+				}
+			]
+			title: "Poeira de Estrela"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75E87D6A32783268"]
+			description: [
+				"\"As estrelas do End não são estrelas: são os olhos de Kaelum, fechados desde que o Selo partiu."
+				"A Arquivista Lune desenhou onde fica o maior deles. Ela também desenhou um gato na margem do mapa."
+				"Ignore o gato.\""
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:mapa_celeste"
+			id: "7630A82A2A53D770"
+			rewards: [
+				{
+					id: "67E74A17788A956E"
+					item: "gurizes:mapa_celeste"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00DD4527777FA32D"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B98019CB754199D"
+					type: "checkmark"
+				}
+			]
+			title: "O Mapa Celeste"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7630A82A2A53D770"]
+			description: [
+				"Crafte a Lente Estelar: 4 Poeira Estelar, 1 olho do ender, 2 cascas de shulker e o Mapa Celeste (devolvido)."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:lente_estelar"
+			id: "60E96F86A9DD2126"
+			rewards: [
+				{
+					count: 2
+					id: "7E8970A02DBFEA55"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77FD53A76501BD8E"
+					item: "gurizes:lente_estelar"
+					type: "item"
+				}
+			]
+			title: "Lente Estelar"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"\"Use a Lente Estelar em qualquer pedra do End e a fenda se abre. Lá dentro, alinhe os anéis com a constelação do chão. Quando o olho abrir, alguém vai olhar de volta. Não é Kaelum.\""
+				""
+				"&6Como invocar:&r Lente Estelar numa pedra do End (a Fenda abre por 60 s), alinhe os 3 Anéis e encaixe a lente no Astrolábio."
+				"&6Como vencer:&r destrua as Estrelas Guardiãs primeiro (elas reduzem o dano em até 60%). Bata nas janelas em que ele desce; na fase 3 voltam os ecos dos Guardiões anteriores."
+				"&aFraquezas:&r sagrado, projéteis, Estrelas Guardiãs destruídas."
+				"&cPontos fortes:&r imune a queda, repulsão, lentidão e congelamento; resiste a magia do Ender; voa."
+				""
+				"&7O boss escala com o grupo: vida ×2,1 com 2 jogadores e ×4,3 com 4."
+				"&7Ficha completa no wiki do pack."
+			]
+			icon: "gurizes:lente_estelar"
+			id: "2E64F5B91C5F61D4"
+			rewards: [
+				{
+					id: "7510A2A90E048D76"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0C8F07146823BE78"
+					stage: "ato_6"
+					type: "astages_ftbquests:server"
+				}
+				{
+					command: "/advancement grant {p} only gurizes:campanha/ato_5_vencido"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "0D7F4549537CCCE0"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&6Porteiro"
+			tasks: [
+				{
+					advancement: "gurizes:campanha/ato_5_vencido"
+					criterion: ""
+					id: "1D41A64806A85BAC"
+					type: "advancement"
+				}
+			]
+			title: "O Céu Partido"
+			x: 8.5d
+			y: 0.0d
+		}
+	]
+	title: "Ato V: O Céu Partido"
+}

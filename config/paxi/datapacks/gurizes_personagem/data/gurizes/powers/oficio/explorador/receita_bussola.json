@@ -1,0 +1,32 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "gurizes:oficio/explorador/bussola_de_masmorra",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:compass"
+      },
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "gurizes:bussola_de_masmorra",
+      "count": 1
+    }
+  }
+}

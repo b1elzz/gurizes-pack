@@ -1,0 +1,23 @@
+{
+  "name": "Berserker",
+  "description": "Dor é só a batalha avisando que você ainda está nela. Papel: dano corpo a corpo sustentado. Armas: machados e montantes. Escolas: Sangue e Fogo. Combina com: Bardo e Druida. Dificuldade: ★★☆",
+  "icon": {
+    "item": "minecraft:iron_axe"
+  },
+  "impact": 3,
+  "order": 2,
+  "powers": [
+    "gurizes:classe/berserker/registro",
+    "gurizes:classe/berserker/furia",
+    "gurizes:classe/berserker/furia_ganho_ataque",
+    "gurizes:classe/berserker/furia_ganho_dor",
+    "gurizes:classe/berserker/furia_queda",
+    "gurizes:classe/berserker/sede_de_batalha",
+    "gurizes:classe/berserker/impeto",
+    "gurizes:classe/berserker/grito_de_guerra",
+    "gurizes:classe/berserker/recusa_em_cair",
+    "gurizes:classe/berserker/furia_rubra",
+    "gurizes:classe/berserker/sem_escudo",
+    "gurizes:classe/berserker/guarda_aberta"
+  ]
+}

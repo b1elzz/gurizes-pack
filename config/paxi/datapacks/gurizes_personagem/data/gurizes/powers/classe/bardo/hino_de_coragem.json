@@ -1,0 +1,53 @@
+{
+  "type": "origins:active_self",
+  "name": "Hino de Coragem (G)",
+  "description": "Aliados a até 10 blocos ganham Força I e Inspiração por 10 s. Recarga de 40 s.",
+  "cooldown": 800,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 10,
+    "include_target": true,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:strength",
+              "duration": 200,
+              "amplifier": 0,
+              "show_particles": false,
+              "show_icon": true
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "gurizes:inspiracao",
+              "duration": 200,
+              "amplifier": 0,
+              "show_particles": false,
+              "show_icon": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Humano de Valdren",
+  "description": "Sem dons de nascença, com a teimosia de quem reconstruiu um reino duas vezes. Adaptável: +1 coração, +10% de XP, +5% de dano. Fraqueza: +15% de fome gasta.",
+  "icon": {
+    "item": "minecraft:iron_sword"
+  },
+  "impact": 1,
+  "order": 1,
+  "powers": [
+    "gurizes:raca/humano/determinacao",
+    "gurizes:raca/humano/aprendiz_rapido",
+    "gurizes:raca/humano/versatil",
+    "gurizes:raca/humano/fome_de_estrada"
+  ]
+}

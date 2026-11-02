@@ -1,0 +1,21 @@
+{
+  "type": "origins:active_self",
+  "name": "Maré Sombria (III, H)",
+  "description": "Após o porteiro do Ato IV: Tentáculos de Sculk nível 6. Recarga de 2 min.",
+  "cooldown": 2400,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "cast @s irons_spellbooks:sculk_tentacles 6"
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_4_vencido"
+  }
+}

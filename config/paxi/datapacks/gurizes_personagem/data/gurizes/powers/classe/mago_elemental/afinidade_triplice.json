@@ -1,0 +1,26 @@
+{
+  "type": "origins:attribute",
+  "name": "Afinidade Tríplice",
+  "description": "+10% de poder de Fogo, Gelo e Raio.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

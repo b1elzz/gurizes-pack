@@ -1,0 +1,21 @@
+{
+  "type": "origins:active_self",
+  "name": "Lança do Trovão Rúnico (III, H)",
+  "description": "Após o porteiro do Ato IV: Lança de Raio nível 8. Recarga de 1 min 30 s.",
+  "cooldown": 1800,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "cast @s irons_spellbooks:lightning_lance 8"
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_4_vencido"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "order": 30,
+  "enabled": true,
+  "name": "Classe",
+  "gui_title": {
+    "choose_origin": "Escolha seu juramento de combate",
+    "view_origin": "Sua classe"
+  },
+  "allow_random": false,
+  "origins": [
+    "gurizes:classe/paladino",
+    "gurizes:classe/berserker",
+    "gurizes:classe/mago_elemental",
+    "gurizes:classe/necromante",
+    "gurizes:classe/cacador",
+    "gurizes:classe/lamina_arcana",
+    "gurizes:classe/bardo",
+    "gurizes:classe/druida",
+    "gurizes:classe/monge",
+    "gurizes:classe/assassino"
+  ]
+}

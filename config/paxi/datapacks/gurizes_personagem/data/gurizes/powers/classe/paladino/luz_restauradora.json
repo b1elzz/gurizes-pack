@@ -1,0 +1,47 @@
+{
+  "type": "origins:active_self",
+  "name": "Luz Restauradora (G)",
+  "description": "Cura 4 de vida em você e nos aliados a até 6 blocos, com Regeneração I por 3 s. Recarga de 30 s.",
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 6,
+    "include_target": true,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:heal",
+            "amount": 4
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:regeneration",
+              "duration": 60,
+              "amplifier": 0,
+              "show_particles": false,
+              "show_icon": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

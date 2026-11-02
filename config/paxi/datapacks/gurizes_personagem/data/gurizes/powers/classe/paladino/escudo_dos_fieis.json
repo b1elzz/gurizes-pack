@@ -1,0 +1,50 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Escudo dos Fiéis (II)",
+  "description": "Após o porteiro do Ato II: com escudo na segunda mão, aliados a até 6 blocos ganham Resistência I.",
+  "interval": 40,
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 6,
+    "include_target": true,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 60,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      }
+    }
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:advancement",
+        "advancement": "gurizes:campanha/ato_2_vencido"
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "gurizes:armas/escudos"
+          }
+        }
+      }
+    ]
+  }
+}

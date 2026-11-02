@@ -1,0 +1,18 @@
+{
+	icon: "bosses_of_mass_destruction:obsidian_heart"
+	id: "5A3D9626E0E247BC"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: "bosses_of_mass_destruction:obsidian_heart"
+		}
+		{
+			item: "bosses_of_mass_destruction:ancient_anima"
+		}
+		{
+			item: "bosses_of_mass_destruction:earthdive_spear"
+		}
+	]
+	title: "Relíquias Errantes: Obsidilith"
+}

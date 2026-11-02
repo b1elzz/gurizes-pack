@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "name": "Eco Sombrio",
+  "description": "+8% de poder de Sangue e Eldritch.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "operation": "addition",
+      "value": 0.08,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "operation": "addition",
+      "value": 0.08,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

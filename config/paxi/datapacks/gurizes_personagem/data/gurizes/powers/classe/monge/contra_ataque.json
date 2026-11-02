@@ -1,0 +1,25 @@
+{
+  "type": "origins:attacker_action_when_hit",
+  "name": "Contra-ataque (II)",
+  "description": "Após o porteiro do Ato II: quem te acerta corpo a corpo fica lento, e você ganha Força I por 3 s. Recarga de 4 s.",
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido"
+  },
+  "cooldown": 80,
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:is_projectile",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slowness",
+      "duration": 40,
+      "amplifier": 1,
+      "show_particles": false,
+      "show_icon": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Abrigo Verde",
+  "description": "Na chuva ou em florestas: Regeneração I periódica.",
+  "interval": 100,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:regeneration",
+      "duration": 60,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": true
+    }
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:in_rain"
+      },
+      {
+        "type": "origins:biome",
+        "condition": {
+          "type": "origins:in_tag",
+          "tag": "minecraft:is_forest"
+        }
+      }
+    ]
+  }
+}

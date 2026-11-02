@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "33_otherside"
+	group: "6F1E073C46BCCFFD"
+	icon: "minecraft:sculk"
+	id: "737FC1A9680F8349"
+	order_index: 20
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"O portal de uma Cidade Antiga leva ao Outro Lado (Deeper and Darker)."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:sculk"
+			id: "7BE4B033E45008F6"
+			rewards: [
+				{
+					id: "275FEA471C9AA95A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "1726BD82120C8D79"
+					type: "dimension"
+				}
+			]
+			title: "O Abismo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: ["O templo enterrado no Outro Lado."]
+			hide_until_deps_complete: true
+			icon: "minecraft:echo_shard"
+			id: "4B204AD05F7836EB"
+			rewards: [
+				{
+					id: "7EBFBCF3F8FB9239"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B7F6C9E0EF5B56D"
+					structure: "deeperdarker:ancient_temple"
+					type: "structure"
+				}
+			]
+			title: "Templo Antigo"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: ["Uma Cidade Antiga no Escuro Profundo."]
+			hide_until_deps_complete: true
+			icon: "minecraft:sculk_shrieker"
+			id: "023B4FB4A23F36AD"
+			rewards: [
+				{
+					id: "20261903ED6F6BC5"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E17CABAF8FA48BD"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			title: "Cidade Antiga"
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "O Outro Lado"
+}

@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20_oficio_mercador"
+	group: "4DA834C500C67B4B"
+	icon: "minecraft:emerald"
+	id: "1A009C07DB846E57"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
+			description: [
+				"Você escolheu o ofício Mercador. Descontos com os aldeões, faro para moedas e a Caravana."
+				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:emerald"
+			id: "252B4D699C02F6C1"
+			rewards: [
+				{
+					id: "19CCEBB50ED909EC"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:interno/oficio_mercador"
+					criterion: ""
+					id: "24D10D7AD025F8A5"
+					type: "advancement"
+				}
+			]
+			title: "Aprendiz de Mercador"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["252B4D699C02F6C1"]
+			description: ["Faça o primeiro Apito do Mascate."]
+			hide_until_deps_visible: true
+			icon: "gurizes:apito_do_mascate"
+			id: "5BA97FC8B2837FBC"
+			rewards: [
+				{
+					id: "53D6E48259ABB7C8"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C4C087CA638E260"
+					item: "gurizes:apito_do_mascate"
+					type: "item"
+				}
+			]
+			title: "Apito do Mascate"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BA97FC8B2837FBC", "1F82201E3EE0EE78"]
+			description: [
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:emerald"
+			id: "61F83C638BEEBF0C"
+			rewards: [
+				{
+					count: 2
+					id: "01BDEC258AD2CEE8"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6EB7382C9D34CEA0"
+					type: "checkmark"
+				}
+			]
+			title: "Mestre Mercador"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61F83C638BEEBF0C"]
+			description: ["Faça o primeiro Selo de Caravana."]
+			hide_until_deps_visible: true
+			icon: "gurizes:selo_de_caravana"
+			id: "33F1CCA143DCC857"
+			rewards: [
+				{
+					count: 2
+					id: "2175491444D67D53"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28072EA3BB194FE8"
+					item: "gurizes:selo_de_caravana"
+					type: "item"
+				}
+			]
+			title: "Selo de Caravana"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Ofício: Mercador"
+}

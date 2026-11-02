@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Memória de Vesperis (Menor)",
+  "description": "+3% de roubo de vida.",
+  "modifiers": [
+    {
+      "attribute": "attributeslib:life_steal",
+      "operation": "addition",
+      "value": 0.03,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

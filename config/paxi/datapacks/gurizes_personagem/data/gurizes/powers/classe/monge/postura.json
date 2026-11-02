@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "name": "Postura",
+  "description": "+2 de armadura e firmeza contra empurrões.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.2,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

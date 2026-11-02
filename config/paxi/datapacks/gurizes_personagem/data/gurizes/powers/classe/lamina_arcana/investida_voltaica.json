@@ -1,0 +1,17 @@
+{
+  "type": "origins:active_self",
+  "name": "Investida Voltaica (G)",
+  "description": "Avança com um golpe elétrico (Golpe Voltaico nível 4). Recarga de 15 s.",
+  "cooldown": 300,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "cast @s irons_spellbooks:volt_strike 4"
+  }
+}

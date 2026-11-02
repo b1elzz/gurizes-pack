@@ -1,0 +1,15 @@
+{
+  "name": "Pés-Leves",
+  "description": "Pequeninos do Vale Redondo, rápidos e sortudos. Pequenos o bastante para passar despercebidos. +5% de esquiva, +8% de velocidade, −50% de queda. Fraqueza: −0,5 de alcance.",
+  "icon": {
+    "item": "minecraft:rabbit_foot"
+  },
+  "impact": 1,
+  "order": 6,
+  "powers": [
+    "gurizes:raca/pes_leves/esquiva_natural",
+    "gurizes:raca/pes_leves/ligeireza",
+    "gurizes:raca/pes_leves/queda_suave",
+    "gurizes:raca/pes_leves/bracos_curtos"
+  ]
+}

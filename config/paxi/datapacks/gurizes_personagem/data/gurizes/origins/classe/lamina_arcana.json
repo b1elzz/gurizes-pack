@@ -1,0 +1,18 @@
+{
+  "name": "Lâmina Arcana",
+  "description": "A espada abre a guarda. A magia termina o serviço. Papel: híbrido corpo a corpo e magia. Armas: espadas longas, katanas e rapieiras. Escolas: Evocação, Raio e Ender. Combina com: Druida. Dificuldade: ★★★",
+  "icon": {
+    "item": "minecraft:diamond_sword"
+  },
+  "impact": 3,
+  "order": 6,
+  "powers": [
+    "gurizes:classe/lamina_arcana/registro",
+    "gurizes:classe/lamina_arcana/lamina_encantada",
+    "gurizes:classe/lamina_arcana/golpe_canalizado",
+    "gurizes:classe/lamina_arcana/investida_voltaica",
+    "gurizes:classe/lamina_arcana/eco_das_laminas",
+    "gurizes:classe/lamina_arcana/lanca_do_trovao",
+    "gurizes:classe/lamina_arcana/canal_exposto"
+  ]
+}

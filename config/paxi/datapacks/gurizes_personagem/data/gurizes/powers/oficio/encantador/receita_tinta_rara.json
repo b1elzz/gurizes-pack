@@ -1,0 +1,26 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "gurizes:oficio/encantador/tinta_rara",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "irons_spellbooks:uncommon_ink"
+      },
+      {
+        "item": "irons_spellbooks:uncommon_ink"
+      },
+      {
+        "item": "irons_spellbooks:uncommon_ink"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ],
+    "result": {
+      "item": "irons_spellbooks:rare_ink",
+      "count": 1
+    }
+  }
+}

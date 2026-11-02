@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Firmeza",
+  "description": "Resiste a empurrões.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.15,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

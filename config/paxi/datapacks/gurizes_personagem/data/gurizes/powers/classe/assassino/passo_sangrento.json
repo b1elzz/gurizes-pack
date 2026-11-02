@@ -1,0 +1,17 @@
+{
+  "type": "origins:active_self",
+  "name": "Passo Sangrento (G)",
+  "description": "Teleporte curto de sangue (nível 3). Recarga de 20 s.",
+  "cooldown": 400,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "cast @s irons_spellbooks:blood_step 3"
+  }
+}

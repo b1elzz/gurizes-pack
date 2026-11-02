@@ -1,0 +1,15 @@
+{
+  "name": "Pedraforte",
+  "description": "Anões das Montanhas de Karrum, mineiros e forjadores. A montanha ensina paciência; a forja ensina o resto. +15% de mineração, +2 de armadura, firmeza. Fraqueza: −5% de velocidade.",
+  "icon": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "impact": 1,
+  "order": 2,
+  "powers": [
+    "gurizes:raca/pedraforte/maos_de_mineiro",
+    "gurizes:raca/pedraforte/pele_de_pedra",
+    "gurizes:raca/pedraforte/firmeza",
+    "gurizes:raca/pedraforte/passos_pesados"
+  ]
+}

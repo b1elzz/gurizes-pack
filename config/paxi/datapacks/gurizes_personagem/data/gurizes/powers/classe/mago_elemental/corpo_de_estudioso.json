@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Corpo de Estudioso",
+  "description": "Restrição: −25% de dano corpo a corpo e −1 coração.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.25
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:corpo_a_corpo"
+  }
+}

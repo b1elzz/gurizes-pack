@@ -1,0 +1,19 @@
+{
+  "name": "Monge",
+  "description": "Não precisei de armadura. Precisei não estar lá quando o golpe chegou. Papel: tanque evasivo e dano rápido. Armas: bastões de combate. Escolas: Sagrada e Raio. Combina com: Bardo e Druida. Dificuldade: ★★★",
+  "icon": {
+    "item": "minecraft:stick"
+  },
+  "impact": 3,
+  "order": 9,
+  "powers": [
+    "gurizes:classe/monge/registro",
+    "gurizes:classe/monge/corpo_disciplinado",
+    "gurizes:classe/monge/postura",
+    "gurizes:classe/monge/palma_do_trovao",
+    "gurizes:classe/monge/contra_ataque",
+    "gurizes:classe/monge/contra_ataque_forca",
+    "gurizes:classe/monge/mil_passos",
+    "gurizes:classe/monge/voto_de_leveza"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "loot_table": "gurizes:chests/tesouro_facil",
+  "max_result_itemcount": 6,
+  "integrated_loot_tables": {
+    "minecraft:chests/village/village_weaponsmith": 1,
+    "minecraft:chests/village/village_toolsmith": 1,
+    "minecraft:chests/village/village_armorer": 1,
+    "minecraft:chests/shipwreck_supply": 1,
+    "minecraft:chests/ruined_portal": 1,
+    "minecraft:chests/igloo_chest": 1,
+    "minecraft:chests/underwater_ruin_small": 1
+  }
+}

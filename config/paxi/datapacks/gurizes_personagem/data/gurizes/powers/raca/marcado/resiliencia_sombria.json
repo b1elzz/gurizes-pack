@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_status_effect_duration",
+  "name": "Resiliência Sombria",
+  "description": "Murchar dura metade do tempo.",
+  "status_effect": "minecraft:wither",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.5
+  }
+}

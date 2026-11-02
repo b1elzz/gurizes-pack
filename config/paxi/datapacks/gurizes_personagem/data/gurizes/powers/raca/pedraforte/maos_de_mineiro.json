@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Mãos de Mineiro",
+  "description": "+15% de velocidade de mineração.",
+  "modifiers": [
+    {
+      "attribute": "attributeslib:mining_speed",
+      "operation": "addition",
+      "value": 0.15,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

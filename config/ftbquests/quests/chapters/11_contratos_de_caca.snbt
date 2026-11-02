@@ -1,0 +1,1472 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "11_contratos_de_caca"
+	group: "4B7C29A84FC2FC08"
+	icon: "minecraft:crossbow"
+	id: "7A0F0A4EC3B48359"
+	order_index: 10
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r o Sino Assombrado do Meet Your Fight chama o Bellringer (receita no JEI)."
+				"&6Nível recomendado:&r 12"
+				"&eDica:&r ele golpeia em arcos largos e lentos: esquive para o lado e bata logo depois do golpe."
+			]
+			hide_until_deps_complete: true
+			icon: "meetyourfight:haunted_bell"
+			id: "59E250CF4063B689"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "736C984B142D2E6E"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "0664FD88B186DAD4"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "716F65FCE671BD45"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Opcional · Ato I"
+			tasks: [
+				{
+					entity: "meetyourfight:bellringer"
+					id: "20149DC7B99832A4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bellringer"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r a Isca de Fóssil do Meet Your Fight, usada num pântano, chama o Swampjaw (receita no JEI)."
+				"&6Nível recomendado:&r 12"
+				"&eDica:&r não brigue dentro d'água, onde ele é mais rápido: fique em terra firme e bata quando ele investe."
+			]
+			hide_until_deps_complete: true
+			icon: "meetyourfight:fossil_bait"
+			id: "14143A46980161B8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7496C1472E8292D7"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "69A493F25275A1A6"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "085E2D02F8980B6B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Opcional · Ato I"
+			tasks: [
+				{
+					entity: "meetyourfight:swampjaw"
+					id: "2810B34D9515DF8B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Swampjaw"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r à noite, no Overworld, o Líder anda no meio de uma matilha de cães sombrios."
+				"&6Nível recomendado:&r 10"
+				"&eDica:&r encoste as costas numa parede para a matilha não te cercar e derrube o Líder primeiro."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:bone"
+			id: "084540A48202EE48"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "49A221723B94D2C1"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "53A28428B16C5A7D"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "4D8FD588A2437060"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Opcional · Ato I"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:dire_hound_leader"
+					id: "380745040BEA8E18"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Líder dos Cães Sombrios"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r qualquer invasão de vila (Mau Presságio e um capitão de saqueadores) traz um Devastador e um Evocador."
+				"&6Nível recomendado:&r 10"
+				"&eDica:&r mate o Evocador primeiro, que invoca presas e vexes; o Devastador demora para virar."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:totem_of_undying"
+			id: "730E7B316FE9FC4D"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2C439D486AAF90C7"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "27301459669BF658"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "5150A58A61294903"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Opcional · Ato I"
+			tasks: [
+				{
+					entity: "minecraft:ravager"
+					id: "3CB35D0B20D1D3AB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:evoker"
+					id: "1B139E7E0D14AF61"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "A Invasão"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r câmara subterrânea de pedra com o Ferrous Wroughtnaut adormecido, no Mowzie's Mobs."
+				"&6Nível recomendado:&r 25"
+				"&eDica:&r espere o machado descer, esquive e bata pelas costas; escudo segura o golpe de cima."
+			]
+			hide_until_deps_complete: true
+			icon: "mowziesmobs:wrought_axe"
+			id: "00E57F0809CE438D"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "567DA1D52D3612F5"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "24FCFC057BD9F297"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "37FBD3AAC7F4B10F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "15F5BAEA6EC124E8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ferrous Wroughtnaut"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r vila Umvuthana, nas savanas; o chefe Umvuthi fica no trono da vila (Mowzie's Mobs)."
+				"&6Nível recomendado:&r 28"
+				"&eDica:&r saia do chão marcado assim que ele acende: é onde cai o raio de sol."
+			]
+			hide_until_deps_complete: true
+			icon: "mowziesmobs:sol_visage"
+			id: "7A7B50A5275676DE"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "487027A29DD1C582"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "2D89AB3D2695A2F7"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "3D8E92DF7E2B068E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "383D0523641E3741"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Umvuthi"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r o Ás do Diabo do Meet Your Fight chama Dame Fortuna (receita no JEI)."
+				"&6Nível recomendado:&r 25"
+				"&eDica:&r o mod recomenda equipamento de diamante; lute em campo aberto e não pare de se mover."
+			]
+			hide_until_deps_complete: true
+			icon: "meetyourfight:devils_ante"
+			id: "73D99BAEB1D57612"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "49A34017F156CD5A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "7C897F7AB43F9D3B"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "4928ED748151F1D1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "meetyourfight:dame_fortuna"
+					id: "75F4FD831D6510E5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dame Fortuna"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r cavernas exuberantes profundas, onde cresce o Void Blossom (Bosses of Mass Destruction)."
+				"&6Nível recomendado:&r 28"
+				"&eDica:&r espinhos brotam do chão sob os seus pés: nunca fique parado e bata nela entre as ondas."
+			]
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "7B2E4C13AE2614DC"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "0998E080A1EB8C3F"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "6F66F9E34486A8A0"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "1A1296F611522DF9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "2F5DD550BE18F98A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Void Blossom"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r Floresta Crepuscular, no pátio da Naga (Twilight Forest); abre com o Ato II."
+				"&6Nível recomendado:&r 15"
+				"&eDica:&r ela investe em linha reta: use pilares para desviar e golpeie quando ela passa."
+			]
+			hide_until_deps_complete: true
+			icon: "twilightforest:naga_trophy"
+			id: "42655AADDC603FC3"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "5CA510C92214FA72"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "1B46744044B9D25A"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "4015F7997AEC3D3C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "10A030DB86A55BC4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Naga"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r Torre do Lich, na Floresta Crepuscular, depois da Naga."
+				"&6Nível recomendado:&r 20"
+				"&eDica:&r rebata as bolas de magia com um golpe para devolver o dano e destrua os clones primeiro."
+			]
+			hide_until_deps_complete: true
+			icon: "twilightforest:lich_trophy"
+			id: "4DD38AEC0845C3B5"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "13F68D07F0157E7C"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "121F58519E6258A3"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "78434CA9F9D7AD49"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					id: "4BDC1A390E7D6C33"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Lich da Torre"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r Labirinto do Minotauro, na Floresta Crepuscular, depois do Lich."
+				"&6Nível recomendado:&r 25"
+				"&eDica:&r esquive do machado e ataque logo depois do golpe de cima; não lute nos corredores estreitos."
+			]
+			hide_until_deps_complete: true
+			icon: "twilightforest:diamond_minotaur_axe"
+			id: "2D740EE4D7A6D3CF"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "462C09249145A3B0"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "4F5403110692C3DB"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "789DC495C8B453F4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "twilightforest:minoshroom"
+					id: "1D086FCD9B14F905"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Minoshroom"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r monumento oceânico, no fundo do mar."
+				"&6Nível recomendado:&r 25"
+				"&eDica:&r o laser dá Fadiga de Mineração: leve leite e Respiração Aquática, e ataque quando ele recarrega."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:prismarine_shard"
+			id: "34A1448C97DB1669"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "2579A541598D855F"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "1FBEEF8587A0DBB1"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "263A0286F1ED89E1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					id: "40F3AAD8FC97634D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Guardião Ancião"
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r mansões e invasões de illagers (Illager Invasion)."
+				"&6Nível recomendado:&r 25"
+				"&eDica:&r ele conjura presas e escudos: derrube-o primeiro e fuja da linha das presas."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:totem_of_undying"
+			id: "5829FEC7A2EB35D1"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "76633336A0E2FA54"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "780A0D334A0145A9"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "41D6A1F8DEC90558"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "illagerinvasion:invoker"
+					id: "3CD6F6A7128C3551"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Invocador"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"&6Onde:&r Overworld, em cavernas e áreas escuras (Born in Chaos)."
+				"&6Nível recomendado:&r 25"
+				"&eDica:&r ele levanta esqueletos sem parar: quebre a linha de visão e ataque o invocador, não a horda."
+			]
+			hide_until_deps_complete: true
+			icon: "born_in_chaos_v1:bonescaller_staff"
+			id: "264657CEF5E99FE6"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "5D768356923C008B"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "4985D340BD77E332"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "0991DADB32D01CC9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato II"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:supreme_bonescaller"
+					id: "332F60FF64103DEA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Supremo Invocador de Ossos"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"&6Onde:&r Cidadela Queimada, no Nether (L_Ender's Cataclysm); o Olho de Chama ajuda a achar o caminho."
+				"&6Nível recomendado:&r 40"
+				"&eDica:&r Resistência ao Fogo ajuda muito; saia da frente quando ele carregar o golpe."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:flame_eye"
+			id: "31C50ECA9458826D"
+			optional: true
+			rewards: [
+				{
+					id: "754E82134B6BAB35"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "2A657AC80C83E34F"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "3913B5BCB0BD8F0D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato III"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "5C764AAC561F4BA9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ignis"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"&6Onde:&r Nether (L_Ender's Cataclysm)."
+				"&6Nível recomendado:&r 40"
+				"&eDica:&r ele é lento mas bate pesado e cospe lava: mantenha distância média e circule."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:monstrous_eye"
+			id: "7048C8425C233F18"
+			optional: true
+			rewards: [
+				{
+					id: "3EA468795EFA372E"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "6AB5F0CE5E2FEAF0"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "5E997916B40295B8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato III"
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "5CD5DA6B683249DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Monstruosidade de Netherita"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"&6Onde:&r arena no Nether (Bosses of Mass Destruction)."
+				"&6Nível recomendado:&r 42"
+				"&eDica:&r ele alterna punhos e raios: fique em movimento e bata quando o escudo cai."
+			]
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "512FED4609B465F8"
+			optional: true
+			rewards: [
+				{
+					id: "4C6459B982B3CCFD"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "53E603DAEE8A6B3B"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "05336A4F13E05BB1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato III"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "06769AD9D8DF034C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Gauntlet"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"&6Onde:&r invocação vanilla: quatro areias de almas e três caveiras de Wither, no Nether."
+				"&6Nível recomendado:&r 45"
+				"&eDica:&r lute num túnel de dois blocos de altura para ele não te cercar, e leve arco."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:nether_star"
+			id: "028E09719DBB01A3"
+			optional: true
+			rewards: [
+				{
+					id: "3AFFCC2F6AF80958"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "447F6DA0FBBC1A67"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "1323E51E90C436C3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato III"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "3E7C4BD1EB421DCE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Wither"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"&6Onde:&r Masmorra de Bronze, no Aether."
+				"&6Nível recomendado:&r 35 (só dano)"
+				"&eDica:&r ele investe em linha reta: saia da frente e bata com picareta quando ele para."
+			]
+			hide_until_deps_complete: true
+			icon: "aether:golden_feather"
+			id: "478DE87BE6EF5FC1"
+			optional: true
+			rewards: [
+				{
+					id: "771B8C10F0BD8D57"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "434B373F92B4A5CA"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "11DA1B7DA23D5BD5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato III"
+			tasks: [
+				{
+					entity: "aether:slider"
+					id: "526F9401E12CC172"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Slider"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"&6Onde:&r Masmorra de Prata, no Aether."
+				"&6Nível recomendado:&r 40 (só dano)"
+				"&eDica:&r ela fica vulnerável depois de cada rodada de golpes: leve poções de cura e bata nessa janela."
+			]
+			hide_until_deps_complete: true
+			icon: "aether:valkyrie_lance"
+			id: "5B74C42DA1F48CDD"
+			optional: true
+			rewards: [
+				{
+					id: "42BAB152449093DD"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "4875264D1DE6121D"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "2FC6A7857EA2F506"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato III"
+			tasks: [
+				{
+					entity: "aether:valkyrie_queen"
+					id: "020D6045C768598B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Rainha Valquíria"
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"&6Onde:&r Cidadela Queimada, no Nether; mini-boss do Cataclysm."
+				"&6Nível recomendado:&r 35"
+				"&eDica:&r Resistência ao Fogo; aproveite a pausa em que ele recarrega para golpear."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "5A43B59744DE8BF7"
+			optional: true
+			rewards: [
+				{
+					id: "22764A2931C9D434"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "5361FE215B6B89BE"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "1941B9C9221D2530"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&7Opcional · Ato III"
+			tasks: [
+				{
+					entity: "cataclysm:ignited_revenant"
+					id: "405A9638768A00DC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Revenant Incandescente"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r pirâmide do deserto (L_Ender's Cataclysm); o Olho do Deserto ajuda a achar."
+				"&6Nível recomendado:&r 55"
+				"&eDica:&r ele desperta quando você chega ao centro: deixe espaço livre e esquive das investidas e das areias."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:desert_eye"
+			id: "6CE960679228F33C"
+			optional: true
+			rewards: [
+				{
+					id: "450328480F42F796"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "2A8AE3F3A80DBC27"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "613F20399CCA6357"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "373125E7358E9815"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Remanescente Ancestral"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r fábrica antiga (L_Ender's Cataclysm); o Olho Mecânico ajuda a achar."
+				"&6Nível recomendado:&r 58"
+				"&eDica:&r use cobertura contra lasers e mísseis e ataque quando ele pousa."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:mech_eye"
+			id: "5F09FDCA169D11FE"
+			optional: true
+			rewards: [
+				{
+					id: "1808B75C8C07B8A2"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "03918E09463728DB"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "1213BC72E605EABF"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "11384FF24FE6FB5A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "O Arauto"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r Prisão Congelada (L_Ender's Cataclysm); o Olho da Maldição ajuda a achar."
+				"&6Nível recomendado:&r 60"
+				"&eDica:&r não deixe os espectros te cercarem: derrube-os e bata quando o Maledictus termina o golpe."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:cursed_eye"
+			id: "5636DD3CEDECC85D"
+			optional: true
+			rewards: [
+				{
+					id: "653DBC0441D3D9A1"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "6A61520D092EE8CB"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "6ECCF4AC97CAC123"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "3FD2D8709247A362"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Maledictus"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r Cidade Antiga, no fundo das cavernas."
+				"&6Nível recomendado:&r 55"
+				"&eDica:&r ele é cego e sente vibrações: agache, lance um item para distraí-lo e não corra."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:echo_shard"
+			id: "414BDE2D9FD40328"
+			optional: true
+			rewards: [
+				{
+					id: "576F5A459A80CEF7"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "20C8172C739CA376"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "388200E7FA4ABF87"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "5DF1895798FD1EED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Warden"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r torre na neve (Bosses of Mass Destruction)."
+				"&6Nível recomendado:&r 55"
+				"&eDica:&r derrube os lacaios que ele invoca e bata quando ele para para conjurar."
+			]
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "4428895C7B3B3089"
+			optional: true
+			rewards: [
+				{
+					id: "69C8E2B3D55A7DD7"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "43CDA57F80EA7353"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "66969C1613F2FC7F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "568FA322345D194D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Lich da Neve"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r Labirinto de Gelo (Aquamirae)."
+				"&6Nível recomendado:&r 45"
+				"&eDica:&r ela chama filhotes: elimine-os primeiro para não ser cercado."
+			]
+			hide_until_deps_complete: true
+			icon: "aquamirae:maze_rose"
+			id: "0C554DCD7E86D7FA"
+			optional: true
+			rewards: [
+				{
+					id: "4569BBC935FF230B"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "22F636AC1012C7CC"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "094BB0304A10BBC4"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "aquamirae:maze_mother"
+					id: "096818590636B6D9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Mãe do Labirinto"
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r Torre Escura, na Floresta Crepuscular (Twilight Forest)."
+				"&6Nível recomendado:&r 45"
+				"&eDica:&r Resistência ao Fogo; destrua os cristais da torre antes de atacar o Ur-Ghast."
+			]
+			hide_until_deps_complete: true
+			icon: "twilightforest:fiery_tears"
+			id: "6487310F8D257B92"
+			optional: true
+			rewards: [
+				{
+					id: "1996B229F260BFF2"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "1FC0CD89B72F7F77"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "60DE042B7D7291CD"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "twilightforest:ur_ghast"
+					id: "441AF278D74D8746"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ur-Ghast"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r Palácio da Aurora, na Floresta Crepuscular (Twilight Forest)."
+				"&6Nível recomendado:&r 50"
+				"&eDica:&r ela congela o chão e atira gelo: quebre os cristais dela e leve fogo."
+			]
+			hide_until_deps_complete: true
+			icon: "twilightforest:ice_bow"
+			id: "15E01CC2A10DC091"
+			optional: true
+			rewards: [
+				{
+					id: "7CD80B3943D1A04A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "727000BBF4E29C94"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "06719322D1164D2A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "twilightforest:snow_queen"
+					id: "0A0B08B8F2B2CC5A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Rainha da Neve"
+			x: 17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"&6Onde:&r covil do Yeti Alfa, no bioma de gelo da Floresta Crepuscular."
+				"&6Nível recomendado:&r 40"
+				"&eDica:&r ele pula e derruba: mantenha distância média e use arco antes de entrar no corpo a corpo."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:snowball"
+			id: "6B56122F0C0D08FC"
+			optional: true
+			rewards: [
+				{
+					id: "1B7C4BCC0B04BA73"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "084150A2AFF78710"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "301299642655E4BC"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "&7Opcional · Ato IV"
+			tasks: [
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "14935A543832572A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Yeti Alfa"
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"&6Onde:&r Ruínas do Vazio, no End (L_Ender's Cataclysm); o Olho do Vazio ajuda a achar."
+				"&6Nível recomendado:&r 70"
+				"&eDica:&r não pare de se mover: os ataques dele são em área e acompanham seu passo."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:void_eye"
+			id: "42957D56FCE14B8B"
+			optional: true
+			rewards: [
+				{
+					id: "3DDE6B94B93CE555"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "0431D0875A2B0B1A"
+					item: "gurizes:espolio_ato_5"
+					type: "item"
+				}
+				{
+					id: "5EBD76BA06E611A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&7Opcional · Ato V"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "71901C28D2DF8CD1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Guardião do Ender"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"&6Onde:&r o End, na primeira visita; marco opcional do Ato V que não faz parte da Trilha."
+				"&6Nível recomendado:&r 60"
+				"&eDica:&r destrua os cristais primeiro com arco e bata no dragão quando ele pousa no portal."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:dragon_head"
+			id: "483947780C287BD8"
+			optional: true
+			rewards: [
+				{
+					id: "526CAEDAE96BA6A3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "690F59FE0F819990"
+					item: "gurizes:espolio_ato_5"
+					type: "item"
+				}
+				{
+					id: "54ED5AAFD86B0DE4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&7Opcional · Ato V"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "388EEECA3E835991"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dragão do Ender"
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: [
+				"&6Onde:&r ninhos e cavernas nas terras distantes (5000 blocos do spawn ou mais), depois do Ato V."
+				"&6Nível recomendado:&r 75 a 85"
+				"&eDica:&r Resistência ao Fogo e água por perto; bata quando ele pousa, com armas de gelo ou de osso de dragão."
+			]
+			hide_until_deps_complete: true
+			icon: "iceandfire:dragon_skull_fire"
+			id: "08752693015F4637"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "031A593F770CF3D2"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "43427C2990B80915"
+					item: "gurizes:espolio_ato_6"
+					type: "item"
+				}
+				{
+					id: "4D61F62805CB8ED3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&7Opcional · Ato VI"
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "0AA131C40352A94B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dragão de Fogo"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: [
+				"&6Onde:&r ninhos e cavernas nas terras distantes (5000 blocos do spawn ou mais), depois do Ato V."
+				"&6Nível recomendado:&r 75 a 85"
+				"&eDica:&r o sopro congela e prende: leve Resistência ao Fogo e armas de fogo, e não fique parado."
+			]
+			hide_until_deps_complete: true
+			icon: "iceandfire:dragon_skull_ice"
+			id: "4CE23A59F4FC3B11"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "38129D4F124F6DFA"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "3E7AD131BE658FD1"
+					item: "gurizes:espolio_ato_6"
+					type: "item"
+				}
+				{
+					id: "2F85733B04DEF136"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&7Opcional · Ato VI"
+			tasks: [
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "792C0525EB1EE8A1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dragão de Gelo"
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: [
+				"&6Onde:&r ninhos e cavernas nas terras distantes (5000 blocos do spawn ou mais), depois do Ato V."
+				"&6Nível recomendado:&r 75 a 85"
+				"&eDica:&r o raio cai em linha: mova-se de lado e bata quando ele pousa."
+			]
+			hide_until_deps_complete: true
+			icon: "iceandfire:dragon_skull_lightning"
+			id: "3CBB862AABE917F5"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "19DFF43884105DD9"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "04DA7C3D2B5E54AF"
+					item: "gurizes:espolio_ato_6"
+					type: "item"
+				}
+				{
+					id: "7989A153571B604B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&7Opcional · Ato VI"
+			tasks: [
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "6DABB47C7022432C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dragão de Raio"
+			x: 5.0d
+			y: 15.0d
+		}
+	]
+	title: "Contratos de Caça"
+}

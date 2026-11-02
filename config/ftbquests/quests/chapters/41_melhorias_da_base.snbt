@@ -1,0 +1,292 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "41_melhorias_da_base"
+	group: "2AB7CEEE2B2349D1"
+	icon: "gurizes:estandarte_do_juramento"
+	id: "3D3F537F1CB51F7E"
+	order_index: 23
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72E8F8F942E79625"]
+			description: [
+				"O Estandarte marca o Pouso. A cada ato a base ganha uma melhoria nova."
+				"Melhorias são do time: uma pessoa paga, o grupo inteiro recebe."
+			]
+			icon: "gurizes:estandarte_do_juramento"
+			id: "66D7C9E1EC0465BC"
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1DBD73B97374BDC3"
+					type: "checkmark"
+				}
+			]
+			title: "O Pouso do Juramento"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
+			description: [
+				"Recompensa do Ato I: um atril com as builds oficiais de cada classe."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:lectern"
+			id: "791E56DEB55ADF41"
+			rewards: [
+				{
+					id: "7B2CC92F5FAC9B64"
+					item: "minecraft:lectern"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1AE113A944B7BDBC"
+					type: "checkmark"
+				}
+			]
+			title: "Mesa de Builds"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
+			description: ["Uma pedra de viagem no Pouso para voltar de qualquer lugar."]
+			hide_until_deps_complete: true
+			icon: "waystones:waystone"
+			id: "1DE5830818F10D23"
+			rewards: [
+				{
+					id: "10587323602CB200"
+					item: "waystones:waystone"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "27A072DB0037E3DD"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Pedra de Viagem do Pouso"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
+			description: [
+				"Bancada de reforja, de desmonte e de lapidação para o grupo."
+			]
+			hide_until_deps_complete: true
+			icon: "apotheosis:reforging_table"
+			id: "09294FB63909E3C5"
+			rewards: [
+				{
+					id: "2646CA59077A9B45"
+					item: "apotheosis:reforging_table"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4F88ECF85CA42D7C"
+					item: "apotheosis:salvaging_table"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6CAAADF8E8776DB8"
+					item: "apotheosis:gem_cutting_table"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "081393FE4D1FA852"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Forja do Grupo"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
+			description: ["Um salão para expor as Marcas dos Deuses Errantes."]
+			hide_until_deps_complete: true
+			icon: "minecraft:item_frame"
+			id: "42293B4D1AA375DF"
+			rewards: [
+				{
+					count: 12
+					id: "7BE71F85950FE504"
+					item: "minecraft:item_frame"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "5B683ED0F3BD1C8A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Salão dos Deuses"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
+			description: [
+				"A arena de PvP do grupo. Lá dentro ninguém morre de verdade: quem perde só sai da arena."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:pedra_coliseu"
+			id: "0924316264A2A2A8"
+			rewards: [
+				{
+					id: "054338E6752E0E16"
+					item: "gurizes:pedra_coliseu"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "02D52C2DFA098308"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Coliseu dos Gurizes"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "299A96D053605996"]
+			description: ["Recompensa do Ato II: um mercador se muda para o Pouso."]
+			hide_until_deps_complete: true
+			icon: "minecraft:emerald"
+			id: "3FACEF24857272EF"
+			rewards: [
+				{
+					count: 8
+					id: "5009DEB50277C421"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6C6940204F423F98"
+					type: "checkmark"
+				}
+			]
+			title: "Mercador Residente"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "1F82201E3EE0EE78"]
+			description: [
+				"Recompensa do Ato III: o Clã Martelo-Brasa monta uma forja no Pouso e ensina a netherite."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:smithing_table"
+			id: "04A9BD5F040DD34F"
+			rewards: [
+				{
+					id: "3D6ECDD99C92806A"
+					item: "minecraft:smithing_table"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "62083B2E30619441"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7875E0104C49B211"
+					type: "checkmark"
+				}
+			]
+			title: "Forja Anã"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "0E3ABA8733D7AC8E"]
+			description: ["A Companhia da Maré deixa barcos e um ancoradouro no Pouso."]
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_boat"
+			id: "4F8624BE5C527A34"
+			rewards: [
+				{
+					count: 2
+					id: "7E27B0C821E166F9"
+					item: "minecraft:oak_boat"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E8F9E72FDC47C4D"
+					type: "checkmark"
+				}
+			]
+			title: "Doca"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D7C9E1EC0465BC", "1E489942504DD2AF"]
+			description: [
+				"Recompensa do Ato IV: a Arquivista Lune monta o Observatório. Os Deuses Errantes ficam catalogados lá."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:spyglass"
+			id: "5253D69C5D9C7FCE"
+			rewards: [
+				{
+					count: 4
+					id: "6FA0292801BA2301"
+					item: "minecraft:spyglass"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "02D8267DB3196172"
+					type: "checkmark"
+				}
+			]
+			title: "Observatório"
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "Melhorias da Base"
+}

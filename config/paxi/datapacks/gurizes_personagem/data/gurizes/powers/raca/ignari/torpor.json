@@ -1,0 +1,22 @@
+{
+  "type": "origins:conditioned_attribute",
+  "hidden": true,
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:temperature",
+      "comparison": "<",
+      "compare_to": 0.2
+    }
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.1,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

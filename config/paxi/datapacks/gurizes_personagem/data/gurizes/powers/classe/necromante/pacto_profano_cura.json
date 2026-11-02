@@ -1,0 +1,8 @@
+{
+  "type": "origins:modify_healing",
+  "hidden": true,
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.1
+  }
+}

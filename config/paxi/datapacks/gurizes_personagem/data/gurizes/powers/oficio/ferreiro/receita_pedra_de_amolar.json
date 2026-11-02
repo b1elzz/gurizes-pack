@@ -1,0 +1,26 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "gurizes:oficio/ferreiro/pedra_de_amolar",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:flint"
+      },
+      {
+        "item": "minecraft:flint"
+      },
+      {
+        "item": "minecraft:smooth_stone"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "gurizes:pedra_de_amolar",
+      "count": 2
+    }
+  }
+}

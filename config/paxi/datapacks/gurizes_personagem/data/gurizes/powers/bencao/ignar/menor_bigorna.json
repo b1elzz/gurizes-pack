@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Bigorna de Ignar (Menor)",
+  "description": "+2 de armadura.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

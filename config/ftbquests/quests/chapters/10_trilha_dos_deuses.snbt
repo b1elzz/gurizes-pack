@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10_trilha_dos_deuses"
+	group: "4B7C29A84FC2FC08"
+	icon: "gurizes:insignia_dos_deuses"
+	id: "45FC3294A13B273A"
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Pelas rachaduras do Selo passaram os &5Deuses Errantes&r, os seres mais fortes de outros reinos."
+				"A Arquivista Lune cataloga cada um e paga quem os vencer. A Trilha nunca trava a campanha:"
+				"cada deus abre depois de um ato. Vencer antes da hora não conta."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:spyglass"
+			id: "428767F33F1E8530"
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "05040053BAF6F06B"
+					type: "checkmark"
+				}
+			]
+			title: "Os Observadores de Kaelum"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r use a Chave do Crepúsculo do Meet Your Fight (receita no JEI); o item fica selado até o Ato II."
+				"&aFraquezas:&r janelas logo depois das investidas; corpo a corpo quando ela para."
+				"&cPontos fortes:&r rajadas de pétalas cortantes e espíritos de rosa; muito rápida."
+				""
+				"&7Abre após o porteiro do Ato I. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "meetyourfight:violet_bloom"
+			id: "5E8F37C507D8FA62"
+			rewards: [
+				{
+					id: "5A8FEA3D82C98893"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "13F40A227F4C31F9"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "140D31D2C20CC5EA"
+					table_id: 1903908646459056992L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 1 &7(Nível 20)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/rosalyne"
+					criterion: ""
+					id: "3CE4D1BCFB094C62"
+					type: "advancement"
+				}
+			]
+			title: "Rosalyne"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r Covil da Hidra no Pântano de Fogo da Floresta Crepuscular, depois de Naga, Lich e Minoshroom."
+				"&aFraquezas:&r acerte as cabeças quando elas descem para morder; leve Resistência ao Fogo."
+				"&cPontos fortes:&r morteiros de fogo, chão em chamas, três cabeças com alcance longo."
+				""
+				"&7Abre após o porteiro do Ato I. Escala de grupo: só dano."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "twilightforest:hydra_trophy"
+			id: "17636F822C3F051C"
+			rewards: [
+				{
+					id: "6E00D3AD2F8C026A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "67D0D8437F65E805"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F9AA6401484F26E"
+					table_id: 5403659863740635409L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 2 &7(Nível 30)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/hidra"
+					criterion: ""
+					id: "494C84E735405469"
+					type: "advancement"
+				}
+			]
+			title: "Hidra"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299A96D053605996", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r navio fantasma no Labirinto de Gelo (Aquamirae); a Corneta de Concha, usada perto da água, chama a capitã (selada até o Ato III)."
+				"&aFraquezas:&r golpes pelos lados enquanto ela gira devagar; mantenha distância da âncora."
+				"&cPontos fortes:&r golpes de longo alcance, chama a tripulação, resiste ao frio do mapa."
+				""
+				"&7Abre após o porteiro do Ato II. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "aquamirae:shell_horn"
+			id: "40CBB3F4EECDF668"
+			rewards: [
+				{
+					id: "39F0EE21B120A0F8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "4881023F70D29B03"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "419A469C0F76E978"
+					table_id: 2105279838768601963L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 3 &7(Nível 35)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/cornelia"
+					criterion: ""
+					id: "40C294AC9C5831BA"
+					type: "advancement"
+				}
+			]
+			title: "Capitã Cornelia"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299A96D053605996", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r dorme em biomas gelados; acorda quando atacado ou quando alguém chega perto."
+				"&aFraquezas:&r fogo; puna depois do salto e do rugido."
+				"&cPontos fortes:&r sopro que congela, socos em área, salto que derruba; muita vida."
+				""
+				"&7Abre após o porteiro do Ato II. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "mowziesmobs:ice_crystal"
+			id: "1B7FDE7DE18DFA51"
+			rewards: [
+				{
+					id: "795762BDC3E1137B"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "673BAAD035E7B9DF"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53AF024A2502D137"
+					table_id: 6308855919466003253L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 4 &7(Nível 40)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/frostmaw"
+					criterion: ""
+					id: "0954A911A8EAC336"
+					type: "advancement"
+				}
+			]
+			title: "Frostmaw"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299A96D053605996", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r Masmorra de Ouro do Aether, depois do Slider e da Rainha Valquíria."
+				"&aFraquezas:&r só toma dano dos próprios cristais de gelo devolvidos com um golpe."
+				"&cPontos fortes:&r imune a golpes diretos; bolas de fogo e chão em chamas; a arena queima."
+				""
+				"&7Abre após o porteiro do Ato II. Escala de grupo: só dano."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "aether:sun_altar"
+			id: "576BFD8A98900BEE"
+			rewards: [
+				{
+					id: "4AE7FB1D177ADF57"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "0BD60978DB61F01E"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15DD1EB0F79D047D"
+					table_id: 3336432710494786324L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 5 &7(Nível 45)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/espirito_do_sol"
+					criterion: ""
+					id: "62AB1C6992C7E652"
+					type: "advancement"
+				}
+			]
+			title: "Espírito do Sol"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r use a Lanterna do Lorde Cabeça-de-Abóbora, do Born in Chaos (receita no JEI); o item fica selado até o Ato IV."
+				"&aFraquezas:&r derrube o Lorde do corcel; foco nele, não nas abóboras."
+				"&cPontos fortes:&r cavalga rápido, joga bombas de abóbora e invoca servos."
+				""
+				"&7Abre após o porteiro do Ato III. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+			id: "23A325A34CCE2743"
+			rewards: [
+				{
+					id: "2E4813AF0AD24B50"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "5D8CA919F8BABF63"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66BF3FFFE3353501"
+					table_id: 1770323754478620677L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 6 &7(Nível 50)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/lorde_abobora"
+					criterion: ""
+					id: "0130CE68EDAD3065"
+					type: "advancement"
+				}
+			]
+			title: "Lorde Cabeça-de-Abóbora"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r catacumbas do Iron's Spells: desperte o corpo do rei no trono."
+				"&aFraquezas:&r sagrado e Julgamento (smite); interrompa quando ele conjura."
+				"&cPontos fortes:&r magia de sangue, foice com alcance, invoca mortos e drena vida."
+				""
+				"&7Abre após o porteiro do Ato III. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:blood_staff"
+			id: "7A2B6456EC77AD93"
+			rewards: [
+				{
+					id: "14B1BF4133566E1E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "725F84ECF7B1471D"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "771D38D3D409EB83"
+					table_id: 5882257223997979700L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 7 &7(Nível 55)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/rei_morto"
+					criterion: ""
+					id: "664DF2F7ED0FC873"
+					type: "advancement"
+				}
+			]
+			title: "Rei Morto"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E489942504DD2AF", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r arremesse Chemical X num enderman (selado até o Ato V; também nasce raro à noite)."
+				"&aFraquezas:&r água; não olhe nos olhos; capacete de abóbora ajuda."
+				"&cPontos fortes:&r teleporte, arremessa blocos, cria clones e escurece a visão."
+				""
+				"&7Abre após o porteiro do Ato IV. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:splash_potion"
+			id: "23023661FFF2DDD5"
+			rewards: [
+				{
+					id: "5F1768EDB50CEC1C"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07E43A2D60C33761"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5697C83DAB0A65F0"
+					table_id: 297492879351097247L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 8 &7(Nível 60)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/enderman_mutante"
+					criterion: ""
+					id: "68005206692BE853"
+					type: "advancement"
+				}
+			]
+			title: "Enderman Mutante"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E489942504DD2AF", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r arena do Obsidilith no End: ritual com olhos do ender no altar."
+				"&aFraquezas:&r bata entre as ondas de ataque, nunca durante o escudo."
+				"&cPontos fortes:&r pilares que sobem do chão, picos em linha, teleporte e escudo que reflete."
+				""
+				"&7Abre após o porteiro do Ato IV. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "19190F344DF1ECD3"
+			rewards: [
+				{
+					id: "10017B8DD8393667"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77F566C67856BE0E"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45DCBCE24411C1E5"
+					table_id: 6502518530718713788L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 9 &7(Nível 65)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/obsidilith"
+					criterion: ""
+					id: "1B18FB0D6DB4C060"
+					type: "advancement"
+				}
+			]
+			title: "Obsidilith"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E64F5B91C5F61D4", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r Cidade Afundada (ache com o Olho do Abismo); Sacrifício Abissal no altar (selado até o Ato VI)."
+				"&aFraquezas:&r fique fora da linha do laser e bata quando ele morde e trava."
+				"&cPontos fortes:&r luta debaixo d'água: leve Respiração Aquática. Laser abissal, puxões e mordidas fortes."
+				""
+				"&7Abre após o porteiro do Ato V. Escala de grupo: padrão."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "22A64A88B5C24FEE"
+			rewards: [
+				{
+					id: "545B26BD46BC9AE8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1651E12497C7FFFA"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4443B458886B1031"
+					table_id: 7080317933443759243L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 10 &7(Nível 90)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/leviata"
+					criterion: ""
+					id: "0C6E34EB8B6652EA"
+					type: "advancement"
+				}
+			]
+			title: "O Leviatã"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E64F5B91C5F61D4", "428767F33F1E8530"]
+			description: [
+				"&6Como invocar:&r ninhos e cavernas nas terras distantes (a 5000 blocos ou mais); vale dragão de fogo, gelo ou raio adulto."
+				"&aFraquezas:&r elemento oposto (gelo contra fogo, fogo contra gelo); flechas e armas de osso de dragão."
+				"&cPontos fortes:&r sopro elemental, voo, vida enorme; os ninhos têm guardas."
+				""
+				"&7Abre após o porteiro do Ato V. Escala de grupo: só dano."
+				"&7A Marca do Deus Errante cai na vitória; esta quest paga a recompensa dos Observadores."
+			]
+			hide_until_deps_complete: true
+			icon: "iceandfire:dragon_skull_fire"
+			id: "1B7E2D8FC888FCF1"
+			rewards: [
+				{
+					id: "4712F4D63BD657AC"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7E3D9F483696A35C"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42D35CC0034CE953"
+					table_id: 7267981734930252734L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Deus Errante 11 &7(Nível 80)"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/dragao_anciao"
+					criterion: ""
+					id: "67E4F57FA4AD30BE"
+					type: "advancement"
+				}
+			]
+			title: "Dragão Ancião"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5E8F37C507D8FA62"
+				"17636F822C3F051C"
+				"40CBB3F4EECDF668"
+				"1B7FDE7DE18DFA51"
+				"576BFD8A98900BEE"
+				"23A325A34CCE2743"
+				"7A2B6456EC77AD93"
+				"23023661FFF2DDD5"
+				"19190F344DF1ECD3"
+				"22A64A88B5C24FEE"
+				"1B7E2D8FC888FCF1"
+			]
+			description: [
+				"Quatro Deuses Errantes caíram. Os Observadores forjam a sua Insígnia."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:insignia_dos_deuses"
+			id: "384BB0B089C96A09"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					id: "448BFF82F9342FB2"
+					item: "gurizes:insignia_dos_deuses"
+					type: "item"
+				}
+				{
+					id: "423A877858094BE5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "&64 Marcas"
+			tasks: [
+				{
+					id: "037336310498E84E"
+					type: "checkmark"
+				}
+			]
+			title: "Insígnia dos Deuses I"
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5E8F37C507D8FA62"
+				"17636F822C3F051C"
+				"40CBB3F4EECDF668"
+				"1B7FDE7DE18DFA51"
+				"576BFD8A98900BEE"
+				"23A325A34CCE2743"
+				"7A2B6456EC77AD93"
+				"23023661FFF2DDD5"
+				"19190F344DF1ECD3"
+				"22A64A88B5C24FEE"
+				"1B7E2D8FC888FCF1"
+			]
+			description: [
+				"Oito Marcas. Leve a Insígnia e quatro Marcas à mesa de ferraria: as Marcas"
+				"servem de molde e não são gastas."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:insignia_dos_deuses"
+			id: "02CAC386E278F64C"
+			min_required_dependencies: 8
+			rewards: [
+				{
+					id: "2FD44518E45BEB3D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "&68 Marcas"
+			tasks: [
+				{
+					id: "5BA0207DAC4F7FDD"
+					type: "checkmark"
+				}
+			]
+			title: "Insígnia dos Deuses II"
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5E8F37C507D8FA62"
+				"17636F822C3F051C"
+				"40CBB3F4EECDF668"
+				"1B7FDE7DE18DFA51"
+				"576BFD8A98900BEE"
+				"23A325A34CCE2743"
+				"7A2B6456EC77AD93"
+				"23023661FFF2DDD5"
+				"19190F344DF1ECD3"
+				"22A64A88B5C24FEE"
+				"1B7E2D8FC888FCF1"
+				"6E03BEB78B3040B9"
+			]
+			description: [
+				"Todos os Deuses Errantes da lista vencidos e o Selo refeito."
+				"O panteão reconhece o grupo e o Desafio dos Sete se abre."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:insignia_dos_deuses"
+			id: "6EF3766A506C655B"
+			rewards: [
+				{
+					id: "5499A8D51E09AFCA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "diamond"
+			subtitle: "&6Todas as Marcas"
+			tasks: [
+				{
+					id: "1FBA5BF82548A624"
+					type: "checkmark"
+				}
+			]
+			title: "Insígnia dos Deuses III"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EF3766A506C655B"]
+			description: [
+				"&6Como invocar:&r Mesa do Selo com o Selo Refeito e todas as Marcas."
+				"&6Como vencer:&r é Morvhal Ascendido: vida da campanha ×1,5, todas as mecânicas de NG+ e uma fase"
+				"final em que a arena inteira é o boss por 60 s. Sobrevivam a três Juízos dos Sete seguidos."
+				"&aFraquezas:&r as mesmas de Morvhal. &cPontos fortes:&r tudo o que Morvhal tem, mais forte."
+				""
+				"Vencer abre o primeiro ciclo de NG+ sem repetir a campanha."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:manto_dos_sete"
+			id: "32C6152FDC932D90"
+			rewards: [
+				{
+					id: "5AEF9756F527C3E9"
+					item: "gurizes:manto_dos_sete"
+					type: "item"
+				}
+				{
+					id: "4F1EA12BB288CFB0"
+					stage: "ng_1"
+					type: "astages_ftbquests:server"
+				}
+				{
+					id: "4DA8C20029CBE880"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Fecho da Trilha"
+			tasks: [
+				{
+					advancement: "gurizes:trilha/desafio_dos_sete"
+					criterion: ""
+					id: "5867914A39263CF2"
+					type: "advancement"
+				}
+			]
+			title: "Desafio dos Sete"
+			x: 0.5d
+			y: 7.0d
+		}
+	]
+	title: "Trilha dos Deuses"
+}

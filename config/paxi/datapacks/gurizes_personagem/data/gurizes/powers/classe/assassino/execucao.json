@@ -1,0 +1,18 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Execução (II)",
+  "description": "Após o porteiro do Ato II: +20% de dano em alvos abaixo de 30% de vida.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.2
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido"
+  },
+  "target_condition": {
+    "type": "origins:relative_health",
+    "comparison": "<=",
+    "compare_to": 0.3
+  }
+}

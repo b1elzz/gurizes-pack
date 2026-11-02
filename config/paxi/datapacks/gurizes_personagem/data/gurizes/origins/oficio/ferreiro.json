@@ -1,0 +1,18 @@
+{
+  "name": "Ferreiro",
+  "description": "Mantém o aço do grupo afiado e inteiro. Receitas exclusivas de reparo e afiação, que qualquer jogador pode usar.",
+  "icon": {
+    "item": "minecraft:anvil"
+  },
+  "impact": 0,
+  "order": 1,
+  "powers": [
+    "gurizes:oficio/ferreiro/registro",
+    "gurizes:oficio/ferreiro/manutencao",
+    "gurizes:oficio/ferreiro/receita_kit_de_reparo",
+    "gurizes:oficio/ferreiro/receita_pedra_de_amolar",
+    "gurizes:oficio/ferreiro/receita_oleo_de_tempera",
+    "gurizes:oficio/ferreiro/receita_kit_superior",
+    "gurizes:oficio/ferreiro/receitas"
+  ]
+}

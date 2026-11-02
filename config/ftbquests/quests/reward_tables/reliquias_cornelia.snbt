@@ -1,0 +1,18 @@
+{
+	icon: "aquamirae:shell_horn"
+	id: "1D3774DBEE981B6B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: "aquamirae:terrible_sword"
+		}
+		{
+			item: "aquamirae:fin_cutter"
+		}
+		{
+			item: "aquamirae:remnants_saber"
+		}
+	]
+	title: "Relíquias Errantes: Capitã Cornelia"
+}

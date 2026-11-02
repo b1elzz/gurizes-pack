@@ -1,0 +1,18 @@
+{
+	icon: "cataclysm:abyssal_sacrifice"
+	id: "624257A5B7BE3C8B"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: "cataclysm:tidal_claws"
+		}
+		{
+			item: "cataclysm:coral_bardiche"
+		}
+		{
+			item: "cataclysm:abyssal_egg"
+		}
+	]
+	title: "Relíquias Errantes: O Leviatã"
+}

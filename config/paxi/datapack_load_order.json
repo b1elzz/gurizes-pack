@@ -1,0 +1,7 @@
+{
+  "loadOrder": [
+    "gurizes_personagem",
+    "gurizes_progressao",
+    "gurizes_terceiros"
+  ]
+}

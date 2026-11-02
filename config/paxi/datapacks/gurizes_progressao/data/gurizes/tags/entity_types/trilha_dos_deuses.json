@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "meetyourfight:rosalyne",
+      "required": false
+    },
+    {
+      "id": "twilightforest:hydra",
+      "required": false
+    },
+    {
+      "id": "aquamirae:captain_cornelia",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:frostmaw",
+      "required": false
+    },
+    {
+      "id": "aether:sun_spirit",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lord_pumpkinhead",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dead_king",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_enderman",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:obsidilith",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_leviathan",
+      "required": false
+    },
+    {
+      "id": "iceandfire:fire_dragon",
+      "required": false
+    },
+    {
+      "id": "iceandfire:ice_dragon",
+      "required": false
+    },
+    {
+      "id": "iceandfire:lightning_dragon",
+      "required": false
+    }
+  ]
+}

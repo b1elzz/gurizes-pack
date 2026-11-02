@@ -1,0 +1,18 @@
+{
+  "type": "origins:conditioned_attribute",
+  "hidden": true,
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_3_vencido"
+  },
+  "modifiers": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

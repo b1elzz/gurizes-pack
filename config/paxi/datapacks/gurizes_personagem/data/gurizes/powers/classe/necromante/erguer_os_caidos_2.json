@@ -1,0 +1,21 @@
+{
+  "type": "origins:active_self",
+  "name": "Exército Maior (II)",
+  "description": "Após o porteiro do Ato II, Erguer os Caídos sobe para o nível 5.",
+  "cooldown": 900,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "cast @s irons_spellbooks:raise_dead 5"
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido"
+  }
+}

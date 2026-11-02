@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Guarda Aberta",
+  "description": "Restrição: recebe +10% de dano.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.1
+  }
+}

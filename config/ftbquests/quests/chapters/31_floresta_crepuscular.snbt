@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "31_floresta_crepuscular"
+	group: "6F1E073C46BCCFFD"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "5B1FF997A2909185"
+	order_index: 18
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Abra o portal (lago de flores e um diamante) e entre na Floresta Crepuscular."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:fern"
+			id: "03A12149735D51D6"
+			rewards: [
+				{
+					count: 3
+					id: "5D1672B6FF37CFE1"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "485763BFC3062E8F"
+					type: "dimension"
+				}
+			]
+			title: "Além da névoa"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["O pátio de pedra onde a Naga se enrola."]
+			hide_until_deps_complete: true
+			icon: "twilightforest:naga_scale"
+			id: "5AF47FA3A070C8CD"
+			rewards: [
+				{
+					count: 3
+					id: "77491940628F26C3"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "233BA092DEA7DA0E"
+					structure: "twilightforest:naga_courtyard"
+					type: "structure"
+				}
+			]
+			title: "Pátio da Naga"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["Uma torre alta, cheia de esqueletos e um mago."]
+			hide_until_deps_complete: true
+			icon: "minecraft:bone"
+			id: "332E7250C347CF88"
+			rewards: [
+				{
+					count: 3
+					id: "4D6ECC42E4D0FACF"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A35054CCFA73CFC"
+					structure: "twilightforest:lich_tower"
+					type: "structure"
+				}
+			]
+			title: "Torre do Lich"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["O labirinto subterrâneo do Minoshroom."]
+			hide_until_deps_complete: true
+			icon: "twilightforest:diamond_minotaur_axe"
+			id: "523C753CD6ED1242"
+			rewards: [
+				{
+					count: 3
+					id: "5DB2E48D3A9521E8"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "472434E2BE5DD2F1"
+					structure: "twilightforest:labyrinth"
+					type: "structure"
+				}
+			]
+			title: "Labirinto"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["O covil no Pântano de Fogo. Lá mora um Deus Errante."]
+			hide_until_deps_complete: true
+			icon: "twilightforest:fiery_tears"
+			id: "4D4DA0748521136C"
+			rewards: [
+				{
+					count: 3
+					id: "65BC913C59F8F7C5"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "000B4F9F97A1921D"
+					structure: "twilightforest:hydra_lair"
+					type: "structure"
+				}
+			]
+			title: "Covil da Hidra"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["A torre do Ur-Ghast, na Floresta Sombria."]
+			hide_until_deps_complete: true
+			icon: "minecraft:ghast_tear"
+			id: "0949181EDE541BA5"
+			rewards: [
+				{
+					count: 3
+					id: "4D58C866C514F703"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0458AD4004785854"
+					structure: "twilightforest:dark_tower"
+					type: "structure"
+				}
+			]
+			title: "Torre Sombria"
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	title: "Floresta Crepuscular"
+}

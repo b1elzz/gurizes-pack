@@ -1,0 +1,18 @@
+{
+	icon: "iceandfire:dragon_skull_fire"
+	id: "64DD0EE1688B83BE"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: "iceandfire:dragonsteel_fire_sword"
+		}
+		{
+			item: "iceandfire:dragonsteel_ice_sword"
+		}
+		{
+			item: "iceandfire:dragonsteel_lightning_sword"
+		}
+	]
+	title: "Relíquias Errantes: Dragão Ancião"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Recusa em Cair (II)",
+  "description": "Após o porteiro do Ato II: +12% de roubo de vida abaixo de 30% de vida.",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:advancement",
+        "advancement": "gurizes:campanha/ato_2_vencido"
+      },
+      {
+        "type": "origins:relative_health",
+        "comparison": "<=",
+        "compare_to": 0.3
+      }
+    ]
+  },
+  "modifiers": [
+    {
+      "attribute": "attributeslib:life_steal",
+      "operation": "addition",
+      "value": 0.12,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

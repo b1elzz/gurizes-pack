@@ -1,0 +1,33 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "gurizes:oficio/alquimista/elixir_do_heroi",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "minecraft:ghast_tear"
+      },
+      {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    ],
+    "result": {
+      "item": "gurizes:elixir_do_heroi",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_3_vencido"
+  }
+}

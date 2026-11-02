@@ -1,0 +1,25 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Eco das Lâminas (II)",
+  "description": "Após o porteiro do Ato II: +15% de dano crítico e +10% de redução de recarga.",
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido"
+  },
+  "modifiers": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "operation": "addition",
+      "value": 0.15,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

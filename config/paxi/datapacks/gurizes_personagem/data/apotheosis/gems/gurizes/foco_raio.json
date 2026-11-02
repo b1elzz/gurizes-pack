@@ -1,0 +1,31 @@
+{
+  "variant": "lightning",
+  "weight": 8,
+  "quality": 0,
+  "dimensions": [],
+  "min_rarity": "common",
+  "max_rarity": "mythic",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "armor",
+        "types": [
+          "helmet",
+          "chestplate",
+          "leggings",
+          "boots"
+        ]
+      },
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.02,
+        "uncommon": 0.04,
+        "rare": 0.06,
+        "epic": 0.09,
+        "mythic": 0.12
+      }
+    }
+  ]
+}

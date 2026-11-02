@@ -1,0 +1,19 @@
+{
+  "order": 20,
+  "enabled": true,
+  "name": "Bênção",
+  "gui_title": {
+    "choose_origin": "Escolha o deus que te guia",
+    "view_origin": "Sua bênção"
+  },
+  "allow_random": true,
+  "origins": [
+    "gurizes:bencao/aurion",
+    "gurizes:bencao/brava",
+    "gurizes:bencao/tellura",
+    "gurizes:bencao/ignar",
+    "gurizes:bencao/nymara",
+    "gurizes:bencao/kaelum",
+    "gurizes:bencao/vesperis"
+  ]
+}

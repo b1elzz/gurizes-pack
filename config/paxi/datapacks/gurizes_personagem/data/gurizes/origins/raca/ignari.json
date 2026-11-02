@@ -1,0 +1,15 @@
+{
+  "name": "Ignari",
+  "description": "Dracônicos escamados das Fornalhas do Sul; escamas que lembram brasas. −35% de dano de fogo, +10% de Fogo. Fraqueza: +25% de dano de frio, lentos na neve.",
+  "icon": {
+    "item": "minecraft:blaze_powder"
+  },
+  "impact": 1,
+  "order": 5,
+  "powers": [
+    "gurizes:raca/ignari/sangue_quente",
+    "gurizes:raca/ignari/sopro_interno",
+    "gurizes:raca/ignari/escamas_frias",
+    "gurizes:raca/ignari/torpor"
+  ]
+}

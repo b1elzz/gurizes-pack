@@ -1,0 +1,21 @@
+{
+  "name": "Mago Elemental",
+  "description": "Fogo para abrir caminho, gelo para a defesa, raio para encerrar a conversa. Papel: dano em área e controle. Armas: cajados e livro. Escolas: Fogo, Gelo e Raio. Combina com: Paladino e Bardo. Dificuldade: ★★☆",
+  "icon": {
+    "item": "minecraft:blaze_rod"
+  },
+  "impact": 3,
+  "order": 3,
+  "powers": [
+    "gurizes:classe/mago_elemental/registro",
+    "gurizes:classe/mago_elemental/erudicao",
+    "gurizes:classe/mago_elemental/afinidade_triplice",
+    "gurizes:classe/mago_elemental/explosao_elemental",
+    "gurizes:classe/mago_elemental/explosao_elemental_2",
+    "gurizes:classe/mago_elemental/sobrecarga",
+    "gurizes:classe/mago_elemental/cataclismo",
+    "gurizes:classe/mago_elemental/elemento_ativo",
+    "gurizes:classe/mago_elemental/corpo_de_estudioso",
+    "gurizes:classe/mago_elemental/corpo_de_estudioso_vida"
+  ]
+}

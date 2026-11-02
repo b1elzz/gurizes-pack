@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06_ato6_o_trono_do_selo"
+	group: "7A0A9C2928225198"
+	icon: "gurizes:coracao_do_selo"
+	id: "1DB5C5D9F1A837A2"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: [
+				"Todos os cinco Fragmentos na mão. Eles são almados: não caem na cova e nenhuma receita os consome."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:fragmento_estrela"
+			id: "402462F12C986E30"
+			rewards: [
+				{
+					count: 3
+					id: "5C530A3DDE30D310"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4DC340B3159FCA87"
+					item: "gurizes:fragmento_coragem"
+					type: "item"
+				}
+				{
+					id: "10C7D08568C09DF2"
+					item: "gurizes:fragmento_raiz"
+					type: "item"
+				}
+				{
+					id: "4216544458750426"
+					item: "gurizes:fragmento_brasa"
+					type: "item"
+				}
+				{
+					id: "63D672F955DDBF49"
+					item: "gurizes:fragmento_mare"
+					type: "item"
+				}
+				{
+					id: "7E8AFA3CB6168D96"
+					item: "gurizes:fragmento_estrela"
+					type: "item"
+				}
+			]
+			title: "Os Cinco"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["402462F12C986E30"]
+			description: [
+				"\"Cinco fragmentos, cinco deuses, um grupo de heróis que até ontem brigava por quem ficava com o diamante."
+				"Ponha os fragmentos na Mesa do Selo. O portal abre por trinta segundos. Ninguém fica para trás.\""
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:mesa_do_selo"
+			id: "07590E150745C9B8"
+			rewards: [
+				{
+					count: 3
+					id: "28666A0784FD92F9"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6344D6328B75EFFF"
+					item: "gurizes:mesa_do_selo"
+					type: "item"
+				}
+			]
+			title: "A Mesa do Selo"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["402462F12C986E30"]
+			description: [
+				"Leve sua arma-assinatura à Forma V na mesa de ferraria:"
+				"arma + 1 Centelha do Selo + 3 Vidro Estelar. Marque quando estiver pronta."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:vidro_estelar"
+			id: "4CA73FA62F4D5DDB"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "47363B5B7B117B78"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			subtitle: "&7Opcional"
+			tasks: [
+				{
+					id: "32C6B3E5D4DD11AF"
+					type: "checkmark"
+				}
+			]
+			title: "Forma Plena"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07590E150745C9B8"]
+			description: [
+				"\"Morvhal partiu o Selo e partiu a si mesmo. Metade dele ainda é rei. A outra metade é fome. Vençam as duas, e no fim talvez o rei peça desculpas. Talvez.\""
+				""
+				"&6Como invocar:&r os 5 Fragmentos na Mesa do Selo do Pouso abrem o Portal do Selo por 30 s; cruze a Linha do Juramento no salão."
+				"&6Como vencer:&r fase 1 é duelo; na fase 2 ele parte em Metade Rei e Metade Sombra (dividam o grupo); na fase 3 a arena encolhe. Use as estátuas dos deuses."
+				"&aFraquezas:&r Metade Rei: raio; Metade Sombra: sagrado; arma-assinatura Forma V; Bênção de Aurion pela estátua."
+				"&cPontos fortes:&r imune a controle (atordoar, lentidão, congelar); toda magia vale 80%; nenhum golpe passa de 3% da vida dele."
+				""
+				"&7O boss escala com o grupo: vida ×2,1 com 2 jogadores e ×4,3 com 4."
+				"&7Ficha completa no wiki do pack."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:coracao_do_selo"
+			id: "6E03BEB78B3040B9"
+			rewards: [
+				{
+					id: "39B6F3020146F34B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "423233897030F5F8"
+					stage: "epilogo"
+					type: "astages_ftbquests:server"
+				}
+				{
+					command: "/advancement grant {p} only gurizes:campanha/ato_6_vencido"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "0D4A93C44CA8DFCB"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&6Porteiro"
+			tasks: [
+				{
+					advancement: "gurizes:campanha/ato_6_vencido"
+					criterion: ""
+					id: "3EF9213DEEB4D1E1"
+					type: "advancement"
+				}
+			]
+			title: "O Trono do Selo"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E03BEB78B3040B9"]
+			description: [
+				"A metade dourada de Morvhal lembrou quem era e ajudou a refazer o Selo. A Mácula voltou a dormir."
+				"Mas aprendeu o caminho. O Juramento Eterno (NG+) e o fim da Trilha dos Deuses esperam."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:selo_refeito"
+			id: "234510F261251473"
+			rewards: [
+				{
+					count: 3
+					id: "3C178D7AF0BA27FF"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:campanha/selo_restaurado"
+					criterion: ""
+					id: "3D623F0DB68C1245"
+					type: "advancement"
+				}
+			]
+			title: "O Selo Refeito"
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	title: "Ato VI: O Trono do Selo"
+}

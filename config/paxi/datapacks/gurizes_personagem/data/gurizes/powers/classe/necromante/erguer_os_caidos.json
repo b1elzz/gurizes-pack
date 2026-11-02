@@ -1,0 +1,22 @@
+{
+  "type": "origins:active_self",
+  "name": "Erguer os Caídos (G)",
+  "description": "Ergue mortos-vivos aliados (Erguer Mortos nível 3). Recarga de 45 s.",
+  "cooldown": 900,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "cast @s irons_spellbooks:raise_dead 3"
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido",
+    "inverted": true
+  }
+}

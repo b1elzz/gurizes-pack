@@ -1,0 +1,454 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 1,
+          "max": 11
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.02,
+          "looting_multiplier": 0.004
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_bronze"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 12,
+          "max": 27
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.04,
+          "looting_multiplier": 0.008
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_bronze",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 12,
+          "max": 27
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.01,
+          "looting_multiplier": 0.002
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:uncommon_material"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_bronze",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.005,
+          "looting_multiplier": 0.001
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_prata"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.02,
+          "looting_multiplier": 0.004
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:rare_material"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.01,
+          "looting_multiplier": 0.002
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem_dust"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 42,
+          "max": 57
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.06,
+          "looting_multiplier": 0.012
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_bronze",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 42,
+          "max": 57
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.01,
+          "looting_multiplier": 0.002
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_prata"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 42,
+          "max": 57
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.02,
+          "looting_multiplier": 0.004
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:epic_material"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 42,
+          "max": 57
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.005,
+          "looting_multiplier": 0.001
+        }
+      ],
+      "entries": [
+        {
+          "type": "apotheosis:random_gem",
+          "min_rarity": "uncommon",
+          "max_rarity": "epic"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 58,
+          "max": 71
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.06,
+          "looting_multiplier": 0.012
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_prata"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 58,
+          "max": 71
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.003,
+          "looting_multiplier": 0.0006
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_ouro"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 58,
+          "max": 71
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.02,
+          "looting_multiplier": 0.004
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:mythic_material"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 72,
+          "max": 100000
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.08,
+          "looting_multiplier": 0.016
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_prata",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 72,
+          "max": 100000
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.005,
+          "looting_multiplier": 0.001
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gurizes:moeda_ouro"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 72,
+          "max": 100000
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.01,
+          "looting_multiplier": 0.002
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:sigil_of_socketing"
+        }
+      ]
+    }
+  ]
+}

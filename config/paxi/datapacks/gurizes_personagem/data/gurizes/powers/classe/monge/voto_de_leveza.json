@@ -1,0 +1,25 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Voto de Leveza",
+  "description": "Restrição: com peitoral pesado, −10% de velocidade e perde o Corpo Disciplinado.",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "chest",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "gurizes:armaduras/pesadas"
+      }
+    }
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.1,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

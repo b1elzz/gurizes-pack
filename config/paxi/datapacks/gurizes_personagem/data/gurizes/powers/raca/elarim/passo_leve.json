@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Passo Leve",
+  "description": "+5% de velocidade.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.05,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

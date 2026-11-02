@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20_oficio_alquimista"
+	group: "4DA834C500C67B4B"
+	icon: "minecraft:brewing_stand"
+	id: "291F43720DFE15D1"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
+			description: [
+				"Você escolheu o ofício Alquimista. Frascos de cura em grupo, tônicos e óleos de lâmina."
+				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:brewing_stand"
+			id: "372CAC399CEDE4FE"
+			rewards: [
+				{
+					id: "2401EF32F71E9166"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:interno/oficio_alquimista"
+					criterion: ""
+					id: "2FA760C0CA0382A1"
+					type: "advancement"
+				}
+			]
+			title: "Aprendiz de Alquimista"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["372CAC399CEDE4FE"]
+			description: ["Faça o primeiro Frasco de Cura em Grupo."]
+			hide_until_deps_visible: true
+			icon: "gurizes:frasco_de_cura"
+			id: "2BA72DEFA47B83DF"
+			rewards: [
+				{
+					id: "3BB35875CCD7AB8D"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07BA68F9546219A2"
+					item: "gurizes:frasco_de_cura"
+					type: "item"
+				}
+			]
+			title: "Frasco de Cura em Grupo"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BA72DEFA47B83DF"]
+			description: ["Faça o primeiro Tônico de Mana."]
+			hide_until_deps_visible: true
+			icon: "gurizes:tonico_de_mana"
+			id: "31E5C9E51E7D13D0"
+			rewards: [
+				{
+					id: "2703FA17C9B6A48F"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7463DD9DDF5D5401"
+					item: "gurizes:tonico_de_mana"
+					type: "item"
+				}
+			]
+			title: "Tônico de Mana"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E5C9E51E7D13D0", "1F82201E3EE0EE78"]
+			description: [
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:brewing_stand"
+			id: "5E597D622C5EF941"
+			rewards: [
+				{
+					count: 2
+					id: "71FF89C87B181BE0"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "390DF18137AEA6FB"
+					type: "checkmark"
+				}
+			]
+			title: "Mestre Alquimista"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E597D622C5EF941"]
+			description: ["Faça o primeiro Elixir do Herói."]
+			hide_until_deps_visible: true
+			icon: "gurizes:elixir_do_heroi"
+			id: "53319EE17BD3CD53"
+			rewards: [
+				{
+					count: 2
+					id: "22DE01E7CE0EE51B"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "24FD4555D802F826"
+					item: "gurizes:elixir_do_heroi"
+					type: "item"
+				}
+			]
+			title: "Elixir do Herói"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53319EE17BD3CD53"]
+			description: ["Faça o primeiro Frasco de Cura Maior."]
+			hide_until_deps_visible: true
+			icon: "gurizes:frasco_de_cura_maior"
+			id: "06F7DD48A716EF2D"
+			rewards: [
+				{
+					count: 2
+					id: "0D5FEEE292F4D186"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "42D3488B8DF33526"
+					item: "gurizes:frasco_de_cura_maior"
+					type: "item"
+				}
+			]
+			title: "Frasco de Cura Maior"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Ofício: Alquimista"
+}

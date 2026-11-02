@@ -1,0 +1,15 @@
+{
+  "name": "Tellura, a Mãe das Raízes",
+  "description": "Terra, colheita e raízes. Menor: +5% de projéteis, +8% de Natureza. Maior (após o Ato III): Fôlego da Mata, regeneração sob o céu aberto.",
+  "icon": {
+    "item": "minecraft:oak_sapling"
+  },
+  "impact": 1,
+  "order": 3,
+  "powers": [
+    "gurizes:bencao/tellura/menor_caca",
+    "gurizes:bencao/tellura/menor_raiz",
+    "gurizes:bencao/tellura/maior_folego",
+    "gurizes:bencao/tellura/maior_mira"
+  ]
+}

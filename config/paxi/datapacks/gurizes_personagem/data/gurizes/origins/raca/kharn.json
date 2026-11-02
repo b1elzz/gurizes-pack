@@ -1,0 +1,14 @@
+{
+  "name": "Kharn",
+  "description": "Meio-gigantes das Estepes de Ferro. Nas estepes, o mais forte carrega o mais fraco. Sempre. +2 corações, +8% de dano corpo a corpo. Fraqueza: −10% de poder mágico.",
+  "icon": {
+    "item": "minecraft:iron_axe"
+  },
+  "impact": 1,
+  "order": 4,
+  "powers": [
+    "gurizes:raca/kharn/ossos_largos",
+    "gurizes:raca/kharn/braco_de_ferro",
+    "gurizes:raca/kharn/mente_teimosa"
+  ]
+}

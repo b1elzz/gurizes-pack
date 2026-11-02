@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "name": "Comando dos Mortos",
+  "description": "+20% de dano das invocações e +10% de poder de Sangue.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "operation": "addition",
+      "value": 0.2,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

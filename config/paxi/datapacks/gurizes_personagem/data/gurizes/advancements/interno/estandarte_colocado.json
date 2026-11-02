@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "colocado": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "gurizes:estandarte_do_juramento"
+          }
+        ]
+      }
+    }
+  }
+}

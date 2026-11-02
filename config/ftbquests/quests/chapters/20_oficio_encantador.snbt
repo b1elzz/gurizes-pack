@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20_oficio_encantador"
+	group: "4DA834C500C67B4B"
+	icon: "minecraft:enchanting_table"
+	id: "5F0CA7A32C98C6D7"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
+			description: [
+				"Você escolheu o ofício Encantador. Tinta rara, livro do esquecimento e, como Mestre, sigilos e tinta épica."
+				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:enchanting_table"
+			id: "4E55A64D212F06ED"
+			rewards: [
+				{
+					id: "76C16128D02156A4"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:interno/oficio_encantador"
+					criterion: ""
+					id: "4ED5A4A258C5E492"
+					type: "advancement"
+				}
+			]
+			title: "Aprendiz de Encantador"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E55A64D212F06ED"]
+			description: ["Faça o primeiro Livro do Esquecimento."]
+			hide_until_deps_visible: true
+			icon: "gurizes:livro_do_esquecimento"
+			id: "559BAD5CED94432E"
+			rewards: [
+				{
+					id: "30230BCBFA86F4D2"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13CEE9FF02BB0C0C"
+					item: "gurizes:livro_do_esquecimento"
+					type: "item"
+				}
+			]
+			title: "Livro do Esquecimento"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["559BAD5CED94432E"]
+			description: ["Converta tinta incomum em Tinta Rara (receita do ofício)."]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:rare_ink"
+			id: "007103B403E470BE"
+			rewards: [
+				{
+					id: "778A118B78356745"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D0D0660556E188B"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+			]
+			title: "Tinta Rara"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["007103B403E470BE", "1F82201E3EE0EE78"]
+			description: [
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:enchanting_table"
+			id: "4B4C145CF1D37A98"
+			rewards: [
+				{
+					count: 2
+					id: "25A17FC0F641D49A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7C516216BF1D6A27"
+					type: "checkmark"
+				}
+			]
+			title: "Mestre Encantador"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B4C145CF1D37A98"]
+			description: ["Faça o primeiro Sigilo de Encaixe pela receita de Mestre."]
+			hide_until_deps_visible: true
+			icon: "apotheosis:sigil_of_socketing"
+			id: "3012E1F96215638C"
+			rewards: [
+				{
+					count: 2
+					id: "34A49ECC6E4CCA4E"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E9A5F1A32634965"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+			]
+			title: "Sigilo de Encaixe"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3012E1F96215638C"]
+			description: ["Faça a primeira Tinta Épica pela receita de Mestre."]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:epic_ink"
+			id: "727F24616276D4CE"
+			rewards: [
+				{
+					count: 2
+					id: "2D6594CED2812717"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "121518C335007743"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+			]
+			title: "Tinta Épica"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Ofício: Encantador"
+}

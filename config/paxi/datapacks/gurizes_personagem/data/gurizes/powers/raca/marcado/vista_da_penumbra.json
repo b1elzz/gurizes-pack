@@ -1,0 +1,6 @@
+{
+  "type": "origins:night_vision",
+  "name": "Vista da Penumbra",
+  "description": "Meia visão no escuro.",
+  "strength": 0.5
+}

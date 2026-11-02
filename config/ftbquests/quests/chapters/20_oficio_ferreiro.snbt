@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20_oficio_ferreiro"
+	group: "4DA834C500C67B4B"
+	icon: "minecraft:anvil"
+	id: "501A5B4F51D80BBA"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
+			description: [
+				"Você escolheu o ofício Ferreiro. Repara o que o grupo quebra e afia o que o grupo usa."
+				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:anvil"
+			id: "23412FE98EDAFBD6"
+			rewards: [
+				{
+					id: "7785301B82EAB602"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:interno/oficio_ferreiro"
+					criterion: ""
+					id: "06E04CEB620474F6"
+					type: "advancement"
+				}
+			]
+			title: "Aprendiz de Ferreiro"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23412FE98EDAFBD6"]
+			description: ["Faça o primeiro Kit de Reparo de Campo."]
+			hide_until_deps_visible: true
+			icon: "gurizes:kit_de_reparo"
+			id: "1CD2E1F96A462594"
+			rewards: [
+				{
+					id: "7C1E5A78A610A680"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4EAAEF6EC40C515D"
+					item: "gurizes:kit_de_reparo"
+					type: "item"
+				}
+			]
+			title: "Kit de Reparo de Campo"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CD2E1F96A462594"]
+			description: ["Faça a primeira Pedra de Amolar."]
+			hide_until_deps_visible: true
+			icon: "gurizes:pedra_de_amolar"
+			id: "241B0D593AF89A4E"
+			rewards: [
+				{
+					id: "769838617BC5903E"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "65799E164DB02E7B"
+					item: "gurizes:pedra_de_amolar"
+					type: "item"
+				}
+			]
+			title: "Pedra de Amolar"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["241B0D593AF89A4E", "1F82201E3EE0EE78"]
+			description: [
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:anvil"
+			id: "1908E7E663E14C38"
+			rewards: [
+				{
+					count: 2
+					id: "50378102C53E8C37"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2247C22ABFA758D0"
+					type: "checkmark"
+				}
+			]
+			title: "Mestre Ferreiro"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1908E7E663E14C38"]
+			description: ["Faça o primeiro Óleo de Têmpera."]
+			hide_until_deps_visible: true
+			icon: "gurizes:oleo_de_tempera"
+			id: "6612F36032219938"
+			rewards: [
+				{
+					count: 2
+					id: "4FA07B50EBFA7FA3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "609D366BC0FB2A87"
+					item: "gurizes:oleo_de_tempera"
+					type: "item"
+				}
+			]
+			title: "Óleo de Têmpera"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6612F36032219938"]
+			description: ["Faça o primeiro Kit de Reparo Superior."]
+			hide_until_deps_visible: true
+			icon: "gurizes:kit_de_reparo_superior"
+			id: "30C864C8FA92CCB9"
+			rewards: [
+				{
+					count: 2
+					id: "707D4B261C44C67D"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C987D11BE1F7073"
+					item: "gurizes:kit_de_reparo_superior"
+					type: "item"
+				}
+			]
+			title: "Kit de Reparo Superior"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Ofício: Ferreiro"
+}

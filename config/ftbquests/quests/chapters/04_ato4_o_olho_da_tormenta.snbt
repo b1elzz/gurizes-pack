@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04_ato4_o_olho_da_tormenta"
+	group: "7A0A9C2928225198"
+	icon: "gurizes:concha_da_tempestade"
+	id: "06BB2500134599D2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"Ignar viu Kharzul livre e reacendeu a forja dos deuses."
+				"Sua &eBênção Maior&r despertou e seu Ofício chegou a &eMestre&r: receitas novas na bancada."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:enchanted_book"
+			id: "28FBF6D18351472B"
+			rewards: [
+				{
+					id: "6F4B8B5BB4300041"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "135DEA35FC4AD64E"
+					type: "checkmark"
+				}
+			]
+			title: "Os Deuses Despertam"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28FBF6D18351472B"]
+			description: [
+				"A Almirante Coral Sete-Ventos navega o oceano profundo."
+				"Encontre a Companhia da Maré em alto-mar."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:oak_boat"
+			id: "0E3ABA8733D7AC8E"
+			rewards: [
+				{
+					count: 2
+					id: "278CF313999BEA6C"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:deep_ocean"
+					id: "6BBCE1CE52BCA267"
+					type: "biome"
+				}
+			]
+			title: "Sete Ventos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E3ABA8733D7AC8E"]
+			description: [
+				"\"Os afogados guardam pérolas negras como se fossem moedas. Talvez sejam."
+				"Traga três, e não pergunte o que eles compram com elas.\""
+				"Coral entrega a Carta Náutica em troca da prova."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:perola_negra"
+			id: "48B9A1153A465FDF"
+			rewards: [
+				{
+					id: "441753B9F7F9F54A"
+					item: "gurizes:carta_nautica"
+					type: "item"
+				}
+				{
+					id: "68546CF4EC31395F"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "39CE7802A714C29A"
+					item: "gurizes:perola_negra"
+					type: "item"
+				}
+			]
+			title: "Pérolas Negras"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E3ABA8733D7AC8E"]
+			description: [
+				"Explore uma Cidade Antiga no Escuro Profundo e volte vivo."
+				"Dizem que uma página da Crônica dorme lá embaixo."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:echo_shard"
+			id: "2A4B57CA8FFF34EF"
+			optional: true
+			rewards: [
+				{
+					id: "44D2164E6E2EA6B3"
+					item: "gurizes:pagina_cronica"
+					type: "item"
+				}
+				{
+					id: "26E52D97F2F40338"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			subtitle: "&7Opcional"
+			tasks: [
+				{
+					id: "250EB4072F91E80A"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			title: "Ecos do Fundo"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48B9A1153A465FDF"]
+			description: [
+				"Crafte a Concha da Tempestade: 3 Pérolas Negras, 1 coração do mar, 4 cristais de prismarinho e a Carta Náutica (devolvida)."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:concha_da_tempestade"
+			id: "140C355D702A1C18"
+			rewards: [
+				{
+					count: 2
+					id: "70085CF32F67F94A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6302B317E140115A"
+					item: "gurizes:concha_da_tempestade"
+					type: "item"
+				}
+			]
+			title: "A Concha da Tempestade"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"\"No meio da tempestade que não acaba há um templo que não afunda. Toque o Sino da Maré e a rainha do mar vem ver quem ousou. Se ela cantar, não olhe. Sério. Não olhe.\""
+				""
+				"&6Como invocar:&r Concha da Tempestade no Sino da Maré do Templo do Olho da Tormenta; toque o sino."
+				"&6Como vencer:&r fique nas plataformas: dentro d'água ela bate 50% mais. Use os para-raios e as torres; quando ela cantar, vire de costas. Na fase 3 ela sobe à plataforma."
+				"&aFraquezas:&r gelo (e fica lenta na água), fora d'água, Empalamento do tridente."
+				"&cPontos fortes:&r imune a raio e afogamento; projéteis valem metade com ela submersa; empurra para fora."
+				""
+				"&7O boss escala com o grupo: vida ×2,1 com 2 jogadores e ×4,3 com 4."
+				"&7Ficha completa no wiki do pack."
+			]
+			icon: "gurizes:concha_da_tempestade"
+			id: "1E489942504DD2AF"
+			rewards: [
+				{
+					id: "7E890F8A7FA59420"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "1E1383B242E2720A"
+					stage: "ato_5"
+					type: "astages_ftbquests:server"
+				}
+				{
+					command: "/advancement grant {p} only gurizes:campanha/ato_4_vencido"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "1EB46D951275B411"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&6Porteiro"
+			tasks: [
+				{
+					advancement: "gurizes:campanha/ato_4_vencido"
+					criterion: ""
+					id: "22A5C738ECE7125D"
+					type: "advancement"
+				}
+			]
+			title: "O Olho da Tormenta"
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	title: "Ato IV: O Olho da Tormenta"
+}

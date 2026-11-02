@@ -1,0 +1,52 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Aura do Juramento (Maior)",
+  "description": "Desperta após o porteiro do Ato III: a cada 10 s, você e aliados a até 8 blocos curam 2. Várias auras não se somam.",
+  "interval": 200,
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 8,
+    "include_target": true,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:status_effect",
+          "effect": "gurizes:abencoado",
+          "inverted": true
+        },
+        "if_action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:heal",
+              "amount": 2
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "gurizes:abencoado",
+                "duration": 180,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_3_vencido"
+  }
+}

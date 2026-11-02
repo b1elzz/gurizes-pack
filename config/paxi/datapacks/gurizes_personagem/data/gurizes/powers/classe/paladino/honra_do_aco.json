@@ -1,0 +1,22 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Honra do Aço",
+  "description": "Restrição: não usa arcos nem bestas.",
+  "item_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "gurizes:armas/arcos"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "gurizes:armas/bestas"
+        }
+      }
+    ]
+  }
+}

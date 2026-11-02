@@ -1,0 +1,11 @@
+{
+  "loot_table": "gurizes:chests/tesouro_nether",
+  "max_result_itemcount": 18,
+  "integrated_loot_tables": {
+    "minecraft:chests/nether_bridge": 2,
+    "minecraft:chests/bastion_treasure": 3,
+    "minecraft:chests/bastion_other": 2,
+    "minecraft:chests/bastion_bridge": 2,
+    "minecraft:chests/bastion_hoglin_stable": 2
+  }
+}

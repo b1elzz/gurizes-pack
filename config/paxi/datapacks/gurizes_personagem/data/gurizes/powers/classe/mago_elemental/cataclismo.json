@@ -1,0 +1,47 @@
+{
+  "type": "origins:active_self",
+  "name": "Cataclismo (III, H)",
+  "description": "Após o porteiro do Ato IV: Tempestade de Chamas, Onda Gélida ou Tempestade de Raios, conforme o elemento. Recarga de 2 min 30 s.",
+  "cooldown": 3000,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:scoreboard",
+      "objective": "gurizes.elemento",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "cast @s irons_spellbooks:frostwave 8"
+    },
+    "else_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:scoreboard",
+        "objective": "gurizes.elemento",
+        "comparison": "==",
+        "compare_to": 2
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "cast @s irons_spellbooks:thunderstorm 6"
+      },
+      "else_action": {
+        "type": "origins:execute_command",
+        "command": "cast @s irons_spellbooks:blaze_storm 8"
+      }
+    }
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_4_vencido"
+  }
+}

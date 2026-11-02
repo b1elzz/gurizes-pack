@@ -1,0 +1,67 @@
+{
+  "type": "origins:active_self",
+  "name": "Juramento Inquebrável (III, H)",
+  "description": "Após o porteiro do Ato IV: Absorção IV e Resistência II por 6 s em você; Absorção II nos aliados a até 8 blocos. Recarga de 2 min.",
+  "cooldown": 2400,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 8,
+        "include_target": true,
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          }
+        },
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:absorption",
+              "duration": 120,
+              "amplifier": 1,
+              "show_particles": false,
+              "show_icon": true
+            }
+          }
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:absorption",
+          "duration": 120,
+          "amplifier": 3,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 120,
+          "amplifier": 1,
+          "show_particles": false,
+          "show_icon": true
+        }
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_4_vencido"
+  }
+}

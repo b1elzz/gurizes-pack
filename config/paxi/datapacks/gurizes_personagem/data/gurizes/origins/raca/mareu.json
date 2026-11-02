@@ -1,0 +1,15 @@
+{
+  "name": "Maréu",
+  "description": "Povo das marés, nascido nos recifes. Os recifes cantam para quem sabe ouvir. Nado rápido, respiração e visão submersas. Fraqueza: −10% de velocidade de ataque no calor e no Nether.",
+  "icon": {
+    "item": "minecraft:nautilus_shell"
+  },
+  "impact": 1,
+  "order": 7,
+  "powers": [
+    "gurizes:raca/mareu/nadador",
+    "gurizes:raca/mareu/guelras",
+    "gurizes:raca/mareu/olhos_abissais",
+    "gurizes:raca/mareu/pele_seca"
+  ]
+}

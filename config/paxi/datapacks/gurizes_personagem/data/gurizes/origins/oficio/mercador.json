@@ -1,0 +1,18 @@
+{
+  "name": "Mercador",
+  "description": "Conhece todo mundo e paga menos por tudo. Chama mercadores ambulantes para o grupo.",
+  "icon": {
+    "item": "minecraft:emerald"
+  },
+  "impact": 0,
+  "order": 5,
+  "powers": [
+    "gurizes:oficio/mercador/registro",
+    "gurizes:oficio/mercador/labia",
+    "gurizes:oficio/mercador/labia_mestre",
+    "gurizes:oficio/mercador/faro_para_ouro",
+    "gurizes:oficio/mercador/receita_apito",
+    "gurizes:oficio/mercador/receita_selo_caravana",
+    "gurizes:oficio/mercador/receitas"
+  ]
+}

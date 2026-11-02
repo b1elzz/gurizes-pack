@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Coragem de Brava (Menor)",
+  "description": "+5% de chance de crítico.",
+  "modifiers": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "operation": "addition",
+      "value": 0.05,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

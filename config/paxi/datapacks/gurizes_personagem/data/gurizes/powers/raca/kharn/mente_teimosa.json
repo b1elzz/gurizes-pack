@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Mente Teimosa",
+  "description": "Fraqueza: −10% de poder mágico.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "multiply_base",
+      "value": -0.1,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

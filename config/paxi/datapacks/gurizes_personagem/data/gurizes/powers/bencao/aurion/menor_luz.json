@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "name": "Luz de Aurion (Menor)",
+  "description": "+10% de cura recebida, +5% de poder Sagrado.",
+  "modifiers": [
+    {
+      "attribute": "attributeslib:healing_received",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "operation": "addition",
+      "value": 0.05,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

@@ -1,0 +1,38 @@
+{
+  "type": "origins:target_action_on_hit",
+  "name": "Marca do Caçador (II)",
+  "description": "Após o porteiro do Ato II: a cada 5 s, uma flecha marca o alvo com Marca da Presa (+10% de dano recebido) por 6 s.",
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido"
+  },
+  "cooldown": 100,
+  "damage_condition": {
+    "type": "origins:projectile"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "gurizes:marca_da_presa",
+          "duration": 120,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:glowing",
+          "duration": 120,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      }
+    ]
+  }
+}

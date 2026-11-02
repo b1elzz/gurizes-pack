@@ -1,0 +1,17 @@
+{
+  "name": "Cozinheiro",
+  "description": "Ninguém luta bem de barriga vazia. Banquetes que dão vida extra ao grupo.",
+  "icon": {
+    "item": "minecraft:cake"
+  },
+  "impact": 0,
+  "order": 3,
+  "powers": [
+    "gurizes:oficio/cozinheiro/registro",
+    "gurizes:oficio/cozinheiro/paladar_refinado",
+    "gurizes:oficio/cozinheiro/receita_racao",
+    "gurizes:oficio/cozinheiro/receita_banquete",
+    "gurizes:oficio/cozinheiro/receita_banquete_real",
+    "gurizes:oficio/cozinheiro/receitas"
+  ]
+}

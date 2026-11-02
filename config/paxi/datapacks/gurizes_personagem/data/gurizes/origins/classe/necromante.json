@@ -1,0 +1,20 @@
+{
+  "name": "Necromante",
+  "description": "Os mortos de Valdren ainda lutam pelo reino. Só precisam de alguém que os chame. Papel: invocação e dano contínuo. Armas: foices e cajados. Escolas: Sangue, Evocação e Eldritch. Combina com: Paladino. Dificuldade: ★★★",
+  "icon": {
+    "item": "minecraft:wither_skeleton_skull"
+  },
+  "impact": 3,
+  "order": 4,
+  "powers": [
+    "gurizes:classe/necromante/registro",
+    "gurizes:classe/necromante/comando_dos_mortos",
+    "gurizes:classe/necromante/colheita_de_almas",
+    "gurizes:classe/necromante/erguer_os_caidos",
+    "gurizes:classe/necromante/erguer_os_caidos_2",
+    "gurizes:classe/necromante/pacto_de_sangue",
+    "gurizes:classe/necromante/mare_sombria",
+    "gurizes:classe/necromante/pacto_profano",
+    "gurizes:classe/necromante/pacto_profano_cura"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_projectile_damage",
+  "name": "Olho de Falcão",
+  "description": "+15% de dano de projéteis e +10% de velocidade das flechas.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.15
+  }
+}

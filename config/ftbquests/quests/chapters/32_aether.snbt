@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32_aether"
+	group: "6F1E073C46BCCFFD"
+	icon: "minecraft:glowstone"
+	id: "0BC033DEE1383034"
+	order_index: 19
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["299A96D053605996"]
+			description: ["Um portal de glowstone com água leva aos céus."]
+			hide_until_deps_complete: true
+			icon: "minecraft:feather"
+			id: "18348474DADFCC27"
+			rewards: [
+				{
+					id: "3568B0D366202222"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "aether:the_aether"
+					id: "370B38ED0A737298"
+					type: "dimension"
+				}
+			]
+			title: "Céu aberto"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: ["A masmorra do Slider."]
+			hide_until_deps_complete: true
+			icon: "aether:golden_feather"
+			id: "383215CE3CD618D7"
+			rewards: [
+				{
+					id: "51AF7DE077C2B846"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "59E01995F6E8A390"
+					structure: "aether:bronze_dungeon"
+					type: "structure"
+				}
+			]
+			title: "Masmorra de Bronze"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: ["O templo das Valquírias."]
+			hide_until_deps_complete: true
+			icon: "aether:valkyrie_lance"
+			id: "186B16B31E9DC277"
+			rewards: [
+				{
+					id: "74A3C776FB34C69E"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5342521D987C15B6"
+					structure: "aether:silver_dungeon"
+					type: "structure"
+				}
+			]
+			title: "Masmorra de Prata"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: ["A ilha do Espírito do Sol."]
+			hide_until_deps_complete: true
+			icon: "aether:sun_altar"
+			id: "3301AE0645C7234E"
+			rewards: [
+				{
+					id: "76508E9B1DC3557C"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4C8C29795C48BF5F"
+					structure: "aether:gold_dungeon"
+					type: "structure"
+				}
+			]
+			title: "Masmorra de Ouro"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "Aether"
+}

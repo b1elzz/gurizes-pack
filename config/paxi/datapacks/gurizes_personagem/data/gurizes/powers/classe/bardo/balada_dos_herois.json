@@ -1,0 +1,106 @@
+{
+  "type": "origins:active_self",
+  "name": "Balada dos Heróis (III, H)",
+  "description": "Após o porteiro do Ato IV: Resistência, Regeneração e Absorção I nos aliados por 10 s; Lentidão II nos inimigos próximos. Recarga de 2 min 30 s.",
+  "cooldown": 3000,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 12,
+        "include_target": true,
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          }
+        },
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:resistance",
+                  "duration": 200,
+                  "amplifier": 0,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              },
+              {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:regeneration",
+                  "duration": 200,
+                  "amplifier": 0,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              },
+              {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:absorption",
+                  "duration": 200,
+                  "amplifier": 0,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 8,
+        "include_target": false,
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:living"
+              },
+              {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:player",
+                "inverted": true
+              }
+            ]
+          }
+        },
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:slowness",
+              "duration": 100,
+              "amplifier": 1,
+              "show_particles": false,
+              "show_icon": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_4_vencido"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "origins:self_action_on_hit",
+  "hidden": true,
+  "cooldown": 5,
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:corpo_a_corpo"
+  },
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "gurizes:classe/berserker/furia",
+    "change": 8
+  }
+}

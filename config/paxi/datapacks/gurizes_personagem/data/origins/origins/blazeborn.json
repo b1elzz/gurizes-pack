@@ -1,0 +1,8 @@
+{
+  "loading_priority": 1,
+  "powers": [],
+  "icon": "minecraft:barrier",
+  "order": 99,
+  "impact": 0,
+  "unchoosable": true
+}

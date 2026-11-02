@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Constituição Esguia",
+  "description": "Fraqueza: −1 coração.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -2,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Determinação",
+  "description": "+1 coração de vida máxima.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": 2,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

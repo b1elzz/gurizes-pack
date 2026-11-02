@@ -1,0 +1,17 @@
+{
+  "type": "origins:active_self",
+  "name": "Círculo Verdejante (G)",
+  "description": "Círculo de Cura nível 4. Recarga de 30 s.",
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "cast @s irons_spellbooks:healing_circle 4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "gurizes:oficio/alquimista/tonico_de_mana",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "irons_spellbooks:arcane_essence"
+      },
+      {
+        "item": "irons_spellbooks:arcane_essence"
+      },
+      {
+        "item": "minecraft:lapis_lazuli"
+      }
+    ],
+    "result": {
+      "item": "gurizes:tonico_de_mana",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Corpo Esguio",
+  "description": "Restrição: −15% de vida máxima.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "multiply_base",
+      "value": -0.15,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

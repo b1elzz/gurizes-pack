@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player_attack",
+    {
+      "id": "gurizes:habilidade_fisica",
+      "required": false
+    }
+  ]
+}

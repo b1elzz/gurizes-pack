@@ -1,0 +1,205 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01_ato1_a_coroa_oca"
+	group: "7A0A9C2928225198"
+	icon: "gurizes:coroa_votiva"
+	id: "62F3C099A032D657"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"Armadura de ferro completa e comida na mochila."
+				"Sir Galvar não espera você terminar o lanche."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_chestplate"
+			id: "4EFB037441788980"
+			rewards: [
+				{
+					count: 2
+					id: "4EB0A519EFC668B1"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FB6A0A50D9607C4"
+					item: "minecraft:iron_helmet"
+					type: "item"
+				}
+				{
+					id: "73178114DBE20196"
+					item: "minecraft:iron_chestplate"
+					type: "item"
+				}
+				{
+					id: "65759299D3923936"
+					item: "minecraft:iron_leggings"
+					type: "item"
+				}
+				{
+					id: "3F29A9117C85C843"
+					item: "minecraft:iron_boots"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4E8EC929EB435DC2"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "Pão, Aço e Teto"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EFB037441788980"]
+			description: [
+				"\"As masmorras antigas ainda guardam páginas da Crônica de Valdren. Traga duas."
+				"Se encontrar um esqueleto de armadura dourada lá dentro, não discuta com ele:"
+				"ele perdeu a discussão faz trezentos anos.\""
+				"&7- Capitã Isolde"
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:pagina_cronica"
+			id: "0E86F641B290EC88"
+			rewards: [
+				{
+					count: 3
+					id: "0D1AE9A77FA88100"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4316698BAD5FADB6"
+					item: "gurizes:pagina_cronica"
+					type: "item"
+				}
+			]
+			title: "Ecos da Coroa"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E86F641B290EC88"]
+			description: [
+				"Isolde entrega a Insígnia do Juramento e a Bússola do Selo."
+				"A bússola aponta para a arena do ato atual; a insígnia volta inteira da receita da Coroa Votiva."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:insignia_do_juramento"
+			id: "4BB6AB1764E85F5B"
+			rewards: [
+				{
+					id: "45DBA0875E3123D4"
+					item: "gurizes:insignia_do_juramento"
+					type: "item"
+				}
+				{
+					id: "538D369D87225E37"
+					item: "gurizes:bussola_do_selo"
+					type: "item"
+				}
+				{
+					id: "722AB6B5C9761AD5"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "17FC4602BC51C43E"
+					type: "checkmark"
+				}
+			]
+			title: "A Insígnia"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BB6AB1764E85F5B"]
+			description: [
+				"Crafte a Coroa Votiva: 5 lingotes de ferro, 2 de ouro, 1 vela e a Insígnia (devolvida)."
+			]
+			hide_until_deps_visible: true
+			icon: "gurizes:coroa_votiva"
+			id: "5027321C73D4D86D"
+			rewards: [
+				{
+					count: 2
+					id: "507CBBEEEF4A78F3"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "113DF30CC49FB054"
+					item: "gurizes:coroa_votiva"
+					type: "item"
+				}
+			]
+			title: "A Coroa Votiva"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"\"Sir Galvar jurou guardar o trono do rei até a volta da Coroa. A Coroa nunca voltou, e ele continua de guarda. Acenda as quatro velas, ponha a Coroa Votiva no trono e deixe o velho cavaleiro descansar. Com a espada, se for preciso.\""
+				""
+				"&6Como invocar:&r acenda as 4 velas da Cripta e use a Coroa Votiva no Trono Vazio (20 s de preparação)."
+				"&6Como vencer:&r bata pelas costas na fase 1 e use os pilares contra a Investida (ele fica atordoado). Na fase 2, pule o Pulso da Coroa e puna o pouso do Salto."
+				"&aFraquezas:&r machados (quebram a guarda), raio, alvo atordoado, costas na fase 1."
+				"&cPontos fortes:&r imune a veneno e wither; resiste a sangue, fogo e projéteis de frente; invoca Escudeiros Ocos."
+				""
+				"&7O boss escala com o grupo: vida ×2,1 com 2 jogadores e ×4,3 com 4."
+				"&7Ficha completa no wiki do pack."
+			]
+			icon: "gurizes:coroa_votiva"
+			id: "5B17AA16DD0A5BEC"
+			rewards: [
+				{
+					id: "6D731A0F7A75F988"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2ABF817E8FC3312E"
+					stage: "ato_2"
+					type: "astages_ftbquests:server"
+				}
+				{
+					command: "/advancement grant {p} only gurizes:campanha/ato_1_vencido"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "43BA47A834A2325E"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&6Porteiro"
+			tasks: [
+				{
+					advancement: "gurizes:campanha/ato_1_vencido"
+					criterion: ""
+					id: "156A8A924556B81A"
+					type: "advancement"
+				}
+			]
+			title: "A Cripta do Primeiro Cavaleiro"
+			x: 8.5d
+			y: 0.0d
+		}
+	]
+	title: "Ato I: A Coroa Oca"
+}

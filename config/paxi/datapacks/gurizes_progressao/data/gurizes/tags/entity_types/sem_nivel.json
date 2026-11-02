@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "gurizes:guardiao_coroa_oca",
+      "required": false
+    },
+    {
+      "id": "gurizes:escudeiro_oco",
+      "required": false
+    },
+    {
+      "id": "gurizes:coroa_errante",
+      "required": false
+    },
+    {
+      "id": "gurizes:escudo_cravado",
+      "required": false
+    },
+    {
+      "id": "gurizes:matriarca_raiz_podre",
+      "required": false
+    },
+    {
+      "id": "gurizes:raiz_sugadora",
+      "required": false
+    },
+    {
+      "id": "gurizes:forjador_caido",
+      "required": false
+    },
+    {
+      "id": "gurizes:mare_partida",
+      "required": false
+    },
+    {
+      "id": "gurizes:olho_estelar",
+      "required": false
+    },
+    {
+      "id": "gurizes:estrela_guardia",
+      "required": false
+    },
+    {
+      "id": "gurizes:anel_estelar",
+      "required": false
+    },
+    {
+      "id": "gurizes:eco_coroa",
+      "required": false
+    },
+    {
+      "id": "gurizes:eco_raiz",
+      "required": false
+    },
+    {
+      "id": "gurizes:eco_forja",
+      "required": false
+    },
+    {
+      "id": "gurizes:eco_mare",
+      "required": false
+    },
+    {
+      "id": "gurizes:rei_partido",
+      "required": false
+    },
+    {
+      "id": "gurizes:metade_rei",
+      "required": false
+    },
+    {
+      "id": "gurizes:metade_sombra",
+      "required": false
+    },
+    {
+      "id": "gurizes:cavaleiro_partido",
+      "required": false
+    },
+    {
+      "id": "gurizes:estandarte_plantado",
+      "required": false
+    }
+  ]
+}

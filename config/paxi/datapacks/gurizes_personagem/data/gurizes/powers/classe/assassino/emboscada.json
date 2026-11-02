@@ -1,0 +1,16 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Emboscada",
+  "description": "Agachado: +15% de dano corpo a corpo.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.15
+  },
+  "condition": {
+    "type": "origins:sneaking"
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:corpo_a_corpo"
+  }
+}

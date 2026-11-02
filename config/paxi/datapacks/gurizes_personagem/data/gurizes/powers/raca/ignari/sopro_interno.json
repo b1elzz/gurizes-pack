@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Sopro Interno",
+  "description": "+10% de poder da magia de Fogo.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

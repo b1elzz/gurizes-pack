@@ -1,0 +1,18 @@
+{
+  "name": "Assassino",
+  "description": "O boss tem muita vida. Eu só preciso achar o lugar certo. Papel: dano explosivo num alvo. Armas: adagas e espadas curtas. Escolas: Ender e Sangue. Combina com: Paladino, Caçador e Bardo. Dificuldade: ★★★",
+  "icon": {
+    "item": "minecraft:iron_sword"
+  },
+  "impact": 3,
+  "order": 10,
+  "powers": [
+    "gurizes:classe/assassino/registro",
+    "gurizes:classe/assassino/golpe_preciso",
+    "gurizes:classe/assassino/emboscada",
+    "gurizes:classe/assassino/passo_sangrento",
+    "gurizes:classe/assassino/execucao",
+    "gurizes:classe/assassino/veu_da_noite",
+    "gurizes:classe/assassino/corpo_esguio"
+  ]
+}

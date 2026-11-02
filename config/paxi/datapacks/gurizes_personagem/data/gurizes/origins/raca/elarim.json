@@ -1,0 +1,15 @@
+{
+  "name": "Elarim",
+  "description": "Elfos das Matas de Lúmen, arqueiros e guardiões. Ouvem a floresta antes de ver o inimigo. +8% de projéteis, +5% de velocidade, +5% de Natureza. Fraqueza: −1 coração.",
+  "icon": {
+    "item": "minecraft:bow"
+  },
+  "impact": 1,
+  "order": 3,
+  "powers": [
+    "gurizes:raca/elarim/olhos_de_lumen",
+    "gurizes:raca/elarim/passo_leve",
+    "gurizes:raca/elarim/voz_da_mata",
+    "gurizes:raca/elarim/constituicao_esguia"
+  ]
+}

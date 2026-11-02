@@ -1,0 +1,24 @@
+{
+  "type": "origins:self_action_when_hit",
+  "hidden": true,
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido"
+  },
+  "cooldown": 80,
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:is_projectile",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:strength",
+      "duration": 60,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": true
+    }
+  }
+}

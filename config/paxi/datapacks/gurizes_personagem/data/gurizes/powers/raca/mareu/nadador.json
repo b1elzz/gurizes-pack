@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Nadador",
+  "description": "Nado muito mais rápido.",
+  "modifiers": [
+    {
+      "attribute": "forge:swim_speed",
+      "operation": "addition",
+      "value": 0.5,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Sem Escudo",
+  "description": "Restrição: não usa escudos.",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "gurizes:armas/escudos"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Sobrecarga (II)",
+  "description": "Após o porteiro do Ato II: +5% de poder mágico e +5% de redução de recarga.",
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido"
+  },
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "addition",
+      "value": 0.05,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "operation": "addition",
+      "value": 0.05,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Encantador",
+  "description": "Tinta, runas e livros. Barateia os encantamentos e ajuda a escrever magias melhores.",
+  "icon": {
+    "item": "minecraft:enchanting_table"
+  },
+  "impact": 0,
+  "order": 6,
+  "powers": [
+    "gurizes:oficio/encantador/registro",
+    "gurizes:oficio/encantador/afinidade_arcana",
+    "gurizes:oficio/encantador/receita_livro_esquecimento",
+    "gurizes:oficio/encantador/receita_tinta_rara",
+    "gurizes:oficio/encantador/receita_sigilo",
+    "gurizes:oficio/encantador/receita_tinta_epica",
+    "gurizes:oficio/encantador/receitas"
+  ]
+}

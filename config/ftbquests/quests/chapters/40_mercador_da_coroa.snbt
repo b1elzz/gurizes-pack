@@ -1,0 +1,1072 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "40_mercador_da_coroa"
+	group: "2AB7CEEE2B2349D1"
+	icon: "gurizes:moeda_ouro"
+	id: "2C504532A7FA6F50"
+	order_index: 22
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["457DAF33C1BBACDF"]
+			description: ["Duas poções de Cura II."]
+			hide_until_deps_complete: true
+			icon: "minecraft:potion"
+			id: "14A3E7867F3364A0"
+			rewards: [
+				{
+					count: 2
+					id: "310264816CCD34D6"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "6E9C947DF4BE9843"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			title: "Kit de Cura"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["457DAF33C1BBACDF"]
+			description: [
+				"Oito pratos quentes da cozinha do Pouso. A Ração de Viagem é coisa do Cozinheiro."
+			]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:beef_stew"
+			id: "13A4919BAD1CF1DF"
+			rewards: [
+				{
+					count: 4
+					id: "761546DD3D1565BA"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35AD3BB639BCFC83"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "6A66A4D0FE20E870"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			title: "Comida de Viagem"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["457DAF33C1BBACDF"]
+			description: ["Um ponto a mais na árvore de habilidades."]
+			hide_until_deps_complete: true
+			icon: "skilltree:wisdom_scroll"
+			id: "7EF48FEDE4A1475D"
+			rewards: [
+				{
+					id: "759F964B5CE90F16"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "76272BE34AB88CC9"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Pergaminho da Sabedoria"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["457DAF33C1BBACDF"]
+			description: ["Refaz a árvore de habilidades (custa uma parte dos níveis)."]
+			hide_until_deps_complete: true
+			icon: "skilltree:amnesia_scroll"
+			id: "7A88070324BFA8FF"
+			rewards: [
+				{
+					id: "577C1B74993EC92A"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "38606DB06DC7AE08"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Pergaminho da Amnésia"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["457DAF33C1BBACDF"]
+			description: ["A caixa do Ato I: equipamento, consumíveis e moedas do ato."]
+			hide_until_deps_complete: true
+			icon: "gurizes:espolio_ato_1"
+			id: "2C9AB18857126ED3"
+			rewards: [
+				{
+					id: "46AD1C9A363626C4"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "0C5219AD760B68BD"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			title: "Espólio do Ato I"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["Troca o seu Ofício. Sem limite de uso."]
+			hide_until_deps_complete: true
+			icon: "gurizes:contrato_de_guilda"
+			id: "0DFDEF86316CB2EC"
+			rewards: [
+				{
+					id: "2B3D59226A01CF64"
+					item: "gurizes:contrato_de_guilda"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "1761FAF46794D611"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Contrato de Guilda"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["Troca a sua Bênção. Uma troca por ato."]
+			hide_until_deps_complete: true
+			icon: "gurizes:vela_da_peregrinacao"
+			id: "2E0730431E0E7DE0"
+			rewards: [
+				{
+					id: "2C2F60BF4F023CC6"
+					item: "gurizes:vela_da_peregrinacao"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "1FF87CD185C2A536"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Vela da Peregrinação"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["Troca a sua Raça. Uma troca por ato."]
+			hide_until_deps_complete: true
+			icon: "gurizes:espelho_das_origens"
+			id: "025886C6B1423242"
+			rewards: [
+				{
+					id: "2FA86F497846725D"
+					item: "gurizes:espelho_das_origens"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "729709D0BB64FAC5"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Espelho das Origens"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Troca a sua Classe: a árvore é refeita sem perda e a arma-assinatura troca mantendo a forma."
+				"Uma troca por ato. A Centelha é a mesma que evolui a assinatura."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:tomo_do_novo_juramento"
+			id: "179078B55DA89F13"
+			rewards: [
+				{
+					id: "24C26E9E5A63C059"
+					item: "gurizes:tomo_do_novo_juramento"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "1ECB0C80A4D7B8B6"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1622C65B01C6C043"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Tomo do Novo Juramento"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["A caixa do Ato II."]
+			hide_until_deps_complete: true
+			icon: "gurizes:espolio_ato_2"
+			id: "17642121567A03A2"
+			rewards: [
+				{
+					id: "5E0E16F1D332F250"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "3045107AECB4E220"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Espólio do Ato II"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["299A96D053605996"]
+			description: ["A caixa do Ato III."]
+			hide_until_deps_complete: true
+			icon: "gurizes:espolio_ato_3"
+			id: "4978DC1E7F991B57"
+			rewards: [
+				{
+					id: "1B027BF862A077EF"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "2849ECD4570A607E"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Espólio do Ato III"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F82201E3EE0EE78"]
+			description: ["A caixa do Ato IV."]
+			hide_until_deps_complete: true
+			icon: "gurizes:espolio_ato_4"
+			id: "1545831D7D4074D8"
+			rewards: [
+				{
+					id: "0EC508086FE08ABC"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "616742F6EA5D7798"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Espólio do Ato IV"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E489942504DD2AF"]
+			description: ["A caixa do Ato V."]
+			hide_until_deps_complete: true
+			icon: "gurizes:espolio_ato_5"
+			id: "5B329BA0503340C0"
+			rewards: [
+				{
+					id: "69FD075A2E6DEC88"
+					item: "gurizes:espolio_ato_5"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					id: "3F19AB5A4C7FBF8A"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Espólio do Ato V"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: ["A caixa do Ato VI."]
+			hide_until_deps_complete: true
+			icon: "gurizes:espolio_ato_6"
+			id: "7DDF75B766080B4C"
+			rewards: [
+				{
+					id: "7DAE1532AC94BE09"
+					item: "gurizes:espolio_ato_6"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					id: "03690841BCB29D38"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1B7B346291E735B4"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Espólio do Ato VI"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["Uma gema aleatória de raridade incomum."]
+			hide_until_deps_complete: true
+			icon: "apotheosis:gem"
+			id: "5BBE5B2C4281E0CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23810419F69303F2"
+					table_id: 582247928095973101L
+					type: "random"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "2B92979287819FED"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Gema Incomum Aleatória"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["299A96D053605996"]
+			description: ["Uma gema aleatória de raridade rara."]
+			hide_until_deps_complete: true
+			icon: "apotheosis:gem"
+			id: "0839B68D7870291D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "790C9636892D7415"
+					table_id: 3096590952465965664L
+					type: "random"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "46EA50EA6CC70F4D"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Gema Rara Aleatória"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F82201E3EE0EE78"]
+			description: ["Uma gema aleatória de raridade épica."]
+			hide_until_deps_complete: true
+			icon: "apotheosis:gem"
+			id: "4A1CCBE6FE244FEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4ACE02CC4E77D59D"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "47339AE44D2ACDEF"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Gema Épica Aleatória"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E489942504DD2AF"]
+			description: ["Uma gema aleatória de raridade mítica."]
+			hide_until_deps_complete: true
+			icon: "apotheosis:gem"
+			id: "4742D105CC67B940"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "242715F28F761819"
+					table_id: 863411593548837237L
+					type: "random"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "02E2C984BEBDD5DE"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Gema Mítica Aleatória"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F82201E3EE0EE78"]
+			description: ["Abre um encaixe de gema num equipamento."]
+			hide_until_deps_complete: true
+			icon: "apotheosis:sigil_of_socketing"
+			id: "3203D00BA74702C2"
+			rewards: [
+				{
+					id: "02338D6EB6ECBF2A"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "35017170F7A2D633"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Sigilo de Encaixe"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: ["Tinta para escrever pergaminhos de raridade Rara."]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:rare_ink"
+			id: "7E5A8B013E5E24F8"
+			rewards: [
+				{
+					id: "6DFE31DCB4B7BD4E"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "414A9951753D951B"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Tinta Rara"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["299A96D053605996"]
+			description: ["Tinta para pergaminhos de raridade Épica."]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:epic_ink"
+			id: "2F1AB44BEADB642B"
+			rewards: [
+				{
+					id: "1DA1CA625B8311CC"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "438B57551432E927"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Tinta Épica"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F82201E3EE0EE78"]
+			description: ["Tinta para pergaminhos de raridade Lendária."]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:legendary_ink"
+			id: "570D6F4CDCDA8EE4"
+			rewards: [
+				{
+					id: "25BF1ECF88D33956"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					id: "00D374919A962DE8"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Tinta Lendária"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
+			]
+			hide_until_deps_complete: true
+			icon: "gateways:gate_pearl"
+			id: "117E0EE651CFEF19"
+			rewards: [
+				{
+					id: "395C3B1985661B08"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:overworldian_nights"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "43E030436255CC82"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave da Arena de Desafio: Ato II"
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["299A96D053605996"]
+			description: [
+				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
+			]
+			hide_until_deps_complete: true
+			icon: "gateways:gate_pearl"
+			id: "0409FFFFB2D65251"
+			rewards: [
+				{
+					id: "2E5737AB774CE602"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:hellish_fortress"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "2CD20F7D10D34518"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave da Arena de Desafio: Ato III"
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
+			]
+			hide_until_deps_complete: true
+			icon: "gateways:gate_pearl"
+			id: "6D8C672E9D21FF2A"
+			rewards: [
+				{
+					id: "730B56C61DA77DAC"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:emerald_grove"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "781D50F98E465844"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave da Arena de Desafio: Ato IV"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
+			]
+			hide_until_deps_complete: true
+			icon: "gateways:gate_pearl"
+			id: "475C498C775A034D"
+			rewards: [
+				{
+					id: "4DEC6F45BC637A2C"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					id: "24D6527639AC1630"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2361F7C722D66050"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave da Arena de Desafio: Ato V"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: [
+				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
+			]
+			hide_until_deps_complete: true
+			icon: "gateways:gate_pearl"
+			id: "64E7A7B6C5FBC2A1"
+			rewards: [
+				{
+					id: "1AF15D6AECFF4EAB"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/blaze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Troca"
+			tasks: [
+				{
+					consume_items: true
+					id: "74626B7E319245C8"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "2A4334C57C5B47CC"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave da Arena de Desafio: Ato VI"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Atalho para lutar de novo. A chave também pode ser craftada."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:coroa_votiva"
+			id: "6A37E33C19D86A27"
+			rewards: [
+				{
+					id: "0C6E7C0071213126"
+					item: "gurizes:coroa_votiva"
+					type: "item"
+				}
+			]
+			subtitle: "Atalho"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "261C5EECBA520EEF"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave do Porteiro I"
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["299A96D053605996"]
+			description: [
+				"Atalho para lutar de novo. A chave também pode ser craftada."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:coracao_de_seiva"
+			id: "1087FB4AECB367CB"
+			rewards: [
+				{
+					id: "096E9E0F3E4B4DB3"
+					item: "gurizes:coracao_de_seiva"
+					type: "item"
+				}
+			]
+			subtitle: "Atalho"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "308EB33961562EB6"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave do Porteiro II"
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"Atalho para lutar de novo. A chave também pode ser craftada."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:brasa_primordial"
+			id: "2E81E6A9150C4EB2"
+			rewards: [
+				{
+					id: "1AE1E694DB4B1D57"
+					item: "gurizes:brasa_primordial"
+					type: "item"
+				}
+			]
+			subtitle: "Atalho"
+			tasks: [
+				{
+					consume_items: true
+					id: "5E5C43F6C5C1F2B5"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Chave do Porteiro III"
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"Atalho para lutar de novo. A chave também pode ser craftada."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:concha_da_tempestade"
+			id: "05B4A9ABB0B55810"
+			rewards: [
+				{
+					id: "3017323AA80294FB"
+					item: "gurizes:concha_da_tempestade"
+					type: "item"
+				}
+			]
+			subtitle: "Atalho"
+			tasks: [
+				{
+					consume_items: true
+					id: "60FA51A41BE183ED"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6FA2A70FD62B70C5"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			title: "Chave do Porteiro IV"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: [
+				"Atalho para lutar de novo. A chave também pode ser craftada."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:lente_estelar"
+			id: "7D90010329038F01"
+			rewards: [
+				{
+					id: "21A7E1058E505CA7"
+					item: "gurizes:lente_estelar"
+					type: "item"
+				}
+			]
+			subtitle: "Atalho"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "10941F7887BEC823"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Chave do Porteiro V"
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6EF3766A506C655B"]
+			description: [
+				"Para quem venceu todos os Deuses Errantes. Só vaidade, e muita."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:insignia_dos_deuses"
+			id: "760AAAA82519C714"
+			rewards: [
+				{
+					id: "591AC69C47791F3B"
+					item: "gurizes:reliquia_do_panteao"
+					type: "item"
+				}
+			]
+			subtitle: "Prestígio"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "4B703D1EF8826C4F"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Relíquia do Panteão"
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E03BEB78B3040B9"]
+			description: [
+				"Tira 10 níveis dos mobs ganhos no NG+ (nunca abaixo do alvo do ato). Vale para o servidor todo."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:clock"
+			id: "48D183B9FF4C9FC6"
+			rewards: [
+				{
+					command: "/gurizes nivel ajustar -10"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "0A41E2F3CCC77B9F"
+					silent: true
+					type: "command"
+				}
+			]
+			subtitle: "Pós-jogo"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "408443D7CA066682"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			title: "Reduzir Nível do Mundo"
+			x: 7.5d
+			y: 12.5d
+		}
+	]
+	title: "Mercador da Coroa"
+}

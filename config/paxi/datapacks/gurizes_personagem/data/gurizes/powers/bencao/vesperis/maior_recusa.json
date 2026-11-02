@@ -1,0 +1,53 @@
+{
+  "type": "origins:prevent_death",
+  "name": "Recusa da Morte (Maior)",
+  "description": "Desperta após o porteiro do Ato III: um golpe fatal te deixa vivo (cura 8, Resistência I por 3 s). Recarrega em 15 min.",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:advancement",
+        "advancement": "gurizes:campanha/ato_3_vencido"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:bencao/vesperis/maior_carga",
+        "comparison": ">=",
+        "compare_to": 1
+      }
+    ]
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:bypasses_invulnerability",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "gurizes:bencao/vesperis/maior_carga",
+        "change": -1
+      },
+      {
+        "type": "origins:heal",
+        "amount": 8
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 60,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:item.totem.use"
+      }
+    ]
+  }
+}

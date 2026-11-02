@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Versátil",
+  "description": "+5% de dano de todas as fontes.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.05
+  }
+}

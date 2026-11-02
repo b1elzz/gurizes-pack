@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20_oficio_cozinheiro"
+	group: "4DA834C500C67B4B"
+	icon: "minecraft:campfire"
+	id: "01DE267E63FBEA49"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
+			description: [
+				"Você escolheu o ofício Cozinheiro. Comida de viagem e banquetes que deixam o grupo Bem Alimentado."
+				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:campfire"
+			id: "1C89D4E7E168D6E7"
+			rewards: [
+				{
+					id: "707B256F5B257406"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:interno/oficio_cozinheiro"
+					criterion: ""
+					id: "3573C15064A32BD9"
+					type: "advancement"
+				}
+			]
+			title: "Aprendiz de Cozinheiro"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C89D4E7E168D6E7"]
+			description: ["Faça a primeira Ração de Viagem."]
+			hide_until_deps_visible: true
+			icon: "gurizes:racao_de_viagem"
+			id: "5AA87A39DA9ED80D"
+			rewards: [
+				{
+					id: "215AC43DDCE311F9"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FC31C6C86BE55D1"
+					item: "gurizes:racao_de_viagem"
+					type: "item"
+				}
+			]
+			title: "Ração de Viagem"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AA87A39DA9ED80D"]
+			description: ["Faça o primeiro Banquete do Acampamento."]
+			hide_until_deps_visible: true
+			icon: "gurizes:banquete_do_acampamento"
+			id: "10DF936F2EFD3F12"
+			rewards: [
+				{
+					id: "50FAD1791DAD6697"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0195F4C78DC5C4DF"
+					item: "gurizes:banquete_do_acampamento"
+					type: "item"
+				}
+			]
+			title: "Banquete do Acampamento"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10DF936F2EFD3F12", "1F82201E3EE0EE78"]
+			description: [
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:campfire"
+			id: "436B2329BF66D0AC"
+			rewards: [
+				{
+					count: 2
+					id: "7A4DB8AC0F5B84B2"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "26E10C26D60D567B"
+					type: "checkmark"
+				}
+			]
+			title: "Mestre Cozinheiro"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["436B2329BF66D0AC"]
+			description: ["Faça o primeiro Banquete Real."]
+			hide_until_deps_visible: true
+			icon: "gurizes:banquete_real"
+			id: "6F180CC27084ABED"
+			rewards: [
+				{
+					count: 2
+					id: "144C819EB3A261D8"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "30C58F98760A6696"
+					item: "gurizes:banquete_real"
+					type: "item"
+				}
+			]
+			title: "Banquete Real"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Ofício: Cozinheiro"
+}

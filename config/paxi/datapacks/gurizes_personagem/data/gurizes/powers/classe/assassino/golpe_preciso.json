@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "name": "Golpe Preciso",
+  "description": "+8% de chance de crítico e +15% de dano crítico.",
+  "modifiers": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "operation": "addition",
+      "value": 0.08,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "operation": "addition",
+      "value": 0.15,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

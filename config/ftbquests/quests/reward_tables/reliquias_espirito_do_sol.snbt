@@ -1,0 +1,18 @@
+{
+	icon: "aether:sun_altar"
+	id: "2E4D63DF7E091314"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: "aether:flaming_sword"
+		}
+		{
+			item: "aether:phoenix_bow"
+		}
+		{
+			item: "aether:vampire_blade"
+		}
+	]
+	title: "Relíquias Errantes: Espírito do Sol"
+}

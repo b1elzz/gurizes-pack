@@ -1,0 +1,18 @@
+{
+  "name": "Druida",
+  "description": "A floresta não escolhe lados. Eu escolho, e ela me empresta a força. Papel: cura e controle. Armas: cajados e foices. Escolas: Natureza e Sagrada. Combina com: Berserker e Lâmina Arcana. Dificuldade: ★★☆",
+  "icon": {
+    "item": "minecraft:oak_leaves"
+  },
+  "impact": 2,
+  "order": 8,
+  "powers": [
+    "gurizes:classe/druida/registro",
+    "gurizes:classe/druida/raizes_vivas",
+    "gurizes:classe/druida/abrigo_verde",
+    "gurizes:classe/druida/circulo_verdejante",
+    "gurizes:classe/druida/casca_de_carvalho",
+    "gurizes:classe/druida/ira_da_floresta",
+    "gurizes:classe/druida/avesso_ao_metal"
+  ]
+}

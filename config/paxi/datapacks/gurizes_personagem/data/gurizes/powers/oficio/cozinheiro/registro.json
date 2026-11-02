@@ -1,0 +1,38 @@
+{
+  "type": "origins:action_on_callback",
+  "hidden": true,
+  "entity_action_added": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "tag @s add gurizes.oficio.cozinheiro"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "astages add @s oficio_cozinheiro"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only gurizes:interno/oficio_cozinheiro"
+      }
+    ]
+  },
+  "entity_action_removed": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "tag @s remove gurizes.oficio.cozinheiro"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "astages remove @s oficio_cozinheiro"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement revoke @s only gurizes:interno/oficio_cozinheiro"
+      }
+    ]
+  }
+}

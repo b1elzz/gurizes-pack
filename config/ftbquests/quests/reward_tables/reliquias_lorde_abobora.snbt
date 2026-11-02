@@ -1,0 +1,18 @@
+{
+	icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+	id: "189174133B225005"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+		}
+		{
+			item: "born_in_chaos_v1:pumpkinstaffa"
+		}
+		{
+			item: "born_in_chaos_v1:great_reaper_axe"
+		}
+	]
+	title: "Relíquias Errantes: Lorde Cabeça-de-Abóbora"
+}

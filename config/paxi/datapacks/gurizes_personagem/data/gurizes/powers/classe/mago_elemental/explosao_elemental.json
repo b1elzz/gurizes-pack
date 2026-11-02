@@ -1,0 +1,48 @@
+{
+  "type": "origins:active_self",
+  "name": "Explosão Elemental (G)",
+  "description": "Lança a magia do elemento ativo: Bola de Fogo, Cone de Frio ou Relâmpago em Cadeia. Troque o elemento com o Cetro do Selo ou com /trigger gurizes.elemento set 0, 1 ou 2. Recarga de 20 s.",
+  "cooldown": 400,
+  "hud_render": {
+    "should_render": true
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:scoreboard",
+      "objective": "gurizes.elemento",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "cast @s irons_spellbooks:cone_of_cold 3"
+    },
+    "else_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:scoreboard",
+        "objective": "gurizes.elemento",
+        "comparison": "==",
+        "compare_to": 2
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "cast @s irons_spellbooks:chain_lightning 3"
+      },
+      "else_action": {
+        "type": "origins:execute_command",
+        "command": "cast @s irons_spellbooks:fireball 3"
+      }
+    }
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_2_vencido",
+    "inverted": true
+  }
+}

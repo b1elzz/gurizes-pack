@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_healing",
+  "name": "Rejeitado pela Luz",
+  "description": "Fraqueza: −15% de cura recebida.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.15
+  }
+}

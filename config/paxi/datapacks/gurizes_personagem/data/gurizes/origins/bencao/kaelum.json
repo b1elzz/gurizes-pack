@@ -1,0 +1,13 @@
+{
+  "name": "Kaelum, o Escriba das Estrelas",
+  "description": "Saber, estrelas e arcano. Menor: +10% de mana, +5% de regeneração de mana. Maior (após o Ato III): Constelação.",
+  "icon": {
+    "item": "minecraft:enchanted_book"
+  },
+  "impact": 1,
+  "order": 6,
+  "powers": [
+    "gurizes:bencao/kaelum/menor_escriba",
+    "gurizes:bencao/kaelum/maior_constelacao"
+  ]
+}

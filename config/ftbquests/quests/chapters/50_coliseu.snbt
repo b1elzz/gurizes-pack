@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "50_coliseu"
+	group: "03FB9847B41237C9"
+	icon: "gurizes:pedra_coliseu"
+	id: "104169ACF394D6BE"
+	order_index: 24
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0924316264A2A2A8"]
+			description: [
+				"Vença um duelo na Arena. Vale só lá dentro: fora dela o Juramento não deixa um amigo ferir o outro."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_sword"
+			id: "36A5DF1D6730B8EA"
+			rewards: [
+				{
+					id: "08CF2F57C90E6E4B"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "gurizes:pvp/primeiro_duelo"
+					criterion: ""
+					id: "38C2E25AAFB9A1A8"
+					type: "advancement"
+				}
+			]
+			title: "Briga de Irmão"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A5DF1D6730B8EA"]
+			description: ["Some 5 vitórias no Coliseu (placar gurizes_pvp_vitorias)."]
+			hide_until_deps_visible: true
+			icon: "minecraft:golden_sword"
+			id: "167EEC36A11FEBA0"
+			rewards: [
+				{
+					count: 2
+					id: "7F71EB37EE8A21CE"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23722C643BB5C08F"
+					type: "custom"
+				}
+			]
+			title: "5 vitórias"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["167EEC36A11FEBA0"]
+			description: ["Some 10 vitórias no Coliseu (placar gurizes_pvp_vitorias)."]
+			hide_until_deps_visible: true
+			icon: "minecraft:golden_sword"
+			id: "1B8A82958AC27D6B"
+			rewards: [
+				{
+					count: 4
+					id: "6C48A0E4F44C8FBB"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2FD8A0F63072E023"
+					type: "custom"
+				}
+			]
+			title: "10 vitórias"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B8A82958AC27D6B"]
+			description: ["Some 25 vitórias no Coliseu (placar gurizes_pvp_vitorias)."]
+			hide_until_deps_visible: true
+			icon: "minecraft:golden_sword"
+			id: "225BCE292E3C3810"
+			rewards: [
+				{
+					id: "28926B9F3213D69F"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "566AB935DA01FFC0"
+					type: "custom"
+				}
+			]
+			title: "25 vitórias"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Coliseu dos Gurizes"
+}

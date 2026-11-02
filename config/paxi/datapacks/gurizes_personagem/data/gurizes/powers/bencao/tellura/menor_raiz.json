@@ -1,0 +1,13 @@
+{
+  "type": "origins:attribute",
+  "hidden": true,
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "operation": "addition",
+      "value": 0.08,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

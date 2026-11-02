@@ -1,0 +1,342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00_primeira_hora"
+	group: "7A0A9C2928225198"
+	icon: "gurizes:estandarte_do_juramento"
+	id: "329C3963FA6235A3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"\"Ajoelhe, levante a mão e repita comigo: &opela Coroa, pelo Selo e pelos amigos que não deixo para trás.&r"
+				"Pronto. Agora você é um Juramentado. Ah, e arrume uma espada. Juramento não corta.\""
+				"&7- Capitã Isolde"
+				""
+				"Valdren está partido: o rei Morvhal quebrou o Selo dos Sete e a Mácula acordou."
+				"Recupere os Fragmentos, liberte os Guardiões e refaça o Selo."
+			]
+			icon: "gurizes:estandarte_do_juramento"
+			id: "3889F93F344D9395"
+			rewards: [
+				{
+					id: "1EEB7A5ADDA2C935"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "492B7E8960116673"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "7B1C84A7DB9865EF"
+					item: "gurizes:pergaminho_do_recomeco"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Prólogo"
+			tasks: [
+				{
+					id: "48EFDA7ED0E2AD9B"
+					type: "checkmark"
+				}
+			]
+			title: "O Último Juramento"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3889F93F344D9395"]
+			description: [
+				"Escolha as quatro camadas do seu personagem: &eRaça&r, &eBênção&r, &eClasse&r e &eOfício&r."
+				"A classe pesa mais; as outras dão um tempero. Antes de vencer o primeiro porteiro,"
+				"o Pergaminho do Recomeço troca tudo de graça uma vez."
+			]
+			icon: "minecraft:player_head"
+			id: "4DDB3E9E6F0CC55F"
+			rewards: [
+				{
+					id: "1CD0B405FEAD7338"
+					stage: "juramentado"
+					type: "astages_ftbquests:player"
+				}
+				{
+					id: "18EF7CB157965F64"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:tutorial/camadas_escolhidas"
+					criterion: ""
+					id: "3D522268F62598F9"
+					type: "advancement"
+				}
+			]
+			title: "Quem é você?"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
+			description: [
+				"Derrube 5 criaturas hostis. Cada arma tem um movimento próprio (Better Combat)"
+				"e a tecla de &eesquiva&r (Combat Roll) salva vidas. Olhe para um monstro para ver o nível dele:"
+				"quanto mais longe do spawn e mais fundo, mais forte."
+			]
+			icon: "minecraft:iron_sword"
+			id: "5939A507121EB426"
+			rewards: [
+				{
+					count: 3
+					id: "74781F890A619392"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A31DDCCB4715CAF"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "609DB3CA10684DF8"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 5
+				}
+			]
+			title: "Primeiros golpes"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5939A507121EB426"]
+			description: [
+				"Fornalha, ferramentas de pedra e uma cama no Pouso."
+				"Faltou a cama? São três lãs brancas e três tábuas na bancada."
+				"Ninguém salva um reino dormindo no chão."
+			]
+			icon: "minecraft:campfire"
+			id: "432854924D718AFB"
+			rewards: [
+				{
+					count: 8
+					id: "193753E2EDFB0F85"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "19072C0106D050F7"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73EDA95FB8A7D6ED"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "70CE5E2383B8DCFD"
+					item: "minecraft:stone_pickaxe"
+					type: "item"
+				}
+				{
+					id: "5846D23C4625A9A5"
+					item: "minecraft:stone_axe"
+					type: "item"
+				}
+				{
+					id: "2F072B5D8FC1A514"
+					item: "minecraft:stone_sword"
+					type: "item"
+				}
+				{
+					id: "20087704EFD3611F"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+			]
+			title: "Acampamento"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["432854924D718AFB"]
+			description: [
+				"Abra a árvore de habilidades passivas (tecla da Passive Skill Tree)."
+				"Cada ponto vem de XP; o Pergaminho da Amnésia refaz a árvore."
+				"Sua classe diz por qual ramo começar."
+			]
+			icon: "skilltree:wisdom_scroll"
+			id: "2004C8818AF46DB1"
+			rewards: [
+				{
+					id: "37160B0106C4FA7B"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "780F5AE0092641BE"
+					type: "checkmark"
+				}
+			]
+			title: "A Árvore"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2004C8818AF46DB1"]
+			description: [
+				"Tenha um pergaminho de magia. Coloque-o no livro de magias (slot de Curios)"
+				"e lance com a tecla de magia. Mana regenera sozinha; cada classe tem suas escolas."
+			]
+			icon: "irons_spellbooks:copper_spell_book"
+			id: "33F4705178B7A8F6"
+			rewards: [
+				{
+					count: 2
+					id: "343EBDB269FBD257"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2CE46AA3E30B17DF"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			]
+			title: "Primeira magia"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33F4705178B7A8F6"]
+			description: [
+				"Ao morrer, seus itens vão para uma &ecova&r no lugar da morte e o XP fica com você."
+				"A Bússola da Cova aponta o caminho. Com pressa? Pague níveis de XP na tela de morte"
+				"para resgatar tudo na hora: é a Oferenda a Vesperis. Quanto mais itens e mais longe na"
+				"campanha, mais caro; resgatar de novo em 30 minutos sai mais caro ainda."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "105078CDCE404C28"
+			rewards: [
+				{
+					id: "6E63ED9082832CF3"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7EF467FD1B6FAD52"
+					type: "checkmark"
+				}
+			]
+			title: "A Cova e o Resgate"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105078CDCE404C28"]
+			description: [
+				"Tenha 5 Moedas de Bronze. 9 bronze viram 1 prata; 9 prata, 1 ouro (na bancada, sem perda)."
+				"Moeda compra no capítulo &eMercador da Coroa&r, que abre agora."
+				"Este marco entrega ao grupo o &eEstandarte do Juramento&r, para a próxima etapa."
+			]
+			icon: "gurizes:moeda_bronze"
+			id: "457DAF33C1BBACDF"
+			rewards: [
+				{
+					id: "51619BCA86B7533A"
+					item: "gurizes:estandarte_do_juramento"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "761B47A73F84E074"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			title: "Moedas da Coroa"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["457DAF33C1BBACDF"]
+			description: [
+				"Coloque o Estandarte do Juramento (entregue na quest anterior) onde o grupo vai morar:"
+				"ali é o &ePouso do Juramento&r, ponto de renascimento de todos."
+				"O Pouso cresce a cada ato (capítulo Melhorias da Base)."
+			]
+			icon: "gurizes:estandarte_do_juramento"
+			id: "72E8F8F942E79625"
+			rewards: [
+				{
+					count: 2
+					id: "7EBF085301FB7C43"
+					item: "minecraft:chest"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/estandarte_colocado"
+					criterion: ""
+					id: "4981FC82304C0F5C"
+					type: "advancement"
+				}
+			]
+			title: "Base do Grupo"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72E8F8F942E79625"]
+			description: [
+				"O primeiro Fragmento está com Sir Galvar, na Cripta do Primeiro Cavaleiro."
+				"Itens com a marca &6Selado pelo Juramento&r podem ser guardados, mas só funcionam"
+				"quando o ato deles chegar. O capítulo do Ato I está aberto."
+			]
+			icon: "gurizes:bussola_do_selo"
+			id: "3484B276FE312BD7"
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "21672CDEA89A832D"
+					type: "checkmark"
+				}
+			]
+			title: "Rumo ao Guardião"
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+	title: "Primeira Hora"
+}
