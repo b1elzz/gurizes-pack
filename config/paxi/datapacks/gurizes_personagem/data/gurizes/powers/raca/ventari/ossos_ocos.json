@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Ossos Ocos",
+  "description": "Fraqueza: −2 corações.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -4,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

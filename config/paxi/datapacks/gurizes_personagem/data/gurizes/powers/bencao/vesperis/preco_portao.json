@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Sem Pressa",
+  "description": "Preço: −6% de velocidade de ataque.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "multiply_base",
+      "value": -0.06,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

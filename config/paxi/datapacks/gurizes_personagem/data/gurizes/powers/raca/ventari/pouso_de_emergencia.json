@@ -1,0 +1,36 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Pouso de Emergência",
+  "description": "Sem Fôlego e em queda livre, as asas freiam a queda (Queda Lenta).",
+  "interval": 10,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slow_falling",
+      "duration": 60,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:raca/ventari/folego",
+        "comparison": "<=",
+        "compare_to": 0
+      },
+      {
+        "type": "apoli:on_block",
+        "inverted": true
+      },
+      {
+        "type": "apoli:fall_distance",
+        "comparison": ">=",
+        "compare_to": 3
+      }
+    ]
+  }
+}

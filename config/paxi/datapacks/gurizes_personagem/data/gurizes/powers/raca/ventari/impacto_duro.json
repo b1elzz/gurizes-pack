@@ -1,0 +1,22 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Impacto Duro",
+  "description": "Fraqueza: quedas e batidas em paredes doem 40% mais.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.4
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "fall"
+      },
+      {
+        "type": "origins:name",
+        "name": "flyIntoWall"
+      }
+    ]
+  }
+}

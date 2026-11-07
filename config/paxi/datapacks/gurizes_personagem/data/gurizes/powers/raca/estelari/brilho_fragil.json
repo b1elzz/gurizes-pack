@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Brilho Frágil",
+  "description": "Fraqueza: +15% de dano mágico recebido.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.15
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:magia"
+  }
+}

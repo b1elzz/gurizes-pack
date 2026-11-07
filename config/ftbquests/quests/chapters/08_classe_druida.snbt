@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_druida"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:cajado_do_carvalho_primevo"
+	id: "454629E6145B13D1"
+	order_index: 16
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Druida."]
+			icon: "minecraft:oak_sapling"
+			id: "6AC628BFDAD5F519"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_druida"
+					criterion: ""
+					id: "64CA77E11DF5B88D"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Druida"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AC628BFDAD5F519"]
+			description: [
+				"\"A floresta não escolhe lados. Eu escolho, e ela me empresta a força.\""
+				""
+				"Cajado, livro de magias com pergaminhos de cura e raízes, e mudas de carvalho."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:artificer_cane"
+			id: "5FFAC3914804CFE5"
+			rewards: [
+				{
+					id: "1A7E20C4A1F11BC6"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77C52E4B1DF98580"
+					item: "irons_spellbooks:artificer_cane"
+					type: "item"
+				}
+				{
+					id: "69F1521FDB051A51"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6BEE45391F96CDA6"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "Cajado e Mudas"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FFAC3914804CFE5"]
+			description: [
+				"Aperte &eG&r: cria um círculo de cura no chão (nível 4). Recarga de 30 s."
+				"Na floresta ou na chuva, o Abrigo Verde ainda regenera você, de graça."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:scroll"
+			id: "740943423735B55F"
+			rewards: [
+				{
+					id: "4D7AC5D67D068D69"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_druida"
+					criterion: ""
+					id: "4CB55EB98BD1EABF"
+					type: "advancement"
+				}
+			]
+			title: "Círculo Verdejante"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["740943423735B55F"]
+			description: [
+				"O bosque também morde. Cace aranhas e mortos-vivos sem gastar seus melhores círculos."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:spider_eye"
+			id: "284DE6AECB10CF14"
+			rewards: [
+				{
+					count: 2
+					id: "6B1D17A1A582452F"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "7BC48EA98E4C43B8"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "58B0A9DF219B1E77"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "Garras do Bosque"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AC628BFDAD5F519"]
+			description: [
+				"Cuidar de bicho e de planta é o seu ofício. Crie dois filhotes e junte farinha de osso."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:bone_meal"
+			id: "768ECD286DB3C854"
+			rewards: [
+				{
+					id: "472168A3B5888E37"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5E161655FC907279"
+					stat: "minecraft:animals_bred"
+					type: "stat"
+					value: 2
+				}
+				{
+					count: 8L
+					id: "375C2C68D6875053"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			title: "Mão Verde"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["6AC628BFDAD5F519", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Cajado do Carvalho Primevo na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:cajado_do_carvalho_primevo"
+			id: "24BEDD4712428270"
+			rewards: [
+				{
+					id: "691804E5FC05D00D"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Druida · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "5BFD52515D270153"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74D74B288BCF1ACC"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Cajado do Carvalho Primevo"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["284DE6AECB10CF14", "768ECD286DB3C854"]
+			description: [
+				"Sir Galvar é imune a veneno e resiste a muito dano. Seu trabalho é o grupo:"
+				"mantenha o Círculo Verdejante sob os aliados e use as raízes nos Escudeiros Ocos."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_chestplate"
+			id: "7C3BAE9347ACB799"
+			rewards: [
+				{
+					count: 2
+					id: "02A4830A347DF601"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "4F086F978CBBB839"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "4FF08574E38BA714"
+					type: "checkmark"
+				}
+			]
+			title: "A Mata Contra o Cavaleiro"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Druida"
+}

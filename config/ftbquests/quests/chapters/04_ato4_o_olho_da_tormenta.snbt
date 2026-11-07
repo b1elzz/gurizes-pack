@@ -31,8 +31,8 @@
 				}
 			]
 			title: "Os Deuses Despertam"
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["28FBF6D18351472B"]
@@ -59,8 +59,8 @@
 				}
 			]
 			title: "Sete Ventos"
-			x: 0.0d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0E3ABA8733D7AC8E"]
@@ -93,8 +93,8 @@
 				}
 			]
 			title: "Pérolas Negras"
-			x: 2.0d
-			y: 0.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0E3ABA8733D7AC8E"]
@@ -118,6 +118,8 @@
 					type: "item"
 				}
 			]
+			shape: "square"
+			size: 0.9d
 			subtitle: "&7Opcional"
 			tasks: [
 				{
@@ -127,8 +129,8 @@
 				}
 			]
 			title: "Ecos do Fundo"
-			x: 2.0d
-			y: 2.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["48B9A1153A465FDF"]
@@ -154,8 +156,8 @@
 				}
 			]
 			title: "A Concha da Tempestade"
-			x: 4.0d
-			y: 0.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -192,7 +194,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "&6Porteiro"
 			tasks: [
 				{
@@ -203,9 +205,10 @@
 				}
 			]
 			title: "O Olho da Tormenta"
-			x: 6.5d
-			y: 0.0d
+			x: 10.5d
+			y: 3.0d
 		}
 	]
+	subtitle: ["Porteiro: Nerezza"]
 	title: "Ato IV: O Olho da Tormenta"
 }

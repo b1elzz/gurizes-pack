@@ -1,6 +1,6 @@
 {
   "name": "Pés-Leves",
-  "description": "Pequeninos do Vale Redondo, rápidos e sortudos. Pequenos o bastante para passar despercebidos. +5% de esquiva, +8% de velocidade, −50% de queda. Fraqueza: −0,5 de alcance.",
+  "description": "Pequeninos do Vale Redondo: pequenos para passar despercebidos, rápidos para não serem pegos. Estilo: escapista. +5% de esquiva, +8% de velocidade, −50% de dano de queda. Fraqueza: −0,5 de alcance.",
   "icon": {
     "item": "minecraft:rabbit_foot"
   },

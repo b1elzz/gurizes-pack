@@ -1,8 +1,8 @@
 {
   "name": "Assassino",
-  "description": "O boss tem muita vida. Eu só preciso achar o lugar certo. Papel: dano explosivo num alvo. Armas: adagas e espadas curtas. Escolas: Ender e Sangue. Combina com: Paladino, Caçador e Bardo. Dificuldade: ★★★",
+  "description": "“O boss tem muita vida. Eu só preciso achar o lugar certo.” Explosão de dano num alvo; frágil. Armas: adagas. ★★★",
   "icon": {
-    "item": "minecraft:iron_sword"
+    "item": "simplyswords:iron_sai"
   },
   "impact": 3,
   "order": 10,

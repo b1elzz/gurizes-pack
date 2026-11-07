@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_bardo"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:estandarte_do_ultimo_reino"
+	id: "176210F739235682"
+	order_index: 15
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Bardo de Guerra."]
+			icon: "minecraft:white_banner"
+			id: "6BC0E798DCD52CBD"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_bardo"
+					criterion: ""
+					id: "23386E699122796A"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Bardo de Guerra"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BC0E798DCD52CBD"]
+			description: [
+				"\"Uma canção certa vale por dez espadas. Eu trouxe as duas.\""
+				""
+				"Lança de ferro, livro de magias e um disco de música para o ânimo."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "simplyswords:iron_spear"
+			id: "650AD72CFB71C23A"
+			rewards: [
+				{
+					id: "446524E960856D6A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "248CE0E3CF35B4EA"
+					item: "simplyswords:iron_spear"
+					type: "item"
+				}
+				{
+					id: "7FECAEC82558CAF7"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+				{
+					id: "207A3CF0398A289B"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+			]
+			title: "Lança e Canção"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["650AD72CFB71C23A"]
+			description: [
+				"Aperte &eG&r: aliados a até 10 blocos ganham Força I e Inspiração por 10 s. Recarga de 40 s."
+				"A Presença Inspiradora já dá Velocidade a quem estiver perto, o tempo todo."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:goat_horn"
+			id: "3FAA528052833A76"
+			rewards: [
+				{
+					id: "216AE93B4DC0E114"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_bardo"
+					criterion: ""
+					id: "0CB03547D08850EA"
+					type: "advancement"
+				}
+			]
+			title: "Hino de Coragem"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FAA528052833A76"]
+			description: [
+				"Seu valor é o grupo. Lute ao lado de aliados e mantenha as auras rodando."
+				"Mão Leve: você bate um pouco mais fraco, mas quem está com você bate mais forte."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_sword"
+			id: "3329F23B24303BB0"
+			rewards: [
+				{
+					count: 2
+					id: "4F27AAFA5EA815BD"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "0610D7785D60DE39"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "6DE08BC9CE91F62E"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "Marcha de Combate"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BC0E798DCD52CBD"]
+			description: [
+				"Banda de guerra pede bandeira e ritmo."
+				"Estandarte branco: lã e graveto. Bloco musical: tábuas e pó de redstone."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:note_block"
+			id: "0283DD1E35C21601"
+			rewards: [
+				{
+					id: "18722A54F1847BFF"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B5289EF18525FF5"
+					item: "minecraft:white_banner"
+					type: "item"
+				}
+				{
+					id: "65F8FE0B05242BA3"
+					item: "minecraft:note_block"
+					type: "item"
+				}
+			]
+			title: "Estandarte e Tambor"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["6BC0E798DCD52CBD", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Estandarte do Último Reino na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:estandarte_do_ultimo_reino"
+			id: "74B7344BDBD5ABF4"
+			rewards: [
+				{
+					id: "2D146C454B44CC2C"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Bardo de Guerra · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "7107477C89BC9241"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "144EBEDF2462EC61"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Estandarte do Último Reino"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3329F23B24303BB0", "0283DD1E35C21601"]
+			description: [
+				"Sir Galvar invoca Escudeiros Ocos: é a hora do Hino de Coragem."
+				"Mantenha o grupo por perto, dentro do alcance das auras, e fuja do Pulso da Coroa."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_chestplate"
+			id: "16CE4A25CA8011E0"
+			rewards: [
+				{
+					count: 2
+					id: "718FEC9278B75A94"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "14C36E90CFCA7044"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "5FC13ADFFFB08EF5"
+					type: "checkmark"
+				}
+			]
+			title: "Coragem Antes da Cripta"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Bardo de Guerra"
+}

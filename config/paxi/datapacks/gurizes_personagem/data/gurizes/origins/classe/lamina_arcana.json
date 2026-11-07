@@ -1,8 +1,8 @@
 {
   "name": "Lâmina Arcana",
-  "description": "A espada abre a guarda. A magia termina o serviço. Papel: híbrido corpo a corpo e magia. Armas: espadas longas, katanas e rapieiras. Escolas: Evocação, Raio e Ender. Combina com: Druida. Dificuldade: ★★★",
+  "description": "“A espada abre a guarda. A magia termina o serviço.” Híbrido de corte e magia. Armas: espadas longas e katanas. ★★★",
   "icon": {
-    "item": "minecraft:diamond_sword"
+    "item": "simplyswords:iron_katana"
   },
   "impact": 3,
   "order": 6,

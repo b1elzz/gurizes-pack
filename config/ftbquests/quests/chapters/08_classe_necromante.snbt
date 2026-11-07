@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_necromante"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:grimorio_partido"
+	id: "0B813CC7EAE9B4AE"
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Necromante."]
+			icon: "minecraft:book"
+			id: "600E39DBAF6C7351"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_necromante"
+					criterion: ""
+					id: "43DF66292E9392FA"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Necromante"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["600E39DBAF6C7351"]
+			description: [
+				"\"Os mortos de Valdren ainda lutam pelo reino. Só precisam de alguém que os chame.\""
+				""
+				"Foice na mão, livro de magias no slot de Curios e o pergaminho que ergue os mortos."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "simplyswords:iron_scythe"
+			id: "78ED59852630A5C4"
+			rewards: [
+				{
+					id: "23C2B6A30150F069"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3660BBB8047297AC"
+					item: "simplyswords:iron_scythe"
+					type: "item"
+				}
+				{
+					id: "1AA89A3BE84FDA41"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+				{
+					id: "0CB74F3CFED39AD8"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			]
+			title: "Foice e Grimório"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78ED59852630A5C4"]
+			description: [
+				"Aperte &eG&r: ergue mortos-vivos aliados para lutar por você. Recarga de 45 s."
+				"Eles seguram os monstros e distraem o boss. Você causa dano de longe."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:scroll"
+			id: "46DD35260F8D2051"
+			rewards: [
+				{
+					id: "14A89385AEBCE251"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_necromante"
+					criterion: ""
+					id: "6F80A7DDB87C517A"
+					type: "advancement"
+				}
+			]
+			title: "Erguer os Caídos"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46DD35260F8D2051"]
+			description: [
+				"Cada morte que você causa devolve um pouco de vida."
+				"Caçar mortos-vivos é o treino ideal: eles vêm até você e você só colhe."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:bone"
+			id: "3086F31428B2D2CA"
+			rewards: [
+				{
+					count: 2
+					id: "712B9BC3812E704A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "20A31D97E3FD41AB"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "326944AC494339EE"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "Colheita de Almas"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["600E39DBAF6C7351"]
+			description: [
+				"Todo necromante guarda a despensa: ossos para o ritual e carne podre para o que sobrar."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:rotten_flesh"
+			id: "2A91FE9914FDA578"
+			rewards: [
+				{
+					id: "070347FA1062C960"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "767118D074ADF7F2"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "64E90AB83E4A195C"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			title: "Ossos e Carne Podre"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["600E39DBAF6C7351", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Grimório Partido na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:grimorio_partido"
+			id: "362354FA99627DA7"
+			rewards: [
+				{
+					id: "3CFD2D681B08E442"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Necromante · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "346CF26B5C766A45"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "65C1A02567CAC632"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Grimório Partido"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3086F31428B2D2CA", "2A91FE9914FDA578"]
+			description: [
+				"Sir Galvar é imune a veneno e wither e resiste a sangue. Use os mortos erguidos como escudo"
+				"contra os Escudeiros Ocos e bata de longe, nas costas, enquanto ele persegue as invocações."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "40DA735F748B44CA"
+			rewards: [
+				{
+					count: 2
+					id: "68A6624982EA28BB"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "3B4CF481C1545AD4"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "50459423D417E140"
+					type: "checkmark"
+				}
+			]
+			title: "Mortos Contra o Cavaleiro"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Necromante"
+}

@@ -1,0 +1,49 @@
+{
+  "type": "origins:active_self",
+  "name": "Batida de Asas",
+  "description": "Espaço em pleno planeio: impulso para frente e para cima. Gasta 25 de Fôlego. Recarga de 5 s.",
+  "cooldown": 100,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 3
+  },
+  "key": {
+    "key": "key.jump",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "gurizes:raca/ventari/folego",
+        "change": -25
+      },
+      {
+        "type": "apoli:add_velocity",
+        "x": 0.0,
+        "y": 0.5,
+        "z": 1.1,
+        "space": "local"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.phantom.flap"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "apoli:fall_flying"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:raca/ventari/folego",
+        "comparison": ">=",
+        "compare_to": 25
+      }
+    ]
+  }
+}

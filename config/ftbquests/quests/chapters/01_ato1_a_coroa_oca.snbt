@@ -55,7 +55,7 @@
 			]
 			title: "Pão, Aço e Teto"
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4EFB037441788980"]
@@ -85,8 +85,8 @@
 				}
 			]
 			title: "Ecos da Coroa"
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0E86F641B290EC88"]
@@ -121,8 +121,8 @@
 				}
 			]
 			title: "A Insígnia"
-			x: 4.0d
-			y: 0.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4BB6AB1764E85F5B"]
@@ -148,8 +148,8 @@
 				}
 			]
 			title: "A Coroa Votiva"
-			x: 6.0d
-			y: 0.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -186,7 +186,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "&6Porteiro"
 			tasks: [
 				{
@@ -197,9 +197,10 @@
 				}
 			]
 			title: "A Cripta do Primeiro Cavaleiro"
-			x: 8.5d
-			y: 0.0d
+			x: 10.5d
+			y: 3.0d
 		}
 	]
+	subtitle: ["Porteiro: Sir Galvar"]
 	title: "Ato I: A Coroa Oca"
 }

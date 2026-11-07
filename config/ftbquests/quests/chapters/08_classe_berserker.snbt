@@ -1,0 +1,248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_berserker"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:machado_rubro"
+	id: "71EEEC655AE55D9A"
+	order_index: 10
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Berserker."]
+			icon: "minecraft:iron_axe"
+			id: "0D7C475AEDB362AE"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_berserker"
+					criterion: ""
+					id: "2A22CD62FB3D9325"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Berserker"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D7C475AEDB362AE"]
+			description: [
+				"\"Dor é só a batalha avisando que você ainda está nela.\""
+				""
+				"Machado de duas mãos e livro de magias. Escudo? Você jurou não usar."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_axe"
+			id: "5D1236699E79DFF2"
+			rewards: [
+				{
+					id: "2BB2B829D6AFB48A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32EC6ABA224CE1B4"
+					item: "minecraft:iron_axe"
+					type: "item"
+				}
+				{
+					id: "50D145B5866307F2"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "O Machado de Ferro"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D1236699E79DFF2"]
+			description: [
+				"Bata e apanhe: a barra de Fúria sobe. Com 50 de Fúria, aperte &eG&r."
+				"Você ganha Força I e enfraquece os inimigos a 6 blocos. Recarga de 20 s."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:goat_horn"
+			id: "230EEFAE5EA4499C"
+			rewards: [
+				{
+					id: "2E7B346002EF47B0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_berserker"
+					criterion: ""
+					id: "1340521DE0CACD8C"
+					type: "advancement"
+				}
+			]
+			title: "Grito de Guerra"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["230EEFAE5EA4499C"]
+			description: [
+				"Chegue perto. Aranhas e mortos-vivos alimentam a Fúria."
+				"Com 50 de Fúria você ganha velocidade de ataque e roubo de vida. Não largue o combate."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:spider_eye"
+			id: "64AFB6D217E1A550"
+			rewards: [
+				{
+					count: 2
+					id: "32DF514491853EE5"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "7E749201F35DE09A"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "6F0882C2E9EA5641"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "A Dor Avisa"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D7C475AEDB362AE"]
+			description: [
+				"Fúria dá fome. Oito bifes assados cabem na mochila e fazem diferença no meio da briga."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:cooked_beef"
+			id: "6D3B4276D2C6507D"
+			rewards: [
+				{
+					id: "5EE8F359B4F6A15E"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5C640FEE3950B390"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			title: "Banquete de Guerra"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["0D7C475AEDB362AE", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Machado Rubro na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:machado_rubro"
+			id: "6525B24B0D7A5FD6"
+			rewards: [
+				{
+					id: "6072DAFB5DB29B5D"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Berserker · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "3D141736DC543F79"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1110FA6A997F9EBD"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Machado Rubro"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AFB6D217E1A550", "6D3B4276D2C6507D"]
+			description: [
+				"Machados quebram a guarda de Sir Galvar. Entre na briga pelas costas na fase 1."
+				"Use os pilares contra a Investida e guarde o Grito de Guerra para os Escudeiros Ocos."
+				"Ele resiste a sangue e fogo de frente."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_chestplate"
+			id: "7B9FE812B2B9DB24"
+			rewards: [
+				{
+					count: 2
+					id: "70095FCFDC2973FC"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "71CBB7477C93DD48"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "57F1FCBFC4729423"
+					type: "checkmark"
+				}
+			]
+			title: "Machado Contra a Guarda"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Berserker"
+}

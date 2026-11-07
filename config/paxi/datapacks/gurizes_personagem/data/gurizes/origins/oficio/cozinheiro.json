@@ -1,6 +1,6 @@
 {
   "name": "Cozinheiro",
-  "description": "Ninguém luta bem de barriga vazia. Banquetes que dão vida extra ao grupo.",
+  "description": "Ninguém luta bem de barriga vazia. Come melhor (+40% de saturação) e cozinha banquetes que dão vida extra ao grupo.",
   "icon": {
     "item": "minecraft:cake"
   },

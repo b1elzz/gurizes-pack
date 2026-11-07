@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_sua_classe"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:centelha_do_selo"
+	id: "3D588B48AEA5B79C"
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Sua classe define a arma-assinatura, as habilidades e a árvore de passivas por onde começar."
+				"Escolha na tela de personagem (ou troque no Pergaminho do Recomeço, de graça, uma vez)."
+				""
+				"&ePaladino&r: Égide do Juramento"
+				"&eBerserker&r: Machado Rubro"
+				"&eMago Elemental&r: Cetro do Selo"
+				"&eNecromante&r: Grimório Partido"
+				"&eCaçador&r: Arco de Valdren"
+				"&eLâmina Arcana&r: Lâmina Rúnica"
+				"&eBardo de Guerra&r: Estandarte do Último Reino"
+				"&eDruida&r: Cajado do Carvalho Primevo"
+				"&eMonge&r: Bastão dos Mil Passos"
+				"&eAssassino&r: Adaga do Último Suspiro"
+				""
+				"Depois de escolher, a página da sua classe aparece na lista ao lado. Só a sua."
+			]
+			icon: "minecraft:shield"
+			id: "26BDAAC04D579B9A"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&6Passo 1"
+			tasks: [
+				{
+					advancement: "gurizes:tutorial/camadas_escolhidas"
+					criterion: ""
+					id: "4BE2FFA499532E8C"
+					type: "advancement"
+				}
+			]
+			title: "Escolha sua Classe"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Cada classe tem uma arma-assinatura que cresce com a campanha (Formas I a V)."
+				"A Forma I sai aqui, depois do primeiro porteiro: 3 Ferro Votivo e 1 Centelha do Selo."
+				"As Formas seguintes são na mesa de ferraria, com a Centelha e o material de cada ato."
+				"A arma só reconhece quem fez o juramento da classe dela."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:centelha_do_selo"
+			id: "08980327ADCB5557"
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "222A57151A826E24"
+					type: "checkmark"
+				}
+			]
+			title: "A Arma que Lembra"
+			x: 4.0d
+			y: 2.5d
+		}
+	]
+	subtitle: ["Escolha e arma-assinatura"]
+	title: "Sua Classe"
+}

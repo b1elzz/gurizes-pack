@@ -1,0 +1,22 @@
+{
+  "name": "Ventari",
+  "description": "Gente do Vendaval, das Agulhas de Karrum: o chão é só onde pousam. Estilo: planador. Planam e batem asas (Espaço no ar) com Fôlego limitado. Fraqueza: −2 corações, sem peitoral pesado, golpes em voo cansam.",
+  "icon": {
+    "item": "minecraft:elytra"
+  },
+  "impact": 2,
+  "order": 9,
+  "powers": [
+    "gurizes:raca/ventari/asas",
+    "gurizes:raca/ventari/batida_de_asas",
+    "gurizes:raca/ventari/golpe_rasante",
+    "gurizes:raca/ventari/folego",
+    "gurizes:raca/ventari/folego_gasto",
+    "gurizes:raca/ventari/folego_volta",
+    "gurizes:raca/ventari/pouso_de_emergencia",
+    "gurizes:raca/ventari/ossos_ocos",
+    "gurizes:raca/ventari/impacto_duro",
+    "gurizes:raca/ventari/plumas_feridas",
+    "gurizes:raca/ventari/registro"
+  ]
+}

@@ -53,7 +53,7 @@
 			]
 			title: "Os Cinco"
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["402462F12C986E30"]
@@ -80,8 +80,8 @@
 				}
 			]
 			title: "A Mesa do Selo"
-			x: 2.0d
-			y: 0.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["402462F12C986E30"]
@@ -101,6 +101,8 @@
 					type: "item"
 				}
 			]
+			shape: "square"
+			size: 0.9d
 			subtitle: "&7Opcional"
 			tasks: [
 				{
@@ -109,8 +111,8 @@
 				}
 			]
 			title: "Forma Plena"
-			x: 2.0d
-			y: 2.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["07590E150745C9B8"]
@@ -149,7 +151,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "&6Porteiro"
 			tasks: [
 				{
@@ -160,8 +162,8 @@
 				}
 			]
 			title: "O Trono do Selo"
-			x: 4.5d
-			y: 0.0d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6E03BEB78B3040B9"]
@@ -181,6 +183,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 2.0d
 			tasks: [
 				{
 					advancement: "gurizes:campanha/selo_restaurado"
@@ -190,9 +193,10 @@
 				}
 			]
 			title: "O Selo Refeito"
-			x: 6.5d
-			y: 0.0d
+			x: 10.5d
+			y: 3.0d
 		}
 	]
+	subtitle: ["Porteiro: Morvhal"]
 	title: "Ato VI: O Trono do Selo"
 }

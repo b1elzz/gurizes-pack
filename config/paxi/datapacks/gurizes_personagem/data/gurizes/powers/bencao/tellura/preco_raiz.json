@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Passo de Raiz",
+  "description": "Preço: −4% de velocidade.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.04,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

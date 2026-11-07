@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:filled_map"
 	id: "3A1911EF02C5AA0C"
-	order_index: 17
+	order_index: 29
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -58,7 +58,7 @@
 				}
 			]
 			title: "Bandeira inimiga"
-			x: 2.5d
+			x: 2.6d
 			y: 0.0d
 		}
 		{
@@ -83,7 +83,7 @@
 				}
 			]
 			title: "Masmorra esquecida"
-			x: 5.0d
+			x: 5.2d
 			y: 0.0d
 		}
 		{
@@ -108,7 +108,7 @@
 				}
 			]
 			title: "Uma taverna na estrada"
-			x: 7.5d
+			x: 7.8d
 			y: 0.0d
 		}
 		{
@@ -133,8 +133,8 @@
 				}
 			]
 			title: "Areia e armadilhas"
-			x: 0.0d
-			y: 2.5d
+			x: 1.3d
+			y: 2.2d
 		}
 		{
 			dependencies: ["3484B276FE312BD7"]
@@ -158,8 +158,8 @@
 				}
 			]
 			title: "A Mansão da Floresta"
-			x: 2.5d
-			y: 2.5d
+			x: 3.9d
+			y: 2.2d
 		}
 		{
 			dependencies: ["3484B276FE312BD7"]
@@ -183,8 +183,8 @@
 				}
 			]
 			title: "Forte Illager"
-			x: 5.0d
-			y: 2.5d
+			x: 6.5d
+			y: 2.2d
 		}
 		{
 			dependencies: ["3484B276FE312BD7"]
@@ -208,9 +208,10 @@
 				}
 			]
 			title: "Catacumbas"
-			x: 7.5d
-			y: 2.5d
+			x: 9.1d
+			y: 2.2d
 		}
 	]
+	subtitle: ["Estruturas de Valdren"]
 	title: "Mundo de Valdren"
 }

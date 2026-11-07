@@ -1,0 +1,4 @@
+lang:pt_br
+renderDistance:10
+simulationDistance:8
+guiScale:3

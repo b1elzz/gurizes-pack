@@ -5,7 +5,7 @@
 	group: "4B7C29A84FC2FC08"
 	icon: "minecraft:crossbow"
 	id: "7A0F0A4EC3B48359"
-	order_index: 10
+	order_index: 27
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -38,6 +38,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato I"
 			tasks: [
 				{
@@ -80,6 +82,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato I"
 			tasks: [
 				{
@@ -90,7 +94,7 @@
 				}
 			]
 			title: "Swampjaw"
-			x: 2.5d
+			x: 2.4d
 			y: 0.0d
 		}
 		{
@@ -122,6 +126,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato I"
 			tasks: [
 				{
@@ -132,7 +138,7 @@
 				}
 			]
 			title: "Líder dos Cães Sombrios"
-			x: 5.0d
+			x: 4.8d
 			y: 0.0d
 		}
 		{
@@ -164,6 +170,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato I"
 			tasks: [
 				{
@@ -180,7 +188,7 @@
 				}
 			]
 			title: "A Invasão"
-			x: 7.5d
+			x: 7.2d
 			y: 0.0d
 		}
 		{
@@ -212,6 +220,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -223,7 +233,7 @@
 			]
 			title: "Ferrous Wroughtnaut"
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -254,6 +264,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -264,8 +276,8 @@
 				}
 			]
 			title: "Umvuthi"
-			x: 2.5d
-			y: 3.0d
+			x: 2.4d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -296,6 +308,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -306,8 +320,8 @@
 				}
 			]
 			title: "Dame Fortuna"
-			x: 5.0d
-			y: 3.0d
+			x: 4.8d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -338,6 +352,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -348,8 +364,8 @@
 				}
 			]
 			title: "Void Blossom"
-			x: 7.5d
-			y: 3.0d
+			x: 7.2d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -380,6 +396,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -390,8 +408,8 @@
 				}
 			]
 			title: "Naga"
-			x: 10.0d
-			y: 3.0d
+			x: 9.6d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -422,6 +440,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -432,8 +452,8 @@
 				}
 			]
 			title: "Lich da Torre"
-			x: 12.5d
-			y: 3.0d
+			x: 0.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -464,6 +484,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -474,8 +496,8 @@
 				}
 			]
 			title: "Minoshroom"
-			x: 15.0d
-			y: 3.0d
+			x: 2.4d
+			y: 6.4d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -506,6 +528,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -516,8 +540,8 @@
 				}
 			]
 			title: "Guardião Ancião"
-			x: 17.5d
-			y: 3.0d
+			x: 4.8d
+			y: 6.4d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -548,6 +572,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -558,8 +584,8 @@
 				}
 			]
 			title: "Invocador"
-			x: 20.0d
-			y: 3.0d
+			x: 7.2d
+			y: 6.4d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -590,6 +616,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato II"
 			tasks: [
 				{
@@ -600,8 +628,8 @@
 				}
 			]
 			title: "Supremo Invocador de Ossos"
-			x: 22.5d
-			y: 3.0d
+			x: 9.6d
+			y: 6.4d
 		}
 		{
 			dependencies: ["299A96D053605996"]
@@ -631,6 +659,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato III"
 			tasks: [
 				{
@@ -642,7 +672,7 @@
 			]
 			title: "Ignis"
 			x: 0.0d
-			y: 6.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["299A96D053605996"]
@@ -672,6 +702,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato III"
 			tasks: [
 				{
@@ -682,8 +714,8 @@
 				}
 			]
 			title: "Monstruosidade de Netherita"
-			x: 2.5d
-			y: 6.0d
+			x: 2.4d
+			y: 10.4d
 		}
 		{
 			dependencies: ["299A96D053605996"]
@@ -713,6 +745,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato III"
 			tasks: [
 				{
@@ -723,8 +757,8 @@
 				}
 			]
 			title: "Gauntlet"
-			x: 5.0d
-			y: 6.0d
+			x: 4.8d
+			y: 10.4d
 		}
 		{
 			dependencies: ["299A96D053605996"]
@@ -754,6 +788,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato III"
 			tasks: [
 				{
@@ -764,8 +800,8 @@
 				}
 			]
 			title: "Wither"
-			x: 7.5d
-			y: 6.0d
+			x: 7.2d
+			y: 10.4d
 		}
 		{
 			dependencies: ["299A96D053605996"]
@@ -795,6 +831,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato III"
 			tasks: [
 				{
@@ -805,8 +843,8 @@
 				}
 			]
 			title: "Slider"
-			x: 10.0d
-			y: 6.0d
+			x: 9.6d
+			y: 10.4d
 		}
 		{
 			dependencies: ["299A96D053605996"]
@@ -836,6 +874,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato III"
 			tasks: [
 				{
@@ -846,8 +886,8 @@
 				}
 			]
 			title: "Rainha Valquíria"
-			x: 12.5d
-			y: 6.0d
+			x: 0.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["299A96D053605996"]
@@ -877,6 +917,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato III"
 			tasks: [
 				{
@@ -887,8 +929,8 @@
 				}
 			]
 			title: "Revenant Incandescente"
-			x: 15.0d
-			y: 6.0d
+			x: 2.4d
+			y: 12.8d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -918,6 +960,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -928,8 +972,8 @@
 				}
 			]
 			title: "Remanescente Ancestral"
-			x: 0.0d
-			y: 9.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -959,6 +1003,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -969,8 +1015,8 @@
 				}
 			]
 			title: "O Arauto"
-			x: 2.5d
-			y: 9.0d
+			x: 17.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -1000,6 +1046,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -1010,8 +1058,8 @@
 				}
 			]
 			title: "Maledictus"
-			x: 5.0d
-			y: 9.0d
+			x: 19.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -1041,6 +1089,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -1051,8 +1101,8 @@
 				}
 			]
 			title: "Warden"
-			x: 7.5d
-			y: 9.0d
+			x: 22.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -1082,6 +1132,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -1092,8 +1144,8 @@
 				}
 			]
 			title: "Lich da Neve"
-			x: 10.0d
-			y: 9.0d
+			x: 24.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -1123,6 +1175,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -1133,8 +1187,8 @@
 				}
 			]
 			title: "Mãe do Labirinto"
-			x: 12.5d
-			y: 9.0d
+			x: 15.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -1164,6 +1218,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -1174,8 +1230,8 @@
 				}
 			]
 			title: "Ur-Ghast"
-			x: 15.0d
-			y: 9.0d
+			x: 17.4d
+			y: 2.4d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -1205,6 +1261,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -1215,8 +1273,8 @@
 				}
 			]
 			title: "Rainha da Neve"
-			x: 17.5d
-			y: 9.0d
+			x: 19.8d
+			y: 2.4d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -1246,6 +1304,8 @@
 					xp_levels: 4
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			subtitle: "&7Opcional · Ato IV"
 			tasks: [
 				{
@@ -1256,8 +1316,8 @@
 				}
 			]
 			title: "Yeti Alfa"
-			x: 20.0d
-			y: 9.0d
+			x: 22.2d
+			y: 2.4d
 		}
 		{
 			dependencies: ["1E489942504DD2AF"]
@@ -1287,6 +1347,8 @@
 					xp_levels: 5
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato V"
 			tasks: [
 				{
@@ -1297,8 +1359,8 @@
 				}
 			]
 			title: "Guardião do Ender"
-			x: 0.0d
-			y: 12.0d
+			x: 15.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["1E489942504DD2AF"]
@@ -1328,6 +1390,8 @@
 					xp_levels: 5
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato V"
 			tasks: [
 				{
@@ -1338,8 +1402,8 @@
 				}
 			]
 			title: "Dragão do Ender"
-			x: 2.5d
-			y: 12.0d
+			x: 17.4d
+			y: 6.4d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
@@ -1370,6 +1434,8 @@
 					xp_levels: 5
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato VI"
 			tasks: [
 				{
@@ -1380,8 +1446,8 @@
 				}
 			]
 			title: "Dragão de Fogo"
-			x: 0.0d
-			y: 15.0d
+			x: 15.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
@@ -1412,6 +1478,8 @@
 					xp_levels: 5
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato VI"
 			tasks: [
 				{
@@ -1422,8 +1490,8 @@
 				}
 			]
 			title: "Dragão de Gelo"
-			x: 2.5d
-			y: 15.0d
+			x: 17.4d
+			y: 10.4d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
@@ -1454,6 +1522,8 @@
 					xp_levels: 5
 				}
 			]
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "&7Opcional · Ato VI"
 			tasks: [
 				{
@@ -1464,9 +1534,10 @@
 				}
 			]
 			title: "Dragão de Raio"
-			x: 5.0d
-			y: 15.0d
+			x: 19.8d
+			y: 10.4d
 		}
 	]
+	subtitle: ["Bosses opcionais, por ato"]
 	title: "Contratos de Caça"
 }

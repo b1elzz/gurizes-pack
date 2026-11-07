@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "iceandfire:dragon_skull_fire"
 	id: "4BCE4F5C1962B63D"
-	order_index: 21
+	order_index: 33
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -34,7 +34,7 @@
 			]
 			title: "Escamas de fogo"
 			x: 0.0d
-			y: 0.0d
+			y: 2.2d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
@@ -84,7 +84,7 @@
 			]
 			title: "Escamas de raio"
 			x: 5.0d
-			y: 0.0d
+			y: 2.2d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
@@ -100,6 +100,8 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5542A7042E8D8FFB"
@@ -108,9 +110,10 @@
 				}
 			]
 			title: "Aço de Dragão"
-			x: 7.5d
-			y: 0.0d
+			x: 2.5d
+			y: 4.4d
 		}
 	]
+	subtitle: ["Terras distantes"]
 	title: "Terras dos Dragões"
 }

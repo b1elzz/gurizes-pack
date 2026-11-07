@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Reserva Arcana",
+  "description": "+15% de mana máxima.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "operation": "multiply_base",
+      "value": 0.15,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

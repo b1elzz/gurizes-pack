@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_cacador"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:arco_de_valdren"
+	id: "13949029DED624C7"
+	order_index: 13
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Caçador."]
+			icon: "minecraft:bow"
+			id: "7D501B23FBBF4F70"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_cacador"
+					criterion: ""
+					id: "5AAC588402F440C0"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Caçador"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D501B23FBBF4F70"]
+			description: [
+				"\"Nenhuma presa é grande demais. Só longe demais, e isso a gente resolve.\""
+				""
+				"Arco, flechas e livro de magias com o pergaminho de flecha venenosa."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:bow"
+			id: "5C32F4289BAD6CEA"
+			rewards: [
+				{
+					id: "4618B66B19B5E943"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A7CDD2714B2CE3C"
+					item: "minecraft:bow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "05435569AEF3A776"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "5CA88DCB15369136"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Arco e Aljava"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C32F4289BAD6CEA"]
+			description: [
+				"Aperte &eG&r: lança uma flecha venenosa (nível 5). Recarga de 30 s."
+				"O Olho de Falcão aumenta o dano de projétil. Prenda a corda até o fim antes de soltar."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:spectral_arrow"
+			id: "03FAE19ABC05241A"
+			rewards: [
+				{
+					id: "54BB13B3AA9D714F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_cacador"
+					criterion: ""
+					id: "0EAF4D8D2471B5D4"
+					type: "advancement"
+				}
+			]
+			title: "Disparo Venenoso"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03FAE19ABC05241A"]
+			description: [
+				"Mãos de Arqueiro: corpo a corpo não é com você. Fique longe e atire."
+				"Aranhas pulam e esqueletos recuam: aprenda a mirar nos dois."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:spider_eye"
+			id: "141190DB3036F7F9"
+			rewards: [
+				{
+					count: 2
+					id: "393D603144CD7FBB"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "361D13ACD92BBD7D"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "456F49E07D0E8396"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "Presa Maior"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D501B23FBBF4F70"]
+			description: [
+				"Flecha acaba. Penas de galinha, pederneira de cascalho e um graveto fazem mais."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:feather"
+			id: "6775D7C16128112A"
+			rewards: [
+				{
+					id: "7F605C279E1ED196"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "2C812CE2E8E44610"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "72CBF88197B74B39"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "Penas e Pederneira"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D501B23FBBF4F70", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Arco de Valdren na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:arco_de_valdren"
+			id: "2C342CB997AB1133"
+			rewards: [
+				{
+					id: "36BBF2333754209F"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Caçador · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "0158863E2BAB3A40"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "43D1E6B7EE1A5AAA"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Arco de Valdren"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["141190DB3036F7F9", "6775D7C16128112A"]
+			description: [
+				"Sir Galvar resiste a projéteis de frente: dê a volta e atire nas costas, de trás dos pilares."
+				"Veneno não pega nele; guarde o Disparo Venenoso para outra hora."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_chestplate"
+			id: "2EC584A352B28F0E"
+			rewards: [
+				{
+					count: 2
+					id: "25954946223F1305"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "4BB8309C5F61AB90"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "14CB7C11C05FB5DB"
+					type: "checkmark"
+				}
+			]
+			title: "Flechas pelas Costas"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Caçador"
+}

@@ -5,7 +5,7 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:emerald"
 	id: "1A009C07DB846E57"
-	order_index: 15
+	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,6 +17,8 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:emerald"
 			id: "252B4D699C02F6C1"
+			invisible: true
+			invisible_until_tasks: 1
 			rewards: [
 				{
 					id: "19CCEBB50ED909EC"
@@ -25,6 +27,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.25d
 			tasks: [
 				{
 					advancement: "gurizes:interno/oficio_mercador"
@@ -35,7 +38,7 @@
 			]
 			title: "Aprendiz de Mercador"
 			x: 0.0d
-			y: 0.0d
+			y: 2.8d
 		}
 		{
 			dependencies: ["252B4D699C02F6C1"]
@@ -58,8 +61,8 @@
 				}
 			]
 			title: "Apito do Mascate"
-			x: 2.0d
-			y: 0.0d
+			x: 2.4d
+			y: 1.4d
 		}
 		{
 			dependencies: ["5BA97FC8B2837FBC", "1F82201E3EE0EE78"]
@@ -78,7 +81,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "6EB7382C9D34CEA0"
@@ -86,7 +89,7 @@
 				}
 			]
 			title: "Mestre Mercador"
-			x: 4.0d
+			x: 4.8d
 			y: 0.0d
 		}
 		{
@@ -111,9 +114,10 @@
 				}
 			]
 			title: "Selo de Caravana"
-			x: 6.0d
-			y: 0.0d
+			x: 7.2d
+			y: 1.4d
 		}
 	]
+	subtitle: ["Só aparece para quem tem este ofício"]
 	title: "Ofício: Mercador"
 }

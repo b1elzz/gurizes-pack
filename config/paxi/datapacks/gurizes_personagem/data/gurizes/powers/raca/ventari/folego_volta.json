@@ -1,0 +1,13 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "interval": 10,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "gurizes:raca/ventari/folego",
+    "change": 8
+  },
+  "condition": {
+    "type": "apoli:on_block"
+  }
+}

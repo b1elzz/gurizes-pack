@@ -1,0 +1,19 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Fotossíntese",
+  "description": "Sob o sol: Regeneração I periódica.",
+  "interval": 40,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:regeneration",
+      "duration": 60,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "condition": {
+    "type": "apoli:exposed_to_sun"
+  }
+}

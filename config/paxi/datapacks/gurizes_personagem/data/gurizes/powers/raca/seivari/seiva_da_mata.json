@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Seiva da Mata",
+  "description": "+8% de poder da Natureza.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "operation": "addition",
+      "value": 0.08,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

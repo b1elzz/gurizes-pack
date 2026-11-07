@@ -1,0 +1,347 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1793923200000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  instance_identifier = gz_titulo_fundo
+  background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/gurizes/fundo.png
+  slide = true
+  repeat_texture = false
+  parallax = false
+}
+
+element {
+  element_type = image
+  instance_identifier = gz_titulo_vinheta
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-left
+  sticky_anchor = false
+  x = 0
+  y = 0
+  width = 960
+  height = 540
+  stay_on_screen = false
+  stretch_x = true
+  stretch_y = true
+  source = [source:local]/config/fancymenu/assets/gurizes/vinheta.png
+}
+
+element {
+  element_type = image
+  instance_identifier = gz_titulo_logo
+  appearance_delay = no_delay
+  fade_in_v2 = first_time
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 8
+  width = 512
+  height = 236
+  stay_on_screen = false
+  fade_in_speed = 2.5
+  source = [source:local]/config/fancymenu/assets/gurizes/logo.png
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = gz_titulo_btn_servidor
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 318
+  width = 220
+  height = 24
+  stay_on_screen = false
+  label = Servidor dos Gurizes
+  backgroundnormal = [source:local]/config/fancymenu/assets/gurizes/botao.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gurizes/botao_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/gurizes/botao_inativo.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFE896
+  label_hover_color = #FFE896
+  label_shadow = true
+  description = Entra direto no servidor dos gurizes.
+  button_element_executable_block_identifier = gz_titulo_btn_servidor_bloco
+  [executable_block:gz_titulo_btn_servidor_bloco][type:generic] = [executables:gz_titulo_btn_servidor_acao;]
+  [executable_action_instance:gz_titulo_btn_servidor_acao][action_type:joinserver] = shrimp-pediatrics.tun.ply.gg
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = gz_titulo_btn_wiki
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 408
+  width = 220
+  height = 24
+  stay_on_screen = false
+  label = Wiki
+  backgroundnormal = [source:local]/config/fancymenu/assets/gurizes/botao.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gurizes/botao_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/gurizes/botao_inativo.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E6DCF5
+  label_hover_color = #FFE896
+  label_shadow = true
+  description = Abre o guia do pack no navegador.
+  button_element_executable_block_identifier = gz_titulo_btn_wiki_bloco
+  [executable_block:gz_titulo_btn_wiki_bloco][type:generic] = [executables:gz_titulo_btn_wiki_acao;]
+  [executable_action_instance:gz_titulo_btn_wiki_acao][action_type:open_file_folder_in_game_dir] = /config/gurizes/wiki/index.html
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = gz_titulo_versao
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = bottom-left
+  sticky_anchor = true
+  x = 8
+  y = -8
+  width = 420
+  height = 14
+  stay_on_screen = false
+  source_mode = direct
+  source = Gurizes RPG Fantasy 0.1.1 · Minecraft 1.20.1 · Forge
+  shadow = true
+  base_color = #CDBBE8
+  scale = 1.0
+  text_border = 0
+  enable_scrolling = false
+  auto_line_wrapping = false
+  parse_markdown = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_branding_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  is_hidden = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 258
+  width = 220
+  height = 24
+  stay_on_screen = false
+  label = Um Jogador
+  backgroundnormal = [source:local]/config/fancymenu/assets/gurizes/botao.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gurizes/botao_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/gurizes/botao_inativo.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E6DCF5
+  label_hover_color = #FFE896
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  is_hidden = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 288
+  width = 220
+  height = 24
+  stay_on_screen = false
+  label = Multijogador
+  backgroundnormal = [source:local]/config/fancymenu/assets/gurizes/botao.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gurizes/botao_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/gurizes/botao_inativo.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E6DCF5
+  label_hover_color = #FFE896
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  is_hidden = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 348
+  width = 220
+  height = 24
+  stay_on_screen = false
+  label = Mods
+  backgroundnormal = [source:local]/config/fancymenu/assets/gurizes/botao.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gurizes/botao_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/gurizes/botao_inativo.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E6DCF5
+  label_hover_color = #FFE896
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  is_hidden = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 378
+  width = 220
+  height = 24
+  stay_on_screen = false
+  label = Opções
+  backgroundnormal = [source:local]/config/fancymenu/assets/gurizes/botao.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gurizes/botao_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/gurizes/botao_inativo.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E6DCF5
+  label_hover_color = #FFE896
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  is_hidden = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 438
+  width = 220
+  height = 24
+  stay_on_screen = false
+  label = Sair
+  backgroundnormal = [source:local]/config/fancymenu/assets/gurizes/botao.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gurizes/botao_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/gurizes/botao_inativo.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E6DCF5
+  label_hover_color = #FFE896
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_language_button
+  is_hidden = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = bottom-left
+  sticky_anchor = true
+  x = 8
+  y = -30
+  width = 20
+  height = 20
+  stay_on_screen = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_accessibility_button
+  is_hidden = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = bottom-left
+  sticky_anchor = true
+  x = 32
+  y = -30
+  width = 20
+  height = 20
+  stay_on_screen = false
+}
+

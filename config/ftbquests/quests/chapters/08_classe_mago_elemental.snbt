@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_mago_elemental"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:cetro_do_selo"
+	id: "22DD5811F3728F9F"
+	order_index: 11
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Mago Elemental."]
+			icon: "minecraft:blaze_rod"
+			id: "28BD0BD87EF5F797"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_mago_elemental"
+					criterion: ""
+					id: "3879CA9BD480F77E"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Mago Elemental"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28BD0BD87EF5F797"]
+			description: [
+				"\"Fogo para abrir caminho, gelo para a defesa, raio para encerrar a conversa.\""
+				""
+				"Cajado na mão, livro no slot de Curios e pergaminhos de fogo e gelo."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:artificer_cane"
+			id: "7E060C1875F42BFA"
+			rewards: [
+				{
+					id: "7DAFA95F4FD912FC"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C2DC24E4DC6CDA1"
+					item: "irons_spellbooks:artificer_cane"
+					type: "item"
+				}
+				{
+					id: "74D9A68C261B608B"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+				{
+					id: "3941F4C34FCACB20"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			]
+			title: "Cajado e Pergaminhos"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E060C1875F42BFA"]
+			description: [
+				"Aperte &eG&r: lança a magia do elemento ativo. Você começa em fogo."
+				"Troque com &e/trigger gurizes.elemento set 1&r (gelo) ou &eset 2&r (raio), e volte com &eset 0&r."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:scroll"
+			id: "3DC5892A3A806FF2"
+			rewards: [
+				{
+					id: "130341223B4B525E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_mago_elemental"
+					criterion: ""
+					id: "022BBAE72E139F17"
+					type: "advancement"
+				}
+			]
+			title: "Explosão Elemental"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DC5892A3A806FF2"]
+			description: [
+				"Magia é dano em área, e área é para quem está longe."
+				"Abra a distância, lance e deixe o creeper explodir sozinho."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:gunpowder"
+			id: "606C02794A295835"
+			rewards: [
+				{
+					count: 2
+					id: "3E5FD4A448FCB8BA"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "2F401DE39183A4E6"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "5B0460697D80577D"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Longe do Alcance"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28BD0BD87EF5F797"]
+			description: [
+				"A Mesa de Inscrição grava magias no seu livro."
+				"Receita: um livro, três lajes de madeira e duas cercas."
+			]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:inscription_table"
+			id: "25E9557DCE708082"
+			rewards: [
+				{
+					id: "7799CC5D2B185CEE"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "140A5EA49E76ED11"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+			]
+			title: "Mesa de Inscrição"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["28BD0BD87EF5F797", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Cetro do Selo na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:cetro_do_selo"
+			id: "4A791D4F5375D3D0"
+			rewards: [
+				{
+					id: "551E157674F616CF"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Mago Elemental · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "06C9ACDC33AF77F8"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "67895B9AB85AE964"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Cetro do Selo"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["606C02794A295835", "25E9557DCE708082"]
+			description: [
+				"Sir Galvar resiste a fogo e a projéteis de frente. Troque para &eraio&r (&e/trigger gurizes.elemento set 2&r)"
+				"e mantenha distância dos pilares. Ele é imune a veneno e wither."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:lightning_rod"
+			id: "5374F4D91659AA81"
+			rewards: [
+				{
+					count: 2
+					id: "0C500F50B93DAE35"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "7E84EC6462DD6A03"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "3A2070F968A71741"
+					type: "checkmark"
+				}
+			]
+			title: "Raio no Cavaleiro"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Mago Elemental"
+}

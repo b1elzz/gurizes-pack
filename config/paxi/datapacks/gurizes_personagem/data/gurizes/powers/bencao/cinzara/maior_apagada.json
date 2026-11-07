@@ -1,0 +1,30 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Brasa Apagada",
+  "description": "Fraqueza: enquanto a brasa recarrega, −1 coração.",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:advancement",
+        "advancement": "gurizes:campanha/ato_3_vencido"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:bencao/cinzara/maior_brasa",
+        "comparison": "<",
+        "compare_to": 1500
+      }
+    ]
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -2,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

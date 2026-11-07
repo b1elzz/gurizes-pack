@@ -1,6 +1,6 @@
 {
   "name": "Ignari",
-  "description": "Dracônicos escamados das Fornalhas do Sul; escamas que lembram brasas. −35% de dano de fogo, +10% de Fogo. Fraqueza: +25% de dano de frio, lentos na neve.",
+  "description": "Dracônicos das Fornalhas do Sul, escamas que lembram brasas. Estilo: mestre do fogo. −35% de dano de fogo, +10% de Fogo. Fraqueza: +25% de dano de frio e lentos na neve.",
   "icon": {
     "item": "minecraft:blaze_powder"
   },

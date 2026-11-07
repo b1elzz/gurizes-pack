@@ -1,7 +1,7 @@
 {
   "type": "origins:target_action_on_hit",
   "name": "Toque do Trovão (Maior)",
-  "description": "Desperta após o porteiro do Ato III: golpes têm 20% de chance de causar 3 de dano de raio e lentidão; +5% de velocidade de ataque.",
+  "description": "Desperta após o porteiro do Ato III: golpes têm 25% de chance de causar 5 de dano de raio e lentidão; +5% de velocidade de ataque.",
   "condition": {
     "type": "origins:advancement",
     "advancement": "gurizes:campanha/ato_3_vencido"
@@ -13,13 +13,13 @@
   },
   "entity_action": {
     "type": "origins:chance",
-    "chance": 0.2,
+    "chance": 0.25,
     "action": {
       "type": "origins:and",
       "actions": [
         {
           "type": "origins:damage",
-          "amount": 3,
+          "amount": 5,
           "damage_type": "minecraft:lightning_bolt"
         },
         {

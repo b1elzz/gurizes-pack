@@ -1,0 +1,74 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1793923200000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+menu_background {
+  instance_identifier = gz_carga_fundo
+  background_type = color_fancymenu
+  show_background = true
+  color = #0F0A18
+}
+
+element {
+  element_type = image
+  instance_identifier = gz_carga_logo
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = -40
+  width = 420
+  height = 194
+  stay_on_screen = false
+  source = [source:local]/config/fancymenu/assets/gurizes/logo.png
+}
+
+element {
+  element_type = drippy_vanilla_bar
+  instance_identifier = gz_carga_barra
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 95
+  width = 300
+  height = 6
+  stay_on_screen = false
+  color = #ECB848
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  is_hidden = true
+}
+

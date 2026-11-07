@@ -11,7 +11,16 @@
     "continuous": false
   },
   "entity_action": {
-    "type": "origins:execute_command",
-    "command": "cast @s irons_spellbooks:poison_arrow 5"
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "cast @s irons_spellbooks:poison_arrow 5"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only gurizes:interno/habilidade_cacador"
+      }
+    ]
   }
 }

@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_paladino"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:egide_do_juramento"
+	id: "09C632B60B8B81D3"
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Paladino."]
+			icon: "minecraft:shield"
+			id: "6266BF02EAE4304C"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_paladino"
+					criterion: ""
+					id: "30E2E4AD45BB6B4C"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Paladino"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6266BF02EAE4304C"]
+			description: [
+				"\"Enquanto eu estiver de pé, ninguém atrás de mim cai.\""
+				""
+				"Escudo na segunda mão, espada na primeira, livro de magias no slot de Curios."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:shield"
+			id: "5EB121D407B7A4BD"
+			rewards: [
+				{
+					id: "32109417EA80F5F3"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6BA954D771817CBC"
+					item: "minecraft:shield"
+					type: "item"
+				}
+				{
+					id: "201FE7723ED47214"
+					item: "minecraft:iron_sword"
+					type: "item"
+				}
+				{
+					id: "7B9059373808C0A8"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Escudo e Espada"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5EB121D407B7A4BD"]
+			description: [
+				"Aperte &eG&r: cura 4 de vida em você e nos aliados a até 6 blocos, com Regeneração I."
+				"Recarga de 30 s. Teste num amigo ferido ou em você mesmo, depois de uma briga."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:scroll"
+			id: "0EB0AFE99F531D0E"
+			rewards: [
+				{
+					id: "48710BFA814483F9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_paladino"
+					criterion: ""
+					id: "27056768B114D315"
+					type: "advancement"
+				}
+			]
+			title: "Luz Restauradora"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EB0AFE99F531D0E"]
+			description: [
+				"Mortos-vivos têm medo de luz e de escudo."
+				"Erga o escudo (botão direito) contra as flechas dos esqueletos e deixe o resto cair na espada."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:skeleton_skull"
+			id: "5E8E353AFBD85A3C"
+			rewards: [
+				{
+					count: 2
+					id: "42CF6F4C6ACA5C87"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "512E18D9EE1642C1"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "63662438838AD4F5"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "Vigília dos Mortos"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6266BF02EAE4304C"]
+			description: [
+				"Todo paladino leva um remédio para o dia ruim."
+				"Uma maçã dourada: oito lingotes de ouro, uma maçã e paciência na bancada."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:golden_apple"
+			id: "7613634706BAF7F4"
+			rewards: [
+				{
+					id: "7DBEFF38564BD6D4"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D9DC62DEC99228B"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			title: "Maçã Abençoada"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["6266BF02EAE4304C", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Égide do Juramento na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:egide_do_juramento"
+			id: "5466677ABA57E720"
+			rewards: [
+				{
+					id: "27531BC1FD9C79D8"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Paladino · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "76959E0A77E38B90"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "52C1840802FD87D4"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Égide do Juramento"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E8E353AFBD85A3C", "7613634706BAF7F4"]
+			description: [
+				"Sir Galvar bate forte e persegue quem foge. Fique perto, bloqueie a Investida atrás de um pilar"
+				"e cure o grupo com a Luz Restauradora."
+				"Ele é imune a veneno e wither e resiste a fogo, sangue e projéteis de frente."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_chestplate"
+			id: "3859E2D0A1B4C24E"
+			rewards: [
+				{
+					count: 2
+					id: "586FF2CA951CC737"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "5B6B5E92993DFD5C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "0E57997F19D84967"
+					type: "checkmark"
+				}
+			]
+			title: "Escudo Diante do Cavaleiro"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Paladino"
+}

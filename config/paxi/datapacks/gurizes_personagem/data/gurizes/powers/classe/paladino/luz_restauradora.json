@@ -11,37 +11,46 @@
     "continuous": false
   },
   "entity_action": {
-    "type": "origins:area_of_effect",
-    "radius": 6,
-    "include_target": true,
-    "bientity_condition": {
-      "type": "origins:target_condition",
-      "condition": {
-        "type": "origins:entity_type",
-        "entity_type": "minecraft:player"
-      }
-    },
-    "bientity_action": {
-      "type": "origins:target_action",
-      "action": {
-        "type": "origins:and",
-        "actions": [
-          {
-            "type": "origins:heal",
-            "amount": 4
-          },
-          {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:regeneration",
-              "duration": 60,
-              "amplifier": 0,
-              "show_particles": false,
-              "show_icon": true
-            }
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 6,
+        "include_target": true,
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
           }
-        ]
+        },
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:heal",
+                "amount": 4
+              },
+              {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:regeneration",
+                  "duration": 60,
+                  "amplifier": 0,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only gurizes:interno/habilidade_paladino"
       }
-    }
+    ]
   }
 }

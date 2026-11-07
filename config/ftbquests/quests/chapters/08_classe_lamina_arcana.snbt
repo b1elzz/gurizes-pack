@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_lamina_arcana"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:lamina_runica"
+	id: "4C220D92D87FBD05"
+	order_index: 14
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Lâmina Arcana."]
+			icon: "minecraft:iron_sword"
+			id: "1619290B50ADFFBA"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_lamina_arcana"
+					criterion: ""
+					id: "5953148F1CC361E5"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Lâmina Arcana"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1619290B50ADFFBA"]
+			description: [
+				"\"A espada abre a guarda. A magia termina o serviço.\""
+				""
+				"Espada de ferro, livro de magias e um pergaminho de magia."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_sword"
+			id: "246F2ADF4D18F721"
+			rewards: [
+				{
+					id: "553F19123BF0D26A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "477A7552CBE330BF"
+					item: "minecraft:iron_sword"
+					type: "item"
+				}
+				{
+					id: "333138CDFDE3420B"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+				{
+					id: "7988169909D36E29"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			]
+			title: "Espada e Pergaminho"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["246F2ADF4D18F721"]
+			description: [
+				"Aperte &eG&r: avança com um golpe elétrico. Recarga de 15 s."
+				"Com a espada na mão, o Golpe Canalizado aumenta o poder das suas magias."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:scroll"
+			id: "21A9F24B3BB3B74E"
+			rewards: [
+				{
+					id: "7DB7555094502E3B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_lamina_arcana"
+					criterion: ""
+					id: "05EB37C5C182881A"
+					type: "advancement"
+				}
+			]
+			title: "Investida Voltaica"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21A9F24B3BB3B74E"]
+			description: [
+				"Abra a guarda com o aço e termine com a investida."
+				"Teste cada combinação em mobs comuns antes de levar a ideia para o boss."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_sword"
+			id: "2C6E33C723D3393F"
+			rewards: [
+				{
+					count: 2
+					id: "4CB49A2E6DFCD06A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "069FA03212F78D27"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "minecraft:spider"
+					id: "056990E3CC14EDC3"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "Aço e Magia"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1619290B50ADFFBA"]
+			description: [
+				"Runa pede material: ferro para a lâmina e lápis-lazúli para a magia."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:lapis_lazuli"
+			id: "7ABAA7913A8CD461"
+			rewards: [
+				{
+					id: "0023953893815EB1"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "5724DFE50B3DF4F5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "07163D59EEDB3FFF"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Aço Rúnico"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["1619290B50ADFFBA", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Lâmina Rúnica na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:lamina_runica"
+			id: "6CC117165670A5BF"
+			rewards: [
+				{
+					id: "73909F538285D94B"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Lâmina Arcana · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "11F3B77C4D342571"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "433CFFEE3BEF65C9"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Lâmina Rúnica"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C6E33C723D3393F", "7ABAA7913A8CD461"]
+			description: [
+				"Sir Galvar é fraco a raio. Quando ele ficar atordoado na Investida, avance com a Investida Voltaica."
+				"Cuidado: o Canal Exposto faz você tomar mais dano de magia."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:lightning_rod"
+			id: "6019BE3A1223C18E"
+			rewards: [
+				{
+					count: 2
+					id: "41A3FE333520F582"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "76DF39EA18EDECF7"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "5A86A3085173EEFE"
+					type: "checkmark"
+				}
+			]
+			title: "Raio Contra o Aço"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Lâmina Arcana"
+}

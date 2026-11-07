@@ -80,7 +80,7 @@
 				}
 			]
 			title: "Quem é você?"
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -121,7 +121,7 @@
 				}
 			]
 			title: "Primeiros golpes"
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -174,8 +174,8 @@
 				}
 			]
 			title: "Acampamento"
-			x: 6.0d
-			y: 0.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["432854924D718AFB"]
@@ -200,8 +200,8 @@
 				}
 			]
 			title: "A Árvore"
-			x: 8.0d
-			y: 0.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2004C8818AF46DB1"]
@@ -227,8 +227,8 @@
 				}
 			]
 			title: "Primeira magia"
-			x: 10.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["33F4705178B7A8F6"]
@@ -254,8 +254,8 @@
 				}
 			]
 			title: "A Cova e o Resgate"
-			x: 12.0d
-			y: 0.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["105078CDCE404C28"]
@@ -283,8 +283,8 @@
 				}
 			]
 			title: "Moedas da Coroa"
-			x: 14.0d
-			y: 0.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["457DAF33C1BBACDF"]
@@ -313,8 +313,8 @@
 				}
 			]
 			title: "Base do Grupo"
-			x: 16.0d
-			y: 0.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["72E8F8F942E79625"]
@@ -327,6 +327,7 @@
 			id: "3484B276FE312BD7"
 			rewards: [ ]
 			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "21672CDEA89A832D"
@@ -334,9 +335,10 @@
 				}
 			]
 			title: "Rumo ao Guardião"
-			x: 18.0d
-			y: 0.0d
+			x: 8.0d
+			y: 5.0d
 		}
 	]
+	subtitle: ["Do juramento ao primeiro porteiro"]
 	title: "Primeira Hora"
 }

@@ -1,9 +1,9 @@
 {
   "type": "origins:modify_food",
   "name": "Paladar Refinado",
-  "description": "+25% de saturação ao comer.",
+  "description": "+40% de saturação ao comer.",
   "saturation_modifier": {
     "operation": "multiply_base_multiplicative",
-    "value": 0.25
+    "value": 0.4
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "Seivari",
+  "description": "Filhos da seiva do Carvalho Primevo, pacientes como o inverno. Estilo: sustentação. Regeneram sob o sol, flechas ricocheteiam na casca, +8% de Natureza. Fraqueza: +35% de dano de fogo.",
+  "icon": {
+    "item": "minecraft:mangrove_propagule"
+  },
+  "impact": 1,
+  "order": 10,
+  "powers": [
+    "gurizes:raca/seivari/fotossintese",
+    "gurizes:raca/seivari/casca_viva",
+    "gurizes:raca/seivari/seiva_da_mata",
+    "gurizes:raca/seivari/madeira_seca",
+    "gurizes:raca/seivari/registro"
+  ]
+}

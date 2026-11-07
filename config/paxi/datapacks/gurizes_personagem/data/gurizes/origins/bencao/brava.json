@@ -1,6 +1,6 @@
 {
   "name": "Brava, a Mãe das Batalhas",
-  "description": "Guerra e coragem. Menor: +5% de chance de crítico. Maior (após o Ato III): Última Investida, mais dano com a vida baixa.",
+  "description": "Guerra e coragem. Estilo: lutar no limite. Menor: +5% de crítico. Maior (Ato III): Última Investida, +20% de dano com a vida baixa. Preço: −2 de armadura.",
   "icon": {
     "item": "minecraft:golden_sword"
   },
@@ -9,6 +9,7 @@
   "powers": [
     "gurizes:bencao/brava/menor_coragem",
     "gurizes:bencao/brava/maior_investida",
-    "gurizes:bencao/brava/maior_golpe"
+    "gurizes:bencao/brava/maior_golpe",
+    "gurizes:bencao/brava/preco_ousadia"
   ]
 }

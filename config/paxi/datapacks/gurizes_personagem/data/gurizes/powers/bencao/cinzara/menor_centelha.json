@@ -1,0 +1,18 @@
+{
+  "type": "origins:target_action_on_hit",
+  "name": "Centelha de Cinzara (Menor)",
+  "description": "Golpes corpo a corpo têm 20% de chance de incendiar o alvo por 4 s; +6% de poder de Fogo.",
+  "cooldown": 20,
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:corpo_a_corpo"
+  },
+  "entity_action": {
+    "type": "origins:chance",
+    "chance": 0.2,
+    "action": {
+      "type": "apoli:set_on_fire",
+      "duration": 4
+    }
+  }
+}

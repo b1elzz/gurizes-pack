@@ -1,6 +1,6 @@
 {
   "name": "Aurion, o Sol do Juramento",
-  "description": "Sol, juramento e proteção. Menor: +10% de cura recebida, +5% Sagrado. Maior (após o Ato III): Aura do Juramento, cura o grupo a cada 10 s.",
+  "description": "Sol, juramento e proteção. Estilo: suporte. Menor: +10% de cura recebida, +5% Sagrado. Maior (Ato III): Aura do Juramento, cura o grupo a cada 5 s. Preço: −6% de dano corpo a corpo.",
   "icon": {
     "item": "minecraft:sunflower"
   },
@@ -8,6 +8,7 @@
   "order": 1,
   "powers": [
     "gurizes:bencao/aurion/menor_luz",
-    "gurizes:bencao/aurion/maior_aura"
+    "gurizes:bencao/aurion/maior_aura",
+    "gurizes:bencao/aurion/preco_paz"
   ]
 }

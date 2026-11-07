@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "usada": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

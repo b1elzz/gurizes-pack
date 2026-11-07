@@ -1,8 +1,8 @@
 {
   "name": "Berserker",
-  "description": "Dor é só a batalha avisando que você ainda está nela. Papel: dano corpo a corpo sustentado. Armas: machados e montantes. Escolas: Sangue e Fogo. Combina com: Bardo e Druida. Dificuldade: ★★☆",
+  "description": "“Dor é só a batalha avisando que você ainda está nela.” Dano corpo a corpo que cresce com a Fúria. Armas: machados e montantes. ★★☆",
   "icon": {
-    "item": "minecraft:iron_axe"
+    "item": "simplyswords:iron_greataxe"
   },
   "impact": 3,
   "order": 2,

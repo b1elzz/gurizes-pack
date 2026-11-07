@@ -1,0 +1,28 @@
+{
+  "type": "origins:elytra_flight",
+  "name": "Asas de Vendaval",
+  "description": "Pule no ar para abrir as asas e planar. Cada segundo de voo gasta Fôlego (cerca de 12 s no total); só recupera em terra firme. Não abre com peitoral pesado.",
+  "render_elytra": true,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:raca/ventari/folego",
+        "comparison": ">=",
+        "compare_to": 1
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "gurizes:armaduras/pesadas"
+          }
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

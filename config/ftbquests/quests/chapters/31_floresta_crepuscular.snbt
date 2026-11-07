@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "5B1FF997A2909185"
-	order_index: 18
+	order_index: 30
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -25,6 +25,8 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					dimension: "twilightforest:twilight_forest"
@@ -34,7 +36,7 @@
 			]
 			title: "Além da névoa"
 			x: 0.0d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -58,7 +60,7 @@
 				}
 			]
 			title: "Pátio da Naga"
-			x: 2.5d
+			x: 3.2d
 			y: 0.0d
 		}
 		{
@@ -83,8 +85,8 @@
 				}
 			]
 			title: "Torre do Lich"
-			x: 5.0d
-			y: 0.0d
+			x: 4.4d
+			y: 2.2d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -108,7 +110,7 @@
 				}
 			]
 			title: "Labirinto"
-			x: 7.5d
+			x: 5.6d
 			y: 0.0d
 		}
 		{
@@ -133,8 +135,8 @@
 				}
 			]
 			title: "Covil da Hidra"
-			x: 0.0d
-			y: 2.5d
+			x: 6.8d
+			y: 2.2d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
@@ -158,9 +160,10 @@
 				}
 			]
 			title: "Torre Sombria"
-			x: 2.5d
-			y: 2.5d
+			x: 8.0d
+			y: 0.0d
 		}
 	]
+	subtitle: ["Dimensão"]
 	title: "Floresta Crepuscular"
 }

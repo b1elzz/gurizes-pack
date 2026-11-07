@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_monge"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:bastao_dos_mil_passos"
+	id: "69287B3F7E63E805"
+	order_index: 17
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Monge."]
+			icon: "minecraft:stick"
+			id: "250FDCC3608B1C89"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_monge"
+					criterion: ""
+					id: "5171298EAA775878"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Monge"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["250FDCC3608B1C89"]
+			description: [
+				"\"Não precisei de armadura. Precisei não estar lá quando o golpe chegou.\""
+				""
+				"Bastão de treino e livro de magias com um pergaminho de magia."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:bastao_de_treino"
+			id: "1591581CD4B9ED54"
+			rewards: [
+				{
+					id: "2E65643487BBCC51"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2BE7EB27D267B8B4"
+					item: "gurizes:bastao_de_treino"
+					type: "item"
+				}
+				{
+					id: "715355061B885628"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Bastão e Disciplina"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1591581CD4B9ED54"]
+			description: [
+				"Aperte &eG&r: onda de choque ao seu redor (nível 3). Recarga de 18 s."
+				"Sem peitoral pesado, o Corpo Disciplinado dá esquiva e velocidade de ataque."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:lightning_rod"
+			id: "1CDA7AF7F20D6895"
+			rewards: [
+				{
+					id: "5A2C64322C9AFB3A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_monge"
+					criterion: ""
+					id: "0A810431567B8F08"
+					type: "advancement"
+				}
+			]
+			title: "Palma do Trovão"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CDA7AF7F20D6895"]
+			description: [
+				"Fique em movimento. Aranhas são rápidas e esqueletos atiram: esquive e contra-ataque."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:spider_eye"
+			id: "3DAC31DCB5F31F67"
+			rewards: [
+				{
+					count: 2
+					id: "6C42C0BCBFCB2732"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "0923CF5CA0B9BC4D"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "1B3960980CC3174C"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Mil Passos de Caça"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["250FDCC3608B1C89"]
+			description: [
+				"Peitoral de ferro tira a sua esquiva. Vista couro e corra 500 blocos."
+				"(A quest da armadura de ferro do Ato I pede para ter as peças, não para vesti-las.)"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:leather_boots"
+			id: "6689BAA4B74C70A3"
+			rewards: [
+				{
+					id: "0C02ACACB3FBCA3A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1898CF5E0CD5A012"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "56C27DDB7242636E"
+					item: "minecraft:leather_boots"
+					type: "item"
+				}
+				{
+					id: "65015048DFC5D7BD"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 50000
+				}
+			]
+			title: "Leveza"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["250FDCC3608B1C89", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Bastão dos Mil Passos na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:bastao_dos_mil_passos"
+			id: "1047DA498B5D6955"
+			rewards: [
+				{
+					id: "50F71F3FF3D26FD1"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Monge · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "53A93B9E7EFCCDD8"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "048B815E6137C626"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Bastão dos Mil Passos"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DAC31DCB5F31F67", "6689BAA4B74C70A3"]
+			description: [
+				"Sir Galvar bate forte e devagar: a esquiva é sua melhor armadura."
+				"Role para fora da Investida, entre quando ele ficar atordoado e saia antes do Pulso da Coroa."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_chestplate"
+			id: "5939BB566497015D"
+			rewards: [
+				{
+					count: 2
+					id: "229C79A7EF7DEA52"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "1D05717EF3A42C85"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "2F744DE6B26FFAB7"
+					type: "checkmark"
+				}
+			]
+			title: "Dança com o Cavaleiro"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Monge"
+}

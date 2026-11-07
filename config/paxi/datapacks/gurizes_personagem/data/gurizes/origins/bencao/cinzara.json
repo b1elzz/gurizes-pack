@@ -1,0 +1,19 @@
+{
+  "name": "Cinzara, a Brasa que Renasce",
+  "description": "Não é um dos Sete: é a brasa que sobrou na forja de Ignar. Estilo: cair e levantar. Menor: golpes incendeiam, +6% de Fogo. Maior (Ato III): Renascer das Cinzas, volta da morte em chamas (25 min). Preço: +20% de fome e −1 coração com a brasa apagada.",
+  "icon": {
+    "item": "minecraft:fire_charge"
+  },
+  "impact": 1,
+  "order": 8,
+  "powers": [
+    "gurizes:bencao/cinzara/menor_centelha",
+    "gurizes:bencao/cinzara/menor_brasa",
+    "gurizes:bencao/cinzara/maior_renascer",
+    "gurizes:bencao/cinzara/maior_brasa",
+    "gurizes:bencao/cinzara/maior_recarga",
+    "gurizes:bencao/cinzara/maior_apagada",
+    "gurizes:bencao/cinzara/preco_chama",
+    "gurizes:bencao/cinzara/registro"
+  ]
+}

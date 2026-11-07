@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:sculk"
 	id: "737FC1A9680F8349"
-	order_index: 20
+	order_index: 32
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -24,6 +24,8 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					dimension: "deeperdarker:otherside"
@@ -33,7 +35,7 @@
 			]
 			title: "O Abismo"
 			x: 0.0d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78"]
@@ -56,7 +58,7 @@
 				}
 			]
 			title: "Templo Antigo"
-			x: 2.5d
+			x: 3.2d
 			y: 0.0d
 		}
 		{
@@ -80,9 +82,10 @@
 				}
 			]
 			title: "Cidade Antiga"
-			x: 5.0d
-			y: 0.0d
+			x: 4.4d
+			y: 2.2d
 		}
 	]
+	subtitle: ["Dimensão"]
 	title: "O Outro Lado"
 }

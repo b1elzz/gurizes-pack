@@ -5,24 +5,24 @@
 			title: "{\"text\": \"Campanha\", \"color\": \"#F2C14E\"}"
 		}
 		{
+			id: "1C6D4DEFEA67D157"
+			title: "{\"text\": \"Sua Classe\", \"color\": \"#8E44AD\"}"
+		}
+		{
+			id: "4DA834C500C67B4B"
+			title: "{\"text\": \"Seu Ofício\", \"color\": \"#E67E22\"}"
+		}
+		{
 			id: "4B7C29A84FC2FC08"
 			title: "{\"text\": \"Desafios\", \"color\": \"#C0392B\"}"
 		}
 		{
-			id: "4DA834C500C67B4B"
-			title: "{\"text\": \"Ofícios\", \"color\": \"#E67E22\"}"
-		}
-		{
 			id: "6F1E073C46BCCFFD"
-			title: "{\"text\": \"Exploração\", \"color\": \"#5B8C3A\"}"
+			title: "{\"text\": \"Mundo e Dimensões\", \"color\": \"#5B8C3A\"}"
 		}
 		{
 			id: "2AB7CEEE2B2349D1"
-			title: "{\"text\": \"Loja e Base\", \"color\": \"#BFC9CA\"}"
-		}
-		{
-			id: "03FB9847B41237C9"
-			title: "{\"text\": \"Grupo\", \"color\": \"#2E86C1\"}"
+			title: "{\"text\": \"Base e Comércio\", \"color\": \"#BFC9CA\"}"
 		}
 	]
 }

@@ -11,7 +11,16 @@
     "continuous": false
   },
   "entity_action": {
-    "type": "origins:execute_command",
-    "command": "cast @s irons_spellbooks:healing_circle 4"
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "cast @s irons_spellbooks:healing_circle 4"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only gurizes:interno/habilidade_druida"
+      }
+    ]
   }
 }

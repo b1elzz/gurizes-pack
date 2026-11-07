@@ -1,0 +1,116 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:netherite_chestplate",
+    {
+      "id": "magistuarmory:ceremonial_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:crusader_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:cuirassier_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gothic_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:halfarmor_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:jousting_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:kastenbrust_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:platemail_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustedcrusader_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustedhalfarmor_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wingedhussar_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:xivcenturyknight_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:heavy_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:warrior_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:steampunk_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:wither_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:divine_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bone_reptile_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_chestplate",
+      "required": false
+    },
+    {
+      "id": "aether:obsidian_chestplate",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_chestplate",
+      "required": false
+    }
+  ]
+}

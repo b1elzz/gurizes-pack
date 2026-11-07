@@ -5,7 +5,7 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:enchanting_table"
 	id: "5F0CA7A32C98C6D7"
-	order_index: 16
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,6 +17,8 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:enchanting_table"
 			id: "4E55A64D212F06ED"
+			invisible: true
+			invisible_until_tasks: 1
 			rewards: [
 				{
 					id: "76C16128D02156A4"
@@ -25,6 +27,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.25d
 			tasks: [
 				{
 					advancement: "gurizes:interno/oficio_encantador"
@@ -35,7 +38,7 @@
 			]
 			title: "Aprendiz de Encantador"
 			x: 0.0d
-			y: 0.0d
+			y: 4.2d
 		}
 		{
 			dependencies: ["4E55A64D212F06ED"]
@@ -58,8 +61,8 @@
 				}
 			]
 			title: "Livro do Esquecimento"
-			x: 2.0d
-			y: 0.0d
+			x: 2.4d
+			y: 2.8d
 		}
 		{
 			dependencies: ["559BAD5CED94432E"]
@@ -82,8 +85,8 @@
 				}
 			]
 			title: "Tinta Rara"
-			x: 4.0d
-			y: 0.0d
+			x: 4.8d
+			y: 1.4d
 		}
 		{
 			dependencies: ["007103B403E470BE", "1F82201E3EE0EE78"]
@@ -102,7 +105,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "7C516216BF1D6A27"
@@ -110,7 +113,7 @@
 				}
 			]
 			title: "Mestre Encantador"
-			x: 6.0d
+			x: 7.2d
 			y: 0.0d
 		}
 		{
@@ -135,8 +138,8 @@
 				}
 			]
 			title: "Sigilo de Encaixe"
-			x: 8.0d
-			y: 0.0d
+			x: 9.6d
+			y: 1.4d
 		}
 		{
 			dependencies: ["3012E1F96215638C"]
@@ -160,9 +163,10 @@
 				}
 			]
 			title: "Tinta Épica"
-			x: 10.0d
-			y: 0.0d
+			x: 12.0d
+			y: 2.8d
 		}
 	]
+	subtitle: ["Só aparece para quem tem este ofício"]
 	title: "Ofício: Encantador"
 }

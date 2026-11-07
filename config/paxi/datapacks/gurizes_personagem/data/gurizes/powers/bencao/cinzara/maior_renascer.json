@@ -1,0 +1,102 @@
+{
+  "type": "origins:prevent_death",
+  "name": "Renascer das Cinzas (Maior)",
+  "description": "Desperta após o porteiro do Ato III: um golpe fatal te deixa vivo com 15 de vida e em chamas que queimam os inimigos a 5 blocos. A brasa leva 25 min para reacender.",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:advancement",
+        "advancement": "gurizes:campanha/ato_3_vencido"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:bencao/cinzara/maior_brasa",
+        "comparison": ">=",
+        "compare_to": 1500
+      }
+    ]
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:bypasses_invulnerability",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "gurizes:bencao/cinzara/maior_brasa",
+        "change": 0,
+        "operation": "set"
+      },
+      {
+        "type": "origins:heal",
+        "amount": 14
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:fire_resistance",
+          "duration": 200,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 100,
+          "amplifier": 1,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:item.totem.use"
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 5,
+        "include_target": false,
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:living"
+              },
+              {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:player",
+                "inverted": true
+              }
+            ]
+          }
+        },
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "apoli:set_on_fire",
+                "duration": 6
+              },
+              {
+                "type": "origins:damage",
+                "amount": 6,
+                "damage_type": "minecraft:in_fire"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

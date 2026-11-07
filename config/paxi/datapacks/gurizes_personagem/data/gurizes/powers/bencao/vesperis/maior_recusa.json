@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_death",
   "name": "Recusa da Morte (Maior)",
-  "description": "Desperta após o porteiro do Ato III: um golpe fatal te deixa vivo (cura 8, Resistência I por 3 s). Recarrega em 15 min.",
+  "description": "Desperta após o porteiro do Ato III: um golpe fatal te deixa vivo (cura 8, Resistência I por 3 s). A barra recarrega em 15 min.",
   "condition": {
     "type": "origins:and",
     "conditions": [
@@ -13,7 +13,7 @@
         "type": "origins:resource",
         "resource": "gurizes:bencao/vesperis/maior_carga",
         "comparison": ">=",
-        "compare_to": 1
+        "compare_to": 900
       }
     ]
   },
@@ -28,7 +28,8 @@
       {
         "type": "origins:change_resource",
         "resource": "gurizes:bencao/vesperis/maior_carga",
-        "change": -1
+        "change": 0,
+        "operation": "set"
       },
       {
         "type": "origins:heal",

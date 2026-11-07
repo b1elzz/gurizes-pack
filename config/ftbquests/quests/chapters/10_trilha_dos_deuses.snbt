@@ -5,7 +5,7 @@
 	group: "4B7C29A84FC2FC08"
 	icon: "gurizes:insignia_dos_deuses"
 	id: "45FC3294A13B273A"
-	order_index: 9
+	order_index: 26
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,11 +16,13 @@
 				"A Arquivista Lune cataloga cada um e paga quem os vencer. A Trilha nunca trava a campanha:"
 				"cada deus abre depois de um ato. Vencer antes da hora não conta."
 			]
+			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: "minecraft:spyglass"
 			id: "428767F33F1E8530"
 			rewards: [ ]
 			shape: "hexagon"
+			size: 2.0d
 			tasks: [
 				{
 					id: "05040053BAF6F06B"
@@ -29,7 +31,7 @@
 			]
 			title: "Os Observadores de Kaelum"
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC", "428767F33F1E8530"]
@@ -74,8 +76,8 @@
 				}
 			]
 			title: "Rosalyne"
-			x: -7.5d
-			y: 0.0d
+			x: -9.0d
+			y: 4.15d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC", "428767F33F1E8530"]
@@ -120,8 +122,8 @@
 				}
 			]
 			title: "Hidra"
-			x: -4.5d
-			y: 0.0d
+			x: -9.0d
+			y: 6.85d
 		}
 		{
 			dependencies: ["299A96D053605996", "428767F33F1E8530"]
@@ -166,8 +168,8 @@
 				}
 			]
 			title: "Capitã Cornelia"
-			x: -1.5d
-			y: 0.0d
+			x: -4.5d
+			y: 2.8d
 		}
 		{
 			dependencies: ["299A96D053605996", "428767F33F1E8530"]
@@ -212,8 +214,8 @@
 				}
 			]
 			title: "Frostmaw"
-			x: 1.5d
-			y: 0.0d
+			x: -4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["299A96D053605996", "428767F33F1E8530"]
@@ -258,8 +260,8 @@
 				}
 			]
 			title: "Espírito do Sol"
-			x: 4.5d
-			y: 0.0d
+			x: -4.5d
+			y: 8.2d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78", "428767F33F1E8530"]
@@ -304,8 +306,8 @@
 				}
 			]
 			title: "Lorde Cabeça-de-Abóbora"
-			x: 7.5d
-			y: 0.0d
+			x: 0.0d
+			y: 4.15d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78", "428767F33F1E8530"]
@@ -351,8 +353,8 @@
 				}
 			]
 			title: "Rei Morto"
-			x: -7.5d
-			y: 3.0d
+			x: 0.0d
+			y: 6.85d
 		}
 		{
 			dependencies: ["1E489942504DD2AF", "428767F33F1E8530"]
@@ -398,8 +400,8 @@
 				}
 			]
 			title: "Enderman Mutante"
-			x: -4.5d
-			y: 3.0d
+			x: 4.5d
+			y: 4.15d
 		}
 		{
 			dependencies: ["1E489942504DD2AF", "428767F33F1E8530"]
@@ -445,8 +447,8 @@
 				}
 			]
 			title: "Obsidilith"
-			x: -1.5d
-			y: 3.0d
+			x: 4.5d
+			y: 6.85d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4", "428767F33F1E8530"]
@@ -492,8 +494,8 @@
 				}
 			]
 			title: "O Leviatã"
-			x: 1.5d
-			y: 3.0d
+			x: 9.0d
+			y: 4.15d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4", "428767F33F1E8530"]
@@ -539,8 +541,8 @@
 				}
 			]
 			title: "Dragão Ancião"
-			x: 4.5d
-			y: 3.0d
+			x: 9.0d
+			y: 6.85d
 		}
 		{
 			dependencies: [
@@ -559,6 +561,7 @@
 			description: [
 				"Quatro Deuses Errantes caíram. Os Observadores forjam a sua Insígnia."
 			]
+			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "384BB0B089C96A09"
@@ -576,6 +579,7 @@
 				}
 			]
 			shape: "diamond"
+			size: 1.5d
 			subtitle: "&64 Marcas"
 			tasks: [
 				{
@@ -584,8 +588,8 @@
 				}
 			]
 			title: "Insígnia dos Deuses I"
-			x: -9.0d
-			y: 7.0d
+			x: -4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -605,6 +609,7 @@
 				"Oito Marcas. Leve a Insígnia e quatro Marcas à mesa de ferraria: as Marcas"
 				"servem de molde e não são gastas."
 			]
+			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "02CAC386E278F64C"
@@ -617,6 +622,7 @@
 				}
 			]
 			shape: "diamond"
+			size: 1.5d
 			subtitle: "&68 Marcas"
 			tasks: [
 				{
@@ -625,8 +631,8 @@
 				}
 			]
 			title: "Insígnia dos Deuses II"
-			x: -6.0d
-			y: 7.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -647,6 +653,7 @@
 				"Todos os Deuses Errantes da lista vencidos e o Selo refeito."
 				"O panteão reconhece o grupo e o Desafio dos Sete se abre."
 			]
+			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "6EF3766A506C655B"
@@ -658,6 +665,7 @@
 				}
 			]
 			shape: "diamond"
+			size: 1.5d
 			subtitle: "&6Todas as Marcas"
 			tasks: [
 				{
@@ -666,8 +674,8 @@
 				}
 			]
 			title: "Insígnia dos Deuses III"
-			x: -3.0d
-			y: 7.0d
+			x: 4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6EF3766A506C655B"]
@@ -700,7 +708,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "&5Fecho da Trilha"
 			tasks: [
 				{
@@ -711,9 +719,10 @@
 				}
 			]
 			title: "Desafio dos Sete"
-			x: 0.5d
-			y: 7.0d
+			x: 4.5d
+			y: 15.5d
 		}
 	]
+	subtitle: ["Onze Deuses Errantes e o Desafio dos Sete"]
 	title: "Trilha dos Deuses"
 }

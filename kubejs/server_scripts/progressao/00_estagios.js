@@ -19,6 +19,8 @@ global.GURIZES_NOME_ESTAGIO = {
   juramentado: 'Juramentado'
 }
 
+const GURIZES_STAGE_ATTR = Java.loadClass('com.alessandro.astages.engine.store.StageAttributes')
+
 global.gurizesTentar = (descricao, fn) => {
   try {
     return fn()
@@ -47,6 +49,7 @@ global.gurizesAtoAtual = server => {
 global.GURIZES_ESTAGIOS_SERVIDOR.forEach(estagio => {
   global.gurizesTentar(`customizeStage ${estagio}`, () => {
     const s = AStages.customizeStage(estagio, global.GURIZES_NOME_ESTAGIO[estagio] || estagio).serverOnly()
+    global.gurizesTentar(`silenciar ${estagio}`, () => s.set(GURIZES_STAGE_ATTR.SHOW_DEFAULT, false))
     if (estagio.startsWith('ato_') && estagio !== 'ato_1') {
       global.gurizesTentar(`titulo ${estagio}`, () => s
         .titleOnAdd(st => Text.of(global.GURIZES_NOME_ESTAGIO[st] || st).gold())
@@ -62,6 +65,14 @@ global.GURIZES_ESTAGIOS_SERVIDOR.forEach(estagio => {
 })
 
 global.GURIZES_ESTAGIOS_JOGADOR.forEach(estagio => {
-  global.gurizesTentar(`customizeStage ${estagio}`, () =>
-    AStages.customizeStage(estagio, global.GURIZES_NOME_ESTAGIO[estagio] || estagio).playerOnly())
+  global.gurizesTentar(`customizeStage ${estagio}`, () => {
+    const s = AStages.customizeStage(estagio, global.GURIZES_NOME_ESTAGIO[estagio] || estagio).playerOnly()
+    global.gurizesTentar(`silenciar ${estagio}`, () => s.set(GURIZES_STAGE_ATTR.SHOW_DEFAULT, false))
+  })
 })
+
+global.gurizesDarEstagioJogador = (player, estagio) =>
+  global.gurizesTentar(`add ${estagio}`, () => AStages.addStageToPlayer(player, estagio, false, false, false))
+
+global.gurizesTirarEstagioJogador = (player, estagio) =>
+  global.gurizesTentar(`remove ${estagio}`, () => AStages.removeStageFromPlayer(player, estagio, false, false, false))

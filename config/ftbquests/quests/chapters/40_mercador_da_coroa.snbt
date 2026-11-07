@@ -5,7 +5,7 @@
 	group: "2AB7CEEE2B2349D1"
 	icon: "gurizes:moeda_ouro"
 	id: "2C504532A7FA6F50"
-	order_index: 22
+	order_index: 34
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -30,7 +30,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "circle"
+			subtitle: "&7Suprimentos"
 			tasks: [
 				{
 					consume_items: true
@@ -67,7 +68,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "circle"
+			subtitle: "&7Suprimentos"
 			tasks: [
 				{
 					consume_items: true
@@ -78,7 +80,7 @@
 				}
 			]
 			title: "Comida de Viagem"
-			x: 2.5d
+			x: 2.6d
 			y: 0.0d
 		}
 		{
@@ -95,7 +97,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "circle"
+			subtitle: "&7Suprimentos"
 			tasks: [
 				{
 					consume_items: true
@@ -106,7 +109,7 @@
 				}
 			]
 			title: "Pergaminho da Sabedoria"
-			x: 5.0d
+			x: 5.2d
 			y: 0.0d
 		}
 		{
@@ -123,7 +126,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "circle"
+			subtitle: "&7Suprimentos"
 			tasks: [
 				{
 					consume_items: true
@@ -134,7 +138,7 @@
 				}
 			]
 			title: "Pergaminho da Amnésia"
-			x: 7.5d
+			x: 7.8d
 			y: 0.0d
 		}
 		{
@@ -151,7 +155,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "rsquare"
+			subtitle: "&7Espólio"
 			tasks: [
 				{
 					consume_items: true
@@ -162,8 +167,8 @@
 				}
 			]
 			title: "Espólio do Ato I"
-			x: 10.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -179,7 +184,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "hexagon"
+			subtitle: "&7Personagem"
 			tasks: [
 				{
 					consume_items: true
@@ -190,8 +196,8 @@
 				}
 			]
 			title: "Contrato de Guilda"
-			x: 12.5d
-			y: 0.0d
+			x: 0.0d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -207,7 +213,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "hexagon"
+			subtitle: "&7Personagem"
 			tasks: [
 				{
 					consume_items: true
@@ -218,8 +225,8 @@
 				}
 			]
 			title: "Vela da Peregrinação"
-			x: 0.0d
-			y: 2.5d
+			x: 2.6d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -235,7 +242,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "hexagon"
+			subtitle: "&7Personagem"
 			tasks: [
 				{
 					consume_items: true
@@ -246,8 +254,8 @@
 				}
 			]
 			title: "Espelho das Origens"
-			x: 2.5d
-			y: 2.5d
+			x: 5.2d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -266,7 +274,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "hexagon"
+			subtitle: "&7Personagem"
 			tasks: [
 				{
 					consume_items: true
@@ -283,8 +292,8 @@
 				}
 			]
 			title: "Tomo do Novo Juramento"
-			x: 5.0d
-			y: 2.5d
+			x: 7.8d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -300,7 +309,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "rsquare"
+			subtitle: "&7Espólio"
 			tasks: [
 				{
 					consume_items: true
@@ -311,8 +321,8 @@
 				}
 			]
 			title: "Espólio do Ato II"
-			x: 7.5d
-			y: 2.5d
+			x: 2.6d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -328,7 +338,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "rsquare"
+			subtitle: "&7Espólio"
 			tasks: [
 				{
 					consume_items: true
@@ -339,8 +350,8 @@
 				}
 			]
 			title: "Espólio do Ato III"
-			x: 10.0d
-			y: 2.5d
+			x: 5.2d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -356,7 +367,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "rsquare"
+			subtitle: "&7Espólio"
 			tasks: [
 				{
 					consume_items: true
@@ -367,8 +379,8 @@
 				}
 			]
 			title: "Espólio do Ato IV"
-			x: 12.5d
-			y: 2.5d
+			x: 7.8d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -384,7 +396,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "rsquare"
+			subtitle: "&7Espólio"
 			tasks: [
 				{
 					consume_items: true
@@ -394,8 +407,8 @@
 				}
 			]
 			title: "Espólio do Ato V"
-			x: 0.0d
-			y: 5.0d
+			x: 10.4d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -411,7 +424,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "rsquare"
+			subtitle: "&7Espólio"
 			tasks: [
 				{
 					consume_items: true
@@ -428,8 +442,8 @@
 				}
 			]
 			title: "Espólio do Ato VI"
-			x: 2.5d
-			y: 5.0d
+			x: 13.0d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -446,7 +460,8 @@
 					type: "random"
 				}
 			]
-			subtitle: "Troca"
+			shape: "diamond"
+			subtitle: "&7Gema"
 			tasks: [
 				{
 					consume_items: true
@@ -457,8 +472,8 @@
 				}
 			]
 			title: "Gema Incomum Aleatória"
-			x: 5.0d
-			y: 5.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -475,7 +490,8 @@
 					type: "random"
 				}
 			]
-			subtitle: "Troca"
+			shape: "diamond"
+			subtitle: "&7Gema"
 			tasks: [
 				{
 					consume_items: true
@@ -486,8 +502,8 @@
 				}
 			]
 			title: "Gema Rara Aleatória"
-			x: 7.5d
-			y: 5.0d
+			x: 18.6d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -504,7 +520,8 @@
 					type: "random"
 				}
 			]
-			subtitle: "Troca"
+			shape: "diamond"
+			subtitle: "&7Gema"
 			tasks: [
 				{
 					consume_items: true
@@ -515,8 +532,8 @@
 				}
 			]
 			title: "Gema Épica Aleatória"
-			x: 10.0d
-			y: 5.0d
+			x: 21.2d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -533,7 +550,8 @@
 					type: "random"
 				}
 			]
-			subtitle: "Troca"
+			shape: "diamond"
+			subtitle: "&7Gema"
 			tasks: [
 				{
 					consume_items: true
@@ -544,8 +562,8 @@
 				}
 			]
 			title: "Gema Mítica Aleatória"
-			x: 12.5d
-			y: 5.0d
+			x: 23.8d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -561,7 +579,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "diamond"
+			subtitle: "&7Gema"
 			tasks: [
 				{
 					consume_items: true
@@ -572,8 +591,8 @@
 				}
 			]
 			title: "Sigilo de Encaixe"
-			x: 0.0d
-			y: 7.5d
+			x: 26.4d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -589,7 +608,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "square"
+			subtitle: "&7Tinta"
 			tasks: [
 				{
 					consume_items: true
@@ -600,8 +620,8 @@
 				}
 			]
 			title: "Tinta Rara"
-			x: 2.5d
-			y: 7.5d
+			x: 16.0d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -617,7 +637,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "square"
+			subtitle: "&7Tinta"
 			tasks: [
 				{
 					consume_items: true
@@ -628,8 +649,8 @@
 				}
 			]
 			title: "Tinta Épica"
-			x: 5.0d
-			y: 7.5d
+			x: 18.6d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -645,7 +666,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "square"
+			subtitle: "&7Tinta"
 			tasks: [
 				{
 					consume_items: true
@@ -655,8 +677,8 @@
 				}
 			]
 			title: "Tinta Lendária"
-			x: 7.5d
-			y: 7.5d
+			x: 21.2d
+			y: 2.6d
 		}
 		{
 			can_repeat: true
@@ -680,7 +702,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "octagon"
+			subtitle: "&7Arena"
 			tasks: [
 				{
 					consume_items: true
@@ -691,8 +714,8 @@
 				}
 			]
 			title: "Chave da Arena de Desafio: Ato II"
-			x: 10.0d
-			y: 7.5d
+			x: 16.0d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -716,7 +739,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "octagon"
+			subtitle: "&7Arena"
 			tasks: [
 				{
 					consume_items: true
@@ -727,8 +751,8 @@
 				}
 			]
 			title: "Chave da Arena de Desafio: Ato III"
-			x: 12.5d
-			y: 7.5d
+			x: 18.6d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -752,7 +776,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "octagon"
+			subtitle: "&7Arena"
 			tasks: [
 				{
 					consume_items: true
@@ -763,8 +788,8 @@
 				}
 			]
 			title: "Chave da Arena de Desafio: Ato IV"
-			x: 0.0d
-			y: 10.0d
+			x: 21.2d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -788,7 +813,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "octagon"
+			subtitle: "&7Arena"
 			tasks: [
 				{
 					consume_items: true
@@ -804,8 +830,8 @@
 				}
 			]
 			title: "Chave da Arena de Desafio: Ato V"
-			x: 2.5d
-			y: 10.0d
+			x: 23.8d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -829,7 +855,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Troca"
+			shape: "octagon"
+			subtitle: "&7Arena"
 			tasks: [
 				{
 					consume_items: true
@@ -846,8 +873,8 @@
 				}
 			]
 			title: "Chave da Arena de Desafio: Ato VI"
-			x: 5.0d
-			y: 10.0d
+			x: 26.4d
+			y: 5.2d
 		}
 		{
 			can_repeat: true
@@ -865,6 +892,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Atalho"
 			tasks: [
 				{
@@ -876,8 +904,8 @@
 				}
 			]
 			title: "Chave do Porteiro I"
-			x: 7.5d
-			y: 10.0d
+			x: 16.0d
+			y: 7.8d
 		}
 		{
 			can_repeat: true
@@ -895,6 +923,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Atalho"
 			tasks: [
 				{
@@ -906,8 +935,8 @@
 				}
 			]
 			title: "Chave do Porteiro II"
-			x: 10.0d
-			y: 10.0d
+			x: 18.6d
+			y: 7.8d
 		}
 		{
 			can_repeat: true
@@ -925,6 +954,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Atalho"
 			tasks: [
 				{
@@ -935,8 +965,8 @@
 				}
 			]
 			title: "Chave do Porteiro III"
-			x: 12.5d
-			y: 10.0d
+			x: 21.2d
+			y: 7.8d
 		}
 		{
 			can_repeat: true
@@ -954,6 +984,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Atalho"
 			tasks: [
 				{
@@ -971,8 +1002,8 @@
 				}
 			]
 			title: "Chave do Porteiro IV"
-			x: 0.0d
-			y: 12.5d
+			x: 23.8d
+			y: 7.8d
 		}
 		{
 			can_repeat: true
@@ -990,6 +1021,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Atalho"
 			tasks: [
 				{
@@ -1001,8 +1033,8 @@
 				}
 			]
 			title: "Chave do Porteiro V"
-			x: 2.5d
-			y: 12.5d
+			x: 26.4d
+			y: 7.8d
 		}
 		{
 			can_repeat: true
@@ -1020,6 +1052,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "Prestígio"
 			tasks: [
 				{
@@ -1031,8 +1064,8 @@
 				}
 			]
 			title: "Relíquia do Panteão"
-			x: 5.0d
-			y: 12.5d
+			x: 0.0d
+			y: 7.8d
 		}
 		{
 			can_repeat: true
@@ -1053,6 +1086,7 @@
 					type: "command"
 				}
 			]
+			shape: "octagon"
 			subtitle: "Pós-jogo"
 			tasks: [
 				{
@@ -1064,9 +1098,10 @@
 				}
 			]
 			title: "Reduzir Nível do Mundo"
-			x: 7.5d
-			y: 12.5d
+			x: 2.6d
+			y: 7.8d
 		}
 	]
+	subtitle: ["Trocas com moedas"]
 	title: "Mercador da Coroa"
 }

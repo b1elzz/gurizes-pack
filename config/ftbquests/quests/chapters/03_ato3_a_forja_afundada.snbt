@@ -38,7 +38,7 @@
 			]
 			title: "Portão de Fogo"
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6F61C2635841656F"]
@@ -64,8 +64,8 @@
 				}
 			]
 			title: "O Clã Exilado"
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["17B5390304DA4CA2"]
@@ -98,8 +98,8 @@
 				}
 			]
 			title: "Escória para o Clã"
-			x: 4.0d
-			y: 0.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["67C7D3854DA81061"]
@@ -124,8 +124,8 @@
 				}
 			]
 			title: "Brasa Primordial"
-			x: 6.0d
-			y: 0.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -162,7 +162,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "&6Porteiro"
 			tasks: [
 				{
@@ -173,9 +173,10 @@
 				}
 			]
 			title: "A Forja Afundada"
-			x: 8.5d
-			y: 0.0d
+			x: 10.5d
+			y: 3.0d
 		}
 	]
+	subtitle: ["Porteiro: Kharzul"]
 	title: "Ato III: A Forja Afundada"
 }

@@ -1,0 +1,13 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "interval": 5,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "gurizes:raca/ventari/folego",
+    "change": -2
+  },
+  "condition": {
+    "type": "apoli:fall_flying"
+  }
+}

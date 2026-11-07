@@ -34,7 +34,7 @@
 			]
 			title: "Além do Portal"
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1CB951A2E45D104A"]
@@ -61,8 +61,8 @@
 				}
 			]
 			title: "Poeira de Estrela"
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["75E87D6A32783268"]
@@ -94,8 +94,8 @@
 				}
 			]
 			title: "O Mapa Celeste"
-			x: 4.0d
-			y: 0.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7630A82A2A53D770"]
@@ -121,8 +121,8 @@
 				}
 			]
 			title: "Lente Estelar"
-			x: 6.0d
-			y: 0.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -159,7 +159,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "&6Porteiro"
 			tasks: [
 				{
@@ -170,9 +170,10 @@
 				}
 			]
 			title: "O Céu Partido"
-			x: 8.5d
-			y: 0.0d
+			x: 10.5d
+			y: 3.0d
 		}
 	]
+	subtitle: ["Porteiro: Astrael"]
 	title: "Ato V: O Céu Partido"
 }

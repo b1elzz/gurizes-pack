@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Aço Não Conjura",
+  "description": "Preço: −8% de poder mágico.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "multiply_base",
+      "value": -0.08,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

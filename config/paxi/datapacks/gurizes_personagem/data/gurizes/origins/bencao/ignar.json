@@ -1,6 +1,6 @@
 {
   "name": "Ignar, o Ferreiro do Mundo",
-  "description": "Forja e fogo. Menor: +2 de armadura. Maior (após o Ato III): Têmpera Divina.",
+  "description": "Forja e fogo. Estilo: muralha de aço. Menor: +2 de armadura. Maior (Ato III): Têmpera Divina, mais armadura e resistência. Preço: −8% de poder mágico.",
   "icon": {
     "item": "minecraft:anvil"
   },
@@ -8,6 +8,7 @@
   "order": 4,
   "powers": [
     "gurizes:bencao/ignar/menor_bigorna",
-    "gurizes:bencao/ignar/maior_tempera"
+    "gurizes:bencao/ignar/maior_tempera",
+    "gurizes:bencao/ignar/preco_aco"
   ]
 }

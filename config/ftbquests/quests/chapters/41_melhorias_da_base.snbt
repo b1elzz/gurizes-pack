@@ -5,7 +5,7 @@
 	group: "2AB7CEEE2B2349D1"
 	icon: "gurizes:estandarte_do_juramento"
 	id: "3D3F537F1CB51F7E"
-	order_index: 23
+	order_index: 35
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -19,6 +19,7 @@
 			id: "66D7C9E1EC0465BC"
 			rewards: [ ]
 			shape: "hexagon"
+			size: 2.0d
 			tasks: [
 				{
 					id: "1DBD73B97374BDC3"
@@ -45,6 +46,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "1AE113A944B7BDBC"
@@ -52,8 +55,8 @@
 				}
 			]
 			title: "Mesa de Builds"
-			x: 2.0d
-			y: -2.0d
+			x: 0.0d
+			y: -4.6d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
@@ -69,6 +72,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					consume_items: true
@@ -79,8 +84,8 @@
 				}
 			]
 			title: "Pedra de Viagem do Pouso"
-			x: 2.0d
-			y: 0.0d
+			x: 2.96d
+			y: -3.52d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
@@ -110,6 +115,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					consume_items: true
@@ -119,8 +126,8 @@
 				}
 			]
 			title: "Forja do Grupo"
-			x: 2.0d
-			y: 2.0d
+			x: 4.53d
+			y: -0.8d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
@@ -137,6 +144,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					consume_items: true
@@ -147,8 +156,8 @@
 				}
 			]
 			title: "Salão dos Deuses"
-			x: 4.0d
-			y: -2.0d
+			x: 3.98d
+			y: 2.3d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
@@ -166,6 +175,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					consume_items: true
@@ -175,8 +186,8 @@
 				}
 			]
 			title: "Coliseu dos Gurizes"
-			x: 4.0d
-			y: 0.0d
+			x: 1.57d
+			y: 4.32d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "299A96D053605996"]
@@ -193,6 +204,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "6C6940204F423F98"
@@ -200,8 +213,8 @@
 				}
 			]
 			title: "Mercador Residente"
-			x: 4.0d
-			y: 2.0d
+			x: -1.57d
+			y: 4.32d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "1F82201E3EE0EE78"]
@@ -225,6 +238,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "7875E0104C49B211"
@@ -232,8 +247,8 @@
 				}
 			]
 			title: "Forja Anã"
-			x: 6.0d
-			y: -2.0d
+			x: -3.98d
+			y: 2.3d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "0E3ABA8733D7AC8E"]
@@ -250,6 +265,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "1E8F9E72FDC47C4D"
@@ -257,8 +274,8 @@
 				}
 			]
 			title: "Doca"
-			x: 6.0d
-			y: 0.0d
+			x: -4.53d
+			y: -0.8d
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "1E489942504DD2AF"]
@@ -277,6 +294,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			tasks: [
 				{
 					id: "02D8267DB3196172"
@@ -284,9 +303,10 @@
 				}
 			]
 			title: "Observatório"
-			x: 6.0d
-			y: 2.0d
+			x: -2.96d
+			y: -3.52d
 		}
 	]
+	subtitle: ["O Pouso cresce a cada ato"]
 	title: "Melhorias da Base"
 }

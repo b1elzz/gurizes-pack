@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_assassino"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:adaga_do_ultimo_suspiro"
+	id: "49FC30077D103768"
+	order_index: 18
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Você escolheu a classe Assassino."]
+			icon: "minecraft:iron_sword"
+			id: "61835B8268F071AF"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "gurizes:interno/classe_assassino"
+					criterion: ""
+					id: "23D6018F114BC3D7"
+					type: "advancement"
+				}
+			]
+			title: "Juramento: Assassino"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61835B8268F071AF"]
+			description: [
+				"\"O boss tem muita vida. Eu só preciso achar o lugar certo.\""
+				""
+				"Sai de ferro, livro de magias e o pergaminho de Passo Sangrento."
+				"O kit do juramento já trouxe tudo. Confira a mochila."
+			]
+			hide_until_deps_complete: true
+			icon: "simplyswords:iron_sai"
+			id: "4ABDA7F3E7294F60"
+			rewards: [
+				{
+					id: "4E45998281FA2344"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09BDFF9616BD376B"
+					item: "simplyswords:iron_sai"
+					type: "item"
+				}
+				{
+					id: "2ABDE3789C40A1E0"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+				{
+					id: "58A5F5DEC7EC0137"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			]
+			title: "Sai e Pergaminho"
+			x: 2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4ABDA7F3E7294F60"]
+			description: [
+				"Aperte &eG&r: teleporte curto de sangue. Recarga de 20 s."
+				"Agachado, a Emboscada dá +15% de dano. Entre pelas costas, saia pelo passo."
+				"Completa na primeira vez que você usar a habilidade."
+			]
+			hide_until_deps_visible: true
+			icon: "irons_spellbooks:scroll"
+			id: "594071B351BD96CD"
+			rewards: [
+				{
+					id: "5ABEA38CF46F4FEE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					advancement: "gurizes:interno/habilidade_assassino"
+					criterion: ""
+					id: "56849054696FD3F6"
+					type: "advancement"
+				}
+			]
+			title: "Passo Sangrento"
+			x: 5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["594071B351BD96CD"]
+			description: [
+				"Agache, chegue por trás e acabe rápido. Você é frágil: golpe que não mata é golpe que machuca você."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:spider_eye"
+			id: "6217BD222A4D1488"
+			rewards: [
+				{
+					count: 2
+					id: "23BF20E2D2153CB3"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "0067E96C68F7D9C7"
+					type: "kill"
+					value: 6L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "5CF78763CD57484A"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "Pelas Costas"
+			x: 7.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61835B8268F071AF"]
+			description: [
+				"Ande agachado por 200 blocos para aprender o silêncio. Cordas das aranhas servem de armadilha."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:string"
+			id: "742229AAC39362D9"
+			rewards: [
+				{
+					id: "04817413115ED4CB"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AAB3DA04ACDC311"
+					stat: "minecraft:crouch_one_cm"
+					type: "stat"
+					value: 20000
+				}
+				{
+					count: 8L
+					id: "4DD071D1C0371666"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "Passos Macios"
+			x: 5.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["61835B8268F071AF", "08980327ADCB5557"]
+			description: [
+				"Entregue 3 Ferro Votivo e 1 Centelha do Selo e receba a Adaga do Último Suspiro na Forma I."
+				"Habilidade: agachar + botão direito."
+			]
+			hide_until_deps_complete: true
+			icon: "gurizes:adaga_do_ultimo_suspiro"
+			id: "13774F9F8D9D9A3B"
+			rewards: [
+				{
+					id: "6D0464C6149F2E41"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&6Assassino · Forma I"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "3207F9FF09CC4A45"
+					item: "gurizes:ferro_votivo"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "52E33122DF0EBA4F"
+					item: "gurizes:centelha_do_selo"
+					type: "item"
+				}
+			]
+			title: "Adaga do Último Suspiro"
+			x: 7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6217BD222A4D1488", "742229AAC39362D9"]
+			description: [
+				"Na fase 1, bata pelas costas de Sir Galvar e saia pelo Passo Sangrento antes do contra-ataque."
+				"Ele resiste a sangue de frente."
+				"Marque quando estiver pronto para a Cripta."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_chestplate"
+			id: "1E003742B6AA2973"
+			rewards: [
+				{
+					count: 2
+					id: "7A91E463CF805886"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "2721C019AF2762DB"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&6Rumo ao Galvar"
+			tasks: [
+				{
+					id: "14A76C008C0EA312"
+					type: "checkmark"
+				}
+			]
+			title: "Costas do Cavaleiro"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Só aparece para quem jurou esta classe"]
+	title: "Classe: Assassino"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Mente Clara",
+  "description": "+6% de redução de recarga.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "operation": "addition",
+      "value": 0.06,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}
