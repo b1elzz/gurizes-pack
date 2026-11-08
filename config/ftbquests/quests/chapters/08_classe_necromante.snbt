@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:grimorio_partido"
 	id: "0B813CC7EAE9B4AE"
-	order_index: 15
+	order_index: 18
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

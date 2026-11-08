@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Frio Mortal",
+  "description": "§o§7O gelo é a morte que nenhuma cinza desfaz.§r\n§cFraqueza:§r +25% de dano de frio.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.25
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:frio"
+  }
+}

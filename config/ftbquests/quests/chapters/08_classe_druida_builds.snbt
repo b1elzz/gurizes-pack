@@ -1,0 +1,921 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_druida_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:cajado_do_carvalho_primevo"
+	id: "01C891A46F6AFD0F"
+	order_index: 27
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AC628BFDAD5F519"]
+			description: [
+				"&oA floresta não escolhe lados. Eu escolho, e ela me empresta a força."
+				""
+				"&6Escolhas:&r Elarim (ou Maréu) · Tellura (ou Aurion) · Profissão Alquimista ou Cozinheiro"
+				"&6Árvore:&r Cozinheiro: Cura Recebida e Vida Máxima. Alquimista do Ato III: Cura Recebida ×3 > Resposta Imunológica, Duração de Efeitos Benéficos"
+				"{@pagebreak}"
+				"&6Como joga:&r Mantém o tanque de pé: Curar, Círculo de Cura e a Semente da Vida onde o grupo fica; raízes seguram o que corre."
+				"&6Em grupo:&r Curandeiro principal. Com 4 jogadores, um Druida é quase obrigatório no brutal."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:cajado_do_carvalho_primevo"
+			id: "106D6085B3258FB9"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · cura e controle"
+			tasks: [
+				{
+					id: "63AE5BE67E785D3B"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Coração da Mata"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["106D6085B3258FB9"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma I (depois do Galvar)"
+				"&6Armadura:&r Mago Errante (leve); nunca peitoral pesado"
+				"&6Armas:&r Cajado do Barba-Cinzenta; o Cajado do Carvalho entra depois do Galvar"
+				"&6Acessórios:&r Anel de Mana"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável; Cura Recebida"
+				"&6Gemas:&r Foco de Natureza e Foco de Sagrado"
+				"&6Magias:&r Curar, Enraizar, Salpico Venenoso"
+				"&6Encantos:&r Proteção II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, Frasco de Cura em Grupo, 8 mudas"
+				"&aRotação:&r Enraizar em quem corre para o grupo; Curar no tanque; Círculo Verdejante (G) quando todos estiverem juntos"
+			]
+			icon: "irons_spellbooks:graybeard_staff"
+			id: "6CB174EEA28D6F1E"
+			rewards: [
+				{
+					id: "592F0E25ED46E4D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Coração da Mata"
+			tasks: [
+				{
+					id: "5A4A66C3DD534707"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1947F182FD7C6B8C"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "34468A0C25846092"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "7DB6414F6883484E"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Cajado e Mudas"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB174EEA28D6F1E"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Apodrecido (runa de Natureza) ou Sacerdote"
+				"&6Armas:&r cajado com afixo; Cajado do Carvalho II"
+				"&6Acessórios:&r Anel de Mana + Anel de Afinidade com Natureza"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Cura Recebida ×3 > Metabolismo Acelerado; Vida Máxima ×3"
+				"&6Gemas:&r Foco de Natureza e Foco de Sagrado em duas peças"
+				"&6Magias:&r Curar, Enraizar, Salpico Venenoso, Pele de Carvalho"
+				"&6Encantos:&r Proteção III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Banquete do Acampamento"
+				"&aRotação:&r Casca de Carvalho dispara sozinha abaixo de 40%; Pele de Carvalho no tanque; Curar de longe"
+			]
+			icon: "irons_spellbooks:plagued_chestplate"
+			id: "3B30CB709AAE5C84"
+			rewards: [
+				{
+					id: "0AC73BC92789DCEE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6A1DA2EF1319C1D8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Coração da Mata"
+			tasks: [
+				{
+					id: "27344A28708F1580"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "09EFFE7A56C0339A"
+					item: "irons_spellbooks:plagued_chestplate"
+					type: "item"
+				}
+				{
+					id: "2D085CD2B49E66CE"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "2E4AA3EC63960AFC"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Casca e Folha"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B30CB709AAE5C84"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Sacerdote completo"
+				"&6Armas:&r cajado raro; Cajado do Carvalho III"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Afinidade com Sagrado + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Cura Recebida ×3 > Resposta Imunológica; Vida Máxima"
+				"&6Gemas:&r Foco de Sagrado em 2 peças; Foco de Natureza; Foco Arcano"
+				"&6Magias:&r Círculo de Cura, Pele de Carvalho, Nuvem de Regeneração, Pisada"
+				"&6Encantos:&r Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Semente da Vida onde o grupo fica; Nuvem de Regeneração antes do dano previsto; Pisada nos que cercam"
+			]
+			icon: "irons_spellbooks:priest_chestplate"
+			id: "4576BF1BB47F71CC"
+			rewards: [
+				{
+					id: "1FB9A377C17C46FD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Coração da Mata"
+			tasks: [
+				{
+					id: "76F741ECD816ABA4"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0E7DC9CCD0442925"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "25FE2807D8F6BF0C"
+					item: "irons_spellbooks:druidic_spell_book"
+					type: "item"
+				}
+				{
+					id: "56658438A52A1D76"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sagrado"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Sacerdote da Mata"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4576BF1BB47F71CC"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Mago Guerreiro de Netherita (leve)"
+				"&6Armas:&r Cajado do Carvalho IV; cajado com afixos épicos"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Afinidade com Sagrado + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Resposta Imunológica; Overdose; Mutação"
+				"&6Gemas:&r Foco de Sagrado épicas; Foco do Tempo; Guardião"
+				"&6Magias:&r Cura Maior, Círculo de Cura, Nuvem de Regeneração, Terremoto"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Ira da Floresta (H) na fase de adds (controle e cura); Cura Maior no aliado crítico"
+			]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "7C4E02783F576031"
+			rewards: [
+				{
+					id: "557C19425CB6E42C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5E085F796E156C28"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Coração da Mata"
+			tasks: [
+				{
+					id: "109296FCF415FC2F"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "332B8CF6C159B1D6"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "5F0EB06E092D5B78"
+					item: "irons_spellbooks:druidic_spell_book"
+					type: "item"
+				}
+				{
+					id: "12F1BD28376F60AB"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sagrado"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Seiva de Netherita"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C4E02783F576031"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Mago Guerreiro de Netherita com afixos de cura"
+				"&6Armas:&r Cajado do Carvalho V"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Afinidade com Sagrado + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Regeneração de Membros; Cura por Poção"
+				"&6Gemas:&r Foco de Sagrado e Foco do Tempo míticas; Esplendor"
+				"&6Magias:&r Cura Maior, Terremoto, Bênção da Vida"
+				"&6Encantos:&r Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Semente da Vida (+0,25 por forma) no centro do grupo; Terremoto para controle"
+			]
+			icon: "irons_spellbooks:netherite_mage_helmet"
+			id: "2A53E79312C8D528"
+			rewards: [
+				{
+					id: "34B041EF5E573D75"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Coração da Mata"
+			tasks: [
+				{
+					id: "111075E3B0066E6E"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "59549282E3C47600"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "3653984CD597E3C0"
+					item: "irons_spellbooks:druidic_spell_book"
+					type: "item"
+				}
+				{
+					id: "41AD8DB5B83D2201"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sagrado"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Coroa de Raízes"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A53E79312C8D528"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Verde (Ice and Fire; não conta como peitoral pesado)"
+				"&6Armas:&r Cajado do Carvalho V com afixo épico+"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Afinidade com Sagrado + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: o resto de Cura por Poção e Mutação"
+				"&6Gemas:&r Foco de Sagrado míticas; Foco do Tempo; Esplendor"
+				"&6Magias:&r Cura Maior, Terremoto, Bênção da Vida, Nuvem de Regeneração"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Ira da Floresta na fase de adds do Rei Partido; Cura Maior em quem estiver caindo"
+			]
+			icon: "iceandfire:armor_green_chestplate"
+			id: "353C8D958CAA0368"
+			rewards: [
+				{
+					id: "37BFE767C015DB09"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "56B27AD724CEB8BD"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Coração da Mata"
+			tasks: [
+				{
+					id: "28CBDE9433D7B158"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0D0FEB8A9BFF049D"
+					item: "iceandfire:armor_green_chestplate"
+					type: "item"
+				}
+				{
+					id: "36C2D679C578B652"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "523E7E6F88419D8E"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sagrado"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Dragão Verde"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AC628BFDAD5F519"]
+			description: [
+				"&oO que a floresta recebe de volta nunca é tão bonito quanto o que levou."
+				""
+				"&6Escolhas:&r Maréu (ou Elarim) · Tellura · Profissão Alquimista"
+				"&6Árvore:&r Alquimista do Ato III: Chance de Envenenamento ×3 > Dano de Veneno ×3 > Carne em Fusão. Cozinheiro no começo: Vida Máxima"
+				"{@pagebreak}"
+				"&6Como joga:&r Planta raízes, solta veneno e ácido e deixa o terremoto fazer o resto; o Círculo de cura ainda existe, mas é a segunda opção."
+				"&6Em grupo:&r Segundo curandeiro e controle. Combina com um Druida de cura puro, ou com Paladino e Bardo."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:cajado_do_carvalho_primevo"
+			id: "147BE9FC45369BD7"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · veneno, raízes e dano de Natureza"
+			tasks: [
+				{
+					id: "54691CE08B1E9282"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Praga da Mata"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["147BE9FC45369BD7"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma I (depois do Galvar)"
+				"&6Armadura:&r Mago Errante"
+				"&6Armas:&r Cajado do Barba-Cinzenta"
+				"&6Acessórios:&r Anel de Mana"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável"
+				"&6Gemas:&r Foco de Natureza no peito e no elmo"
+				"&6Magias:&r Salpico Venenoso, Enraizar, Curar"
+				"&6Encantos:&r Proteção II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, Óleo de Lâmina: Veneno"
+				"&aRotação:&r Salpico Venenoso no que se aproxima; Enraizar para prender; Curar só se precisar"
+			]
+			icon: "irons_spellbooks:graybeard_staff"
+			id: "6E26D4A0F2247FAD"
+			rewards: [
+				{
+					id: "6C235ADA570869DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Praga da Mata"
+			tasks: [
+				{
+					id: "2062B892DCD09840"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "006CF2F68AB417C0"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "0EA6608F74C03760"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "52265FD56813B2AF"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Folha Ácida"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["6E26D4A0F2247FAD"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Apodrecido"
+				"&6Armas:&r cajado com afixo"
+				"&6Acessórios:&r Anel de Mana + Anel de Proteção contra Veneno"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3; Cura Recebida"
+				"&6Gemas:&r Foco de Natureza em 3 peças"
+				"&6Magias:&r Salpico Venenoso, Enraizar, Orbe Ácido, Pele de Carvalho"
+				"&6Encantos:&r Proteção III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Orbe Ácido amolece a armadura; veneno no boss; Enraizar no que escapa"
+			]
+			icon: "irons_spellbooks:plagued_chestplate"
+			id: "28E62F5940A3F361"
+			rewards: [
+				{
+					id: "036CD2EC45C12687"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10352918E887063C"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Praga da Mata"
+			tasks: [
+				{
+					id: "258CCCDB4AD601E4"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "34538AC374905A30"
+					item: "irons_spellbooks:plagued_chestplate"
+					type: "item"
+				}
+				{
+					id: "040A26703AFB91BD"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "6737BAEC472DB267"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_natureza"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato II: Cultivo"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["28E62F5940A3F361"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Apodrecido completo"
+				"&6Armas:&r cajado raro; Cajado do Carvalho III"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Chance de Envenenamento ×3 > Ignorar Imunidade; Dano de Veneno"
+				"&6Gemas:&r Foco de Natureza em 4 peças; Foco Arcano"
+				"&6Magias:&r Praga, Salpico Venenoso, Orbe Ácido, Pisada"
+				"&6Encantos:&r Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Praga no boss; Pisada nos que cercam; mantenha o veneno rodando"
+			]
+			icon: "irons_spellbooks:plagued_chestplate"
+			id: "355F3BAA93A00F8E"
+			rewards: [
+				{
+					id: "1174D3DC59AA08CF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Praga da Mata"
+			tasks: [
+				{
+					id: "5B0A3B2A8812F308"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1577FCB4E50F1243"
+					item: "irons_spellbooks:plagued_chestplate"
+					type: "item"
+				}
+				{
+					id: "09C3725578070A5D"
+					item: "irons_spellbooks:druidic_spell_book"
+					type: "item"
+				}
+				{
+					id: "4200A2230499351E"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_natureza"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Veneno Raro"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["355F3BAA93A00F8E"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Mago Guerreiro de Netherita"
+				"&6Armas:&r Cajado do Carvalho IV"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Recuperação + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Dano de Veneno ×3 > Carne em Fusão; Praga Alastradora"
+				"&6Gemas:&r Foco de Natureza épicas; Foco do Tempo"
+				"&6Magias:&r Praga, Terremoto, Enxame de Vaga-lumes, Orbe Ácido"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Tônico de Mana"
+				"&aRotação:&r Ira da Floresta (H) na fase de adds; Terremoto e Praga juntos"
+			]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "2D53169380B44AE1"
+			rewards: [
+				{
+					id: "04D45E3BB12E3B54"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7A17E767999F3E09"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Praga da Mata"
+			tasks: [
+				{
+					id: "0E3F5FD0831CD6F4"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "48BD27DB0F67859D"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "5CC9294A698721EA"
+					item: "irons_spellbooks:druidic_spell_book"
+					type: "item"
+				}
+				{
+					id: "3D27F61ED931EC4D"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_natureza"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Pântano de Netherita"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["2D53169380B44AE1"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Defensor (Warden) ou Mago Guerreiro de Netherita"
+				"&6Armas:&r Cajado do Carvalho V"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Recuperação + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Praga Alastradora; Duração de Efeitos Prejudiciais"
+				"&6Gemas:&r Foco de Natureza míticas; Foco do Tempo"
+				"&6Magias:&r Praga, Terremoto, Orbe Ácido, Enxame de Vaga-lumes"
+				"&6Encantos:&r Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Tônico de Mana"
+				"&aRotação:&r Praga e Terremoto em ciclo; Ira da Floresta quando o grupo cair"
+			]
+			icon: "deeperdarker:warden_chestplate"
+			id: "67052A1FA2837B39"
+			rewards: [
+				{
+					id: "6F1A8ECD5FB640CF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Praga da Mata"
+			tasks: [
+				{
+					id: "4CF03CE52F89E4E8"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "07BF342DADC86D56"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "38479088EDB64F8C"
+					item: "irons_spellbooks:druidic_spell_book"
+					type: "item"
+				}
+				{
+					id: "19CEB2393EAC2C1D"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_natureza"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Peste Antiga"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["67052A1FA2837B39"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cajado do Carvalho Primevo, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Verde"
+				"&6Armas:&r Cajado do Carvalho V com afixo épico+"
+				"&6Acessórios:&r Anel de Afinidade com Natureza + Anel de Recuperação + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: fecha Dano de Veneno e Carne em Fusão"
+				"&6Gemas:&r Foco de Natureza míticas; Esplendor"
+				"&6Magias:&r Praga, Terremoto, Orbe Ácido, Salpico Venenoso"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Tônico de Mana"
+				"&aRotação:&r Tudo envenenado e preso na janela do Rei Partido; a cura vem da Ira da Floresta"
+			]
+			icon: "iceandfire:armor_green_chestplate"
+			id: "56BE6F965B2F6CC8"
+			rewards: [
+				{
+					id: "403296345AEE0B04"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3D08B7965B01ABB0"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Praga da Mata"
+			tasks: [
+				{
+					id: "0FDC510A47606D93"
+					item: {
+						Count: 1b
+						id: "gurizes:cajado_do_carvalho_primevo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2F3C910067A55844"
+					item: "iceandfire:armor_green_chestplate"
+					type: "item"
+				}
+				{
+					id: "31FD116CA7FACE4F"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "35673E061564AF49"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_natureza"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Selva Viva"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Druida"
+}

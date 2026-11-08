@@ -5,7 +5,7 @@
 	group: "2AB7CEEE2B2349D1"
 	icon: "gurizes:estandarte_do_juramento"
 	id: "3D3F537F1CB51F7E"
-	order_index: 40
+	order_index: 50
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

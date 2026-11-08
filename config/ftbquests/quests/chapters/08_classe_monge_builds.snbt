@@ -1,0 +1,913 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_monge_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:bastao_dos_mil_passos"
+	id: "27EF334B49183922"
+	order_index: 29
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["250FDCC3608B1C89"]
+			description: [
+				"&oNão precisei de armadura. Precisei não estar lá quando o golpe chegou."
+				""
+				"&6Escolhas:&r Pés-Leves (ou Humano) · Nymara (ou Brava) · Profissão Explorador"
+				"&6Árvore:&r Cozinheiro: Dano Desarmado ×3 > Soco Pesado, Velocidade de Ataque Desarmado > Punho de Ferro, Chance de Crítico Desarmado > Arma Viva"
+				"{@pagebreak}"
+				"&6Como joga:&r Entra com o Passo do Vento, bate quatro vezes (onda de choque), deixa o boss errar e contra-ataca; cercado, Palma do Trovão."
+				"&6Em grupo:&r Segundo tanque ou tanque principal em boss de golpes lentos. Péssimo contra muito projétil: nesses o Paladino tanqueia."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:bastao_dos_mil_passos"
+			id: "3ACFFE44606F69DC"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · esquiva e dano rápido"
+			tasks: [
+				{
+					id: "7F9E60DE2237F629"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Mil Passos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ACFFE44606F69DC"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma I (depois do Galvar)"
+				"&6Armadura:&r couro (leve); nada de peitoral de ferro"
+				"&6Armas:&r Bastão de Treino do kit; o Bastão dos Mil Passos entra depois do Galvar"
+				"&6Acessórios:&r Tênis de Corrida + Garras Ferais"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano Desarmado ×3 > Soco Pesado"
+				"&6Gemas:&r Samurai na arma; Deslize nas botas"
+				"&6Magias:&r Carga, Curar"
+				"&6Encantos:&r Afiação II (se o bastão aceitar), Proteção II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, 8 bifes, Pedra de Amolar"
+				"&aRotação:&r Carga antes de entrar, quatro golpes, saia; Palma do Trovão (G) quando cercado; o Passo do Vento chega com o Bastão"
+			]
+			icon: "gurizes:bastao_de_treino"
+			id: "4E56F76027B44E29"
+			rewards: [
+				{
+					id: "0569371F50E74DA5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Mil Passos"
+			tasks: [
+				{
+					id: "0BD8484926EEC97F"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2C35C12C04B39C0C"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "0A5D30E5261358A9"
+					item: "artifacts:running_shoes"
+					type: "item"
+				}
+				{
+					id: "4C24F2A1FEB8A8BF"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Couro e Bastão"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E56F76027B44E29"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Gibão (acolchoado) ou couro reforçado"
+				"&6Armas:&r Bastão dos Mil Passos II; punhos nus em dia de luta curta"
+				"&6Acessórios:&r Tênis de Corrida + Luva do Poder"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Velocidade de Ataque Desarmado ×3; Vida Máxima"
+				"&6Gemas:&r Samurai na arma; Deslize; Guardião nas calças"
+				"&6Magias:&r Carga, Curar, Fortificar"
+				"&6Encantos:&r Proteção III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Banquete do Acampamento"
+				"&aRotação:&r Deixe o boss errar e contra-ataque (Contra-ataque dá Força); Curar em você"
+			]
+			icon: "magistuarmory:gambeson_chestplate"
+			id: "3196B844DD4B698A"
+			rewards: [
+				{
+					id: "6AFF875A99A14800"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "564E194E66AA6DF7"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Mil Passos"
+			tasks: [
+				{
+					id: "4EBD07392D63945D"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1047AAF1A91A3E0B"
+					item: "magistuarmory:gambeson_chestplate"
+					type: "item"
+				}
+				{
+					id: "3B0CDA5BD30966A0"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+				{
+					id: "285B6ED7AC8B8885"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Gibão e Fôlego"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3196B844DD4B698A"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Andarilho das Sombras (leve, com afixos de esquiva)"
+				"&6Armas:&r Bastão dos Mil Passos III"
+				"&6Acessórios:&r Tênis de Corrida + Luva do Poder + Garras Ferais"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Cozinheiro: Chance de Crítico Desarmado ×3 > Arma Viva; Vida Máxima > Dieta Saudável"
+				"&6Gemas:&r Senhor da Guerra na arma; Samurai no elmo; Guardião nas calças"
+				"&6Magias:&r Fortificar, Pressa, Onda de Choque"
+				"&6Encantos:&r Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Elixir de Evasão"
+				"&aRotação:&r Onda de Choque quando cercado; Fortificar antes do boss; fique colado, de lado"
+			]
+			icon: "irons_spellbooks:shadowwalker_chestplate"
+			id: "699121DB9221B00C"
+			rewards: [
+				{
+					id: "3C7848989A4E8891"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Mil Passos"
+			tasks: [
+				{
+					id: "55506DC2DA07C6A9"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3CD4AC27EC00AB1C"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "32BEBA8B9AAECC3A"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+				{
+					id: "058042BE7C66252B"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Andarilho"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["699121DB9221B00C"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Ressonário (Deeper and Darker), médio e sem peso de ferro"
+				"&6Armas:&r Bastão dos Mil Passos IV"
+				"&6Acessórios:&r Luva do Poder + Garras Ferais + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Velocidade de Ataque Desarmado completa; Punho de Ferro"
+				"&6Gemas:&r Samurai e Senhor da Guerra épicas; Guardião"
+				"&6Magias:&r Fortificar, Pressa, Onda de Choque, Evasão"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Os Mil Passos (H) na fase de golpes rápidos do boss; Evasão antes do golpe fatal"
+			]
+			icon: "deeperdarker:resonarium_chestplate"
+			id: "32B9BF5FA6307E1D"
+			rewards: [
+				{
+					id: "641F1C9A4CF47AB4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "21AE0AA649E1E948"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Mil Passos"
+			tasks: [
+				{
+					id: "4274F15D8517CC26"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4DF1A599AD12339F"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "47B3041826B8C523"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+				{
+					id: "382912BA06F4B2B7"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Ressonário"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32B9BF5FA6307E1D"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Netuno (Aether), médio"
+				"&6Armas:&r Bastão dos Mil Passos V"
+				"&6Acessórios:&r Luva do Poder + Garras Ferais + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: o resto de Arma Viva e Vida Máxima"
+				"&6Gemas:&r Samurai e Senhor da Guerra míticas; Guardião; Esplendor"
+				"&6Magias:&r Fortificar, Pressa, Evasão, Cura Maior"
+				"&6Encantos:&r Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Mil Passos + Passo do Vento (recarga 4 s na Forma V) sem parar"
+			]
+			icon: "aether:neptune_chestplate"
+			id: "4B20ECB61726D435"
+			rewards: [
+				{
+					id: "092A7C96D9E6C729"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Mil Passos"
+			tasks: [
+				{
+					id: "0D1A59B999B8D1B6"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4AC2D4C3076788B3"
+					item: "aether:neptune_chestplate"
+					type: "item"
+				}
+				{
+					id: "0D0A6C63EB54CF31"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+				{
+					id: "240596C2A1C0D5EE"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Brisa do Netuno"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B20ECB61726D435"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Branco (Ice and Fire; não conta como peitoral pesado)"
+				"&6Armas:&r Bastão dos Mil Passos V"
+				"&6Acessórios:&r Luva do Poder + Garras Ferais + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: fecha Dano Desarmado e Punho de Ferro"
+				"&6Gemas:&r Samurai e Senhor da Guerra míticas; Guardião; Esplendor"
+				"&6Magias:&r Fortificar, Evasão, Cura Maior"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Mil Passos na fase de golpes rápidos do Rei Partido; sempre de lado"
+			]
+			icon: "iceandfire:armor_white_chestplate"
+			id: "32D62709ECBFC87A"
+			rewards: [
+				{
+					id: "4EDD954C891341B6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0DF6F72110C82EA3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Mil Passos"
+			tasks: [
+				{
+					id: "00DC2B02F5C57795"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6486A224EF566876"
+					item: "iceandfire:armor_white_chestplate"
+					type: "item"
+				}
+				{
+					id: "2B89206279F5CB23"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+				{
+					id: "12BF0A16A5C2BCF9"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Dragão Branco"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["250FDCC3608B1C89"]
+			description: [
+				"&oA pedra não corre. A pedra espera, e o golpe é que se quebra."
+				""
+				"&6Escolhas:&r Pedraforte (ou Humano) · Brava (ou Nymara) · Profissão Ferreiro"
+				"&6Árvore:&r Cozinheiro: Vida Máxima > Dieta Saudável, Cura Recebida > Metabolismo Acelerado, Cura ao Atingir > Roubo de Vida, Soco Pesado"
+				"{@pagebreak}"
+				"&6Como joga:&r Troca a esquiva por vida e cura: Postura, vida máxima alta e o Contra-ataque; segura o boss de golpes lentos sem sair do lugar."
+				"&6Em grupo:&r Segundo tanque quando o Paladino está ocupado. Dá a vida de que o grupo precisa e bate de volta."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:bastao_dos_mil_passos"
+			id: "0CF7C5E8961C8348"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · tanque de vida e cura própria"
+			tasks: [
+				{
+					id: "23461090B8E27282"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Montanha Serena"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["0CF7C5E8961C8348"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma I (depois do Galvar)"
+				"&6Armadura:&r couro, com afixos de armadura (o Monge não veste peitoral pesado)"
+				"&6Armas:&r Bastão de Treino; Bastão dos Mil Passos depois do Galvar"
+				"&6Acessórios:&r Colar de Cruz"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável (+10 de vida)"
+				"&6Gemas:&r Guardião no peito; Lastro nas calças"
+				"&6Magias:&r Carga, Curar"
+				"&6Encantos:&r Proteção II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, 8 bifes, Frasco de Cura em Grupo"
+				"&aRotação:&r Fique no lugar, deixe o boss errar e contra-ataque; Curar em você; Palma do Trovão (G) quando cercado"
+			]
+			icon: "gurizes:bastao_de_treino"
+			id: "3358036520335B89"
+			rewards: [
+				{
+					id: "49E687B313C3F4B6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Montanha Serena"
+			tasks: [
+				{
+					id: "592B1358D8C1CE13"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "299D3F9E5B6F9032"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "4A2F8FA2869A3355"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					id: "1FAC24D448A1A6B2"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Pedra e Pão"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["3358036520335B89"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Gibão com afixos de armadura e vida"
+				"&6Armas:&r Bastão dos Mil Passos II"
+				"&6Acessórios:&r Colar de Cruz + Pingente de Espinho"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Cura Recebida ×3 > Metabolismo Acelerado; Cura ao Atingir"
+				"&6Gemas:&r Guardião no peito; Lastro nas calças"
+				"&6Magias:&r Carga, Curar, Fortificar"
+				"&6Encantos:&r Proteção III, Inquebrável III, Espinhos II"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Banquete do Acampamento"
+				"&aRotação:&r Fortificar antes de cada fase; cure-se entre os golpes do boss"
+			]
+			icon: "magistuarmory:gambeson_chestplate"
+			id: "0A5D00CB19371B5A"
+			rewards: [
+				{
+					id: "6380CDD9F3526543"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2473D19B52C6FE6A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Montanha Serena"
+			tasks: [
+				{
+					id: "5B1D985B8AFB0494"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1981AFED3A93F782"
+					item: "magistuarmory:gambeson_chestplate"
+					type: "item"
+				}
+				{
+					id: "47C4F31301F19DAB"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+				{
+					id: "6AD76AD4EBE6E727"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Gibão de Pedra"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["0A5D00CB19371B5A"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Sacerdote (leve, mas com afixos de armadura e vida)"
+				"&6Armas:&r Bastão dos Mil Passos III"
+				"&6Acessórios:&r Colar de Cruz + Pingente de Espinho + Garras Ferais"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Cozinheiro: Cura ao Atingir ×3 > Roubo de Vida; Vida Máxima completa"
+				"&6Gemas:&r Guardião e Lastro em toda armadura; Senhor da Guerra na arma"
+				"&6Magias:&r Fortificar, Cura Maior, Onda de Choque"
+				"&6Encantos:&r Proteção IV, Espinhos III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Onda de Choque quando cercado; Cura Maior em você; segure o boss lento"
+			]
+			icon: "irons_spellbooks:priest_chestplate"
+			id: "68B09E693C2417A2"
+			rewards: [
+				{
+					id: "2C63E8DFDED0D741"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Montanha Serena"
+			tasks: [
+				{
+					id: "6D39E760C5EFD4BE"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3E41AD6B5C5AF66A"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "5702FE021B0D2D75"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+				{
+					id: "7EB96983ACB15328"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/guardian"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Rocha Viva"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["68B09E693C2417A2"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Ressonário (Deeper and Darker) com afixos de vida"
+				"&6Armas:&r Bastão dos Mil Passos IV"
+				"&6Acessórios:&r Colar de Cruz + Pingente de Espinho + Medalhão Sagrado"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Monte de Músculos (Cura por Comida ×3); Cura Recebida completa"
+				"&6Gemas:&r Guardião épica em toda armadura; Lastro; Matador de Magos no elmo"
+				"&6Magias:&r Fortificar, Cura Maior, Evasão"
+				"&6Encantos:&r Proteção V, Espinhos III, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Os Mil Passos (H) como escudo: velocidade e Pressa para tirar o grupo do perigo"
+			]
+			icon: "deeperdarker:resonarium_chestplate"
+			id: "382FBC5129A15F26"
+			rewards: [
+				{
+					id: "6CA6576EA33CB8DB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1A1DD49EEB1510D9"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Montanha Serena"
+			tasks: [
+				{
+					id: "65B0AFF7FFD553A3"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1E6756C6D76FB471"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "584CE471D79762F6"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+				{
+					id: "699EF26746ABBC4E"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/guardian"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Montanha de Netherita"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["382FBC5129A15F26"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Netuno (Aether) com afixos de vida"
+				"&6Armas:&r Bastão dos Mil Passos V"
+				"&6Acessórios:&r Colar de Cruz + Pingente de Espinho + Medalhão Sagrado"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: Vida Máxima > Dieta Saudável > Monte de Músculos; Roubo de Vida"
+				"&6Gemas:&r Guardião e Lastro míticas; Matador de Magos"
+				"&6Magias:&r Fortificar, Cura Maior, Bênção da Vida"
+				"&6Encantos:&r Proteção V, Espinhos III, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Segure o Olho Estelar de lado; cure-se e bata de volta"
+			]
+			icon: "aether:neptune_chestplate"
+			id: "5496D0A58D5CB8AF"
+			rewards: [
+				{
+					id: "6C40D41C4DCBC5DD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Montanha Serena"
+			tasks: [
+				{
+					id: "0187510942A149CB"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7A722156C5D57D89"
+					item: "aether:neptune_chestplate"
+					type: "item"
+				}
+				{
+					id: "5CB69FD930D8CA07"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+				{
+					id: "6641948B5C4087F8"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/guardian"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Pico Partido"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["5496D0A58D5CB8AF"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Bastão dos Mil Passos, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Prata (Ice and Fire; não conta como peitoral pesado)"
+				"&6Armas:&r Bastão dos Mil Passos V"
+				"&6Acessórios:&r Colar de Cruz + Pingente de Espinho + Medalhão Sagrado"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: o resto de Cura ao Atingir e Cura por Comida"
+				"&6Gemas:&r Guardião e Lastro míticas; Esplendor"
+				"&6Magias:&r Fortificar, Cura Maior, Bênção da Vida"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Mil Passos para escapar do golpe fatal; o resto é pedra"
+			]
+			icon: "iceandfire:armor_silver_chestplate"
+			id: "691EC3BFEE8802E2"
+			rewards: [
+				{
+					id: "36262125A5E60574"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "38E0E251EA7A66F3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Montanha Serena"
+			tasks: [
+				{
+					id: "5DCC61D9F48EE746"
+					item: {
+						Count: 1b
+						id: "gurizes:bastao_dos_mil_passos"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "173984AA5BFD8BFC"
+					item: "iceandfire:armor_silver_chestplate"
+					type: "item"
+				}
+				{
+					id: "0FF5F58A3115C054"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+				{
+					id: "477B6AAB94EB1BB3"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/guardian"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Serra Antiga"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Monge"
+}

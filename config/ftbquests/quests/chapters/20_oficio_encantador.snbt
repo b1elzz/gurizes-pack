@@ -5,7 +5,7 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:enchanting_table"
 	id: "5F0CA7A32C98C6D7"
-	order_index: 28
+	order_index: 38
 	quest_links: [ ]
 	quests: [
 		{

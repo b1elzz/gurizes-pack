@@ -1,0 +1,873 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_paladino_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:egide_do_juramento"
+	id: "53F602F65D7970A7"
+	order_index: 13
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6266BF02EAE4304C"]
+			description: [
+				"&oEnquanto eu estiver de pé, ninguém atrás de mim cai."
+				""
+				"&6Escolhas:&r Pedraforte (ou Humano) · Ignar (ou Aurion sem Druida) · Profissão Ferreiro"
+				"&6Árvore:&r Cozinheiro: Vida Máxima até Dieta Saudável, depois Cura Recebida. Alquimista só do Ato III (Campo Antimágica)"
+				"{@pagebreak}"
+				"&6Como joga:&r Prende o boss no Chamado do Juramento, ergue o escudo nos golpes pesados e cura o grupo na Luz Restauradora."
+				"&6Em grupo:&r Segura o boss de costas para o grupo. Combina com Bardo (as auras somam) e Assassino (bate nas costas)."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:egide_do_juramento"
+			id: "3E30C1758F75068B"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · tanque e cura"
+			tasks: [
+				{
+					id: "702C36BC1506D7C1"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Bastião do Juramento"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E30C1758F75068B"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Égide do Juramento, Forma I (depois do Galvar)"
+				"&6Armadura:&r ferro completo, o mais pesado que o Ato I deixa"
+				"&6Armas:&r espada de ferro na primeira mão, escudo de ferro na segunda mão"
+				"&6Acessórios:&r Colar de Cruz"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável (+10 de vida); Cura Recebida ×3"
+				"&6Gemas:&r Guardião no peito e Lastro nas calças, se a peça tiver soquete"
+				"&6Magias:&r Curar, Seta Guiada (pergaminhos nível 1 no livro de cobre)"
+				"&6Encantos:&r Proteção II na armadura, Afiação II na espada, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, 8 bifes, Frasco de Cura em Grupo"
+				"&aRotação:&r erga o escudo nos golpes pesados do Galvar; Luz Restauradora (G) com 2 aliados abaixo de 60%; o Chamado do Juramento chega com a Égide"
+			]
+			icon: "minecraft:iron_chestplate"
+			id: "1D6F38F930C57604"
+			rewards: [
+				{
+					id: "3B2D3DA776612C72"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Bastião do Juramento"
+			tasks: [
+				{
+					id: "309396C67AE22017"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "671ECEECA0A16694"
+					item: "minecraft:iron_chestplate"
+					type: "item"
+				}
+				{
+					id: "7DEC6A2AEDBC0D51"
+					item: "magistuarmory:iron_heatershield"
+					type: "item"
+				}
+				{
+					id: "305BCE028A9012C2"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Ferro e Fé"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D6F38F930C57604"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Égide do Juramento, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r diamante completo; peças de Metal de Cavaleiro (Floresta Crepuscular) no lugar do que cair"
+				"&6Armas:&r espada de diamante ou Espada de Metal de Cavaleiro; escudo Metal de Cavaleiro"
+				"&6Acessórios:&r Colar de Cruz + Pingente de Espinho"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Cura Recebida ×3 > Metabolismo Acelerado; Cura ao Atingir ×3"
+				"&6Gemas:&r Guardião no peitoral; Lastro nas calças"
+				"&6Magias:&r Curar, Fortificar, Seta Guiada (livro de ferro)"
+				"&6Encantos:&r Proteção III, Inquebrável III, Remendo"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Banquete do Acampamento"
+				"&aRotação:&r Segure a Matriarca no escudo; Fortificar antes de cada fase; Luz Restauradora (G) no grupo ferido"
+			]
+			icon: "minecraft:diamond_chestplate"
+			id: "6AEE973EBF27BDF8"
+			rewards: [
+				{
+					id: "74322C6924397A97"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1AF4153ABA525A5E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Bastião do Juramento"
+			tasks: [
+				{
+					id: "551A90B84C91B505"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0E9A2AF028246F66"
+					item: "minecraft:diamond_chestplate"
+					type: "item"
+				}
+				{
+					id: "66F0C4BFD1874A5F"
+					item: "twilightforest:knightmetal_shield"
+					type: "item"
+				}
+				{
+					id: "2405F40E09E8EDD3"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Aço do Bosque"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AEE973EBF27BDF8"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Égide do Juramento, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Tungstênio Brotado (peitoral e calças); máscara e botas de Sacerdote do Iron's"
+				"&6Armas:&r espada com afixo raro; escudo de Tungstênio Brotado"
+				"&6Acessórios:&r Colar de Cruz + Anel do Bastião (Relics)"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Cozinheiro: Cura ao Atingir ×3 > Roubo de Vida; Alquimista: Dano de Projétil > Dano Mágico ×3 > Campo Antimágica"
+				"&6Gemas:&r Guardião em toda armadura; Matador de Magos fica para o Ato IV (é Épico); Foco de Sagrado no elmo"
+				"&6Magias:&r Cura Maior, Círculo de Cura, Escudo"
+				"&6Encantos:&r Proteção IV, Espinhos III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Escudo antes da fase de magia do Kharzul; Círculo de Cura entre as fases; provocação a cada 20 s"
+			]
+			icon: "stalwart_dungeons:warted_tungsten_chestplate"
+			id: "440008E5C72F2B0F"
+			rewards: [
+				{
+					id: "4A0EE774AEB1C737"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Bastião do Juramento"
+			tasks: [
+				{
+					id: "07E94A9CF4AEDD0D"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "108CDBD8FE7F1E67"
+					item: "stalwart_dungeons:warted_tungsten_chestplate"
+					type: "item"
+				}
+				{
+					id: "1DFB8A287BD29358"
+					item: "stalwart_dungeons:warted_tungsten_shield"
+					type: "item"
+				}
+				{
+					id: "788669EB36B3A883"
+					item: "irons_spellbooks:gold_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato III: Fundição Afundada"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["440008E5C72F2B0F"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Égide do Juramento, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r netherita completo (o primeiro conjunto de fim de jogo)"
+				"&6Armas:&r Espada Longa de Netherita (Simply Swords); Tarja de Aço Preto"
+				"&6Acessórios:&r Medalhão Sagrado (Relics) + Anel do Bastião"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Vida Máxima > Monte de Músculos (Cura por Comida ×3); Cura Recebida completa"
+				"&6Gemas:&r Matador de Magos no elmo; Guardião épica em toda armadura; Foco de Sagrado na arma"
+				"&6Magias:&r Cura Maior, Círculo de Cura, Bênção da Vida"
+				"&6Encantos:&r Proteção V, Espinhos III, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Voto Inquebrável (H) no golpe telegrafado; provocação a cada 20 s; Bênção da Vida antes do burst"
+			]
+			icon: "minecraft:netherite_chestplate"
+			id: "10DD0DAC1E6C1D4F"
+			rewards: [
+				{
+					id: "76703A927D54D246"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "05FA78E40990BE18"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Bastião do Juramento"
+			tasks: [
+				{
+					id: "40037CDB5A1D9C8C"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "06A1E3EE6E509882"
+					item: "minecraft:netherite_chestplate"
+					type: "item"
+				}
+				{
+					id: "2F647B1271B482AD"
+					item: "cataclysm:black_steel_targe"
+					type: "item"
+				}
+				{
+					id: "0E68F4BB01FCE72D"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Aço Negro"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10DD0DAC1E6C1D4F"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Égide do Juramento, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Cursium completo (Cataclysm) com afixos de vida e redução de dano"
+				"&6Armas:&r Espada Longa Rúnica; escudo de Corundum"
+				"&6Acessórios:&r Medalhão Sagrado + Anel do Bastião + Colar Reflexivo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: Vida Máxima > Dieta Saudável > Monte de Músculos; Cura Recebida e Roubo de Vida"
+				"&6Gemas:&r Guardião mítica em toda armadura; Esplendor no peito; Matador de Magos"
+				"&6Magias:&r Bênção da Vida, Raio de Sol, Golpe Divino"
+				"&6Encantos:&r Proteção V, Espinhos III, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Voto Inquebrável na fase mais perigosa; provocação a cada 20 s; Raio de Sol nos adds"
+			]
+			icon: "cataclysm:cursium_chestplate"
+			id: "5B23BCD7694D11C5"
+			rewards: [
+				{
+					id: "5E72DA94AC5A8872"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Bastião do Juramento"
+			tasks: [
+				{
+					id: "247DEEF77AFC7BF9"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "146EC2A1C4F7476A"
+					item: "cataclysm:cursium_chestplate"
+					type: "item"
+				}
+				{
+					id: "69768ECABDF4EC11"
+					item: "stalwart_dungeons:chorundum_shield"
+					type: "item"
+				}
+				{
+					id: "180FF7C8DA3FE2F3"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato V: Cursium e Escudo"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B23BCD7694D11C5"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Égide do Juramento, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Aço Dracônico de Gelo (Ice and Fire); o mais pesado do pack"
+				"&6Armas:&r Espada Longa Rúnica com afixo épico+; Escudo do Mar Celeste"
+				"&6Acessórios:&r Medalhão Sagrado + Anel do Bastião + Colar Reflexivo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: o resto de Cura Recebida, Cura ao Atingir e Roubo de Vida"
+				"&6Gemas:&r Guardião e Lastro míticas; Esplendor no peito"
+				"&6Magias:&r Bênção da Vida, Raio de Sol, Golpe Divino, Cura Maior"
+				"&6Encantos:&r Proteção V, Espinhos III, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Chamado do Juramento (cura 4 nos aliados na Forma V) e Voto Inquebrável na janela de burst do Rei Partido"
+			]
+			icon: "iceandfire:dragonsteel_ice_chestplate"
+			id: "5456AB4A47E64122"
+			rewards: [
+				{
+					id: "255B9710AB578413"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1C5ED50DC3A4AA35"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Bastião do Juramento"
+			tasks: [
+				{
+					id: "1D5DA6AEA21B92BE"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5D9340BCBF52EC43"
+					item: "iceandfire:dragonsteel_ice_chestplate"
+					type: "item"
+				}
+				{
+					id: "6F15A08AF5E8ADD9"
+					item: "cataclysm:azure_sea_shield"
+					type: "item"
+				}
+				{
+					id: "21DB35589394C803"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Escamas de Dragão"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6266BF02EAE4304C"]
+			description: [
+				"&oA luz também bate. Quem a ergue com a mão cheia derruba o que a cura não alcança."
+				""
+				"&6Escolhas:&r Humano (ou Pedraforte) · Aurion · Profissão Encantador"
+				"&6Árvore:&r Cozinheiro: Dano de Ataque ×3, Dano Corpo a Corpo e Picante!. Alquimista do Ato III: Dano Mágico ×3"
+				"{@pagebreak}"
+				"&6Como joga:&r Bate com a espada flamejante e solta magia Sagrada entre os golpes; o escudo continua na mão, mas a luz faz o trabalho."
+				"&6Em grupo:&r Dano e cura de reserva. Pede um segundo tanque ou um Druida; o Bardo dobra o efeito do Foco de Sagrado."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:egide_do_juramento"
+			id: "5FAB24664D62B7CD"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · dano sagrado"
+			tasks: [
+				{
+					id: "45AF62370AEFFDCC"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Martelo da Aurora"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["5FAB24664D62B7CD"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Égide do Juramento, Forma I (depois do Galvar)"
+				"&6Armadura:&r ferro completo"
+				"&6Armas:&r Espada de Lâmina Flamejante de ferro (Epic Knights); escudo redondo de ferro"
+				"&6Acessórios:&r Colar de Cruz"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano de Ataque ×3 > Picante!; Vida Máxima ×2"
+				"&6Gemas:&r Combatente na arma; Guardião no peito"
+				"&6Magias:&r Curar, Seta Guiada"
+				"&6Encantos:&r Afiação II, Aspecto Flamejante I, Proteção II"
+				"&6Consumíveis:&r Kit de cura, Óleo de Lâmina: Fogo, 8 bifes"
+				"&aRotação:&r Entre no combate com a espada; Seta Guiada à distância; Luz Restauradora (G) quando o grupo apertar"
+			]
+			icon: "magistuarmory:iron_flamebladedsword"
+			id: "75C3F811BB4AD522"
+			rewards: [
+				{
+					id: "5569E9A489CAEDEF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Martelo da Aurora"
+			tasks: [
+				{
+					id: "23C61FEA95C35729"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "42A3F1A604B9C13E"
+					item: "minecraft:iron_chestplate"
+					type: "item"
+				}
+				{
+					id: "168D2D818BE4231A"
+					item: "magistuarmory:iron_flamebladedsword"
+					type: "item"
+				}
+				{
+					id: "22B18869B998BDB3"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Espada de Aurora"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["75C3F811BB4AD522"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Égide do Juramento, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r diamante completo"
+				"&6Armas:&r Espada de Lâmina Flamejante de diamante; escudo Metal de Cavaleiro"
+				"&6Acessórios:&r Colar de Cruz + Pingente de Chama"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Dano Corpo a Corpo ×3 > Corpo Saudável; Vida Máxima ×3 > Dieta Saudável"
+				"&6Gemas:&r Foco de Sagrado no elmo; Samurai na arma"
+				"&6Magias:&r Curar, Seta Guiada, Fortificar"
+				"&6Encantos:&r Afiação III, Julgamento III (mortos-vivos), Proteção III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Banquete do Acampamento"
+				"&aRotação:&r Abra com Seta Guiada, entre na espada, Fortificar nos aliados antes do boss"
+			]
+			icon: "minecraft:diamond_chestplate"
+			id: "165EFCCF5E637A12"
+			rewards: [
+				{
+					id: "723521D81B803729"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4828F2EB7D64D185"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Martelo da Aurora"
+			tasks: [
+				{
+					id: "081D65CFA01C6824"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1C88BF8D5923E982"
+					item: "minecraft:diamond_chestplate"
+					type: "item"
+				}
+				{
+					id: "0225A93AEA19BDAD"
+					item: "magistuarmory:diamond_flamebladedsword"
+					type: "item"
+				}
+				{
+					id: "6A0B1F07709AC129"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Luz Sobre Diamante"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["165EFCCF5E637A12"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Égide do Juramento, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Sacerdote completo (runa Sagrada + Essência Arcana sobre o conjunto de mago); calças de Tungstênio se faltar defesa"
+				"&6Armas:&r Espada com afixo raro; escudo de Tungstênio Brotado"
+				"&6Acessórios:&r Colar de Cruz + Anel de Afinidade com Sagrado"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano de Projétil > Dano Mágico ×3 > Campo Antimágica; Cozinheiro: Roubo de Vida"
+				"&6Gemas:&r Foco de Sagrado em 3 peças; Samurai e Senhor da Guerra na espada"
+				"&6Magias:&r Cura Maior, Raio de Sol, Golpe Divino"
+				"&6Encantos:&r Afiação IV, Julgamento IV, Proteção IV"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Golpe Divino nos mortos-vivos; Raio de Sol em quem protege o boss; mantenha o escudo para o Escudo dos Fiéis"
+			]
+			icon: "irons_spellbooks:priest_chestplate"
+			id: "372E0803C85E7D36"
+			rewards: [
+				{
+					id: "40CCA54332D5A825"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Martelo da Aurora"
+			tasks: [
+				{
+					id: "4EC50CC55F9B0842"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3369A2DDD60C2187"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "358FB3F51E5569BF"
+					item: "irons_spellbooks:gold_spell_book"
+					type: "item"
+				}
+				{
+					id: "6D0183B9B950FB66"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sagrado"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Sacerdote de Armas"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["372E0803C85E7D36"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Égide do Juramento, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r netherita; peitoral Portador da Luz (Iron's) se achar"
+				"&6Armas:&r Espada Longa de Netherita; escudo Tarja de Aço Preto"
+				"&6Acessórios:&r Medalhão Sagrado + Anel de Afinidade com Sagrado + Pingente de Chama"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Dano de Ataque, Dano Corpo a Corpo e Picante!; Alquimista: Dano Mágico ×3"
+				"&6Gemas:&r Foco de Sagrado épicas; Senhor da Guerra e Samurai; Matador de Magos no elmo"
+				"&6Magias:&r Raio de Sol, Golpe Divino, Bênção da Vida"
+				"&6Encantos:&r Afiação V, Aspecto Flamejante II, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Golpe Divino na abertura de vulnerabilidade, Raio de Sol entre golpes, Voto Inquebrável quando o burst apertar"
+			]
+			icon: "minecraft:netherite_chestplate"
+			id: "27B87A81114055CA"
+			rewards: [
+				{
+					id: "36CFADB19ACED2A0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3553B0BEBB8FD705"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Martelo da Aurora"
+			tasks: [
+				{
+					id: "5E655E5D8E8D0773"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2B30092CF1A891E2"
+					item: "minecraft:netherite_chestplate"
+					type: "item"
+				}
+				{
+					id: "51C8C10781B59C5F"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "05F8AF62615CF64A"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sagrado"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Aurora de Netherita"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["27B87A81114055CA"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Égide do Juramento, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Cursium completo"
+				"&6Armas:&r Espada Longa Rúnica; Escudo do Mar Celeste"
+				"&6Acessórios:&r Medalhão Sagrado + Anel de Afinidade com Sagrado + Anel do Bastião"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: o resto de Dano Mágico; Cozinheiro: o resto de Dano Corpo a Corpo"
+				"&6Gemas:&r Foco de Sagrado míticas; Senhor da Guerra e Samurai míticas"
+				"&6Magias:&r Raio de Sol, Golpe Divino, Bênção da Vida, Cura Maior"
+				"&6Encantos:&r Afiação V, Aspecto Flamejante II, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Toda recarga de Golpe Divino e Raio de Sol; escudo ao bater, não só ao bloquear"
+			]
+			icon: "cataclysm:cursium_chestplate"
+			id: "5515C649A59FB903"
+			rewards: [
+				{
+					id: "0F065EA892D4224C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Martelo da Aurora"
+			tasks: [
+				{
+					id: "56AC93D2BA29B624"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0F99EB98F347F1B1"
+					item: "cataclysm:cursium_chestplate"
+					type: "item"
+				}
+				{
+					id: "0E4819C43E2E1B71"
+					item: "simplyswords:runic_longsword"
+					type: "item"
+				}
+				{
+					id: "47C870C67A2A94E6"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sagrado"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Fúria da Aurora"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["5515C649A59FB903"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Égide do Juramento, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Aço Dracônico de Fogo (Ice and Fire)"
+				"&6Armas:&r Espada Longa Rúnica épica; Escudo do Mar Celeste"
+				"&6Acessórios:&r Medalhão Sagrado + Anel de Afinidade com Sagrado + Pingente de Chama"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: fecha Picante! e Corpo Saudável; Alquimista: Incineração"
+				"&6Gemas:&r Foco de Sagrado míticas em todas as peças; Esplendor"
+				"&6Magias:&r Bênção da Vida, Raio de Sol, Golpe Divino, Cura Maior"
+				"&6Encantos:&r Afiação V, Aspecto Flamejante II, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Chamado do Juramento antes do burst, Voto Inquebrável quando o grupo cair, e a espada nunca para"
+			]
+			icon: "iceandfire:dragonsteel_fire_chestplate"
+			id: "50C4E8AEE0F143F3"
+			rewards: [
+				{
+					id: "3F0F1C3CE64BD150"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3F9C23B21C6D2179"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Martelo da Aurora"
+			tasks: [
+				{
+					id: "596AC2C336545BFF"
+					item: {
+						Count: 1b
+						id: "gurizes:egide_do_juramento"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1FC051F00BAB02EE"
+					item: "iceandfire:dragonsteel_fire_chestplate"
+					type: "item"
+				}
+				{
+					id: "6DF92E1969BF5A91"
+					item: "simplyswords:runic_longsword"
+					type: "item"
+				}
+				{
+					id: "72AEAB9F97F3D567"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Sol de Dragão"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Paladino"
+}

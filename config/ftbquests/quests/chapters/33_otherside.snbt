@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:sculk"
 	id: "737FC1A9680F8349"
-	order_index: 37
+	order_index: 47
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

@@ -1,0 +1,921 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_mago_elemental_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:cetro_do_selo"
+	id: "0714C65631D00CA4"
+	order_index: 17
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28BD0BD87EF5F797"]
+			description: [
+				"&oFogo para abrir caminho, gelo para a defesa, raio para encerrar a conversa."
+				""
+				"&6Escolhas:&r Ignari (ou Humano) · Kaelum (ou Nymara) · Profissão Encantador"
+				"&6Árvore:&r Cozinheiro (Vida Máxima, para o corpo de estudioso). Alquimista do Ato III: Dano de Projétil > Dano Mágico ×3 > Campo Antimágica"
+				"{@pagebreak}"
+				"&6Como joga:&r Fogo é o elemento principal; gelo segura os adds e raio fecha o boss. Troque o elemento no Cetro (agachar + direito) pela fraqueza dele."
+				"&6Em grupo:&r Fica atrás do tanque e limpa os adds. Precisa de Paladino ou Monge na frente e de Bardo para a recarga."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:cetro_do_selo"
+			id: "58DB2A16F820B567"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · área e controle"
+			tasks: [
+				{
+					id: "2DCA5D65DBB7B088"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Tempestade Primordial"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58DB2A16F820B567"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Cetro do Selo, Forma I (depois do Galvar)"
+				"&6Armadura:&r Mago Errante (couro + Essência Arcana): leve, livre, sem defesa"
+				"&6Armas:&r Cajado do Barba-Cinzenta (ferro + Essência Arcana); Cetro do Selo na Forma I"
+				"&6Acessórios:&r Anel de Mana ou Anel de Conveniência (o que cair)"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável (+10 de vida; você tem 2 corações a menos)"
+				"&6Gemas:&r Foco de Fogo no peito; Foco Arcano no elmo"
+				"&6Magias:&r Seta de Fogo, Bola de Fogo, Estalactite de Gelo, Passo de Gelo"
+				"&6Encantos:&r Proteção II, Inquebrável II no cajado"
+				"&6Consumíveis:&r Kit de cura, Tônico de Mana, 8 bifes"
+				"&aRotação:&r Seta de Fogo à distância; Explosão Elemental (G) quando os mobs se juntarem; Passo de Gelo para escapar"
+			]
+			icon: "irons_spellbooks:graybeard_staff"
+			id: "5CC8136098B8A0B3"
+			rewards: [
+				{
+					id: "639DBB03F30CDDA7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Tempestade Primordial"
+			tasks: [
+				{
+					id: "7A36C6E5A7A7AEF3"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1F8322203F17046A"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "0E1107E1FAC572E6"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "3EB5FD511BB4E632"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Cajado e Faísca"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CC8136098B8A0B3"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Cetro do Selo, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Piromante (peça de mago + runa de fogo + Essência) ou Criomante, conforme o boss"
+				"&6Armas:&r Cajado de Gelo ou Graybeard; Cetro do Selo II"
+				"&6Acessórios:&r Anel de Mana + Anel de Proteção contra Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável; Cura Recebida ×3"
+				"&6Gemas:&r Foco de Fogo e Foco de Gelo em duas peças; Foco Arcano"
+				"&6Magias:&r Bola de Fogo, Bomba de Magma, Estalactite de Gelo, Passo de Gelo"
+				"&6Encantos:&r Proteção III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Troque o elemento pela fraqueza da Matriarca; Bola de Fogo no boss parado; Passo de Gelo para sair da área"
+			]
+			icon: "irons_spellbooks:pyromancer_chestplate"
+			id: "58ED970246C9FDB1"
+			rewards: [
+				{
+					id: "3B9DE23A5ABFC204"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3350A3EABC25D27C"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Tempestade Primordial"
+			tasks: [
+				{
+					id: "753E6F6661C5331F"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0A765B29D3364EE8"
+					item: "irons_spellbooks:pyromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "2155E7CAAC305E24"
+					item: "irons_spellbooks:ice_staff"
+					type: "item"
+				}
+				{
+					id: "0CEBCBF1AF5DF470"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Piromante de Ferro"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58ED970246C9FDB1"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Cetro do Selo, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Arquievocador (Iron's), com peças de escola nas botas"
+				"&6Armas:&r cajado com afixo raro; Cetro do Selo III (Ressonância)"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano de Projétil > Dano Mágico ×3 > Campo Antimágica; Vida Máxima ×3 > Mutação"
+				"&6Gemas:&r Foco de Fogo em 3 peças; Foco do Tempo nas botas"
+				"&6Magias:&r Bomba de Magma, Sopro de Fogo, Cone de Frio, Bloco de Gelo, Corrente de Raios"
+				"&6Encantos:&r Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Tônico de Mana, Frasco de Cura em Grupo"
+				"&aRotação:&r Bloco de Gelo + Cone de Frio para segurar adds; Bomba de Magma no boss parado; a cada 5 magias a próxima é de graça"
+			]
+			icon: "irons_spellbooks:archevoker_chestplate"
+			id: "4FE2FDF0B4AA93CA"
+			rewards: [
+				{
+					id: "2AC8E563EF87509A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Tempestade Primordial"
+			tasks: [
+				{
+					id: "701AE70463FCD983"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6683C58033717994"
+					item: "irons_spellbooks:archevoker_chestplate"
+					type: "item"
+				}
+				{
+					id: "354733224839CCA0"
+					item: "irons_spellbooks:gold_spell_book"
+					type: "item"
+				}
+				{
+					id: "36F8C0F78EC81CB1"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_arcano"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Arquievocador"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FE2FDF0B4AA93CA"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Cetro do Selo, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Mago Guerreiro de Netherita (Iron's)"
+				"&6Armas:&r Cajado dos Nove ou Cajado de Pyrio; Cetro IV"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Fogo + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Dano de Fogo ×3 > Incineração; Duração de Efeitos Benéficos > Mutação"
+				"&6Gemas:&r Foco de Fogo épicas; Foco do Tempo; Foco Arcano"
+				"&6Magias:&r Corrente de Raios, Sopro de Fogo, Bloco de Gelo, Estalactite de Gelo"
+				"&6Encantos:&r Proteção V, Inquebrável III, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Cataclismo (H) na janela de vulnerabilidade; Corrente de Raios nos adds; troque para o elemento fraco do Nerezza"
+			]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "5EC6A172D2CFE101"
+			rewards: [
+				{
+					id: "685445BF5079AA0B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4076C4675773ECF0"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Tempestade Primordial"
+			tasks: [
+				{
+					id: "78B73C575483F9C8"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "64597E921C42C792"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "444835AE35E64C30"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "498DC24CB38A4FC1"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_tempo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Mago Guerreiro de Netherita"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EC6A172D2CFE101"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cetro do Selo, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Mago Guerreiro de Netherita completo, com afixos de mana e recarga"
+				"&6Armas:&r Cajado de Pyrio; Cetro V"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Conveniência + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Dano Mágico completo; Vida Máxima completa"
+				"&6Gemas:&r Foco de Fogo, Raio e Tempo míticas; Esplendor"
+				"&6Magias:&r Tempestade de Chamas, Tempestade de Raios, Lança Relâmpago"
+				"&6Encantos:&r Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Tempestade de Raios no boss parado, Lança Relâmpago como finalizador, Cataclismo na fase de adds"
+			]
+			icon: "irons_spellbooks:netherite_mage_helmet"
+			id: "35F67677F4FC1A31"
+			rewards: [
+				{
+					id: "26A143D53989BBD1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Tempestade Primordial"
+			tasks: [
+				{
+					id: "4E1AF5A75527692A"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7AF48171469B311C"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "79696C50232A2B37"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "61747902A608EFB5"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_raio"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Céu em Pedaços"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35F67677F4FC1A31"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cetro do Selo, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Escamas de Dragão Elétrico (Ice and Fire), ou o conjunto de Netherita reforçado"
+				"&6Armas:&r Cajado de Pyrio; Cetro V"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Conveniência + Anel de Afinidade com Raio"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: fecha Dano de Fogo e Incineração"
+				"&6Gemas:&r Foco de Raio, Fogo e Tempo míticas; Esplendor"
+				"&6Magias:&r Tempestade de Chamas, Tempestade de Raios, Lança Relâmpago, Corrente de Raios"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Cataclismo na janela do Rei Partido; troque o elemento pela fase; Lança Relâmpago encerra"
+			]
+			icon: "iceandfire:armor_electric_chestplate"
+			id: "573F3BF455391BC7"
+			rewards: [
+				{
+					id: "70A33E80B594F4E4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1AEBD266B1CAC973"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Tempestade Primordial"
+			tasks: [
+				{
+					id: "180617B8EAE94F8E"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1D9B1E5DC58CA6EC"
+					item: "iceandfire:armor_electric_chestplate"
+					type: "item"
+				}
+				{
+					id: "05B7261BAC657713"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "3B6FC4EBD6A6EE15"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_raio"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Escamas de Tempestade"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28BD0BD87EF5F797"]
+			description: [
+				"&oUm elemento só, levado até o fim. O resto da mesa aprende a se afastar."
+				""
+				"&6Escolhas:&r Ignari · Ignar · Profissão Alquimista"
+				"&6Árvore:&r Cozinheiro no começo (Vida Máxima). Alquimista do Ato III: Dano de Projétil ×3 > Dano de Fogo ×3 > Incineração"
+				"{@pagebreak}"
+				"&6Como joga:&r Só fogo: sem trocar de elemento, o Cetro fica em chama. Queima, controla com a Muralha de Fogo e finaliza com a Tempestade de Chamas."
+				"&6Em grupo:&r Dano de área e de queima. Frágil e sem controle de gelo: precisa de um tanque que segure o boss parado."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:cetro_do_selo"
+			id: "661B3F343C285685"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · dano de fogo em área"
+			tasks: [
+				{
+					id: "0F705DE68E15ECE7"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Pira Eterna"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["661B3F343C285685"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Cetro do Selo, Forma I (depois do Galvar)"
+				"&6Armadura:&r Mago Errante"
+				"&6Armas:&r Cajado do Barba-Cinzenta; Cetro do Selo I (em fogo)"
+				"&6Acessórios:&r Pingente de Chama"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável"
+				"&6Gemas:&r Foco de Fogo no peito e no elmo"
+				"&6Magias:&r Seta de Fogo, Bola de Fogo"
+				"&6Encantos:&r Proteção II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, Tônico de Mana"
+				"&aRotação:&r Seta de Fogo à distância; Bola de Fogo nos grupos; recue quando a mana acabar"
+			]
+			icon: "irons_spellbooks:graybeard_staff"
+			id: "1E3D51F1B9B3E297"
+			rewards: [
+				{
+					id: "3F29E11908A4AF34"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Pira Eterna"
+			tasks: [
+				{
+					id: "658EE59E3AA328FD"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "16A8AA3237910EC9"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "0C96734712BD8752"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "157A30E30D588665"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Brasa no Cajado"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["1E3D51F1B9B3E297"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Cetro do Selo, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Piromante completo (runa de fogo + Essência Arcana sobre o Mago Errante)"
+				"&6Armas:&r cajado com afixo; Cetro II"
+				"&6Acessórios:&r Pingente de Chama + Anel de Proteção contra Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3; Cura Recebida ×3"
+				"&6Gemas:&r Foco de Fogo em 3 peças"
+				"&6Magias:&r Bola de Fogo, Bomba de Magma, Estalinho"
+				"&6Encantos:&r Proteção III, Proteção contra Fogo III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Bomba de Magma no boss parado; Explosão Elemental (G) em fogo; recue ao zerar a mana"
+			]
+			icon: "irons_spellbooks:pyromancer_chestplate"
+			id: "3DAF924C35A995D7"
+			rewards: [
+				{
+					id: "123ECBA29B798561"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "58AE01E53D8FC504"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Pira Eterna"
+			tasks: [
+				{
+					id: "50095B84FD5A73A7"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1F4C2A2949115341"
+					item: "irons_spellbooks:pyromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "3DC8F23E1E41ED1D"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+				{
+					id: "6A60652C5789E11C"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_fogo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato II: Piromante"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["3DAF924C35A995D7"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Cetro do Selo, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Piromante completo com afixos raros"
+				"&6Armas:&r cajado com afixo raro; Cetro III"
+				"&6Acessórios:&r Anel de Afinidade com Fogo + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano de Projétil ×3 > Dano de Fogo ×3 > Incineração"
+				"&6Gemas:&r Foco de Fogo em 4 peças; Foco Arcano"
+				"&6Magias:&r Sopro de Fogo, Muralha de Fogo, Bomba de Magma"
+				"&6Encantos:&r Proteção IV, Proteção contra Fogo IV"
+				"&6Consumíveis:&r Tônico de Mana, Frasco de Cura em Grupo"
+				"&aRotação:&r Muralha de Fogo separa o grupo dos adds; Sopro de Fogo nos que escapam; Bomba de Magma no boss"
+			]
+			icon: "irons_spellbooks:blaze_spell_book"
+			id: "7C57166B4E8BDB85"
+			rewards: [
+				{
+					id: "51F78289027DB6B7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Pira Eterna"
+			tasks: [
+				{
+					id: "79723BB43CA674D9"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "11E45687067ED0D8"
+					item: "irons_spellbooks:pyromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "3AD7643D24BDCF1D"
+					item: "irons_spellbooks:blaze_spell_book"
+					type: "item"
+				}
+				{
+					id: "538D9CF6BD3F2301"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_fogo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Livro Flamejante"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7C57166B4E8BDB85"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Cetro do Selo, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Fênix (Aether): imune a fogo e lava"
+				"&6Armas:&r Cajado de Pyrio; Cetro IV"
+				"&6Acessórios:&r Anel de Afinidade com Fogo + Anel de Recuperação + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Incineração; Vida Máxima ×3 > Mutação"
+				"&6Gemas:&r Foco de Fogo épicas; Foco do Tempo"
+				"&6Magias:&r Sopro de Fogo, Muralha de Fogo, Barragem Flamejante"
+				"&6Encantos:&r Proteção V, Proteção contra Fogo V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Entre no fogo que você mesmo faz; Cataclismo (H) em chamas na janela do boss"
+			]
+			icon: "aether:phoenix_chestplate"
+			id: "3853E365E86CA60A"
+			rewards: [
+				{
+					id: "41BC89912F78B3C4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "27E7C80A38F9C8D0"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Pira Eterna"
+			tasks: [
+				{
+					id: "3CF97577AA82A2AD"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4DCD73AABCA5EE18"
+					item: "aether:phoenix_chestplate"
+					type: "item"
+				}
+				{
+					id: "210B8B12222BC5F2"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "6F53C87048ADB29F"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_fogo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Phoenix"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["3853E365E86CA60A"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cetro do Selo, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Mago Guerreiro de Netherita completo"
+				"&6Armas:&r Cajado de Pyrio; Cetro V"
+				"&6Acessórios:&r Anel de Afinidade com Fogo + Anel de Recuperação + Anel de Conveniência"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Dano de Fogo completo; Duração de Efeitos Benéficos"
+				"&6Gemas:&r Foco de Fogo míticas em todas as peças; Foco do Tempo"
+				"&6Magias:&r Tempestade de Chamas, Barragem Flamejante, Invocar o Inferno"
+				"&6Encantos:&r Proteção V, Proteção contra Fogo V"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Tempestade de Chamas nos adds, Invocar o Inferno no boss, Cataclismo na janela"
+			]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "3A5E412EC172DD25"
+			rewards: [
+				{
+					id: "37ABE9116010CF5F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Pira Eterna"
+			tasks: [
+				{
+					id: "70468F7EBBF670D2"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2E84985D21569BB9"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "10D459E8489673DD"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "354E291F72FC44E2"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_fogo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Tempestade de Chamas"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["3A5E412EC172DD25"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Cetro do Selo, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Escamas de Dragão Vermelho (Ice and Fire)"
+				"&6Armas:&r Cajado de Pyrio com afixo épico+; Cetro V"
+				"&6Acessórios:&r Anel de Afinidade com Fogo + Anel de Recuperação + Anel de Conveniência"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: o resto de Incineração e Mutação"
+				"&6Gemas:&r Foco de Fogo míticas; Foco do Tempo; Esplendor"
+				"&6Magias:&r Tempestade de Chamas, Invocar o Inferno, Barragem Flamejante, Sopro de Fogo"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Tudo em fogo: Cataclismo (Tempestade de Chamas nível 8) na janela do Rei Partido"
+			]
+			icon: "iceandfire:armor_red_chestplate"
+			id: "0A69AAF1326F69EA"
+			rewards: [
+				{
+					id: "3BDA112C8426F4C7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "746D00C9CE3F0A5E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Pira Eterna"
+			tasks: [
+				{
+					id: "61022567217266AE"
+					item: {
+						Count: 1b
+						id: "gurizes:cetro_do_selo"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "479D3C7C4B4AD253"
+					item: "iceandfire:armor_red_chestplate"
+					type: "item"
+				}
+				{
+					id: "13E2467876452146"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+				{
+					id: "3BA04640A6CEDF69"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_fogo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Sol de Dragão"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Mago Elemental"
+}

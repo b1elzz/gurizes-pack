@@ -118,47 +118,87 @@ hash = "d6838249db3b6d3720fd490932e88e96f4d601f85711da10d42305d96e41beb3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_juramento_eterno.snbt"
-hash = "df6ddbac50c03e7a8119d7bc89f0162b3ce9f5ba9d15deb72d9f12bd1cc65a25"
+hash = "3874983eae510f6486901b8557cfc66f7b0296fa1dd86791b3f5700edff775b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_assassino.snbt"
-hash = "4149404a62b81fe014c148e07a4dc05a3575d21d5ac24ef53c2e12f0668b5a9b"
+hash = "531ea20e646dfe8c1869e26177d36a55a7417e565bcd0680883a1edb323c405f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_assassino_builds.snbt"
+hash = "ea22bde61b104623b1a3a32bf52962627a7316902ff5df60a04437fca71c94e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_bardo.snbt"
-hash = "3a201f6fd86601c43d37731ea11a669a70829149c919ceea2d1ef05fa9a4252b"
+hash = "4e5dba44f827f8a823520b29b08f1fedd7a30a483882624c13c0b78df2806520"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_bardo_builds.snbt"
+hash = "0c92108e4ba925834d79b9193d0442d1918c82b19e1d52b9e17e7229b0501e71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_berserker.snbt"
-hash = "dceb61bb0174ba6f8d716138d1440afdf1b1fbf16cd79e3b4fb7bdff0b2d5d66"
+hash = "5174faeef4fe0c762d48545763fc669a2b30a3bd83828484d89d16074faaef29"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_berserker_builds.snbt"
+hash = "1d686c01dab8aa500b21bbdb8fb482e2a56a4aca746ab8abf3230fea2a6336b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_cacador.snbt"
-hash = "db407b36c86aefd433c43d8a1932ec6d32d54677b2b90fa8425484a1ab1f02e7"
+hash = "6bca97095e8be97c872bf57afcd98bed0231c5dbd3614ff0658fd79f772ce70f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_cacador_builds.snbt"
+hash = "915eedd0fbd42fb753d267b7ba50ed111e83437849aeaba6fe62741f0bac8c36"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_druida.snbt"
-hash = "aaf1daa671bf93b816474f8ff2d5b4b25c2bbde3479e2928b966e9cf6abe6222"
+hash = "83f1ccfcfb136512f1383e036154dec6ceca58670aef95c465c165296313cf50"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_druida_builds.snbt"
+hash = "c29a2bf9c2ff359dc001fb821ead94b6be94ce127d91a8e2b3775fcf85922425"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_lamina_arcana.snbt"
-hash = "4dc5103f5fcf2aeb70a37b9586a0a0bfdbefc9ca4624cfc74cc47701bbf433ef"
+hash = "10a5513b82f1ecc93123c4b93f966b25653693f4fe9c77279bf014dd0a499bd7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_lamina_arcana_builds.snbt"
+hash = "fe02bab7b60ed332e35dec5a89dd4e0d6093a777ffa330f0458f4af408db6c6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_mago_elemental.snbt"
-hash = "b42f1e0b7e754065eef14296c14c7c996c7218675c2e808c307982077abf9c80"
+hash = "d59f497c771672b4e6a3d23b9579adf33396790500fb79ac912eb18d274036d1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_mago_elemental_builds.snbt"
+hash = "81e3774e706a34e0472a39c6c95d8bb8d1366f3ad21fe46c3e975afdfe3a4c18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_monge.snbt"
-hash = "6a646b0803e4afcff8c0b1ed197c80a0eba8fc5d729931f37ed323d8b3bb79e9"
+hash = "bbda57b30cb6f644edc0d3a504d4be8aff5fc1d964dea55da89247788de60f4f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_monge_builds.snbt"
+hash = "082637e661779f2be69bbadae272d8f5b51c056b4007dbc581ff3d7df312369c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_necromante.snbt"
-hash = "1c70d69f50603f15285438bec921326f86a89eaf363c4706815ad2d7e010f829"
+hash = "2e1ca60380845eecb8ff31e06c8440662b475b3321bb59bcda2f5ad59d1eeb7a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_necromante_builds.snbt"
+hash = "a0a4b497c21b896875db96e709829eb7300eb39c47d78a29e7cc89c1633a5a7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_paladino.snbt"
 hash = "b91dba52b54793c171ccb15922009fc75b74a26c576c96a19f9cbbef8dac48e9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_classe_paladino_builds.snbt"
+hash = "a13a8ce166846b82fc8bfbead6a31b9a6269904d33cac016500c1acc371ea691"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_sua_classe.snbt"
@@ -178,79 +218,79 @@ hash = "cb34420874e40d4acbc8ee7e0630b9cdd3066a6fdf3b812fe1e225c3dc51bb89"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_panteao_alter_deuses.snbt"
-hash = "710183cbedbf47c7869df6af0385751168094229afd486aa0c9e89dce73a672b"
+hash = "224e59d49569e6d97ec5d6e00eed56ec4c5943439f937c4fc4b978a8d7395199"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_panteao_deuses.snbt"
-hash = "1c500d40acaeaa391a21a004f86d5e47ae32530d0ebcebaeed39bd6e0c909c59"
+hash = "19b6367149dc2fc965b0c5a96ecc3e9e452f4f491fc95830f6d4eec69e6f810c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_panteao_semideuses.snbt"
-hash = "3183e472912987a96bc00aa82295f04bae066e7020eff81b3864602e150a2754"
+hash = "7e85d58993a0e658c6d3341965385fe8efad5649df4a663fc1515e3388a8d842"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_contratos_de_caca.snbt"
-hash = "6adac58abb587219409b48368c933489a1e16713b951a6a2d00a804a430101a6"
+hash = "6fc8d8c95cbbca4ed87ddf0564fd09bf412490a09a92a9b11d2b70c32b063935"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19_seu_oficio.snbt"
-hash = "78d2d526ee46c1fa8d719d8f3f6fe611ba54999db33a733a34f455661d8f5a18"
+hash = "e4a3939104c8e0c6c4bb2c8a54ddf3045908b45dc2c9e95958beffe2f2c92264"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_alquimista.snbt"
-hash = "242fe8bc25a00bc4526297ac7282cd6ed7af9225a49a050d684d55305053ea13"
+hash = "77aa07dd7c661ed614f0cd2020fcfd3f6584c9a66bd816d27c07f48f9d93e09b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_cozinheiro.snbt"
-hash = "b47230149b0892d7dbe017a9fdacdc7a9251090911bc4c1c38116d7b3e1e1a05"
+hash = "6bcebfdf0344d50f472c84e5f19f969d2a4d1c00f2fcb0b540d1f84c104da7d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_encantador.snbt"
-hash = "24db6dbe41d6561843e1cfb61879fbdb3c683fb7988c2131a4c14c14f0cb61bc"
+hash = "98c51daf784e00e6f271ef952edb1682bc2333b6ec7f96bb386345992862fe2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_explorador.snbt"
-hash = "83fc2c8db920137e9685f81ae5825c0e6515e4adecfb3e7d1ea15acb050174b7"
+hash = "3e10cd286cb9b9c66edb84d6e5455395df3bb381ec43afa8e1b1cbeeddf94360"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_ferreiro.snbt"
-hash = "8b15f82fafa1df89f93dc2ea2956bf1c01a12ac184f51570797478b298fdd6d9"
+hash = "c6a19e3c5554946c9e289bc8eff9b6e91567dbb03608746d7723e41c59a493c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_mercador.snbt"
-hash = "faadfe5e40a0ec20f881fa196ec0090a44d388a3f218721914c9ca328f00d728"
+hash = "f638449b41f680ffa72aea54ad1d6231201d8e95792e5082056a5e1e6950901a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/30_mundo.snbt"
-hash = "370ffb56cc45f8dd86d27e3de9ffc088ced007e40720bedca65ba965e224bbc6"
+hash = "324c143856625c9d95fab208eab2fa8dbf765b6bc81e3544bac706e9c10ce12e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/31_floresta_crepuscular.snbt"
-hash = "92f0e4fdc31899f540691be3bd8b41c283d319f77be14453ae792938574574c9"
+hash = "575cce22e50e5115834974f27e7b5878e8ee44377fa9f6f838641746d2bd8f43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/32_aether.snbt"
-hash = "96055b96a600170dfd56e233cd3b05bdfcacfb3ebeee973bc727b877677d6627"
+hash = "fc03a96bb8c1910f640c31ea70b39696b0be933fec05ccedfa6b9a0f987a727a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/33_otherside.snbt"
-hash = "1f28df31ea6290756cc2ecfb97e66d0079837cfd0f625be9e963f18df9df18d6"
+hash = "fa7518cb84b8421ef737391843a729b8ec39abdf26c98aa90c1fc1bf2b37e0d8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/34_dragoes.snbt"
-hash = "81ce571d9aa711e04918e9ee594f0d19577c54663297b5c2d5c54f2c6d577508"
+hash = "c2534fc30fd2e063fe07594384da56a61e2cd8b99882df9e72fd9b537dc2d6a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40_mercador_da_coroa.snbt"
-hash = "e17a1132344ac21b464a1f42a2b7660669266a4b7425b4a8c264b5ee26d77de2"
+hash = "1bb84e74b587c81b24e018e2cc82cdab2fda3b9c375ab92467cce5ea0bffaf57"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/41_melhorias_da_base.snbt"
-hash = "71779a202a5879622b112f8db4d151cd4932c381a6b5f6867e75a5926c6c2135"
+hash = "30b96152458624972411954e29b71d89f3b4fa37b522b47dad3dbe1a3cb3e747"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/50_coliseu.snbt"
-hash = "715560cf269d6a23e1ea40943a7416dda30094ff5a3f8cdfa175bda0ddcd7c63"
+hash = "5c12d0056f509b9f16ce5d82e58ec097a1d56164ff085b54ae8cf68b0cdebcf8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -322,7 +362,7 @@ hash = "42896baf496364d06933b88a1cb93cb54390f94b33c6e0db603fef943c68e75b"
 
 [[files]]
 file = "config/gurizes/wiki/index.html"
-hash = "7af9636b241e91d354b651cc9dc2bd713528fda66844806899511ea1ae69c315"
+hash = "e1db279fca5c77b0fb5bdc2e04c87b0c4dc144d0b2cf18b4589ccf9d74171e65"
 
 [[files]]
 file = "config/iceandfire-client.toml"
@@ -537,6 +577,10 @@ file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/inter
 hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/raca_fenix.json"
+hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/raca_forjado.json"
 hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
 
@@ -554,6 +598,10 @@ hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/raca_umbrari.json"
+hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/raca_valquiria.json"
 hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
 
 [[files]]
@@ -697,6 +745,10 @@ file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/estel
 hash = "fa09569408504bac64296a84db493b04c57034043cd991dc10bf549eac15f07d"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/fenix.json"
+hash = "5554043ade069b06c719ef513b6312ff5fc17334b95684a504c43a80f04c481f"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/forjado.json"
 hash = "3d45a34da6ba433bfa69e301f24368f09eab8e005e5de13a6a7f63f1b0afa448"
 
@@ -710,7 +762,7 @@ hash = "d55f71588c4ea362d4c757f2146946032f5b76566f4a11025e4d2ee50d50f613"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/ignari.json"
-hash = "2b9f7bf5be354a799704a9de017367e6c515637d42ef2bec7966f609e1b80455"
+hash = "78443303636c0528667c568f4ffc7b0ca24d577d931dd9d576d8f43ba9c4ef0b"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/kharn.json"
@@ -734,7 +786,7 @@ hash = "e21ca00f27ed63d61e79ee9afb2fd5549e7b01c99e6a4e5e2f31d136b41f4792"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/ressurgido.json"
-hash = "7eb117b3e4b63f598c55356a71d9457fde301edef7a7cc4cd080c424d9ea26a4"
+hash = "8c11ad6be748bf21fda70405c049ab1299012e9b1ea402e8dd9afe75a90ba5f1"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/seivari.json"
@@ -743,6 +795,10 @@ hash = "4d14191af83780ec20dd7c78849fd51837fa995e6bd47baef1b81cdd4abca38b"
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/umbrari.json"
 hash = "26abd1963887d394380f1990e81aee6950fd3b0ac7ed10340bbca10280b03d78"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/valquiria.json"
+hash = "2bd65716cc5b7d66626269aef56b0ed55f2428017fc67011c0a1415ed9ee1cc2"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/vargren.json"
@@ -1297,6 +1353,62 @@ file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/estela
 hash = "e2d1571718ff10e16a895885a4824163c6fa0adbac235d373beb28a8dea0c1a9"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/asas_de_brasa.json"
+hash = "61fe0aa4c281a118d332ff8562eef99be0eb6ac295cfb90c075e624b29c5af81"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/chama.json"
+hash = "a61a4969f7239c94661be1cf3f9de55226a6852c0970c4b2ebd4b654bebfe07b"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/chama_afoga.json"
+hash = "76475042c0ff4f7648138489fb2ab8d489e175128da8580b9d9f60eadc27681b"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/chama_gasta.json"
+hash = "69511b95ae35855e08ddddfcce093770afb5c3a94749fe2c71c6f0b248691b5c"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/chama_molhada.json"
+hash = "c3a13e4f8e8f14e2d50dfe3db67a7721dce77a3c38a6a4c2e9c0dfe857729c33"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/chama_volta.json"
+hash = "642ab4391c89157cf9298307214cb57376149d62d62b965f68e6699d76705037"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/chama_volta_calor.json"
+hash = "e8a4590509fa2d9dfab284cf7383e209e234927cab53eea86ad23c745eea1bf0"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/corpo_de_brasa.json"
+hash = "008cbef83924293b52ea781a82ff2468fc4d4b371820fdf070c630f8b67862d5"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/decolagem.json"
+hash = "85c745f43b709b6720e3c424cd9b623c8242cbe5eb64360e36679fedcb5f0d18"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/frio_mortal.json"
+hash = "fde53e34e99f738c19dc9ac0def68f95199972b2005d349e77f7791e31ed8319"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/pena_das_cinzas.json"
+hash = "5194048608a4df7ea391b417550a660e14d80875d76bab4d89c79a284f95e9c4"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/rastro_de_fogo.json"
+hash = "a62b31302d2b371e955e6f54ad931dc23cfb476795a80d2907043269e68779c2"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/registro.json"
+hash = "09b240ef89e9c5c987423c07fc74ca16e6454a1dda0c6f25ab3c98ade5602d33"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/sopro_de_chama.json"
+hash = "747033e67078eb107775cd0c0aeb269e9c79a976435c66cbcba53dbc68f6050a"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/forjado/chapa_de_bronze.json"
 hash = "62af4ff6823be9c1a76161d3a9549dec4d616a6478b9d649df13a18ea6e6b552"
 
@@ -1505,6 +1617,46 @@ file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/umbrar
 hash = "64b714f997b967093cc70dd81406b25d9c4d4f9814934d2492c750e2cae1c26d"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/asas_da_escolhida.json"
+hash = "6c52481a37d9b34909ec730867baa4af66a987e41a0c8a98f0f00c96c70c5852"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/asas_expostas.json"
+hash = "d4b086a69bb2252e1b94fcd369077de0d00d72eaa4ba7e1edd211174629c2125"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/golpe_no_voo.json"
+hash = "bf7586f8c6c61902b9254cb2546ec71babe38454cafeb3cd007e5a011a350774"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/mergulho_da_lanca.json"
+hash = "b887a5b8c91868bb98c52deda58c8f0d56da00eb3d39b3eb97d9cb2da3b51642"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/pouso_sereno.json"
+hash = "5ed60c02315dcd765d14b7773fffa2dc7eeffdb819476166c662b6a28a7ab49f"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/rastro_de_luz.json"
+hash = "1ca30a31161fb48a96a25fcf1e6d4306974629d06f5dab5ffe0214d397e62094"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/registro.json"
+hash = "88c0510c8c3e943de80f02997f7bbd813f3d424fdfe1e70ec76cf839faa4cee0"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/vigor.json"
+hash = "bb575d0318c2c85690ca9a283125b7cf6d0734622f24ecae492c31db4a44b7fe"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/vigor_gasto.json"
+hash = "52b55c242f1485f499d38318ff19ceac5d1c983c022f1c856f97a1c60786bb27"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/vigor_volta.json"
+hash = "6c479582519365d7634af7a55a75121b83efb1383fba76049330ee2426bf83e8"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/vargren/faro.json"
 hash = "a8c9c0ed1c04831c7452f1130d4badbd57e74bc5b9d30393c8c37eb33772b749"
 
@@ -1682,7 +1834,7 @@ hash = "196bc6136b484ae6f294f6678468c977f3b6b55720a35179379b1f89fc217648"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/origins/origin_layers/origin.json"
-hash = "25eae62b266a073f8e1f2092b3ca7707c272ed84c502de98be95f12a6927b36b"
+hash = "1c73dcf49eaf18d3b2cd245157fbecb3dd5ba60313c702f9576fa1f8b03d4e1e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/origins/origins/arachnid.json"
@@ -1785,8 +1937,16 @@ file = "config/paxi/datapacks/gurizes_progressao/data/born_in_chaos_v1/leveling_
 hash = "52893ed8bd141139e7bbe8aa3fe5e4b61c2c4ca84b33590ca1b8449d984239ba"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/born_in_chaos_v1/leveling_settings/entities/krampus.json"
+hash = "3dc89324568202010b454abde8fad0a28197bcfd24285e7b3e3ee362f2a6984d"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/born_in_chaos_v1/leveling_settings/entities/lord_pumpkinhead.json"
 hash = "599453bf81e8b62a82fec8e211e0ca785ad77a81bda345f0249c7131ba2b512c"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/born_in_chaos_v1/leveling_settings/entities/missioner.json"
+hash = "f60a1f563782d29887c8bb166dd4fb533b76baee52a8b79ef2743d527d4fa48b"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/born_in_chaos_v1/leveling_settings/entities/supreme_bonescaller.json"
@@ -1807,6 +1967,10 @@ hash = "6aa19f1cedd6d9ea4e6c8a590551cd74ca01bfd9ecc381e2da10d180d05999a6"
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/bosses_of_mass_destruction/leveling_settings/entities/void_blossom.json"
 hash = "87219206b1a3fdee653717567fda66fa0a9b86f8f6a039973c6126536fba61da"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/cataclysm/leveling_settings/entities/amethyst_crab.json"
+hash = "cc7837abf6448d19a5e39a85d9a69452f3145c3099fb8f26e08a90896bdcd04c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/cataclysm/leveling_settings/entities/ancient_remnant.json"
@@ -1897,8 +2061,20 @@ file = "config/paxi/datapacks/gurizes_progressao/data/gurizes/tags/entity_types/
 hash = "0b4151668d5452f9c7201834d575e884ee06977f0f44ff9ce7ce7530a0c244cb"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/iceandfire/leveling_settings/entities/cyclops.json"
+hash = "8d3a3553bfcb88dc400d8621f36a7335a6387b6debd0853a7de99b0742f5fb50"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/iceandfire/leveling_settings/entities/fire_dragon.json"
 hash = "d5676fc9abe0519edbcbf6116e00dc58e7e1c69280fe8d0d45d4b50c0fe53f80"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/iceandfire/leveling_settings/entities/gorgon.json"
+hash = "9b49101aaa463829fa91505a0bdb28499a7976588f2beedf4d6b84c5f80e8347"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/iceandfire/leveling_settings/entities/hydra.json"
+hash = "6b7c091a198b5e434a2ae38618dc035cdccb27f33996aaea3004c1678cac0b9d"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/iceandfire/leveling_settings/entities/ice_dragon.json"
@@ -1909,12 +2085,20 @@ file = "config/paxi/datapacks/gurizes_progressao/data/iceandfire/leveling_settin
 hash = "d5676fc9abe0519edbcbf6116e00dc58e7e1c69280fe8d0d45d4b50c0fe53f80"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/iceandfire/leveling_settings/entities/myrmex_queen.json"
+hash = "18b92a2959b47b588d5f3a78c14813a7c0efd13061e95d7502a4f87dafa32ea6"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/illagerinvasion/leveling_settings/entities/invoker.json"
 hash = "f047231df0fb80d3a59af9da46c86a2c7ad0cbac1052f88cb28f7d6169494d88"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/irons_spellbooks/leveling_settings/entities/dead_king.json"
 hash = "bd2dd7b546a36e8ea900a7ae617d77c9956ff9a50e9f6f889639a4875496772d"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/irons_spellbooks/leveling_settings/entities/fire_boss.json"
+hash = "44320bec1758952a1c3215c8b8318320ea84eb8dee53813dec771aa1974c261a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/lootintegrations/loot/gurizes_tesouro_dificil.json"
@@ -1989,12 +2173,36 @@ file = "config/paxi/datapacks/gurizes_progressao/data/mowziesmobs/leveling_setti
 hash = "19f71a3c397b68bf511cc66201da5412db53cc4957bd6def97f9959ce1527e87"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/mowziesmobs/leveling_settings/entities/sculptor.json"
+hash = "8b510fe8480f27d4f415e4a84afebf374915de0812e1c47ce22afd83139f3374"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/mowziesmobs/leveling_settings/entities/umvuthi.json"
 hash = "87219206b1a3fdee653717567fda66fa0a9b86f8f6a039973c6126536fba61da"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/mutantmonsters/leveling_settings/entities/mutant_creeper.json"
+hash = "599453bf81e8b62a82fec8e211e0ca785ad77a81bda345f0249c7131ba2b512c"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/mutantmonsters/leveling_settings/entities/mutant_enderman.json"
 hash = "c643fc218e1c0c15754b00d809ad27c7519d1d1dde52f09aacbbfe0b9486ebbf"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/mutantmonsters/leveling_settings/entities/mutant_skeleton.json"
+hash = "74609798e6f3e417df461da8e09e73f86f81e436646356dbe79711b452082ca7"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/mutantmonsters/leveling_settings/entities/mutant_zombie.json"
+hash = "74609798e6f3e417df461da8e09e73f86f81e436646356dbe79711b452082ca7"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/stalwart_dungeons/leveling_settings/entities/awful_ghast.json"
+hash = "0ab435e1c0560f0ec5309734ebecde8184ef605f23602472bd42a1e08fbd6912"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/stalwart_dungeons/leveling_settings/entities/nether_keeper.json"
+hash = "767cd5882ba8f4746b05af801697f766a1fe57ebc0794d8d8cf000e5ba56e55d"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/twilightforest/leveling_settings/dimensions/twilight_forest.json"
@@ -2221,6 +2429,106 @@ file = "kubejs/assets/gurizes/textures/gui/livro_fundo.png"
 hash = "d770b4880ec9783aeb2981cb8eddc42b6ed5016b3c9ebc835ac34beb19a8b3f7"
 
 [[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/ashlord.png"
+hash = "9b9d548d1d1a52971535c6b740bb72fb536701709317d9bb7fd25e95ca1d0723"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/bellringer.png"
+hash = "46fe27e3e1133222fc19a417cb33869e3b3cfe56e94bad43ef250f66b9265207"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/cap_alter_deuses.png"
+hash = "b6ff25bb0f148a533f0bdd09e450fcf39d4bf5ad9ac4477f8e310ccfef2d1171"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/cap_deuses.png"
+hash = "ed023450e85250eda31efd34f940c3a25b7022a580f58ff9155d44fd2e4438e7"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/cap_semideuses.png"
+hash = "25c9e824bd2dd15f411bc30720e1a88602eb3778dbb6baaaa56f2a594c3d44e6"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/caranguejo_ametista.png"
+hash = "dc5fc726596cfddbc9ca58b109dd39391539ed6dc96be9b8847620a5b815077b"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/ciclope.png"
+hash = "0876f63da80ce01b1956fb4629f655fb0e6a7f2120f4c99d78e38180fdc8e2f2"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/creeper_mutante.png"
+hash = "8c07be5bb2cac2c18c312ddebe16d717f99464d6119e391179451030d2de19c0"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/eco_de_tyros.png"
+hash = "ad3b0667a0c718fdb4b4ae3dd457dd5e72f016bd0af7f3e9ebdabdaf8766fe21"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/esqueleto_mutante.png"
+hash = "443be9c32c626c280a9ec16e03a94314f001f6c12a785b2ad0eee33951ab8eba"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/ghast_horrendo.png"
+hash = "8d926c6524233a14b546a50eb95a3576d7c495909788b8a4049c4ce3fbe3aba3"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/gorgon.png"
+hash = "9ec76c105e3e47e2c02591a89d7ebd3f007f502a35da25e302eeac04a7ff83d7"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/guardiao_do_castelo.png"
+hash = "9d4f86feb13f163945c4099b832b4ef1d4736d0ec124588c9ef58a22adadf262"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/helvar.png"
+hash = "80ad80f75b06704f038b9db5aed560585ece3a502a19e9442259737f903d2002"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/hidra_do_pantano.png"
+hash = "f14987e5bb5cf86214ad5ba192d5058e74237fe973af0d337b8a619ce9006850"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/hirschgeist.png"
+hash = "439b7bbe6d596bd56bcb556313b580e42c127e0a2188eb598105ac18f56da8b6"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/krampus.png"
+hash = "85dba2e25d421c9d938029c0b73250719dd4234a1a7a6ffa87f9b4549d831c8c"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/missionario.png"
+hash = "d1c97f34a69a542177c1993f2d087568cb51e1ad14151409129831c0c2cae332"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/nerakyss.png"
+hash = "2260fae6bbc6c227064898dca733487955e8ba7f8c37afa16eb2fa10f151d904"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/rainha_mirmex.png"
+hash = "4c07a60bcac159ff213e44bc2d9833b95277816396f844c92e825c4e01e970d5"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/sirok.png"
+hash = "7a0d02841826d4649ca355017760b4ef8a2db9d48d15c0618c62a5969ea0ee02"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/skor.png"
+hash = "3895631cb77c88e6bd34d055d4dcd68195263060fc4fa92c43949808d582f557"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/swampjaw.png"
+hash = "3a3c64ba31deed16efd417221c840cd54ddf03730cbd7fdd231aa868cb2e5e7d"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/tongbi.png"
+hash = "3af2751fb5f4add87a3aa692313b8eacafff578d4e9f38dac8ada7f35dc018dc"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/bosses/zumbi_mutante.png"
+hash = "581a13e78fd2fa447ce82fdc8aedbf1feac7b7f32a7cf398b4c3848e342a3b0a"
+
+[[files]]
 file = "kubejs/assets/gurizes/textures/quests/estandarte_guia.png"
 hash = "72768961342b6bb855f32c4f6f05476836f072b37366575b1711c1bdc08004fc"
 
@@ -2410,7 +2718,7 @@ hash = "09959faa6d89640e32f55325c75d78a124c7c3140b497eea8cedfae466e34425"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/10_tags_trava.js"
-hash = "b8e8d0090bb180b6e51e9543863819dd7d6afab6d4fe6607314f02e67b05d326"
+hash = "74116ca0eb1d54ebfa6fd6f1d1db4f81df6c5f8d44e545890bbfd1d092bf1334"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/20_travas.js"
@@ -2806,7 +3114,7 @@ metafile = true
 
 [[files]]
 file = "mods/gurizes.pw.toml"
-hash = "3f73055fee55ccc9235703dc5e0ce7cacc2eeccc8947dbab78a3ef80c86e3367"
+hash = "b72dea1a216e5e34dc473634afd50b636fe3f8052fe0e1d8ff72dc9b5822d957"
 metafile = true
 
 [[files]]

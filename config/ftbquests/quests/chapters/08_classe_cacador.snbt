@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:arco_de_valdren"
 	id: "13949029DED624C7"
-	order_index: 16
+	order_index: 20
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

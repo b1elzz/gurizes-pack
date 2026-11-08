@@ -1,0 +1,87 @@
+{
+  "type": "origins:action_when_damage_taken",
+  "name": "Pena das Cinzas",
+  "description": "§o§7Toda Fênix guarda uma pena para o pior dia.§r\nAbaixo de 35% de vida: cura 4 corações, Resistência ao Fogo e queima os inimigos a 4 blocos. Recarga de 10 min.",
+  "cooldown": 12000,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 8
+  },
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": "<=",
+    "compare_to": 0.35
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:heal",
+        "amount": 8
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:fire_resistance",
+          "duration": 160,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "apoli:spawn_particles",
+        "particle": "minecraft:flame",
+        "count": 60,
+        "speed": 0.15,
+        "spread": {
+          "x": 0.6,
+          "y": 1.0,
+          "z": 0.6
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:item.totem.use"
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 4,
+        "include_target": false,
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:living"
+              },
+              {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:player",
+                "inverted": true
+              }
+            ]
+          }
+        },
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "apoli:set_on_fire",
+                "duration": 5
+              },
+              {
+                "type": "origins:damage",
+                "amount": 4,
+                "damage_type": "minecraft:in_fire"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

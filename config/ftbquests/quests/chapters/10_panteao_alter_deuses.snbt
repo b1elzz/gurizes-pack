@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "10_panteao_alter_deuses"
 	group: "3DC2DB31CDAC58A5"
-	icon: "gurizes:coroa_oca"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "gurizes:textures/quests/bosses/cap_alter_deuses.png"
+		}
+	}
 	id: "45FA33F84D2EA208"
 	images: [
 		{
@@ -19,7 +25,7 @@
 			y: -1.9d
 		}
 	]
-	order_index: 31
+	order_index: 41
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

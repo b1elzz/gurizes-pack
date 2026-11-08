@@ -1,0 +1,16 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Asas Expostas",
+  "description": "§o§7No céu aberto, toda flecha acha o alvo.§r\n§cFraqueza:§r em voo, projéteis ferem 25% mais e cada golpe recebido gasta 25 de Vigor.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.25
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:is_projectile"
+  },
+  "condition": {
+    "type": "apoli:creative_flying"
+  }
+}

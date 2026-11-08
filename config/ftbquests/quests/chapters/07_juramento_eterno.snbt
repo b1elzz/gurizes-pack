@@ -221,7 +221,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "meetyourfight:rosalyne_spawn_egg"
+			icon: "gurizes:marca_rosalyne"
 			id: "4A989023BC1B0C3D"
 			optional: true
 			rewards: [ ]
@@ -244,7 +244,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "twilightforest:hydra_spawn_egg"
+			icon: "gurizes:marca_hidra"
 			id: "24289563D2CB8DD4"
 			optional: true
 			rewards: [ ]
@@ -267,7 +267,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aquamirae:captain_cornelia_spawn_egg"
+			icon: "gurizes:marca_cornelia"
 			id: "5CA3F80291B7A972"
 			optional: true
 			rewards: [ ]
@@ -290,7 +290,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mowziesmobs:frostmaw_spawn_egg"
+			icon: "gurizes:marca_frostmaw"
 			id: "397688975BA9FC7F"
 			optional: true
 			rewards: [ ]
@@ -313,7 +313,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aether:sun_spirit_spawn_egg"
+			icon: "gurizes:marca_espirito_do_sol"
 			id: "69C5E79FFC9EF005"
 			optional: true
 			rewards: [ ]
@@ -336,7 +336,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
+			icon: "gurizes:marca_lorde_abobora"
 			id: "4D588668C716DDDC"
 			optional: true
 			rewards: [ ]
@@ -359,7 +359,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+			icon: "gurizes:marca_rei_morto"
 			id: "240EA51C14520D01"
 			optional: true
 			rewards: [ ]
@@ -382,7 +382,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mutantmonsters:mutant_enderman_spawn_egg"
+			icon: "gurizes:marca_enderman_mutante"
 			id: "208861C9A5E68CFC"
 			optional: true
 			rewards: [ ]
@@ -405,7 +405,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "bosses_of_mass_destruction:obsidian_heart"
+			icon: "gurizes:marca_obsidilith"
 			id: "45DECF9AB2B36CAC"
 			optional: true
 			rewards: [ ]
@@ -428,7 +428,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "cataclysm:the_leviathan_spawn_egg"
+			icon: "gurizes:marca_leviata"
 			id: "6AB373C831200959"
 			optional: true
 			rewards: [ ]
@@ -451,7 +451,7 @@
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "iceandfire:spawn_egg_fire_dragon"
+			icon: "gurizes:marca_dragao_anciao"
 			id: "5B764BB5CDA76D8F"
 			optional: true
 			rewards: [ ]
@@ -732,7 +732,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "meetyourfight:rosalyne_spawn_egg"
+			icon: "gurizes:marca_rosalyne"
 			id: "43B9A2225CDBC616"
 			optional: true
 			rewards: [ ]
@@ -755,7 +755,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "twilightforest:hydra_spawn_egg"
+			icon: "gurizes:marca_hidra"
 			id: "588671423EE5159C"
 			optional: true
 			rewards: [ ]
@@ -778,7 +778,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aquamirae:captain_cornelia_spawn_egg"
+			icon: "gurizes:marca_cornelia"
 			id: "4E397C19D75DBE14"
 			optional: true
 			rewards: [ ]
@@ -801,7 +801,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mowziesmobs:frostmaw_spawn_egg"
+			icon: "gurizes:marca_frostmaw"
 			id: "15992FFDFB82CCF8"
 			optional: true
 			rewards: [ ]
@@ -824,7 +824,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aether:sun_spirit_spawn_egg"
+			icon: "gurizes:marca_espirito_do_sol"
 			id: "5C74A74B12B085D7"
 			optional: true
 			rewards: [ ]
@@ -847,7 +847,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
+			icon: "gurizes:marca_lorde_abobora"
 			id: "5B33476C47183FBD"
 			optional: true
 			rewards: [ ]
@@ -870,7 +870,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+			icon: "gurizes:marca_rei_morto"
 			id: "0C24BD8651F592AC"
 			optional: true
 			rewards: [ ]
@@ -893,7 +893,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mutantmonsters:mutant_enderman_spawn_egg"
+			icon: "gurizes:marca_enderman_mutante"
 			id: "67E2FF07CF8067C4"
 			optional: true
 			rewards: [ ]
@@ -916,7 +916,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "bosses_of_mass_destruction:obsidian_heart"
+			icon: "gurizes:marca_obsidilith"
 			id: "5DD5AA8275CD589A"
 			optional: true
 			rewards: [ ]
@@ -939,7 +939,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "cataclysm:the_leviathan_spawn_egg"
+			icon: "gurizes:marca_leviata"
 			id: "73C0E35A5E4EEBAE"
 			optional: true
 			rewards: [ ]
@@ -962,7 +962,7 @@
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "iceandfire:spawn_egg_fire_dragon"
+			icon: "gurizes:marca_dragao_anciao"
 			id: "1180370ABECD7425"
 			optional: true
 			rewards: [ ]
@@ -1243,7 +1243,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "meetyourfight:rosalyne_spawn_egg"
+			icon: "gurizes:marca_rosalyne"
 			id: "5D49998FCE62A580"
 			optional: true
 			rewards: [ ]
@@ -1266,7 +1266,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "twilightforest:hydra_spawn_egg"
+			icon: "gurizes:marca_hidra"
 			id: "7113506F825C325C"
 			optional: true
 			rewards: [ ]
@@ -1289,7 +1289,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aquamirae:captain_cornelia_spawn_egg"
+			icon: "gurizes:marca_cornelia"
 			id: "7CA71F57918BF113"
 			optional: true
 			rewards: [ ]
@@ -1312,7 +1312,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mowziesmobs:frostmaw_spawn_egg"
+			icon: "gurizes:marca_frostmaw"
 			id: "7B70019A1DE86AC1"
 			optional: true
 			rewards: [ ]
@@ -1335,7 +1335,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aether:sun_spirit_spawn_egg"
+			icon: "gurizes:marca_espirito_do_sol"
 			id: "51EFF26ED63BAB6E"
 			optional: true
 			rewards: [ ]
@@ -1358,7 +1358,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
+			icon: "gurizes:marca_lorde_abobora"
 			id: "70D9527249FA406A"
 			optional: true
 			rewards: [ ]
@@ -1381,7 +1381,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+			icon: "gurizes:marca_rei_morto"
 			id: "301C3B8B0758E729"
 			optional: true
 			rewards: [ ]
@@ -1404,7 +1404,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mutantmonsters:mutant_enderman_spawn_egg"
+			icon: "gurizes:marca_enderman_mutante"
 			id: "5238B2184FC42E67"
 			optional: true
 			rewards: [ ]
@@ -1427,7 +1427,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "bosses_of_mass_destruction:obsidian_heart"
+			icon: "gurizes:marca_obsidilith"
 			id: "36A6CE7BC206F03E"
 			optional: true
 			rewards: [ ]
@@ -1450,7 +1450,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "cataclysm:the_leviathan_spawn_egg"
+			icon: "gurizes:marca_leviata"
 			id: "449332AB4787EA7B"
 			optional: true
 			rewards: [ ]
@@ -1473,7 +1473,7 @@
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "iceandfire:spawn_egg_fire_dragon"
+			icon: "gurizes:marca_dragao_anciao"
 			id: "4FC90D490925F7DD"
 			optional: true
 			rewards: [ ]

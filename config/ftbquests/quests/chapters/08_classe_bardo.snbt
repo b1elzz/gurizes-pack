@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:estandarte_do_ultimo_reino"
 	id: "176210F739235682"
-	order_index: 18
+	order_index: 24
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

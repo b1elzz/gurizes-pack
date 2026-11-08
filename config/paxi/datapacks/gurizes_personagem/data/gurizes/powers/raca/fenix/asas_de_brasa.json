@@ -1,0 +1,28 @@
+{
+  "type": "origins:elytra_flight",
+  "name": "Asas de Brasa",
+  "description": "§o§7A forja de Ignar deixou fogo nas costas deles.§r\nPule no ar para abrir as asas de fogo e planar. Planar gasta Chama devagar; ela volta em terra firme, em dobro sob o sol ou no Nether. Não abre com peitoral pesado.",
+  "render_elytra": true,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:raca/fenix/chama",
+        "comparison": ">=",
+        "compare_to": 1
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "gurizes:armaduras/pesadas"
+          }
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

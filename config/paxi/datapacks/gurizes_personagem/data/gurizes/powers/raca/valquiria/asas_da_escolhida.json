@@ -1,0 +1,27 @@
+{
+  "type": "origins:creative_flight",
+  "name": "Asas da Escolhida",
+  "description": "§o§7Brava deu asas a quem não foge da guerra.§r\nVoo de verdade: dois toques no Espaço levantam voo; Espaço sobe e Shift desce. Voar gasta Vigor (cerca de 15 s), que só volta em terra firme. Não voa com peitoral pesado.",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:raca/valquiria/vigor",
+        "comparison": ">=",
+        "compare_to": 1
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "gurizes:armaduras/pesadas"
+          }
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

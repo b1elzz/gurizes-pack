@@ -1,0 +1,86 @@
+{
+  "type": "origins:active_self",
+  "name": "Decolagem em Chamas",
+  "description": "§o§7Do chão ao céu num estalo de brasa.§r\nAgachado no chão, aperte Espaço: salto de chamas de uns 8 blocos; pule de novo no ar para abrir as asas. Gasta 30 de Chama. Recarga de 3 s.",
+  "cooldown": 60,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 2
+  },
+  "key": {
+    "key": "key.jump",
+    "continuous": false
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "gurizes:raca/fenix/chama",
+        "change": -30
+      },
+      {
+        "type": "apoli:add_velocity",
+        "x": 0.0,
+        "y": 1.25,
+        "z": 0.0
+      },
+      {
+        "type": "apoli:spawn_particles",
+        "particle": "minecraft:flame",
+        "count": 30,
+        "speed": 0.08,
+        "spread": {
+          "x": 0.4,
+          "y": 0.1,
+          "z": 0.4
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:item.firecharge.use"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "apoli:on_block"
+      },
+      {
+        "type": "apoli:sneaking"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:raca/fenix/chama",
+        "comparison": ">=",
+        "compare_to": 30
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "gurizes:armaduras/pesadas"
+          }
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+          },
+          {
+            "type": "apoli:in_rain"
+          }
+        ],
+        "inverted": true
+      }
+    ]
+  }
+}

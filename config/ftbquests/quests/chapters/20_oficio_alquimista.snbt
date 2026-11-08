@@ -5,7 +5,7 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:brewing_stand"
 	id: "291F43720DFE15D1"
-	order_index: 24
+	order_index: 34
 	quest_links: [ ]
 	quests: [
 		{

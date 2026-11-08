@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Chama Molhada",
+  "description": "§o§7Brasa e água nunca fizeram as pazes.§r\n§cFraqueza:§r na chuva ou na água a Chama se apaga; debaixo d'água, perde meio coração a cada 2 s.",
+  "interval": 10,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "gurizes:raca/fenix/chama",
+    "change": -6
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+      },
+      {
+        "type": "apoli:in_rain"
+      }
+    ]
+  }
+}

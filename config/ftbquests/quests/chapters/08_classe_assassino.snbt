@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:adaga_do_ultimo_suspiro"
 	id: "49FC30077D103768"
-	order_index: 21
+	order_index: 30
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

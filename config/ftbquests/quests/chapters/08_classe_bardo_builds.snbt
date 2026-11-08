@@ -1,0 +1,865 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_bardo_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:estandarte_do_ultimo_reino"
+	id: "01948777A195C998"
+	order_index: 25
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6BC0E798DCD52CBD"]
+			description: [
+				"&oUma canção certa vale por dez espadas. Eu trouxe as duas."
+				""
+				"&6Escolhas:&r Humano (ou Pés-Leves) · Aurion (ou Kaelum) · Profissão Mercador"
+				"&6Árvore:&r Cozinheiro: Vida Máxima, Cura Recebida (você é o centro das auras). Alquimista do Ato III: Duração de Efeitos Benéficos"
+				"{@pagebreak}"
+				"&6Como joga:&r Fica a 10 blocos de todo mundo (Presença Inspiradora), solta o Hino no começo da luta e planta o Estandarte onde o grupo vai brigar."
+				"&6Em grupo:&r Multiplica o dano de todos. Rende com 3 ou 4 jogadores; sozinho é a classe mais fraca (aceito)."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:estandarte_do_ultimo_reino"
+			id: "2CBC6F57D6A2BDD6"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · auras e suporte ofensivo"
+			tasks: [
+				{
+					id: "36DA5973AEF5296B"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Canção do Último Reino"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CBC6F57D6A2BDD6"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma I (depois do Galvar)"
+				"&6Armadura:&r Gibão (acolchoado, leve) ou cota de malha"
+				"&6Armas:&r Lança de Ferro (Simply Swords); o Estandarte entra depois do Galvar"
+				"&6Acessórios:&r Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável; Cura Recebida ×2"
+				"&6Gemas:&r Foco do Tempo no elmo; Guardião no peito"
+				"&6Magias:&r Pressa, Rajada, Curar"
+				"&6Encantos:&r Proteção II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, Ração de Viagem, 8 bifes"
+				"&aRotação:&r Fique perto de todos; Hino de Coragem (G) no começo; Rajada para afastar o que cerca o Mago"
+			]
+			icon: "simplyswords:iron_spear"
+			id: "50911E9127A878C0"
+			rewards: [
+				{
+					id: "07D2BC03A4BEFE61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Canção do Último Reino"
+			tasks: [
+				{
+					id: "7CAABECF1AEAB210"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "572AAA73ED7B6B0F"
+					item: "magistuarmory:gambeson_chestplate"
+					type: "item"
+				}
+				{
+					id: "39523DA10B10DBC2"
+					item: "simplyswords:iron_spear"
+					type: "item"
+				}
+				{
+					id: "506E2F5268965A74"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Lança e Canto"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50911E9127A878C0"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Sacerdote (runa Sagrada) ou diamante"
+				"&6Armas:&r Lança de Diamante"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Mana"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3; Cura Recebida ×3 > Metabolismo Acelerado"
+				"&6Gemas:&r Foco do Tempo em 2 peças; Foco de Sagrado"
+				"&6Magias:&r Pressa, Rajada, Curar, Fortificar"
+				"&6Encantos:&r Proteção III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Ração de Viagem"
+				"&aRotação:&r Plante o Estandarte (agachar + direito) onde a luta vai ser; Ritmo de Batalha dá Pressa à mesa"
+			]
+			icon: "simplyswords:diamond_spear"
+			id: "545B68E0403E4195"
+			rewards: [
+				{
+					id: "12B7F6D04B3FEDFA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "06830FACDC48702A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Canção do Último Reino"
+			tasks: [
+				{
+					id: "1DE71BE526D035AF"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "26A288381BE9BC1E"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "0F659DCC9C1D9190"
+					item: "simplyswords:diamond_spear"
+					type: "item"
+				}
+				{
+					id: "2EA7C354F87B78A0"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Estandarte ao Vento"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545B68E0403E4195"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Arquevocador (Iron's), mais recarga"
+				"&6Armas:&r Lança de Diamante com afixo raro"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Duração de Efeitos Benéficos ×3 > Overdose; Vida Máxima"
+				"&6Gemas:&r Foco do Tempo em 3 peças; Foco de Sagrado; Guardião"
+				"&6Magias:&r Fortificar, Lento, Escudo, Bênção da Vida"
+				"&6Encantos:&r Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Fortificar no grupo antes do boss; Lento no boss rápido; a Balada dos Heróis (H) chega no Ato IV"
+			]
+			icon: "irons_spellbooks:archevoker_chestplate"
+			id: "24E429B09C6F57E6"
+			rewards: [
+				{
+					id: "74ADE97536B5B390"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Canção do Último Reino"
+			tasks: [
+				{
+					id: "2419A9EC163CF5E5"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "756384030B000681"
+					item: "irons_spellbooks:archevoker_chestplate"
+					type: "item"
+				}
+				{
+					id: "477ACD83AE8CC1F3"
+					item: "simplyswords:diamond_spear"
+					type: "item"
+				}
+				{
+					id: "1C7A2601648C755D"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_tempo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Voz de Arquevocador"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24E429B09C6F57E6"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Valquíria (Aether) ou Mago Guerreiro de Netherita"
+				"&6Armas:&r Lança de Netherita"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador + Medalhão Sagrado"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Overdose; Duração de Efeitos Benéficos completa"
+				"&6Gemas:&r Foco do Tempo épicas; Foco de Sagrado; Guardião"
+				"&6Magias:&r Fortificar, Bênção da Vida, Escudo, Contrafeitiço"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Balada dos Heróis (H) na fase mais pesada; Hino logo que a recarga voltar"
+			]
+			icon: "aether:valkyrie_chestplate"
+			id: "58E83CF9AA4DFE51"
+			rewards: [
+				{
+					id: "3396730B36635C74"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6C3769EB28948D91"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Canção do Último Reino"
+			tasks: [
+				{
+					id: "2255929C08FA51F4"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "31C1BEA0C17D51F4"
+					item: "aether:valkyrie_chestplate"
+					type: "item"
+				}
+				{
+					id: "4C8D60137F9DF0A4"
+					item: "simplyswords:netherite_spear"
+					type: "item"
+				}
+				{
+					id: "007EE137F3E962C7"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Arauto de Netherita"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58E83CF9AA4DFE51"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Valquíria completa com afixos de recarga"
+				"&6Armas:&r Lança Rúnica"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador + Medalhão Sagrado"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Regeneração de Membros; Cura por Poção"
+				"&6Gemas:&r Foco do Tempo míticas; Esplendor"
+				"&6Magias:&r Nuvem de Regeneração, Contrafeitiço, Bênção da Vida"
+				"&6Encantos:&r Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Estandarte na Forma V (raio 8, 14 s); Balada na fase do Olho Estelar"
+			]
+			icon: "aether:valkyrie_helmet"
+			id: "722617E7B1A9E6C7"
+			rewards: [
+				{
+					id: "4CAE881A8D2496FA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Canção do Último Reino"
+			tasks: [
+				{
+					id: "1B1F9836B642F454"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "236919B9A1DD9B1F"
+					item: "aether:valkyrie_chestplate"
+					type: "item"
+				}
+				{
+					id: "695B9CDC0281C582"
+					item: "simplyswords:runic_spear"
+					type: "item"
+				}
+				{
+					id: "76EF1E65096C0862"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato V: Coro do Céu Partido"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["722617E7B1A9E6C7"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Prata (Ice and Fire)"
+				"&6Armas:&r Lança Rúnica com afixo épico+"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador + Medalhão Sagrado"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: o resto de Cura por Poção e Duração de Efeitos"
+				"&6Gemas:&r Foco do Tempo míticas; Esplendor"
+				"&6Magias:&r Nuvem de Regeneração, Contrafeitiço, Bênção da Vida, Fortificar"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Hino + Estandarte + Balada na janela do Rei Partido; depois mantenha as auras"
+			]
+			icon: "iceandfire:armor_silver_chestplate"
+			id: "5324FCC256FC8E41"
+			rewards: [
+				{
+					id: "051721A7EA512F60"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4EFF1AAB5724B0FF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Canção do Último Reino"
+			tasks: [
+				{
+					id: "1055F659BEA82BFC"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0346F04535C7843E"
+					item: "iceandfire:armor_silver_chestplate"
+					type: "item"
+				}
+				{
+					id: "179CC78EDA9EF427"
+					item: "simplyswords:runic_spear"
+					type: "item"
+				}
+				{
+					id: "04430DD4AB13CD3B"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Voz do Rei Partido"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BC0E798DCD52CBD"]
+			description: [
+				"&oEle não levanta a lança. Levanta a voz, e o campo muda de dono."
+				""
+				"&6Escolhas:&r Pés-Leves (ou Humano) · Kaelum · Profissão Encantador"
+				"&6Árvore:&r Alquimista do Ato III: Duração de Efeitos Benéficos, Dano Mágico. Cozinheiro: Vida Máxima"
+				"{@pagebreak}"
+				"&6Como joga:&r Fica atrás do tanque soltando Rajada, Lento e Escudo; a lança é só para emergência e o Estandarte vem para o ritmo."
+				"&6Em grupo:&r Controle de adds e de boss rápido. Rende com um Paladino e um Mago; sozinho é fraquíssimo."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:estandarte_do_ultimo_reino"
+			id: "0A97C9B9562B0522"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · suporte de magia e controle"
+			tasks: [
+				{
+					id: "40DD333D03FA2695"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Voz do Vento"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["0A97C9B9562B0522"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma I (depois do Galvar)"
+				"&6Armadura:&r Mago Errante"
+				"&6Armas:&r Rapieira de Ferro (Simply Swords)"
+				"&6Acessórios:&r Anel de Mana"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável"
+				"&6Gemas:&r Foco de Evocação no peito; Foco do Tempo"
+				"&6Magias:&r Rajada, Pressa, Curar"
+				"&6Encantos:&r Proteção II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, Tônico de Mana"
+				"&aRotação:&r Rajada em quem cerca; Hino de Coragem (G) no começo; saia da frente"
+			]
+			icon: "simplyswords:iron_rapier"
+			id: "7984EC5FE6627800"
+			rewards: [
+				{
+					id: "551AA3A6403D12C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Voz do Vento"
+			tasks: [
+				{
+					id: "1CEEC416A05844ED"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "16955BDD137E6A4A"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "5E5701A90E523271"
+					item: "simplyswords:iron_rapier"
+					type: "item"
+				}
+				{
+					id: "1ADAE0ED077C91B6"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Rapieira e Rajada"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7984EC5FE6627800"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Sacerdote"
+				"&6Armas:&r Rapieira de Diamante"
+				"&6Acessórios:&r Anel de Mana + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3; Cura Recebida ×3"
+				"&6Gemas:&r Foco de Evocação em 2 peças; Foco do Tempo"
+				"&6Magias:&r Rajada, Lento, Escudo, Pressa"
+				"&6Encantos:&r Proteção III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Lento no boss rápido; Escudo no aliado em risco; Estandarte onde o grupo luta"
+			]
+			icon: "simplyswords:diamond_rapier"
+			id: "700CBF3219A5BBFC"
+			rewards: [
+				{
+					id: "03CCEAEC7FFD87C2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6AAA991EB31463EE"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Voz do Vento"
+			tasks: [
+				{
+					id: "79F1E61F96C2CBB0"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "043405DE5EF066BF"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "1AC77CA73FD03C3E"
+					item: "simplyswords:diamond_rapier"
+					type: "item"
+				}
+				{
+					id: "50DBBA8BEA02D6C6"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Vento de Diamante"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["700CBF3219A5BBFC"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Arquevocador"
+				"&6Armas:&r Rapieira de Diamante com afixo raro"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano de Projétil > Dano Mágico ×3; Duração de Efeitos Benéficos"
+				"&6Gemas:&r Foco de Evocação em 3 peças; Foco do Tempo"
+				"&6Magias:&r Rajada, Lento, Escudo, Fortificar"
+				"&6Encantos:&r Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Rajada e Lento em ciclo; Fortificar antes do boss; Hino e Estandarte na abertura"
+			]
+			icon: "irons_spellbooks:archevoker_chestplate"
+			id: "342B33A247D64574"
+			rewards: [
+				{
+					id: "73CF2622169FC586"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Voz do Vento"
+			tasks: [
+				{
+					id: "1DBFA2E49CB76B55"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "723A18FA7058967B"
+					item: "irons_spellbooks:archevoker_chestplate"
+					type: "item"
+				}
+				{
+					id: "401C0BD7B352417D"
+					item: "simplyswords:diamond_rapier"
+					type: "item"
+				}
+				{
+					id: "1ACEF6B59B4573BB"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_evocacao"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Arquevocador"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["342B33A247D64574"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Mago Guerreiro de Netherita"
+				"&6Armas:&r Rapieira de Netherita"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador + Anel de Afinidade com Evocação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Dano Mágico completo; Overdose"
+				"&6Gemas:&r Foco de Evocação épicas; Foco do Tempo"
+				"&6Magias:&r Contrafeitiço, Escudo, Lento, Fortificar"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Contrafeitiço no golpe mágico do boss; Balada (H) na fase pesada"
+			]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "2A7F33FAF11C4F40"
+			rewards: [
+				{
+					id: "4D59AD61770AD909"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4C064A0C51132D2D"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Voz do Vento"
+			tasks: [
+				{
+					id: "4BA61B3F84EA3FFC"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7F54AF1197053ABF"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "546B89EC232B56D0"
+					item: "simplyswords:netherite_rapier"
+					type: "item"
+				}
+				{
+					id: "198768257C2567D1"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Maestro de Netherita"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["2A7F33FAF11C4F40"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Mago Guerreiro de Netherita com afixos de recarga"
+				"&6Armas:&r Rapieira Rúnica"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador + Anel de Afinidade com Evocação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Regeneração de Membros; Cura por Poção"
+				"&6Gemas:&r Foco de Evocação e Foco do Tempo míticas"
+				"&6Magias:&r Contrafeitiço, Passo Trovejante, Nuvem de Regeneração"
+				"&6Encantos:&r Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Passo Trovejante para reposicionar; Hino e Estandarte na abertura do boss"
+			]
+			icon: "irons_spellbooks:netherite_mage_helmet"
+			id: "34A5C12DB32E89BB"
+			rewards: [
+				{
+					id: "03E3E610022D0385"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Voz do Vento"
+			tasks: [
+				{
+					id: "0530AC01A1F75ED9"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "17870AA9FD377348"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "74C39314F31B4C47"
+					item: "simplyswords:runic_rapier"
+					type: "item"
+				}
+				{
+					id: "7D82F99D7A5E5FD0"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato V: Concerto Estelar"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["34A5C12DB32E89BB"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Estandarte do Último Reino, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Azul (Ice and Fire)"
+				"&6Armas:&r Rapieira Rúnica com afixo épico+"
+				"&6Acessórios:&r Anel de Recuperação + Talismã Maior do Conjurador + Anel de Afinidade com Evocação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: fecha Dano Mágico e Cura por Poção"
+				"&6Gemas:&r Foco de Evocação e Foco do Tempo míticas; Esplendor"
+				"&6Magias:&r Contrafeitiço, Passo Trovejante, Nuvem de Regeneração, Fortificar"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Balada dos Heróis na janela do Rei Partido; as magias mantêm o resto"
+			]
+			icon: "iceandfire:armor_blue_chestplate"
+			id: "0697B1860E5FE335"
+			rewards: [
+				{
+					id: "43542CB429CB4834"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "378D80A52A68914F"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Voz do Vento"
+			tasks: [
+				{
+					id: "09F5CEF89475EF50"
+					item: {
+						Count: 1b
+						id: "gurizes:estandarte_do_ultimo_reino"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7854CDA262A5959D"
+					item: "iceandfire:armor_blue_chestplate"
+					type: "item"
+				}
+				{
+					id: "372EB0D2451401C1"
+					item: "simplyswords:runic_rapier"
+					type: "item"
+				}
+				{
+					id: "20EB54C8A3E2BDFE"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Voz do Vento Final"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Bardo de Guerra"
+}

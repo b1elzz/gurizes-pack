@@ -1,0 +1,857 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_cacador_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:arco_de_valdren"
+	id: "46991641942D273A"
+	order_index: 21
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D501B23FBBF4F70"]
+			description: [
+				"&oNenhuma presa é grande demais. Só longe demais, e isso a gente resolve."
+				""
+				"&6Escolhas:&r Elarim · Tellura (ou Brava) · Profissão Explorador"
+				"&6Árvore:&r Caçador: Velocidade do Projétil > Tiro Penetrante, Dano Crítico de Projétil > Flechas Pesadas, Dano de Projétil > Efeito Balístico, Velocidade de Disparo do Arco > Disparo Rápido"
+				"{@pagebreak}"
+				"&6Como joga:&r Marca o boss com a Marca do Caçador, mantém a distância com o Passo do Rastreador e despeja flechas com a puxada completa."
+				"&6Em grupo:&r Marca alvos para todo mundo (Marca da Presa: +10% de dano do grupo). Combina com Assassino e Mago."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:arco_de_valdren"
+			id: "0FD76F9BEB6589BD"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · dano à distância e marcação"
+			tasks: [
+				{
+					id: "7F91442C0F027DE9"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Olho de Valdren"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FD76F9BEB6589BD"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Arco de Valdren, Forma I (depois do Galvar)"
+				"&6Armadura:&r couro (leve) ou cota de malha; mexa-se mais do que apanha"
+				"&6Armas:&r arco simples; 64 flechas, algumas com efeito"
+				"&6Acessórios:&r Tênis de Corrida"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Caçador: Velocidade do Projétil ×3 > Tiro Penetrante; Velocidade de Movimento ao Atirar"
+				"&6Gemas:&r Combatente no arco; Deslize nas botas"
+				"&6Magias:&r Flecha Venenosa, Enraizar"
+				"&6Encantos:&r Força II, Perfuração II, Inquebrável II no arco"
+				"&6Consumíveis:&r Flechas, Kit de cura, Pedra de Amolar"
+				"&aRotação:&r Enraizar em quem corre; Disparo Venenoso (G) no boss; fique sempre em movimento"
+			]
+			icon: "minecraft:bow"
+			id: "7113191AC0771EC0"
+			rewards: [
+				{
+					id: "17BB6CC2CF285F02"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Olho de Valdren"
+			tasks: [
+				{
+					id: "20FCBAFBBB3A3D2F"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "44C7674DBE50FA80"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "55842E928B9FA4C3"
+					item: "minecraft:bow"
+					type: "item"
+				}
+				{
+					id: "7F460913DD4005C0"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Couro e Arco"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7113191AC0771EC0"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Arco de Valdren, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Jaqueta Ártica (Floresta Crepuscular) ou cota de malha"
+				"&6Armas:&r Arco Longo (Epic Knights); arco com afixo de projétil"
+				"&6Acessórios:&r Aljava + Tênis de Corrida"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Caçador: Dano Crítico de Projétil ×3 > Flechas Pesadas; Dano de Projétil ×3"
+				"&6Gemas:&r Combatente e Senhor da Guerra no arco; Deslize"
+				"&6Magias:&r Flecha Venenosa, Enraizar, Orbe Ácido"
+				"&6Encantos:&r Força III, Perfuração III, Inquebrável III"
+				"&6Consumíveis:&r Flechas com efeito, Frasco de Cura em Grupo"
+				"&aRotação:&r Marque o boss com uma flecha a cada 5 s (Marca do Caçador); Orbe Ácido para amolecer a armadura"
+			]
+			icon: "magistuarmory:longbow"
+			id: "2AB37D58656C5010"
+			rewards: [
+				{
+					id: "3C07F110F056947D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6A17264D55FFC03B"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Olho de Valdren"
+			tasks: [
+				{
+					id: "377F37F8D375F691"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0D1713EBA9BF209E"
+					item: "twilightforest:arctic_chestplate"
+					type: "item"
+				}
+				{
+					id: "2571DE52FAB1DF90"
+					item: "magistuarmory:longbow"
+					type: "item"
+				}
+				{
+					id: "74534C15A50D0589"
+					item: "relics:arrow_quiver"
+					type: "item"
+				}
+			]
+			title: "Ato II: Arco Longo"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AB37D58656C5010"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Arco de Valdren, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Andarilho das Sombras (runa de Ender), leve e rápida"
+				"&6Armas:&r Arco do Ender ou o Arco de Valdren III; arco raro"
+				"&6Acessórios:&r Cinto do Caçador + Sapato de Coelhos Saltitantes"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Caçador: Velocidade de Disparo do Arco ×3 > Disparo Rápido; Elusividade se usar couro"
+				"&6Gemas:&r Senhor da Guerra no arco; Samurai no elmo; Foco de Ender"
+				"&6Magias:&r Flecha Mágica, Orbe Ácido, Aspecto da Aranha"
+				"&6Encantos:&r Força IV, Perfuração IV, Inquebrável III"
+				"&6Consumíveis:&r Flechas, Tônico de Mana, Frasco de Cura em Grupo"
+				"&aRotação:&r Aspecto da Aranha para mirar do alto; Flecha do Rei (agachar + direito) nos adds; Marca da Presa no boss"
+			]
+			icon: "irons_spellbooks:shadowwalker_chestplate"
+			id: "2A1ED7A403B1F697"
+			rewards: [
+				{
+					id: "493E127238189B64"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Olho de Valdren"
+			tasks: [
+				{
+					id: "35B6E8918C1B103F"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "70821CC240B20460"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "69FA97C7026C3CD4"
+					item: "twilightforest:ender_bow"
+					type: "item"
+				}
+				{
+					id: "654F84FF56986D45"
+					item: "relics:hunter_belt"
+					type: "item"
+				}
+			]
+			title: "Ato III: Flecha de Ender"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A1ED7A403B1F697"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Arco de Valdren, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Ressonário (Deeper and Darker) ou Valquíria (Aether)"
+				"&6Armas:&r Arco Amaldiçoado (Cataclysm) ou Arco da Forma IV"
+				"&6Acessórios:&r Cinto do Caçador + Aljava + Óculos de Visão Noturna"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Caçador: Efeito Balístico completo; Dano Crítico de Projétil completo"
+				"&6Gemas:&r Senhor da Guerra épica no arco; Rompimento; Samurai"
+				"&6Magias:&r Flecha Mágica, Orbe Ácido, Chuva de Estrelas"
+				"&6Encantos:&r Força V, Perfuração IV, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Flechas com efeito"
+				"&aRotação:&r Chuva de Estrelas (H) quando os adds aparecerem; Marca do Caçador sempre ativa no boss"
+			]
+			icon: "cataclysm:cursed_bow"
+			id: "2964DA79AED44D1E"
+			rewards: [
+				{
+					id: "0256B3D358171F1D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "470338BE1051824A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Olho de Valdren"
+			tasks: [
+				{
+					id: "6BB9D55059E62C1D"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3863522987A7D4EA"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "1C7BEF71D0F35BEB"
+					item: "cataclysm:cursed_bow"
+					type: "item"
+				}
+				{
+					id: "0FEBDE741E89476F"
+					item: "relics:hunter_belt"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Arco Amaldiçoado"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2964DA79AED44D1E"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Arco de Valdren, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Defensor (Warden) com afixos de projétil"
+				"&6Armas:&r Arco Amaldiçoado ou arco da Forma V"
+				"&6Acessórios:&r Cinto do Caçador + Aljava + Anel de Afinidade com Ender"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Caçador: Velocidade de Disparo do Arco > Disparo Rápido; Arqueiro Treinado"
+				"&6Gemas:&r Senhor da Guerra e Rompimento míticas; Foco de Ender"
+				"&6Magias:&r Chuva de Estrelas, Praga, Flecha Mágica"
+				"&6Encantos:&r Força V, Perfuração IV, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Flechas com efeito"
+				"&aRotação:&r Praga no boss que cura; Chuva de Estrelas na fase de adds; Marca da Presa antes do burst"
+			]
+			icon: "deeperdarker:warden_chestplate"
+			id: "6B1DE69C6520FECC"
+			rewards: [
+				{
+					id: "0C6E43C53C832DD9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Olho de Valdren"
+			tasks: [
+				{
+					id: "73CF4BC1DD66092C"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "15E5DD8D3F62C9EC"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "3EAD93367A7BAB2A"
+					item: "cataclysm:cursed_bow"
+					type: "item"
+				}
+				{
+					id: "61036B4945F0DF21"
+					item: "relics:hunter_belt"
+					type: "item"
+				}
+			]
+			title: "Ato V: Mira de Netherita"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B1DE69C6520FECC"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Arco de Valdren, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de dragão (Ice and Fire), cor à escolha"
+				"&6Armas:&r Arco de Osso de Dragão ou o Arco de Valdren V"
+				"&6Acessórios:&r Cinto do Caçador + Aljava + Anel de Afinidade com Ender"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Caçador: o resto do arco de Velocidade do Projétil e de Dano de Projétil"
+				"&6Gemas:&r Senhor da Guerra e Rompimento míticas; Esplendor"
+				"&6Magias:&r Chuva de Estrelas, Praga, Flecha Mágica, Orbe Ácido"
+				"&6Encantos:&r Força V, Perfuração IV, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Flechas com efeito"
+				"&aRotação:&r Chuva Estelar (H) na janela do Rei Partido, depois flechas marcadas sem parar"
+			]
+			icon: "iceandfire:dragonbone_bow"
+			id: "40582B51AE2DCCA1"
+			rewards: [
+				{
+					id: "5BED87DF21206AD5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4263C8C335137F27"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Olho de Valdren"
+			tasks: [
+				{
+					id: "0A1E883757C4DABD"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "398B724177D31E17"
+					item: "iceandfire:armor_amythest_chestplate"
+					type: "item"
+				}
+				{
+					id: "57565AD6602EA0D9"
+					item: "iceandfire:dragonbone_bow"
+					type: "item"
+				}
+				{
+					id: "46CEB09DC1160BB8"
+					item: "relics:hunter_belt"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Arco do Dragão"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D501B23FBBF4F70"]
+			description: [
+				"&oA floresta não esquece. Cada flecha deixa um pouco dela no que acerta."
+				""
+				"&6Escolhas:&r Elarim (ou Maréu) · Tellura · Profissão Alquimista"
+				"&6Árvore:&r Caçador: Velocidade do Projétil, Dano de Projétil. Alquimista do Ato III: Chance de Envenenamento > Dano de Veneno ×3 > Carne em Fusão"
+				"{@pagebreak}"
+				"&6Como joga:&r Veneno e raízes por cima do arco: o boss segue envenenado, preso e marcado, e a besta pesada cobre a distância curta."
+				"&6Em grupo:&r Controle e dano contínuo. Combina com Paladino na frente e Druida; o veneno é mais forte em quem se arrasta."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:arco_de_valdren"
+			id: "476DBDA38E7581C6"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · veneno e controle"
+			tasks: [
+				{
+					id: "38484FB5E4FBDF90"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Espinho Verde"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["476DBDA38E7581C6"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Arco de Valdren, Forma I (depois do Galvar)"
+				"&6Armadura:&r couro (leve)"
+				"&6Armas:&r arco simples; flechas de veneno"
+				"&6Acessórios:&r Tênis de Corrida"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Caçador: Velocidade do Projétil ×3 > Tiro Penetrante"
+				"&6Gemas:&r Combatente no arco"
+				"&6Magias:&r Flecha Venenosa, Enraizar"
+				"&6Encantos:&r Força II, Inquebrável II"
+				"&6Consumíveis:&r Flechas de veneno, Óleo de Lâmina: Veneno, Kit de cura"
+				"&aRotação:&r Flecha Venenosa no boss; Enraizar em quem corre; Disparo Venenoso (G) quando o grupo apertar"
+			]
+			icon: "minecraft:bow"
+			id: "467058033C4469AF"
+			rewards: [
+				{
+					id: "018FF84A226C18D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Espinho Verde"
+			tasks: [
+				{
+					id: "74B103DA745F9A19"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "565B42E6A24D5C05"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E1DBB43C6B55D68"
+					item: "minecraft:bow"
+					type: "item"
+				}
+				{
+					id: "767BA2E0C1903490"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Flecha de Veneno"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["467058033C4469AF"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Arco de Valdren, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Jaqueta Ártica ou cota de malha"
+				"&6Armas:&r Besta Pesada (Epic Knights) para o tiro curto; o arco para o longo"
+				"&6Acessórios:&r Aljava + Tênis de Corrida"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Caçador: Dano de Projétil ×3 > Efeito Balístico"
+				"&6Gemas:&r Combatente no arco; Deslize"
+				"&6Magias:&r Flecha Venenosa, Enraizar, Orbe Ácido"
+				"&6Encantos:&r Força III, Perfuração III"
+				"&6Consumíveis:&r Flechas de veneno, Frasco de Cura em Grupo"
+				"&aRotação:&r Orbe Ácido amolece a armadura; veneno no boss; a besta fecha quando ele chega perto"
+			]
+			icon: "magistuarmory:heavy_crossbow"
+			id: "2FDDBFFDF66B589C"
+			rewards: [
+				{
+					id: "6F5FEEDE5317D410"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6A1B54A93265650E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Espinho Verde"
+			tasks: [
+				{
+					id: "7AD042BE6E0716D8"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "36BB6633FC104895"
+					item: "twilightforest:arctic_chestplate"
+					type: "item"
+				}
+				{
+					id: "784B4D76D0929082"
+					item: "magistuarmory:heavy_crossbow"
+					type: "item"
+				}
+				{
+					id: "4ECEEA0C0CB742DD"
+					item: "relics:arrow_quiver"
+					type: "item"
+				}
+			]
+			title: "Ato II: Besta Pesada"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["2FDDBFFDF66B589C"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Arco de Valdren, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Apodrecido (runa de Natureza + Essência Arcana), leve"
+				"&6Armas:&r Besta de Carregamento Automático; arco raro"
+				"&6Acessórios:&r Cinto do Caçador + Anel de Proteção contra Veneno"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Chance de Envenenamento ×3 > Ignorar Imunidade; Dano de Veneno ×3"
+				"&6Gemas:&r Foco de Natureza em 3 peças; Senhor da Guerra no arco"
+				"&6Magias:&r Orbe Ácido, Aspecto da Aranha, Salpico Venenoso"
+				"&6Encantos:&r Força IV, Perfuração IV"
+				"&6Consumíveis:&r Flechas de veneno, Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Salpico Venenoso nos adds; Ignorar Imunidade quebra a imunidade a veneno; Marca do Caçador no boss"
+			]
+			icon: "irons_spellbooks:plagued_chestplate"
+			id: "63EA185661C211AD"
+			rewards: [
+				{
+					id: "3B44ABBDBA398E61"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Espinho Verde"
+			tasks: [
+				{
+					id: "1E7D32F10EE19D9A"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5C826ECD3F0F7402"
+					item: "irons_spellbooks:plagued_chestplate"
+					type: "item"
+				}
+				{
+					id: "6F780F6A491FF1E8"
+					item: "irons_spellbooks:autoloader_crossbow"
+					type: "item"
+				}
+				{
+					id: "030D8DF5655A1B27"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_natureza"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Planta Carnívora"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["63EA185661C211AD"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Arco de Valdren, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Ressonário (Otherside) ou Andarilho das Sombras"
+				"&6Armas:&r Arco Amaldiçoado"
+				"&6Acessórios:&r Cinto do Caçador + Aljava"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Dano de Veneno ×3 > Carne em Fusão; Praga Alastradora"
+				"&6Gemas:&r Foco de Natureza épicas; Samurai"
+				"&6Magias:&r Praga, Orbe Ácido, Aspecto da Aranha"
+				"&6Encantos:&r Força V, Perfuração IV, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Flechas de veneno"
+				"&aRotação:&r Praga no boss que cura; Orbe Ácido; Chuva Estelar (H) nos adds"
+			]
+			icon: "deeperdarker:resonarium_chestplate"
+			id: "7916D265CBF3E782"
+			rewards: [
+				{
+					id: "353763E1933AA278"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5526DD3E41D02012"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Espinho Verde"
+			tasks: [
+				{
+					id: "466E9B7AB940C29E"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "243D45BF0B2BA517"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "1136F03781EF39A8"
+					item: "cataclysm:cursed_bow"
+					type: "item"
+				}
+				{
+					id: "7D828128210E9FE7"
+					item: "relics:hunter_belt"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Praga do Vazio"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7916D265CBF3E782"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Arco de Valdren, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Defensor (Warden)"
+				"&6Armas:&r Arco Amaldiçoado ou o Arco de Valdren V"
+				"&6Acessórios:&r Cinto do Caçador + Anel de Afinidade com Natureza"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Praga Alastradora; Duração de Efeitos Prejudiciais"
+				"&6Gemas:&r Foco de Natureza míticas; Senhor da Guerra"
+				"&6Magias:&r Praga, Chuva de Estrelas, Orbe Ácido"
+				"&6Encantos:&r Força V, Perfuração IV"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Flechas de veneno"
+				"&aRotação:&r Praga, Orbe Ácido e Chuva de Estrelas enquanto o boss ainda foge"
+			]
+			icon: "deeperdarker:warden_chestplate"
+			id: "655C8EF3AD4F8F7D"
+			rewards: [
+				{
+					id: "372247796F9D0B07"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Espinho Verde"
+			tasks: [
+				{
+					id: "5AB65672DC42B1E3"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "48CD13C5F19AF434"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "30B9272E40147FAE"
+					item: "cataclysm:cursed_bow"
+					type: "item"
+				}
+				{
+					id: "6CD9A12A7B04B99A"
+					item: "relics:hunter_belt"
+					type: "item"
+				}
+			]
+			title: "Ato V: Veneno Estelar"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["655C8EF3AD4F8F7D"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Arco de Valdren, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Verde (Ice and Fire)"
+				"&6Armas:&r Arco de Osso de Dragão; Arco de Valdren V"
+				"&6Acessórios:&r Cinto do Caçador + Anel de Afinidade com Natureza"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: o resto de Dano de Veneno e Duração de Efeitos Prejudiciais"
+				"&6Gemas:&r Foco de Natureza míticas; Esplendor"
+				"&6Magias:&r Praga, Chuva de Estrelas, Orbe Ácido, Salpico Venenoso"
+				"&6Encantos:&r Força V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Flechas de veneno"
+				"&aRotação:&r Tudo envenenado antes da janela do Rei Partido; Chuva Estelar fecha"
+			]
+			icon: "iceandfire:armor_green_chestplate"
+			id: "129F8741273ABCF2"
+			rewards: [
+				{
+					id: "6B07C77D6B740B4E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "46A45F5EDB81A4C6"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Espinho Verde"
+			tasks: [
+				{
+					id: "13FF02A097C8203D"
+					item: {
+						Count: 1b
+						id: "gurizes:arco_de_valdren"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "59BAA85918882909"
+					item: "iceandfire:armor_green_chestplate"
+					type: "item"
+				}
+				{
+					id: "40F56683D66C2849"
+					item: "iceandfire:dragonbone_bow"
+					type: "item"
+				}
+				{
+					id: "2E9EA10EE77D5739"
+					item: "relics:hunter_belt"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Dragão Verde"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Caçador"
+}

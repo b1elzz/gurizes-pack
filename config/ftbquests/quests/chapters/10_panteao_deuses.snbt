@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "10_panteao_deuses"
 	group: "3DC2DB31CDAC58A5"
-	icon: "gurizes:insignia_dos_deuses"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "gurizes:textures/quests/bosses/cap_deuses.png"
+		}
+	}
 	id: "47644B6A10446894"
 	images: [
 		{
@@ -19,13 +25,13 @@
 			y: -1.9d
 		}
 	]
-	order_index: 30
+	order_index: 40
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&5Tier I · Semideuses&r: bosses fortes de outros mods, abertos desde o Ato I (níveis 12 a 16)."
+				"&5Tier I · Semideuses&r: bosses fortes de outros mods, em fileiras por ato (I a V). Cada fileira abre com o porteiro do ato anterior (níveis 12 a 75)."
 				"&6Tier II · Deuses&r: os mais fortes de cada mod. Cada fileira abre com o porteiro do ato anterior (níveis 20 a 90)."
 				"&cTier III · Alter-Deuses&r: os nossos bosses, em versão de pós-jogo. Chegam depois do Selo refeito."
 				"{@pagebreak}"
@@ -60,7 +66,7 @@
 				"&7Abre após o porteiro do Ato I. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "meetyourfight:rosalyne_spawn_egg"
+			icon: "gurizes:marca_rosalyne"
 			id: "5E8F37C507D8FA62"
 			rewards: [
 				{
@@ -107,7 +113,7 @@
 				"&7Abre após o porteiro do Ato I. Escala de grupo: só dano."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "twilightforest:hydra_spawn_egg"
+			icon: "gurizes:marca_hidra"
 			id: "17636F822C3F051C"
 			rewards: [
 				{
@@ -154,7 +160,7 @@
 				"&7Abre após o porteiro do Ato II. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "aquamirae:captain_cornelia_spawn_egg"
+			icon: "gurizes:marca_cornelia"
 			id: "40CBB3F4EECDF668"
 			rewards: [
 				{
@@ -201,7 +207,7 @@
 				"&7Abre após o porteiro do Ato II. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "mowziesmobs:frostmaw_spawn_egg"
+			icon: "gurizes:marca_frostmaw"
 			id: "1B7FDE7DE18DFA51"
 			rewards: [
 				{
@@ -248,7 +254,7 @@
 				"&7Abre após o porteiro do Ato II. Escala de grupo: só dano."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "aether:sun_spirit_spawn_egg"
+			icon: "gurizes:marca_espirito_do_sol"
 			id: "576BFD8A98900BEE"
 			rewards: [
 				{
@@ -295,7 +301,7 @@
 				"&7Abre após o porteiro do Ato III. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
+			icon: "gurizes:marca_lorde_abobora"
 			id: "23A325A34CCE2743"
 			rewards: [
 				{
@@ -342,7 +348,7 @@
 				"&7Abre após o porteiro do Ato III. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+			icon: "gurizes:marca_rei_morto"
 			id: "7A2B6456EC77AD93"
 			rewards: [
 				{
@@ -390,7 +396,7 @@
 				"&7Abre após o porteiro do Ato IV. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "mutantmonsters:mutant_enderman_spawn_egg"
+			icon: "gurizes:marca_enderman_mutante"
 			id: "23023661FFF2DDD5"
 			rewards: [
 				{
@@ -438,7 +444,7 @@
 				"&7Abre após o porteiro do Ato IV. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "bosses_of_mass_destruction:obsidian_heart"
+			icon: "gurizes:marca_obsidilith"
 			id: "19190F344DF1ECD3"
 			rewards: [
 				{
@@ -486,7 +492,7 @@
 				"&7Abre após o porteiro do Ato V. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "cataclysm:the_leviathan_spawn_egg"
+			icon: "gurizes:marca_leviata"
 			id: "22A64A88B5C24FEE"
 			rewards: [
 				{
@@ -534,7 +540,7 @@
 				"&7Abre após o porteiro do Ato V. Escala de grupo: só dano."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "iceandfire:spawn_egg_fire_dragon"
+			icon: "gurizes:marca_dragao_anciao"
 			id: "1B7E2D8FC888FCF1"
 			rewards: [
 				{

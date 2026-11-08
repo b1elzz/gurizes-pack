@@ -1,0 +1,881 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_berserker_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:machado_rubro"
+	id: "5D150B88FF60838C"
+	order_index: 15
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D7C475AEDB362AE"]
+			description: [
+				"&oDor é só a batalha avisando que você ainda está nela."
+				""
+				"&6Escolhas:&r Kharn (ou Humano) · Brava (ou Vesperis) · Profissão Cozinheiro"
+				"&6Árvore:&r Cozinheiro: Dano de Ataque ×3 > Picante!, Dano Corpo a Corpo, Cura ao Atingir > Roubo de Vida. Vida Máxima > Dieta Saudável"
+				"{@pagebreak}"
+				"&6Como joga:&r Entra batendo para encher a Fúria, passa de 50 e vive do roubo de vida; cai abaixo de 30% e a Recusa em Cair cura."
+				"&6Em grupo:&r Fica ao lado do tanque, nunca na frente. Combina com Bardo (Força e velocidade) e Druida (cura de reserva)."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:machado_rubro"
+			id: "12DAA295F6A7DEB1"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · dano e roubo de vida"
+			tasks: [
+				{
+					id: "074D04664CA0AFB2"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Lâmina Rubra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12DAA295F6A7DEB1"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Machado Rubro, Forma I (depois do Galvar)"
+				"&6Armadura:&r cota de malha (média) ou ferro; sem escudo, você jurou não usar"
+				"&6Armas:&r machado ou montante de ferro nas duas mãos"
+				"&6Acessórios:&r Garras Ferais ou Luva do Poder"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano de Ataque ×3 > Picante!; Vida Máxima ×2"
+				"&6Gemas:&r Combatente na arma; Guardião no peito"
+				"&6Magias:&r Talho de Sangue, Onda de Calor"
+				"&6Encantos:&r Afiação II, Inquebrável II, Proteção II"
+				"&6Consumíveis:&r 8 bifes assados, Kit de cura, Pedra de Amolar"
+				"&aRotação:&r Entre batendo para encher a Fúria; Grito de Guerra (G) com 50 de Fúria; o Golpe Rubro chega com o Machado"
+			]
+			icon: "minecraft:iron_axe"
+			id: "0E7288849D3B1DAB"
+			rewards: [
+				{
+					id: "61F97F13572309C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Lâmina Rubra"
+			tasks: [
+				{
+					id: "630FAD645DCA697E"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5BFF36074050432D"
+					item: "magistuarmory:chainmail_chestplate"
+					type: "item"
+				}
+				{
+					id: "470A30E81D3A7FB7"
+					item: "simplyswords:iron_greataxe"
+					type: "item"
+				}
+				{
+					id: "7A716752F76DF937"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Machado e Pão"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E7288849D3B1DAB"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Machado Rubro, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r conjunto Guerreiro (Immersive Armors) ou diamante"
+				"&6Armas:&r montante de diamante (Simply Swords) ou machado de diamante"
+				"&6Acessórios:&r Luva Vampírica + Garras Ferais"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Dano Corpo a Corpo ×3 > Corpo Saudável; Cura ao Atingir ×3"
+				"&6Gemas:&r Samurai e Combatente na arma; Guardião no peito"
+				"&6Magias:&r Talho de Sangue, Onda de Calor, Investida Flamejante"
+				"&6Encantos:&r Afiação III, Inquebrável III, Proteção III, Remendo"
+				"&6Consumíveis:&r Banquete do Acampamento, Frasco de Cura em Grupo"
+				"&aRotação:&r Mantenha a Fúria acima de 50 (Sede de Batalha); Grito de Guerra nos adds da Matriarca; não solte o combate"
+			]
+			icon: "immersive_armors:warrior_chestplate"
+			id: "1FE164D2B5D1F15E"
+			rewards: [
+				{
+					id: "652B10B7EA3EFDAA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0923F2C4A73F84FF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Lâmina Rubra"
+			tasks: [
+				{
+					id: "03164B246237FF39"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5BA95CFA199675D2"
+					item: "immersive_armors:warrior_chestplate"
+					type: "item"
+				}
+				{
+					id: "53F931A3F968B083"
+					item: "simplyswords:diamond_greataxe"
+					type: "item"
+				}
+				{
+					id: "38055D95A62989CF"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+			]
+			title: "Ato II: Mais Fome, Mais Ferro"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE164D2B5D1F15E"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Machado Rubro, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r conjunto Terrível (Aquamirae) ou Tungstênio; elmo com afixo de dano"
+				"&6Armas:&r montante de diamante com afixo raro"
+				"&6Acessórios:&r Luva Vampírica + Manoplas de Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Cozinheiro: Cura ao Atingir > Roubo de Vida; Vida Máxima > Dieta Saudável"
+				"&6Gemas:&r Senhor da Guerra e Sangue na arma; Guardião no peito"
+				"&6Magias:&r Talho de Sangue, Raio Sifão, Golpe Flamejante"
+				"&6Encantos:&r Afiação IV, Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana, Óleo de Lâmina: Fogo"
+				"&aRotação:&r Onda de Calor para limpar adds; Raio Sifão quando cair abaixo de 30% (liga a Recusa em Cair)"
+			]
+			icon: "aquamirae:terrible_chestplate"
+			id: "6A864ACA5B315F50"
+			rewards: [
+				{
+					id: "614B83034CC1EE45"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Lâmina Rubra"
+			tasks: [
+				{
+					id: "641333913B1B9954"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "01DF247625B72905"
+					item: "aquamirae:terrible_chestplate"
+					type: "item"
+				}
+				{
+					id: "5957168AD40402C8"
+					item: "simplyswords:diamond_claymore"
+					type: "item"
+				}
+				{
+					id: "685FB4D8DF80FC24"
+					item: "irons_spellbooks:gold_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato III: Ferro de Fundição"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A864ACA5B315F50"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Machado Rubro, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r netherita com afixos de dano e roubo de vida"
+				"&6Armas:&r machado ou montante de netherita"
+				"&6Acessórios:&r Luva da Fúria (Relics) + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Dano de Ataque, Dano Corpo a Corpo e Picante! completos; Vida Máxima > Monte de Músculos"
+				"&6Gemas:&r Senhor da Guerra, Sangue e Rompimento; Samurai no elmo"
+				"&6Magias:&r Raio Sifão, Golpe Flamejante, Talho de Sangue"
+				"&6Encantos:&r Afiação V, Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior, Óleo de Têmpera"
+				"&aRotação:&r Encha 100 de Fúria antes da fase de burst; Fúria Rubra (H) + Golpe Rubro; Raio Sifão para sobreviver"
+			]
+			icon: "minecraft:netherite_chestplate"
+			id: "0FF72B9C278DDFE7"
+			rewards: [
+				{
+					id: "549B3EF58ACBD62E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "09D4077E7315E97A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Lâmina Rubra"
+			tasks: [
+				{
+					id: "1BA4C4EF75F88C6B"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "084D48304BC782EC"
+					item: "minecraft:netherite_chestplate"
+					type: "item"
+				}
+				{
+					id: "48DEB7CCD5904193"
+					item: "simplyswords:netherite_greataxe"
+					type: "item"
+				}
+				{
+					id: "6BFDB5B42E5ECE67"
+					item: "relics:rage_glove"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Netherita e Sangue"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FF72B9C278DDFE7"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Machado Rubro, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Cursium completo (Cataclysm) com roubo de vida"
+				"&6Armas:&r Machado Grande Rúnico"
+				"&6Acessórios:&r Luva da Fúria + Luva Vampírica + Amuleto da Alma Berserker"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: Vida Máxima > Dieta Saudável > Monte de Músculos; Corpo Saudável"
+				"&6Gemas:&r Senhor da Guerra, Sangue e Rompimento míticas; Esplendor no peito"
+				"&6Magias:&r Raio Sifão, Golpe Flamejante, Parada Cardíaca"
+				"&6Encantos:&r Afiação V, Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Fúria Rubra na abertura do Olho Estelar; Parada Cardíaca para atravessar um golpe fatal"
+			]
+			icon: "cataclysm:cursium_chestplate"
+			id: "2CAF9E59FC01CCA5"
+			rewards: [
+				{
+					id: "6BF1C338CAD5FDE8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Lâmina Rubra"
+			tasks: [
+				{
+					id: "20201514BD3A18DE"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7799246153440438"
+					item: "cataclysm:cursium_chestplate"
+					type: "item"
+				}
+				{
+					id: "4A85BADFAE60EE5E"
+					item: "simplyswords:runic_greataxe"
+					type: "item"
+				}
+				{
+					id: "2D754D784710586D"
+					item: "relics:rage_glove"
+					type: "item"
+				}
+			]
+			title: "Ato V: Cursium"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CAF9E59FC01CCA5"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Machado Rubro, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Escamas de Dragão Vermelho (Ice and Fire), a melhor pesada do pack"
+				"&6Armas:&r montante Rúnico com afixo épico+"
+				"&6Acessórios:&r Luva da Fúria + Luva Vampírica + Amuleto da Alma Berserker"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: o resto de Picante!, Cura ao Atingir e Roubo de Vida"
+				"&6Gemas:&r Senhor da Guerra, Sangue e Rompimento míticas; Guardião mítica"
+				"&6Magias:&r Raio Sifão, Golpe Flamejante, Parada Cardíaca, Talho de Sangue"
+				"&6Encantos:&r Afiação V, Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Fúria Rubra + Golpe Rubro (cura 10% do dano na Forma III+) na janela do Rei Partido; fique de lado"
+			]
+			icon: "iceandfire:armor_red_chestplate"
+			id: "4F72D02198E48A91"
+			rewards: [
+				{
+					id: "03FACB2D9E13B375"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7F3383E649C540EB"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Lâmina Rubra"
+			tasks: [
+				{
+					id: "3D3D21FCAB58BE1C"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2A5F01A86B14845A"
+					item: "iceandfire:armor_red_chestplate"
+					type: "item"
+				}
+				{
+					id: "6696E455081B56B1"
+					item: "simplyswords:runic_claymore"
+					type: "item"
+				}
+				{
+					id: "0A00595514C2C6C8"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Escamas e Sangue"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D7C475AEDB362AE"]
+			description: [
+				"&oO machado esquenta antes de bater. Quando bate, já está no ponto."
+				""
+				"&6Escolhas:&r Ignari · Ignar · Profissão Ferreiro"
+				"&6Árvore:&r Cozinheiro: Dano de Ataque, Dano Corpo a Corpo e Picante!. Alquimista do Ato III: Dano de Projétil > Dano de Fogo ×3 > Incineração"
+				"{@pagebreak}"
+				"&6Como joga:&r Fogo no aço (Óleo de Lâmina, Aspecto Flamejante, Inferno) e Fúria alta; as magias de fogo enchem o intervalo entre os golpes."
+				"&6Em grupo:&r Dano de área e controle de adds. Combina com Druida (cura) e Paladino na frente."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:machado_rubro"
+			id: "19184707FF4FF278"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · dano de fogo"
+			tasks: [
+				{
+					id: "2E61F381199F6B97"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Brasa Viva"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["19184707FF4FF278"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Machado Rubro, Forma I (depois do Galvar)"
+				"&6Armadura:&r cota de malha; sem escudo"
+				"&6Armas:&r machado de ferro nas duas mãos"
+				"&6Acessórios:&r Pingente de Chama"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano de Ataque ×3 > Picante!; Vida Máxima ×2"
+				"&6Gemas:&r Combatente na arma; Guardião no peito"
+				"&6Magias:&r Onda de Calor, Talho de Sangue"
+				"&6Encantos:&r Afiação II, Aspecto Flamejante I, Proteção II"
+				"&6Consumíveis:&r Óleo de Lâmina: Fogo, 8 bifes, Kit de cura"
+				"&aRotação:&r Óleo de Lâmina: Fogo antes da luta; Grito de Guerra (G) com 50 de Fúria; Onda de Calor nos escudeiros"
+			]
+			icon: "minecraft:iron_axe"
+			id: "1C45843D743867C3"
+			rewards: [
+				{
+					id: "370E153DD1B7145C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Brasa Viva"
+			tasks: [
+				{
+					id: "0E5F17BBC1818025"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "19BB3548C2CE5E85"
+					item: "magistuarmory:chainmail_chestplate"
+					type: "item"
+				}
+				{
+					id: "2B92FB572FD60102"
+					item: "simplyswords:iron_greataxe"
+					type: "item"
+				}
+				{
+					id: "498D79413A5DA6AD"
+					item: "artifacts:flame_pendant"
+					type: "item"
+				}
+			]
+			title: "Ato I: Aço no Fogo"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["1C45843D743867C3"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Machado Rubro, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r conjunto Guerreiro ou diamante"
+				"&6Armas:&r machado ou montante de diamante"
+				"&6Acessórios:&r Pingente de Chama + Manoplas de Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Dano Corpo a Corpo ×3 > Corpo Saudável; Vida Máxima ×3"
+				"&6Gemas:&r Samurai na arma; Guardião no peito"
+				"&6Magias:&r Onda de Calor, Golpe Flamejante, Investida Flamejante"
+				"&6Encantos:&r Afiação III, Aspecto Flamejante II, Proteção contra Fogo III"
+				"&6Consumíveis:&r Banquete do Acampamento, Óleo de Lâmina: Fogo"
+				"&aRotação:&r Investida Flamejante para entrar, Golpe Flamejante em quem cerca, Grito de Guerra para quebrar a guarda"
+			]
+			icon: "immersive_armors:warrior_chestplate"
+			id: "3A868A6A265A04FA"
+			rewards: [
+				{
+					id: "3F17BD49D1D8BD77"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1579A108DA739923"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Brasa Viva"
+			tasks: [
+				{
+					id: "363CA5BBD8F2B954"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6891C969424E16AC"
+					item: "immersive_armors:warrior_chestplate"
+					type: "item"
+				}
+				{
+					id: "3B0C5BAFB2A2EDC2"
+					item: "simplyswords:diamond_greataxe"
+					type: "item"
+				}
+				{
+					id: "0F97B76A6AB37226"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+			]
+			title: "Ato II: Brasa de Diamante"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["3A868A6A265A04FA"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Machado Rubro, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r conjunto Ígneo (Floresta Crepuscular) ou Terrível; elmo de dano"
+				"&6Armas:&r Chama do Lar (Simply Swords) com afixo raro"
+				"&6Acessórios:&r Pingente de Chama + Manoplas de Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano de Projétil > Dano de Fogo ×3 > Incineração (+30% de fogo)"
+				"&6Gemas:&r Inferno Incandescente na arma (+6 de dano de fogo no raro); Senhor da Guerra"
+				"&6Magias:&r Onda de Calor, Golpe Flamejante, Sopro de Fogo"
+				"&6Encantos:&r Afiação IV, Aspecto Flamejante II, Proteção contra Fogo IV"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Óleo de Lâmina: Fogo"
+				"&aRotação:&r Sopro de Fogo em quem se junta; mantenha a Fúria acima de 50 e cuidado com o fogo perto dos aliados"
+			]
+			icon: "twilightforest:fiery_chestplate"
+			id: "00B8D381ED04AC01"
+			rewards: [
+				{
+					id: "6DEC87715B73C7CD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Brasa Viva"
+			tasks: [
+				{
+					id: "3C21DFCF9044479D"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "04202357C21E7B31"
+					item: "twilightforest:fiery_chestplate"
+					type: "item"
+				}
+				{
+					id: "123F1F2BD95934DD"
+					item: "simplyswords:hearthflame"
+					type: "item"
+				}
+				{
+					id: "4423048033819FF6"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/inferno"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Forja Afundada"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["00B8D381ED04AC01"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Machado Rubro, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Ignitium completo (Cataclysm); resiste ao fogo que você mesmo solta"
+				"&6Armas:&r Fogo Solar ou Gume Fundido (Simply Swords)"
+				"&6Acessórios:&r Luva da Fúria + Pingente de Chama + Manoplas de Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Dano de Ataque, Corpo a Corpo, Picante! completos; Alquimista: Incineração"
+				"&6Gemas:&r Inferno Incandescente épica na arma; Senhor da Guerra e Samurai"
+				"&6Magias:&r Golpe Flamejante, Sopro de Fogo, Barragem Flamejante"
+				"&6Encantos:&r Afiação V, Aspecto Flamejante II, Proteção contra Fogo V"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Óleo de Têmpera"
+				"&aRotação:&r Barragem Flamejante na abertura; Fúria Rubra (H) + Golpe Rubro quando os adds cercarem"
+			]
+			icon: "cataclysm:ignitium_chestplate"
+			id: "298A58434C82D8AA"
+			rewards: [
+				{
+					id: "421D90479955A6C2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "41ECC0B6B35D31CA"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Brasa Viva"
+			tasks: [
+				{
+					id: "1A20E2B75922EF3F"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "37478EFA23F5BDDC"
+					item: "cataclysm:ignitium_chestplate"
+					type: "item"
+				}
+				{
+					id: "00423AE2F3A2F576"
+					item: "simplyswords:sunfire"
+					type: "item"
+				}
+				{
+					id: "44D735524D19DDE6"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/inferno"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Ignitium"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["298A58434C82D8AA"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Machado Rubro, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Cursium completo ou Ignitium reforçado"
+				"&6Armas:&r Montante de Enxofre ou Machado Grande Rúnico"
+				"&6Acessórios:&r Luva da Fúria + Pingente de Chama + Manoplas de Fogo"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: Vida Máxima > Dieta Saudável > Monte de Músculos; Alquimista: Incineração"
+				"&6Gemas:&r Inferno Incandescente mítica; Senhor da Guerra e Rompimento míticas"
+				"&6Magias:&r Golpe Flamejante, Barragem Flamejante, Invocar o Inferno"
+				"&6Encantos:&r Afiação V, Aspecto Flamejante II, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Invocar o Inferno nos adds, Fúria cheia antes do burst, Fúria Rubra no momento certo"
+			]
+			icon: "cataclysm:cursium_chestplate"
+			id: "4DA05CD99D178079"
+			rewards: [
+				{
+					id: "20DA7AD96CBA2996"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Brasa Viva"
+			tasks: [
+				{
+					id: "31AAE936BE3ADA0E"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "498D03E526B8A4F4"
+					item: "cataclysm:cursium_chestplate"
+					type: "item"
+				}
+				{
+					id: "34260EE3E580D975"
+					item: "simplyswords:brimstone_claymore"
+					type: "item"
+				}
+				{
+					id: "714342405DE787DB"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/inferno"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Chama Cursium"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["4DA05CD99D178079"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Machado Rubro, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Aço Dracônico de Fogo (Ice and Fire): o aço que o dragão deixou"
+				"&6Armas:&r Machado Grande Rúnico com afixo épico+"
+				"&6Acessórios:&r Luva da Fúria + Pingente de Chama + Amuleto da Alma Berserker"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: fecha Cura ao Atingir e Roubo de Vida"
+				"&6Gemas:&r Inferno Incandescente, Senhor da Guerra e Rompimento míticas; Esplendor"
+				"&6Magias:&r Golpe Flamejante, Barragem Flamejante, Invocar o Inferno, Sopro de Fogo"
+				"&6Encantos:&r Afiação V, Aspecto Flamejante II, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Tudo queimando antes de a Fúria Rubra abrir; Golpe Rubro na janela do Rei Partido"
+			]
+			icon: "iceandfire:dragonsteel_fire_chestplate"
+			id: "3FEB7C224F25E575"
+			rewards: [
+				{
+					id: "32B1BB7889B9A6F0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2DE3A94F79FCB16E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Brasa Viva"
+			tasks: [
+				{
+					id: "3B6DEE3F91892BB4"
+					item: {
+						Count: 1b
+						id: "gurizes:machado_rubro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3AE4A27B2CF60F2B"
+					item: "iceandfire:dragonsteel_fire_chestplate"
+					type: "item"
+				}
+				{
+					id: "0DFBFC33FBDB7754"
+					item: "simplyswords:runic_greataxe"
+					type: "item"
+				}
+				{
+					id: "00D53AB1CEA1A06B"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/inferno"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Dragão do Fogo"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Berserker"
+}

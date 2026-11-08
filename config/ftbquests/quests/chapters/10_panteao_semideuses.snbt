@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "10_panteao_semideuses"
 	group: "3DC2DB31CDAC58A5"
-	icon: "meetyourfight:haunted_bell"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "gurizes:textures/quests/bosses/cap_semideuses.png"
+		}
+	}
 	id: "6AEC9E50543BE307"
 	images: [
 		{
@@ -15,11 +21,11 @@
 			image: "gurizes:textures/quests/titulo_10_panteao_semideuses.png"
 			rotation: 0.0d
 			width: 7.425d
-			x: 2.5d
+			x: 16.2d
 			y: -6.4d
 		}
 	]
-	order_index: 29
+	order_index: 39
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -63,7 +69,13 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "meetyourfight:bellringer_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/bellringer.png"
+				}
+			}
 			id: "59E250CF4063B689"
 			optional: true
 			rewards: [
@@ -112,7 +124,13 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (1:30), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "meetyourfight:swampjaw_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/swampjaw.png"
+				}
+			}
 			id: "14143A46980161B8"
 			optional: true
 			rewards: [
@@ -145,8 +163,8 @@
 				}
 			]
 			title: "Swampjaw"
-			x: 0.0d
-			y: 4.2d
+			x: 5.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3484B276FE312BD7"]
@@ -161,7 +179,13 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "whisperwoods:hirschgeist_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hirschgeist.png"
+				}
+			}
 			id: "5F6FB0CA25581170"
 			optional: true
 			rewards: [
@@ -194,8 +218,8 @@
 				}
 			]
 			title: "Hirschgeist"
-			x: 0.0d
-			y: 8.4d
+			x: 11.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3484B276FE312BD7"]
@@ -210,7 +234,13 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/sirok.png"
+				}
+			}
 			id: "1602A18BA38D9669"
 			optional: true
 			rewards: [
@@ -248,8 +278,8 @@
 				}
 			]
 			title: "Sirok, o Verme da Areia"
-			x: 0.0d
-			y: 12.6d
+			x: 17.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3484B276FE312BD7"]
@@ -264,7 +294,13 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "block_factorys_bosses:yeti_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/skor.png"
+				}
+			}
 			id: "2525150E21FF53EC"
 			optional: true
 			rewards: [
@@ -302,8 +338,1042 @@
 				}
 			]
 			title: "Skor, o Yeti"
+			x: 23.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Torre do Dragão (Bosses'Rise), em planícies, selva, savana e pântano. O pack só deixa o Ashlord nascer a partir do Ato II."
+				"{@pagebreak}"
+				"&6Força:&r nível 20, 250 de vida e dano 14. Recomendado: diamante, arco, Resistência ao Fogo e um grupo."
+				"&aPonto fraco:&r ele se pendura na parede e cai atordoado: bata forte nessa janela. Na metade da luta troca de forma e de modelo."
+				"&cPerigo:&r bolas de fogo, sopro de fogo, giro no ar e os guardas da torre. Solta o Osso de Dragão e o Crânio do Ashlord."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (3:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ashlord.png"
+				}
+			}
+			id: "257E1013942838B0"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5BD2CA1EA04C7B72"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "1B594861C57AB721"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "4E5CDB3C80836177"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D2398CEAD477F35"
+					table_id: 582247928095973101L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato II · Nível 20"
+			tasks: [
+				{
+					entity: "block_factorys_bosses:infernal_dragon"
+					id: "0609A028C5ED3600"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ashlord, o Dragão Infernal"
 			x: 0.0d
-			y: 16.8d
+			y: 4.6d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Mosteiro (Mowzie's Mobs), estrutura de superfície que se repete a cada ~25 chunks. O Escultor testa o seu pulo."
+				"{@pagebreak}"
+				"&6Força:&r nível 22, 140 de vida e dano 10. Recomendado: diamante, escudo e atenção: o boss é uma prova, não só uma luta."
+				"&aPonto fraco:&r a prova de pulo: leia o que ele pede e passe no teste antes de sair batendo."
+				"&cPerigo:&r dano 10 em golpes de terra: não fique colado nele. Solta o Cajado do Escultor e a roupa do geomante."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/tongbi.png"
+				}
+			}
+			id: "0D2944326E7982A8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1B6633051F2E1DF3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "269A933D545E734C"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "731A8E7F978F01A6"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F614DE94F2003B3"
+					table_id: 582247928095973101L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato II · Nível 22"
+			tasks: [
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "270A445552C8AEEC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Tongbi, o Escultor"
+			x: 5.8d
+			y: 4.6d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r nasce raro em qualquer bioma (Born in Chaos, peso 4 no spawn). Solta o Chapéu do Missionário e amuletos de poder, fúria e resistência."
+				"{@pagebreak}"
+				"&6Força:&r nível 20, 150 de vida, dano 9 e armadura 10. Recomendado: diamante e poções de cura."
+				"&aPonto fraco:&r a armadura 10 corta golpe fraco: use arma pesada, machado ou magia."
+				"&cPerigo:&r luta longa contra a armadura dele; leve cura e não brigue ao lado de outros mobs."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/missionario.png"
+				}
+			}
+			id: "2CE265C2726F1C5D"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "15ABD9AF12509C35"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "123A911E00858C64"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "4C02E3771862554A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A07B5C99380B001"
+					table_id: 582247928095973101L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato II · Nível 20"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:missioner"
+					id: "3A31F6D9D2BAB115"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Missionário"
+			x: 11.6d
+			y: 4.6d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Ninho de Ametista (L_Ender's Cataclysm), estrutura em cavernas exuberantes. Solta a Carne e o Casco do Caranguejo."
+				"{@pagebreak}"
+				"&6Força:&r nível 24, 200 de vida, dano 13 e armadura 10. Recomendado: diamante, escudo e tochas."
+				"&aPonto fraco:&r armadura 10: arma pesada ou magia; golpe fraco quica no casco."
+				"&cPerigo:&r dano 13 no escuro da caverna: leve tochas e Visão Noturna."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/caranguejo_ametista.png"
+				}
+			}
+			id: "271B6B356B3A62E9"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "33CB7A7AE477A7D1"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "34F47B948DDE1E28"
+					item: "gurizes:espolio_ato_2"
+					type: "item"
+				}
+				{
+					id: "30A16DEE39E3E54D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41AA06B694336B7B"
+					table_id: 582247928095973101L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato II · Nível 24"
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					id: "2256B9D3BF3C23EA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Caranguejo de Ametista"
+			x: 17.4d
+			y: 4.6d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Arena do Submundo (Bosses'Rise), estrutura subterrânea do Nether (ermos e vale de areia da alma). A porta pede a Chave da Arena do Submundo. Só nasce a partir do Ato III."
+				"{@pagebreak}"
+				"&6Força:&r nível 38, 280 de vida e dano 13. Recomendado: netherita, Resistência ao Fogo, escudo e um grupo."
+				"&aPonto fraco:&r ele cai de joelhos e fica preso depois de golpes pesados (janelas de 5 a 8 s): bata nelas. Ele finge a morte e volta mais furioso."
+				"&cPerigo:&r combo de 6 golpes, saltos giratórios e a fase de vingança. Solta a Espada de Helvar."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (4:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/helvar.png"
+				}
+			}
+			id: "1C1E6C6FDCC96DC5"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "6FDCFAED71957257"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "4B7F095A228E01CC"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "30B208185CC39093"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AE6C4229EA7ABE8"
+					table_id: 3096590952465965664L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato III · Nível 38"
+			tasks: [
+				{
+					entity: "block_factorys_bosses:underworld_knight"
+					id: "7DC82A968BFC49B3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Helvar, o Cavaleiro do Submundo"
+			x: 0.0d
+			y: 9.2d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Navio do Kraken (Bosses'Rise), em oceano profundo, na superfície. Só nasce a partir do Ato III."
+				"{@pagebreak}"
+				"&6Força:&r nível 22, 500 de vida e dano 10. Recomendado: diamante, barco, Respiração Aquática e um grupo."
+				"&aPonto fraco:&r os tentáculos ficam atordoados depois de uma pancada forte: derrube-os e bata no corpo."
+				"&cPerigo:&r tripulação pirata e canhões do navio, duas fases (cena de 21 s) e tentáculos fortes. Solta o Dente do Kraken."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (5:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/nerakyss.png"
+				}
+			}
+			id: "1E40D1421616DC33"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "19AB36F5584149BC"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "2D2A2F84EAFA091F"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "683017E5021855B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "320EF7D1549E7945"
+					table_id: 3096590952465965664L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato III · Nível 22"
+			tasks: [
+				{
+					entity: "block_factorys_bosses:kraken"
+					id: "310D49389FA9765F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nerakyss, o Kraken"
+			x: 5.8d
+			y: 9.2d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Castelo da Guarda (Stalwart Dungeons), estrutura subterrânea nas florestas carmesim e ermos do Nether. Solta o Fogo Ancestral."
+				"{@pagebreak}"
+				"&6Força:&r nível 36, 150 de vida, dano 30 e armadura 15. Recomendado: netherita, Resistência ao Fogo e escudo."
+				"&aPonto fraco:&r armadura 15 e pouca vida: golpes pesados resolvem rápido; quem não erra, vence cedo."
+				"&cPerigo:&r dano base 30, o mais alto dos Semideuses: um erro custa metade da vida."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/guardiao_do_castelo.png"
+				}
+			}
+			id: "0D61BF1CDAD40A67"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "771A99D19E07987D"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "120A408235D2D11F"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "222C9E2BB04BAA58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0209C1F3E3EDBD42"
+					table_id: 3096590952465965664L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato III · Nível 36"
+			tasks: [
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					id: "6FDAB7703EAB72AF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Guardião do Castelo"
+			x: 11.6d
+			y: 9.2d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Masmorra do Ghast Horrendo (Stalwart Dungeons), subterrânea nas florestas distorcidas e no vale de areia da alma. Solta a Arma Horrenda e o Cristal."
+				"{@pagebreak}"
+				"&6Força:&r nível 38, 200 de vida, dano 25 e sem armadura. Recomendado: netherita, Resistência ao Fogo e arco."
+				"&aPonto fraco:&r sem armadura: qualquer arma corta. Feche a distância e não o deixe atirar de longe."
+				"&cPerigo:&r dano 25 e fogo à distância; o chão do Nether não perdoa quem cai."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ghast_horrendo.png"
+				}
+			}
+			id: "715FC16BF8D94EBD"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "2E1E08EB35649F38"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "472689A52164CDD4"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "45BC4BE8E88B1BE0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B735E938EF09D89"
+					table_id: 3096590952465965664L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato III · Nível 38"
+			tasks: [
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					id: "4C21C1BDCD1761CA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ghast Horrendo"
+			x: 17.4d
+			y: 9.2d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r nasce raríssimo em qualquer bioma (Born in Chaos, peso 2), às vezes com Asseclas. Solta o Chifre, o Saco do Krampus e Fragmentos de Permafrost."
+				"{@pagebreak}"
+				"&6Força:&r nível 34, 250 de vida, dano 14 e armadura 10. Recomendado: netherita ou diamante encantado, escudo e grupo."
+				"&aPonto fraco:&r armadura 10: arma pesada ou magia; elimine as Asseclas antes de focar nele."
+				"&cPerigo:&r dano 14 com bando em volta: não lute em campo aberto sem cobertura."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (3:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/krampus.png"
+				}
+			}
+			id: "0F169AA9D265EA4F"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "1C193721F11D98EA"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "3D764C8EF8827435"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "6DD9DD8B26554387"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17D71A9ACCD9AA3E"
+					table_id: 3096590952465965664L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato III · Nível 34"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:krampus"
+					id: "304954AC5A8FF45B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Krampus"
+			x: 23.2d
+			y: 9.2d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Caverna do Ciclope (Ice and Fire), na superfície; há também ciclopes que vagam pelo mundo. Solta o Olho e o Crânio do Ciclope."
+				"{@pagebreak}"
+				"&6Força:&r nível 32, 150 de vida, dano 15 e armadura 20. Recomendado: diamante ou netherita, escudo e armas pesadas."
+				"&aPonto fraco:&r armadura 20: machado, magia ou golpe pesado; golpe fraco não passa."
+				"&cPerigo:&r dano 15 e muito peso: não fique ao alcance dos braços dele."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ciclope.png"
+				}
+			}
+			id: "79DFE477EF7740C2"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "65DEF074BD036161"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "16B84CF8CC643E98"
+					item: "gurizes:espolio_ato_3"
+					type: "item"
+				}
+				{
+					id: "7822648F636DCAB7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0164846EB79FF97D"
+					table_id: 3096590952465965664L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato III · Nível 32"
+			tasks: [
+				{
+					entity: "iceandfire:cyclops"
+					id: "7C1FD6F9D2A16DDA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ciclope"
+			x: 29.0d
+			y: 9.2d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Templo da Górgona (Ice and Fire), estrutura de superfície que se repete a cada ~32 chunks. Solta a Cabeça da Górgona."
+				"{@pagebreak}"
+				"&6Força:&r nível 45, 100 de vida, dano 3 e armadura 1. Recomendado: netherita, escudo e flechas."
+				"&aPonto fraco:&r pouca vida e armadura 1: mate rápido e de longe; não encare o olhar dela."
+				"&cPerigo:&r o olhar da Górgona petrifica: não a encare e não lute de frente."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/gorgon.png"
+				}
+			}
+			id: "7E0AF08B873820C2"
+			optional: true
+			rewards: [
+				{
+					id: "08E20CBBC30FFCD2"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					id: "0088162B8857C3E5"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "66EE354BC7CC56C3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365E683D72E76E92"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato IV · Nível 45"
+			tasks: [
+				{
+					entity: "iceandfire:gorgon"
+					id: "0C2D555B52DE33EE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Górgona"
+			x: 0.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Caverna da Hidra (Ice and Fire), na superfície. Solta o Coração, a Presa e o Crânio da Hidra. Não confundir com a Hidra da Floresta Crepuscular."
+				"{@pagebreak}"
+				"&6Força:&r nível 48, 250 de vida, dano 3 por mordida e armadura 1. Recomendado: netherita, leite e um grupo."
+				"&aPonto fraco:&r armadura 1: qualquer arma corta; foque numa cabeça de cada vez."
+				"&cPerigo:&r várias cabeças mordendo e o sopro de veneno: leve leite."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (4:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hidra_do_pantano.png"
+				}
+			}
+			id: "1FABDF4558F6F070"
+			optional: true
+			rewards: [
+				{
+					id: "281F7A41E3C7FBC1"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					id: "1588F58C14EFF4E7"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "042EA48F6C2B91B3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A373645B28635FF"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato IV · Nível 48"
+			tasks: [
+				{
+					entity: "iceandfire:hydra"
+					id: "5FD4C90A5BE6CA42"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hidra do Pântano"
+			x: 5.8d
+			y: 13.8d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Colmeia Mirmex (Ice and Fire), no deserto ou na selva: existe uma rainha de cada tipo. Solta o Ferrão Mirmex e a resina da colmeia."
+				"{@pagebreak}"
+				"&6Força:&r nível 44, 120 de vida, dano 10,5 e armadura 15. Recomendado: netherita, escudo e um grupo."
+				"&aPonto fraco:&r armadura 15: arma pesada ou magia; mate a rainha antes de a colmeia cercar o grupo."
+				"&cPerigo:&r a colmeia inteira a defende: operárias, soldados, sentinelas e guardas reais."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/rainha_mirmex.png"
+				}
+			}
+			id: "0C7B3F7A527CFD23"
+			optional: true
+			rewards: [
+				{
+					id: "18D8A86BBFA02646"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					id: "487B085D3D0CFCBC"
+					item: "gurizes:espolio_ato_4"
+					type: "item"
+				}
+				{
+					id: "7D3DE869EBFB92E8"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B56CCBB005AC1FB"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato IV · Nível 44"
+			tasks: [
+				{
+					entity: "iceandfire:myrmex_queen"
+					id: "4707CB63EAB13CA5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Rainha Mirmex"
+			x: 11.6d
+			y: 13.8d
+		}
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Chamador de Almas Cinérico (Iron's Spells), usado perto de uma Estátua de Tyros. As duas têm receita no JEI (selados até o Ato V)."
+				"{@pagebreak}"
+				"&6Força:&r nível 75, 1000 de vida, dano 10 e armadura 15. O mais bruto dos Semideuses: netherita, Resistência ao Fogo e um grupo."
+				"&aPonto fraco:&r bata nas pausas entre as habilidades; a armadura 15 pede golpe pesado e magia."
+				"&cPerigo:&r enxame de adagas de fogo, parede de fogo e bolas de magma. Solta a Foice Decrépita e o Sinete do Traidor."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (6:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/eco_de_tyros.png"
+				}
+			}
+			id: "35D85E7DCA95C519"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4C57F1D8161322D9"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					id: "29F35E8EECD4612F"
+					item: "gurizes:espolio_ato_5"
+					type: "item"
+				}
+				{
+					id: "318AB9B7B08F5B3E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18C0ABA2739CF0A7"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato V · Nível 75"
+			tasks: [
+				{
+					entity: "irons_spellbooks:fire_boss"
+					id: "5EDDC22092D3E512"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Eco de Tyros"
+			x: 0.0d
+			y: 18.4d
+		}
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r Chemical X jogado num zumbi (selado até o Ato V). Solta o Martelo do Hulk."
+				"{@pagebreak}"
+				"&6Força:&r nível 52, 150 de vida e dano 12. Recomendado: netherita, escudo e arco."
+				"&aPonto fraco:&r sem armadura: qualquer arma corta; bata e recue."
+				"&cPerigo:&r dano 12 em golpes de braços enormes: fique em movimento."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/zumbi_mutante.png"
+				}
+			}
+			id: "7539E29A6642A475"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "51F87B67F9471AC4"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					id: "4AE90BBE6AE733B9"
+					item: "gurizes:espolio_ato_5"
+					type: "item"
+				}
+				{
+					id: "5175642504693180"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52EB9504C6642583"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato V · Nível 52"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					id: "266E93E63C6E09A4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zumbi Mutante"
+			x: 5.8d
+			y: 18.4d
+		}
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r Chemical X jogado num creeper (selado até o Ato V)."
+				"{@pagebreak}"
+				"&6Força:&r nível 50, 120 de vida e dano 5. Imune a empurrão. Recomendado: netherita, escudo e arco."
+				"&aPonto fraco:&r à distância: flechas e magia, sem deixar ele chegar perto."
+				"&cPerigo:&r explosões enormes: mantenha distância."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (1:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/creeper_mutante.png"
+				}
+			}
+			id: "2C22DE40524A95A6"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "274E6A1A261263EC"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					id: "3A12E9BCF6AC4339"
+					item: "gurizes:espolio_ato_5"
+					type: "item"
+				}
+				{
+					id: "46178C922C9C4258"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74B98AF3682F77C6"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato V · Nível 50"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_creeper"
+					id: "43071359ED38F923"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Creeper Mutante"
+			x: 11.6d
+			y: 18.4d
+		}
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r Chemical X jogado num esqueleto (selado até o Ato V). Solta ossos que viram armadura: crânio, costelas, pélvis, braço e ombreira."
+				"{@pagebreak}"
+				"&6Força:&r nível 52, 150 de vida e dano 3. Recomendado: netherita, escudo e Proteção contra Projéteis."
+				"&aPonto fraco:&r sem armadura: qualquer arma corta; feche a distância."
+				"&cPerigo:&r flechas à distância: mova-se em zigue-zague e use o escudo."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/esqueleto_mutante.png"
+				}
+			}
+			id: "3FEA981BB86EE041"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5A49AF4C8664CA56"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+				{
+					id: "1355FDD28C7D6C84"
+					item: "gurizes:espolio_ato_5"
+					type: "item"
+				}
+				{
+					id: "22D1DD3E1713E93D"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C09F14574A15148"
+					table_id: 7093644506732157874L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato V · Nível 52"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					id: "58C5AEDBC7C33B38"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Esqueleto Mutante"
+			x: 17.4d
+			y: 18.4d
 		}
 		{
 			dependencies: ["59E250CF4063B689"]
@@ -311,7 +1381,13 @@
 				"Vença Bellringer sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "meetyourfight:bellringer_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/bellringer.png"
+				}
+			}
 			id: "1A788B6BD0C74F3B"
 			optional: true
 			rewards: [
@@ -342,7 +1418,13 @@
 				"Vença Bellringer sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "meetyourfight:bellringer_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/bellringer.png"
+				}
+			}
 			id: "19D5146E5091ED50"
 			optional: true
 			rewards: [
@@ -374,7 +1456,13 @@
 				"Vença Bellringer em menos de 2:30."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "meetyourfight:bellringer_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/bellringer.png"
+				}
+			}
 			id: "55494C9B0941AF8F"
 			optional: true
 			rewards: [
@@ -406,7 +1494,13 @@
 				"Vença Swampjaw sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "meetyourfight:swampjaw_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/swampjaw.png"
+				}
+			}
 			id: "6A8B1B9271EA7C54"
 			optional: true
 			rewards: [
@@ -428,8 +1522,8 @@
 				}
 			]
 			title: "Intocável: Swampjaw"
-			x: 3.4d
-			y: 2.9d
+			x: 9.2d
+			y: -1.3d
 		}
 		{
 			dependencies: ["14143A46980161B8"]
@@ -437,7 +1531,13 @@
 				"Vença Swampjaw sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "meetyourfight:swampjaw_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/swampjaw.png"
+				}
+			}
 			id: "16D72DF5E473BD9E"
 			optional: true
 			rewards: [
@@ -460,8 +1560,8 @@
 				}
 			]
 			title: "Sozinho contra um Deus: Swampjaw"
-			x: 3.4d
-			y: 4.2d
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["14143A46980161B8"]
@@ -469,7 +1569,13 @@
 				"Vença Swampjaw em menos de 1:30."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "meetyourfight:swampjaw_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/swampjaw.png"
+				}
+			}
 			id: "4C36AE8B7CB7BAC9"
 			optional: true
 			rewards: [
@@ -492,8 +1598,8 @@
 				}
 			]
 			title: "Relâmpago: Swampjaw"
-			x: 3.4d
-			y: 5.5d
+			x: 9.2d
+			y: 1.3d
 		}
 		{
 			dependencies: ["5F6FB0CA25581170"]
@@ -501,7 +1607,13 @@
 				"Vença Hirschgeist sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "whisperwoods:hirschgeist_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hirschgeist.png"
+				}
+			}
 			id: "0031637ED6654E93"
 			optional: true
 			rewards: [
@@ -523,8 +1635,8 @@
 				}
 			]
 			title: "Intocável: Hirschgeist"
-			x: 3.4d
-			y: 7.1d
+			x: 15.0d
+			y: -1.3d
 		}
 		{
 			dependencies: ["5F6FB0CA25581170"]
@@ -532,7 +1644,13 @@
 				"Vença Hirschgeist sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "whisperwoods:hirschgeist_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hirschgeist.png"
+				}
+			}
 			id: "1365B5ED476B357E"
 			optional: true
 			rewards: [
@@ -555,8 +1673,8 @@
 				}
 			]
 			title: "Sozinho contra um Deus: Hirschgeist"
-			x: 3.4d
-			y: 8.4d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5F6FB0CA25581170"]
@@ -564,7 +1682,13 @@
 				"Vença Hirschgeist em menos de 2:00."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "whisperwoods:hirschgeist_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hirschgeist.png"
+				}
+			}
 			id: "19E10A51D84FCC9C"
 			optional: true
 			rewards: [
@@ -587,8 +1711,8 @@
 				}
 			]
 			title: "Relâmpago: Hirschgeist"
-			x: 3.4d
-			y: 9.7d
+			x: 15.0d
+			y: 1.3d
 		}
 		{
 			dependencies: ["1602A18BA38D9669"]
@@ -596,7 +1720,13 @@
 				"Vença Sirok sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/sirok.png"
+				}
+			}
 			id: "5000A9DFE098448F"
 			optional: true
 			rewards: [
@@ -618,8 +1748,8 @@
 				}
 			]
 			title: "Intocável: Sirok"
-			x: 3.4d
-			y: 11.3d
+			x: 20.8d
+			y: -1.3d
 		}
 		{
 			dependencies: ["1602A18BA38D9669"]
@@ -627,7 +1757,13 @@
 				"Vença Sirok sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/sirok.png"
+				}
+			}
 			id: "033A8BB37F0704D7"
 			optional: true
 			rewards: [
@@ -650,8 +1786,8 @@
 				}
 			]
 			title: "Sozinho contra um Deus: Sirok"
-			x: 3.4d
-			y: 12.6d
+			x: 20.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1602A18BA38D9669"]
@@ -659,7 +1795,13 @@
 				"Vença Sirok em menos de 2:30."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/sirok.png"
+				}
+			}
 			id: "4628B1532C053EFD"
 			optional: true
 			rewards: [
@@ -682,8 +1824,8 @@
 				}
 			]
 			title: "Relâmpago: Sirok"
-			x: 3.4d
-			y: 13.9d
+			x: 20.8d
+			y: 1.3d
 		}
 		{
 			dependencies: ["2525150E21FF53EC"]
@@ -691,7 +1833,13 @@
 				"Vença Skor sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "block_factorys_bosses:yeti_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/skor.png"
+				}
+			}
 			id: "224E43F84F334A5A"
 			optional: true
 			rewards: [
@@ -713,8 +1861,8 @@
 				}
 			]
 			title: "Intocável: Skor"
-			x: 3.4d
-			y: 15.5d
+			x: 26.6d
+			y: -1.3d
 		}
 		{
 			dependencies: ["2525150E21FF53EC"]
@@ -722,7 +1870,13 @@
 				"Vença Skor sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "block_factorys_bosses:yeti_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/skor.png"
+				}
+			}
 			id: "12D002591F0AAD5F"
 			optional: true
 			rewards: [
@@ -745,8 +1899,8 @@
 				}
 			]
 			title: "Sozinho contra um Deus: Skor"
-			x: 3.4d
-			y: 16.8d
+			x: 26.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2525150E21FF53EC"]
@@ -754,7 +1908,13 @@
 				"Vença Skor em menos de 2:30."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "block_factorys_bosses:yeti_spawn_egg"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/skor.png"
+				}
+			}
 			id: "7DD84F966EB8E124"
 			optional: true
 			rewards: [
@@ -777,10 +1937,1931 @@
 				}
 			]
 			title: "Relâmpago: Skor"
+			x: 26.6d
+			y: 1.3d
+		}
+		{
+			dependencies: ["257E1013942838B0"]
+			description: [
+				"Vença Ashlord sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ashlord.png"
+				}
+			}
+			id: "6FA87C69E14EFC3F"
+			optional: true
+			rewards: [
+				{
+					id: "794FD6640B3666F3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ashlord/intocavel"
+					criterion: ""
+					id: "2558C08E49506547"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Ashlord"
 			x: 3.4d
-			y: 18.1d
+			y: 3.3d
+		}
+		{
+			dependencies: ["257E1013942838B0"]
+			description: [
+				"Vença Ashlord sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ashlord.png"
+				}
+			}
+			id: "12EAE4699ACD1E62"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2558835BED8B6DB8"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ashlord/sozinho"
+					criterion: ""
+					id: "1F991645F031D5E8"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Ashlord"
+			x: 3.4d
+			y: 4.6d
+		}
+		{
+			dependencies: ["257E1013942838B0"]
+			description: [
+				"Vença Ashlord em menos de 3:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ashlord.png"
+				}
+			}
+			id: "6E02C9418BE4DC67"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "25574FADE68E1C21"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ashlord/relampago"
+					criterion: ""
+					id: "19E6DA92F71EB529"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Ashlord"
+			x: 3.4d
+			y: 5.9d
+		}
+		{
+			dependencies: ["0D2944326E7982A8"]
+			description: [
+				"Vença Tongbi sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/tongbi.png"
+				}
+			}
+			id: "29A5AD407116AF30"
+			optional: true
+			rewards: [
+				{
+					id: "5BB5DFA87F8E82BA"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/tongbi/intocavel"
+					criterion: ""
+					id: "621AD0F768830531"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Tongbi"
+			x: 9.2d
+			y: 3.3d
+		}
+		{
+			dependencies: ["0D2944326E7982A8"]
+			description: [
+				"Vença Tongbi sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/tongbi.png"
+				}
+			}
+			id: "26C70082D2146244"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "4625147D7862C140"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/tongbi/sozinho"
+					criterion: ""
+					id: "77AB00AE76307F87"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Tongbi"
+			x: 9.2d
+			y: 4.6d
+		}
+		{
+			dependencies: ["0D2944326E7982A8"]
+			description: [
+				"Vença Tongbi em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/tongbi.png"
+				}
+			}
+			id: "7EDCC430155EE63A"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "6D9747593C0ADAD1"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/tongbi/relampago"
+					criterion: ""
+					id: "010CA7B7CF9ED9C6"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Tongbi"
+			x: 9.2d
+			y: 5.9d
+		}
+		{
+			dependencies: ["2CE265C2726F1C5D"]
+			description: [
+				"Vença Missionário sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/missionario.png"
+				}
+			}
+			id: "0D05A3ADDAB3F301"
+			optional: true
+			rewards: [
+				{
+					id: "770E305304B49789"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/missionario/intocavel"
+					criterion: ""
+					id: "228EAF5EA13ADAD4"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Missionário"
+			x: 15.0d
+			y: 3.3d
+		}
+		{
+			dependencies: ["2CE265C2726F1C5D"]
+			description: [
+				"Vença Missionário sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/missionario.png"
+				}
+			}
+			id: "4A064227B0D285BC"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "60D49F74DD56F76A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/missionario/sozinho"
+					criterion: ""
+					id: "57B0A8EE1656F601"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Missionário"
+			x: 15.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["2CE265C2726F1C5D"]
+			description: [
+				"Vença Missionário em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/missionario.png"
+				}
+			}
+			id: "3F2546A9AE3DF9E2"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "3E1EECA59B226B25"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/missionario/relampago"
+					criterion: ""
+					id: "6F5C1CC31008D0BE"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Missionário"
+			x: 15.0d
+			y: 5.9d
+		}
+		{
+			dependencies: ["271B6B356B3A62E9"]
+			description: [
+				"Vença Caranguejo de Ametista sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/caranguejo_ametista.png"
+				}
+			}
+			id: "269CD1A553262E69"
+			optional: true
+			rewards: [
+				{
+					id: "3E6BC0B226410277"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/caranguejo_ametista/intocavel"
+					criterion: ""
+					id: "13E5A194D42BD25A"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Caranguejo de Ametista"
+			x: 20.8d
+			y: 3.3d
+		}
+		{
+			dependencies: ["271B6B356B3A62E9"]
+			description: [
+				"Vença Caranguejo de Ametista sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/caranguejo_ametista.png"
+				}
+			}
+			id: "2DF970DE0BB025DB"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "43B7D8F492065D5B"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/caranguejo_ametista/sozinho"
+					criterion: ""
+					id: "73B18E41FC61E83C"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Caranguejo de Ametista"
+			x: 20.8d
+			y: 4.6d
+		}
+		{
+			dependencies: ["271B6B356B3A62E9"]
+			description: [
+				"Vença Caranguejo de Ametista em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/caranguejo_ametista.png"
+				}
+			}
+			id: "5E9032684E8A26C2"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "62C41C8961071528"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/caranguejo_ametista/relampago"
+					criterion: ""
+					id: "41521A1E1E5DB81C"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Caranguejo de Ametista"
+			x: 20.8d
+			y: 5.9d
+		}
+		{
+			dependencies: ["1C1E6C6FDCC96DC5"]
+			description: [
+				"Vença Helvar sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/helvar.png"
+				}
+			}
+			id: "16C5D4789F535435"
+			optional: true
+			rewards: [
+				{
+					id: "5DE6218C62B9BB31"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/helvar/intocavel"
+					criterion: ""
+					id: "34D22F0D4062B089"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Helvar"
+			x: 3.4d
+			y: 7.9d
+		}
+		{
+			dependencies: ["1C1E6C6FDCC96DC5"]
+			description: [
+				"Vença Helvar sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/helvar.png"
+				}
+			}
+			id: "6632E28F8ADDF19B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "38EB4B60BA227B64"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/helvar/sozinho"
+					criterion: ""
+					id: "77EEF55CC756C4B9"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Helvar"
+			x: 3.4d
+			y: 9.2d
+		}
+		{
+			dependencies: ["1C1E6C6FDCC96DC5"]
+			description: [
+				"Vença Helvar em menos de 4:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/helvar.png"
+				}
+			}
+			id: "4875D753E3A9CA8A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7E40F8F3D0309595"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/helvar/relampago"
+					criterion: ""
+					id: "3FF2B175A7EDB0DF"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Helvar"
+			x: 3.4d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E40D1421616DC33"]
+			description: [
+				"Vença Nerakyss sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/nerakyss.png"
+				}
+			}
+			id: "7A7647118A21878A"
+			optional: true
+			rewards: [
+				{
+					id: "05607D67E97A6234"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/nerakyss/intocavel"
+					criterion: ""
+					id: "1DA95C7EC7330103"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Nerakyss"
+			x: 9.2d
+			y: 7.9d
+		}
+		{
+			dependencies: ["1E40D1421616DC33"]
+			description: [
+				"Vença Nerakyss sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/nerakyss.png"
+				}
+			}
+			id: "14031876A0FC1D81"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "46040D0DB8F481F7"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/nerakyss/sozinho"
+					criterion: ""
+					id: "12CF00F55ED0724E"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Nerakyss"
+			x: 9.2d
+			y: 9.2d
+		}
+		{
+			dependencies: ["1E40D1421616DC33"]
+			description: [
+				"Vença Nerakyss em menos de 5:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/nerakyss.png"
+				}
+			}
+			id: "6601BE6B18B34E19"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "097532F175939A77"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/nerakyss/relampago"
+					criterion: ""
+					id: "33FA2975135A2D8F"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Nerakyss"
+			x: 9.2d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0D61BF1CDAD40A67"]
+			description: [
+				"Vença Guardião do Castelo sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/guardiao_do_castelo.png"
+				}
+			}
+			id: "614E8FBDDCE06A2E"
+			optional: true
+			rewards: [
+				{
+					id: "0253DA6072092908"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/guardiao_do_castelo/intocavel"
+					criterion: ""
+					id: "6ADA4D779BD7BF00"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Guardião do Castelo"
+			x: 15.0d
+			y: 7.9d
+		}
+		{
+			dependencies: ["0D61BF1CDAD40A67"]
+			description: [
+				"Vença Guardião do Castelo sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/guardiao_do_castelo.png"
+				}
+			}
+			id: "6FCCE8C4D2643163"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "37CB8C56F3AB12CF"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/guardiao_do_castelo/sozinho"
+					criterion: ""
+					id: "0E48A3C69926A079"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Guardião do Castelo"
+			x: 15.0d
+			y: 9.2d
+		}
+		{
+			dependencies: ["0D61BF1CDAD40A67"]
+			description: [
+				"Vença Guardião do Castelo em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/guardiao_do_castelo.png"
+				}
+			}
+			id: "1FFA6D142AC9B361"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "45954C4497C4FEAE"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/guardiao_do_castelo/relampago"
+					criterion: ""
+					id: "0EBC2F760596FFA4"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Guardião do Castelo"
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["715FC16BF8D94EBD"]
+			description: [
+				"Vença Ghast Horrendo sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ghast_horrendo.png"
+				}
+			}
+			id: "4CCA1A32DD8E8145"
+			optional: true
+			rewards: [
+				{
+					id: "26AEF43FCFFB51A9"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ghast_horrendo/intocavel"
+					criterion: ""
+					id: "323C10B06E6DA896"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Ghast Horrendo"
+			x: 20.8d
+			y: 7.9d
+		}
+		{
+			dependencies: ["715FC16BF8D94EBD"]
+			description: [
+				"Vença Ghast Horrendo sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ghast_horrendo.png"
+				}
+			}
+			id: "5126310C84562591"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4F10AC65F5019004"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ghast_horrendo/sozinho"
+					criterion: ""
+					id: "79E5981914F400C3"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Ghast Horrendo"
+			x: 20.8d
+			y: 9.2d
+		}
+		{
+			dependencies: ["715FC16BF8D94EBD"]
+			description: [
+				"Vença Ghast Horrendo em menos de 2:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ghast_horrendo.png"
+				}
+			}
+			id: "0A47A12372649E39"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "37E6772BBC8A10BF"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ghast_horrendo/relampago"
+					criterion: ""
+					id: "1F73EA6679DA44ED"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Ghast Horrendo"
+			x: 20.8d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0F169AA9D265EA4F"]
+			description: [
+				"Vença Krampus sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/krampus.png"
+				}
+			}
+			id: "39AC5BAE576CEB46"
+			optional: true
+			rewards: [
+				{
+					id: "52625CF618D0C89D"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/krampus/intocavel"
+					criterion: ""
+					id: "2D22BA4D5E8E8C2F"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Krampus"
+			x: 26.6d
+			y: 7.9d
+		}
+		{
+			dependencies: ["0F169AA9D265EA4F"]
+			description: [
+				"Vença Krampus sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/krampus.png"
+				}
+			}
+			id: "0245ABC719F33A76"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4B17EA110C4A5951"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/krampus/sozinho"
+					criterion: ""
+					id: "58F8E58A11F526A3"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Krampus"
+			x: 26.6d
+			y: 9.2d
+		}
+		{
+			dependencies: ["0F169AA9D265EA4F"]
+			description: [
+				"Vença Krampus em menos de 3:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/krampus.png"
+				}
+			}
+			id: "7CEE3F69C4B303A8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "0959A8C2FBB0C9F6"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/krampus/relampago"
+					criterion: ""
+					id: "39F2FCEB1FB44018"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Krampus"
+			x: 26.6d
+			y: 10.5d
+		}
+		{
+			dependencies: ["79DFE477EF7740C2"]
+			description: [
+				"Vença Ciclope sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ciclope.png"
+				}
+			}
+			id: "3919562BCCEA030A"
+			optional: true
+			rewards: [
+				{
+					id: "680AC4A5567444E2"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ciclope/intocavel"
+					criterion: ""
+					id: "77054EC1D76522FA"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Ciclope"
+			x: 32.4d
+			y: 7.9d
+		}
+		{
+			dependencies: ["79DFE477EF7740C2"]
+			description: [
+				"Vença Ciclope sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ciclope.png"
+				}
+			}
+			id: "520F1791C7A75802"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6ED647A219971E61"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ciclope/sozinho"
+					criterion: ""
+					id: "2F8CAADD5F35BF79"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Ciclope"
+			x: 32.4d
+			y: 9.2d
+		}
+		{
+			dependencies: ["79DFE477EF7740C2"]
+			description: [
+				"Vença Ciclope em menos de 2:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/ciclope.png"
+				}
+			}
+			id: "5ED0D337E65D5A76"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5262B3D8F4D70BD2"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/ciclope/relampago"
+					criterion: ""
+					id: "152DCD10AC17CF3F"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Ciclope"
+			x: 32.4d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7E0AF08B873820C2"]
+			description: [
+				"Vença Górgona sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/gorgon.png"
+				}
+			}
+			id: "2E0E63AD15A28901"
+			optional: true
+			rewards: [
+				{
+					id: "609F5D735699CE63"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/gorgon/intocavel"
+					criterion: ""
+					id: "2C1EEB4BCFF6E390"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Górgona"
+			x: 3.4d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7E0AF08B873820C2"]
+			description: [
+				"Vença Górgona sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/gorgon.png"
+				}
+			}
+			id: "48C7D0A52E06CA9D"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "25B4816638CCE163"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/gorgon/sozinho"
+					criterion: ""
+					id: "569823210077E4EA"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Górgona"
+			x: 3.4d
+			y: 13.8d
+		}
+		{
+			dependencies: ["7E0AF08B873820C2"]
+			description: [
+				"Vença Górgona em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/gorgon.png"
+				}
+			}
+			id: "0369BA3B2BC362D9"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2907D4AB23743ED8"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/gorgon/relampago"
+					criterion: ""
+					id: "6E6467F98783ECBE"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Górgona"
+			x: 3.4d
+			y: 15.1d
+		}
+		{
+			dependencies: ["1FABDF4558F6F070"]
+			description: [
+				"Vença Hidra do Pântano sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hidra_do_pantano.png"
+				}
+			}
+			id: "230C4904E898CC84"
+			optional: true
+			rewards: [
+				{
+					id: "05F2013665367D92"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/hidra_do_pantano/intocavel"
+					criterion: ""
+					id: "0B997992A0E43960"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Hidra do Pântano"
+			x: 9.2d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1FABDF4558F6F070"]
+			description: [
+				"Vença Hidra do Pântano sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hidra_do_pantano.png"
+				}
+			}
+			id: "4E9AA16F049BC172"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "681A63D858793C99"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/hidra_do_pantano/sozinho"
+					criterion: ""
+					id: "056B89C2655F4E1C"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Hidra do Pântano"
+			x: 9.2d
+			y: 13.8d
+		}
+		{
+			dependencies: ["1FABDF4558F6F070"]
+			description: [
+				"Vença Hidra do Pântano em menos de 4:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/hidra_do_pantano.png"
+				}
+			}
+			id: "432B8CA3EB9E522D"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "38CBFB6A560636FC"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/hidra_do_pantano/relampago"
+					criterion: ""
+					id: "0A621C63D0B010D8"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Hidra do Pântano"
+			x: 9.2d
+			y: 15.1d
+		}
+		{
+			dependencies: ["0C7B3F7A527CFD23"]
+			description: [
+				"Vença Rainha Mirmex sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/rainha_mirmex.png"
+				}
+			}
+			id: "423A0C4988A2494D"
+			optional: true
+			rewards: [
+				{
+					id: "56075AC7516D12C2"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/rainha_mirmex/intocavel"
+					criterion: ""
+					id: "39477EA8DFE25ABC"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Rainha Mirmex"
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0C7B3F7A527CFD23"]
+			description: [
+				"Vença Rainha Mirmex sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/rainha_mirmex.png"
+				}
+			}
+			id: "6BB03A44F2857C33"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4B5E8742AAC7C29E"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/rainha_mirmex/sozinho"
+					criterion: ""
+					id: "5BDC8F6B35666997"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Rainha Mirmex"
+			x: 15.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["0C7B3F7A527CFD23"]
+			description: [
+				"Vença Rainha Mirmex em menos de 2:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/rainha_mirmex.png"
+				}
+			}
+			id: "31847444E0E4F46D"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "46A62AF5BD3AA506"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/rainha_mirmex/relampago"
+					criterion: ""
+					id: "77C28F1CCD5FF84C"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Rainha Mirmex"
+			x: 15.0d
+			y: 15.1d
+		}
+		{
+			dependencies: ["35D85E7DCA95C519"]
+			description: [
+				"Vença Eco de Tyros sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/eco_de_tyros.png"
+				}
+			}
+			id: "42E898C08E3C6083"
+			optional: true
+			rewards: [
+				{
+					id: "2A1A672C6F3413CE"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/eco_de_tyros/intocavel"
+					criterion: ""
+					id: "67473E003E27862F"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Eco de Tyros"
+			x: 3.4d
+			y: 17.1d
+		}
+		{
+			dependencies: ["35D85E7DCA95C519"]
+			description: [
+				"Vença Eco de Tyros sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/eco_de_tyros.png"
+				}
+			}
+			id: "3E614EFBA0A85D3A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "289E2115D2C3703F"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/eco_de_tyros/sozinho"
+					criterion: ""
+					id: "2319FDA243320EA1"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Eco de Tyros"
+			x: 3.4d
+			y: 18.4d
+		}
+		{
+			dependencies: ["35D85E7DCA95C519"]
+			description: [
+				"Vença Eco de Tyros em menos de 6:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/eco_de_tyros.png"
+				}
+			}
+			id: "2FF269E059CF3C0C"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1657391505329B80"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/eco_de_tyros/relampago"
+					criterion: ""
+					id: "03B390D0AF20E0B1"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Eco de Tyros"
+			x: 3.4d
+			y: 19.7d
+		}
+		{
+			dependencies: ["7539E29A6642A475"]
+			description: [
+				"Vença Zumbi Mutante sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/zumbi_mutante.png"
+				}
+			}
+			id: "3B0C1AA48A43E8ED"
+			optional: true
+			rewards: [
+				{
+					id: "24A0F50E5B93DF7C"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/zumbi_mutante/intocavel"
+					criterion: ""
+					id: "19439D1ED69D4625"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Zumbi Mutante"
+			x: 9.2d
+			y: 17.1d
+		}
+		{
+			dependencies: ["7539E29A6642A475"]
+			description: [
+				"Vença Zumbi Mutante sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/zumbi_mutante.png"
+				}
+			}
+			id: "6C8FE7FDF10B6BC5"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1440278211DC6533"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/zumbi_mutante/sozinho"
+					criterion: ""
+					id: "5024F0ECCA0AC400"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Zumbi Mutante"
+			x: 9.2d
+			y: 18.4d
+		}
+		{
+			dependencies: ["7539E29A6642A475"]
+			description: [
+				"Vença Zumbi Mutante em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/zumbi_mutante.png"
+				}
+			}
+			id: "4F4FBB01B00E7315"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "200D0E970C2042C3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/zumbi_mutante/relampago"
+					criterion: ""
+					id: "5F183E5FEB5550FB"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Zumbi Mutante"
+			x: 9.2d
+			y: 19.7d
+		}
+		{
+			dependencies: ["2C22DE40524A95A6"]
+			description: [
+				"Vença Creeper Mutante sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/creeper_mutante.png"
+				}
+			}
+			id: "3D3130E3B1B4EB32"
+			optional: true
+			rewards: [
+				{
+					id: "7463D0F8283DC8FB"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/creeper_mutante/intocavel"
+					criterion: ""
+					id: "648427BDCD5213B4"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Creeper Mutante"
+			x: 15.0d
+			y: 17.1d
+		}
+		{
+			dependencies: ["2C22DE40524A95A6"]
+			description: [
+				"Vença Creeper Mutante sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/creeper_mutante.png"
+				}
+			}
+			id: "0F94FE5383C3034A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3FA465A5F0C88EA6"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/creeper_mutante/sozinho"
+					criterion: ""
+					id: "30275178B1066906"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Creeper Mutante"
+			x: 15.0d
+			y: 18.4d
+		}
+		{
+			dependencies: ["2C22DE40524A95A6"]
+			description: [
+				"Vença Creeper Mutante em menos de 1:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/creeper_mutante.png"
+				}
+			}
+			id: "6C7B4557049826A8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "0BEF07848615C07C"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/creeper_mutante/relampago"
+					criterion: ""
+					id: "441C0C527462DDE9"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Creeper Mutante"
+			x: 15.0d
+			y: 19.7d
+		}
+		{
+			dependencies: ["3FEA981BB86EE041"]
+			description: [
+				"Vença Esqueleto Mutante sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/esqueleto_mutante.png"
+				}
+			}
+			id: "5B284040714AA3BB"
+			optional: true
+			rewards: [
+				{
+					id: "689B65C33308E476"
+					item: "gurizes:moeda_ouro"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/esqueleto_mutante/intocavel"
+					criterion: ""
+					id: "27F886869D891560"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Esqueleto Mutante"
+			x: 20.8d
+			y: 17.1d
+		}
+		{
+			dependencies: ["3FEA981BB86EE041"]
+			description: [
+				"Vença Esqueleto Mutante sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/esqueleto_mutante.png"
+				}
+			}
+			id: "04165C9DF510162F"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5C8BC1F67D38D554"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/esqueleto_mutante/sozinho"
+					criterion: ""
+					id: "0559029B7F50DF33"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Esqueleto Mutante"
+			x: 20.8d
+			y: 18.4d
+		}
+		{
+			dependencies: ["3FEA981BB86EE041"]
+			description: [
+				"Vença Esqueleto Mutante em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gurizes:textures/quests/bosses/esqueleto_mutante.png"
+				}
+			}
+			id: "70C4E100473E3ADB"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "722752BF214B353A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/esqueleto_mutante/relampago"
+					criterion: ""
+					id: "4BD33413D336CCA2"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Esqueleto Mutante"
+			x: 20.8d
+			y: 19.7d
 		}
 	]
-	subtitle: ["Bosses fortes de outros mods, abertos desde o Ato I"]
+	subtitle: ["Bosses de outros mods, organizados por ato (I a V)"]
 	title: "Panteão: Semideuses"
 }

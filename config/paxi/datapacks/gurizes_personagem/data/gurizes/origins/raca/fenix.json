@@ -1,0 +1,25 @@
+{
+  "name": "§6Fênix",
+  "description": "§o§fNascidos da brasa que sobrou na forja de Ignar. Decolam em chamas e voltam das cinzas; a água é o pavor deles.",
+  "icon": {
+    "item": "gurizes:emblema_raca_fenix"
+  },
+  "impact": 3,
+  "order": 18,
+  "powers": [
+    "gurizes:raca/fenix/asas_de_brasa",
+    "gurizes:raca/fenix/decolagem",
+    "gurizes:raca/fenix/sopro_de_chama",
+    "gurizes:raca/fenix/pena_das_cinzas",
+    "gurizes:raca/fenix/corpo_de_brasa",
+    "gurizes:raca/fenix/chama_molhada",
+    "gurizes:raca/fenix/frio_mortal",
+    "gurizes:raca/fenix/chama",
+    "gurizes:raca/fenix/chama_gasta",
+    "gurizes:raca/fenix/chama_volta",
+    "gurizes:raca/fenix/chama_volta_calor",
+    "gurizes:raca/fenix/rastro_de_fogo",
+    "gurizes:raca/fenix/chama_afoga",
+    "gurizes:raca/fenix/registro"
+  ]
+}

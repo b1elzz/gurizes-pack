@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:glowstone"
 	id: "0BC033DEE1383034"
-	order_index: 36
+	order_index: 46
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

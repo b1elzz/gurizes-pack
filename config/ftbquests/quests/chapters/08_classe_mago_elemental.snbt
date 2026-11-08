@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:cetro_do_selo"
 	id: "22DD5811F3728F9F"
-	order_index: 14
+	order_index: 16
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

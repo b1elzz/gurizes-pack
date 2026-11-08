@@ -5,7 +5,7 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:anvil"
 	id: "6C6001363699D0FA"
-	order_index: 22
+	order_index: 32
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

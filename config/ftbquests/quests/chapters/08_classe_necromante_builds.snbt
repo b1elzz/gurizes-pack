@@ -1,0 +1,881 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_necromante_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:grimorio_partido"
+	id: "383229ED251824FF"
+	order_index: 19
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["600E39DBAF6C7351"]
+			description: [
+				"&oOs mortos de Valdren ainda lutam pelo reino. Só precisam de alguém que os chame."
+				""
+				"&6Escolhas:&r Marcado · Kaelum (ou Vesperis) · Profissão Alquimista"
+				"&6Árvore:&r A árvore não tem ramo de invocação: Cozinheiro (Vida Máxima, Cura Recebida) e Alquimista (Duração de Efeitos Prejudiciais, Dano Mágico)"
+				"{@pagebreak}"
+				"&6Como joga:&r Ergue o exército antes da sala, deixa os mortos segurarem os adds e dá o dano contínuo de Sangue; reergue sempre que caírem."
+				"&6Em grupo:&r Os mortos seguram os adds e dividem a atenção do boss. Ótimo com Paladino na frente e Druida atrás."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:grimorio_partido"
+			id: "53CB0E3C10C0B9CC"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · invocação e controle"
+			tasks: [
+				{
+					id: "2D122F24FEB22615"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Senhor dos Caídos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53CB0E3C10C0B9CC"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Grimório Partido, Forma I (depois do Galvar)"
+				"&6Armadura:&r Mago Errante; Cultista se tiver a runa de sangue"
+				"&6Armas:&r foice de ferro (Simply Swords); o Grimório Partido I entra depois do Galvar"
+				"&6Acessórios:&r Talismã do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável (você tem 2 corações a menos)"
+				"&6Gemas:&r Foco Ritual no peito; Foco de Sangue no elmo"
+				"&6Magias:&r Reanimar os Mortos, Talho de Sangue, Invocar Vex"
+				"&6Encantos:&r Proteção II, Afiação II na foice"
+				"&6Consumíveis:&r Kit de cura, Tônico de Mana, 8 bifes"
+				"&aRotação:&r Erguer os Caídos (G) antes de entrar na sala; Invocar Vex no boss; Talho de Sangue nos adds"
+			]
+			icon: "minecraft:bone"
+			id: "00BC2E3B3D40E08A"
+			rewards: [
+				{
+					id: "4680E7CE200B09C6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Senhor dos Caídos"
+			tasks: [
+				{
+					id: "0DCE35C1AF6FBEA2"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5ADC79FA9CE60FFD"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "582C3D9F721A6066"
+					item: "simplyswords:iron_scythe"
+					type: "item"
+				}
+				{
+					id: "6B0445FBF4CD1009"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Foice e Osso"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00BC2E3B3D40E08A"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Grimório Partido, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Cultista completo (runa de sangue + Essência Arcana)"
+				"&6Armas:&r foice de diamante"
+				"&6Acessórios:&r Talismã do Conjurador + Anel de Afinidade com Sangue"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3 > Dieta Saudável; Cura Recebida ×3"
+				"&6Gemas:&r Foco Ritual em 3 peças; Foco de Sangue no elmo"
+				"&6Magias:&r Reanimar os Mortos, Talho de Sangue, Invocar Vex, Passo de Sangue"
+				"&6Encantos:&r Proteção III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Reerga sempre que caírem; Talho de Sangue para se curar; mantenha-se atrás dos mortos"
+			]
+			icon: "irons_spellbooks:cultist_chestplate"
+			id: "3726514ADF18D99A"
+			rewards: [
+				{
+					id: "2B57502AAC464E06"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "662DE700BD1C11E8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Senhor dos Caídos"
+			tasks: [
+				{
+					id: "5B2F3B0FB482FA1E"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0C5185F9303EDEEE"
+					item: "irons_spellbooks:cultist_chestplate"
+					type: "item"
+				}
+				{
+					id: "54B564F259A4A464"
+					item: "simplyswords:diamond_scythe"
+					type: "item"
+				}
+				{
+					id: "08BC9CC2811D7E41"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_ritual"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato II: Cultista"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3726514ADF18D99A"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Grimório Partido, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Arquievocador (mais mana) ou Cultista com afixos de vida"
+				"&6Armas:&r foice com afixo raro"
+				"&6Acessórios:&r Talismã Maior do Conjurador + Anel de Afinidade com Sangue"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano Mágico ×3 > Campo Antimágica; Duração de Efeitos Prejudiciais"
+				"&6Gemas:&r Foco Ritual em 3 peças; Guardião"
+				"&6Magias:&r Crânio de Wither, Raio Sifão, Devorar"
+				"&6Encantos:&r Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana, Elixir de Evasão"
+				"&aRotação:&r Sacrifício do Grimório (agachar + direito) cura em emergência; Raio Sifão em quem sobra; exército sempre de pé"
+			]
+			icon: "irons_spellbooks:archevoker_chestplate"
+			id: "468115045E7B392E"
+			rewards: [
+				{
+					id: "5AC16DAA07A42C44"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Senhor dos Caídos"
+			tasks: [
+				{
+					id: "161222C83DA6F572"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6E2BBFC2FA95DE27"
+					item: "irons_spellbooks:archevoker_chestplate"
+					type: "item"
+				}
+				{
+					id: "29D3DD5C67C57749"
+					item: "simplyswords:diamond_scythe"
+					type: "item"
+				}
+				{
+					id: "5266401F29EA893A"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_ritual"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Pacto Maior"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["468115045E7B392E"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Grimório Partido, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r conjunto do Wither (Immersive Armors)"
+				"&6Armas:&r Foice Decrépita (Iron's)"
+				"&6Acessórios:&r Filactéria do Rei Morto + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Duração de Efeitos Prejudiciais completa; Vida Máxima > Mutação"
+				"&6Gemas:&r Foco Ritual épicas; Foco de Sangue; Guardião"
+				"&6Magias:&r Crânio de Wither, Devorar, Raio Sifão, Tentáculos de Sculk"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Maré Sombria (H) quando o boss chamar adds; reerga com o exército cheio"
+			]
+			icon: "immersive_armors:wither_chestplate"
+			id: "5E2F27A28F397E34"
+			rewards: [
+				{
+					id: "50CE02E1845D2479"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5B8E73CD2ADF393E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Senhor dos Caídos"
+			tasks: [
+				{
+					id: "7819F8E7D55F9AB6"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4D576E3C073DEE54"
+					item: "immersive_armors:wither_chestplate"
+					type: "item"
+				}
+				{
+					id: "16D6D8FA760A0C26"
+					item: "irons_spellbooks:decrepit_scythe"
+					type: "item"
+				}
+				{
+					id: "4ED2647C21A3970B"
+					item: "irons_spellbooks:dead_king_phylactery"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Senhor do Wither"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E2F27A28F397E34"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Grimório Partido, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r conjunto do Warden (Deeper and Darker), perfeito para Eldritch"
+				"&6Armas:&r foice de netherita ou Foice Decrépita"
+				"&6Acessórios:&r Filactéria do Rei Morto + Anel de Afinidade com Eldritch"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Dano Mágico completo; Vida Máxima completa"
+				"&6Gemas:&r Foco Ritual e Foco de Eldritch míticas"
+				"&6Magias:&r Tentáculos de Sculk, Manto Abissal, Onda Sônica"
+				"&6Encantos:&r Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Manto Abissal para escapar do golpe fatal; Onda Sônica à distância; Maré Sombria na fase de adds"
+			]
+			icon: "deeperdarker:warden_chestplate"
+			id: "6D26FDCC27CBF3FA"
+			rewards: [
+				{
+					id: "6F9CF8AAB5EFE928"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Senhor dos Caídos"
+			tasks: [
+				{
+					id: "1CA43FE64496DFDC"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "214AA7E52CFD5F98"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "3502709A09BCDCF6"
+					item: "simplyswords:netherite_scythe"
+					type: "item"
+				}
+				{
+					id: "15D6166CF276735F"
+					item: "irons_spellbooks:dead_king_phylactery"
+					type: "item"
+				}
+			]
+			title: "Ato V: Vigília do Vazio"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D26FDCC27CBF3FA"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Grimório Partido, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Defensor (Warden) completo com afixos de vida"
+				"&6Armas:&r foice Rúnica com afixo épico+"
+				"&6Acessórios:&r Filactéria do Rei Morto + Anel de Afinidade com Eldritch + Talismã do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: o resto de Duração de Efeitos Prejudiciais e Mutação"
+				"&6Gemas:&r Foco Ritual, Foco de Eldritch e Foco de Sangue míticas; Esplendor"
+				"&6Magias:&r Tentáculos de Sculk, Manto Abissal, Onda Sônica, Devorar"
+				"&6Encantos:&r Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r O exército nunca para: Sacrifício só em emergência; Maré Sombria na janela do Rei Partido"
+			]
+			icon: "deeperdarker:warden_helmet"
+			id: "1614A01CD4F73F4D"
+			rewards: [
+				{
+					id: "24D7BED17B03DA73"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "006DACA4DCA97A3C"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Senhor dos Caídos"
+			tasks: [
+				{
+					id: "452F11FF367F952A"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5878BA79FC0F52F3"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "239592A9216B2C78"
+					item: "simplyswords:runic_scythe"
+					type: "item"
+				}
+				{
+					id: "5284C06E1D578DEB"
+					item: "irons_spellbooks:dead_king_phylactery"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Rei dos Mortos"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["600E39DBAF6C7351"]
+			description: [
+				"&oPoucos mortos, muito sangue. O que cai a seus pés volta como vida."
+				""
+				"&6Escolhas:&r Marcado · Vesperis · Profissão Mercador"
+				"&6Árvore:&r Cozinheiro: Cura ao Atingir ×3 > Roubo de Vida, Vida Máxima. Alquimista do Ato III: Chance de Envenenamento e Dano de Veneno"
+				"{@pagebreak}"
+				"&6Como joga:&r Trabalha de perto com a foice e o sangue: cada golpe e cada magia devolve vida. Um ou dois mortos ao lado, não um exército."
+				"&6Em grupo:&r Dano contínuo num alvo e autocura. Fraco contra adds em volume; combina com Bardo e com um tanque que segure o boss."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:grimorio_partido"
+			id: "3CB183D4DBA60572"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · dreno e dano de sangue"
+			tasks: [
+				{
+					id: "59F1283D5215FD66"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Colheita Rubra"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["3CB183D4DBA60572"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Grimório Partido, Forma I (depois do Galvar)"
+				"&6Armadura:&r Mago Errante"
+				"&6Armas:&r foice de ferro"
+				"&6Acessórios:&r Talismã do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Vida Máxima ×2 > Cura ao Atingir ×3"
+				"&6Gemas:&r Foco de Sangue no peito"
+				"&6Magias:&r Talho de Sangue, Reanimar os Mortos"
+				"&6Encantos:&r Proteção II, Afiação II"
+				"&6Consumíveis:&r Kit de cura, 8 bifes"
+				"&aRotação:&r Talho de Sangue de longe; Erguer os Caídos (G) para ter escudo; a foice cura quando mata"
+			]
+			icon: "simplyswords:iron_scythe"
+			id: "6201619EF3648EF6"
+			rewards: [
+				{
+					id: "7EDF30469B196F8E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Colheita Rubra"
+			tasks: [
+				{
+					id: "494A1391FE41A60A"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0CD9ACCF5D4B31E4"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "1CBC8D01A10E67FE"
+					item: "simplyswords:iron_scythe"
+					type: "item"
+				}
+				{
+					id: "104872C23BF7460D"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Sangue Fresco"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["6201619EF3648EF6"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Grimório Partido, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Cultista"
+				"&6Armas:&r foice de diamante"
+				"&6Acessórios:&r Anel de Afinidade com Sangue + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3; Cura ao Atingir ×3"
+				"&6Gemas:&r Foco de Sangue em 3 peças"
+				"&6Magias:&r Talho de Sangue, Passo de Sangue, Reanimar os Mortos"
+				"&6Encantos:&r Proteção III, Afiação III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Passo de Sangue para entrar, golpes de foice, saia antes do contra-ataque; reerga um morto"
+			]
+			icon: "irons_spellbooks:cultist_chestplate"
+			id: "054FFA05CE6565EC"
+			rewards: [
+				{
+					id: "2F47B26D5AACE87F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6D6F416C79806FB7"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Colheita Rubra"
+			tasks: [
+				{
+					id: "72EF39D4FE9EFFF5"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "38F01D9C7DC6418E"
+					item: "irons_spellbooks:cultist_chestplate"
+					type: "item"
+				}
+				{
+					id: "504272DAE6135951"
+					item: "simplyswords:diamond_scythe"
+					type: "item"
+				}
+				{
+					id: "1F0BBBCC39CA5867"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_sangue"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato II: Sede de Foice"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["054FFA05CE6565EC"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Grimório Partido, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Cultista com afixos de vida e de sangue"
+				"&6Armas:&r foice com afixo raro"
+				"&6Acessórios:&r Anel de Afinidade com Sangue + Luva Vampírica + Pingente de Chama"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Cozinheiro: Cura ao Atingir > Roubo de Vida; Alquimista: Duração de Efeitos Prejudiciais"
+				"&6Gemas:&r Senhor do Sangue Voraz (Blood Lord) na foice; Foco de Sangue; Guardião"
+				"&6Magias:&r Raio Sifão, Acupuntura, Agulhas de Sangue"
+				"&6Encantos:&r Afiação IV, Proteção IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Acupuntura no boss, Raio Sifão para encher a vida, Agulhas de Sangue à distância"
+			]
+			icon: "irons_spellbooks:cultist_chestplate"
+			id: "7E271C1CEF8F8E4B"
+			rewards: [
+				{
+					id: "5082A5C324B32F9F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Colheita Rubra"
+			tasks: [
+				{
+					id: "09D4643FED0C3D6C"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "47CD36FC9005385D"
+					item: "irons_spellbooks:cultist_chestplate"
+					type: "item"
+				}
+				{
+					id: "3900CEFAFAA9AFA1"
+					item: "simplyswords:diamond_scythe"
+					type: "item"
+				}
+				{
+					id: "2C5CE9B8AC3F79D9"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/blood_lord"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Sangria"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7E271C1CEF8F8E4B"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Grimório Partido, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Cultista ou Wither; netherita se faltar defesa"
+				"&6Armas:&r Foice Decrépita (Iron's) ou foice de netherita"
+				"&6Acessórios:&r Filactéria do Rei Morto + Anel de Afinidade com Sangue + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Roubo de Vida; Vida Máxima > Dieta Saudável"
+				"&6Gemas:&r Senhor do Sangue Voraz e Foco de Sangue épicas"
+				"&6Magias:&r Raio Sifão, Devorar, Parada Cardíaca, Agulhas de Sangue"
+				"&6Encantos:&r Afiação V, Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Parada Cardíaca para atravessar um golpe; Devorar no boss; Maré Sombria quando chamar adds"
+			]
+			icon: "irons_spellbooks:decrepit_scythe"
+			id: "7EF0A1A24EFB9A76"
+			rewards: [
+				{
+					id: "4405C998F6F0DEBE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "75F8FFE5F14D2CDC"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Colheita Rubra"
+			tasks: [
+				{
+					id: "0DBD04A9F3EFF983"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4899C8D811150967"
+					item: "irons_spellbooks:cultist_chestplate"
+					type: "item"
+				}
+				{
+					id: "5183818E76BF8539"
+					item: "irons_spellbooks:decrepit_scythe"
+					type: "item"
+				}
+				{
+					id: "3E70C0B145456221"
+					item: "irons_spellbooks:dead_king_phylactery"
+					type: "item"
+				}
+			]
+			title: "Ato IV: Ceifa de Netherita"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7EF0A1A24EFB9A76"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Grimório Partido, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r conjunto do Wither com afixos de vida e sangue"
+				"&6Armas:&r foice Rúnica"
+				"&6Acessórios:&r Filactéria do Rei Morto + Anel de Afinidade com Sangue + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: Monte de Músculos; Alquimista: Dano de Veneno"
+				"&6Gemas:&r Senhor do Sangue Voraz mítica; Foco de Sangue míticas"
+				"&6Magias:&r Raio Sifão, Parada Cardíaca, Devorar, Agulhas de Sangue"
+				"&6Encantos:&r Afiação V, Proteção V, Inquebrável III"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Sacrifício em emergência; Parada Cardíaca na janela do Olho Estelar"
+			]
+			icon: "irons_spellbooks:blood_staff"
+			id: "512DE010606AF5D9"
+			rewards: [
+				{
+					id: "678772765F71CEC2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Colheita Rubra"
+			tasks: [
+				{
+					id: "134F895481558DBC"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6E510A0CD8BC9669"
+					item: "immersive_armors:wither_chestplate"
+					type: "item"
+				}
+				{
+					id: "5A718AE5A51BE30D"
+					item: "simplyswords:runic_scythe"
+					type: "item"
+				}
+				{
+					id: "41D40D8F1FCA6751"
+					item: "irons_spellbooks:dead_king_phylactery"
+					type: "item"
+				}
+			]
+			title: "Ato V: Rubro Sem Fim"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["512DE010606AF5D9"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Grimório Partido, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r Escamas de Dragão Negro (Ice and Fire)"
+				"&6Armas:&r foice Rúnica com afixo épico+"
+				"&6Acessórios:&r Filactéria do Rei Morto + Anel de Afinidade com Sangue + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: fecha Roubo de Vida e Dieta Saudável"
+				"&6Gemas:&r Senhor do Sangue Voraz e Foco de Sangue míticas; Guardião; Esplendor"
+				"&6Magias:&r Raio Sifão, Parada Cardíaca, Devorar, Agulhas de Sangue, Sacrifício"
+				"&6Encantos:&r Afiação V, Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Sangue por todo lado: mantenha Raio Sifão ativo, Maré Sombria na janela do Rei Partido"
+			]
+			icon: "iceandfire:armor_black_chestplate"
+			id: "5E88192997D8DA02"
+			rewards: [
+				{
+					id: "1C7642F4653878B0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5E286453CC6FC851"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Colheita Rubra"
+			tasks: [
+				{
+					id: "5CA2110DB5AFA83D"
+					item: {
+						Count: 1b
+						id: "gurizes:grimorio_partido"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6E609413DF441929"
+					item: "iceandfire:armor_black_chestplate"
+					type: "item"
+				}
+				{
+					id: "0470357E48373E1A"
+					item: "simplyswords:runic_scythe"
+					type: "item"
+				}
+				{
+					id: "50BA3628EEBCBB64"
+					item: "irons_spellbooks:dead_king_phylactery"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Dragão Negro"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Necromante"
+}

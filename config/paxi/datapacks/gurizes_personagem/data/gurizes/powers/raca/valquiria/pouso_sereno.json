@@ -1,0 +1,36 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Pouso Sereno",
+  "description": "§o§7Asa cansada ainda sabe descer com dignidade.§r\nSem Vigor e em queda, as asas freiam a queda (Queda Lenta).",
+  "interval": 10,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slow_falling",
+      "duration": 60,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "gurizes:raca/valquiria/vigor",
+        "comparison": "<=",
+        "compare_to": 0
+      },
+      {
+        "type": "apoli:on_block",
+        "inverted": true
+      },
+      {
+        "type": "apoli:fall_distance",
+        "comparison": ">=",
+        "compare_to": 3
+      }
+    ]
+  }
+}

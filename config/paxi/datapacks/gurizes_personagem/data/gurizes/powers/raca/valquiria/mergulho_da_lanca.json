@@ -1,0 +1,26 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Mergulho da Lança",
+  "description": "§o§7Do céu, a lança cai como sentença.§r\n+25% de dano corpo a corpo voando ou em mergulho.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.25
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:corpo_a_corpo"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "apoli:creative_flying"
+      },
+      {
+        "type": "apoli:fall_distance",
+        "comparison": ">=",
+        "compare_to": 3
+      }
+    ]
+  }
+}

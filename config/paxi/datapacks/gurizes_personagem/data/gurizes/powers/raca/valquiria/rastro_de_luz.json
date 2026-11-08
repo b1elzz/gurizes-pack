@@ -1,0 +1,10 @@
+{
+  "type": "origins:particle",
+  "hidden": true,
+  "particle": "minecraft:end_rod",
+  "frequency": 6,
+  "visible_in_first_person": false,
+  "condition": {
+    "type": "apoli:creative_flying"
+  }
+}

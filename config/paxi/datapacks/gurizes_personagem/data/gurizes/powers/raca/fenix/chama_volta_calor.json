@@ -1,0 +1,43 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "interval": 10,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "gurizes:raca/fenix/chama",
+    "change": 4
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "apoli:on_block"
+      },
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "apoli:exposed_to_sun"
+          },
+          {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_nether"
+          }
+        ]
+      },
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+          },
+          {
+            "type": "apoli:in_rain"
+          }
+        ],
+        "inverted": true
+      }
+    ]
+  }
+}

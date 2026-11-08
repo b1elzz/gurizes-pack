@@ -5,7 +5,7 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:compass"
 	id: "585DFA81A393164B"
-	order_index: 26
+	order_index: 36
 	quest_links: [ ]
 	quests: [
 		{

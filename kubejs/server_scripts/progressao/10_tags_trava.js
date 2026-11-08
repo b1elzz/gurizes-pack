@@ -90,7 +90,7 @@ ServerEvents.tags('item', event => {
     'aether:valkyrie_pickaxe'
   ])
   event.add('gurizes:trava/ato_5', [
-    'minecraft:elytra', 'apotheosis:endshelf', 'mutantmonsters:chemical_x',
+    'minecraft:elytra', 'apotheosis:endshelf', 'irons_spellbooks:cinderous_soulcaller', 'irons_spellbooks:tyros_statue', 'mutantmonsters:chemical_x',
     'mutantmonsters:hulk_hammer', 'simplyswords:runic_chakram', 'simplyswords:runic_claymore',
     'simplyswords:runic_cutlass', 'simplyswords:runic_glaive', 'simplyswords:runic_greataxe',
     'simplyswords:runic_greathammer', 'simplyswords:runic_halberd', 'simplyswords:runic_katana',

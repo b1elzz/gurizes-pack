@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:bastao_dos_mil_passos"
 	id: "69287B3F7E63E805"
-	order_index: 20
+	order_index: 28
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

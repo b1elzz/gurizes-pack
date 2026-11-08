@@ -1,0 +1,14 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "interval": 40,
+  "entity_action": {
+    "type": "origins:damage",
+    "amount": 1,
+    "damage_type": "minecraft:drown"
+  },
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+  }
+}

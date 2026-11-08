@@ -1,0 +1,913 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_assassino_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:adaga_do_ultimo_suspiro"
+	id: "248F5EDEFBF4F6AD"
+	order_index: 31
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61835B8268F071AF"]
+			description: [
+				"&oO boss tem muita vida. Eu só preciso achar o lugar certo."
+				""
+				"&6Escolhas:&r Pés-Leves (ou Marcado) · Brava (ou Vesperis) · Profissão Mercador ou Explorador"
+				"&6Árvore:&r Caçador: Elusividade (velocidade ao agachar) com couro. Cozinheiro: Dano de Ataque, Dano Corpo a Corpo, Cura ao Atingir"
+				"{@pagebreak}"
+				"&6Como joga:&r Passo Sangrento para as costas, golpes agachado (Emboscada), Marca Mortal no boss e finaliza abaixo de 30% (Execução)."
+				"&6Em grupo:&r Precisa de um tanque que segure o olhar do boss. Combina com Paladino, Caçador e Bardo."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:adaga_do_ultimo_suspiro"
+			id: "0EF06D9A57339391"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · dano explosivo num alvo"
+			tasks: [
+				{
+					id: "04D7D007EE1FBA94"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Último Suspiro"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EF06D9A57339391"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma I (depois do Galvar)"
+				"&6Armadura:&r couro (leve)"
+				"&6Armas:&r Sai de Ferro (Simply Swords); a Adaga do Último Suspiro entra depois do Galvar"
+				"&6Acessórios:&r Tênis de Corrida"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano de Ataque ×3; Vida Máxima ×2"
+				"&6Gemas:&r Samurai na arma; Deslize nas botas"
+				"&6Magias:&r Passo de Sangue, Evasão"
+				"&6Encantos:&r Afiação II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, 8 bifes, Óleo de Lâmina: Veneno"
+				"&aRotação:&r Passo Sangrento (G) para as costas do alvo, golpes agachado, Evasão antes do golpe do boss"
+			]
+			icon: "simplyswords:iron_sai"
+			id: "04FD0B935198B841"
+			rewards: [
+				{
+					id: "2A0D46E8258D66FC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Último Suspiro"
+			tasks: [
+				{
+					id: "3E633C8660D16BC0"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "65ABEA5985F7BFAD"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "45A5409167B4ADB4"
+					item: "simplyswords:iron_sai"
+					type: "item"
+				}
+				{
+					id: "6CDD86857AF4978A"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Sai e Sombra"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04FD0B935198B841"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Gibão ou couro com afixos de crítico"
+				"&6Armas:&r Sai de Diamante ou Estilete de Diamante"
+				"&6Acessórios:&r Tênis de Corrida + Cachecol da Invisibilidade"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Dano Corpo a Corpo ×3; Cura ao Atingir"
+				"&6Gemas:&r Samurai na arma; Foco de Ender; Deslize"
+				"&6Magias:&r Passo de Sangue, Evasão, Acupuntura"
+				"&6Encantos:&r Afiação III, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Elixir de Evasão"
+				"&aRotação:&r Acupuntura e golpes pelas costas; saia antes do contra-ataque; a Execução fecha abaixo de 30%"
+			]
+			icon: "simplyswords:diamond_sai"
+			id: "26295C01CD2DFA0F"
+			rewards: [
+				{
+					id: "7B9F534B76A31A96"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "20A4244D9783A76A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Último Suspiro"
+			tasks: [
+				{
+					id: "0B9413DF034B5B1E"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5AB0FD34BF6AAEC0"
+					item: "magistuarmory:gambeson_chestplate"
+					type: "item"
+				}
+				{
+					id: "2FD8209B2E5890D0"
+					item: "simplyswords:diamond_sai"
+					type: "item"
+				}
+				{
+					id: "278E4B86CA61E561"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+			]
+			title: "Ato II: Estilete Fino"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26295C01CD2DFA0F"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Andarilho das Sombras (runa de Ender), leve"
+				"&6Armas:&r Ferrão das Sombras (Simply Swords) ou a Adaga III"
+				"&6Acessórios:&r Tênis de Corrida + Cachecol da Invisibilidade + Anel de Invisibilidade"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Caçador: Elusividade; Cozinheiro: Roubo de Vida"
+				"&6Gemas:&r Senhor da Guerra e Rompimento na arma; Samurai no elmo"
+				"&6Magias:&r Acupuntura, Contrafeitiço, Invisibilidade"
+				"&6Encantos:&r Afiação IV, Inquebrável III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Elixir de Invisibilidade"
+				"&aRotação:&r Marca Mortal no boss, sequência pelas costas; Invisibilidade para recomeçar"
+			]
+			icon: "irons_spellbooks:shadowwalker_chestplate"
+			id: "7C8DD0A11852FE30"
+			rewards: [
+				{
+					id: "48889CCCF74B30E2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Último Suspiro"
+			tasks: [
+				{
+					id: "6905B1867BB545E3"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "18701A9794E4564D"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "24A6AE6883261A19"
+					item: "simplyswords:shadowsting"
+					type: "item"
+				}
+				{
+					id: "3C423E0375CC11D9"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Andarilho"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C8DD0A11852FE30"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Andarilho completo com afixos de crítico"
+				"&6Armas:&r Atame (Cataclysm) ou a Adaga IV"
+				"&6Acessórios:&r Cachecol da Invisibilidade + Anel de Invisibilidade + Garras Ferais"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Cozinheiro: Dano de Ataque e Dano Corpo a Corpo completos"
+				"&6Gemas:&r Senhor da Guerra, Rompimento e Samurai épicas"
+				"&6Magias:&r Acupuntura, Parada Cardíaca, Contrafeitiço"
+				"&6Encantos:&r Afiação V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Óleo de Têmpera"
+				"&aRotação:&r Véu da Noite (H) e Golpe Sombrio pelas costas durante a Marca Mortal"
+			]
+			icon: "cataclysm:athame"
+			id: "048B22D1E19F06D0"
+			rewards: [
+				{
+					id: "78A58A7160AD8119"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "51E16C7DC85EE395"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Último Suspiro"
+			tasks: [
+				{
+					id: "485300E2EFACEE57"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1D4D40A8A2759D63"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "30FCCEDC3F5A7C53"
+					item: "cataclysm:athame"
+					type: "item"
+				}
+				{
+					id: "7CF03C90D8094732"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Atame"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["048B22D1E19F06D0"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Ressonário (Deeper and Darker) ou Mago Guerreiro de Netherita"
+				"&6Armas:&r Sai Rúnico"
+				"&6Acessórios:&r Cachecol da Invisibilidade + Anel de Invisibilidade + Garras Ferais"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: o resto de Dano de Ataque; Roubo de Vida"
+				"&6Gemas:&r Senhor da Guerra e Rompimento míticas; Guardião no peito"
+				"&6Magias:&r Parada Cardíaca, Agulhas de Sangue, Contrafeitiço"
+				"&6Encantos:&r Afiação V, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Véu da Noite, reposicione e Golpe Sombrio durante a Marca Mortal, na janela do Caçador"
+			]
+			icon: "simplyswords:runic_sai"
+			id: "03F39CCAC4788FD5"
+			rewards: [
+				{
+					id: "483CE02805AF1223"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Último Suspiro"
+			tasks: [
+				{
+					id: "4DA06C247E6F025B"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2B99DB5934E2BBD2"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "402EB268EADAB533"
+					item: "simplyswords:runic_sai"
+					type: "item"
+				}
+				{
+					id: "4CC7F93CC0FE239A"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/breach"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Lâmina Runic"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03F39CCAC4788FD5"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Negro (Ice and Fire; não conta como peitoral pesado)"
+				"&6Armas:&r Sai Rúnico com afixo épico+"
+				"&6Acessórios:&r Cachecol da Invisibilidade + Anel de Invisibilidade + Garras Ferais"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: fecha Dano de Ataque e Dano Corpo a Corpo"
+				"&6Gemas:&r Senhor da Guerra e Rompimento míticas; Guardião no peito"
+				"&6Magias:&r Parada Cardíaca, Agulhas de Sangue, Contrafeitiço"
+				"&6Encantos:&r Afiação V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Marca Mortal + Golpe Sombrio pelas costas na janela do Rei Partido"
+			]
+			icon: "iceandfire:armor_black_chestplate"
+			id: "14EC3BE55A8C4034"
+			rewards: [
+				{
+					id: "05186D0AA54FC348"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3D3423DAA268C57F"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Último Suspiro"
+			tasks: [
+				{
+					id: "36D9FFAE9B7D5FD2"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0CA745396FDB9AC9"
+					item: "iceandfire:armor_black_chestplate"
+					type: "item"
+				}
+				{
+					id: "0494E479194EB551"
+					item: "simplyswords:runic_sai"
+					type: "item"
+				}
+				{
+					id: "3AD27F0CB3FC1B21"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/breach"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Escamas Negras"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61835B8268F071AF"]
+			description: [
+				"&oUm corte raso e uma gota de veneno. O resto é paciência."
+				""
+				"&6Escolhas:&r Marcado (ou Pés-Leves) · Vesperis · Profissão Alquimista"
+				"&6Árvore:&r Alquimista do Ato III: Chance de Envenenamento ×3 > Ignorar Imunidade, Dano de Veneno ×3 > Carne em Fusão. Cozinheiro: Vida Máxima"
+				"{@pagebreak}"
+				"&6Como joga:&r Aplica veneno e sangue no alvo e recua: a Marca Mortal fecha o dano e os sangramentos continuam enquanto você corre."
+				"&6Em grupo:&r Dano contínuo que dispensa estar nas costas. Combina com Druida (cura) e Paladino segurando o boss."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:adaga_do_ultimo_suspiro"
+			id: "2158BCD5AA93634C"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · dano contínuo de veneno e sangria"
+			tasks: [
+				{
+					id: "09404DE682B381DB"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Mordida Venenosa"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["2158BCD5AA93634C"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma I (depois do Galvar)"
+				"&6Armadura:&r couro (leve)"
+				"&6Armas:&r Sai de Ferro; Óleo de Lâmina: Veneno"
+				"&6Acessórios:&r Tênis de Corrida"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano de Ataque ×3; Vida Máxima ×2"
+				"&6Gemas:&r Samurai na arma"
+				"&6Magias:&r Passo de Sangue, Evasão"
+				"&6Encantos:&r Afiação II, Inquebrável II"
+				"&6Consumíveis:&r Óleo de Lâmina: Veneno, Kit de cura, 8 bifes"
+				"&aRotação:&r Passo Sangrento (G) e golpes com veneno; recue antes da resposta"
+			]
+			icon: "simplyswords:iron_sai"
+			id: "4425AC99CDFFDAB8"
+			rewards: [
+				{
+					id: "07B39C58448E7D5A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Mordida Venenosa"
+			tasks: [
+				{
+					id: "148C4CC5769DFA9D"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "17D80032DC15305B"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "6E0B69831D7FB57D"
+					item: "simplyswords:iron_sai"
+					type: "item"
+				}
+				{
+					id: "3E67D7EFDD5499AD"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Gota Verde"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["4425AC99CDFFDAB8"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Gibão ou couro"
+				"&6Armas:&r Sai de Diamante; Óleo de Lâmina: Veneno"
+				"&6Acessórios:&r Tênis de Corrida + Cachecol da Invisibilidade"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Vida Máxima ×3; Cura ao Atingir"
+				"&6Gemas:&r Samurai na arma"
+				"&6Magias:&r Passo de Sangue, Evasão, Acupuntura"
+				"&6Encantos:&r Afiação III, Inquebrável III"
+				"&6Consumíveis:&r Óleo de Lâmina: Veneno, Frasco de Cura em Grupo"
+				"&aRotação:&r Acupuntura abre sangramento; veneno por cima; saia"
+			]
+			icon: "simplyswords:diamond_sai"
+			id: "4E1EF28D315F34DC"
+			rewards: [
+				{
+					id: "73C1C897B5CE233D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "61837C654C96DB72"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Mordida Venenosa"
+			tasks: [
+				{
+					id: "2A9C5EBB35001AB3"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "68D903E4AFA00287"
+					item: "magistuarmory:gambeson_chestplate"
+					type: "item"
+				}
+				{
+					id: "4AE9FDCF41DF7EC4"
+					item: "simplyswords:diamond_sai"
+					type: "item"
+				}
+				{
+					id: "4B1A46A84758E98D"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+			]
+			title: "Ato II: Veneno de Aranha"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["4E1EF28D315F34DC"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Andarilho das Sombras"
+				"&6Armas:&r Ferrão das Sombras ou Perfura-Pavio (Simply Swords)"
+				"&6Acessórios:&r Cachecol da Invisibilidade + Anel de Invisibilidade + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Chance de Envenenamento ×3 > Ignorar Imunidade; Dano de Veneno"
+				"&6Gemas:&r Senhor do Sangue Voraz e Rompimento na arma; Samurai"
+				"&6Magias:&r Acupuntura, Agulhas de Sangue, Invisibilidade"
+				"&6Encantos:&r Afiação IV, Inquebrável III"
+				"&6Consumíveis:&r Óleo de Lâmina: Veneno, Frasco de Cura em Grupo"
+				"&aRotação:&r Agulhas de Sangue de longe; veneno no alvo; Invisibilidade para recomeçar"
+			]
+			icon: "irons_spellbooks:shadowwalker_chestplate"
+			id: "7C5C86F8BA90E9A4"
+			rewards: [
+				{
+					id: "406083C9B7F864D9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Mordida Venenosa"
+			tasks: [
+				{
+					id: "310B1D156BD8EA09"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5908D1C33821034A"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "6340E42AC928412F"
+					item: "simplyswords:shadowsting"
+					type: "item"
+				}
+				{
+					id: "052540BC5187488E"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/blood_lord"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Alquimista de Sombra"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7C5C86F8BA90E9A4"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Andarilho completo com afixos de vida"
+				"&6Armas:&r Atame (Cataclysm) ou a Adaga IV"
+				"&6Acessórios:&r Cachecol da Invisibilidade + Anel de Invisibilidade + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Dano de Veneno ×3 > Carne em Fusão; Praga Alastradora"
+				"&6Gemas:&r Senhor do Sangue Voraz épica; Rompimento; Samurai"
+				"&6Magias:&r Parada Cardíaca, Agulhas de Sangue, Acupuntura"
+				"&6Encantos:&r Afiação V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Óleo de Lâmina: Veneno"
+				"&aRotação:&r Véu da Noite (H) e Marca Mortal; o veneno trabalha enquanto você reposiciona"
+			]
+			icon: "cataclysm:athame"
+			id: "761B0A08D151E7FF"
+			rewards: [
+				{
+					id: "5E0F8AD32F132C49"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0302290F121D3CB5"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Mordida Venenosa"
+			tasks: [
+				{
+					id: "5E59F6A9C4D96E92"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2C81AD24C3C177E1"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "29F9BDDEC2C8E9DF"
+					item: "cataclysm:athame"
+					type: "item"
+				}
+				{
+					id: "682868E329C1D0ED"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/blood_lord"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Dose Letal"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["761B0A08D151E7FF"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Ressonário (Deeper and Darker)"
+				"&6Armas:&r Sai Rúnico"
+				"&6Acessórios:&r Cachecol da Invisibilidade + Anel de Invisibilidade + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Alquimista: Carne em Fusão; Cozinheiro: Roubo de Vida"
+				"&6Gemas:&r Senhor do Sangue Voraz mítica; Rompimento; Guardião"
+				"&6Magias:&r Parada Cardíaca, Agulhas de Sangue, Contrafeitiço"
+				"&6Encantos:&r Afiação V, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Parada Cardíaca em quem se cura; Véu da Noite entre as janelas"
+			]
+			icon: "simplyswords:runic_sai"
+			id: "7716C8A78B994F6C"
+			rewards: [
+				{
+					id: "2E63F3A2D8ABB332"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Mordida Venenosa"
+			tasks: [
+				{
+					id: "2E35C41792A89861"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6743C5AE351A40A8"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "7044611508B18172"
+					item: "simplyswords:runic_sai"
+					type: "item"
+				}
+				{
+					id: "57F87D157F3F611E"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/blood_lord"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Rubro Silêncio"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7716C8A78B994F6C"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Adaga do Último Suspiro, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Negro (Ice and Fire)"
+				"&6Armas:&r Sai Rúnico com afixo épico+"
+				"&6Acessórios:&r Cachecol da Invisibilidade + Anel de Invisibilidade + Luva Vampírica"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Alquimista: fecha Dano de Veneno e Praga Alastradora"
+				"&6Gemas:&r Senhor do Sangue Voraz e Rompimento míticas; Esplendor"
+				"&6Magias:&r Parada Cardíaca, Agulhas de Sangue, Acupuntura, Contrafeitiço"
+				"&6Encantos:&r Afiação V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Banquete Real, Frasco de Cura Maior"
+				"&aRotação:&r Tudo sangrando e envenenado antes da janela do Rei Partido; a Marca Mortal fecha"
+			]
+			icon: "iceandfire:armor_black_chestplate"
+			id: "04BB85610FA0ED81"
+			rewards: [
+				{
+					id: "214B47235E5B25D1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "025CE7A0A0F26E7B"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Mordida Venenosa"
+			tasks: [
+				{
+					id: "0F7B5F4B92F3AA3F"
+					item: {
+						Count: 1b
+						id: "gurizes:adaga_do_ultimo_suspiro"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4A2212591FD48BFF"
+					item: "iceandfire:armor_black_chestplate"
+					type: "item"
+				}
+				{
+					id: "3FF4243E8D88A11E"
+					item: "simplyswords:runic_sai"
+					type: "item"
+				}
+				{
+					id: "0666DA4891FB0CBA"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/blood_lord"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato VI: Veneno de Dragão"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Assassino"
+}

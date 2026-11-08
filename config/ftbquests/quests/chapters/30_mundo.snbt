@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:filled_map"
 	id: "3A1911EF02C5AA0C"
-	order_index: 34
+	order_index: 44
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

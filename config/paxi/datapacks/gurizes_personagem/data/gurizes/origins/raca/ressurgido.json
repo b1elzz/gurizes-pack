@@ -5,7 +5,7 @@
     "item": "gurizes:emblema_raca_ressurgido"
   },
   "impact": 3,
-  "order": 16,
+  "order": 15,
   "powers": [
     "gurizes:raca/ressurgido/carne_morta",
     "gurizes:raca/ressurgido/carne_morta_imune",

@@ -5,7 +5,7 @@
 	group: "4B7C29A84FC2FC08"
 	icon: "minecraft:crossbow"
 	id: "7A0F0A4EC3B48359"
-	order_index: 32
+	order_index: 42
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

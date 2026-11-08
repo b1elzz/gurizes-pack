@@ -1,0 +1,21 @@
+{
+  "name": "§6Valquíria",
+  "description": "§o§fEscolhidas de Brava, que buscam os bravos caídos para o salão do céu. Voam de verdade, mas a asa cansa.",
+  "icon": {
+    "item": "gurizes:emblema_raca_valquiria"
+  },
+  "impact": 3,
+  "order": 17,
+  "powers": [
+    "gurizes:raca/valquiria/asas_da_escolhida",
+    "gurizes:raca/valquiria/mergulho_da_lanca",
+    "gurizes:raca/valquiria/pouso_sereno",
+    "gurizes:raca/valquiria/asas_expostas",
+    "gurizes:raca/valquiria/golpe_no_voo",
+    "gurizes:raca/valquiria/vigor",
+    "gurizes:raca/valquiria/vigor_gasto",
+    "gurizes:raca/valquiria/vigor_volta",
+    "gurizes:raca/valquiria/rastro_de_luz",
+    "gurizes:raca/valquiria/registro"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "origins:self_action_when_hit",
+  "hidden": true,
+  "cooldown": 10,
+  "condition": {
+    "type": "apoli:creative_flying"
+  },
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "gurizes:raca/valquiria/vigor",
+    "change": -25
+  }
+}

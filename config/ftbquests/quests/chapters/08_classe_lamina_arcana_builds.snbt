@@ -1,0 +1,897 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08_classe_lamina_arcana_builds"
+	group: "1C6D4DEFEA67D157"
+	icon: "gurizes:lamina_runica"
+	id: "19BCD631B659A02A"
+	order_index: 23
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1619290B50ADFFBA"]
+			description: [
+				"&oA espada abre a guarda. A magia termina o serviço."
+				""
+				"&6Escolhas:&r Humano (ou Elarim) · Nymara (ou Kaelum) · Profissão Encantador"
+				"&6Árvore:&r Cozinheiro: Dano de Ataque ×3, Dano Corpo a Corpo, Vida Máxima. Alquimista do Ato III: Dano de Projétil > Dano Mágico ×3"
+				"{@pagebreak}"
+				"&6Como joga:&r Corta três vezes, solta a magia imbuída na Lâmina Rúnica e sai. Cada golpe devolve mana, então a luta não para."
+				"&6Em grupo:&r Dano flexível, troca de alvo rápido. Recebe mais dano de magia: precisa de cura (Druida) e de um tanque na frente."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:lamina_runica"
+			id: "0E0F397D4B3AC33F"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 1 · híbrido de raio e evocação"
+			tasks: [
+				{
+					id: "3078CF77249E1A5F"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Runa e Aço"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E0F397D4B3AC33F"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Lâmina Rúnica, Forma I (depois do Galvar)"
+				"&6Armadura:&r cota de malha (média)"
+				"&6Armas:&r Espada Longa de Ferro (Simply Swords)"
+				"&6Acessórios:&r Anel de Mana"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano de Ataque ×3 > Picante!; Vida Máxima ×2"
+				"&6Gemas:&r Samurai na arma; Foco de Raio no peito"
+				"&6Magias:&r Golpe de Presas, Carga, Escudo"
+				"&6Encantos:&r Afiação II, Inquebrável II, Proteção II"
+				"&6Consumíveis:&r Kit de cura, Tônico de Mana, 8 bifes"
+				"&aRotação:&r Investida Voltaica (G) para entrar, três golpes, Golpe de Presas e saia"
+			]
+			icon: "simplyswords:iron_longsword"
+			id: "09FB796B38E671B6"
+			rewards: [
+				{
+					id: "34564870037609F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Runa e Aço"
+			tasks: [
+				{
+					id: "7AA3FC7C68B213BE"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6ED28F8F5958E8BD"
+					item: "magistuarmory:chainmail_chestplate"
+					type: "item"
+				}
+				{
+					id: "582B3F03FE464D7F"
+					item: "simplyswords:iron_longsword"
+					type: "item"
+				}
+				{
+					id: "413825156B6BBCA6"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Ferro e Faísca"
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09FB796B38E671B6"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Lâmina Rúnica, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Madeira de Ferro (Floresta Crepuscular) ou diamante"
+				"&6Armas:&r Espada Longa de Diamante"
+				"&6Acessórios:&r Anel de Mana + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Dano Corpo a Corpo ×3 > Corpo Saudável; Vida Máxima ×3"
+				"&6Gemas:&r Samurai na arma; Foco de Raio e Foco Arcano"
+				"&6Magias:&r Golpe de Presas, Carga, Escudo, Pressa"
+				"&6Encantos:&r Afiação III, Inquebrável III, Proteção III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Tônico de Mana"
+				"&aRotação:&r Carga antes da sequência; mantenha uma magia imbuída na lâmina para fechar"
+			]
+			icon: "simplyswords:diamond_longsword"
+			id: "3F5E3AB0034FAC88"
+			rewards: [
+				{
+					id: "3667735A2C7A04B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4AACD0F594567A9F"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Runa e Aço"
+			tasks: [
+				{
+					id: "5A0D89A4A4EA2B3D"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2969917938286CDE"
+					item: "twilightforest:ironwood_chestplate"
+					type: "item"
+				}
+				{
+					id: "24BD9A08819EEB08"
+					item: "simplyswords:diamond_longsword"
+					type: "item"
+				}
+				{
+					id: "0132F61E08F9977F"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Raio de Diamante"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F5E3AB0034FAC88"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Lâmina Rúnica, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Eletromante (runa de raio + Essência Arcana)"
+				"&6Armas:&r Katana de Diamante com afixo raro; 2 magias imbuídas na Forma III"
+				"&6Acessórios:&r Anel de Mana + Anel de Recuperação + Anel de Afinidade com Raio"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano de Projétil > Dano Mágico ×3 > Campo Antimágica"
+				"&6Gemas:&r Senhor da Guerra na arma; Foco de Raio e Foco do Tempo"
+				"&6Magias:&r Golpes Ecoantes, Contrafeitiço, Lança Relâmpago"
+				"&6Encantos:&r Afiação IV, Inquebrável III"
+				"&6Consumíveis:&r Tônico de Mana, Frasco de Cura em Grupo"
+				"&aRotação:&r Golpes Ecoantes antes da sequência; Contrafeitiço em boss que conjura; magia imbuída no fim"
+			]
+			icon: "irons_spellbooks:electromancer_chestplate"
+			id: "500D7C70F74F2A4A"
+			rewards: [
+				{
+					id: "4188EEF41D0C9997"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Runa e Aço"
+			tasks: [
+				{
+					id: "04E6D54223CF0357"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "72E176F5D417C4C2"
+					item: "irons_spellbooks:electromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "49821AFF13FA170B"
+					item: "simplyswords:diamond_katana"
+					type: "item"
+				}
+				{
+					id: "6BBC9563EE3C461A"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_raio"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Eletromante"
+			x: 8.100000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["500D7C70F74F2A4A"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Lâmina Rúnica, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Mago Guerreiro de Netherita (Iron's), leve o bastante"
+				"&6Armas:&r Espada Longa de Netherita com afixos épicos"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Raio + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Dano Mágico completo; Vida Máxima > Mutação"
+				"&6Gemas:&r Senhor da Guerra e Samurai épicas; Foco de Raio; Foco do Tempo"
+				"&6Magias:&r Lança Relâmpago, Golpes Ecoantes, Contrafeitiço"
+				"&6Encantos:&r Afiação V, Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Lança do Trovão (H) na abertura de vulnerabilidade, depois sequência corpo a corpo"
+			]
+			icon: "minecraft:netherite_chestplate"
+			id: "31D3E1AA3645B7FE"
+			rewards: [
+				{
+					id: "5D738D0CF31AE1B3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2EB907D414869486"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Runa e Aço"
+			tasks: [
+				{
+					id: "13FFE4215AC6B41B"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "58F717DAFE64AF4A"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "79DE62269BBE6BC4"
+					item: "simplyswords:netherite_longsword"
+					type: "item"
+				}
+				{
+					id: "5362E12E11FD126B"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_tempo"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Aço Negro"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31D3E1AA3645B7FE"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Lâmina Rúnica, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Mago Guerreiro de Netherita com afixos híbridos"
+				"&6Armas:&r Espada Longa Rúnica; 3 magias imbuídas na Forma V"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Raio + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: o resto de Dano de Ataque; Alquimista: o resto de Dano Mágico"
+				"&6Gemas:&r Samurai e Senhor da Guerra míticas; Foco de Raio"
+				"&6Magias:&r Corrente de Raios, Esfera de Raio, Lança Relâmpago"
+				"&6Encantos:&r Afiação V, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Corrente de Raios nos adds; golpes recuperam mana: nunca pare de bater"
+			]
+			icon: "simplyswords:runic_longsword"
+			id: "4A43DC92C066E125"
+			rewards: [
+				{
+					id: "401908DDFA095F78"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 1 · Runa e Aço"
+			tasks: [
+				{
+					id: "51E0A0DBA4CC11CA"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "72ACC1643AEF6AE6"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "0B86BBA8EDFEB1A0"
+					item: "simplyswords:runic_longsword"
+					type: "item"
+				}
+				{
+					id: "2C02047A5C3E0E24"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_raio"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Runa Viva"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A43DC92C066E125"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Lâmina Rúnica, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Elétrico (Ice and Fire)"
+				"&6Armas:&r Espada Longa Rúnica com afixo épico+"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Raio + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: fecha Picante!; Alquimista: Incineração se quiser fogo"
+				"&6Gemas:&r Samurai e Senhor da Guerra míticas; Foco de Raio; Esplendor"
+				"&6Magias:&r Corrente de Raios, Esfera de Raio, Lança Relâmpago, Golpes Ecoantes"
+				"&6Encantos:&r Afiação V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Lança do Trovão na janela do Rei Partido e sequência rápida logo depois"
+			]
+			icon: "iceandfire:armor_electric_chestplate"
+			id: "0C77BD0108DEB74A"
+			rewards: [
+				{
+					id: "084BC64578218215"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3839B736754207A3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 1 · Runa e Aço"
+			tasks: [
+				{
+					id: "5900995E0E516B3B"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "42D449E44B8D8BDF"
+					item: "iceandfire:armor_electric_chestplate"
+					type: "item"
+				}
+				{
+					id: "6FD6E1678FFFCB8F"
+					item: "simplyswords:runic_longsword"
+					type: "item"
+				}
+				{
+					id: "6F35814273223B2D"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Tempestade de Aço"
+			x: 16.200000000000003d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1619290B50ADFFBA"]
+			description: [
+				"&oQuem corta onde o inimigo já não está não precisa de escudo."
+				""
+				"&6Escolhas:&r Elarim (ou Humano) · Kaelum · Profissão Mercador"
+				"&6Árvore:&r Cozinheiro: Dano de Ataque, Dano Corpo a Corpo, Cura ao Atingir. Caçador: Elusividade (velocidade ao agachar) se usar couro"
+				"{@pagebreak}"
+				"&6Como joga:&r Teleporta com Golpes Ecoantes, anula a conjuração do boss com Contrafeitiço e sai com Evasão antes do golpe."
+				"&6Em grupo:&r Dano de duelo contra boss que conjura. Precisa de cura; o Bardo dá a recarga de que ele vive."
+				""
+				"&7Seis passos, um por ato. Marque quando decidir seguir esta build; as tarefas dos atos só pedem ter a peça, nada é gasto."
+			]
+			icon: "gurizes:lamina_runica"
+			id: "023D0F639B48723D"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&dBuild 2 · duelista de Ender"
+			tasks: [
+				{
+					id: "0196FE9F157E9E62"
+					title: "Vou seguir esta build"
+					type: "checkmark"
+				}
+			]
+			title: "Fio do Vazio"
+			x: 0.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["023D0F639B48723D"]
+			description: [
+				"&7Afixos até Incomum · encantos até II"
+				"&6Assinatura:&r Lâmina Rúnica, Forma I (depois do Galvar)"
+				"&6Armadura:&r cota de malha ou couro"
+				"&6Armas:&r Katana de Ferro (Simply Swords)"
+				"&6Acessórios:&r Anel de Mana"
+				"{@pagebreak}"
+				"&6Árvore:&r ~12 pts: Cozinheiro: Dano de Ataque ×3; Vida Máxima ×2"
+				"&6Gemas:&r Samurai na arma; Foco Arcano no elmo"
+				"&6Magias:&r Golpe de Presas, Evasão"
+				"&6Encantos:&r Afiação II, Inquebrável II"
+				"&6Consumíveis:&r Kit de cura, Tônico de Mana"
+				"&aRotação:&r Investida Voltaica (G) para entrar; Evasão antes do golpe do Galvar; contra-ataque"
+			]
+			icon: "simplyswords:iron_katana"
+			id: "18C2EB35DB404F92"
+			rewards: [
+				{
+					id: "676B3C6C21275F73"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Fio do Vazio"
+			tasks: [
+				{
+					id: "639F74F73D9B79B0"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4646686445BB4D53"
+					item: "magistuarmory:chainmail_chestplate"
+					type: "item"
+				}
+				{
+					id: "48745F81AF990C63"
+					item: "simplyswords:iron_katana"
+					type: "item"
+				}
+				{
+					id: "0A604C4A0D3637D9"
+					item: "irons_spellbooks:copper_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato I: Katana Curta"
+			x: 2.7d
+			y: 4.4d
+		}
+		{
+			dependencies: ["18C2EB35DB404F92"]
+			description: [
+				"&7Afixos até Incomum · encantos até III"
+				"&6Assinatura:&r Lâmina Rúnica, Forma II (depois do porteiro do Ato II)"
+				"&6Armadura:&r Andarilho das Sombras (runa de Ender)"
+				"&6Armas:&r Katana de Diamante"
+				"&6Acessórios:&r Anel de Mana + Anel de Recuperação"
+				"{@pagebreak}"
+				"&6Árvore:&r ~25 pts: Cozinheiro: Dano Corpo a Corpo ×3; Vida Máxima ×3"
+				"&6Gemas:&r Samurai na arma; Foco de Ender; Deslize nas botas"
+				"&6Magias:&r Golpe de Presas, Evasão, Escudo"
+				"&6Encantos:&r Afiação III, Inquebrável III, Proteção III"
+				"&6Consumíveis:&r Frasco de Cura em Grupo, Elixir de Evasão"
+				"&aRotação:&r Evasão antes do golpe pesado; entre pelas costas; Escudo se errar o tempo"
+			]
+			icon: "simplyswords:diamond_katana"
+			id: "20A782A75E6152D9"
+			rewards: [
+				{
+					id: "7C747CDEAB301862"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4E437DD5402850A6"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Fio do Vazio"
+			tasks: [
+				{
+					id: "45C5CCD702A817EE"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "26DE4DDFBE8AFB5F"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "5E08D2C6A63DA067"
+					item: "simplyswords:diamond_katana"
+					type: "item"
+				}
+				{
+					id: "335B3D7B7BB6B7D4"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato II: Lâmina de Ender"
+			x: 5.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["20A782A75E6152D9"]
+			description: [
+				"&7Afixos até Raro · encantos até IV"
+				"&6Assinatura:&r Lâmina Rúnica, Forma III (depois do porteiro do Ato III)"
+				"&6Armadura:&r Andarilho das Sombras completo"
+				"&6Armas:&r Katana de Diamante com afixo raro"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Ender + Anel de Invisibilidade"
+				"{@pagebreak}"
+				"&6Árvore:&r ~42 pts: Alquimista: Dano de Projétil > Dano Mágico ×3 > Campo Antimágica"
+				"&6Gemas:&r Senhor da Guerra; Foco de Ender em 3 peças; Foco do Tempo"
+				"&6Magias:&r Golpes Ecoantes, Contrafeitiço, Evasão"
+				"&6Encantos:&r Afiação IV, Inquebrável III"
+				"&6Consumíveis:&r Tônico de Mana, Elixir de Evasão"
+				"&aRotação:&r Contrafeitiço no Kharzul quando ele conjura; Golpes Ecoantes + sequência; Evasão para sair"
+			]
+			icon: "simplyswords:diamond_katana"
+			id: "26EAD05C70746517"
+			rewards: [
+				{
+					id: "126F091B82EE2506"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Fio do Vazio"
+			tasks: [
+				{
+					id: "196DF9B705566F58"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6A25E11C24FE00A8"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "26A3EBD9C71DC4FB"
+					item: "simplyswords:diamond_katana"
+					type: "item"
+				}
+				{
+					id: "19806E10D4407F2F"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_ender"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato III: Fio Eco"
+			x: 8.100000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["26EAD05C70746517"]
+			description: [
+				"&7Afixos até Épico · encantos até V"
+				"&6Assinatura:&r Lâmina Rúnica, Forma IV (depois do porteiro do Ato IV)"
+				"&6Armadura:&r Mago Guerreiro de Netherita (leve)"
+				"&6Armas:&r Katana de Netherita"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Ender + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~60 pts: Alquimista: Dano Mágico completo; Vida Máxima > Mutação"
+				"&6Gemas:&r Senhor da Guerra épica; Foco de Ender épicas; Samurai"
+				"&6Magias:&r Golpes Ecoantes, Contrafeitiço, Evasão, Teletransporte"
+				"&6Encantos:&r Afiação V, Proteção V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Lança do Trovão (H) na janela; Contrafeitiço corta o golpe mágico do boss"
+			]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "336F6311A46E5048"
+			rewards: [
+				{
+					id: "090DBC62E9BEAE29"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0415C2F7521C22C3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Fio do Vazio"
+			tasks: [
+				{
+					id: "662B3FFD867E3CA0"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 4
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "449A5572F1E0584E"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "3F77428753CAD5B1"
+					item: "simplyswords:netherite_katana"
+					type: "item"
+				}
+				{
+					id: "3098AD02E224CE57"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_ender"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato IV: Vazio de Netherita"
+			x: 10.8d
+			y: 4.4d
+		}
+		{
+			dependencies: ["336F6311A46E5048"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Lâmina Rúnica, Forma V (depois do porteiro do Ato V)"
+				"&6Armadura:&r Mago Guerreiro de Netherita com afixos"
+				"&6Armas:&r Katana Rúnica"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Ender + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~80 pts: Cozinheiro: o resto de Dano de Ataque; Alquimista: o resto de Dano Mágico"
+				"&6Gemas:&r Samurai e Senhor da Guerra míticas; Foco de Ender"
+				"&6Magias:&r Golpes Ecoantes, Contrafeitiço, Buraco Negro"
+				"&6Encantos:&r Afiação V, Proteção V"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Contrafeitiço + Golpes Ecoantes em ciclo; Buraco Negro no meio dos adds"
+			]
+			icon: "simplyswords:runic_katana"
+			id: "59C1495773501A0D"
+			rewards: [
+				{
+					id: "13DA17260F7D02BA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dBuild 2 · Fio do Vazio"
+			tasks: [
+				{
+					id: "7356941DC94F45E5"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "576D98229225020C"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "72A5B1A672B1759D"
+					item: "simplyswords:runic_katana"
+					type: "item"
+				}
+				{
+					id: "013342B10E4CBDB2"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:gurizes/foco_ender"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Ato V: Katana Rúnica"
+			x: 13.5d
+			y: 4.4d
+		}
+		{
+			dependencies: ["59C1495773501A0D"]
+			description: [
+				"&7Afixos até Mítico · encantos até o máximo"
+				"&6Assinatura:&r Lâmina Rúnica, Forma V (Ascendida no pós-jogo) (depois do porteiro do Ato VI)"
+				"&6Armadura:&r escamas de Dragão Branco (Ice and Fire)"
+				"&6Armas:&r Katana Rúnica com afixo épico+"
+				"&6Acessórios:&r Anel de Recuperação + Anel de Afinidade com Ender + Talismã Maior do Conjurador"
+				"{@pagebreak}"
+				"&6Árvore:&r ~100 pts: Cozinheiro: fecha Dano Corpo a Corpo e Vida Máxima"
+				"&6Gemas:&r Samurai e Senhor da Guerra míticas; Foco de Ender; Esplendor"
+				"&6Magias:&r Golpes Ecoantes, Contrafeitiço, Buraco Negro, Evasão"
+				"&6Encantos:&r Afiação V, Remendo"
+				"&6Consumíveis:&r Elixir do Herói, Tônico de Mana, Banquete Real"
+				"&aRotação:&r Lança do Trovão na janela do Rei Partido; Evasão no golpe fatal"
+			]
+			icon: "iceandfire:armor_white_chestplate"
+			id: "253E0AE14061BAFE"
+			rewards: [
+				{
+					id: "330C41D12140E365"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5A0379514E598261"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&dBuild 2 · Fio do Vazio"
+			tasks: [
+				{
+					id: "504CD5C8211C9FC3"
+					item: {
+						Count: 1b
+						id: "gurizes:lamina_runica"
+						tag: {
+							"gurizes:forma": 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1E9B5A371A7783F5"
+					item: "iceandfire:armor_white_chestplate"
+					type: "item"
+				}
+				{
+					id: "385CC7DAF39DDBA0"
+					item: "simplyswords:runic_katana"
+					type: "item"
+				}
+				{
+					id: "0D9A4EDF50B3BBF1"
+					item: "irons_spellbooks:netherite_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ato VI: Dragão Branco"
+			x: 16.200000000000003d
+			y: 4.4d
+		}
+	]
+	subtitle: ["Duas builds, do Ato I ao VI"]
+	title: "Builds: Lâmina Arcana"
+}

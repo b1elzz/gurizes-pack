@@ -5,7 +5,7 @@
 	group: "2AB7CEEE2B2349D1"
 	icon: "gurizes:moeda_ouro"
 	id: "2C504532A7FA6F50"
-	order_index: 39
+	order_index: 49
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
