@@ -62,16 +62,6 @@ GURIZES_ENC_LISTA.forEach(enc => GURIZES_ENC_TETO.forEach(par =>
   global.gurizesTentar(`trava de encantamento ${enc} ${par[0]}`, () =>
     AStages.addRestrictionForEnchant(`gurizes/enc/${enc.split(':')[1]}_${par[0]}`, par[0], enc, 'great', par[1]))))
 
-;[['rare', 'ato_3'], ['epic', 'ato_4'], ['mythic', 'ato_5'], ['ancient', 'ng_1']].forEach(par => {
-  const raridade = par[0]
-  const estagio = par[1]
-  global.gurizesTentar(`trava de raridade ${raridade}`, () => {
-    const r = AStages.addRestrictionForPredicate(`gurizes/raridade/${raridade}`, estagio, `gurizes:raridade_${raridade}`)
-    global.gurizesTentar('allowPickup', () => r.allowPickup())
-    global.gurizesTentar('allowInventoryStorage', () => r.allowInventoryStorage())
-    global.gurizesTentar('allowContainerStorage', () => r.allowContainerStorage())
-    global.gurizesTentar('globalShowName', () => r.globalShowName())
-    global.gurizesTentar('tooltipMessage', () => r.tooltipMessage(stack =>
-      Text.of(estagio === 'ng_1' ? 'Poder Antigo: libera no Juramento Renovado' : `Raridade selada: libera no Ato ${GURIZES_ATO_TXT[estagio]}`).gold()))
-  })
-})
+// A trava de raridade do Apotheosis (Raro no Ato III, Épico no IV, Mítico no V, Antigo no NG+ 1) saiu daqui em 08/11.
+// A restrição por predicado do AStages derrubava o cliente: NPE em AClientItemPredicateRestriction.isRestricted ao
+// mostrar qualquer tooltip, porque o modelo do predicado some do registro do cliente. Vai para o SealLock do mod.

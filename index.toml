@@ -2105,10 +2105,6 @@ file = "kubejs/assets/twilightforest/lang/pt_pt.json"
 hash = "90cf6041fa5446a1ae56b5b070424e9a21503e4ac85cdab8f22b7819e9ec0e84"
 
 [[files]]
-file = "kubejs/client_scripts/progressao/predicados.js"
-hash = "0ec4070b70c4cbf1dc788b2d97cd765c27c2f10ef5e9e3c5e1dfb8b88ad2dc5c"
-
-[[files]]
 file = "kubejs/server_scripts/ftbquests/tarefas_custom.js"
 hash = "fe4d9b5864616ea82b7c0d7cfc1454ee5e710ffe08acc4a653a1c5673a7e6d73"
 
@@ -2129,12 +2125,8 @@ file = "kubejs/server_scripts/progressao/10_tags_trava.js"
 hash = "b8e8d0090bb180b6e51e9543863819dd7d6afab6d4fe6607314f02e67b05d326"
 
 [[files]]
-file = "kubejs/server_scripts/progressao/15_predicados.js"
-hash = "4e7ac1899acccf4b353088c21eb957eed37e278bccd46199240e89ac60373f05"
-
-[[files]]
 file = "kubejs/server_scripts/progressao/20_travas.js"
-hash = "8e222878fc1ec76e52cbf6d0b73d8c847eef7742bf5d9bf6aabfc48156a32a4e"
+hash = "e8a46bbcc7c496b98fa61f52ad32d91504f65b60fae980a7361caf7f9c59e492"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/30_porteiros.js"
