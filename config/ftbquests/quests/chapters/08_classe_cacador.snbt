@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:arco_de_valdren"
 	id: "13949029DED624C7"
-	order_index: 13
+	order_index: 16
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -214,7 +214,7 @@
 		{
 			dependencies: ["141190DB3036F7F9", "6775D7C16128112A"]
 			description: [
-				"Sir Galvar resiste a projéteis de frente: dê a volta e atire nas costas, de trás dos pilares."
+				"Sir Xavier Siri Galvar resiste a projéteis de frente: dê a volta e atire nas costas, de trás dos pilares."
 				"Veneno não pega nele; guarde o Disparo Venenoso para outra hora."
 				"Marque quando estiver pronto para a Cripta."
 			]

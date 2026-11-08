@@ -5,20 +5,17 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:anvil"
 	id: "501A5B4F51D80BBA"
-	order_index: 20
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4DDB3E9E6F0CC55F"]
 			description: [
-				"Você escolheu o ofício Ferreiro. Repara o que o grupo quebra e afia o que o grupo usa."
-				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+				"Ferreiro é uma profissão aberta a todos: não há escolha. Repara o que o grupo quebra e afia o que o grupo usa."
+				"As receitas ficam na bancada comum, para qualquer jogador."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:anvil"
 			id: "23412FE98EDAFBD6"
-			invisible: true
-			invisible_until_tasks: 1
 			rewards: [
 				{
 					id: "7785301B82EAB602"
@@ -30,10 +27,8 @@
 			size: 1.25d
 			tasks: [
 				{
-					advancement: "gurizes:interno/oficio_ferreiro"
-					criterion: ""
 					id: "06E04CEB620474F6"
-					type: "advancement"
+					type: "checkmark"
 				}
 			]
 			title: "Aprendiz de Ferreiro"
@@ -43,7 +38,6 @@
 		{
 			dependencies: ["23412FE98EDAFBD6"]
 			description: ["Faça o primeiro Kit de Reparo de Campo."]
-			hide_until_deps_visible: true
 			icon: "gurizes:kit_de_reparo"
 			id: "1CD2E1F96A462594"
 			rewards: [
@@ -67,7 +61,6 @@
 		{
 			dependencies: ["1CD2E1F96A462594"]
 			description: ["Faça a primeira Pedra de Amolar."]
-			hide_until_deps_visible: true
 			icon: "gurizes:pedra_de_amolar"
 			id: "241B0D593AF89A4E"
 			rewards: [
@@ -91,9 +84,8 @@
 		{
 			dependencies: ["241B0D593AF89A4E", "1F82201E3EE0EE78"]
 			description: [
-				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:anvil"
 			id: "1908E7E663E14C38"
 			rewards: [
@@ -119,7 +111,6 @@
 		{
 			dependencies: ["1908E7E663E14C38"]
 			description: ["Faça o primeiro Óleo de Têmpera."]
-			hide_until_deps_visible: true
 			icon: "gurizes:oleo_de_tempera"
 			id: "6612F36032219938"
 			rewards: [
@@ -144,7 +135,6 @@
 		{
 			dependencies: ["6612F36032219938"]
 			description: ["Faça o primeiro Kit de Reparo Superior."]
-			hide_until_deps_visible: true
 			icon: "gurizes:kit_de_reparo_superior"
 			id: "30C864C8FA92CCB9"
 			rewards: [
@@ -167,6 +157,6 @@
 			y: 2.8d
 		}
 	]
-	subtitle: ["Só aparece para quem tem este ofício"]
-	title: "Ofício: Ferreiro"
+	subtitle: ["Aberta a todos; Mestre no Ato III"]
+	title: "Profissão: Ferreiro"
 }

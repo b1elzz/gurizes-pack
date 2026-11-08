@@ -1,0 +1,305 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "09_guia_como_funciona"
+	group: "16A9D409E972219F"
+	icon: "minecraft:book"
+	id: "1070A56C942A48B4"
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"\"Todo herói novo morre de uma de duas coisas: de bicho ou de falta de informação. Eu cuido da segunda. Leia as páginas na ordem que quiser; ninguém faz prova.\""
+				"&7- Capitã Isolde"
+				"Cada página explica um sistema do pack em poucas linhas. O Equipamento do Ato I e as Armas-assinatura estão nas abas ao lado."
+				"&eDica:&r volte aqui sempre que algo estranho aparecer no tooltip ou no nome de um mob."
+			]
+			icon: "minecraft:book"
+			id: "52D5E77C5743EFF7"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&bComo funciona"
+			tasks: [
+				{
+					id: "50D347434EAFAFA5"
+					type: "checkmark"
+				}
+			]
+			title: "Guia do Juramentado"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"\"O Selo dos Sete se partiu em seis pedaços, e cada porteiro que cai refaz um deles.\""
+				"&7- Capitã Isolde"
+				"A campanha tem seis atos. Itens fortes demais para o ato atual trazem a marca &6Selado pelo Juramento&r: você guarda, mas só usa quando o ato deles chegar."
+				"O ato vale para o servidor inteiro, não para cada jogador."
+				"&eDica:&r diamante, por exemplo, só vira ferramenta e armadura depois do porteiro do Ato I. Minerar e guardar pode."
+			]
+			icon: "gurizes:selo_refeito"
+			id: "2AC456564E527DA5"
+			rewards: [
+				{
+					id: "48007D1340B71BD6"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "29D9E686DCC0F47A"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Atos e Selos"
+			x: 0.0d
+			y: -4.6d
+		}
+		{
+			description: [
+				"\"Leia o número em cima da cabeça do bicho antes de brigar com ele. É o nível.\""
+				"&7- Capitã Isolde"
+				"O nível sobe com a distância do spawn (cerca de 1 a cada 200 blocos), com a profundidade das cavernas e com o ato em que o grupo está."
+				"Perto do Pouso é manso. Longe, é outra conversa."
+				"&eDica:&r se o nível do mob é bem maior que o do seu equipamento, volte um passo: o mundo não foge."
+			]
+			icon: "minecraft:zombie_head"
+			id: "16270929D8FB7E13"
+			rewards: [
+				{
+					id: "49181DF6489A2214"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "32DFE5D22B11A127"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Nível dos Mobs"
+			x: 2.96d
+			y: -3.52d
+		}
+		{
+			description: [
+				"\"Todo herói cai. Os bons voltam para buscar a mochila.\""
+				"&7- Capitã Isolde"
+				"Ao morrer, seus itens ficam numa cova no lugar da morte e o XP continua com você. A Bússola da Cova aponta o caminho, e qualquer pessoa do grupo pode abri-la."
+				"Com pressa? Pague níveis de XP na tela de morte (a Oferenda a Vesperis) e resgate na hora, por até 5 minutos. No Ato I custa uns 8 níveis; resgatar de novo em 30 minutos sai mais caro."
+				"&eDica:&r em arena de boss a cova nasce no marco seguro da arena, e o resgate só libera quando a luta acaba."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "144E91C17F84F84A"
+			rewards: [
+				{
+					id: "0B064F71F586B02E"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2A73615E8348E167"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Cova e Resgate"
+			x: 4.53d
+			y: -0.8d
+		}
+		{
+			description: [
+				"\"Moeda não compra coragem, mas compra poção, e poção compra coragem.\""
+				"&7- Capitã Isolde"
+				"9 moedas de bronze viram 1 de prata, e 9 de prata viram 1 de ouro (na bancada, sem perda). Elas caem de quests, bosses e contratos."
+				"Gaste no Mercador da Coroa (aba Base e Comércio): curas, comida, a caixa de Espólio de cada ato e atalhos."
+				"&eDica:&r guarde ouro para a Vela, o Espelho e o Tomo: eles trocam Bênção, Raça e Classe, uma troca por ato."
+			]
+			icon: "gurizes:moeda_prata"
+			id: "1D853C375F82ACA6"
+			rewards: [
+				{
+					id: "3CE05CD010E967D2"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3C7C06E67ED41CAF"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Moedas e Loja"
+			x: 3.98d
+			y: 2.3d
+		}
+		{
+			description: [
+				"\"Ninguém nasce herói. Aprende ponto a ponto, galho a galho.\""
+				"&7- Capitã Isolde"
+				"Abra a Árvore de Passivas (a tecla está em Controles). Cada ponto vem de XP; o Pergaminho da Sabedoria (2 de prata no Mercador) dá mais um, e o da Amnésia (5 de prata) refaz a árvore."
+				"&eDica:&r a sua classe diz por qual ramo começar: veja a página dela na aba Sua Classe."
+			]
+			icon: "skilltree:wisdom_scroll"
+			id: "78F1A18D063FC2CE"
+			rewards: [
+				{
+					id: "3E4187AD38324500"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "20459F41826BCD9E"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Árvore de Passivas"
+			x: 1.57d
+			y: 4.32d
+		}
+		{
+			description: [
+				"\"Magia não é truque, é caligrafia com consequências.\""
+				"&7- Capitã Isolde"
+				"Coloque um livro de magias no slot de Curios, grave pergaminhos nele na Mesa de Inscrição e lance com a tecla de magia. A mana regenera sozinha, e cada classe tem as suas escolas."
+				"&eDica:&r o Livro de Cobre se faz com 2 lingotes de cobre, 1 barbante e 4 papéis."
+			]
+			icon: "irons_spellbooks:copper_spell_book"
+			id: "7AF2811127292FCE"
+			rewards: [
+				{
+					id: "354776AAE6DAA691"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4DC5780A85A3D162"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Magia (Iron's)"
+			x: -1.57d
+			y: 4.32d
+		}
+		{
+			description: [
+				"\"Aparar é bater o escudo no golpe e deixar o bicho pensar no que fez.\""
+				"&7- Capitã Isolde"
+				"Erga o escudo (botão direito) no último instante antes do golpe. Aparar solta fagulhas, empurra o inimigo e, nos bosses, enche a barra de Postura deles."
+				"Vale para golpes de corpo a corpo de mobs e bosses; não vale para flecha, explosão nem jogador."
+				"&eDica:&r qualquer escudo serve, mas o do Primeiro Cavaleiro (cai do Galvar) aumenta a janela do aparo em 30%."
+			]
+			icon: "minecraft:shield"
+			id: "5031BDC9E6317AAE"
+			rewards: [
+				{
+					id: "6EA02D9AC330BBAE"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "754561FC2E269AB6"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Aparar"
+			x: -3.98d
+			y: 2.3d
+		}
+		{
+			description: [
+				"\"Os meus bosses têm a decência de avisar. Aprenda a ler.\""
+				"&7- Capitã Isolde"
+				"&6Dourado&r: golpe forte, apare ou saia da frente. &cVermelho&r: área no chão, saia ou pule. &5Roxo&r: poder da Coroa, pule ou fuja. &bCiano&r: o boss ficou aberto, ataque!"
+				"&eDica:&r depois de uma Investida ou de um Salto as costas do boss ficam expostas por um instante: golpe por trás dói mais e enche a Postura."
+			]
+			icon: "minecraft:redstone"
+			id: "3E4AB2914F0C1FD4"
+			rewards: [
+				{
+					id: "0BD31040115B1B7F"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1AF1DF6E2F95E0B7"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Cores dos Avisos"
+			x: -4.53d
+			y: -0.8d
+		}
+		{
+			description: [
+				"\"Sozinho é bonito. Em grupo é permitido.\""
+				"&7- Capitã Isolde"
+				"Os bosses ficam mais fortes com o grupo: vida ×2,1 com 2 jogadores, ×3,2 com 3 e ×4,3 com 4, e o dano e a armadura sobem um pouco. Ninguém se fere sem querer: não existe fogo amigo fora do Coliseu."
+				"O progresso das quests é do time, a cova abre para os colegas e o ato é do servidor."
+				"&eDica:&r crie o time (FTB Teams) antes do primeiro boss: o golpe final de qualquer um conta para todos."
+			]
+			icon: "minecraft:player_head"
+			id: "5677B029822EBCAC"
+			rewards: [
+				{
+					id: "7F0F254D01C07531"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3B4629EB420DF823"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Grupo"
+			x: -2.96d
+			y: -3.52d
+		}
+	]
+	subtitle: ["Os sistemas do pack, uma página cada"]
+	title: "Como funciona"
+}

@@ -17,7 +17,6 @@
 				"e a raridade Antiga do Apotheosis libera. A campanha não é apagada."
 				"&cO comando vale para o servidor inteiro: combinem antes."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:selo_refeito"
 			id: "50B280E714D744B8"
 			rewards: [
@@ -46,7 +45,6 @@
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Vença de novo o porteiro do Ato I no ciclo 1."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coroa_votiva"
 			id: "397FBBCEE4AB1166"
 			rewards: [
@@ -67,14 +65,13 @@
 					type: "advancement"
 				}
 			]
-			title: "Sir Galvar (Ciclo 1)"
+			title: "Sir Xavier Siri Galvar (Ciclo 1)"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Vença de novo o porteiro do Ato II no ciclo 1."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_de_seiva"
 			id: "6086AEC8011401F9"
 			rewards: [
@@ -102,7 +99,6 @@
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Vença de novo o porteiro do Ato III no ciclo 1."]
-			hide_until_deps_visible: true
 			icon: "gurizes:brasa_primordial"
 			id: "5645FD27E6D1A3BF"
 			rewards: [
@@ -130,7 +126,6 @@
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Vença de novo o porteiro do Ato IV no ciclo 1."]
-			hide_until_deps_visible: true
 			icon: "gurizes:concha_da_tempestade"
 			id: "315B48A116F3709B"
 			rewards: [
@@ -158,7 +153,6 @@
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Vença de novo o porteiro do Ato V no ciclo 1."]
-			hide_until_deps_visible: true
 			icon: "gurizes:lente_estelar"
 			id: "2EBA056599D2684B"
 			rewards: [
@@ -186,7 +180,6 @@
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Vença de novo o porteiro do Ato VI no ciclo 1."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_do_selo"
 			id: "1382C2414181AAEC"
 			rewards: [
@@ -218,9 +211,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "meetyourfight:violet_bloom"
 			id: "4A989023BC1B0C3D"
 			optional: true
@@ -242,9 +234,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "twilightforest:hydra_trophy"
 			id: "24289563D2CB8DD4"
 			optional: true
@@ -266,9 +257,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "aquamirae:shell_horn"
 			id: "5CA3F80291B7A972"
 			optional: true
@@ -290,9 +280,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "mowziesmobs:ice_crystal"
 			id: "397688975BA9FC7F"
 			optional: true
@@ -314,9 +303,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "aether:sun_altar"
 			id: "69C5E79FFC9EF005"
 			optional: true
@@ -338,9 +326,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
 			id: "4D588668C716DDDC"
 			optional: true
@@ -362,9 +349,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "irons_spellbooks:blood_staff"
 			id: "240EA51C14520D01"
 			optional: true
@@ -386,9 +372,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "minecraft:splash_potion"
 			id: "208861C9A5E68CFC"
 			optional: true
@@ -410,9 +395,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "45DECF9AB2B36CAC"
 			optional: true
@@ -434,9 +418,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "6AB373C831200959"
 			optional: true
@@ -458,9 +441,8 @@
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "iceandfire:dragon_skull_fire"
 			id: "5B764BB5CDA76D8F"
 			optional: true
@@ -494,9 +476,8 @@
 				"6AB373C831200959"
 				"5B764BB5CDA76D8F"
 			]
-			description: ["Três Deuses Errantes vencidos neste ciclo."]
+			description: ["Três Deuses do Panteão vencidos neste ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "5AB20F670E46B7BD"
 			min_required_dependencies: 3
@@ -534,7 +515,6 @@
 				"&cO comando vale para o servidor inteiro: combinem antes."
 			]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			icon: "gurizes:selo_refeito"
 			id: "17BAA3077E1AC463"
 			rewards: [
@@ -563,7 +543,6 @@
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Vença de novo o porteiro do Ato I no ciclo 2."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coroa_votiva"
 			id: "74D77194A833D772"
 			rewards: [
@@ -584,14 +563,13 @@
 					type: "advancement"
 				}
 			]
-			title: "Sir Galvar (Ciclo 2)"
+			title: "Sir Xavier Siri Galvar (Ciclo 2)"
 			x: 4.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Vença de novo o porteiro do Ato II no ciclo 2."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_de_seiva"
 			id: "0FC775197B66A549"
 			rewards: [
@@ -619,7 +597,6 @@
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Vença de novo o porteiro do Ato III no ciclo 2."]
-			hide_until_deps_visible: true
 			icon: "gurizes:brasa_primordial"
 			id: "00413BE1F718F05F"
 			rewards: [
@@ -647,7 +624,6 @@
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Vença de novo o porteiro do Ato IV no ciclo 2."]
-			hide_until_deps_visible: true
 			icon: "gurizes:concha_da_tempestade"
 			id: "4DA46516A6CEB968"
 			rewards: [
@@ -675,7 +651,6 @@
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Vença de novo o porteiro do Ato V no ciclo 2."]
-			hide_until_deps_visible: true
 			icon: "gurizes:lente_estelar"
 			id: "392933DA2C43B3B7"
 			rewards: [
@@ -703,7 +678,6 @@
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Vença de novo o porteiro do Ato VI no ciclo 2."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_do_selo"
 			id: "58B3DC1D9A45209A"
 			rewards: [
@@ -735,9 +709,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "meetyourfight:violet_bloom"
 			id: "43B9A2225CDBC616"
 			optional: true
@@ -759,9 +732,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "twilightforest:hydra_trophy"
 			id: "588671423EE5159C"
 			optional: true
@@ -783,9 +755,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "aquamirae:shell_horn"
 			id: "4E397C19D75DBE14"
 			optional: true
@@ -807,9 +778,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "mowziesmobs:ice_crystal"
 			id: "15992FFDFB82CCF8"
 			optional: true
@@ -831,9 +801,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "aether:sun_altar"
 			id: "5C74A74B12B085D7"
 			optional: true
@@ -855,9 +824,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
 			id: "5B33476C47183FBD"
 			optional: true
@@ -879,9 +847,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "irons_spellbooks:blood_staff"
 			id: "0C24BD8651F592AC"
 			optional: true
@@ -903,9 +870,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "minecraft:splash_potion"
 			id: "67E2FF07CF8067C4"
 			optional: true
@@ -927,9 +893,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "5DD5AA8275CD589A"
 			optional: true
@@ -951,9 +916,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "73C0E35A5E4EEBAE"
 			optional: true
@@ -975,9 +939,8 @@
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "iceandfire:dragon_skull_fire"
 			id: "1180370ABECD7425"
 			optional: true
@@ -1011,9 +974,8 @@
 				"73C0E35A5E4EEBAE"
 				"1180370ABECD7425"
 			]
-			description: ["Três Deuses Errantes vencidos neste ciclo."]
+			description: ["Três Deuses do Panteão vencidos neste ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "3D172DE78C06F383"
 			min_required_dependencies: 3
@@ -1051,7 +1013,6 @@
 				"&cO comando vale para o servidor inteiro: combinem antes."
 			]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			icon: "gurizes:selo_refeito"
 			id: "57ABED10664DB4E0"
 			rewards: [
@@ -1080,7 +1041,6 @@
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Vença de novo o porteiro do Ato I no ciclo 3."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coroa_votiva"
 			id: "67F0E3D0B5C00719"
 			rewards: [
@@ -1101,14 +1061,13 @@
 					type: "advancement"
 				}
 			]
-			title: "Sir Galvar (Ciclo 3)"
+			title: "Sir Xavier Siri Galvar (Ciclo 3)"
 			x: 4.0d
 			y: 22.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Vença de novo o porteiro do Ato II no ciclo 3."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_de_seiva"
 			id: "74E3FB08E477B456"
 			rewards: [
@@ -1136,7 +1095,6 @@
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Vença de novo o porteiro do Ato III no ciclo 3."]
-			hide_until_deps_visible: true
 			icon: "gurizes:brasa_primordial"
 			id: "09644A460F88CFDE"
 			rewards: [
@@ -1164,7 +1122,6 @@
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Vença de novo o porteiro do Ato IV no ciclo 3."]
-			hide_until_deps_visible: true
 			icon: "gurizes:concha_da_tempestade"
 			id: "0AFD99DC4FD341D3"
 			rewards: [
@@ -1192,7 +1149,6 @@
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Vença de novo o porteiro do Ato V no ciclo 3."]
-			hide_until_deps_visible: true
 			icon: "gurizes:lente_estelar"
 			id: "67C4771244676FEA"
 			rewards: [
@@ -1220,7 +1176,6 @@
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Vença de novo o porteiro do Ato VI no ciclo 3."]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_do_selo"
 			id: "303A4BFC6778D3C2"
 			rewards: [
@@ -1252,9 +1207,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "meetyourfight:violet_bloom"
 			id: "5D49998FCE62A580"
 			optional: true
@@ -1276,9 +1230,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "twilightforest:hydra_trophy"
 			id: "7113506F825C325C"
 			optional: true
@@ -1300,9 +1253,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "aquamirae:shell_horn"
 			id: "7CA71F57918BF113"
 			optional: true
@@ -1324,9 +1276,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "mowziesmobs:ice_crystal"
 			id: "7B70019A1DE86AC1"
 			optional: true
@@ -1348,9 +1299,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "aether:sun_altar"
 			id: "51EFF26ED63BAB6E"
 			optional: true
@@ -1372,9 +1322,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
 			id: "70D9527249FA406A"
 			optional: true
@@ -1396,9 +1345,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "irons_spellbooks:blood_staff"
 			id: "301C3B8B0758E729"
 			optional: true
@@ -1420,9 +1368,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "minecraft:splash_potion"
 			id: "5238B2184FC42E67"
 			optional: true
@@ -1444,9 +1391,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "36A6CE7BC206F03E"
 			optional: true
@@ -1468,9 +1414,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "449332AB4787EA7B"
 			optional: true
@@ -1492,9 +1437,8 @@
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
-			description: ["Qualquer três Deuses Errantes valem para o ciclo."]
+			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "iceandfire:dragon_skull_fire"
 			id: "4FC90D490925F7DD"
 			optional: true
@@ -1528,9 +1472,8 @@
 				"449332AB4787EA7B"
 				"4FC90D490925F7DD"
 			]
-			description: ["Três Deuses Errantes vencidos neste ciclo."]
+			description: ["Três Deuses do Panteão vencidos neste ciclo."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "68A30966786FA573"
 			min_required_dependencies: 3

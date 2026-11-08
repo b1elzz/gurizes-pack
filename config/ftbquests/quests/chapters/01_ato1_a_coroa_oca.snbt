@@ -11,10 +11,11 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: [
-				"Armadura de ferro completa e comida na mochila."
-				"Sir Galvar não espera você terminar o lanche."
+				"\"Herói de barriga vazia é herói de curta carreira. Armadura de ferro, pão na mochila e uma panela de verdade no Pouso.\""
+				"&7- Capitã Isolde"
+				"O Pouso precisa de comida, abrigo e ferro antes de qualquer façanha. Sir Xavier Siri Galvar não espera você terminar o lanche."
+				"&eDica:&r a Panela de Cozinha (Farmer's Delight) faz pratos que alimentam mais que pão e dão bônus. Com a barra de comida vazia você não regenera vida."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:iron_chestplate"
 			id: "4EFB037441788980"
 			rewards: [
@@ -24,7 +25,15 @@
 					item: "gurizes:moeda_bronze"
 					type: "item"
 				}
+				{
+					id: "195D76E724EF732D"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Capítulo 1"
 			tasks: [
 				{
 					id: "4FB6A0A50D9607C4"
@@ -52,22 +61,280 @@
 					item: "minecraft:bread"
 					type: "item"
 				}
+				{
+					id: "4C3D796EB030AE9F"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
 			]
 			title: "Pão, Aço e Teto"
 			x: 0.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4EFB037441788980"]
 			description: [
-				"\"As masmorras antigas ainda guardam páginas da Crônica de Valdren. Traga duas."
-				"Se encontrar um esqueleto de armadura dourada lá dentro, não discuta com ele:"
-				"ele perdeu a discussão faz trezentos anos.\""
+				"\"A estrada é curta. O que vem pelo caminho, não. Ache a vila mais próxima, ative uma Waystone para nunca mais voltar a pé e converse (leia: barganhe) com um mercador.\""
 				"&7- Capitã Isolde"
+				"Vila, pedra de viagem e um comerciante: o mapa de Valdren começa a ficar menor."
+				"&eDica:&r o nível dos mobs sobe com a distância do spawn (o nome deles mostra o número). Waystones ativadas viram viagem de graça entre elas: clique direito para ativar."
 			]
-			hide_until_deps_visible: true
+			icon: "waystones:waystone"
+			id: "678E587D1F7A7AE8"
+			rewards: [
+				{
+					id: "4C89459EF3F10F12"
+					item: "gurizes:pergaminho_de_retorno"
+					type: "item"
+				}
+				{
+					id: "2D8002F148B4B6A1"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A5075ED911F804B"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Capítulo 2"
+			tasks: [
+				{
+					id: "671D5ADAA66285A7"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+				{
+					id: "6046C9B0D2F44C2E"
+					title: "Ativei uma Waystone"
+					type: "checkmark"
+				}
+				{
+					advancement: "minecraft:adventure/trade"
+					criterion: ""
+					id: "13840DD1F4C024EB"
+					type: "advancement"
+				}
+			]
+			title: "A Estrada de Valdren"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["678E587D1F7A7AE8"]
+			description: [
+				"\"Bandeira preta no topo de uma torre de madeira? Corte Partida. Esses pillagers juraram fidelidade a Morvhal e esqueceram o resto. Derrube o posto e traga a cabeça do capitão.\""
+				"&7- Capitã Isolde"
+				"A Corte Partida segue o rei que quebrou o Selo. O capitão de cada bando carrega a bandeira deles."
+				"&eDica:&r matar o capitão dá Mau Presságio: se você entrar numa vila com ele, começa uma invasão. Vá com o grupo, ou espere o efeito passar."
+			]
+			icon: "minecraft:crossbow"
+			id: "3615A358D6CA5D06"
+			rewards: [
+				{
+					id: "41967D6FE7B6709D"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_1"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "66AC221B685B5F20"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Capítulo 3"
+			tasks: [
+				{
+					advancement: "minecraft:adventure/voluntary_exile"
+					criterion: ""
+					id: "6FE029F60EF5A181"
+					type: "advancement"
+				}
+			]
+			title: "A Sombra da Corte"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3615A358D6CA5D06"]
+			description: [
+				"Uma sala de pedra musgosa com spawner e baús, escondida embaixo da terra."
+				"&eDica:&r visite qualquer duas das cinco rotas para fechar \"Ecos da Coroa\". Entrar na estrutura já vale."
+			]
+			icon: "minecraft:mossy_cobblestone"
+			id: "0B3ADBC7E9191DF4"
+			optional: true
+			rewards: [
+				{
+					id: "4D5CBF5B4950CBCC"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "&7Rota · opcional"
+			tasks: [
+				{
+					id: "16FF1FDAE92F298F"
+					structure: "#betterdungeons:better_dungeons"
+					type: "structure"
+				}
+			]
+			title: "Calabouço de Yung"
+			x: 9.0d
+			y: -3.6d
+		}
+		{
+			dependencies: ["3615A358D6CA5D06"]
+			description: [
+				"Galerias escavadas e esquecidas, com trilhos, teias e baús. Ouça os passos antes de entrar."
+				"&eDica:&r visite qualquer duas das cinco rotas para fechar \"Ecos da Coroa\". Entrar na estrutura já vale."
+			]
+			icon: "minecraft:rail"
+			id: "7968B8C605E061CB"
+			optional: true
+			rewards: [
+				{
+					id: "32063E1A3D52183B"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "&7Rota · opcional"
+			tasks: [
+				{
+					id: "228860C3142D3E33"
+					structure: "#bettermineshafts:better_mineshafts"
+					type: "structure"
+				}
+			]
+			title: "Mina Abandonada"
+			x: 9.0d
+			y: -1.8d
+		}
+		{
+			dependencies: ["3615A358D6CA5D06"]
+			description: [
+				"Uma capela em ruínas (Structory). Leve tochas: capela velha gosta de escuro."
+				"&eDica:&r visite qualquer duas das cinco rotas para fechar \"Ecos da Coroa\". Entrar na estrutura já vale."
+			]
+			icon: "minecraft:lectern"
+			id: "20E0517BE43A353C"
+			optional: true
+			rewards: [
+				{
+					id: "4B2E8A3BBC8A2A16"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "&7Rota · opcional"
+			tasks: [
+				{
+					id: "3BFD6B098416EA9F"
+					structure: "structory:abandoned_chapel"
+					type: "structure"
+				}
+			]
+			title: "Capela Abandonada"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3615A358D6CA5D06"]
+			description: [
+				"A maior das masmorras do pack (Dungeon Crawl): andares, armadilhas e um baú de verdade no fim."
+				"&eDica:&r visite qualquer duas das cinco rotas para fechar \"Ecos da Coroa\". Entrar na estrutura já vale."
+			]
+			icon: "minecraft:chiseled_stone_bricks"
+			id: "3AA5C37A6CE11C1A"
+			optional: true
+			rewards: [
+				{
+					id: "6FF4AD1403869830"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "&7Rota · opcional"
+			tasks: [
+				{
+					id: "5FE39B39BA3102B1"
+					structure: "dungeoncrawl:dungeon"
+					type: "structure"
+				}
+			]
+			title: "Masmorra Profunda"
+			x: 9.0d
+			y: 1.8d
+		}
+		{
+			dependencies: ["3615A358D6CA5D06"]
+			description: [
+				"Uma das torres do Structory Towers, de pedra, espalhadas pelo mundo."
+				"&eDica:&r visite qualquer duas das cinco rotas para fechar \"Ecos da Coroa\". Entrar na estrutura já vale."
+			]
+			icon: "minecraft:stone_bricks"
+			id: "61BE988A00F07FB7"
+			optional: true
+			rewards: [
+				{
+					id: "120BB02515362BD0"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "&7Rota · opcional"
+			tasks: [
+				{
+					id: "61FF2DF6E842FF2E"
+					structure: "#structory_towers:any_tower"
+					type: "structure"
+				}
+			]
+			title: "Torre de Vigia"
+			x: 9.0d
+			y: 3.6d
+		}
+		{
+			dependencies: [
+				"0B3ADBC7E9191DF4"
+				"7968B8C605E061CB"
+				"20E0517BE43A353C"
+				"3AA5C37A6CE11C1A"
+				"61BE988A00F07FB7"
+			]
+			description: [
+				"\"As masmorras antigas ainda guardam páginas da Crônica de Valdren. Traga duas. Se encontrar um esqueleto de armadura dourada lá dentro, não discuta com ele: ele perdeu a discussão faz trezentos anos.\""
+				"&7- Capitã Isolde"
+				"Explore duas das cinco masmorras ao lado e marque aqui para receber as Páginas 2 e 3 da Crônica."
+				"&eDica:&r baús de masmorra são Lootr: cada jogador abre o seu e ninguém perde saque. Achou diamante? Leia o tooltip: algumas peças vêm com a marca \"Selado pelo Juramento\"."
+			]
 			icon: "gurizes:pagina_cronica"
 			id: "0E86F641B290EC88"
+			min_required_dependencies: 2
 			rewards: [
 				{
 					count: 3
@@ -75,26 +342,145 @@
 					item: "gurizes:moeda_bronze"
 					type: "item"
 				}
+				{
+					id: "0C9CD28939D18AB2"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0777D6F3A2791B54"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_3"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6819DB5037BFCF42"
+					table_id: 267320392318009964L
+					type: "random"
+				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Capítulo 4"
 			tasks: [
 				{
-					count: 2L
 					id: "4316698BAD5FADB6"
-					item: "gurizes:pagina_cronica"
-					type: "item"
+					title: "Explorei duas rotas"
+					type: "checkmark"
 				}
 			]
 			title: "Ecos da Coroa"
-			x: 2.5d
-			y: 0.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0E86F641B290EC88"]
 			description: [
-				"Isolde entrega a Insígnia do Juramento e a Bússola do Selo."
-				"A bússola aponta para a arena do ato atual; a insígnia volta inteira da receita da Coroa Votiva."
+				"\"Escudo não é peso morto, Juramentado. É a melhor arma que você ainda não aprendeu a usar. Erga no instante exato em que o golpe chega e é o inimigo que se assusta.\""
+				"&7- Capitã Isolde"
+				"Apare 3 golpes de mobs com o escudo. Sir Xavier Siri Galvar vai testar exatamente isto."
+				"&eDica:&r segure o botão direito só no último instante: quem fica com o escudo erguido o tempo todo bloqueia, mas não apara. Fagulhas e um empurrão mostram que deu certo."
 			]
-			hide_until_deps_visible: true
+			icon: "minecraft:shield"
+			id: "10F760BAE4C95229"
+			rewards: [
+				{
+					id: "0B56C663A397BC8F"
+					item: "magistuarmory:iron_heatershield"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CAA83679115340F"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Capítulo 5"
+			tasks: [
+				{
+					advancement: "gurizes:combate/licao_de_escudo"
+					criterion: ""
+					id: "17244F1F654578F8"
+					type: "advancement"
+				}
+			]
+			title: "Lição de Escudo"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59E250CF4063B689"
+				"14143A46980161B8"
+				"5F6FB0CA25581170"
+				"1602A18BA38D9669"
+				"2525150E21FF53EC"
+			]
+			description: [
+				"\"Criaturas de outros reinos rondam Valdren: entraram pelas rachaduras do Selo e o povo as chama de deuses. Os Observadores de Kaelum preferem ‘semideuses’, porque deus não fica no chão quando apanha.\""
+				"&7- Capitã Isolde"
+				"Vença um dos cinco Semideuses do Panteão (aba ao lado) e traga a prova: a Página 4 da Crônica."
+				"&eDica:&r o mais fácil é o Swampjaw; o mais bruto, o Skor. Cada Semideus tem conquistas extras (Intocável, Sozinho, Relâmpago) na aba do Panteão."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:totem_of_undying"
+			id: "146E307019512D43"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "79417C27200FBA29"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_4"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C4F04B0C4A7103F"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Capítulo 6"
+			tasks: [
+				{
+					id: "0AF5341BC442018A"
+					title: "Venci um Semideus"
+					type: "checkmark"
+				}
+			]
+			title: "Os Semideuses da Estrada"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["146E307019512D43"]
+			description: [
+				"\"Quatro páginas, quatro pedaços de uma história que ninguém quis contar até o fim. Mostre as páginas e eu entrego a Insígnia do Juramento e a Bússola do Selo. Pode ficar com elas, eu já li.\""
+				"&7- Capitã Isolde"
+				"Com a Insígnia você é, oficialmente, um Juramentado de verdade. A bússola leva à porta do Primeiro Cavaleiro."
+				"&eDica:&r as Páginas não são gastas (clique direito para ler a Crônica). A Bússola do Selo aponta a arena do ato atual; a Insígnia volta inteira da receita da Coroa Votiva."
+			]
 			icon: "gurizes:insignia_do_juramento"
 			id: "4BB6AB1764E85F5B"
 			rewards: [
@@ -114,22 +500,75 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&6Capítulo 7"
 			tasks: [
 				{
 					id: "17FC4602BC51C43E"
-					type: "checkmark"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "310547DF799721A6"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "137522F864AF124F"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_3"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6FF29CE7B18022BF"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_4"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "A Insígnia"
-			x: 5.0d
-			y: 0.5d
+			x: 18.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4BB6AB1764E85F5B"]
 			description: [
-				"Crafte a Coroa Votiva: 5 lingotes de ferro, 2 de ouro, 1 vela e a Insígnia (devolvida)."
+				"\"O ritual das velas pede uma coroa feita com ferro jurado. Não precisa ser bonita. Precisa ser sincera.\""
+				"&7- Capitã Isolde"
+				"Crafte a Coroa Votiva: 5 lingotes de ferro, 2 de ouro, 1 vela e a Insígnia (ela volta inteira)."
+				"&eDica:&r guarde a Coroa: ela é a chave da Cripta e volta ao altar se o grupo inteiro cair. O Ferro Votivo, que vira a sua arma-assinatura, cai do Galvar."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:coroa_votiva"
 			id: "5027321C73D4D86D"
 			rewards: [
@@ -140,6 +579,9 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&6Capítulo 8"
 			tasks: [
 				{
 					id: "113DF30CC49FB054"
@@ -148,17 +590,82 @@
 				}
 			]
 			title: "A Coroa Votiva"
-			x: 7.5d
-			y: 3.0d
+			x: 15.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["5027321C73D4D86D"]
 			description: [
-				"\"Sir Galvar jurou guardar o trono do rei até a volta da Coroa. A Coroa nunca voltou, e ele continua de guarda. Acenda as quatro velas, ponha a Coroa Votiva no trono e deixe o velho cavaleiro descansar. Com a espada, se for preciso.\""
+				"\"Antes de bater à porta de um cavaleiro de trezentos anos, confira a mochila. Escudo, comida, poção e arma da sua classe. O Galvar não pausa para você achar o pão.\""
+				"&7- Capitã Isolde"
+				"Escudo, 8 bifes assados, 2 poções de cura e a sua arma de classe na mão. Precisa de ajuda com a lista? O Guia do Juramentado tem tudo."
+				"&eDica:&r marque a última tarefa quando tiver o equipamento da sua classe. Tudo o que o Ato I libera está em \"Equipamento do Ato I\", no Guia."
+			]
+			icon: "minecraft:golden_apple"
+			id: "0C5572DFC09850A8"
+			rewards: [
+				{
+					count: 2
+					id: "6E55123529FC3807"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Capítulo 9"
+			tasks: [
+				{
+					id: "20690980FFF637D4"
+					item: "minecraft:shield"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "764C13148AE4025E"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7BCDBAAC14EE5FAE"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "772D533D5A3A59A6"
+					title: "Tenho a arma da minha classe"
+					type: "checkmark"
+				}
+			]
+			title: "Preparação para a Cripta"
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C5572DFC09850A8"]
+			description: [
+				"\"Sir Xavier Siri Galvar jurou guardar o trono do rei até a volta da Coroa. A Coroa nunca voltou, e ele continua de guarda. Acenda as quatro velas, ponha a Coroa Votiva no trono e deixe o velho cavaleiro descansar. Com a espada, se for preciso.\""
 				""
-				"&6Como invocar:&r acenda as 4 velas da Cripta e use a Coroa Votiva no Trono Vazio (20 s de preparação)."
-				"&6Como vencer:&r bata pelas costas na fase 1 e use os pilares contra a Investida (ele fica atordoado). Na fase 2, pule o Pulso da Coroa e puna o pouso do Salto."
-				"&aFraquezas:&r machados (quebram a guarda), raio, alvo atordoado, costas na fase 1."
+				"&6Como invocar:&r acenda as 4 velas da Cripta e use a Coroa Votiva no Trono Vazio (15 s de preparação)."
+				"&6Como vencer:&r bata pelas costas na fase 1 e use os pilares contra a Investida (ele fica atordoado). Apare para encher a barra dourada de Postura: cheia, ele cai de joelho por 4,5 s e o primeiro golpe vira Misericórdia (10% da vida). Na fase 2, pule o Pulso da Coroa e puna o pouso do Salto. A fase 3 começa com uma falsa morte: combos de 6 golpes, mas uma abertura longa depois de cada um."
+				"&aFraquezas:&r machados (quebram a guarda), raio, alvo atordoado, costas na fase 1, Postura cheia."
 				"&cPontos fortes:&r imune a veneno e wither; resiste a sangue, fogo e projéteis de frente; invoca Escudeiros Ocos."
+				""
+				"&eDica:&r dourado: golpe forte, apare ou saia. Vermelho: área no chão, saia ou pule. Roxo: poder da Coroa, pule. Ciano: ele está aberto, ataque! As conquistas opcionais ao redor da Cripta valem prata."
 				""
 				"&7O boss escala com o grupo: vida ×2,1 com 2 jogadores e ×4,3 com 4."
 				"&7Ficha completa no wiki do pack."
@@ -187,7 +694,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "&6Porteiro"
+			subtitle: "&6Capítulo 10 · Porteiro"
 			tasks: [
 				{
 					advancement: "gurizes:campanha/ato_1_vencido"
@@ -197,10 +704,206 @@
 				}
 			]
 			title: "A Cripta do Primeiro Cavaleiro"
-			x: 10.5d
-			y: 3.0d
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Vença o Guardião da Coroa Oca sem nenhum participante morrer."
+				"&eDica:&r mantenha o escudo erguido nos golpes dourados e combinem quem cura quem."
+			]
+			icon: "minecraft:golden_chestplate"
+			id: "1137F955CEB6CAB3"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6B1DE978AA405B6A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:bosses/sem_dano_guardiao_coroa_oca"
+					criterion: ""
+					id: "1EF841ECF552505F"
+					type: "advancement"
+				}
+			]
+			title: "Nem Arranhou"
+			x: 4.12d
+			y: 8.23d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Apare 5 golpes de Sir Xavier Siri Galvar na mesma luta."
+				"&eDica:&r só os golpes dourados (Estocada, Juramento, Sentença) se aparam: erga o escudo no último instante."
+			]
+			icon: "minecraft:shield"
+			id: "3A27F703A176515F"
+			optional: true
+			rewards: [
+				{
+					id: "0CA58612B67907D3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:bosses/guarda_de_brava"
+					criterion: ""
+					id: "7C3EC77B56480B6B"
+					type: "advancement"
+				}
+			]
+			title: "Guarda de Brava"
+			x: 5.44d
+			y: 9.95d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Vença com um Golpe de Misericórdia como golpe final."
+				"&eDica:&r a Misericórdia tira 10% da vida: encha a Postura e deixe o Galvar baixo antes de ele cair de joelho."
+			]
+			icon: "minecraft:iron_sword"
+			id: "5A84CB4CABFB1B59"
+			optional: true
+			rewards: [
+				{
+					id: "491436B08A0C8CB3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:bosses/misericordia"
+					criterion: ""
+					id: "2156577D612BE104"
+					type: "advancement"
+				}
+			]
+			title: "Misericórdia"
+			x: 7.5d
+			y: 10.6d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Vença sem nenhum item encantado equipado ou na mão."
+				"&eDica:&r tire os encantamentos da armadura, das armas e do escudo (a mão secundária também conta)."
+			]
+			icon: "minecraft:iron_ingot"
+			id: "0EF7A31C9E1F6A72"
+			optional: true
+			rewards: [
+				{
+					id: "56AC19C8B3A59505"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:bosses/so_o_ferro"
+					criterion: ""
+					id: "1264094110BF12B7"
+					type: "advancement"
+				}
+			]
+			title: "Só o Ferro"
+			x: 9.56d
+			y: 9.95d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"Vença em grupo (2 ou mais) sem nenhuma morte."
+				"&eDica:&r quem cai fora da jogada tira a conquista de todos: segurem o ritmo e resgatem dentro da luta."
+			]
+			icon: "minecraft:white_banner"
+			id: "61D44FB9845792FA"
+			optional: true
+			rewards: [
+				{
+					id: "1789F18D82B2E7F8"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:bosses/juramento_cumprido"
+					criterion: ""
+					id: "3A58DF4BCE5455E4"
+					type: "advancement"
+				}
+			]
+			title: "Juramento Cumprido"
+			x: 10.88d
+			y: 8.23d
+		}
+		{
+			dependencies: ["5B17AA16DD0A5BEC"]
+			description: [
+				"\"Ele me entregou isto ao cair, sem armadura e sem cerimônia. Morvhal prometeu voltar com a Coroa e nunca voltou. Leia a última página, Juramentado. Depois a gente conversa sobre o que fazer com a verdade.\""
+				"&7- Capitã Isolde"
+				"O Galvar, livre, deixou cair a Página 5 da Crônica: \"A Coroa era oca desde o começo\". Ler abre a prévia do Ato II."
+				"&eDica:&r a Página 5 cai do próprio Galvar para cada jogador (quem estava offline recebe ao entrar). Clique direito nela para ler."
+			]
+			icon: "gurizes:pagina_cronica"
+			id: "4B661A2F9FAC21F8"
+			rewards: [
+				{
+					count: 2
+					id: "426E03482D1729E0"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&6Capítulo 11"
+			tasks: [
+				{
+					id: "1990E32816E637CB"
+					item: {
+						Count: 1b
+						id: "gurizes:pagina_cronica"
+						tag: {
+							"gurizes:cronica": "ato1_5"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "A Página Final"
+			x: 2.5d
+			y: 7.0d
 		}
 	]
-	subtitle: ["Porteiro: Sir Galvar"]
+	subtitle: ["Onze capítulos até o Primeiro Cavaleiro"]
 	title: "Ato I: A Coroa Oca"
 }

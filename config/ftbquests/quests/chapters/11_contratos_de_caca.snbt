@@ -5,98 +5,10 @@
 	group: "4B7C29A84FC2FC08"
 	icon: "minecraft:crossbow"
 	id: "7A0F0A4EC3B48359"
-	order_index: 27
+	order_index: 32
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["3484B276FE312BD7"]
-			description: [
-				"&6Onde:&r o Sino Assombrado do Meet Your Fight chama o Bellringer (receita no JEI)."
-				"&6Nível recomendado:&r 12"
-				"&eDica:&r ele golpeia em arcos largos e lentos: esquive para o lado e bata logo depois do golpe."
-			]
-			hide_until_deps_complete: true
-			icon: "meetyourfight:haunted_bell"
-			id: "59E250CF4063B689"
-			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "736C984B142D2E6E"
-					item: "gurizes:moeda_bronze"
-					type: "item"
-				}
-				{
-					id: "0664FD88B186DAD4"
-					item: "gurizes:espolio_ato_1"
-					type: "item"
-				}
-				{
-					id: "716F65FCE671BD45"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "circle"
-			size: 1.0d
-			subtitle: "&7Opcional · Ato I"
-			tasks: [
-				{
-					entity: "meetyourfight:bellringer"
-					id: "20149DC7B99832A4"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Bellringer"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3484B276FE312BD7"]
-			description: [
-				"&6Onde:&r a Isca de Fóssil do Meet Your Fight, usada num pântano, chama o Swampjaw (receita no JEI)."
-				"&6Nível recomendado:&r 12"
-				"&eDica:&r não brigue dentro d'água, onde ele é mais rápido: fique em terra firme e bata quando ele investe."
-			]
-			hide_until_deps_complete: true
-			icon: "meetyourfight:fossil_bait"
-			id: "14143A46980161B8"
-			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "7496C1472E8292D7"
-					item: "gurizes:moeda_bronze"
-					type: "item"
-				}
-				{
-					id: "69A493F25275A1A6"
-					item: "gurizes:espolio_ato_1"
-					type: "item"
-				}
-				{
-					id: "085E2D02F8980B6B"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "circle"
-			size: 1.0d
-			subtitle: "&7Opcional · Ato I"
-			tasks: [
-				{
-					entity: "meetyourfight:swampjaw"
-					id: "2810B34D9515DF8B"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Swampjaw"
-			x: 2.4d
-			y: 0.0d
-		}
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: [
@@ -104,7 +16,6 @@
 				"&6Nível recomendado:&r 10"
 				"&eDica:&r encoste as costas numa parede para a matilha não te cercar e derrube o Líder primeiro."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:bone"
 			id: "084540A48202EE48"
 			optional: true
@@ -138,7 +49,7 @@
 				}
 			]
 			title: "Líder dos Cães Sombrios"
-			x: 4.8d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -148,7 +59,6 @@
 				"&6Nível recomendado:&r 10"
 				"&eDica:&r mate o Evocador primeiro, que invoca presas e vexes; o Devastador demora para virar."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:totem_of_undying"
 			id: "730E7B316FE9FC4D"
 			optional: true
@@ -188,7 +98,7 @@
 				}
 			]
 			title: "A Invasão"
-			x: 7.2d
+			x: 2.4d
 			y: 0.0d
 		}
 		{
@@ -198,7 +108,6 @@
 				"&6Nível recomendado:&r 25"
 				"&eDica:&r espere o machado descer, esquive e bata pelas costas; escudo segura o golpe de cima."
 			]
-			hide_until_deps_complete: true
 			icon: "mowziesmobs:wrought_axe"
 			id: "00E57F0809CE438D"
 			optional: true
@@ -242,7 +151,6 @@
 				"&6Nível recomendado:&r 28"
 				"&eDica:&r saia do chão marcado assim que ele acende: é onde cai o raio de sol."
 			]
-			hide_until_deps_complete: true
 			icon: "mowziesmobs:sol_visage"
 			id: "7A7B50A5275676DE"
 			optional: true
@@ -286,7 +194,6 @@
 				"&6Nível recomendado:&r 25"
 				"&eDica:&r o mod recomenda equipamento de diamante; lute em campo aberto e não pare de se mover."
 			]
-			hide_until_deps_complete: true
 			icon: "meetyourfight:devils_ante"
 			id: "73D99BAEB1D57612"
 			optional: true
@@ -330,7 +237,6 @@
 				"&6Nível recomendado:&r 28"
 				"&eDica:&r espinhos brotam do chão sob os seus pés: nunca fique parado e bata nela entre as ondas."
 			]
-			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "7B2E4C13AE2614DC"
 			optional: true
@@ -374,7 +280,6 @@
 				"&6Nível recomendado:&r 15"
 				"&eDica:&r ela investe em linha reta: use pilares para desviar e golpeie quando ela passa."
 			]
-			hide_until_deps_complete: true
 			icon: "twilightforest:naga_trophy"
 			id: "42655AADDC603FC3"
 			optional: true
@@ -418,7 +323,6 @@
 				"&6Nível recomendado:&r 20"
 				"&eDica:&r rebata as bolas de magia com um golpe para devolver o dano e destrua os clones primeiro."
 			]
-			hide_until_deps_complete: true
 			icon: "twilightforest:lich_trophy"
 			id: "4DD38AEC0845C3B5"
 			optional: true
@@ -462,7 +366,6 @@
 				"&6Nível recomendado:&r 25"
 				"&eDica:&r esquive do machado e ataque logo depois do golpe de cima; não lute nos corredores estreitos."
 			]
-			hide_until_deps_complete: true
 			icon: "twilightforest:diamond_minotaur_axe"
 			id: "2D740EE4D7A6D3CF"
 			optional: true
@@ -506,7 +409,6 @@
 				"&6Nível recomendado:&r 25"
 				"&eDica:&r o laser dá Fadiga de Mineração: leve leite e Respiração Aquática, e ataque quando ele recarrega."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:prismarine_shard"
 			id: "34A1448C97DB1669"
 			optional: true
@@ -550,7 +452,6 @@
 				"&6Nível recomendado:&r 25"
 				"&eDica:&r ele conjura presas e escudos: derrube-o primeiro e fuja da linha das presas."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:totem_of_undying"
 			id: "5829FEC7A2EB35D1"
 			optional: true
@@ -594,7 +495,6 @@
 				"&6Nível recomendado:&r 25"
 				"&eDica:&r ele levanta esqueletos sem parar: quebre a linha de visão e ataque o invocador, não a horda."
 			]
-			hide_until_deps_complete: true
 			icon: "born_in_chaos_v1:bonescaller_staff"
 			id: "264657CEF5E99FE6"
 			optional: true
@@ -638,7 +538,6 @@
 				"&6Nível recomendado:&r 40"
 				"&eDica:&r Resistência ao Fogo ajuda muito; saia da frente quando ele carregar o golpe."
 			]
-			hide_until_deps_complete: true
 			icon: "cataclysm:flame_eye"
 			id: "31C50ECA9458826D"
 			optional: true
@@ -681,7 +580,6 @@
 				"&6Nível recomendado:&r 40"
 				"&eDica:&r ele é lento mas bate pesado e cospe lava: mantenha distância média e circule."
 			]
-			hide_until_deps_complete: true
 			icon: "cataclysm:monstrous_eye"
 			id: "7048C8425C233F18"
 			optional: true
@@ -724,7 +622,6 @@
 				"&6Nível recomendado:&r 42"
 				"&eDica:&r ele alterna punhos e raios: fique em movimento e bata quando o escudo cai."
 			]
-			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "512FED4609B465F8"
 			optional: true
@@ -767,7 +664,6 @@
 				"&6Nível recomendado:&r 45"
 				"&eDica:&r lute num túnel de dois blocos de altura para ele não te cercar, e leve arco."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:nether_star"
 			id: "028E09719DBB01A3"
 			optional: true
@@ -810,7 +706,6 @@
 				"&6Nível recomendado:&r 35 (só dano)"
 				"&eDica:&r ele investe em linha reta: saia da frente e bata com picareta quando ele para."
 			]
-			hide_until_deps_complete: true
 			icon: "aether:golden_feather"
 			id: "478DE87BE6EF5FC1"
 			optional: true
@@ -853,7 +748,6 @@
 				"&6Nível recomendado:&r 40 (só dano)"
 				"&eDica:&r ela fica vulnerável depois de cada rodada de golpes: leve poções de cura e bata nessa janela."
 			]
-			hide_until_deps_complete: true
 			icon: "aether:valkyrie_lance"
 			id: "5B74C42DA1F48CDD"
 			optional: true
@@ -896,7 +790,6 @@
 				"&6Nível recomendado:&r 35"
 				"&eDica:&r Resistência ao Fogo; aproveite a pausa em que ele recarrega para golpear."
 			]
-			hide_until_deps_complete: true
 			icon: "cataclysm:bulwark_of_the_flame"
 			id: "5A43B59744DE8BF7"
 			optional: true
@@ -939,7 +832,6 @@
 				"&6Nível recomendado:&r 55"
 				"&eDica:&r ele desperta quando você chega ao centro: deixe espaço livre e esquive das investidas e das areias."
 			]
-			hide_until_deps_complete: true
 			icon: "cataclysm:desert_eye"
 			id: "6CE960679228F33C"
 			optional: true
@@ -982,7 +874,6 @@
 				"&6Nível recomendado:&r 58"
 				"&eDica:&r use cobertura contra lasers e mísseis e ataque quando ele pousa."
 			]
-			hide_until_deps_complete: true
 			icon: "cataclysm:mech_eye"
 			id: "5F09FDCA169D11FE"
 			optional: true
@@ -1025,7 +916,6 @@
 				"&6Nível recomendado:&r 60"
 				"&eDica:&r não deixe os espectros te cercarem: derrube-os e bata quando o Maledictus termina o golpe."
 			]
-			hide_until_deps_complete: true
 			icon: "cataclysm:cursed_eye"
 			id: "5636DD3CEDECC85D"
 			optional: true
@@ -1068,7 +958,6 @@
 				"&6Nível recomendado:&r 55"
 				"&eDica:&r ele é cego e sente vibrações: agache, lance um item para distraí-lo e não corra."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:echo_shard"
 			id: "414BDE2D9FD40328"
 			optional: true
@@ -1111,7 +1000,6 @@
 				"&6Nível recomendado:&r 55"
 				"&eDica:&r derrube os lacaios que ele invoca e bata quando ele para para conjurar."
 			]
-			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:soul_star"
 			id: "4428895C7B3B3089"
 			optional: true
@@ -1154,7 +1042,6 @@
 				"&6Nível recomendado:&r 45"
 				"&eDica:&r ela chama filhotes: elimine-os primeiro para não ser cercado."
 			]
-			hide_until_deps_complete: true
 			icon: "aquamirae:maze_rose"
 			id: "0C554DCD7E86D7FA"
 			optional: true
@@ -1197,7 +1084,6 @@
 				"&6Nível recomendado:&r 45"
 				"&eDica:&r Resistência ao Fogo; destrua os cristais da torre antes de atacar o Ur-Ghast."
 			]
-			hide_until_deps_complete: true
 			icon: "twilightforest:fiery_tears"
 			id: "6487310F8D257B92"
 			optional: true
@@ -1240,7 +1126,6 @@
 				"&6Nível recomendado:&r 50"
 				"&eDica:&r ela congela o chão e atira gelo: quebre os cristais dela e leve fogo."
 			]
-			hide_until_deps_complete: true
 			icon: "twilightforest:ice_bow"
 			id: "15E01CC2A10DC091"
 			optional: true
@@ -1283,7 +1168,6 @@
 				"&6Nível recomendado:&r 40"
 				"&eDica:&r ele pula e derruba: mantenha distância média e use arco antes de entrar no corpo a corpo."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:snowball"
 			id: "6B56122F0C0D08FC"
 			optional: true
@@ -1326,7 +1210,6 @@
 				"&6Nível recomendado:&r 70"
 				"&eDica:&r não pare de se mover: os ataques dele são em área e acompanham seu passo."
 			]
-			hide_until_deps_complete: true
 			icon: "cataclysm:void_eye"
 			id: "42957D56FCE14B8B"
 			optional: true
@@ -1369,7 +1252,6 @@
 				"&6Nível recomendado:&r 60"
 				"&eDica:&r destrua os cristais primeiro com arco e bata no dragão quando ele pousa no portal."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:dragon_head"
 			id: "483947780C287BD8"
 			optional: true
@@ -1412,7 +1294,6 @@
 				"&6Nível recomendado:&r 75 a 85"
 				"&eDica:&r Resistência ao Fogo e água por perto; bata quando ele pousa, com armas de gelo ou de osso de dragão."
 			]
-			hide_until_deps_complete: true
 			icon: "iceandfire:dragon_skull_fire"
 			id: "08752693015F4637"
 			optional: true
@@ -1456,7 +1337,6 @@
 				"&6Nível recomendado:&r 75 a 85"
 				"&eDica:&r o sopro congela e prende: leve Resistência ao Fogo e armas de fogo, e não fique parado."
 			]
-			hide_until_deps_complete: true
 			icon: "iceandfire:dragon_skull_ice"
 			id: "4CE23A59F4FC3B11"
 			optional: true
@@ -1500,7 +1380,6 @@
 				"&6Nível recomendado:&r 75 a 85"
 				"&eDica:&r o raio cai em linha: mova-se de lado e bata quando ele pousa."
 			]
-			hide_until_deps_complete: true
 			icon: "iceandfire:dragon_skull_lightning"
 			id: "3CBB862AABE917F5"
 			optional: true

@@ -3,15 +3,17 @@
 	default_quest_shape: ""
 	filename: "19_seu_oficio"
 	group: "4DA834C500C67B4B"
-	icon: "gurizes:contrato_de_guilda"
+	icon: "minecraft:anvil"
 	id: "6C6001363699D0FA"
-	order_index: 19
+	order_index: 22
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4DDB3E9E6F0CC55F"]
 			description: [
-				"O ofício faz o que ninguém mais do grupo faz: itens que servem a todos e só você sabe fazer."
+				"Seis profissões, todas abertas a todos: não há escolha, cada jogador faz o que quiser."
+				"Cada uma tem a sua página ao lado. O nível de Mestre abre com o porteiro do Ato III."
 				""
 				"&eFerreiro&r: Repara o que o grupo quebra e afia o que o grupo usa."
 				"&eAlquimista&r: Frascos de cura em grupo, tônicos e óleos de lâmina."
@@ -19,28 +21,23 @@
 				"&eExplorador&r: Acha masmorras e leva o grupo de volta para casa."
 				"&eMercador&r: Descontos com os aldeões, faro para moedas e a Caravana."
 				"&eEncantador&r: Tinta rara, livro do esquecimento e, como Mestre, sigilos e tinta épica."
-				""
-				"Depois de escolher, a página do seu ofício aparece na lista ao lado. Só a sua."
 			]
-			icon: "gurizes:contrato_de_guilda"
+			icon: "minecraft:anvil"
 			id: "467E40E0600E466F"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "&6Passo 2"
 			tasks: [
 				{
-					advancement: "gurizes:tutorial/camadas_escolhidas"
-					criterion: ""
 					id: "3539501164769ADA"
-					type: "advancement"
+					type: "checkmark"
 				}
 			]
-			title: "Escolha seu Ofício"
+			title: "Profissões de Valdren"
 			x: 0.0d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Escolha de ofício"]
-	title: "Seu Ofício"
+	subtitle: ["Abertas a todos"]
+	title: "Profissões"
 }

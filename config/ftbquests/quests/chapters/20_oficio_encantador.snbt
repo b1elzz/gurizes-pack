@@ -5,20 +5,17 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:enchanting_table"
 	id: "5F0CA7A32C98C6D7"
-	order_index: 25
+	order_index: 28
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4DDB3E9E6F0CC55F"]
 			description: [
-				"Você escolheu o ofício Encantador. Tinta rara, livro do esquecimento e, como Mestre, sigilos e tinta épica."
-				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+				"Encantador é uma profissão aberta a todos: não há escolha. Tinta rara, livro do esquecimento e, como Mestre, sigilos e tinta épica."
+				"As receitas ficam na bancada comum, para qualquer jogador."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:enchanting_table"
 			id: "4E55A64D212F06ED"
-			invisible: true
-			invisible_until_tasks: 1
 			rewards: [
 				{
 					id: "76C16128D02156A4"
@@ -30,10 +27,8 @@
 			size: 1.25d
 			tasks: [
 				{
-					advancement: "gurizes:interno/oficio_encantador"
-					criterion: ""
 					id: "4ED5A4A258C5E492"
-					type: "advancement"
+					type: "checkmark"
 				}
 			]
 			title: "Aprendiz de Encantador"
@@ -43,7 +38,6 @@
 		{
 			dependencies: ["4E55A64D212F06ED"]
 			description: ["Faça o primeiro Livro do Esquecimento."]
-			hide_until_deps_visible: true
 			icon: "gurizes:livro_do_esquecimento"
 			id: "559BAD5CED94432E"
 			rewards: [
@@ -66,8 +60,7 @@
 		}
 		{
 			dependencies: ["559BAD5CED94432E"]
-			description: ["Converta tinta incomum em Tinta Rara (receita do ofício)."]
-			hide_until_deps_visible: true
+			description: ["Converta tinta incomum em Tinta Rara."]
 			icon: "irons_spellbooks:rare_ink"
 			id: "007103B403E470BE"
 			rewards: [
@@ -91,9 +84,8 @@
 		{
 			dependencies: ["007103B403E470BE", "1F82201E3EE0EE78"]
 			description: [
-				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:enchanting_table"
 			id: "4B4C145CF1D37A98"
 			rewards: [
@@ -119,7 +111,6 @@
 		{
 			dependencies: ["4B4C145CF1D37A98"]
 			description: ["Faça o primeiro Sigilo de Encaixe pela receita de Mestre."]
-			hide_until_deps_visible: true
 			icon: "apotheosis:sigil_of_socketing"
 			id: "3012E1F96215638C"
 			rewards: [
@@ -144,7 +135,6 @@
 		{
 			dependencies: ["3012E1F96215638C"]
 			description: ["Faça a primeira Tinta Épica pela receita de Mestre."]
-			hide_until_deps_visible: true
 			icon: "irons_spellbooks:epic_ink"
 			id: "727F24616276D4CE"
 			rewards: [
@@ -167,6 +157,6 @@
 			y: 2.8d
 		}
 	]
-	subtitle: ["Só aparece para quem tem este ofício"]
-	title: "Ofício: Encantador"
+	subtitle: ["Aberta a todos; Mestre no Ato III"]
+	title: "Profissão: Encantador"
 }

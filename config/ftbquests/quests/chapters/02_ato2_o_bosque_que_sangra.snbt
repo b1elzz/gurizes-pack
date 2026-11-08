@@ -15,7 +15,6 @@
 				"Junte oito frascos para a Irmã Ramalda e lave as mãos depois.\""
 				"Mobs de floresta escura, pântano e mangue deixam cair Seiva Corrompida."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:seiva_corrompida"
 			id: "66BA44D77F2851FF"
 			rewards: [
@@ -44,7 +43,6 @@
 				"O Círculo de Tellura se esconde nas florestas escuras."
 				"Encontre a Irmã Ramalda na mata fechada."
 			]
-			hide_until_deps_visible: true
 			icon: "minecraft:dark_oak_sapling"
 			id: "6FC661A5E4A44E80"
 			rewards: [
@@ -72,7 +70,6 @@
 				"Os Brotos do Círculo precisam de mudas e de farinha de osso para curar a terra."
 				"Em troca, Ramalda entrega o &eSelo de Tellura&r."
 			]
-			hide_until_deps_visible: true
 			icon: "minecraft:bone_meal"
 			id: "7E9A1AD044EAD96B"
 			rewards: [
@@ -120,7 +117,6 @@
 			description: [
 				"Crafte o Coração de Seiva: 4 Seiva Corrompida, 4 farinha de osso e o Selo de Tellura (devolvido)."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_de_seiva"
 			id: "3F9CC400929FFEFE"
 			rewards: [
@@ -189,6 +185,29 @@
 			]
 			title: "O Bosque Sangrado"
 			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B661A2F9FAC21F8"]
+			description: [
+				"Cheiro de seiva quente, de terra que respira e de uma raiz que sabe o seu nome."
+				""
+				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior e leia a Página Final."
+			]
+			icon: "minecraft:barrier"
+			id: "5EDE011E12106EAC"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8Ato II · selado"
+			tasks: [
+				{
+					id: "682D5FF7F2B65697"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: -3.5d
 			y: 3.0d
 		}
 	]

@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:cajado_do_carvalho_primevo"
 	id: "454629E6145B13D1"
-	order_index: 16
+	order_index: 19
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -213,7 +213,7 @@
 		{
 			dependencies: ["284DE6AECB10CF14", "768ECD286DB3C854"]
 			description: [
-				"Sir Galvar é imune a veneno e resiste a muito dano. Seu trabalho é o grupo:"
+				"Sir Xavier Siri Galvar é imune a veneno e resiste a muito dano. Seu trabalho é o grupo:"
 				"mantenha o Círculo Verdejante sob os aliados e use as raízes nos Escudeiros Ocos."
 				"Marque quando estiver pronto para a Cripta."
 			]

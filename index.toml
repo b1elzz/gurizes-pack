@@ -78,219 +78,243 @@ hash = "2acc1dbbc90b4e39602a3ac180c51378015faf1f21326e2aa663380c54ef76eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e29ae0a73ae7b67463b93dae8747604db3ba8f5f882da862b3b6275fa3161922"
+hash = "813822059e17ca725306030e6ddaa966ed1c2b6d2a2d35c6f348d735485ccdbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/00_primeira_hora.snbt"
-hash = "e199994f60819110fce69eb6b73f0e14f2ea2acbc4e44b8273183f70a315271b"
+hash = "08e8b26d539967c415f3fc2ebb72f2bf17cb52d7afd1261e51d5847458700508"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_ato1_a_coroa_oca.snbt"
-hash = "1d8d38b6a39d635d0415fd084efd768809e8a1207c8e3c8d7e78899ff21fc46b"
+hash = "fc0be9e83fd6f6409dee02bc13176871ad294433a3a9f83c663d46f059b42ca6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_ato2_o_bosque_que_sangra.snbt"
-hash = "ca95f171379c002ae227c200f77de4a4e135876cfea5ff6fd4aabd5b737f1a22"
+hash = "7d6cf208204f6bebc608face51a586f5ca492815d457ddf8cf4d47a4d549e728"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_ato3_a_forja_afundada.snbt"
-hash = "274314120010d8286f812220654c59f865a904cfb7eb111691976049e225861e"
+hash = "a80ae8eed72406aecd90adaacf4d8ee89e7e99e29705599ad453142a3c90b79c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_ato4_o_olho_da_tormenta.snbt"
-hash = "14909459f21ce012b20d3628439753c7882aaf8bdb09338686398be7ccaf8a37"
+hash = "97c88f4a22ba56889ddcda7f347483226c1780076cb82b5ce4d83510579fd436"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_ato5_o_ceu_partido.snbt"
-hash = "18b3bb98b7f25e8c1a1d5bd5d31caa703ece8164041f8cebb7e765f82bf86cd6"
+hash = "bb9071b1fc174c598c75e8e637a3daf6e57cb44fbd8129d02ad47231a6353d0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_ato6_o_trono_do_selo.snbt"
-hash = "de61a5c5ea154b21dcebfc72fc8dfd3555443465bc31313151d3572be83c77d4"
+hash = "045b0a85301b097a5082d0875060a7f1fd368ece0dce8d17e0fdcccc837a6910"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_juramento_eterno.snbt"
-hash = "c3e322d5be9cea431f8f5ef725547eb2f9ac23a16e2808e6466e7b0578e90cfc"
+hash = "c9b5dc296810fbbc2a0f8bc708194925b5b03b37066cdd2309ff75aedf87ebf0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_assassino.snbt"
-hash = "e09cb0fbedb0e0f60f11d6cf80387227b4dacac188b350ebe931e9bef94af657"
+hash = "71d1d8505d735e1e2014ce9da920ade8b2e2aae4b814d46291f2ddda69c241b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_bardo.snbt"
-hash = "d714cf8d53cb3feb384bfbb3c30c779e948e1530e9d41079f7a7efa43928b66d"
+hash = "a5b9001b9b0cece2b65bb6e2141e9b18bf13b63f7aa5cc0df0f96ff28f847a91"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_berserker.snbt"
-hash = "fab30f762210ca0890cf58512f7f941d3e1b19050285e5c2c5e170070886ebe1"
+hash = "c96a875210e28dc6e5e95466026a7f68ee2ac0ce5830736779b6b8b9c690a801"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_cacador.snbt"
-hash = "2b85ed7aafd39f80e31c832d0a4a9beaea904785586d6a0ca2abc608d134e256"
+hash = "ec5697790003499eb735fec5055319fc5520f7ea8cffd12561bb63b3da5b4239"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_druida.snbt"
-hash = "553c3e1a13ffc179a3b79c4967c50df96660cfe0ba4bec1d3242e47089c63635"
+hash = "7e24a085d57965f9c560d8ff935ffb149580886ef937368cecb47a823b5c3d81"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_lamina_arcana.snbt"
-hash = "f28ef44b94e20a4bbb4769e58337f65d0fc4a686b0c62c9e902557765171893d"
+hash = "93c4dbcf8fcc130ef6bd7e189773b6f6f868e8686e9d95c13a4f6473485f8dc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_mago_elemental.snbt"
-hash = "9f7742d56546fc4bae0c897c6256539619b36d6808d78c41f0b39e1b5c640cbb"
+hash = "84f89aa199b97d6967b8b5b39b4c880c54d078f924d10afa23a5890c0ee3dde2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_monge.snbt"
-hash = "e0c8ab89ba833ed2e2aa66381adbc9cbc4808749ea274ba1d207934132b922f2"
+hash = "63802e7ddab4eef272b350a91d1cafcf9577e526eb8bb95e4b9e97c8f6081bef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_necromante.snbt"
-hash = "3996415c5cc32196dfc55a8b0ef1cd08181fefe5c7cd491c056a3904cea422b0"
+hash = "3aa1758d3a8db057dd98bbc850a99d0236f8bbae179ebd7bebb5ef7c7fd5e816"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_paladino.snbt"
-hash = "274b46eef847b110e22bdc03b14c23c4f210ec6343c88dc95be24f3a77c4e09f"
+hash = "5e7efb827f0ae61a8b47cd3ed9f880075f3396cb58725b6cbe243829f90a7ce0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_sua_classe.snbt"
-hash = "2eae660b1f20b210ed4354f624f208219bc82f1bc32d13ee0a7f747ada92f2cf"
+hash = "eb102a1e2cf0b954c942b431a33646006c776a59462daa2088976fee04a4037f"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/10_trilha_dos_deuses.snbt"
-hash = "7716af5419a14eeeae869d29c859c9e88688fa38376cc3e2bfa343f104a98d16"
+file = "config/ftbquests/quests/chapters/09_guia_armas.snbt"
+hash = "2feb3cbb35440d4a6a5aabe1a535d30d3295f25f7c38c43d65e766cebdad1809"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/09_guia_como_funciona.snbt"
+hash = "c9fa95354e69525324dd28c9dffbe93bd0aaf1abc144d789da33b289f078c86d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/09_guia_equipamento.snbt"
+hash = "578188e6f23c5323cf48082a238f2f06577b61de4275f1d648757c30d60dde91"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_panteao_alter_deuses.snbt"
+hash = "70224bf3a5a26cec8de463f6849dab7299e905e020d325e9a5815772eed63ae0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_panteao_deuses.snbt"
+hash = "9dcd2f9e6d2982d9a4cf46d430ed223e4bc01b5b0be999e3ee397e8db3cac07b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_panteao_semideuses.snbt"
+hash = "7f3619a1585d794d8ceffc4bdc181c92071b8ff3e415bca08e324362d88be74b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_contratos_de_caca.snbt"
-hash = "8caa79489067fa55f3c66bdec645ce54130fab87172bb3ea984131f8ebadb64d"
+hash = "35d77b09f07e4624f5b56fdfcc972df38c07a40ba94474b2d9604faa5a747868"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19_seu_oficio.snbt"
-hash = "901f60c75c9a846945f82ac318580441e92a1ab3387fbcf6d1939bbca5109a3a"
+hash = "b3b405c9a2dc709c8b06999bd344aa0b18d47bfa6e88f85140bbeb219cf0d541"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_alquimista.snbt"
-hash = "81755cdc00ac94dc464093e40f14af67f81f2c2ae3448fc2b532e887cf3d7ee2"
+hash = "c503b30894bebb5a3cde72b4c6a71832648dc524e2f60eb1a8b6e11fb53fe386"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_cozinheiro.snbt"
-hash = "bec0369d5c194830fea99ca513612f905012bd3cd38063717f1648cc8de5b05d"
+hash = "06c13cfca5e80c427995537c9ff4fdd16c095a383f9936916dba8891c6867a9b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_encantador.snbt"
-hash = "215f69da9232b99a153d864c06104cfbcefc896d935cea8e9777188d2f043dce"
+hash = "0c8d3a93aff5d73d592144bce3cca33b6e065b8cfb2a3d33f2cf2ab20178765e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_explorador.snbt"
-hash = "3793bb1739077e80631614350b8583bdf8655ebab0c549a17d192aeb324b5126"
+hash = "121cf5cfc3dea30ebb3ac0f4273d614d945e7cce4374c2d95ac82a3f64ae7690"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_ferreiro.snbt"
-hash = "75b0eb70dd2c4682b4a4f90f39789ca3bf3e325335072fb425bfe5d7e1910690"
+hash = "925b49c46625b2fed338e98209eceeb9648f78a31112e157e05c0744cff5f845"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_mercador.snbt"
-hash = "739c2a41487eed978464796d48a0ed108435d7d30d10095c6c8b5ebb0d18c7ac"
+hash = "e8b86338dc34bcfe318a204499427767418b46a783dddd706dd69faa1aa0a455"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/30_mundo.snbt"
-hash = "792b3f3c05f3dd1b47fadf62006dec394a0d35eb4cf2f745328ee0474240663e"
+hash = "207165a41e7d17802b66089aee61fae3c2f1714925e87c66a764f7a932db87c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/31_floresta_crepuscular.snbt"
-hash = "8fcfb3cdd24361d2ab36a2256edcfc77a49d460ace55b20df54bd56595657e9f"
+hash = "35805a8b0aee0a6b14e57458d57cb05f6b9595ed69fc9833d51dba05a3d504f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/32_aether.snbt"
-hash = "6d05fdb33baaca708859144dec9184301d22d1cd6f1f8c1d010d198b049fa29d"
+hash = "e1b45ae7c73df69485a969c1105c03e60f2493a8167065972a4cdd27ec8b5572"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/33_otherside.snbt"
-hash = "8cc9a4dc01e7d694c94247aa4e15b347d2a9685edff7cd8313336d65d95bd00d"
+hash = "055ba51337daeaa3d899802338c034517c63bf6a5ca8c744d59666f293723620"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/34_dragoes.snbt"
-hash = "2a784069b61fd216cd05b35839f9a15daadc03e7afd3ed3503f8048f554afec5"
+hash = "187ba5e82702b21db2b46f8c09959897a0981b40d8cfce81757981b81f446983"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40_mercador_da_coroa.snbt"
-hash = "f97dff2b18b8e9acdd2f2fa0be7a48d58a6730c80d89158bbff43eb139c06cce"
+hash = "5600fb183f03708a40b6003ae70d2e011318cd2bcfbe636e14eb087bae49988e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/41_melhorias_da_base.snbt"
-hash = "9b14d18595179ad41a47752600d01179f99542ee72ccb1d5c73a1dd14f15d0ab"
+hash = "67dbc374107b5e2dcd1bc68950fe87b714e8936a185e114b8266268720647d49"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/50_coliseu.snbt"
-hash = "ad06493d4c36729fcc6ef3a5f865111e39ed26b76b8b878b512cc825d77195a0"
+hash = "a4b0f1cf519410203a475a0d33ee2148aada7384d01ca998bcd46504b9cee3dc"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "3d5ab5fd922ea97e48f55517a5f7bd1904de67a849bb83cf1bb0b748a3d35d15"
 
 [[files]]
+file = "config/ftbquests/quests/reward_tables/gema_common.snbt"
+hash = "3c87bb70c35e4a0a867cdc1c3989296cfadb9c7f60fd2619d52b66720929d1f3"
+
+[[files]]
 file = "config/ftbquests/quests/reward_tables/gema_epic.snbt"
-hash = "0d2bf19e609a4ba697c6f318d7620470d3d6b8202fe2b39d88fc08147090fe31"
+hash = "839c16aa51db2d7185c9587f949c56535b0a2917ebfb9d572d790009651089f8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/gema_mythic.snbt"
-hash = "5ac2e02e0f7802ca0109395729d5392838792d15411402c0d33f4ae227f09eec"
+hash = "eb98304c8f7ac45d90c40296e3fbd272e542d65dc5da2d4bb286e8e1cae6338b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/gema_rare.snbt"
-hash = "c7c3ef789c120a820b53e2af959b7180cd51e57d49eecd30f2850401c2618b69"
+hash = "1447744331546237601c8c6c46527775c91c6d14a184756c377e58cb5049f0e6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/gema_uncommon.snbt"
-hash = "539d10bae06809266ccd6c89807e4a3ac4f1c8625a658506e302e396d1689407"
+hash = "891b1b37b8bf34bd9cb8eded52b1ae497da2fe4ac04f8c7b5d25a78fd0cf9c96"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_cornelia.snbt"
-hash = "5b49654cd00503fec4de28416776540614451a8c0c3c9ca434fa1c484294bd89"
+hash = "1100c63c44c90e270a42b629866739c5e39d006911340e15b78f80362a7662aa"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_dragao_anciao.snbt"
-hash = "c382a69276ab6b2f1a219d13e57435f53149809c81d370fdd8f8cfd4b61515d7"
+hash = "a465220d17a57ddaabbfc1c3f631fe02ee852d5725930c5801329e0d4ba94432"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_enderman_mutante.snbt"
-hash = "6fa6fb2e6dce0189c94f895357fbba50d9165d961c32e215f1c16152f71b6fbc"
+hash = "3548ec9b7a6edc58330860c6b948acbc16590db01209288334bc5534dd643c91"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_espirito_do_sol.snbt"
-hash = "c8c0da424cad5bea2f23699c8439a81b261fe58c1502021d5d5dbaf6bfa3f480"
+hash = "e23b9e697842883f5a52642a0c033dfc92240c62a4dc3f6b816f2a6a036a8f16"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_frostmaw.snbt"
-hash = "f01b99ef0d78aeb885ae83109cbaddea9e17c59325dbe69aa4a65fa913008792"
+hash = "c4312db22c4eef863e73615780107550cf4ff72bf09c695c9d561f358f03e31e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_hidra.snbt"
-hash = "306db186b44b40807ad0cd9a63b30c39f83bd61a51f34f36d0d06bcba5c4f0a2"
+hash = "a4cc6caf80a2d7a588c71b48d10a986366b31ca98bd5a615525f2469c2b1d52c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_leviata.snbt"
-hash = "e4bff8e8fcefac85fd63f15465097ff6aec2ad63093f0a6f400286bfcaf5f75d"
+hash = "e82abfa2ed4da47b2edb844b2d33843753380c584fcdae868fec4ecd4a0729d6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_lorde_abobora.snbt"
-hash = "25dfb58ff9bdd3b51a4c932b7c6ac160efdcd68bd3449a278e6ebed07004dc0d"
+hash = "91a9db113ecf1ba9550202d425b5f8f550771dc36860193943d470250e0f3568"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_obsidilith.snbt"
-hash = "3637381860a6cd5848ceaaf3eb4150e628491cea62710e7cff8bea07815d95b1"
+hash = "f32f84980a069f109e47a3248410847d25a3435227f8b747d9d375c0d36e2980"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_rei_morto.snbt"
-hash = "30705b2103fef576e69e6e5e9a07b68dbe5e964b5b791da9a7019ff4ddeb67b3"
+hash = "9a39599459dbc6280caa0a11e7825e2fccd036c6eb3af936e20c35e65682d2e4"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_rosalyne.snbt"
-hash = "35cb7faabd3036a0f2fa111c04efed14189ddffad3e9e7021854a84a2e0e55aa"
+hash = "7fd045269231c8b322858fb3a1e1bada3a0d762733ceaae490a5b0e1a8463d50"
 
 [[files]]
 file = "config/gurizes/wiki/index.html"
-hash = "9ba1853f8b1a3ae31abcbd9da4e0a02ae1e44c3d2943b2de0d26d0003a493528"
+hash = "a38e1fcb16a6cd80792716cde07d8ea0f52b011284dae337f80cb3512cc15bc7"
 
 [[files]]
 file = "config/iceandfire-client.toml"
@@ -497,30 +521,6 @@ file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/inter
 hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
 
 [[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/oficio_alquimista.json"
-hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/oficio_cozinheiro.json"
-hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/oficio_encantador.json"
-hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/oficio_explorador.json"
-hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/oficio_ferreiro.json"
-hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/oficio_mercador.json"
-hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
-
-[[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/advancements/interno/raca_estelari.json"
 hash = "07711811b8a7666533810bac9cab25c22f80e9b912a0fb4f5fd1b5f30933c12e"
 
@@ -583,10 +583,6 @@ hash = "4234651de7e0f219cc32b48d4508a822d007bfb9629efba1e8d3413fce9e35b3"
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origin_layers/classe.json"
 hash = "e185de140b8bc154f75ff4f0b0da75b196a0aa71e1adf5e6a03a270831970d2c"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origin_layers/oficio.json"
-hash = "6c608b0a53bfb5bbcdd904be5e1e83b164b49055acd93ae4be2a720195de4596"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/aurion.json"
@@ -659,30 +655,6 @@ hash = "cea99321b894e0e85632208e2690209ac33c64b56b9b3efcb0235dd1677082fe"
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/paladino.json"
 hash = "7e712bacbb69d8ddebea6c2243031a2966b4770d4916977cc86238dc2bf7c9d5"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/oficio/alquimista.json"
-hash = "f3932fb775e5171f435097e681f5eb203fc036b65d96096de6e2987d3629b6e7"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/oficio/cozinheiro.json"
-hash = "6bbf7b3fe8c100df991693f3fe59b9ff1c60023b27ff3dbf8d69400e4ef9aa7a"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/oficio/encantador.json"
-hash = "5217b6aad772328544e86f4d269f525fccebaf30c965a3253b0196c7c66e5f3a"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/oficio/explorador.json"
-hash = "baa1e6706cc7584ba55529b65dd4ee831f3d0b6e6e52bc20d2f4831df557f1e7"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/oficio/ferreiro.json"
-hash = "75626df1b7bd6c2dd5fe621ec9d6460a986e3be3921ea553fc1706ff31eb5994"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/oficio/mercador.json"
-hash = "604052eeb2b2b47ffa1c3b59f60cc31871f566239feb452390a14ae15590fd60"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/elarim.json"
@@ -1197,182 +1169,6 @@ file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/pala
 hash = "dbb1bb15b65b64d4d72f0a76f1a18e7d13d489985eb09db907c3dba1a63b0b6a"
 
 [[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/metabolismo.json"
-hash = "e203c9fdad798a1cf164cfeb98f3e6ee993883455301f9b703ee18fc98b7439c"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/receita_elixir_do_heroi.json"
-hash = "7edc309aad5dc4006832d257249d5ece4c41ad3f5a0ac5f48f440b5c3445b3ca"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/receita_frasco_de_cura.json"
-hash = "361e25cf10a6e9d208c172fdba3f32b04fd62d43ab38a6c41ba756650c069787"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/receita_frasco_maior.json"
-hash = "021bb2324642c317b0960bc1f80373ece8e7843ab58df69dd6d2fa0f91ba04a1"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/receita_oleo_de_lamina_fogo.json"
-hash = "ac1aa68d330a5811df0d4f57d1d9ca6ea6aa7c66fef3dadc94d5df3c124ff91b"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/receita_oleo_de_lamina_veneno.json"
-hash = "b6add58a8351ae888ae6d357bbaea27013cc3cee31983d9b93d3d45e5df2d02c"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/receita_tonico_de_mana.json"
-hash = "f6c3fe7d9abe482fde7d91d08f37a079f003b6c5a8e4ad3bcd11dc6db84185b7"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/receitas.json"
-hash = "00d1405b8a9f69904f51b6e981703014ed7d353ac549e41e8fe20591b9efd530"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/alquimista/registro.json"
-hash = "6e945cb1765ae1ebaa1725a602d27e6fc8264b8df57eeaeba56ba356267289ec"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/cozinheiro/paladar_refinado.json"
-hash = "c042639707918bfacca9ee8766b65622b32f00ab641887febc37ef10b731d438"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/cozinheiro/receita_banquete.json"
-hash = "a3e50176e20458398b0ef4ab7d5578426d0f1e091f6dcadf81720f356d6c23b2"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/cozinheiro/receita_banquete_real.json"
-hash = "945c80e8d6be83af5bc2d6f4b000f5ce2205ee3552c80c54b9f875eb00593275"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/cozinheiro/receita_racao.json"
-hash = "6ee7142426944e64c7eb42429bac1458b9b221c3609e53362d22cbfb3385abd7"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/cozinheiro/receitas.json"
-hash = "7cbd4fa261ee0362f73fec5479e47f0a98921a3f48c5bbe79428405734df2ec1"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/cozinheiro/registro.json"
-hash = "34425943141b41b670cb9a7b78650844fec39dc3708fddd274aa4426e03020cf"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/encantador/afinidade_arcana.json"
-hash = "6e94653d6d3c11c9629fd8104ff2f99a4721d448dc3b0ae559df7d2112c65e80"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/encantador/receita_livro_esquecimento.json"
-hash = "027eea00f15d2e323c4a4518312edeac9ad9698e168b2d4b152fc8728f4e62e9"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/encantador/receita_sigilo.json"
-hash = "bd00d0ebdc217bc5c8e0aef17bfa4d6c87dedb336d3aae2033626c4c1f0aff70"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/encantador/receita_tinta_epica.json"
-hash = "651b631494b1b0336d3f72b7713350dd4edc89d608eae3c76a0407abf158e623"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/encantador/receita_tinta_rara.json"
-hash = "91680fc8954a542de5e27cd8b372e0f7897d09df2ef826e1620303ebe1430015"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/encantador/receitas.json"
-hash = "790ceee183e762210bb05e34e8dc159071a8c89f43a0c00f533f02de5359919a"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/encantador/registro.json"
-hash = "69962ccee0217485dca1f2f9f784434ec5d94118bc4755d42882677adb1a958d"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/olhar_atento.json"
-hash = "73b717be2d288cab6f18362e56b30fe80d48f9c77a4d27e2be7960c5810c6002"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/pes_de_estrada.json"
-hash = "0f81b0d1455d34a598c723baf9e380fbd279950b697932eb217f8d356d553fd6"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/queda_controlada.json"
-hash = "8e39854b01b603b0e2af197b196b20083ba1a63901dcbaa6b22d11e71bb3a4ad"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/receita_bussola.json"
-hash = "22313ad52d6d22ad84a1492e4fd339187592597c0e06470d4149f024ece57a56"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/receita_pergaminho_retorno.json"
-hash = "b61456b9c256946987b7aa04ccc92fde68e7f9478798ece61d0e579f17a53f5d"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/receita_retorno_grupo.json"
-hash = "6c9850599511319ed9e43025c8bdc94147e6768153209d163f1e7ffac1439a22"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/receitas.json"
-hash = "b1f2aa750e5374310db055102694af97c852ae64be290159ca5f62aca3e9493c"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/explorador/registro.json"
-hash = "4ce960494bea0dd4674aadd5138e010bd6cf7b951f9daa018ab64e56e239f6cd"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/ferreiro/manutencao.json"
-hash = "f559a0b29f63c526b5e0947ae95c4857b8ef295baef5f5dce562cc38a098094d"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/ferreiro/receita_kit_de_reparo.json"
-hash = "15312c7b0eeadcb783358500b2b3a1022c1e7fe9992a179cd44f82dba8057a40"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/ferreiro/receita_kit_superior.json"
-hash = "457e6d4d172d7d4197a22e5ed500c31ee2ef880587d4ff59cf85d2a3fc084f8d"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/ferreiro/receita_oleo_de_tempera.json"
-hash = "96e3dc9555314382423c79c682e71b47fa6a3db39381d8d723d6fbf7a63a49ee"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/ferreiro/receita_pedra_de_amolar.json"
-hash = "83a34c847a495d91c99741d8829fbf309c5864bf5a8f0109d3b7288200341a17"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/ferreiro/receitas.json"
-hash = "dec09cef9054890c86a820b55a10ac222d4957bce8e2d555319ae1ab92c17987"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/ferreiro/registro.json"
-hash = "f0f2434d0a303119b07be19745b6813108ee38ca72fe3bde9fe4154ce2cb14f9"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/mercador/faro_para_ouro.json"
-hash = "c0c2758f33cd59286f24a16f64d5fa04e32f0bd7f34512885ded6b98a131ebf8"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/mercador/labia.json"
-hash = "7f8ed65b6c46e699b8def3d0b3967cd65f5c105cdfcef8b9528522031b4bb576"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/mercador/labia_mestre.json"
-hash = "67b2fe2bc6971284e69c493da37070298532010fa333a39d968cd391dd58225b"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/mercador/receita_apito.json"
-hash = "9a9c0d7930a1500f01bf0a7404ecf1b6d6272c56d57ef6aeb666733bef9ded15"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/mercador/receita_selo_caravana.json"
-hash = "04624767c8d37a68cd6f8024a55088f0935d75520bbec1b1a8a16ea45d3e2cad"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/mercador/receitas.json"
-hash = "2878380d2c6d142355e00298ed7faadae683632b08d97a5309127209cde2a5f9"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/oficio/mercador/registro.json"
-hash = "6d85434b7abcf735e3df1ddea3ece809ddd42101433a097b136420fd5abf8f04"
-
-[[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/elarim/constituicao_esguia.json"
 hash = "509ee2eb8ed420515050a47807ddecedc5494cfe996399cd18a6a28f7dfe0fc0"
 
@@ -1581,6 +1377,94 @@ file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventar
 hash = "f1ca04c57f06fa0f77b2e52e225cd5500a4780651e0dbb70ae2e82ccc5a76384"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/alquimista/elixir_do_heroi.json"
+hash = "c789e75217c817e8c3dd2de236d38c113e375bf82d31c34b56234114e14658be"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/alquimista/frasco_de_cura.json"
+hash = "5646e5a832ef75f19951af6d2949f84430394b17863960db9b400f099b3788ae"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/alquimista/frasco_de_cura_maior.json"
+hash = "7b1e4e1bdffc292c0672bb05386a7636e53eb45edf50b46b8df2e637e6a68fb6"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/alquimista/oleo_de_lamina_fogo.json"
+hash = "b4b3e2e31f72c39dadf3ba6f150a6ed97eaccc37a0eafb1d5357977d32eabdbf"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/alquimista/oleo_de_lamina_veneno.json"
+hash = "3d4102dd4351d361ed55d7c3aae8208ffacd62eb31ab5d3a21dbd9659160484c"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/alquimista/tonico_de_mana.json"
+hash = "7a2c53c6bd0f7ee0de8ebc7f2b854f877e0bd0318c968284271827b110f74650"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/cozinheiro/banquete_do_acampamento.json"
+hash = "d2dbc3fb8e523f02e2176795b0280cf38f57d1f45c4cd48823192d8d9933d236"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/cozinheiro/banquete_real.json"
+hash = "52d8ec69e65d87ca6abd007ba21c99e058c2b4e3a4ac288940b55dab193b5140"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/cozinheiro/racao_de_viagem.json"
+hash = "247fb1c01be60d3cb79243539cce02f27ced3379a943a4add43cd8cd5032e18e"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/encantador/livro_do_esquecimento.json"
+hash = "76563ecc831c7fde5bbd22463cc4a91f71a30871695c30f00e10dbc80cee88fd"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/encantador/sigilo_de_encaixe.json"
+hash = "d12b5fb8928b600ef020256a6dd81b660a072f20d48ee637554d5dcea75a8aef"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/encantador/tinta_epica.json"
+hash = "7d43f9da3acbbc8b5efcf2be9b0611f53abffeff223967ccf8ae3511dd3e04fa"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/encantador/tinta_rara.json"
+hash = "297626665ed4424bb2f1489fa5cef3dc5c4f27d8b259d09ca3708e87b1eebed3"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/explorador/bussola_de_masmorra.json"
+hash = "2472eef8d3c053939a652cef830dc861b316b90394cdf348b8e9c9ac94d3aac9"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/explorador/pergaminho_de_retorno.json"
+hash = "4089802a9046ef01b14efa0e7ad19e415998dc58cac962e98087cedbdacca5ca"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/explorador/pergaminho_de_retorno_grupo.json"
+hash = "9d8c7da30f40a6f9d8fb8b7c8eb9dd7ca7807537aed7cff179342f99c33f7277"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/ferreiro/kit_de_reparo.json"
+hash = "2eefa32994f60f7381bc0e1f509b5d3802ece171cf9a8e6da65af4ad2ec4ac29"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/ferreiro/kit_de_reparo_superior.json"
+hash = "2837c7441718692c2ca8ff63c8b3129e300de2c0f3ab15b8c8f1b459473fa76d"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/ferreiro/oleo_de_tempera.json"
+hash = "7966df6c4508a8ad664be8de4a47820e4d8bef60db8667aa891487d731e26294"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/ferreiro/pedra_de_amolar.json"
+hash = "1ea5ea224d350daf3105713f9142d2cdafee888d1a3b7da43c3a0985e719ad65"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/mercador/apito_do_mascate.json"
+hash = "d06983541ec001a26bee6b4439e8dbbecb1164f077ec0e57b0df53353569fea6"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/recipes/profissoes/mercador/selo_de_caravana.json"
+hash = "bae47bbedf1ccf4eea40fc88d9b367732e84c622ec24a676b206d4adbab2c8db"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/tags/damage_type/corpo_a_corpo.json"
 hash = "0cfda02a6953671c6565754d7a9d7cf75b985aeb04ca046e207e556026ba3e93"
 
@@ -1679,6 +1563,26 @@ hash = "9b49101aaa463829fa91505a0bdb28499a7976588f2beedf4d6b84c5f80e8347"
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/autoleveling/loot_tables/gameplay/leveled_mobs.json"
 hash = "6d8c649e4a890de89995d72a031fab2c92912905c791ef391c3b8cfa54fa72b6"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/block_factorys_bosses/leveling_settings/entities/infernal_dragon.json"
+hash = "f60a1f563782d29887c8bb166dd4fb533b76baee52a8b79ef2743d527d4fa48b"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/block_factorys_bosses/leveling_settings/entities/kraken.json"
+hash = "8b510fe8480f27d4f415e4a84afebf374915de0812e1c47ce22afd83139f3374"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/block_factorys_bosses/leveling_settings/entities/sandworm.json"
+hash = "4877d9cf89c652b18de7770ee525484693ad4b1526bb1b2e8eaaabeaf3f2ccca"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/block_factorys_bosses/leveling_settings/entities/underworld_knight.json"
+hash = "0ab435e1c0560f0ec5309734ebecde8184ef605f23602472bd42a1e08fbd6912"
+
+[[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/block_factorys_bosses/leveling_settings/entities/yeti.json"
+hash = "217264bb25c6bf2f61db2cf9130ebcefe369ce8f0c213db600953806025c5dec"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/born_in_chaos_v1/leveling_settings/entities/dire_hound_leader.json"
@@ -1818,7 +1722,7 @@ hash = "bd2dd7b546a36e8ea900a7ae617d77c9956ff9a50e9f6f889639a4875496772d"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/lootintegrations/loot/gurizes_tesouro_dificil.json"
-hash = "60a751c8b48c612857e15a8092f41c3b869fe64cf1bf290ab93074494d5498f7"
+hash = "eab5ad1462c32fe453c77dd122b2f94bdf07fdac5dea65cd8d64f726f5082eb9"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/lootintegrations/loot/gurizes_tesouro_end.json"
@@ -1826,15 +1730,15 @@ hash = "d4e88dc56baf2898901eac5c2fba676eabf20925c5828e13d369a78a5daa2f2e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/lootintegrations/loot/gurizes_tesouro_facil.json"
-hash = "4011a0050c1fe233554af6d7c3d7c9b683737093e18a33a9847320b4383e4da9"
+hash = "1983a79faa830c26968fcb1c8fa6dd1a358b75cd4299989d48d683e03be4c870"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/lootintegrations/loot/gurizes_tesouro_medio.json"
-hash = "4c5e0b218c301335853c095635ae3b2f9808c6e6d0db030ff4f49e80725978d8"
+hash = "2c1d132bb9bae6c6063e274d7f854f253afe973496fc773c17539b522135a081"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/lootintegrations/loot/gurizes_tesouro_nether.json"
-hash = "92d3f47cd9c93e00a5040005035766053281dd4c7c5d310cfe116240b3bf9865"
+hash = "9d6695f0f38b244855705dad7162ed26dd29b5fa834442fbc95c01de6f5f68cf"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_progressao/data/meetyourfight/leveling_settings/entities/bellringer.json"
@@ -1929,6 +1833,10 @@ file = "config/paxi/datapacks/gurizes_progressao/data/twilightforest/leveling_se
 hash = "19f71a3c397b68bf511cc66201da5412db53cc4957bd6def97f9959ce1527e87"
 
 [[files]]
+file = "config/paxi/datapacks/gurizes_progressao/data/whisperwoods/leveling_settings/entities/hirschgeist.json"
+hash = "358bba66bbd873fc1a41622a58e0a27c27031930407f14dd4ff01614188be961"
+
+[[files]]
 file = "config/paxi/datapacks/gurizes_progressao/pack.mcmeta"
 hash = "ae9640d0772ad34635e2d3285871a692cb8f2362dcb1497b3d395a49d7da4c5e"
 
@@ -1977,8 +1885,228 @@ file = "defaultconfigs/skilltree-server.toml"
 hash = "12ce35e91579d921fbd41794c84ef1e4e7e2715d19faf3f38d0540c256579959"
 
 [[files]]
+file = "kubejs/assets/aether/lang/pt_pt.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/apotheosis/lang/pt_pt.json"
+hash = "4906add66c0fd42c10547a3dea970f4134929d3d775613cab2f077727211ecd5"
+
+[[files]]
+file = "kubejs/assets/aquamirae/lang/pt_pt.json"
+hash = "bf904ca45d47f5a66aa7e20f8b5c94fee32ce5083c83ecd2e0a1fcab40ccb7c5"
+
+[[files]]
+file = "kubejs/assets/artifacts/lang/pt_pt.json"
+hash = "a10a0fc65de661b5944141d89fbbc7d9d9ce73f4be1481e1f8c0a0a486928be9"
+
+[[files]]
+file = "kubejs/assets/attributeslib/lang/pt_pt.json"
+hash = "64067de55bed360f7224fe6927bfdd90f95551154b0fb4eb013ea4277ca5a791"
+
+[[files]]
+file = "kubejs/assets/bettercombat/lang/pt_pt.json"
+hash = "c5b31aeed6fcd8bc09934398e26433bfe29cb7c8c3100fd703fb09a4f7208f90"
+
+[[files]]
+file = "kubejs/assets/bookshelf/lang/pt_pt.json"
+hash = "ff0b25e0cb016da45a300dd8161e060a2503eff5fc3c2cb18ccd4e7482f4a36e"
+
+[[files]]
+file = "kubejs/assets/caelus/lang/pt_pt.json"
+hash = "089690eda6d965dcc9b5edc3ee6d242464e1d88ea26a18f1b7f68695f6e4af5d"
+
+[[files]]
+file = "kubejs/assets/cataclysm/lang/pt_pt.json"
+hash = "3e00b6f2af88879a5a0febc03b6075caad34ec823b27bb8276634399657178db"
+
+[[files]]
+file = "kubejs/assets/cloth-config2/lang/pt_pt.json"
+hash = "9796531f1c6c2552d70445f75ec05ab3f7c4d448556e4e72e14f9ce19e38a810"
+
+[[files]]
+file = "kubejs/assets/combatroll/lang/pt_pt.json"
+hash = "fe3a1b9ddc0b24e37d84ac87ddcf32dde886c38d0ad18d82e50bace949c6ba46"
+
+[[files]]
+file = "kubejs/assets/comforts/lang/pt_pt.json"
+hash = "b4b2dd140efae13340a7ebcf9efa8f44d02693ea3eda5071ca3f48595b3bd0de"
+
+[[files]]
+file = "kubejs/assets/controlling/lang/pt_pt.json"
+hash = "c0ff32d7bd23913e74623847f7acb1a92cda5fc778670f409b9b0f29ef9ac9b0"
+
+[[files]]
+file = "kubejs/assets/creativecore/lang/pt_pt.json"
+hash = "ba3670dad674710598bddaefc7d61fc6b198ea50e0c6657c1455495aa6e49ef0"
+
+[[files]]
+file = "kubejs/assets/cumulus_menus/lang/pt_pt.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/curios/lang/pt_pt.json"
+hash = "6deb2bfc1857dbdc56367a5530344e1cb8a17913fbc4b7920eda303f494f26cc"
+
+[[files]]
+file = "kubejs/assets/deeperdarker/lang/pt_pt.json"
+hash = "e240a5aea280078c903940400bf80d06e21f3a8ee60c6ec4d0cfd5d4abf37708"
+
+[[files]]
+file = "kubejs/assets/defaultoptions/lang/pt_pt.json"
+hash = "b6301290c298667b2d1106567e95106de3edbd7a97a4acb75b805dcf6cd0668c"
+
+[[files]]
+file = "kubejs/assets/drippyloadingscreen/lang/pt_pt.json"
+hash = "718a0109db2479488db51925a75b18b89207652c7ad5cd510bc950a426ff5b1d"
+
+[[files]]
+file = "kubejs/assets/dummmmmmy/lang/pt_pt.json"
+hash = "048ccbb807a936425fd35582d30c8f99bee6ed9e8cbed882ff6128381667778d"
+
+[[files]]
+file = "kubejs/assets/dungeons_arise/lang/pt_pt.json"
+hash = "25dfc180520190da1a51e2b9f888705af2c33603b19681b3f2011269365e12ce"
+
+[[files]]
+file = "kubejs/assets/dungeons_plus/lang/pt_pt.json"
+hash = "758ccc1c15021b3647e816b51bfc88cf220ff9108eddd95ab00691cca3eaa859"
+
+[[files]]
+file = "kubejs/assets/easy_villagers/lang/pt_pt.json"
+hash = "84b20cd50c4d006620573f3d88bedce6b837063909e69a2f9a2bb8e1dd20b760"
+
+[[files]]
+file = "kubejs/assets/enchdesc/lang/pt_pt.json"
+hash = "8a53ad9186a32fcc3946e8dc93502d1157e24aae3213fc954071aad324a71e9a"
+
+[[files]]
+file = "kubejs/assets/enigmaticlegacy/lang/pt_pt.json"
+hash = "66bcff15e5be50815ef65657aeb3235b6df0be20afa0d08e0c652d435c140adf"
+
+[[files]]
+file = "kubejs/assets/entityculling/lang/pt_pt.json"
+hash = "88673b3a079c66f79184e8164cb8b55cb53ff4d99c00e38c6b76effe4f376b97"
+
+[[files]]
+file = "kubejs/assets/explorerscompass/lang/pt_pt.json"
+hash = "cf39024a8d275c8b7c1ef89ca8fe8fc4d29c0dfc1524222df3d8c941008c79cc"
+
+[[files]]
+file = "kubejs/assets/ftblibrary/lang/pt_pt.json"
+hash = "fa805a9f0c45d3035e6c91e72fd5b5d66e263dbebfdb9ea5cb6a8daf201c5757"
+
+[[files]]
+file = "kubejs/assets/ftbquests/lang/pt_pt.json"
+hash = "7b09e83b706303377bc3fbb2c853a85fdcdf100d5521a440e94e49fd0cb14674"
+
+[[files]]
+file = "kubejs/assets/ftbteams/lang/pt_pt.json"
+hash = "55e44cf9986e2ef56d600abbd3e39ba375fecea57bf387a6d92628aac9c4622f"
+
+[[files]]
+file = "kubejs/assets/goblintraders/lang/pt_pt.json"
+hash = "cfe803c2b33b741c74c204567b11734d57d8fc130adcb639c62aaebd393e25bb"
+
+[[files]]
+file = "kubejs/assets/guardvillagers/lang/pt_pt.json"
+hash = "3feeb185d986a654059068410e5e2fab03c43c0b0fc3b687c793064deee8437c"
+
+[[files]]
+file = "kubejs/assets/iceandfire/lang/pt_pt.json"
+hash = "f5340cd8e9ab01d20c2b12d8ba853ef058be727953a20c061956430cb1e7b821"
+
+[[files]]
+file = "kubejs/assets/incendium/lang/pt_pt.json"
+hash = "3af0651b79ca016aba6e6f6a6c04cde83df5a862ad4c831afe2eca0800fa39d2"
+
+[[files]]
+file = "kubejs/assets/irons_spellbooks/lang/pt_pt.json"
+hash = "ee50a347de90cc6604daf5d423af3faedff9b238dcf1b4a6869e09d7607cc6bd"
+
+[[files]]
+file = "kubejs/assets/jade/lang/pt_pt.json"
+hash = "8f93fef8825bd541493bc45793b88ccc627465c11af08ded725f162953aa4604"
+
+[[files]]
+file = "kubejs/assets/moonlight/lang/pt_pt.json"
+hash = "a7988fd7e713521e38ba028a8c5ed07bf5d008cf902ce1b9d6e6f28f9078b087"
+
+[[files]]
+file = "kubejs/assets/mutantmonsters/lang/pt_pt.json"
+hash = "7a8d190367e857d52d78e5249e744325b4ce66e84ab0665d633ecfbd29f35a70"
+
+[[files]]
+file = "kubejs/assets/mynethersdelight/lang/pt_pt.json"
+hash = "ac56cb0481c06cd5c2b221546124941e81c26375432dce062d9b35573f51e904"
+
+[[files]]
+file = "kubejs/assets/naturescompass/lang/pt_pt.json"
+hash = "450a955e78596aa34a2571f33b1aab44cd88310888fb9e32b2ebb6a9b207a4a5"
+
+[[files]]
+file = "kubejs/assets/origins/lang/pt_pt.json"
+hash = "ddd3d8a3c38afaf25a071bdd60d9721b3ed287628513b870413e795c380b3565"
+
+[[files]]
+file = "kubejs/assets/patchouli/lang/pt_pt.json"
+hash = "91b90563378537d572ef631d8b3e35b7f1f115801db22c8babd14e6f378b7797"
+
+[[files]]
+file = "kubejs/assets/placebo/lang/pt_pt.json"
+hash = "d14980aae5874231ee48500cd1833111e6cb356467929d6474f7195e0ddafe23"
+
+[[files]]
+file = "kubejs/assets/polymorph/lang/pt_pt.json"
+hash = "399e4e2b66ee7e16962e7d004d46f5278c47def8b510151ac1210e2472f98c5c"
+
+[[files]]
+file = "kubejs/assets/relics/lang/pt_pt.json"
+hash = "638e3a4488e547c9d0f4a7b5317e7511ca7cbfce8e36169742cd7933ecf0f348"
+
+[[files]]
+file = "kubejs/assets/searchables/lang/pt_pt.json"
+hash = "6983bb597a39cb43fd6a3c3014925f78162cc0e606caad22ea79d9771a93ab8a"
+
+[[files]]
+file = "kubejs/assets/skilltree/lang/pt_pt.json"
+hash = "fe909209563707918f9b86caaff875e74d6c46ea55933ce1d4bbb2d81bd3e64d"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/lang/pt_pt.json"
+hash = "5ad74756ab16a9a2ddd83140a31e98193825eabada12a910d2c6abfd1ac6cf15"
+
+[[files]]
+file = "kubejs/assets/sophisticatedcore/lang/pt_pt.json"
+hash = "dd4b78d08e960a414eb0a8f33fd4566f7db20ba0c604ddd90fbc080a0421aa9f"
+
+[[files]]
+file = "kubejs/assets/structory/lang/pt_pt.json"
+hash = "56a45ec5dabf41071a2366e82c65b43b8dac0df6afa9764a9829eb4b91939d0b"
+
+[[files]]
+file = "kubejs/assets/structory_towers/lang/pt_pt.json"
+hash = "6510077575db8ef041f842b01d0c9f39b5eeb4be95a36740b401bd4b47505cf1"
+
+[[files]]
+file = "kubejs/assets/structure_gel/lang/pt_pt.json"
+hash = "99bdfcd69af3cf83648ab63edee67079610d5322b85afc6add2dcc988a346838"
+
+[[files]]
+file = "kubejs/assets/toms_storage/lang/pt_pt.json"
+hash = "24241a03b8d9de9f884b14a36c4a632a2c10cbb6d739f8bed86eeb42e789b865"
+
+[[files]]
+file = "kubejs/assets/trashslot/lang/pt_pt.json"
+hash = "39e17b7e1d47a0696cd5df362956bff098fb491c06d10407cd2aac1586d7bd3f"
+
+[[files]]
+file = "kubejs/assets/twilightforest/lang/pt_pt.json"
+hash = "90cf6041fa5446a1ae56b5b070424e9a21503e4ac85cdab8f22b7819e9ec0e84"
+
+[[files]]
 file = "kubejs/client_scripts/progressao/predicados.js"
-hash = "0ec4070b70c4cbf1dc788b2d97cd765c27c2f10ef5e9e3c5e1dfb8b88ad2dc5c"
+hash = "301f2acd2ab71162b07f0f2e379d401980bfccf54b462fe87018162f77a27cde"
 
 [[files]]
 file = "kubejs/server_scripts/ftbquests/tarefas_custom.js"
@@ -1986,7 +2114,7 @@ hash = "fe4d9b5864616ea82b7c0d7cfc1454ee5e710ffe08acc4a653a1c5673a7e6d73"
 
 [[files]]
 file = "kubejs/server_scripts/personagem/ressincronizar.js"
-hash = "d2a86fb5c8d2340703c74871d84ff95e38ed967412c8ba0de2089f8acbac4e48"
+hash = "dbeb073b9ea4bfbf80263a5bf5bd81e696d36aff463fe84c8f44794683678380"
 
 [[files]]
 file = "kubejs/server_scripts/personagem/tags_armas.js"
@@ -1994,19 +2122,19 @@ hash = "4358d544be0d9068c86979fa787d0739c8a4aae7826a7d277c78f8c599843dff"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/00_estagios.js"
-hash = "dce99d5486826be85b6fc024be4f96d9231d9deeec41a12511457ee620922163"
+hash = "88cee7d9b72371f1588d951379f2bad17cf699453388b8e7a49de07bb778ac06"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/10_tags_trava.js"
-hash = "c5fab273337e593d18ae7def6492bedfcc3db538fd69521d22f37a5f1b4dec01"
+hash = "b8e8d0090bb180b6e51e9543863819dd7d6afab6d4fe6607314f02e67b05d326"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/15_predicados.js"
-hash = "4e7ac1899acccf4b353088c21eb957eed37e278bccd46199240e89ac60373f05"
+hash = "590b8abf1cddf6df4daeb778bcdaae72ce73a30161560005f424e9ab32ee6b5b"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/20_travas.js"
-hash = "93420694f8332dc9ae4d25f7f16a2d2651f01ed24b846e33167cd14a6d4eaef9"
+hash = "8e222878fc1ec76e52cbf6d0b73d8c847eef7742bf5d9bf6aabfc48156a32a4e"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/30_porteiros.js"
@@ -2034,6 +2162,11 @@ metafile = true
 [[files]]
 file = "mods/almanac.pw.toml"
 hash = "8792ca49f7af7cbc4131d28777c5051f66d8cc021db5c2827b7ffc7506da0e54"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "d2465361aab788febe2b319413d169a28a7a8de84a7cc1da77e5489884917ea3"
 metafile = true
 
 [[files]]
@@ -2087,6 +2220,11 @@ hash = "f4ec9cfa7b0e173c510f1524a241e4dd837ab3a2ec92a672ab3e05b4c343b13e"
 metafile = true
 
 [[files]]
+file = "mods/awesome-dungeon.pw.toml"
+hash = "55419afbaa1374f267e591e3da1f01a53d8e7d9625c448d8b3c3edc2a30edc89"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "b8c29dac6fb7c1cf18ca53b7a96c6c4854307999b77a751e803bdd9650a125e0"
 metafile = true
@@ -2119,6 +2257,16 @@ metafile = true
 [[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "a748351943c09e8cb6e90e56b7419c9420d76072c822a2c8c7b0f7f6f636648c"
+metafile = true
+
+[[files]]
+file = "mods/bossesrise.pw.toml"
+hash = "ee892fd4cbe8b81cc7cb59c7238029b1053a157f76a0e7c0b0315b176fb18a86"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "d47b75b30e711de67e9de2ce05fd5979a89e5aacb5c0fd036c6f9466b1da2665"
 metafile = true
 
 [[files]]
@@ -2177,8 +2325,18 @@ hash = "8dd23156830a68809e6449dbd64b83a47de1b1fa36c95785662ce5d04b39102b"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "8abfbd1b229655786c40602f908fece95007ab6c3e04e7a05fa3e785301cbaee"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "88325807c01b522a76d686f39c442da99b73a90ae3ec9b5434fea5f79baa4d49"
+metafile = true
+
+[[files]]
+file = "mods/ct-overhaul-village.pw.toml"
+hash = "c6d0dde1d74cfbab934a8b47744814980329d76cda57a61fa8ac0468c0f06ff1"
 metafile = true
 
 [[files]]
@@ -2202,13 +2360,28 @@ hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
 metafile = true
 
 [[files]]
+file = "mods/delightful.pw.toml"
+hash = "62036383b574be8e271fb98cdd17aef1253542b694c5fee3805458b924db62b3"
+metafile = true
+
+[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "07c258eed928dfa116dcf134acc16886029a3921bb520984f117dd596c828a7e"
 metafile = true
 
 [[files]]
+file = "mods/dungeoncrawl.pw.toml"
+hash = "fa8fd4966f6bece948a79bca28846829c1d55acbcf950aa3c175c56fe6c69e74"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "a6af059766ea70358690d048898d19e493108e2e06a97542fac696fd5e03589a"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-plus.pw.toml"
+hash = "fb3eb7cd5aa4f28bab3e2402e58b0eec67e481ba292a18337a8852726c0c594e"
 metafile = true
 
 [[files]]
@@ -2224,6 +2397,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
+metafile = true
+
+[[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "84e6ec23b1d9e88d4e1147d3d3c7c50b387f4b7ce06c52d3d8b6ceb6412907ee"
 metafile = true
 
 [[files]]
@@ -2252,6 +2430,11 @@ hash = "5cd47b3d987cc06e57a99ceda4f173f4e442fc5bdc1989cd0202f55dc55f71a5"
 metafile = true
 
 [[files]]
+file = "mods/experimental-settings-disabler.pw.toml"
+hash = "c50e9edf68588e4cc082fd1e47804b8016e022579a0eea7f0ee32a7764008d69"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "8d11358dfd1f3591ee0ce8728d6a3234e1edef5db39c52fe68264ecf7684968d"
 metafile = true
@@ -2262,6 +2445,11 @@ hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
 metafile = true
 
 [[files]]
+file = "mods/fallingleavesforge.pw.toml"
+hash = "2db3a1221517a6d4344b7359463d115461844f12b001edd8d19395eecc12a7f3"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "6d249bb1b8d325f2536a1a4830d1fe55e1b6fa99d044b67d49003ad6c82e4bb2"
 metafile = true
@@ -2269,6 +2457,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "c83385838fbf5cdd40684e5f6d4b7bcc2126de4abca229a60b7063e57a5a4615"
+metafile = true
+
+[[files]]
+file = "mods/farmers-respite.pw.toml"
+hash = "dbf9faeb328cdb0cb7a41a8c9c238c59ea9c70e7683c5bfc55b783ad80e85a39"
 metafile = true
 
 [[files]]
@@ -2338,7 +2531,12 @@ metafile = true
 
 [[files]]
 file = "mods/gurizes.pw.toml"
-hash = "32b94178ef5008bf596438fb5f4d325e60a190f9111fe62c6da9a0933e631826"
+hash = "20cf8e3583764b1fac3af7455503e05c499916920e60edf9d946e0e5b02a1254"
+metafile = true
+
+[[files]]
+file = "mods/hopo-better-ruined-portals.pw.toml"
+hash = "eaae1174ba2d0d6e38e4d6a1c1f3f1dd1f710d5ae68282fe90d1a3fa043d6db3"
 metafile = true
 
 [[files]]
@@ -2382,6 +2580,11 @@ hash = "e2337a3930d3dfb07c051ff0000b2ebd8d4638e17f091b7ad2c786bf0b25d095"
 metafile = true
 
 [[files]]
+file = "mods/item-highlighter.pw.toml"
+hash = "1fd7d2d0d436f2b8e61475da148bdb0dac06bdddeb6d188629785e2a2a89320d"
+metafile = true
+
+[[files]]
 file = "mods/item-obliterator.pw.toml"
 hash = "8d2954e230da5baa467b2851827aed41e6c7544fd2ddbb581fa177efb2bc0ffb"
 metafile = true
@@ -2417,13 +2620,28 @@ hash = "dfdd246954f9bcfbff66668558b17ba5b3e75a12ba6031c441750a472670fbd8"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "071ae7387afbd840ec0142a0a07c2edf31d28a0a43334ce1e0786eca4e9d715b"
+metafile = true
+
+[[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "bc4c7d42fd94d57b020a43dbb3aa3caaa8395c77bd872f252a8302a39b2256a9"
 metafile = true
 
 [[files]]
+file = "mods/library-ferret.pw.toml"
+hash = "9e8dd3e6c43542e5edc72259a9be1d3815b87cc3baca9ea071b39c3f06dbb1fc"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "f3b6b7cd660a91a34a4e18010c9eaacaeb7ff306cadfee14431fa25a15b041ec"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "9d5803fdca0759e3b94133ae7cfb6cd5f766aa5780935a6607a7a4d165041245"
 metafile = true
 
 [[files]]
@@ -2497,6 +2715,11 @@ hash = "2b8f42e2738eee168da78318c19249f78a546dd3f0a08084afcb7ddacc0144b4"
 metafile = true
 
 [[files]]
+file = "mods/my-nethers-delight.pw.toml"
+hash = "fd8a7aa74c46e0ffdefd6ff537656c248c1afa95864e1db86d2057702d297a3b"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "8cad1023bbc6e5c13961de6248a88b91538f3ad315dfdbb40c969e25606d98eb"
 metafile = true
@@ -2504,6 +2727,11 @@ metafile = true
 [[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "1802dcd780c6deb02fb0d9251474f221077c7c80b8d673585ab59a93f4fe2abb"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "8887c7732b0460439afceee354539258df9f9f054020cae67aaadb923433d99f"
 metafile = true
 
 [[files]]
@@ -2632,8 +2860,23 @@ hash = "b07c6c5e54b6f8a0bc563fa19548110e7544f343c77540addf9c484692d43b51"
 metafile = true
 
 [[files]]
+file = "mods/stalwart-dungeons.pw.toml"
+hash = "d7849f105a95077b8def2721e50871e55ea74f75d7444c1908c9603ae272b022"
+metafile = true
+
+[[files]]
+file = "mods/structory-towers.pw.toml"
+hash = "2d5fddc37293f33e8967e4687a69fb98126a8c4f79194547d1ab6e2941007910"
+metafile = true
+
+[[files]]
 file = "mods/structory.pw.toml"
 hash = "d0b06ed3c01796837223764708bafdc354ca271083f29700aa2de1c5e1b4ff89"
+metafile = true
+
+[[files]]
+file = "mods/structure-gel-api.pw.toml"
+hash = "0a1893b4abfd0e7243095240b329552c082dd3fa7874b43e9b43c94812875472"
 metafile = true
 
 [[files]]
@@ -2652,8 +2895,18 @@ hash = "131c818cca79586fdca0535062a63581e7c438efd108be4403ab8faea92e6368"
 metafile = true
 
 [[files]]
+file = "mods/totw-modded.pw.toml"
+hash = "692960348d6f2f5b587412c677524ba15dc39b29bfcf19ca5798492c0462a040"
+metafile = true
+
+[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "7b7108d879e1e1c141b24d0d8fa268a6bbcd5c227875d156fcc62c3beec55f63"
+metafile = true
+
+[[files]]
+file = "mods/transmog.pw.toml"
+hash = "a0db24950948f1dd5e0b5dda408c5c1f40ac617a08e60de527ac6720dafd49c9"
 metafile = true
 
 [[files]]
@@ -2667,6 +2920,11 @@ hash = "16e2c84951ba32efac8703ccb7b36631b70cb514d402fa8fb4f89031f2a63a58"
 metafile = true
 
 [[files]]
+file = "mods/wabi-sabi-structures.pw.toml"
+hash = "277c8305dd34e2be68b620cd08868ab52147d9e71c3af36497417dbeb9f74c00"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "1dc6ca31c7b6912c494caa2a4f5f9f7250af50fbeb9ce9141ae9b741f9861987"
 metafile = true
@@ -2674,6 +2932,11 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "1901cefc095dfaeafb78fc34610febb36f9e4a0ae32f7b96f484f0dacc94c681"
+metafile = true
+
+[[files]]
+file = "mods/whisperwoods.pw.toml"
+hash = "904a4913d0e1b1fd51e4d0d0092f80d68e83e6d4de7644e29e4462e05218d9fa"
 metafile = true
 
 [[files]]

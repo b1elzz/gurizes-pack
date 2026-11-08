@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:centelha_do_selo"
 	id: "3D588B48AEA5B79C"
-	order_index: 8
+	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -53,7 +53,6 @@
 				"As Formas seguintes são na mesa de ferraria, com a Centelha e o material de cada ato."
 				"A arma só reconhece quem fez o juramento da classe dela."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:centelha_do_selo"
 			id: "08980327ADCB5557"
 			rewards: [ ]

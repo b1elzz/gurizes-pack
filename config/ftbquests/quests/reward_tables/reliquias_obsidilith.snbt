@@ -2,7 +2,7 @@
 	icon: "bosses_of_mass_destruction:obsidian_heart"
 	id: "5A3D9626E0E247BC"
 	loot_size: 1
-	order_index: 8
+	order_index: 13
 	rewards: [
 		{
 			item: "bosses_of_mass_destruction:obsidian_heart"

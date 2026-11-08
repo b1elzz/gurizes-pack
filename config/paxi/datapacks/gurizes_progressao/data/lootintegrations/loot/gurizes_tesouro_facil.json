@@ -8,6 +8,9 @@
     "minecraft:chests/shipwreck_supply": 1,
     "minecraft:chests/ruined_portal": 1,
     "minecraft:chests/igloo_chest": 1,
-    "minecraft:chests/underwater_ruin_small": 1
+    "minecraft:chests/underwater_ruin_small": 1,
+    "dungeoncrawl:chests/stage_1": 1,
+    "ctov:chests/village/village_smith": 1,
+    "hopo:chests/portal/better_ruined_portal": 1
   }
 }

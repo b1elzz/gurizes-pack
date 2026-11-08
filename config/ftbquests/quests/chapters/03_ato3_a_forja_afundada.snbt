@@ -14,7 +14,6 @@
 				"\"Regra número um do Nether: cama explode. Regra número dois: alguém do grupo vai testar"
 				"a regra número um mesmo assim. Faça uma âncora de respawn antes.\""
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:respawn_anchor"
 			id: "6F61C2635841656F"
 			rewards: [
@@ -46,7 +45,6 @@
 				"O Clã Martelo-Brasa montou posto numa fortaleza do Nether."
 				"Encontre a fortaleza e o Mestre Durgo."
 			]
-			hide_until_deps_visible: true
 			icon: "minecraft:nether_bricks"
 			id: "17B5390304DA4CA2"
 			rewards: [
@@ -73,7 +71,6 @@
 				"Durgo quer Escória Ardente dos mobs do Nether."
 				"Em troca, o Martelo Rúnico do Clã (volta inteiro da receita da chave)."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:escoria_ardente"
 			id: "67C7D3854DA81061"
 			rewards: [
@@ -106,7 +103,6 @@
 			description: [
 				"Crafte a Brasa Primordial: 4 Escória Ardente, 2 varas de blaze, 1 lágrima de ghast e o Martelo Rúnico (devolvido)."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:brasa_primordial"
 			id: "78074BDBC045C187"
 			rewards: [
@@ -174,6 +170,29 @@
 			]
 			title: "A Forja Afundada"
 			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["299A96D053605996"]
+			description: [
+				"O ferro do mundo esquece o que forjou. Existe uma bigorna no fundo do fogo, e ela está esperando."
+				""
+				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
+			]
+			icon: "minecraft:barrier"
+			id: "765DBCC5B6ACA2E1"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8Ato III · selado"
+			tasks: [
+				{
+					id: "307A3EFD150FB8A1"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: -3.5d
 			y: 3.0d
 		}
 	]

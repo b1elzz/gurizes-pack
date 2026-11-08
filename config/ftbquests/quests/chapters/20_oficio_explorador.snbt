@@ -5,20 +5,17 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:compass"
 	id: "585DFA81A393164B"
-	order_index: 23
+	order_index: 26
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4DDB3E9E6F0CC55F"]
 			description: [
-				"Você escolheu o ofício Explorador. Acha masmorras e leva o grupo de volta para casa."
-				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+				"Explorador é uma profissão aberta a todos: não há escolha. Acha masmorras e leva o grupo de volta para casa."
+				"As receitas ficam na bancada comum, para qualquer jogador."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:compass"
 			id: "7CDC7B0A10370C97"
-			invisible: true
-			invisible_until_tasks: 1
 			rewards: [
 				{
 					id: "77CD1DCD779A7737"
@@ -30,10 +27,8 @@
 			size: 1.25d
 			tasks: [
 				{
-					advancement: "gurizes:interno/oficio_explorador"
-					criterion: ""
 					id: "75DAAB826008F6A1"
-					type: "advancement"
+					type: "checkmark"
 				}
 			]
 			title: "Aprendiz de Explorador"
@@ -43,7 +38,6 @@
 		{
 			dependencies: ["7CDC7B0A10370C97"]
 			description: ["Faça a primeira Bússola de Masmorra."]
-			hide_until_deps_visible: true
 			icon: "gurizes:bussola_de_masmorra"
 			id: "51E64425909BD116"
 			rewards: [
@@ -67,7 +61,6 @@
 		{
 			dependencies: ["51E64425909BD116"]
 			description: ["Faça o primeiro Pergaminho de Retorno."]
-			hide_until_deps_visible: true
 			icon: "gurizes:pergaminho_de_retorno"
 			id: "7298E28A0BEC6A0D"
 			rewards: [
@@ -91,9 +84,8 @@
 		{
 			dependencies: ["7298E28A0BEC6A0D", "1F82201E3EE0EE78"]
 			description: [
-				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:compass"
 			id: "78568052A66DD933"
 			rewards: [
@@ -119,7 +111,6 @@
 		{
 			dependencies: ["78568052A66DD933"]
 			description: ["Faça o primeiro Pergaminho de Retorno do Grupo."]
-			hide_until_deps_visible: true
 			icon: "gurizes:pergaminho_de_retorno_grupo"
 			id: "2B4102682E481B5F"
 			rewards: [
@@ -142,6 +133,6 @@
 			y: 1.4d
 		}
 	]
-	subtitle: ["Só aparece para quem tem este ofício"]
-	title: "Ofício: Explorador"
+	subtitle: ["Aberta a todos; Mestre no Ato III"]
+	title: "Profissão: Explorador"
 }

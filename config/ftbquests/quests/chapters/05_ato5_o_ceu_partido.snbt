@@ -14,7 +14,6 @@
 				"Ache a fortaleza, acenda o portal e entre no End."
 				"O Dragão do Ender é opcional: está nos Contratos de Caça."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:end_portal_frame"
 			id: "1CB951A2E45D104A"
 			rewards: [
@@ -41,7 +40,6 @@
 			description: [
 				"Endermen e shulkers do End deixam cair Poeira Estelar. Traga oito punhados."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:poeira_estelar"
 			id: "75E87D6A32783268"
 			rewards: [
@@ -71,7 +69,6 @@
 				"A Arquivista Lune desenhou onde fica o maior deles. Ela também desenhou um gato na margem do mapa."
 				"Ignore o gato.\""
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:mapa_celeste"
 			id: "7630A82A2A53D770"
 			rewards: [
@@ -102,7 +99,6 @@
 			description: [
 				"Crafte a Lente Estelar: 4 Poeira Estelar, 1 olho do ender, 2 cascas de shulker e o Mapa Celeste (devolvido)."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:lente_estelar"
 			id: "60E96F86A9DD2126"
 			rewards: [
@@ -171,6 +167,29 @@
 			]
 			title: "O Céu Partido"
 			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E489942504DD2AF"]
+			description: [
+				"As estrelas do End não são estrelas: são olhos fechados. Um deles está acordando."
+				""
+				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
+			]
+			icon: "minecraft:barrier"
+			id: "03621B48057453F9"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8Ato V · selado"
+			tasks: [
+				{
+					id: "6E30757EE05B1593"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: -3.5d
 			y: 3.0d
 		}
 	]

@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:adaga_do_ultimo_suspiro"
 	id: "49FC30077D103768"
-	order_index: 18
+	order_index: 21
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -212,7 +212,7 @@
 		{
 			dependencies: ["6217BD222A4D1488", "742229AAC39362D9"]
 			description: [
-				"Na fase 1, bata pelas costas de Sir Galvar e saia pelo Passo Sangrento antes do contra-ataque."
+				"Na fase 1, bata pelas costas de Sir Xavier Siri Galvar e saia pelo Passo Sangrento antes do contra-ataque."
 				"Ele resiste a sangue de frente."
 				"Marque quando estiver pronto para a Cripta."
 			]

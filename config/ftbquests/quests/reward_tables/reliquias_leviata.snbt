@@ -2,7 +2,7 @@
 	icon: "cataclysm:abyssal_sacrifice"
 	id: "624257A5B7BE3C8B"
 	loot_size: 1
-	order_index: 9
+	order_index: 14
 	rewards: [
 		{
 			item: "cataclysm:tidal_claws"

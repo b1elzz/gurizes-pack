@@ -13,7 +13,6 @@
 			description: [
 				"Todos os cinco Fragmentos na mão. Eles são almados: não caem na cova e nenhuma receita os consome."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:fragmento_estrela"
 			id: "402462F12C986E30"
 			rewards: [
@@ -61,7 +60,6 @@
 				"\"Cinco fragmentos, cinco deuses, um grupo de heróis que até ontem brigava por quem ficava com o diamante."
 				"Ponha os fragmentos na Mesa do Selo. O portal abre por trinta segundos. Ninguém fica para trás.\""
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:mesa_do_selo"
 			id: "07590E150745C9B8"
 			rewards: [
@@ -89,7 +87,6 @@
 				"Leve sua arma-assinatura à Forma V na mesa de ferraria:"
 				"arma + 1 Centelha do Selo + 3 Vidro Estelar. Marque quando estiver pronta."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:vidro_estelar"
 			id: "4CA73FA62F4D5DDB"
 			optional: true
@@ -127,7 +124,6 @@
 				"&7O boss escala com o grupo: vida ×2,1 com 2 jogadores e ×4,3 com 4."
 				"&7Ficha completa no wiki do pack."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:coracao_do_selo"
 			id: "6E03BEB78B3040B9"
 			rewards: [
@@ -169,9 +165,8 @@
 			dependencies: ["6E03BEB78B3040B9"]
 			description: [
 				"A metade dourada de Morvhal lembrou quem era e ajudou a refazer o Selo. A Mácula voltou a dormir."
-				"Mas aprendeu o caminho. O Juramento Eterno (NG+) e o fim da Trilha dos Deuses esperam."
+				"Mas aprendeu o caminho. O Juramento Eterno (NG+) e o fim do Panteão esperam."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:selo_refeito"
 			id: "234510F261251473"
 			rewards: [
@@ -194,6 +189,29 @@
 			]
 			title: "O Selo Refeito"
 			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E64F5B91C5F61D4"]
+			description: [
+				"Cinco fragmentos, um trono e um rei que já foi gente. Falta pouco, e é o pior pedaço."
+				""
+				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
+			]
+			icon: "minecraft:barrier"
+			id: "2217D7B1AA33597B"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8Ato VI · selado"
+			tasks: [
+				{
+					id: "3D38D6002135956D"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: -3.5d
 			y: 3.0d
 		}
 	]

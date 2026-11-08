@@ -2,7 +2,7 @@
 	icon: "apotheosis:gem"
 	id: "2AF94D10986C2260"
 	loot_size: 1
-	order_index: 12
+	order_index: 2
 	rewards: [
 		{
 			item: {

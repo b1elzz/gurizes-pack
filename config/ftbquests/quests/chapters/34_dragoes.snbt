@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "iceandfire:dragon_skull_fire"
 	id: "4BCE4F5C1962B63D"
-	order_index: 33
+	order_index: 38
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -14,7 +14,6 @@
 			description: [
 				"Depois do Ato V, os dragões rondam as terras distantes. Traga uma escama de dragão de fogo."
 			]
-			hide_until_deps_complete: true
 			icon: "iceandfire:dragon_skull_fire"
 			id: "0ED041C08FD5AB3E"
 			rewards: [
@@ -39,7 +38,6 @@
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
 			description: ["Traga uma escama de dragão de gelo."]
-			hide_until_deps_complete: true
 			icon: "iceandfire:dragon_skull_ice"
 			id: "3CCE96007D76FE29"
 			rewards: [
@@ -64,7 +62,6 @@
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
 			description: ["Traga uma escama de dragão de raio."]
-			hide_until_deps_complete: true
 			icon: "iceandfire:dragon_skull_lightning"
 			id: "07AD33CA1EA6A54E"
 			rewards: [
@@ -89,7 +86,6 @@
 		{
 			dependencies: ["2E64F5B91C5F61D4"]
 			description: ["Forje um lingote de aço de dragão na forja de dragão."]
-			hide_until_deps_complete: true
 			icon: "iceandfire:dragonsteel_fire_ingot"
 			id: "7D9BE6BB30AC05CD"
 			rewards: [

@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:cetro_do_selo"
 	id: "22DD5811F3728F9F"
-	order_index: 11
+	order_index: 14
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -207,7 +207,7 @@
 		{
 			dependencies: ["606C02794A295835", "25E9557DCE708082"]
 			description: [
-				"Sir Galvar resiste a fogo e a projéteis de frente. Troque para &eraio&r (&e/trigger gurizes.elemento set 2&r)"
+				"Sir Xavier Siri Galvar resiste a fogo e a projéteis de frente. Troque para &eraio&r (&e/trigger gurizes.elemento set 2&r)"
 				"e mantenha distância dos pilares. Ele é imune a veneno e wither."
 				"Marque quando estiver pronto para a Cripta."
 			]

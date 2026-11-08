@@ -1,5 +1,6 @@
 // priority: 900
 // Tags de trava por ato (progressao-economia.md §1.4 e campanha-bosses.md §3.5 item 3).
+// Inclui os itens das antigas receitas de Mestre das profissões (abertas a todos na 0.1.2, D28): craftáveis por todos, usáveis a partir do Ato IV.
 // Única lista de itens selados: a equipe de balanço só edita este arquivo.
 // Ids de terceiros conferidos no índice dos jars do servidor de teste (02/11/2026); os marcados [validar] dependem de teste em jogo.
 
@@ -39,6 +40,8 @@ ServerEvents.tags('item', event => {
     'mowziesmobs:earthrend_gauntlet', 'mowziesmobs:sunblock_staff', 'mowziesmobs:naga_fang_dagger'
   ])
   event.add('gurizes:trava/ato_4', [
+    'gurizes:kit_de_reparo_superior', 'gurizes:oleo_de_tempera', 'gurizes:elixir_do_heroi', 'gurizes:frasco_de_cura_maior',
+    'gurizes:banquete_real', 'gurizes:pergaminho_de_retorno_grupo', 'gurizes:selo_de_caravana',
     'minecraft:netherite_ingot', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:netherite_sword',
     'minecraft:netherite_axe', 'minecraft:netherite_pickaxe', 'minecraft:netherite_shovel',
     'minecraft:netherite_hoe', 'minecraft:netherite_helmet', 'minecraft:netherite_chestplate',
@@ -130,6 +133,34 @@ ServerEvents.tags('item', event => {
     'iceandfire:armor_amythest_chestplate', 'iceandfire:armor_amythest_leggings', 'iceandfire:armor_amythest_boots',
     'iceandfire:armor_black_helmet', 'iceandfire:armor_black_chestplate', 'iceandfire:armor_black_leggings',
     'iceandfire:armor_black_boots'
+  ])
+  event.add('gurizes:trava/ato_2', [
+    'block_factorys_bosses:ice_gauntlet', 'block_factorys_bosses:sandworm_gauntlet', 'block_factorys_bosses:warrior_sword',
+    'block_factorys_bosses:dragon_guard_shield', 'block_factorys_bosses:dragon_bones_chestplate', 'block_factorys_bosses:dragon_bones_leggings',
+    'block_factorys_bosses:dragon_bones_boots', 'dungeons_plus:frosted_cowl', 'dungeons_plus:warped_axe',
+    'stalwart_dungeons:diamond_hammer', 'nethersdelight:diamond_machete'
+  ])
+  event.add('gurizes:trava/ato_3', [
+    'block_factorys_bosses:kraken_trident', 'block_factorys_bosses:enhanced_shield', 'block_factorys_bosses:large_sword',
+    'block_factorys_bosses:knight_sword', 'block_factorys_bosses:knight_helmet', 'block_factorys_bosses:knight_chestplate',
+    'block_factorys_bosses:knight_leggings', 'block_factorys_bosses:knight_boots', 'dungeons_plus:leviathan_blade', 'dungeons_plus:soul_cannon',
+    'stalwart_dungeons:nether_hammer', 'stalwart_dungeons:tungsten_sword', 'stalwart_dungeons:tungsten_axe', 'stalwart_dungeons:tungsten_pickaxe',
+    'stalwart_dungeons:tungsten_shovel', 'stalwart_dungeons:tungsten_hoe', 'stalwart_dungeons:tungsten_hammer', 'stalwart_dungeons:tungsten_shield',
+    'stalwart_dungeons:tungsten_helmet', 'stalwart_dungeons:tungsten_chestplate', 'stalwart_dungeons:tungsten_leggings', 'stalwart_dungeons:tungsten_boots',
+    'stalwart_dungeons:warted_tungsten_helmet', 'stalwart_dungeons:warted_tungsten_chestplate', 'stalwart_dungeons:warted_tungsten_leggings',
+    'stalwart_dungeons:warted_tungsten_boots', 'stalwart_dungeons:warted_tungsten_shield', 'stalwart_dungeons:awful_dagger', 'stalwart_dungeons:awful_gun',
+    'stalwart_dungeons:obsidian_striker'
+  ])
+  event.add('gurizes:trava/ato_4', [
+    'stalwart_dungeons:netherite_hammer', 'nethersdelight:netherite_machete', 'delightful:gilded_netherite_knife', 'delightful:netherite_opal_knife'
+  ])
+  event.add('gurizes:trava/ato_5', [
+    'stalwart_dungeons:chorundum_sword', 'stalwart_dungeons:chorundum_axe', 'stalwart_dungeons:chorundum_pickaxe', 'stalwart_dungeons:chorundum_shovel',
+    'stalwart_dungeons:chorundum_hoe', 'stalwart_dungeons:chorundum_shield', 'stalwart_dungeons:chorundum_armor_helmet',
+    'stalwart_dungeons:chorundum_armor_chestplate', 'stalwart_dungeons:chorundum_armor_leggings', 'stalwart_dungeons:chorundum_armor_boots',
+    'stalwart_dungeons:shulker_cannon_item', 'stalwart_dungeons:teleporter', 'stalwart_dungeons:teleporter_pearl'
+  ])
+  event.add('gurizes:trava/ato_6', [
   ])
   event.add('gurizes:trava/epilogo', [])
 })

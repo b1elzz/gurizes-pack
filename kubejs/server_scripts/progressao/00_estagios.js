@@ -8,8 +8,7 @@
 global.GURIZES_ESTAGIOS_SERVIDOR = ['ato_1', 'ato_2', 'ato_3', 'ato_4', 'ato_5', 'ato_6', 'epilogo', 'ng_1', 'ng_2', 'ng_3', 'panteao']
 global.GURIZES_ESTAGIOS_JOGADOR = ['juramentado',
   'classe_paladino', 'classe_berserker', 'classe_mago_elemental', 'classe_necromante', 'classe_cacador',
-  'classe_lamina_arcana', 'classe_bardo', 'classe_druida', 'classe_monge', 'classe_assassino',
-  'oficio_ferreiro', 'oficio_alquimista', 'oficio_cozinheiro', 'oficio_explorador', 'oficio_mercador', 'oficio_encantador']
+  'classe_lamina_arcana', 'classe_bardo', 'classe_druida', 'classe_monge', 'classe_assassino']
 
 global.GURIZES_NOME_ESTAGIO = {
   ato_1: 'Ato I: A Coroa Oca', ato_2: 'Ato II: O Bosque que Sangra', ato_3: 'Ato III: A Forja Afundada',

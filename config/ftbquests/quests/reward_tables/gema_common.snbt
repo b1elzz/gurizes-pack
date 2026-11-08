@@ -1,0 +1,89 @@
+{
+	icon: "apotheosis:gem"
+	id: "03B5B67B0155426C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/ballast"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/guardian"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/combatant"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/samurai"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/slipstream"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/warlord"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/breach"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/splendor"
+					rarity: "apotheosis:common"
+				}
+			}
+		}
+	]
+	title: "Gema Comum"
+}

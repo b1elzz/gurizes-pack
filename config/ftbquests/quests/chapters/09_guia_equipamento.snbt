@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "09_guia_equipamento"
+	group: "16A9D409E972219F"
+	icon: "minecraft:iron_chestplate"
+	id: "18A571CFE6EC8077"
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"\"Na Cripta, vista o que o Ato I permite: ferro, raridade comum ou incomum, encantamento até II. O resto está selado, e eu tenho o tooltip como testemunha.\""
+				"&7- Capitã Isolde"
+				"Sete linhas de equipamento: o que usar, de onde vem e para quem serve."
+				"&eDica:&r se um item mostrar \"Selado pelo Juramento\", deixe no baú e volte quando o ato dele chegar."
+			]
+			icon: "minecraft:iron_chestplate"
+			id: "6D9B10DD7FC8D738"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&bGuia"
+			tasks: [
+				{
+					id: "1E4D9E79FDCC66A3"
+					type: "checkmark"
+				}
+			]
+			title: "Equipamento do Ato I"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Ferro vanilla: capacete, peitoral, calças e botas. Honesto, barato e suficiente para o Galvar."
+				"&6Para:&r Paladino e Berserker."
+				"&6Vem de:&r bancada, com lingotes de ferro (a quest \"Pão, Aço e Teto\" pede o conjunto)."
+				"&eDica:&r o Monge perde a esquiva com peitoral de ferro: quem luta de punhos fica no couro."
+			]
+			icon: "minecraft:iron_chestplate"
+			id: "74A82A4A55C8E2A8"
+			rewards: [ ]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&bEquipamento · Ato I"
+			tasks: [
+				{
+					id: "095BAC1FCDAA1600"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Armadura Pesada"
+			x: 3.2d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Cota de malha: a vanilla (de vilas e baús) e a de aço do Epic Knights (chainmail_*), feita de correntes de aço. Um meio-termo entre couro e ferro."
+				"O aço sai do lingote de ferro na fornalha de fundição."
+				"&6Para:&r Caçador, Lâmina Arcana e Bardo."
+				"&6Vem de:&r vilas, baús de masmorra e a bancada."
+				"&eDica:&r o gambeson (acolchoado do Epic Knights, feito de tecido de lã) é a opção ainda mais leve."
+			]
+			icon: "minecraft:chainmail_chestplate"
+			id: "241F80C8E7356EA6"
+			rewards: [ ]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&bEquipamento · Ato I"
+			tasks: [
+				{
+					id: "4735DE0DB4EEF862"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Armadura Média"
+			x: 5.8d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Couro vanilla e o conjunto Wandering Magician (Iron's), que sai de uma peça de couro e uma Essência Arcana. Pouca defesa, muita liberdade."
+				"&6Para:&r Mago, Necromante, Druida, Assassino e Monge."
+				"&6Vem de:&r bancada e itens de Iron's Spells."
+				"&eDica:&r quem lança magia precisa de mana, não de aço: troque defesa por mobilidade."
+			]
+			icon: "minecraft:leather_chestplate"
+			id: "299A86FB11A180A4"
+			rewards: [ ]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&bEquipamento · Ato I"
+			tasks: [
+				{
+					id: "725429D88A30C76C"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Armadura Leve"
+			x: 8.4d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Escudo vanilla e os escudos de ferro do Epic Knights (heatershield, kiteshield, roundshield). Todos aparam, todos valem."
+				"Cada escudo de ferro do Epic Knights leva o escudo de madeira da mesma forma (tábuas e 1 lingote de aço) mais 4 lingotes de ferro."
+				"&6Para:&r todos: aparar é para todo mundo."
+				"&6Vem de:&r bancada; a Lição de Escudo dá um de presente."
+				"&eDica:&r o escudo do Primeiro Cavaleiro (do Galvar) vem depois e apara com uma janela 30% maior."
+			]
+			icon: "magistuarmory:iron_heatershield"
+			id: "7045D1D64D4A7C83"
+			rewards: [ ]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&bEquipamento · Ato I"
+			tasks: [
+				{
+					id: "6554B62FCD018EC2"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Escudos"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"O kit da sua classe já trouxe a primeira arma: espada de ferro (Paladino, Lâmina Arcana), machado (Berserker), foice (Necromante), arco (Caçador), lança (Bardo), sai (Assassino), cajado (Mago, Druida) e Bastão de Treino (Monge)."
+				"Mais opções de ferro: Simply Swords (iron_longsword, iron_claymore, iron_katana...) e Epic Knights (iron_katzbalger, iron_shortsword...)."
+				"&6Para:&r cada classe, a sua."
+				"&6Vem de:&r o kit do juramento, a bancada e baús de masmorra."
+				"&eDica:&r a arma-assinatura (Forma I) chega depois do Galvar: até lá, ferro puro e encantamento até II."
+			]
+			icon: "simplyswords:iron_longsword"
+			id: "7D4982FF30DDBB77"
+			rewards: [ ]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&bEquipamento · Ato I"
+			tasks: [
+				{
+					id: "51BC0F88F7D66FA2"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Armas"
+			x: 3.2d
+			y: 2.6d
+		}
+		{
+			description: [
+				"Curios do Artifacts que servem desde o começo: Running Shoes, Cross Necklace, Snorkel, Feral Claws, Lucky Scarf e Universal Attractor."
+				"&6Para:&r todos."
+				"&6Vem de:&r baús de masmorra (Lootr) e mímicos."
+				"&eDica:&r os acessórios ocupam slots de Curios e não aparecem na sua armadura: confira o slot antes de pensar que perdeu o item."
+			]
+			icon: "artifacts:running_shoes"
+			id: "6C18B17FFDB656F1"
+			rewards: [ ]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&bEquipamento · Ato I"
+			tasks: [
+				{
+					id: "4492FB3A99AB086E"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Acessórios"
+			x: 5.8d
+			y: 2.6d
+		}
+		{
+			description: [
+				"Pratos do Farmer's Delight (beef_stew, vegetable_soup, roast_chicken), poções de cura e as peças de Aprendiz do Pouso: Kit de Reparo de Campo, Pedra de Amolar, Frasco de Cura em Grupo, Tônico de Mana, Ração de Viagem e Banquete do Acampamento."
+				"&6Para:&r todos."
+				"&6Vem de:&r cozinha, alquimia e a bancada das Profissões."
+				"&eDica:&r o Óleo de Têmpera e os frascos \"maiores\" são de nível Mestre: só do Ato IV em diante."
+			]
+			icon: "farmersdelight:beef_stew"
+			id: "519229AEE52B5905"
+			rewards: [ ]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&bEquipamento · Ato I"
+			tasks: [
+				{
+					id: "10B00DF2A208D57D"
+					title: "Li a página"
+					type: "checkmark"
+				}
+			]
+			title: "Consumíveis"
+			x: 8.4d
+			y: 2.6d
+		}
+		{
+			dependencies: [
+				"74A82A4A55C8E2A8"
+				"241F80C8E7356EA6"
+				"299A86FB11A180A4"
+				"7045D1D64D4A7C83"
+				"7D4982FF30DDBB77"
+				"6C18B17FFDB656F1"
+				"519229AEE52B5905"
+			]
+			description: [
+				"\"Armadura de ferro completa, escudo na mão e a mochila cheia. É o que eu peço a qualquer um que vai bater na porta de um cavaleiro mal-humorado.\""
+				"&7- Capitã Isolde"
+				"Com as quatro peças de ferro e o escudo em mãos, o Kit de cura é por minha conta."
+				"&eDica:&r a quest \"Preparação para a Cripta\" (Campanha) confere comida, poções e arma. As duas pagam kit de cura: o grupo precisa."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_helmet"
+			id: "2898F0AB4F012C7A"
+			rewards: [
+				{
+					count: 2
+					id: "73E4B740488FC0C9"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&bGuia · fecho"
+			tasks: [
+				{
+					id: "7B75EF3CA51D4EDE"
+					item: "minecraft:iron_helmet"
+					type: "item"
+				}
+				{
+					id: "3205001F40BD4356"
+					item: "minecraft:iron_chestplate"
+					type: "item"
+				}
+				{
+					id: "61493FE9F27BEC4F"
+					item: "minecraft:iron_leggings"
+					type: "item"
+				}
+				{
+					id: "4B74B316E61C6C20"
+					item: "minecraft:iron_boots"
+					type: "item"
+				}
+				{
+					id: "7985D3EAA9E72D28"
+					item: "minecraft:shield"
+					type: "item"
+				}
+			]
+			title: "Pronto para a Cripta"
+			x: 7.1d
+			y: 5.4d
+		}
+	]
+	subtitle: ["O que usar até o Galvar, e de onde vem"]
+	title: "Equipamento do Ato I"
+}

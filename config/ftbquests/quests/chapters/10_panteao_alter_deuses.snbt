@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10_panteao_alter_deuses"
+	group: "3DC2DB31CDAC58A5"
+	icon: "minecraft:barrier"
+	id: "45FA33F84D2EA208"
+	order_index: 31
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["234510F261251473"]
+			description: [
+				"O primeiro guardião jurou de novo, mais forte e sem a Coroa a lhe pesar."
+				""
+				"&eDica:&r Sir Xavier Siri Galvar, o Juramento Eterno — Epílogo. Chega numa atualização, depois do Selo refeito."
+			]
+			icon: "minecraft:barrier"
+			id: "4EA7B55AC38CBDAA"
+			rewards: [ ]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&8Alter-Deus · Epílogo"
+			tasks: [
+				{
+					id: "50EC87610E054CC3"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["234510F261251473"]
+			description: [
+				"O porteiro do Ato II volta com as mecânicas do Juramento Eterno."
+				""
+				"&eDica:&r o porteiro do Ato II, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+			]
+			icon: "minecraft:barrier"
+			id: "73EB95DAD6307DF3"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			tasks: [
+				{
+					id: "55FD2BF7BEB0E770"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: 3.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["234510F261251473"]
+			description: [
+				"O porteiro do Ato III volta com as mecânicas do Juramento Eterno."
+				""
+				"&eDica:&r o porteiro do Ato III, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+			]
+			icon: "minecraft:barrier"
+			id: "5F9286ECDBC9F6E0"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			tasks: [
+				{
+					id: "3221CA9ED0F9C74A"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: 6.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["234510F261251473"]
+			description: [
+				"O porteiro do Ato IV volta com as mecânicas do Juramento Eterno."
+				""
+				"&eDica:&r o porteiro do Ato IV, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+			]
+			icon: "minecraft:barrier"
+			id: "73E40C0A68AA0F33"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			tasks: [
+				{
+					id: "607C9314EB6AF605"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: 0.0d
+			y: 3.4d
+		}
+		{
+			dependencies: ["234510F261251473"]
+			description: [
+				"O porteiro do Ato V volta com as mecânicas do Juramento Eterno."
+				""
+				"&eDica:&r o porteiro do Ato V, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+			]
+			icon: "minecraft:barrier"
+			id: "3226193D4193D502"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			tasks: [
+				{
+					id: "225A628C2355E77A"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: 3.4d
+			y: 3.4d
+		}
+		{
+			dependencies: ["234510F261251473"]
+			description: [
+				"O porteiro do Ato VI volta com as mecânicas do Juramento Eterno."
+				""
+				"&eDica:&r o porteiro do Ato VI, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+			]
+			icon: "minecraft:barrier"
+			id: "4E9CBC21AA46DE61"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			tasks: [
+				{
+					id: "49B93F73BF9FFD26"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: 6.8d
+			y: 3.4d
+		}
+	]
+	subtitle: ["Os nossos bosses, em versão de pós-jogo"]
+	title: "Panteão: Alter-Deuses"
+}

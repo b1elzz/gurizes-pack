@@ -5,7 +5,7 @@
 	group: "2AB7CEEE2B2349D1"
 	icon: "gurizes:moeda_ouro"
 	id: "2C504532A7FA6F50"
-	order_index: 34
+	order_index: 39
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -13,7 +13,6 @@
 			can_repeat: true
 			dependencies: ["457DAF33C1BBACDF"]
 			description: ["Duas poções de Cura II."]
-			hide_until_deps_complete: true
 			icon: "minecraft:potion"
 			id: "14A3E7867F3364A0"
 			rewards: [
@@ -49,9 +48,8 @@
 			can_repeat: true
 			dependencies: ["457DAF33C1BBACDF"]
 			description: [
-				"Oito pratos quentes da cozinha do Pouso. A Ração de Viagem é coisa do Cozinheiro."
+				"Oito pratos quentes da cozinha do Pouso. A Ração de Viagem sai da bancada do Cozinheiro."
 			]
-			hide_until_deps_complete: true
 			icon: "farmersdelight:beef_stew"
 			id: "13A4919BAD1CF1DF"
 			rewards: [
@@ -87,7 +85,6 @@
 			can_repeat: true
 			dependencies: ["457DAF33C1BBACDF"]
 			description: ["Um ponto a mais na árvore de habilidades."]
-			hide_until_deps_complete: true
 			icon: "skilltree:wisdom_scroll"
 			id: "7EF48FEDE4A1475D"
 			rewards: [
@@ -116,7 +113,6 @@
 			can_repeat: true
 			dependencies: ["457DAF33C1BBACDF"]
 			description: ["Refaz a árvore de habilidades (custa uma parte dos níveis)."]
-			hide_until_deps_complete: true
 			icon: "skilltree:amnesia_scroll"
 			id: "7A88070324BFA8FF"
 			rewards: [
@@ -145,7 +141,6 @@
 			can_repeat: true
 			dependencies: ["457DAF33C1BBACDF"]
 			description: ["A caixa do Ato I: equipamento, consumíveis e moedas do ato."]
-			hide_until_deps_complete: true
 			icon: "gurizes:espolio_ato_1"
 			id: "2C9AB18857126ED3"
 			rewards: [
@@ -173,37 +168,7 @@
 		{
 			can_repeat: true
 			dependencies: ["5B17AA16DD0A5BEC"]
-			description: ["Troca o seu Ofício. Sem limite de uso."]
-			hide_until_deps_complete: true
-			icon: "gurizes:contrato_de_guilda"
-			id: "0DFDEF86316CB2EC"
-			rewards: [
-				{
-					id: "2B3D59226A01CF64"
-					item: "gurizes:contrato_de_guilda"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "&7Personagem"
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "1761FAF46794D611"
-					item: "gurizes:moeda_ouro"
-					type: "item"
-				}
-			]
-			title: "Contrato de Guilda"
-			x: 0.0d
-			y: 5.2d
-		}
-		{
-			can_repeat: true
-			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["Troca a sua Bênção. Uma troca por ato."]
-			hide_until_deps_complete: true
 			icon: "gurizes:vela_da_peregrinacao"
 			id: "2E0730431E0E7DE0"
 			rewards: [
@@ -225,14 +190,13 @@
 				}
 			]
 			title: "Vela da Peregrinação"
-			x: 2.6d
+			x: 0.0d
 			y: 5.2d
 		}
 		{
 			can_repeat: true
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["Troca a sua Raça. Uma troca por ato."]
-			hide_until_deps_complete: true
 			icon: "gurizes:espelho_das_origens"
 			id: "025886C6B1423242"
 			rewards: [
@@ -254,7 +218,7 @@
 				}
 			]
 			title: "Espelho das Origens"
-			x: 5.2d
+			x: 2.6d
 			y: 5.2d
 		}
 		{
@@ -264,7 +228,6 @@
 				"Troca a sua Classe: a árvore é refeita sem perda e a arma-assinatura troca mantendo a forma."
 				"Uma troca por ato. A Centelha é a mesma que evolui a assinatura."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:tomo_do_novo_juramento"
 			id: "179078B55DA89F13"
 			rewards: [
@@ -292,14 +255,13 @@
 				}
 			]
 			title: "Tomo do Novo Juramento"
-			x: 7.8d
+			x: 5.2d
 			y: 5.2d
 		}
 		{
 			can_repeat: true
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["A caixa do Ato II."]
-			hide_until_deps_complete: true
 			icon: "gurizes:espolio_ato_2"
 			id: "17642121567A03A2"
 			rewards: [
@@ -328,7 +290,6 @@
 			can_repeat: true
 			dependencies: ["299A96D053605996"]
 			description: ["A caixa do Ato III."]
-			hide_until_deps_complete: true
 			icon: "gurizes:espolio_ato_3"
 			id: "4978DC1E7F991B57"
 			rewards: [
@@ -357,7 +318,6 @@
 			can_repeat: true
 			dependencies: ["1F82201E3EE0EE78"]
 			description: ["A caixa do Ato IV."]
-			hide_until_deps_complete: true
 			icon: "gurizes:espolio_ato_4"
 			id: "1545831D7D4074D8"
 			rewards: [
@@ -386,7 +346,6 @@
 			can_repeat: true
 			dependencies: ["1E489942504DD2AF"]
 			description: ["A caixa do Ato V."]
-			hide_until_deps_complete: true
 			icon: "gurizes:espolio_ato_5"
 			id: "5B329BA0503340C0"
 			rewards: [
@@ -414,7 +373,6 @@
 			can_repeat: true
 			dependencies: ["2E64F5B91C5F61D4"]
 			description: ["A caixa do Ato VI."]
-			hide_until_deps_complete: true
 			icon: "gurizes:espolio_ato_6"
 			id: "7DDF75B766080B4C"
 			rewards: [
@@ -449,7 +407,6 @@
 			can_repeat: true
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["Uma gema aleatória de raridade incomum."]
-			hide_until_deps_complete: true
 			icon: "apotheosis:gem"
 			id: "5BBE5B2C4281E0CB"
 			rewards: [
@@ -479,7 +436,6 @@
 			can_repeat: true
 			dependencies: ["299A96D053605996"]
 			description: ["Uma gema aleatória de raridade rara."]
-			hide_until_deps_complete: true
 			icon: "apotheosis:gem"
 			id: "0839B68D7870291D"
 			rewards: [
@@ -509,7 +465,6 @@
 			can_repeat: true
 			dependencies: ["1F82201E3EE0EE78"]
 			description: ["Uma gema aleatória de raridade épica."]
-			hide_until_deps_complete: true
 			icon: "apotheosis:gem"
 			id: "4A1CCBE6FE244FEA"
 			rewards: [
@@ -539,7 +494,6 @@
 			can_repeat: true
 			dependencies: ["1E489942504DD2AF"]
 			description: ["Uma gema aleatória de raridade mítica."]
-			hide_until_deps_complete: true
 			icon: "apotheosis:gem"
 			id: "4742D105CC67B940"
 			rewards: [
@@ -569,7 +523,6 @@
 			can_repeat: true
 			dependencies: ["1F82201E3EE0EE78"]
 			description: ["Abre um encaixe de gema num equipamento."]
-			hide_until_deps_complete: true
 			icon: "apotheosis:sigil_of_socketing"
 			id: "3203D00BA74702C2"
 			rewards: [
@@ -598,7 +551,6 @@
 			can_repeat: true
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["Tinta para escrever pergaminhos de raridade Rara."]
-			hide_until_deps_complete: true
 			icon: "irons_spellbooks:rare_ink"
 			id: "7E5A8B013E5E24F8"
 			rewards: [
@@ -627,7 +579,6 @@
 			can_repeat: true
 			dependencies: ["299A96D053605996"]
 			description: ["Tinta para pergaminhos de raridade Épica."]
-			hide_until_deps_complete: true
 			icon: "irons_spellbooks:epic_ink"
 			id: "2F1AB44BEADB642B"
 			rewards: [
@@ -656,7 +607,6 @@
 			can_repeat: true
 			dependencies: ["1F82201E3EE0EE78"]
 			description: ["Tinta para pergaminhos de raridade Lendária."]
-			hide_until_deps_complete: true
 			icon: "irons_spellbooks:legendary_ink"
 			id: "570D6F4CDCDA8EE4"
 			rewards: [
@@ -686,7 +636,6 @@
 			description: [
 				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
 			]
-			hide_until_deps_complete: true
 			icon: "gateways:gate_pearl"
 			id: "117E0EE651CFEF19"
 			rewards: [
@@ -723,7 +672,6 @@
 			description: [
 				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
 			]
-			hide_until_deps_complete: true
 			icon: "gateways:gate_pearl"
 			id: "0409FFFFB2D65251"
 			rewards: [
@@ -760,7 +708,6 @@
 			description: [
 				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
 			]
-			hide_until_deps_complete: true
 			icon: "gateways:gate_pearl"
 			id: "6D8C672E9D21FF2A"
 			rewards: [
@@ -797,7 +744,6 @@
 			description: [
 				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
 			]
-			hide_until_deps_complete: true
 			icon: "gateways:gate_pearl"
 			id: "475C498C775A034D"
 			rewards: [
@@ -839,7 +785,6 @@
 			description: [
 				"Uma Pérola de Portal: abre ondas de monstros com recompensa no fim (Gateways to Eternity)."
 			]
-			hide_until_deps_complete: true
 			icon: "gateways:gate_pearl"
 			id: "64E7A7B6C5FBC2A1"
 			rewards: [
@@ -882,7 +827,6 @@
 			description: [
 				"Atalho para lutar de novo. A chave também pode ser craftada."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:coroa_votiva"
 			id: "6A37E33C19D86A27"
 			rewards: [
@@ -913,7 +857,6 @@
 			description: [
 				"Atalho para lutar de novo. A chave também pode ser craftada."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:coracao_de_seiva"
 			id: "1087FB4AECB367CB"
 			rewards: [
@@ -944,7 +887,6 @@
 			description: [
 				"Atalho para lutar de novo. A chave também pode ser craftada."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:brasa_primordial"
 			id: "2E81E6A9150C4EB2"
 			rewards: [
@@ -974,7 +916,6 @@
 			description: [
 				"Atalho para lutar de novo. A chave também pode ser craftada."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:concha_da_tempestade"
 			id: "05B4A9ABB0B55810"
 			rewards: [
@@ -1011,7 +952,6 @@
 			description: [
 				"Atalho para lutar de novo. A chave também pode ser craftada."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:lente_estelar"
 			id: "7D90010329038F01"
 			rewards: [
@@ -1040,9 +980,8 @@
 			can_repeat: true
 			dependencies: ["6EF3766A506C655B"]
 			description: [
-				"Para quem venceu todos os Deuses Errantes. Só vaidade, e muita."
+				"Para quem venceu todos os Deuses do Panteão. Só vaidade, e muita."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "760AAAA82519C714"
 			rewards: [
@@ -1073,7 +1012,6 @@
 			description: [
 				"Tira 10 níveis dos mobs ganhos no NG+ (nunca abaixo do alvo do ato). Vale para o servidor todo."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:clock"
 			id: "48D183B9FF4C9FC6"
 			rewards: [

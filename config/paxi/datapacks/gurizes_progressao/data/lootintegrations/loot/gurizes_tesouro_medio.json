@@ -9,6 +9,14 @@
     "minecraft:chests/jungle_temple": 2,
     "minecraft:chests/buried_treasure": 2,
     "minecraft:chests/underwater_ruin_big": 1,
-    "minecraft:chests/shipwreck_treasure": 2
+    "minecraft:chests/shipwreck_treasure": 2,
+    "dungeoncrawl:chests/stage_2": 2,
+    "dungeoncrawl:chests/stage_3": 2,
+    "dungeons_plus:chests/tower/common": 2,
+    "dungeons_plus:chests/snowy_temple/common": 2,
+    "dungeons_plus:chests/reanimated_ruins/common": 2,
+    "dungeons_plus:chests/warped_garden/common": 2,
+    "awesomedungeon:chests/awesome_dungeon": 2,
+    "totw_modded:tower_chest": 1
   }
 }

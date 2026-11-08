@@ -5,7 +5,7 @@
 	group: "4B7C29A84FC2FC08"
 	icon: "gurizes:pedra_coliseu"
 	id: "104169ACF394D6BE"
-	order_index: 28
+	order_index: 33
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -14,7 +14,6 @@
 			description: [
 				"Vença um duelo na Arena. Vale só lá dentro: fora dela o Juramento não deixa um amigo ferir o outro."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:iron_sword"
 			id: "36A5DF1D6730B8EA"
 			rewards: [
@@ -41,7 +40,6 @@
 		{
 			dependencies: ["36A5DF1D6730B8EA"]
 			description: ["Some 5 vitórias no Coliseu (placar gurizes_pvp_vitorias)."]
-			hide_until_deps_visible: true
 			icon: "minecraft:golden_sword"
 			id: "167EEC36A11FEBA0"
 			rewards: [
@@ -65,7 +63,6 @@
 		{
 			dependencies: ["167EEC36A11FEBA0"]
 			description: ["Some 10 vitórias no Coliseu (placar gurizes_pvp_vitorias)."]
-			hide_until_deps_visible: true
 			icon: "minecraft:golden_sword"
 			id: "1B8A82958AC27D6B"
 			rewards: [
@@ -89,7 +86,6 @@
 		{
 			dependencies: ["1B8A82958AC27D6B"]
 			description: ["Some 25 vitórias no Coliseu (placar gurizes_pvp_vitorias)."]
-			hide_until_deps_visible: true
 			icon: "minecraft:golden_sword"
 			id: "225BCE292E3C3810"
 			rewards: [

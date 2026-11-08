@@ -49,6 +49,11 @@ global.gurizesTentar('trava de receita netherite', () =>
     AStages.addRestrictionForMob(`gurizes/mob/${mob.split(':')[1]}`, 'ato_6', mob).disableOverallSpawning())
 })
 
+;[['block_factorys_bosses:infernal_dragon', 'ato_2'], ['block_factorys_bosses:kraken', 'ato_3'], ['block_factorys_bosses:underworld_knight', 'ato_3']].forEach(par => {
+  global.gurizesTentar(`trava de mob ${par[0]}`, () =>
+    AStages.addRestrictionForMob(`gurizes/mob/${par[0].split(':')[1]}`, par[1], par[0]).disableOverallSpawning())
+})
+
 const GURIZES_ENC_TETO = [['ato_2', 2], ['ato_3', 3], ['ato_4', 4], ['ato_5', 5]]
 const GURIZES_ENC_LISTA = ['minecraft:sharpness', 'minecraft:protection', 'minecraft:power', 'minecraft:smite', 'minecraft:bane_of_arthropods',
   'minecraft:fire_protection', 'minecraft:projectile_protection', 'minecraft:blast_protection', 'minecraft:efficiency', 'minecraft:fortune', 'minecraft:looting']

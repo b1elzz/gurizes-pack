@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:egide_do_juramento"
 	id: "09C632B60B8B81D3"
-	order_index: 9
+	order_index: 12
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -207,7 +207,7 @@
 		{
 			dependencies: ["5E8E353AFBD85A3C", "7613634706BAF7F4"]
 			description: [
-				"Sir Galvar bate forte e persegue quem foge. Fique perto, bloqueie a Investida atrás de um pilar"
+				"Sir Xavier Siri Galvar bate forte e persegue quem foge. Fique perto, bloqueie a Investida atrás de um pilar"
 				"e cure o grupo com a Luz Restauradora."
 				"Ele é imune a veneno e wither e resiste a fogo, sangue e projéteis de frente."
 				"Marque quando estiver pronto para a Cripta."

@@ -5,7 +5,7 @@
 	group: "2AB7CEEE2B2349D1"
 	icon: "gurizes:estandarte_do_juramento"
 	id: "3D3F537F1CB51F7E"
-	order_index: 35
+	order_index: 40
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -35,7 +35,6 @@
 			description: [
 				"Recompensa do Ato I: um atril com as builds oficiais de cada classe."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:lectern"
 			id: "791E56DEB55ADF41"
 			rewards: [
@@ -61,7 +60,6 @@
 		{
 			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
 			description: ["Uma pedra de viagem no Pouso para voltar de qualquer lugar."]
-			hide_until_deps_complete: true
 			icon: "waystones:waystone"
 			id: "1DE5830818F10D23"
 			rewards: [
@@ -92,7 +90,6 @@
 			description: [
 				"Bancada de reforja, de desmonte e de lapidação para o grupo."
 			]
-			hide_until_deps_complete: true
 			icon: "apotheosis:reforging_table"
 			id: "09294FB63909E3C5"
 			rewards: [
@@ -131,8 +128,7 @@
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "5B17AA16DD0A5BEC"]
-			description: ["Um salão para expor as Marcas dos Deuses Errantes."]
-			hide_until_deps_complete: true
+			description: ["Um salão para expor as Marcas dos Deuses."]
 			icon: "minecraft:item_frame"
 			id: "42293B4D1AA375DF"
 			rewards: [
@@ -164,7 +160,6 @@
 			description: [
 				"A arena de PvP do grupo. Lá dentro ninguém morre de verdade: quem perde só sai da arena."
 			]
-			hide_until_deps_complete: true
 			icon: "gurizes:pedra_coliseu"
 			id: "0924316264A2A2A8"
 			rewards: [
@@ -192,7 +187,6 @@
 		{
 			dependencies: ["66D7C9E1EC0465BC", "299A96D053605996"]
 			description: ["Recompensa do Ato II: um mercador se muda para o Pouso."]
-			hide_until_deps_complete: true
 			icon: "minecraft:emerald"
 			id: "3FACEF24857272EF"
 			rewards: [
@@ -221,7 +215,6 @@
 			description: [
 				"Recompensa do Ato III: o Clã Martelo-Brasa monta uma forja no Pouso e ensina a netherite."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:smithing_table"
 			id: "04A9BD5F040DD34F"
 			rewards: [
@@ -253,7 +246,6 @@
 		{
 			dependencies: ["66D7C9E1EC0465BC", "0E3ABA8733D7AC8E"]
 			description: ["A Companhia da Maré deixa barcos e um ancoradouro no Pouso."]
-			hide_until_deps_complete: true
 			icon: "minecraft:oak_boat"
 			id: "4F8624BE5C527A34"
 			rewards: [
@@ -280,9 +272,8 @@
 		{
 			dependencies: ["66D7C9E1EC0465BC", "1E489942504DD2AF"]
 			description: [
-				"Recompensa do Ato IV: a Arquivista Lune monta o Observatório. Os Deuses Errantes ficam catalogados lá."
+				"Recompensa do Ato IV: a Arquivista Lune monta o Observatório. Os Deuses ficam catalogados lá."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:spyglass"
 			id: "5253D69C5D9C7FCE"
 			rewards: [

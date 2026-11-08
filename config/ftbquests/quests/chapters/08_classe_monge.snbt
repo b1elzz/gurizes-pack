@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:bastao_dos_mil_passos"
 	id: "69287B3F7E63E805"
-	order_index: 17
+	order_index: 20
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -212,7 +212,7 @@
 		{
 			dependencies: ["3DAC31DCB5F31F67", "6689BAA4B74C70A3"]
 			description: [
-				"Sir Galvar bate forte e devagar: a esquiva é sua melhor armadura."
+				"Sir Xavier Siri Galvar bate forte e emenda golpes: a esquiva é sua melhor armadura."
 				"Role para fora da Investida, entre quando ele ficar atordoado e saia antes do Pulso da Coroa."
 				"Marque quando estiver pronto para a Cripta."
 			]

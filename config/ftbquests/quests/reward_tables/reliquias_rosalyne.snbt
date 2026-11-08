@@ -2,7 +2,7 @@
 	icon: "meetyourfight:violet_bloom"
 	id: "1A6C0AD39CFCA360"
 	loot_size: 1
-	order_index: 0
+	order_index: 5
 	rewards: [
 		{
 			item: "meetyourfight:violet_bloom"

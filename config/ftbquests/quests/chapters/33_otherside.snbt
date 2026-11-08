@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:sculk"
 	id: "737FC1A9680F8349"
-	order_index: 32
+	order_index: 37
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -14,7 +14,6 @@
 			description: [
 				"O portal de uma Cidade Antiga leva ao Outro Lado (Deeper and Darker)."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:sculk"
 			id: "7BE4B033E45008F6"
 			rewards: [
@@ -40,7 +39,6 @@
 		{
 			dependencies: ["1F82201E3EE0EE78"]
 			description: ["O templo enterrado no Outro Lado."]
-			hide_until_deps_complete: true
 			icon: "minecraft:echo_shard"
 			id: "4B204AD05F7836EB"
 			rewards: [
@@ -64,7 +62,6 @@
 		{
 			dependencies: ["1F82201E3EE0EE78"]
 			description: ["Uma Cidade Antiga no Escuro Profundo."]
-			hide_until_deps_complete: true
 			icon: "minecraft:sculk_shrieker"
 			id: "023B4FB4A23F36AD"
 			rewards: [

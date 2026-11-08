@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:filled_map"
 	id: "3A1911EF02C5AA0C"
-	order_index: 29
+	order_index: 34
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -14,7 +14,6 @@
 			description: [
 				"Encontre uma vila de planície. Os guardas do Pouso agradecem a visita."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:bell"
 			id: "57424ED7778C6901"
 			rewards: [
@@ -39,7 +38,6 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: ["Ache um posto de saqueadores da Corte Partida."]
-			hide_until_deps_complete: true
 			icon: "minecraft:crossbow"
 			id: "2A9367E252C20C79"
 			rewards: [
@@ -64,7 +62,6 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: ["Uma masmorra antiga, das que guardam páginas da Crônica."]
-			hide_until_deps_complete: true
 			icon: "minecraft:mossy_cobblestone"
 			id: "2855ACE76441AE4A"
 			rewards: [
@@ -89,7 +86,6 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: ["Todo herói precisa de uma taverna. Ache uma."]
-			hide_until_deps_complete: true
 			icon: "minecraft:barrel"
 			id: "34D6D3D9BD26B1ED"
 			rewards: [
@@ -114,7 +110,6 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: ["Explore um templo do deserto (cuidado com o piso)."]
-			hide_until_deps_complete: true
 			icon: "minecraft:sandstone"
 			id: "65041700A14A87A3"
 			rewards: [
@@ -139,7 +134,6 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: ["O covil dos illagers na floresta escura."]
-			hide_until_deps_complete: true
 			icon: "minecraft:dark_oak_log"
 			id: "2143A2F873CE90B8"
 			rewards: [
@@ -164,7 +158,6 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: ["Uma fortaleza dos illagers tocados pela Mácula."]
-			hide_until_deps_complete: true
 			icon: "minecraft:iron_axe"
 			id: "484AEBAD39231772"
 			rewards: [
@@ -189,7 +182,6 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: ["As catacumbas onde o Rei Morto dorme."]
-			hide_until_deps_complete: true
 			icon: "irons_spellbooks:blood_staff"
 			id: "797592AB5D02ECDC"
 			rewards: [

@@ -2,7 +2,7 @@
 	icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
 	id: "189174133B225005"
 	loot_size: 1
-	order_index: 5
+	order_index: 10
 	rewards: [
 		{
 			item: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"

@@ -1,0 +1,10 @@
+{
+  "config.trashslot.instantDeletion": "Exclusão instantânea",
+  "config.trashslot.title": "TrashSlot",
+  "key.categories.trashslot": "TrashSlot",
+  "key.trashslot.delete": "Apagar item",
+  "key.trashslot.deleteAll": "Excluir todos os itens do tipo",
+  "key.trashslot.toggle": "Mostrar/ocultar lixeira",
+  "trashslot.config.instantDeletion": "Exclusão instantânea",
+  "trashslot.serverNotInstalled": "O servidor não tem o TrashSlot instalado. Este mod será desabilitado."
+}

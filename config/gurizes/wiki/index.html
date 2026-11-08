@@ -347,19 +347,21 @@ details .tabela { background: var(--surface); }
       <li><a href="#campanha">A Campanha</a>
         <ol><li><a href="#historia">A história</a></li><li><a href="#panteao">Os Sete</a></li><li><a href="#atos">Os seis atos</a></li><li><a href="#epilogo">Epílogo e NG+</a></li></ol></li>
       <li><a href="#bosses">Bosses</a>
-        <ol><li><a href="#regras-boss">Como funciona uma luta</a></li><li><a href="#bosses-campanha">Bosses da Campanha</a></li><li><a href="#trilha">Trilha dos Deuses</a></li><li><a href="#opcionais">Contratos de Caça</a></li></ol></li>
+        <ol><li><a href="#regras-boss">Como funciona uma luta</a></li><li><a href="#bosses-campanha">Bosses da Campanha</a></li><li><a href="#panteao-niveis">Panteão: níveis e conquistas</a></li><li><a href="#trilha">Panteão: Deuses</a></li><li><a href="#opcionais">Contratos de Caça</a></li></ol></li>
       <li><a href="#personagem">Personagem</a>
-        <ol><li><a href="#camadas">As quatro camadas</a></li><li><a href="#racas">Raças</a></li><li><a href="#bencaos">Bênçãos</a></li><li><a href="#classes">Classes</a></li><li><a href="#oficios">Ofícios</a></li><li><a href="#assinaturas">Armas-assinatura</a></li><li><a href="#troca">Troca de camadas</a></li></ol></li>
+        <ol><li><a href="#camadas">As três camadas</a></li><li><a href="#racas">Raças</a></li><li><a href="#bencaos">Bênçãos</a></li><li><a href="#classes">Classes</a></li><li><a href="#oficios">Profissões</a></li><li><a href="#assinaturas">Armas-assinatura</a></li><li><a href="#troca">Troca de camadas</a></li></ol></li>
       <li><a href="#builds">Builds</a>
         <ol><li><a href="#montar">Como montar</a></li><li><a href="#composicoes">Composições de grupo</a></li><li><a href="#lista-builds">Uma build por classe</a></li></ol></li>
       <li><a href="#mundo">Mundo</a>
         <ol><li><a href="#regioes">Regiões por ato</a></li><li><a href="#dimensoes">Dimensões</a></li><li><a href="#faccoes">Facções</a></li><li><a href="#pouso">Pouso do Juramento</a></li></ol></li>
       <li><a href="#itens">Itens do nosso mod</a>
-        <ol><li><a href="#moedas">Moedas</a></li><li><a href="#selo">Fragmentos do Selo</a></li><li><a href="#chaves">Chaves e materiais</a></li><li><a href="#itens-oficio">Itens de ofício</a></li><li><a href="#trofeus">Troféus e blocos</a></li><li><a href="#efeitos">Efeitos</a></li><li><a href="#conquistas">Conquistas</a></li></ol></li>
+        <ol><li><a href="#moedas">Moedas</a></li><li><a href="#selo">Fragmentos do Selo</a></li><li><a href="#chaves">Chaves e materiais</a></li><li><a href="#itens-oficio">Itens de profissão</a></li><li><a href="#trofeus">Troféus e blocos</a></li><li><a href="#efeitos">Efeitos</a></li><li><a href="#conquistas">Conquistas</a></li></ol></li>
       <li><a href="#mecanicas">Mecânicas</a>
         <ol><li><a href="#escala">Escala de mobs</a></li><li><a href="#escala-boss">Escala de boss</a></li><li><a href="#morte">Morte e cova</a></li><li><a href="#economia">Economia e loja</a></li><li><a href="#travas">Travas por ato</a></li><li><a href="#pvp">Arena PvP</a></li><li><a href="#ngplus">NG+</a></li></ol></li>
       <li><a href="#ajuda">Ajuda e FAQ</a>
         <ol><li><a href="#faq">Perguntas frequentes</a></li><li><a href="#desempenho">Desempenho</a></li><li><a href="#comandos">Comandos úteis</a></li></ol></li>
+      <li><a href="#creditos">Créditos</a>
+        <ol><li><a href="#creditos-audio">Trilha sonora e sons</a></li></ol></li>
     </ol>
   </div>
   <div class="lateral-rodape">
@@ -384,7 +386,7 @@ details .tabela { background: var(--surface); }
 </header>
 
 <p class="aviso"><strong>Versão 0.1 — Ato I jogável; atos seguintes chegam em atualizações.</strong> Vida, dano, preços e níveis podem mudar depois das primeiras partidas; o wiki acompanha.</p>
-<p class="aviso"><strong>Lançamento por atos:</strong> a primeira versão (0.1.x) libera o Ato I, a Trilha dos Deuses e os sistemas base (camadas de personagem, cova com resgate, loja). Os Atos II a VI chegam em atualizações (0.2.x em diante, campanha completa na 1.0), sempre um ato à frente do grupo, sem precisar de mundo novo. Rode o ATUALIZAR.bat a cada versão.</p>
+<p class="aviso"><strong>Lançamento por atos:</strong> a primeira versão (0.1.x) libera o Ato I, os Semideuses do Panteão e os sistemas base (camadas de personagem, cova com resgate, loja). Os Atos II a VI chegam em atualizações (0.2.x em diante, campanha completa na 1.0), sempre um ato à frente do grupo, sem precisar de mundo novo. Rode o ATUALIZAR.bat a cada versão.</p>
 
 <!-- ============ COMECE AQUI ============ -->
 <section class="secao" id="comece" aria-labelledby="t-comece">
@@ -398,11 +400,11 @@ details .tabela { background: var(--surface); }
     <h3>O que é o Gurizes RPG Fantasy</h3>
     <div class="prosa">
       <p>Um modpack de aventura heroica feito para quatro amigos jogarem juntos. A campanha é contada em <strong>seis atos</strong>; cada ato termina num <strong>boss porteiro</strong> feito no nosso próprio mod, e vencer o porteiro abre o próximo pedaço do mundo: novas dimensões, materiais, raridades e encantamentos.</p>
-      <p>Em paralelo corre a <strong>Trilha dos Deuses</strong>, uma lista de desafio com o boss mais forte de cada mod de terceiros. Ela nunca trava a campanha; é para quem quer mais.</p>
+      <p>Em paralelo corre o <strong>Panteão</strong>, uma lista de desafio em três níveis (Semideuses, Deuses e Alter-Deuses) com os bosses de outros mods e os nossos, em versão de pós-jogo. Ele nunca trava a campanha; é para quem quer mais.</p>
     </div>
     <div class="grade">
       <article class="cartao"><h4>Combate com peso</h4><p>Better Combat, esquiva com i-frames (Combat Roll) e bosses que avisam cada golpe com cor e som.</p></article>
-      <article class="cartao"><h4>Personagem em camadas</h4><p>Raça, Bênção de um dos Sete, Classe e Ofício. Mais árvore de habilidades, magias do Iron's Spells e gemas do Apotheosis.</p></article>
+      <article class="cartao"><h4>Personagem em camadas</h4><p>Raça, Bênção de um dos Sete e Classe. As seis profissões ficam abertas a todos. Mais árvore de habilidades, magias do Iron's Spells e gemas do Apotheosis.</p></article>
       <article class="cartao"><h4>Brutal em grupo</h4><p>Bosses escalam com o número de jogadores e cada luta vira um evento com barra, música e recompensa para todos que participaram.</p></article>
       <article class="cartao"><h4>Morrer não é o fim</h4><p>Seus itens vão para uma cova e o XP fica com você. Dá para pagar níveis e resgatar tudo na hora.</p></article>
     </div>
@@ -447,7 +449,7 @@ details .tabela { background: var(--surface); }
         <thead><tr><th class="num">Min.</th><th>Quest</th><th>O que fazer</th><th>Recompensa</th><th>O que você aprende</th></tr></thead>
         <tbody>
           <tr><td class="num">0–3</td><th>O Juramento</th><td>Ler a premissa</td><td>Livro guia, 4 pães</td><td>A história em três linhas</td></tr>
-          <tr><td class="num">3–10</td><th>Quem é você?</th><td>Escolher Raça, Bênção, Classe e Ofício</td><td>Kit da classe; vira Juramentado</td><td>As quatro camadas do personagem</td></tr>
+          <tr><td class="num">3–10</td><th>Quem é você?</th><td>Escolher Raça, Bênção e Classe</td><td>Kit da classe; vira Juramentado</td><td>As três camadas do personagem</td></tr>
           <tr><td class="num">10–20</td><th>Primeiros golpes</th><td>Matar 5 mobs hostis</td><td>3 bronze, 2 poções de cura</td><td>Combate, esquiva e o nível dos mobs (olhe com o Jade)</td></tr>
           <tr><td class="num">20–28</td><th>Acampamento</th><td>Fornalha, cama e ferramentas de pedra</td><td>8 tochas, 1 bronze</td><td>Sobrevivência básica</td></tr>
           <tr><td class="num">28–33</td><th>A Árvore</th><td>Abrir a árvore de habilidades</td><td>Pergaminho da Sabedoria</td><td>Pontos, nós e respec</td></tr>
@@ -477,7 +479,7 @@ details .tabela { background: var(--surface); }
         </tbody>
       </table>
     </div>
-    <p>As teclas sem letra dependem do mod e podem mudar entre versões. Abra <strong>Opções &gt; Controles</strong>: o mod Controlling tem busca e mostra conflitos. Raça, Bênção e Ofício não usam tecla; são passivas.</p>
+    <p>As teclas sem letra dependem do mod e podem mudar entre versões. Abra <strong>Opções &gt; Controles</strong>: o mod Controlling tem busca e mostra conflitos. Raça e Bênção não usam tecla; são passivas.</p>
   </div>
 
   <div class="bloco" id="regras-grupo">
@@ -521,7 +523,7 @@ details .tabela { background: var(--surface); }
           <tr><th><span class="chip" style="--cor:#f2c14e">Aurion</span></th><td>sol, juramento, proteção</td><td>Coração do Selo (VI)</td><td>Patrono dos Juramentados; o Coração está no peito de Morvhal</td></tr>
           <tr><th><span class="chip" style="--cor:#c0392b">Brava</span></th><td>guerra, coragem</td><td>Fragmento da Coragem (I)</td><td>Deusa do Primeiro Cavaleiro</td></tr>
           <tr><th><span class="chip" style="--cor:#5b8c3a">Tellura</span></th><td>terra, colheita, raízes</td><td>Fragmento da Raiz (II)</td><td>Deusa da Matriarca; o Círculo de Tellura ajuda no Ato II</td></tr>
-          <tr><th><span class="chip" style="--cor:#e67e22">Ignar</span></th><td>forja, fogo</td><td>Fragmento da Brasa (III)</td><td>Deus de Kharzul; patrono dos ofícios</td></tr>
+          <tr><th><span class="chip" style="--cor:#e67e22">Ignar</span></th><td>forja, fogo</td><td>Fragmento da Brasa (III)</td><td>Deus de Kharzul; patrono das profissões</td></tr>
           <tr><th><span class="chip" style="--cor:#2e86c1">Nymara</span></th><td>mares, tempestades</td><td>Fragmento da Maré (IV)</td><td>Deusa de Nerezza</td></tr>
           <tr><th><span class="chip" style="--cor:#8e44ad">Kaelum</span></th><td>saber, estrelas, arcano</td><td>Fragmento da Estrela (V)</td><td>Deus de Astrael; os Observadores servem a ele</td></tr>
           <tr><th><span class="chip" style="--cor:#bfc9ca">Vesperis</span></th><td>lua, morte, almas, segredos</td><td>nenhum</td><td>Guardiã das almas. Guarda o que você deixa ao morrer: pagar XP pela cova é a "Oferenda a Vesperis"</td></tr>
@@ -539,8 +541,22 @@ details .tabela { background: var(--surface); }
         <div class="corpo">
           <h4>A Coroa Oca</h4>
           <p><strong>Objetivo:</strong> aprender a sobreviver, montar o Pouso e libertar o Primeiro Cavaleiro. <strong>Onde:</strong> Overworld até ~1.500 blocos do spawn; vilas, masmorras pequenas e ruínas da Corte Partida.</p>
-          <p><strong>Quests:</strong> O Último Juramento → Pão, Aço e Teto → Ecos da Coroa (2 Páginas da Crônica) → A Insígnia (Insígnia do Juramento e Bússola do Selo) → A Coroa Votiva → A Cripta do Primeiro Cavaleiro.</p>
-          <dl class="par"><dt>Porteiro</dt><dd><a href="#galvar">Sir Galvar, o Guardião da Coroa Oca</a></dd><dt>Libera</dt><dd>Ato II, Floresta Crepuscular, diamante, encantamento III, reforja básica, tinta rara, Mesa de Builds no Pouso</dd></dl>
+          <p><strong>Quests:</strong> o livro conta o Ato I em onze capítulos. Cada um tem uma tarefa que se confere sozinha e uma linha de dica com a mecânica.</p>
+          <ol class="lista-curta">
+            <li><strong>O Último Juramento</strong> (prólogo): escolher Raça, Bênção e Classe e erguer o Estandarte.</li>
+            <li><strong>Pão, Aço e Teto:</strong> armadura de ferro, pão e uma Panela de Cozinha. Paga a mochila pequena.</li>
+            <li><strong>A Estrada de Valdren:</strong> achar uma vila, ativar uma Waystone e negociar. Paga Pergaminho de Retorno e mapa.</li>
+            <li><strong>A Sombra da Corte:</strong> matar o capitão de um posto de pillagers. Paga a 1ª Página da Crônica.</li>
+            <li><strong>Ecos da Coroa:</strong> visitar 2 de 5 rotas de masmorra. Paga as Páginas 2 e 3 e gemas comuns.</li>
+            <li><strong>Lição de Escudo:</strong> aparar 3 golpes de mobs. Paga um escudo de ferro.</li>
+            <li><strong>Os Semideuses da Estrada:</strong> vencer 1 dos 5 Semideuses do Panteão. Paga a Página 4.</li>
+            <li><strong>A Insígnia:</strong> mostrar as 4 Páginas (elas não são gastas). Paga Insígnia do Juramento e Bússola do Selo.</li>
+            <li><strong>A Coroa Votiva</strong> e <strong>Preparação para a Cripta</strong>: craftar a chave e conferir escudo, comida, poções e arma. Paga um Kit de cura.</li>
+            <li><strong>A Cripta do Primeiro Cavaleiro:</strong> o porteiro, com 5 conquistas opcionais ao redor.</li>
+            <li><strong>A Página Final:</strong> ler a Página 5, que o Galvar solta ao cair, e abrir a prévia do Ato II.</li>
+          </ol>
+          <p>Além da campanha, a aba <strong>Guia do Juramentado</strong> explica cada sistema, o equipamento que o Ato I libera e as armas-assinatura.</p>
+          <dl class="par"><dt>Porteiro</dt><dd><a href="#galvar">Sir Xavier Siri Galvar, o Guardião da Coroa Oca</a></dd><dt>Libera</dt><dd>Ato II, Floresta Crepuscular, diamante, encantamento III, reforja básica, tinta rara, Mesa de Builds no Pouso</dd></dl>
           <blockquote class="fala">"As masmorras antigas ainda guardam páginas da Crônica de Valdren. Traga duas. Se encontrar um esqueleto de armadura dourada lá dentro, não discuta com ele: ele perdeu a discussão faz trezentos anos."</blockquote>
         </div>
       </article>
@@ -560,7 +576,7 @@ details .tabela { background: var(--surface); }
           <h4>A Forja Afundada</h4>
           <p><strong>Objetivo:</strong> sobreviver ao Nether, unir-se ao Clã Martelo-Brasa e reacender a forja dos deuses. <strong>Onde:</strong> o Nether inteiro: fortalezas, bastiões e cidadelas.</p>
           <p><strong>Quests:</strong> Portão de Fogo (âncora de respawn, cama explode!) → O Clã Exilado (Mestre Durgo, Escória Ardente) → O Martelo Rúnico → Brasa Primordial → A Forja Afundada.</p>
-          <dl class="par"><dt>Porteiro</dt><dd><a href="#kharzul">Kharzul, o Forjador Caído</a></dd><dt>Libera</dt><dd>Ato IV, netherite, Otherside, raridade Épica, encantamento V, <strong>Bênção Maior</strong> e <strong>Ofício Mestre</strong> para todos, Forja Anã no Pouso</dd></dl>
+          <dl class="par"><dt>Porteiro</dt><dd><a href="#kharzul">Kharzul, o Forjador Caído</a></dd><dt>Libera</dt><dd>Ato IV, netherite, Otherside, raridade Épica, encantamento V, <strong>Bênção Maior</strong> e as <strong>profissões no nível Mestre</strong> para todos, Forja Anã no Pouso</dd></dl>
           <blockquote class="fala">"Regra número um do Nether: cama explode. Regra número dois: alguém do grupo vai testar a regra número um mesmo assim."</blockquote>
         </div>
       </article>
@@ -590,7 +606,7 @@ details .tabela { background: var(--surface); }
           <h4>O Trono do Selo</h4>
           <p><strong>Objetivo:</strong> reunir os cinco fragmentos, atravessar o Portal do Selo e enfrentar o rei. <strong>Onde:</strong> preparação no mundo inteiro e a arena no Além do Selo.</p>
           <p><strong>Quests:</strong> Os Cinco → A Mesa do Selo → Forma Plena (arma-assinatura na Forma V) → O Trono do Selo → O Selo Refeito.</p>
-          <dl class="par"><dt>Boss final</dt><dd><a href="#morvhal">Morvhal, o Rei Partido</a></dd><dt>Libera</dt><dd>Epílogo, NG+, loja de pós-jogo e o fecho da Trilha dos Deuses</dd></dl>
+          <dl class="par"><dt>Boss final</dt><dd><a href="#morvhal">Morvhal, o Rei Partido</a></dd><dt>Libera</dt><dd>Epílogo, NG+, loja de pós-jogo e o fecho do Panteão</dd></dl>
           <blockquote class="fala">"Cinco fragmentos, cinco deuses, um grupo de heróis que até ontem brigava por quem ficava com o diamante. O portal abre por trinta segundos. Ninguém fica para trás."</blockquote>
         </div>
       </article>
@@ -608,7 +624,7 @@ details .tabela { background: var(--surface); }
   <header>
     <p class="olho">Capítulo 3</p>
     <h2 id="t-bosses">Bosses</h2>
-    <p class="lead">Seis Guardiões na campanha, onze Deuses Errantes na Trilha e dezenas de contratos opcionais. Cada ficha diz como invocar, como matar, fraquezas, pontos fortes e o que cai.</p>
+    <p class="lead">Seis Guardiões na campanha, cinco Semideuses e onze Deuses no Panteão e dezenas de contratos opcionais. Cada ficha diz como invocar, como matar, fraquezas, pontos fortes e o que cai.</p>
   </header>
 
   <div class="bloco" id="regras-boss">
@@ -616,7 +632,7 @@ details .tabela { background: var(--surface); }
     <div class="grade">
       <article class="cartao">
         <h4>Invocação</h4>
-        <p>Todo boss da campanha pede: estar na arena, a <strong>chave</strong> do ato (consumida), um pequeno <strong>ritual</strong> (velas, foles, sino, anéis) e o estágio do ato. Depois vêm 20 s de preparação com o boss invulnerável.</p>
+        <p>Todo boss da campanha pede: estar na arena, a <strong>chave</strong> do ato (consumida), um pequeno <strong>ritual</strong> (velas, foles, sino, anéis) e o estágio do ato. Depois vêm 15 s de preparação com o boss invulnerável.</p>
       </article>
       <article class="cartao">
         <h4>Reinvocação e reset</h4>
@@ -652,7 +668,7 @@ details .tabela { background: var(--surface); }
   <div class="filtros" role="group" aria-label="Filtrar fichas de boss">
     <button type="button" data-filtro="todos" aria-pressed="true">Todos</button>
     <button type="button" data-filtro="campanha" aria-pressed="false">Campanha</button>
-    <button type="button" data-filtro="trilha" aria-pressed="false">Trilha dos Deuses</button>
+    <button type="button" data-filtro="trilha" aria-pressed="false">Panteão</button>
   </div>
 
   <div class="bloco" id="bosses-campanha" data-grupo="campanha">
@@ -661,7 +677,7 @@ details .tabela { background: var(--surface); }
       <table>
         <thead><tr><th>Ato</th><th>Boss</th><th>Arena</th><th>Chave</th><th class="num">Vida solo</th><th class="num">Vida 4 jog.</th><th>Fragmento</th></tr></thead>
         <tbody>
-          <tr><td>I</td><th><a href="#galvar">Sir Galvar</a></th><td>Cripta do Primeiro Cavaleiro</td><td>Coroa Votiva</td><td class="num">500</td><td class="num">2.150</td><td>da Coragem</td></tr>
+          <tr><td>I</td><th><a href="#galvar">Sir Xavier Siri Galvar</a></th><td>Cripta do Primeiro Cavaleiro</td><td>Coroa Votiva</td><td class="num">500</td><td class="num">2.150</td><td>da Coragem</td></tr>
           <tr><td>II</td><th><a href="#vorthra">Vorthra</a></th><td>Bosque Sangrado</td><td>Coração de Seiva</td><td class="num">1.200</td><td class="num">5.160</td><td>da Raiz</td></tr>
           <tr><td>III</td><th><a href="#kharzul">Kharzul</a></th><td>Forja Afundada (Nether)</td><td>Brasa Primordial</td><td class="num">2.400</td><td class="num">10.320</td><td>da Brasa</td></tr>
           <tr><td>IV</td><th><a href="#nerezza">Nerezza</a></th><td>Templo da Tormenta</td><td>Concha da Tempestade</td><td class="num">4.000</td><td class="num">17.200</td><td>da Maré</td></tr>
@@ -672,27 +688,28 @@ details .tabela { background: var(--surface); }
     </div>
 
     <!-- GALVAR -->
-    <article class="boss" id="galvar" data-busca="Sir Galvar Guardião da Coroa Oca Ato I">
+    <article class="boss" id="galvar" data-busca="Sir Xavier Siri Galvar Guardião da Coroa Oca Ato I aparar postura misericórdia fase 3 último juramento escudo do primeiro cavaleiro conquistas panteão">
       <div class="boss-topo">
         <p class="olho"><span>Ato I · Porteiro</span></p>
-        <h3>Sir Galvar, o Guardião da Coroa Oca</h3>
-        <div class="barra" style="--cor:var(--ato-1)"><div class="nome"><span>Sir Galvar ×1 · 500 de vida</span><span>×4 · 2.150</span></div><div class="trilho"><div class="cheio"></div></div></div>
-        <p>O Primeiro Cavaleiro de Valdren, campeão de Brava, jurou guardar o trono até a Coroa voltar. Morreu de guarda; a armadura continuou. Uma armadura gótica vazia, de 3,2 blocos, com uma coroa de ferro dourado girando sobre o elmo. Testa o básico: ler o aviso, esquivar, bater pelas costas.</p>
+        <h3>Sir Xavier Siri Galvar, o Guardião da Coroa Oca</h3>
+        <div class="barra" style="--cor:var(--ato-1)"><div class="nome"><span>Sir Xavier Siri Galvar ×1 · 500 de vida</span><span>×4 · 2.150</span></div><div class="trilho"><div class="cheio"></div></div></div>
+        <p>O Primeiro Cavaleiro de Valdren, campeão de Brava, jurou guardar o trono até a Coroa voltar. Morreu de guarda; a armadura continuou. Uma armadura gótica vazia, de 3,2 blocos, com uma coroa de ferro dourado girando sobre o elmo. Luta como um duelista: guarda 3 a 5 blocos de distância, anda de lado, avança de repente, encadeia golpes e pune quem erra. Testa o básico: ler o aviso, esquivar de lado, aparar e bater na abertura. Quem apara e pressiona quebra a <strong>postura</strong> dele; e quando a vida acaba pela primeira vez, a luta ainda não acabou.</p>
       </div>
       <div class="boss-corpo">
         <div>
           <h4>Fatos rápidos</h4>
           <dl class="par">
             <dt>Local</dt><dd>Cripta do Primeiro Cavaleiro: Overworld, planície, campina ou floresta, 300 a 1.500 blocos do spawn</dd>
-            <dt>Dano base</dt><dd>10 solo · 14,5 com 4</dd>
+            <dt>Dano base</dt><dd>13 solo · 16,9 com 4</dd>
             <dt>Armadura</dt><dd>10, resistência a repulsão 0,8</dd>
-            <dt>Tipo</dt><dd>corpo a corpo, blindado</dd>
+            <dt>Tipo</dt><dd>corpo a corpo, blindado, ritmo de duelo</dd>
+            <dt>Preparação</dt><dd>15 s depois do ritual</dd>
             <dt>Libera</dt><dd>Fragmento da Coragem · Ato II</dd>
           </dl>
         </div>
         <div>
           <h4>Fraquezas</h4>
-          <ul class="lista-curta"><li>Machados ×1,3 (e quebram a guarda por 5 s)</li><li>Raio ×1,25</li><li>Atordoado: dano ×1,5</li><li>Costas na fase 1</li></ul>
+          <ul class="lista-curta"><li>Aparado com escudo: atordoado 2 s, dano ×1,5</li><li>Abertura (<span class="t-ciano">marca ciano</span> aos pés): dano ×1,25</li><li>Machados ×1,3 (e quebram a guarda por 5 s)</li><li>Raio ×1,25</li><li>Costas na fase 1 (×1,25)</li><li><strong>Postura cheia:</strong> cai de joelho 4,5 s; o primeiro golpe corpo a corpo é o <strong>Golpe de Misericórdia</strong></li><li><strong>Costas expostas</strong> ~1 s depois da Investida e do Salto: ×1,6 e muita postura</li></ul>
           <h4>Pontos fortes</h4>
           <ul class="lista-curta"><li>Imune a veneno e wither</li><li>Sangue ×0,5 · fogo ×0,75</li><li>Projéteis de frente ×0,5 na fase 1</li></ul>
         </div>
@@ -700,52 +717,98 @@ details .tabela { background: var(--surface); }
       <div class="boss-corpo">
         <div>
           <h4>Pronto para lutar?</h4>
-          <ul class="lista-curta"><li>Personagem nível ~10</li><li>Armadura de ferro completa</li><li>Escudo ou esquiva treinada</li><li>4+ poções de cura ou comida boa</li><li>Um machado no grupo</li></ul>
+          <ul class="lista-curta"><li>Personagem nível ~10</li><li>Armadura de ferro completa</li><li>Escudo (para aparar) ou esquiva treinada</li><li>4+ poções de cura ou comida boa</li><li>Um machado no grupo</li></ul>
         </div>
         <div>
           <h4>Como invocar</h4>
-          <ol class="lista-curta"><li>Crafte a <strong>Coroa Votiva</strong>: 5 ferro + 2 ouro + 1 vela + Insígnia do Juramento (a insígnia volta para você).</li><li>Acenda as 4 velas dos nichos.</li><li>Clique direito no <strong>Trono Vazio</strong> com a Coroa Votiva.</li></ol>
+          <ol class="lista-curta"><li>Crafte a <strong>Coroa Votiva</strong>: 5 ferro + 2 ouro + 1 vela + Insígnia do Juramento (a insígnia volta para você).</li><li>Acenda as 4 velas dos nichos.</li><li>Clique direito no <strong>Trono Vazio</strong> com a Coroa Votiva. Ele desperta em 15 s.</li></ol>
+        </div>
+      </div>
+      <div class="boss-corpo">
+        <div>
+          <h4>Cores do aviso no chão</h4>
+          <ul class="lista-curta"><li><span class="t-dourado">Dourado</span>: golpe de espada ou escudo. Saia da frente, de lado, ou apare.</li><li><span class="t-vermelho">Vermelho</span>: área no chão ou onda. Saia do círculo, desvie da linha ou pule o anel.</li><li><span class="t-roxo">Roxo</span>: poder da Coroa. Pule o Pulso; a Coroa Errante marca quem ela caça.</li><li><span class="t-ciano">Ciano</span>: abertura. Bata agora.</li></ul>
+        </div>
+        <div>
+          <h4>Como aparar</h4>
+          <ul class="lista-curta"><li>Na <strong>Estocada</strong> e no <strong>Golpe do Juramento</strong> a lâmina acende em <span class="t-dourado">dourado claro</span> e tilinta 0,4 s antes do golpe.</li><li>Esteja de frente para ele com o escudo erguido no impacto: você não toma dano e ele fica atordoado 2 s (dano ×1,5).</li><li>Escudo erguido há mais de 1,5 s num golpe pesado quebra a guarda: o escudo fica 5 s sem uso.</li></ul>
+        </div>
+      </div>
+      <div class="boss-corpo">
+        <div>
+          <h4>Postura e Golpe de Misericórdia</h4>
+          <ul class="lista-curta"><li>Uma barra <span class="t-dourado">fina e dourada</span> sob a vida. Enche quando você <strong>apara</strong> (30), acerta um <strong>golpe pesado</strong> (barra de ataque cheia com crítico ou machado: 12; só cheia: 5), bate <strong>pelas costas</strong> (6) ou no <strong>ponto fraco</strong> (15). Em grupo cada um enche um pouco menos.</li><li>Sem pressão por 3 s, ela esvazia devagar.</li><li>Cheia: ele cai de joelho por <strong>4,5 s</strong>, aberto a todos (dano ×1,5). O <strong>primeiro golpe corpo a corpo</strong> é o Golpe de Misericórdia: <strong>10% da vida máxima</strong>, ignora armadura e o teto de dano por golpe, com câmera curta, tremor e faíscas.</li><li>O <strong>Escudo do Primeiro Cavaleiro</strong> enche 50% a mais por aparo.</li></ul>
+        </div>
+        <div>
+          <h4>A cripta reage</h4>
+          <ul class="lista-curta"><li>A <strong>Grade do Selo</strong> desce com corrente quando a luta começa e sobe na vitória ou no reset.</li><li>Os 4 <strong>pilares</strong> racham no primeiro impacto da Investida (ou do pouso do Salto) e desabam no segundo, virando entulho. Atrair a Investida para um pilar ainda atordoa, mas cada pilar só aguenta dois.</li><li>Na falsa morte as 4 velas apagam uma a uma e a sala escurece.</li><li>Tudo volta ao normal depois da vitória ou do reset: dá para invocar de novo.</li></ul>
         </div>
       </div>
       <details>
         <summary>Fases e ataques</summary>
         <div class="dentro">
+          <p>Dano solo; entre parênteses, quanto tira de quem usa armadura de ferro completa (20 de vida). Os golpes pesados matam em 3 ou 4 acertos, os leves em 6 ou 7, e nenhum golpe tira mais de 70% da vida de uma vez. Tempo = quanto o aviso fica no chão antes do golpe.</p>
           <div class="tabela media"><table>
             <caption>Fase 1 · O Cavaleiro (100% a 50%)</caption>
-            <thead><tr><th>Ataque</th><th>Aviso</th><th class="num">Dano</th><th>Como evitar</th></tr></thead>
+            <thead><tr><th>Ataque</th><th>Aviso</th><th class="num">Tempo</th><th class="num">Dano</th><th>Como evitar / punir</th></tr></thead>
             <tbody>
-              <tr><th>Corte Duplo</th><td>ergue o montante; lâmina brilha <span class="t-dourado">dourado</span></td><td class="num">10 + 10</td><td>recue ou role para as costas dele</td></tr>
-              <tr><th>Investida de Escudo</th><td>abaixa o ombro; <span class="t-dourado">linha dourada</span> de 8 blocos no chão</td><td class="num">12,5</td><td>saia da linha; se ele bater num pilar fica atordoado 3 s</td></tr>
-              <tr><th>Golpe do Juramento</th><td>puxa a espada na horizontal; lâmina fica branca</td><td class="num">15</td><td>saia da linha; janela de 1,5 s depois</td></tr>
-              <tr><th>Guarda Erguida</th><td>escudo levantado, brilhando</td><td class="num">—</td><td>de frente o dano cai pela metade; bata pelos lados ou quebre com machado</td></tr>
-              <tr><th>[G] Chamado da Guarda</th><td>bate a espada no escudo 3 vezes (sino), em 75%</td><td class="num">—</td><td>invoca 1 + N Escudeiros Ocos (20 de vida); alguém cuida deles</td></tr>
+              <tr><th>Corte Duplo</th><td><span class="t-dourado">leque dourado</span> de 120° e 3,8 blocos</td><td class="num">0,4 s</td><td class="num">6,5 + 6,5 (3,4)</td><td>recue ou role para as costas; dois cortes, um de cada lado</td></tr>
+              <tr><th>Estocada</th><td><span class="t-dourado">faixa dourada</span> de 5,5 blocos; a lâmina brilha</td><td class="num">0,65 s</td><td class="num">11 (6,9)</td><td>saia da faixa de lado ou apare; se errar, fica 1 s exposto (<span class="t-ciano">ciano</span>)</td></tr>
+              <tr><th>Golpe do Juramento</th><td><span class="t-dourado">faixa dourada</span> de 6 blocos e <span class="t-vermelho">faixa vermelha</span> de 14 (a onda); a lâmina brilha</td><td class="num">0,7 s</td><td class="num">12,4 (8) + onda 7,2 (3,9)</td><td>saia de lado; a onda corre pelo chão (pule ou desvie); apare; se errar, a espada crava no chão por 1,4 s (<span class="t-ciano">ciano</span>)</td></tr>
+              <tr><th>Investida de Escudo</th><td>abaixa o ombro; <span class="t-dourado">faixa dourada</span> de 9,5 blocos</td><td class="num">0,7 s</td><td class="num">11,7 (7,4)</td><td>saia da faixa; num pilar ele fica atordoado 2,5 s; escudo erguido quebra a guarda</td></tr>
+              <tr><th>Guarda Erguida</th><td>escudo levantado, brilhando</td><td class="num">—</td><td class="num">—</td><td>de frente o dano cai pela metade; bata pelos lados ou quebre com machado</td></tr>
+              <tr><th>[G] Chamado da Guarda</th><td>bate a espada no escudo 3 vezes (sino), em 75%</td><td class="num">1,5 s</td><td class="num">—</td><td>invoca 1 + N Escudeiros Ocos (20 de vida); alguém cuida deles</td></tr>
             </tbody>
           </table></div>
-          <p>Em 50% ele ajoelha, fica invulnerável 3 s e arremessa o escudo, que crava no chão.</p>
+          <p><strong>Combos da fase 1:</strong> Corte Duplo → Estocada → (às vezes) Golpe do Juramento; Estocada → Corte Duplo → (às vezes) outra Estocada. Cada golpe do combo tem o próprio aviso. O último às vezes vem <strong>atrasado</strong>: ele segura a espada no alto um instante a mais para pegar quem rola cedo. Fora dos golpes ele não cola: anda de lado, recua com um salto curto depois dos combos e avança de repente quando você se afasta.</p>
+          <p>Em 50% ele ajoelha (cena), fica invulnerável 3 s e arremessa o escudo, que crava no chão. Depois de qualquer cena ele espera 1 s antes do primeiro golpe.</p>
           <div class="tabela media"><table>
-            <caption>Fase 2 · A Coroa Desperta (50% a 0%)</caption>
-            <thead><tr><th>Ataque</th><th>Aviso</th><th class="num">Dano</th><th>Como evitar</th></tr></thead>
+            <caption>Fase 2 · A Coroa Desperta (50% até a vida zerar)</caption>
+            <thead><tr><th>Ataque</th><th>Aviso</th><th class="num">Tempo</th><th class="num">Dano</th><th>Como evitar / punir</th></tr></thead>
             <tbody>
-              <tr><th>Salto Coroado</th><td><span class="t-vermelho">anel vermelho</span> sob um jogador</td><td class="num">17,5</td><td>saia do anel; ele fica 1 s parado ao pousar</td></tr>
-              <tr><th>Giro do Montante</th><td>espada baixa atrás do corpo, zumbido crescente</td><td class="num">7,5 × 4</td><td>afaste-se; quem tem alcance pune</td></tr>
-              <tr><th>Pulso da Coroa</th><td>a coroa sobe e chia; onda dourada em anel</td><td class="num">12,5</td><td><strong>pule</strong> a onda</td></tr>
-              <tr><th>[G] Coroa Errante</th><td>a coroa se solta e brilha <span class="t-roxo">roxo</span></td><td class="num">7,5</td><td>persegue um jogador 6 s; 3 acertos na coroa atordoam o boss 4 s</td></tr>
+              <tr><th>Salto Coroado</th><td><span class="t-vermelho">círculo vermelho</span> de raio 3 sob um jogador</td><td class="num">0,6 s + 0,6 s de voo</td><td class="num">13 (8,6) + anel 7,2 (3,9)</td><td>saia do círculo; ao pousar solta um <span class="t-vermelho">anel</span> que vai até 8,5 blocos: pule; ele fica 1 s exposto</td></tr>
+              <tr><th>Giro do Montante</th><td><span class="t-vermelho">círculo vermelho</span> de 4 blocos que o segue</td><td class="num">0,5 s</td><td class="num">5,9 × 3 (3,0)</td><td>afaste-se; quem tem alcance pune</td></tr>
+              <tr><th>Pulso da Coroa</th><td>a coroa sobe e chia; <span class="t-roxo">círculo roxo</span> de 15 blocos</td><td class="num">0,8 s</td><td class="num">9,1 (5,3)</td><td><strong>pule</strong> a onda; tira um efeito bom de quem acerta</td></tr>
+              <tr><th>Coroa Errante</th><td>a coroa se solta e brilha <span class="t-roxo">roxo</span>; marca roxa em quem ela caça</td><td class="num">0,8 s</td><td class="num">5,9 (3,0) por toque</td><td>persegue um jogador 6 s; 3 acertos na coroa atordoam o boss 4 s. Agora vem em toda a fase 2, mais ainda abaixo de 25%</td></tr>
+              <tr><th>Fúria (só em combo)</th><td><span class="t-dourado">círculo dourado</span> de 3,6 blocos em volta dele</td><td class="num">0,4 s</td><td class="num">6,5 (3,4)</td><td>saia de perto antes do giro</td></tr>
             </tbody>
           </table></div>
+          <p><strong>Na fase 2:</strong> os golpes da fase 1 avisam 20% mais rápido (os pesados, ~0,5 s), ele anda 20% mais rápido, descansa menos entre combos e solta brasas e almas pelo corpo. <strong>Combos novos:</strong> <em>Fúria da Coroa</em> (Corte Duplo → Estocada → Fúria → Golpe do Juramento, que pode vir atrasado) e <em>Salto e Corte</em> (Salto Coroado → Corte Duplo → às vezes Estocada).</p>
+          <p><strong>Falsa morte:</strong> na primeira vez que a vida zera ele não morre. Cai (cena de 5 s), a barra some e as velas da cripta apagam uma a uma. A Mácula o levanta com <strong>30% da vida</strong>, o elmo rachado com fendas roxas, a sala escura e a lâmina e a coroa acesas. Ele crava o escudo ao lado e pega a espada com as duas mãos.</p>
+          <div class="tabela media"><table>
+            <caption>Fase 3 · Último Juramento (30% a 0%)</caption>
+            <thead><tr><th>Ataque</th><th>Aviso</th><th class="num">Tempo</th><th class="num">Dano</th><th>Como evitar / punir</th></tr></thead>
+            <tbody>
+              <tr><th>Corte Largo</th><td><span class="t-dourado">leque dourado</span> de 150° e 4,4 blocos</td><td class="num">0,45 s</td><td class="num">7,2 (3,9)</td><td>recue para fora do leque; não dá para aparar</td></tr>
+              <tr><th>Sentença</th><td><span class="t-dourado">faixa dourada</span> de 6,5 blocos e três <span class="t-roxo">fendas roxas</span> em leque; a lâmina brilha</td><td class="num">0,75 s</td><td class="num">13 (8,6) + fenda 6,5 (3,4)</td><td>apare ou saia de lado; as fendas correm 11 blocos pelo chão (pule); se errar, a espada crava 1,7 s (<span class="t-ciano">ciano</span>)</td></tr>
+            </tbody>
+          </table></div>
+          <p><strong>Na fase 3:</strong> continuam a Estocada, o Golpe do Juramento, o Salto, o Giro, o Pulso e a Coroa Errante, mais rápidos (+30% de velocidade). <strong>Combos:</strong> <em>Último Juramento</em>, o longo, em 6 golpes (Corte Largo → Estocada → Corte Largo → Fúria → Estocada → Sentença, que pode vir atrasada) e <em>Salto e Sentença</em>. Ele encadeia combos sem pausa, mas <strong>depois de cada combo fica exausto 2,5 s</strong> (<span class="t-ciano">ciano</span>, dano ×1,25): é a hora de bater. A segunda vez que a vida zera é a morte de verdade.</p>
         </div>
       </details>
       <div class="boss-corpo">
         <div>
           <h4>Como matar</h4>
-          <ul class="lista-curta"><li><strong>Solo:</strong> na fase 1 circule para as costas e use os pilares contra a Investida; na fase 2 pule o Pulso e puna o pouso do Salto.</li><li><strong>Em grupo:</strong> um segura a frente com escudo, os outros batem nas costas; alguém fica com os Escudeiros; na Coroa Errante, quem não é caçado bate na coroa.</li><li><strong>Mago:</strong> raio. <strong>Suporte:</strong> limpe a lentidão do Salto.</li></ul>
+          <ul class="lista-curta"><li><strong>Solo:</strong> fique a 3–5 blocos; saia das faixas pelo lado, não para trás; pule anéis e o Pulso; apare a Estocada e o Juramento; bata quando a marca <span class="t-ciano">ciano</span> aparecer.</li><li><strong>Em grupo:</strong> quem tem escudo segura a frente e apara, os outros batem nas costas; alguém fica com os Escudeiros; na Coroa Errante, quem não é caçado bate na coroa.</li><li><strong>Mago:</strong> raio. <strong>Suporte:</strong> limpe a lentidão do Salto.</li></ul>
         </div>
         <div>
           <h4>Recompensas (por participante)</h4>
-          <ul class="lista-curta"><li>Fragmento da Coragem (primeira vitória)</li><li>Centelha do Selo (1 na primeira; 20% depois)</li><li>Ferro Votivo ×3–5</li><li>10–15 bronze + 1 prata</li><li>Espólio do Ato I</li><li>Coroa Oca, capacete cosmético (15%)</li><li>300 de XP</li></ul>
+          <ul class="lista-curta"><li>Fragmento da Coragem (primeira vitória)</li><li>Centelha do Selo (1 na primeira; 20% depois)</li><li>Ferro Votivo ×3–5</li><li>10–15 bronze + 1 prata</li><li>Espólio do Ato I</li><li>Coroa Oca, capacete cosmético (15%)</li><li>300 de XP</li><li><strong>Escudo do Primeiro Cavaleiro</strong> (primeira vitória): janela de aparar 30% maior e aparo que enche 50% a mais a postura dos bosses; legal no Ato I</li><li><strong>Página 5 da Crônica</strong> (primeira vitória)</li></ul>
+        </div>
+      </div>
+      <div class="boss-corpo">
+        <div>
+          <h4>Conquistas do Galvar</h4>
+          <ul class="lista-curta"><li><strong>Nem Arranhou:</strong> vença sem nenhum participante morrer.</li><li><strong>Guarda de Brava:</strong> apare 5 golpes na mesma luta.</li><li><strong>Misericórdia:</strong> o golpe final é um Golpe de Misericórdia.</li><li><strong>Só o Ferro:</strong> vença sem nenhum item encantado equipado ou na mão.</li><li><strong>Juramento Cumprido:</strong> vença em grupo (2 ou mais) sem nenhuma morte.</li></ul>
+        </div>
+        <div>
+          <h4>Panteão</h4>
+          <ul class="lista-curta"><li><strong>Intocável:</strong> vença sem tomar dano dele.</li><li><strong>Sozinho contra um Deus:</strong> só você lutou.</li><li><strong>Relâmpago:</strong> vença em menos de 5:00 (do primeiro golpe à morte).</li><li>As mesmas três valem para todos os bosses do Panteão (aba própria nas conquistas).</li></ul>
         </div>
       </div>
       <p><strong>NG+:</strong> sempre usa a Coroa Errante, e o escudo cravado dá Investidas sozinho.</p>
       <details><summary>Fala ao cair (spoiler)</summary><div class="dentro"><p class="fala">"A Coroa... voltou? Não. São só crianças com espadas. Boas espadas. Levem o fragmento. Digam a Brava que eu fiquei até o fim."</p></div></details>
+      <details><summary>Falas durante a luta (spoiler)</summary><div class="dentro"><p class="fala">75%: "Vocês lutam como a guarda de Brava. Ela também não recuava."</p><p class="fala">50%: "A Coroa me pede mais. Eu ainda tenho mais."</p><p class="fala">20%: "Quatro velas... eu jurei que não iam apagar."</p><p class="fala">Aparado: "Boa guarda, Juramentado."</p><p class="fala">Ao matar alguém: "Levante. A Coroa ainda não voltou."</p><p class="fala">De joelho: "...Brava? É você?"</p><p class="fala">Na falsa morte: "Não... ainda não. O juramento não acabou." / "Se a Coroa não volta, eu guardo o nada. Para sempre."</p></div></details>
     </article>
 
     <!-- VORTHRA -->
@@ -1170,19 +1233,51 @@ details .tabela { background: var(--surface); }
     </article>
   </div>
 
-  <div class="bloco" id="trilha" data-grupo="trilha">
-    <h3>Trilha dos Deuses</h3>
+  <div class="bloco" id="panteao-niveis" data-grupo="trilha">
+    <h3>Panteão: níveis e conquistas</h3>
     <div class="prosa">
-      <p>Pelas rachaduras do Selo passaram os <strong>Deuses Errantes</strong>: o ser mais forte de cada mod de terceiros. Os Observadores de Kaelum catalogam cada um e pagam o grupo para vencê-los. A Trilha nunca trava a campanha; cada Deus só abre depois de um ato, para não virar muro antes da hora.</p>
+      <p>O povo chama de deus qualquer criatura que entrou pelas rachaduras do Selo. Os Observadores de Kaelum separam esses seres em <strong>três níveis</strong>, cada um aberto no ato certo.</p>
+    </div>
+    <div class="tabela larga">
+      <table>
+        <thead><tr><th>Nível</th><th>Quem</th><th>Abre</th><th>Recompensa</th></tr></thead>
+        <tbody>
+          <tr><th>Semideuses</th><td>bosses médios de outros mods (cinco no Ato I)</td><td>desde o Ato I</td><td>moedas, gemas, a Página 4 da Crônica, conquistas</td></tr>
+          <tr><th>Deuses</th><td>o boss mais forte de cada mod (a lista da seção abaixo)</td><td>do Ato II em diante</td><td>ouro, Relíquias, Insígnias dos Deuses I a III</td></tr>
+          <tr><th>Alter-Deuses</th><td>os nossos bosses, em versão de pós-jogo (por exemplo, Sir Xavier Siri Galvar, o Juramento Eterno)</td><td>Epílogo e NG+</td><td>Manto dos Sete, títulos e cosméticos (em atualização futura)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grade">
+      <article class="cartao">
+        <h4>Semideuses do Ato I</h4>
+        <ul class="lista-curta"><li><strong>Bellringer</strong> (Meet Your Fight): nível 12, 310 de vida, chamado pelo Sino Assombrado</li><li><strong>Swampjaw</strong> (Meet Your Fight): nível 12, 100 de vida, Isca de Fóssil num pântano; o mais fácil</li><li><strong>Hirschgeist</strong> (Whisperwoods): nível 12, 150 de vida; imortal de dia, só cai à noite</li><li><strong>Sirok, o Verme da Areia</strong> (Bosses'Rise): nível 16, 200 de vida, ninho no deserto, longe do spawn</li><li><strong>Skor, o Yeti</strong> (Bosses'Rise): nível 14, 250 de vida e dano 18; o mais difícil</li></ul>
+      </article>
+      <article class="cartao">
+        <h4>Conquistas de desafio (qualquer boss do Panteão)</h4>
+        <ul class="lista-curta"><li><strong>Intocável:</strong> vença sem tomar dano do boss.</li><li><strong>Sozinho contra um Deus:</strong> só você lutou.</li><li><strong>Relâmpago:</strong> vença antes do tempo-alvo (de 1:30 no Swampjaw a 10:00 no Dragão Ancião).</li></ul>
+        <p>As conquistas contam por boss e valem a mesma regra para os de outros mods, que não têm conquista própria.</p>
+      </article>
+      <article class="cartao">
+        <h4>Conquistas do Galvar</h4>
+        <ul class="lista-curta"><li><strong>Nem Arranhou:</strong> ninguém do grupo morre.</li><li><strong>Guarda de Brava:</strong> 5 aparos na mesma luta.</li><li><strong>Misericórdia:</strong> golpe final com Golpe de Misericórdia.</li><li><strong>Só o Ferro:</strong> sem item encantado.</li><li><strong>Juramento Cumprido:</strong> em grupo, sem mortes.</li></ul>
+      </article>
+    </div>
+  </div>
+
+  <div class="bloco" id="trilha" data-grupo="trilha">
+    <h3>Panteão: Deuses</h3>
+    <div class="prosa">
+      <p>Os <strong>Deuses</strong> são o ser mais forte de cada mod de terceiros (antes, "Deuses Errantes"). Os Observadores de Kaelum catalogam cada um e pagam o grupo para vencê-los. O Panteão nunca trava a campanha; cada Deus só abre depois de um ato, para não virar muro antes da hora. No Ato I aparecem só as silhuetas "???".</p>
       <p>Cada Deus tem nível fixo e usa a mesma escala de grupo da campanha. Os marcados <strong>só dano</strong> mantêm a vida original do mod e escalam só o dano, porque a luta deles depende de mecânica.</p>
     </div>
     <div class="grade">
       <article class="cartao">
         <h4>Recompensa por Deus (primeira vitória)</h4>
-        <ul class="lista-curta"><li><strong>Marca do Deus Errante</strong>: troféu que vira bloco no Salão dos Deuses</li><li>1 Pergaminho da Sabedoria (+1 ponto na árvore)</li><li>1 ouro nos seis primeiros; 2 ouro do sétimo em diante</li><li>Escolha de 1 Relíquia Errante entre 3 itens do mod do boss</li></ul>
+        <ul class="lista-curta"><li><strong>Marca do Deus</strong>: troféu que vira bloco no Salão dos Deuses</li><li>1 Pergaminho da Sabedoria (+1 ponto na árvore)</li><li>1 ouro nos seis primeiros; 2 ouro do sétimo em diante</li><li>Escolha de 1 Relíquia Errante entre 3 itens do mod do boss</li></ul>
       </article>
       <article class="cartao">
-        <h4>Marcos da Trilha</h4>
+        <h4>Marcos do Panteão</h4>
         <ul class="lista-curta"><li><strong>4 Marcas:</strong> Insígnia dos Deuses I (curio: +1 armadura, +5% de dano)</li><li><strong>8 Marcas:</strong> Insígnia II na mesa de ferraria (as Marcas não são gastas)</li><li><strong>Todas + epílogo:</strong> Insígnia III e o Desafio dos Sete</li></ul>
       </article>
     </div>
@@ -1190,7 +1285,7 @@ details .tabela { background: var(--surface); }
 
     <div class="tabela larga">
       <table>
-        <thead><tr><th class="num">#</th><th>Deus Errante</th><th>Mod</th><th>Abre após</th><th class="num">Nível</th><th>Escala</th></tr></thead>
+        <thead><tr><th class="num">#</th><th>Deus</th><th>Mod</th><th>Abre após</th><th class="num">Nível</th><th>Escala</th></tr></thead>
         <tbody>
           <tr><td class="num">1</td><th><a href="#rosalyne">Rosalyne</a></th><td>Meet Your Fight</td><td>Ato I</td><td class="num">20</td><td>completa</td></tr>
           <tr><td class="num">2</td><th><a href="#hidra">Hidra</a></th><td>Twilight Forest</td><td>Ato I</td><td class="num">30</td><td>só dano</td></tr>
@@ -1378,11 +1473,11 @@ details .tabela { background: var(--surface); }
   <header>
     <p class="olho">Capítulo 4</p>
     <h2 id="t-personagem">Personagem</h2>
-    <p class="lead">Quatro camadas escolhidas na primeira entrada: de onde você veio, qual deus te guia, qual é o seu papel no grupo e como você ajuda fora da luta.</p>
+    <p class="lead">Três camadas escolhidas na primeira entrada: de onde você veio, qual deus te guia e qual é o seu papel no grupo. As profissões não se escolhem: são de todos.</p>
   </header>
 
   <div class="bloco" id="camadas">
-    <h3>As quatro camadas</h3>
+    <h3>As três camadas</h3>
     <div class="tabela media">
       <table>
         <thead><tr><th>Camada</th><th>Pergunta</th><th>Peso em combate</th><th>Troca com</th></tr></thead>
@@ -1390,7 +1485,6 @@ details .tabela { background: var(--surface); }
           <tr><th>Raça</th><td>De onde você veio?</td><td>pequeno: 2–3 bônus e 1 fraqueza</td><td>Espelho das Origens</td></tr>
           <tr><th>Bênção</th><td>Qual deus te guia?</td><td>pequeno no início, médio depois do Ato III</td><td>Vela da Peregrinação</td></tr>
           <tr><th>Classe</th><td>Qual é o seu papel no grupo?</td><td><strong>grande</strong>: arma, magia e habilidades</td><td>Tomo do Novo Juramento</td></tr>
-          <tr><th>Ofício</th><td>Como você ajuda fora da luta?</td><td>nenhum direto: utilidade e receitas</td><td>Contrato de Guilda</td></tr>
         </tbody>
       </table>
     </div>
@@ -1400,10 +1494,10 @@ details .tabela { background: var(--surface); }
       <table>
         <thead><tr><th>Momento</th><th>O que liga</th></tr></thead>
         <tbody>
-          <tr><th>Início</th><td>Raça completa, Bênção Menor, Classe Talento I (passivas + ativa no <span class="tecla">G</span>), Ofício Aprendiz, kit da classe</td></tr>
+          <tr><th>Início</th><td>Raça completa, Bênção Menor, Classe Talento I (passivas + ativa no <span class="tecla">G</span>), kit da classe; profissões abertas</td></tr>
           <tr><th>Porteiro do Ato I</th><td>Quest de classe entrega a arma-assinatura na Forma I</td></tr>
           <tr><th>Porteiro do Ato II</th><td>Talento II; assinatura Forma II</td></tr>
-          <tr><th>Porteiro do Ato III</th><td><strong>Bênção Maior</strong>; Ofício Mestre; assinatura Forma III</td></tr>
+          <tr><th>Porteiro do Ato III</th><td><strong>Bênção Maior</strong>; profissões no nível Mestre; assinatura Forma III</td></tr>
           <tr><th>Porteiro do Ato IV</th><td>Talento III, o Supremo, no <span class="tecla">H</span>; assinatura Forma IV</td></tr>
           <tr><th>Porteiro do Ato V</th><td>Assinatura Forma V (Plena), com modelo novo</td></tr>
           <tr><th>Porteiro do Ato VI</th><td>Conquistas de classe e pós-jogo</td></tr>
@@ -1601,18 +1695,18 @@ details .tabela { background: var(--surface); }
   </div>
 
   <div class="bloco" id="oficios">
-    <h3>Ofícios</h3>
-    <p>Ofício não dá dano. Dá uma utilidade pessoal pequena e, principalmente, <strong>receitas exclusivas</strong> cujos produtos qualquer jogador pode usar. Com quatro jogadores, o ideal é cada um ter um ofício diferente. Aprendiz desde o início; Mestre depois do porteiro do Ato III.</p>
+    <h3>Profissões</h3>
+    <p>As seis profissões são <strong>abertas a todos</strong>: não existe escolha nem camada. Qualquer jogador faz qualquer receita na bancada comum e usa qualquer item. Com quatro jogadores, vale dividir quem faz o quê. Aprendiz desde o início; os itens de Mestre ficam selados até o Ato IV chegar (o porteiro do Ato III vencido).</p>
     <div class="tabela larga">
       <table>
-        <thead><tr><th>Ofício</th><th>Passiva pessoal</th><th>Receitas de Aprendiz</th><th>Receitas de Mestre</th></tr></thead>
+        <thead><tr><th>Profissão</th><th>Para que serve</th><th>Receitas de Aprendiz</th><th>Receitas de Mestre</th></tr></thead>
         <tbody>
-          <tr id="oficio-ferreiro"><th>Ferreiro</th><td>Manutenção: +1 nível virtual de Inquebrável em tudo que usa</td><td>Kit de Reparo de Campo (repara 25%); Pedra de Amolar (+8% corpo a corpo por 10 min)</td><td>Óleo de Têmpera (+3 armadura por 10 min); Kit de Reparo Superior (50%)</td></tr>
-          <tr id="oficio-alquimista"><th>Alquimista</th><td>Metabolismo: efeitos positivos duram +25% nele</td><td>Frasco de Cura em Grupo (cura 6 em área); Tônico de Mana (+50 de mana); Óleo de Lâmina (fogo ou veneno)</td><td>Elixir do Herói (Regeneração I e Absorção I por 8 min); Frasco de Cura Maior (cura 10)</td></tr>
-          <tr id="oficio-cozinheiro"><th>Cozinheiro</th><td>Paladar Refinado: +25% de saturação</td><td>Ração de Viagem; Banquete do Acampamento (4 porções, Bem Alimentado I)</td><td>Banquete Real (8 porções, Bem Alimentado II)</td></tr>
-          <tr id="oficio-explorador"><th>Explorador</th><td>Pés de Estrada (+10% ao correr), −40% de queda, visão em cavernas</td><td>Bússola de Masmorra (aponta o alvo do ato); Pergaminho de Retorno</td><td>Pergaminho de Retorno do Grupo</td></tr>
-          <tr id="oficio-mercador"><th>Mercador</th><td>Lábia: Herói da Vila permanente; Faro para Ouro (20% de moeda extra em drops)</td><td>Apito do Mascate (chama um mercador ambulante)</td><td>Lábia II; Selo de Caravana (a Caravana visita o Pouso uma vez por ato)</td></tr>
-          <tr id="oficio-encantador"><th>Encantador</th><td>Afinidade Arcana: +10% de XP, +5% de mana</td><td>Livro do Esquecimento (zera o custo da bigorna); Tinta Rara</td><td>Sigilo de Encaixe; Tinta Épica</td></tr>
+          <tr id="oficio-ferreiro"><th>Ferreiro</th><td>Repara e afia o equipamento do grupo</td><td>Kit de Reparo de Campo (repara 25%); Pedra de Amolar (+8% corpo a corpo por 10 min)</td><td>Óleo de Têmpera (+3 armadura por 10 min); Kit de Reparo Superior (50%)</td></tr>
+          <tr id="oficio-alquimista"><th>Alquimista</th><td>Frascos de cura, tônicos e óleos de lâmina</td><td>Frasco de Cura em Grupo (cura 6 em área); Tônico de Mana (+50 de mana); Óleo de Lâmina (fogo ou veneno)</td><td>Elixir do Herói (Regeneração I e Absorção I por 8 min); Frasco de Cura Maior (cura 10)</td></tr>
+          <tr id="oficio-cozinheiro"><th>Cozinheiro</th><td>Comida de viagem e banquetes</td><td>Ração de Viagem; Banquete do Acampamento (4 porções, Bem Alimentado I)</td><td>Banquete Real (8 porções, Bem Alimentado II)</td></tr>
+          <tr id="oficio-explorador"><th>Explorador</th><td>Acha masmorras e leva o grupo para casa</td><td>Bússola de Masmorra (aponta o alvo do ato); Pergaminho de Retorno</td><td>Pergaminho de Retorno do Grupo</td></tr>
+          <tr id="oficio-mercador"><th>Mercador</th><td>Apito do Mascate e a Caravana</td><td>Apito do Mascate (chama um mercador ambulante)</td><td>Selo de Caravana (a Caravana visita o Pouso uma vez por ato)</td></tr>
+          <tr id="oficio-encantador"><th>Encantador</th><td>Tintas, sigilos e a bigorna</td><td>Livro do Esquecimento (zera o custo da bigorna); Tinta Rara</td><td>Sigilo de Encaixe; Tinta Épica</td></tr>
         </tbody>
       </table>
     </div>
@@ -1666,11 +1760,10 @@ details .tabela { background: var(--surface); }
           <tr><th>Tomo do Novo Juramento</th><td>Classe</td><td>4 ouro + 1 Centelha do Selo</td><td>1 por ato</td></tr>
           <tr><th>Espelho das Origens</th><td>Raça</td><td>4 ouro</td><td>1 por ato</td></tr>
           <tr><th>Vela da Peregrinação</th><td>Bênção</td><td>3 ouro</td><td>1 por ato</td></tr>
-          <tr><th>Contrato de Guilda</th><td>Ofício</td><td>2 ouro</td><td>sem limite</td></tr>
         </tbody>
       </table>
     </div>
-    <p>O Tomo também zera a árvore sem penalidade e troca a sua arma-assinatura pela da classe nova, <strong>mantendo forma, afixos e gemas</strong>. Bênção Maior, Talentos e Ofício Mestre não se perdem: dependem dos atos vencidos, não da escolha.</p>
+    <p>O Tomo também zera a árvore sem penalidade e troca a sua arma-assinatura pela da classe nova, <strong>mantendo forma, afixos e gemas</strong>. Bênção Maior e Talentos não se perdem: dependem dos atos vencidos, não da escolha.</p>
   </div>
 </section>
 
@@ -1725,7 +1818,7 @@ details .tabela { background: var(--surface); }
 
   <div class="bloco" id="composicoes">
     <h3>Composições de grupo</h3>
-    <p>Regra de bolso: <strong>1 linha de frente</strong> (Paladino ou Monge) + <strong>1 sustento</strong> (Druida, Paladino com Aurion ou Bardo) + <strong>2 dano</strong>, e quatro ofícios diferentes.</p>
+    <p>Regra de bolso: <strong>1 linha de frente</strong> (Paladino ou Monge) + <strong>1 sustento</strong> (Druida, Paladino com Aurion ou Bardo) + <strong>2 dano</strong>, e as profissões divididas entre o grupo.</p>
     <div class="tabela larga">
       <table>
         <thead><tr><th>Composição</th><th>Classes</th><th>Ponto forte</th><th>Cuidado</th></tr></thead>
@@ -1748,7 +1841,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-paladino" data-busca="Build Paladino Bastião do Juramento">
       <p class="olho">Paladino · tanque e suporte · ★☆☆</p>
       <h3>Bastião do Juramento</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Pedraforte (ou Humano)</span><span class="chip semponto">Bênção: Ignar (ou Aurion sem Druida)</span><span class="chip semponto">Ofício: Ferreiro</span><span class="chip semponto">Árvore: Bastião → Vigor → Graça</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Pedraforte (ou Humano)</span><span class="chip semponto">Bênção: Ignar (ou Aurion sem Druida)</span><span class="chip semponto">Profissão sugerida: Ferreiro</span><span class="chip semponto">Árvore: Bastião → Vigor → Graça</span></div>
       <p>Segura o boss de costas para o grupo, provoca a cada 20 s e levanta quem está caindo.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1769,7 +1862,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-berserker" data-busca="Build Berserker Lâmina Rubra">
       <p class="olho">Berserker · dano corpo a corpo · ★★☆</p>
       <h3>Lâmina Rubra</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Kharn (ou Humano)</span><span class="chip semponto">Bênção: Brava (ou Vesperis)</span><span class="chip semponto">Ofício: Cozinheiro</span><span class="chip semponto">Árvore: Fúria → Vigor → Precisão</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Kharn (ou Humano)</span><span class="chip semponto">Bênção: Brava (ou Vesperis)</span><span class="chip semponto">Profissão sugerida: Cozinheiro</span><span class="chip semponto">Árvore: Fúria → Vigor → Precisão</span></div>
       <p>Fica mais forte quanto mais tempo luta; vive do roubo de vida e da Fúria acima de 50.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1790,7 +1883,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-mago" data-busca="Build Mago Elemental Tempestade Primordial">
       <p class="olho">Mago Elemental · dano em área · ★★☆</p>
       <h3>Tempestade Primordial</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Ignari (ou Humano)</span><span class="chip semponto">Bênção: Kaelum (ou Nymara)</span><span class="chip semponto">Ofício: Encantador</span><span class="chip semponto">Árvore: Arcano → Precisão</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Ignari (ou Humano)</span><span class="chip semponto">Bênção: Kaelum (ou Nymara)</span><span class="chip semponto">Profissão sugerida: Encantador</span><span class="chip semponto">Árvore: Arcano → Precisão</span></div>
       <p>Fogo como elemento principal, Gelo para controle e Raio no fim para o Cataclismo.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1811,7 +1904,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-necromante" data-busca="Build Necromante Senhor dos Caídos">
       <p class="olho">Necromante · invocação · ★★★</p>
       <h3>Senhor dos Caídos</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Marcado</span><span class="chip semponto">Bênção: Kaelum (ou Vesperis)</span><span class="chip semponto">Ofício: Alquimista</span><span class="chip semponto">Árvore: Ritual → Arcano → Vigor</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Marcado</span><span class="chip semponto">Bênção: Kaelum (ou Vesperis)</span><span class="chip semponto">Profissão sugerida: Alquimista</span><span class="chip semponto">Árvore: Ritual → Arcano → Vigor</span></div>
       <p>As invocações seguram os adds e distraem o boss enquanto ele drena com Sangue.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1832,7 +1925,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-cacador" data-busca="Build Caçador Olho de Valdren">
       <p class="olho">Caçador · dano à distância · ★☆☆</p>
       <h3>Olho de Valdren</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Elarim</span><span class="chip semponto">Bênção: Tellura (ou Brava)</span><span class="chip semponto">Ofício: Explorador</span><span class="chip semponto">Árvore: Arqueria → Precisão → Agilidade</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Elarim</span><span class="chip semponto">Bênção: Tellura (ou Brava)</span><span class="chip semponto">Profissão sugerida: Explorador</span><span class="chip semponto">Árvore: Arqueria → Precisão → Agilidade</span></div>
       <p>Dano constante de longe e a Marca da Presa, que dá +10% de dano a todo o grupo no alvo.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1853,7 +1946,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-lamina" data-busca="Build Lâmina Arcana Runa e Aço">
       <p class="olho">Lâmina Arcana · híbrido · ★★★</p>
       <h3>Runa e Aço</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Humano (ou Elarim)</span><span class="chip semponto">Bênção: Nymara (ou Kaelum)</span><span class="chip semponto">Ofício: Encantador</span><span class="chip semponto">Árvore: Precisão → Arcano → Fúria</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Humano (ou Elarim)</span><span class="chip semponto">Bênção: Nymara (ou Kaelum)</span><span class="chip semponto">Profissão sugerida: Encantador</span><span class="chip semponto">Árvore: Precisão → Arcano → Fúria</span></div>
       <p>Espada para abrir a guarda, magia imbuída para fechar a sequência; a mana volta com os golpes.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1874,7 +1967,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-bardo" data-busca="Build Bardo de Guerra Canção do Último Reino">
       <p class="olho">Bardo de Guerra · suporte ofensivo · ★★☆</p>
       <h3>Canção do Último Reino</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Humano (ou Pés-Leves)</span><span class="chip semponto">Bênção: Aurion (ou Kaelum)</span><span class="chip semponto">Ofício: Mercador</span><span class="chip semponto">Árvore: Comando → Arcano → Vigor</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Humano (ou Pés-Leves)</span><span class="chip semponto">Bênção: Aurion (ou Kaelum)</span><span class="chip semponto">Profissão sugerida: Mercador</span><span class="chip semponto">Árvore: Comando → Arcano → Vigor</span></div>
       <p>Multiplica o dano de todos. Rende muito com 3 ou 4 jogadores; sozinho é a classe mais fraca.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1895,7 +1988,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-druida" data-busca="Build Druida Coração da Mata">
       <p class="olho">Druida · cura e controle · ★★☆</p>
       <h3>Coração da Mata</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Elarim (ou Maréu)</span><span class="chip semponto">Bênção: Tellura (ou Aurion)</span><span class="chip semponto">Ofício: Alquimista ou Cozinheiro</span><span class="chip semponto">Árvore: Graça → Arcano → Vigor</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Elarim (ou Maréu)</span><span class="chip semponto">Bênção: Tellura (ou Aurion)</span><span class="chip semponto">Profissão sugerida: Alquimista ou Cozinheiro</span><span class="chip semponto">Árvore: Graça → Arcano → Vigor</span></div>
       <p>O curandeiro principal. Com quatro jogadores no modo brutal, um Druida é quase obrigatório.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1916,7 +2009,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-monge" data-busca="Build Monge Mil Passos">
       <p class="olho">Monge · tanque evasivo · ★★★</p>
       <h3>Mil Passos</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Pés-Leves (ou Humano)</span><span class="chip semponto">Bênção: Nymara (ou Brava)</span><span class="chip semponto">Ofício: Explorador</span><span class="chip semponto">Árvore: Agilidade → Fúria → Vigor</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Pés-Leves (ou Humano)</span><span class="chip semponto">Bênção: Nymara (ou Brava)</span><span class="chip semponto">Profissão sugerida: Explorador</span><span class="chip semponto">Árvore: Agilidade → Fúria → Vigor</span></div>
       <p>Segura bosses que batem forte e devagar e contra-ataca. Sofre contra boss de muito projétil.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1937,7 +2030,7 @@ details .tabela { background: var(--surface); }
     <article class="build" id="build-assassino" data-busca="Build Assassino Último Suspiro">
       <p class="olho">Assassino · dano explosivo · ★★★</p>
       <h3>Último Suspiro</h3>
-      <div class="fatos"><span class="chip semponto">Raça: Pés-Leves (ou Marcado)</span><span class="chip semponto">Bênção: Brava (ou Vesperis)</span><span class="chip semponto">Ofício: Mercador ou Explorador</span><span class="chip semponto">Árvore: Precisão → Agilidade → Fúria</span></div>
+      <div class="fatos"><span class="chip semponto">Raça: Pés-Leves (ou Marcado)</span><span class="chip semponto">Bênção: Brava (ou Vesperis)</span><span class="chip semponto">Profissão sugerida: Mercador ou Explorador</span><span class="chip semponto">Árvore: Precisão → Agilidade → Fúria</span></div>
       <p>Finaliza bosses e elites pelas costas. Frágil: vive de posicionamento.</p>
       <div class="tabela larga"><table>
         <thead><tr><th>Fase</th><th>Equipamento</th><th>Árvore</th><th>Magias</th><th>Gemas</th></tr></thead>
@@ -1976,7 +2069,7 @@ details .tabela { background: var(--surface); }
           <tr><th>III</th><td>Nether</td><td>fortalezas, bastiões, estruturas do Incendium e do Cataclysm; posto do Clã Martelo-Brasa</td><td class="num">28–42</td></tr>
           <tr><th>IV</th><td>Oceano profundo (3.000 a 6.000 blocos), Deep Dark, desertos, gelo; Otherside</td><td>Cidades Antigas, monumentos, pirâmides do Cataclysm, Labirinto de Gelo do Aquamirae</td><td class="num">42–58</td></tr>
           <tr><th>V</th><td>End</td><td>ilha central, ilhas externas e End Cities; a Fenda Estelar leva ao Além do Selo</td><td class="num">58–72</td></tr>
-          <tr><th>VI</th><td>Mundo inteiro e o Além do Selo</td><td>últimos materiais, Trilha dos Deuses, ninhos de dragão a 5.000+ blocos</td><td class="num">72–88</td></tr>
+          <tr><th>VI</th><td>Mundo inteiro e o Além do Selo</td><td>últimos materiais, Panteão, ninhos de dragão a 5.000+ blocos</td><td class="num">72–88</td></tr>
         </tbody>
       </table>
     </div>
@@ -2012,7 +2105,7 @@ details .tabela { background: var(--surface); }
           <tr><th>Círculo de Tellura</th><td>Irmã Ramalda</td><td>florestas do Ato II</td><td>o Selo de Tellura (chave do Ato II)</td></tr>
           <tr><th>Clã Martelo-Brasa</th><td>Mestre Durgo Martelo-Brasa</td><td>posto avançado no Nether</td><td>o Martelo Rúnico (chave do Ato III); ensina netherite</td></tr>
           <tr><th>Companhia da Maré</th><td>Almirante Coral Sete-Ventos</td><td>docas e navios do Ato IV</td><td>a Carta Náutica (chave do Ato IV)</td></tr>
-          <tr><th>Observadores de Kaelum</th><td>Arquivista Lune</td><td>Observatório do Pouso</td><td>o Mapa Celeste (chave do Ato V); pagam pela Trilha dos Deuses</td></tr>
+          <tr><th>Observadores de Kaelum</th><td>Arquivista Lune</td><td>Observatório do Pouso</td><td>o Mapa Celeste (chave do Ato V); pagam pelo Panteão</td></tr>
           <tr><th>A Corte Partida</th><td>inimiga</td><td>ruínas pelo mundo; arenas V e VI</td><td>cavaleiros, cultistas e illagers tocados pela Mácula</td></tr>
         </tbody>
       </table>
@@ -2029,7 +2122,7 @@ details .tabela { background: var(--surface); }
           <tr><th>Estandarte do Juramento</th><td>grátis (Prólogo)</td><td>Ato I</td></tr>
           <tr><th>Mesa de Builds</th><td>recompensa do Ato I</td><td>Ato II</td></tr>
           <tr><th>Pedra de Viagem do Pouso</th><td>5 prata</td><td>Ato II</td></tr>
-          <tr><th>Forja do Grupo (reforja e estações de ofício)</th><td>1 ouro</td><td>Ato II</td></tr>
+          <tr><th>Forja do Grupo (reforja e estações de profissão)</th><td>1 ouro</td><td>Ato II</td></tr>
           <tr><th>Salão dos Deuses (expõe as Marcas)</th><td>5 prata</td><td>Ato II</td></tr>
           <tr><th>Coliseu dos Gurizes (arena PvP)</th><td>1 ouro</td><td>Ato II</td></tr>
           <tr><th>Mercador residente</th><td>recompensa do Ato II</td><td>Ato III</td></tr>
@@ -2072,7 +2165,7 @@ details .tabela { background: var(--surface); }
       <table>
         <thead><tr><th>Item</th><th>Fonte</th><th>Deus</th></tr></thead>
         <tbody>
-          <tr><th>Fragmento da Coragem</th><td>Sir Galvar (Ato I)</td><td>Brava</td></tr>
+          <tr><th>Fragmento da Coragem</th><td>Sir Xavier Siri Galvar (Ato I)</td><td>Brava</td></tr>
           <tr><th>Fragmento da Raiz</th><td>Vorthra (Ato II)</td><td>Tellura</td></tr>
           <tr><th>Fragmento da Brasa</th><td>Kharzul (Ato III)</td><td>Ignar</td></tr>
           <tr><th>Fragmento da Maré</th><td>Nerezza (Ato IV)</td><td>Nymara</td></tr>
@@ -2104,8 +2197,8 @@ details .tabela { background: var(--surface); }
   </div>
 
   <div class="bloco" id="itens-oficio">
-    <h3>Itens de ofício e de troca</h3>
-    <p>Os consumíveis dos ofícios (kits de reparo, frascos, banquetes, pergaminhos de retorno, apito, livro do esquecimento) estão na tabela de <a href="#oficios">Ofícios</a>; qualquer jogador pode usar. Os itens de troca de camada estão em <a href="#troca">Troca de camadas</a>. As dez armas-assinatura estão em <a href="#assinaturas">Armas-assinatura</a>.</p>
+    <h3>Itens de profissão e de troca</h3>
+    <p>Os consumíveis das profissões (kits de reparo, frascos, banquetes, pergaminhos de retorno, apito, livro do esquecimento) estão na tabela de <a href="#oficios">Profissões</a>; qualquer jogador pode fazer e usar. Os itens de troca de camada estão em <a href="#troca">Troca de camadas</a>. As dez armas-assinatura estão em <a href="#assinaturas">Armas-assinatura</a>.</p>
   </div>
 
   <div class="bloco" id="trofeus">
@@ -2113,7 +2206,7 @@ details .tabela { background: var(--surface); }
     <div class="grade">
       <article class="cartao">
         <h4>Troféus</h4>
-        <ul class="lista-curta"><li><strong>Coroa Oca</strong>: capacete cosmético (Sir Galvar, 15%)</li><li><strong>Semente de Tellura</strong>: planta que brilha (Vorthra, 10%)</li><li><strong>Elo de Kharzul</strong>: corrente que brilha (8%)</li><li><strong>Concha Cantante</strong>: toca o canto de Nerezza (10%)</li><li><strong>Íris de Astrael</strong>: orbe flutuante (10%)</li><li><strong>Coroa Partida</strong>: capacete cosmético (Morvhal)</li><li><strong>Marcas dos Deuses Errantes</strong> e <strong>Insígnia dos Deuses</strong> I a III</li><li><strong>Manto dos Sete</strong>: capa do Desafio dos Sete</li></ul>
+        <ul class="lista-curta"><li><strong>Coroa Oca</strong>: capacete cosmético (Sir Xavier Siri Galvar, 15%)</li><li><strong>Semente de Tellura</strong>: planta que brilha (Vorthra, 10%)</li><li><strong>Elo de Kharzul</strong>: corrente que brilha (8%)</li><li><strong>Concha Cantante</strong>: toca o canto de Nerezza (10%)</li><li><strong>Íris de Astrael</strong>: orbe flutuante (10%)</li><li><strong>Coroa Partida</strong>: capacete cosmético (Morvhal)</li><li><strong>Marcas dos Deuses Errantes</strong> e <strong>Insígnia dos Deuses</strong> I a III</li><li><strong>Manto dos Sete</strong>: capa do Desafio dos Sete</li></ul>
       </article>
       <article class="cartao">
         <h4>Navegação e lore</h4>
@@ -2160,7 +2253,7 @@ details .tabela { background: var(--surface); }
           <tr><th>Cemitério do Tiago</th><td>Morra e ganhe sua primeira cova. O tiagoBugado0 já tem um bairro inteiro.</td></tr>
           <tr><th>Seguro do Pedro</th><td>Pague XP para resgatar seus itens na hora. Ideia do pedroo2297, claro.</td></tr>
           <tr><th>Volta pra Buscar</th><td>Recupere seus itens direto da cova.</td></tr>
-          <tr><th>Coroa Oca, Cabeça Oca</th><td>Liberte Sir Galvar, o Guardião da Coroa Oca.</td></tr>
+          <tr><th>Coroa Oca, Cabeça Oca</th><td>Liberte Sir Xavier Siri Galvar, o Guardião da Coroa Oca.</td></tr>
           <tr><th>Nem Arranhou</th><td>Vença o Guardião da Coroa Oca sem nenhum participante morrer.</td></tr>
           <tr><th>Os Quatro Gurizes</th><td>Vença um boss da campanha com 4 jogadores na arena.</td></tr>
           <tr><th>Bugado, mas de Pé</th><td>Vença um boss da campanha com menos de 2 corações.</td></tr>
@@ -2371,10 +2464,11 @@ pesos: Comum 0,5 · Incomum 0,75 · Raro 1,0 · Épico 1,5 · Mítico 2,0 · Ant
       <details><summary>O portal do Nether não me deixa entrar.</summary><div class="dentro"><p>O Nether abre com a vitória sobre Vorthra, o porteiro do Ato II. A mensagem vermelha ao tentar entrar diz isso.</p></div></details>
       <details><summary>Morri longe da base. Vale pagar o resgate?</summary><div class="dentro"><p>Se o caminho é perigoso ou longe, sim. Se a cova está perto, vá buscar de graça e guarde o XP para a árvore. Lembre: o segundo resgate em 30 minutos custa 50% a mais.</p></div></details>
       <details><summary>Escolhi a classe errada.</summary><div class="dentro"><p>Antes de vencer o porteiro do Ato I, use o Pergaminho do Recomeço (grátis). Depois, o Tomo do Novo Juramento troca a classe uma vez por ato, mantendo a forma e os afixos da sua arma-assinatura.</p></div></details>
+      <details><summary>Onde escolho meu Ofício? Eu tinha um na versão anterior.</summary><div class="dentro"><p>Não existe mais escolha de ofício: o personagem tem só Raça, Bênção e Classe. As seis profissões (Ferreiro, Alquimista, Cozinheiro, Explorador, Mercador e Encantador) ficaram abertas a todos, com as mesmas receitas e quests. Quem já tinha um ofício entra normalmente; as passivas pessoais do ofício deixaram de existir. O Contrato de Guilda, se você tem um, vira 2 moedas de ouro ao ser usado (clique direito).</p></div></details>
       <details><summary>Minha arma-assinatura causa quase nenhum dano.</summary><div class="dentro"><p>Ela só reconhece quem tem o juramento da classe. Se você trocou de classe sem o Tomo, ou pegou a arma de um amigo, ela causa 10% do dano e a habilidade fica desligada.</p></div></details>
       <details><summary>O boss sumiu no meio da luta.</summary><div class="dentro"><p>Todo mundo morreu ou ficou 30 s fora da arena: o boss reseta e a chave volta ao altar. Organize o grupo e invoque de novo.</p></div></details>
       <details><summary>Dá para jogar a campanha sozinho?</summary><div class="dentro"><p>Dá. Toda classe funciona solo, os bosses têm números próprios para um jogador e as mecânicas de grupo [G] não aparecem. O Bardo é a classe mais fraca sozinho.</p></div></details>
-      <details><summary>Preciso fazer a Trilha dos Deuses?</summary><div class="dentro"><p>Não. Ela nunca trava a campanha. Rende pontos de árvore, ouro, relíquias e a Insígnia dos Deuses, e fecha com o Desafio dos Sete para quem quer o título de Mata-Deuses.</p></div></details>
+      <details><summary>Preciso fazer o Panteão?</summary><div class="dentro"><p>Não. Ele nunca trava a campanha. Rende pontos de árvore, ouro, relíquias e a Insígnia dos Deuses, e fecha com o Desafio dos Sete para quem quer o título de Mata-Deuses.</p></div></details>
       <details><summary>Acertei um amigo sem querer e não deu dano.</summary><div class="dentro"><p>Correto: não existe fogo amigo fora do Coliseu.</p></div></details>
     </div>
   </div>
@@ -2413,6 +2507,36 @@ pesos: Comum 0,5 · Incomum 0,75 · Raro 1,0 · Épico 1,5 · Mítico 2,0 · Ant
     </div>
   </div>
 </section>
+
+<!-- creditos-audio:inicio -->
+<section class="secao" id="creditos" aria-labelledby="t-creditos">
+  <header>
+    <p class="olho">Capítulo 10</p>
+    <h2 id="t-creditos">Créditos</h2>
+    <p class="lead">Quem fez o som que você ouve nas lutas, e com qual licença.</p>
+  </header>
+
+  <div class="bloco" id="creditos-audio">
+    <h3>Trilha sonora e sons do Ato I</h3>
+    <p><strong>Música:</strong> a trilha do Galvar (tema, fase 2 com percussão, fase 3 sombria, sinos, vitória e o tema calmo do menu) é obra original do projeto, composta e sintetizada por código, sem material de terceiros.</p>
+    <p><strong>Efeitos:</strong> são camadas de amostras livres (CC0) muito tratadas somadas a sínteses próprias. Só entra áudio CC0 ou CC-BY com crédito. A lista completa, com o que foi alterado em cada arquivo, está no repositório do projeto (<code>docs/creditos-audio.md</code>).</p>
+    <div class="tabela larga">
+      <table>
+        <thead><tr><th>Fonte</th><th>Autor</th><th>Licença</th><th>Onde</th></tr></thead>
+        <tbody>
+          <tr><th><a href="https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes" rel="noopener">20 Sword Sound Effects (Attacks and Clashes)</a></th><td>StarNinjas</td><td>CC0 1.0</td><td>7 efeitos</td></tr>
+          <tr><th><a href="https://opengameart.org/content/80-cc0-rpg-sfx" rel="noopener">80 CC0 RPG SFX</a></th><td>rubberduck</td><td>CC0 1.0</td><td>12 efeitos</td></tr>
+          <tr><th><a href="https://opengameart.org/content/80-cc0-creature-sfx" rel="noopener">80 CC0 creature SFX</a></th><td>rubberduck</td><td>CC0 1.0</td><td>1 efeito</td></tr>
+          <tr><th><a href="https://opengameart.org/content/footsteps-leather-cloth-armor" rel="noopener">Footsteps Leather, Cloth, Armor</a></th><td>HaelDB</td><td>CC0 1.0</td><td>10 efeitos</td></tr>
+          <tr><th><a href="https://opengameart.org/content/ghost-breath" rel="noopener">Ghost breath</a></th><td>qubodup</td><td>CC0 1.0</td><td>1 efeito</td></tr>
+          <tr><th><a href="https://kenney.nl/assets/impact-sounds" rel="noopener">Impact Sounds</a></th><td>Kenney (Kenney Vleugels)</td><td>CC0 1.0</td><td>30 efeitos</td></tr>
+          <tr><th><a href="https://kenney.nl/assets/rpg-audio" rel="noopener">RPG Audio</a></th><td>Kenney (Kenney Vleugels)</td><td>CC0 1.0</td><td>8 efeitos</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- creditos-audio:fim -->
 
 <footer class="rodape">
   <p>Gurizes RPG Fantasy · wiki da versão 0.1 · Forge 1.20.1 (47.4.28).</p>

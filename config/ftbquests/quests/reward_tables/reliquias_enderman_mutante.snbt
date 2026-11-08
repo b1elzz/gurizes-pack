@@ -2,7 +2,7 @@
 	icon: "minecraft:splash_potion"
 	id: "0420E83294EE279F"
 	loot_size: 1
-	order_index: 7
+	order_index: 12
 	rewards: [
 		{
 			item: "mutantmonsters:endersoul_hand"

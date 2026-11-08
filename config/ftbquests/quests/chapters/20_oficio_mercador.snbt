@@ -5,20 +5,17 @@
 	group: "4DA834C500C67B4B"
 	icon: "minecraft:emerald"
 	id: "1A009C07DB846E57"
-	order_index: 24
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4DDB3E9E6F0CC55F"]
 			description: [
-				"Você escolheu o ofício Mercador. Descontos com os aldeões, faro para moedas e a Caravana."
-				"Seus produtos servem para qualquer jogador; só você sabe fazê-los."
+				"Mercador é uma profissão aberta a todos: não há escolha. Descontos com os aldeões, faro para moedas e a Caravana."
+				"As receitas ficam na bancada comum, para qualquer jogador."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:emerald"
 			id: "252B4D699C02F6C1"
-			invisible: true
-			invisible_until_tasks: 1
 			rewards: [
 				{
 					id: "19CCEBB50ED909EC"
@@ -30,10 +27,8 @@
 			size: 1.25d
 			tasks: [
 				{
-					advancement: "gurizes:interno/oficio_mercador"
-					criterion: ""
 					id: "24D10D7AD025F8A5"
-					type: "advancement"
+					type: "checkmark"
 				}
 			]
 			title: "Aprendiz de Mercador"
@@ -43,7 +38,6 @@
 		{
 			dependencies: ["252B4D699C02F6C1"]
 			description: ["Faça o primeiro Apito do Mascate."]
-			hide_until_deps_visible: true
 			icon: "gurizes:apito_do_mascate"
 			id: "5BA97FC8B2837FBC"
 			rewards: [
@@ -67,9 +61,8 @@
 		{
 			dependencies: ["5BA97FC8B2837FBC", "1F82201E3EE0EE78"]
 			description: [
-				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: seu ofício chega a Mestre."
+				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:emerald"
 			id: "61F83C638BEEBF0C"
 			rewards: [
@@ -95,7 +88,6 @@
 		{
 			dependencies: ["61F83C638BEEBF0C"]
 			description: ["Faça o primeiro Selo de Caravana."]
-			hide_until_deps_visible: true
 			icon: "gurizes:selo_de_caravana"
 			id: "33F1CCA143DCC857"
 			rewards: [
@@ -118,6 +110,6 @@
 			y: 1.4d
 		}
 	]
-	subtitle: ["Só aparece para quem tem este ofício"]
-	title: "Ofício: Mercador"
+	subtitle: ["Aberta a todos; Mestre no Ato III"]
+	title: "Profissão: Mercador"
 }

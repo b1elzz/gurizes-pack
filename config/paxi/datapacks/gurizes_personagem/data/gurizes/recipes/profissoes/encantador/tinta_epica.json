@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:rare_ink"
+    },
+    {
+      "item": "irons_spellbooks:rare_ink"
+    },
+    {
+      "item": "irons_spellbooks:rare_ink"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:epic_ink",
+    "count": 1
+  }
+}

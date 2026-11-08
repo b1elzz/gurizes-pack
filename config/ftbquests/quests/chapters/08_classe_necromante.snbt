@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:grimorio_partido"
 	id: "0B813CC7EAE9B4AE"
-	order_index: 12
+	order_index: 15
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -213,7 +213,7 @@
 		{
 			dependencies: ["3086F31428B2D2CA", "2A91FE9914FDA578"]
 			description: [
-				"Sir Galvar é imune a veneno e wither e resiste a sangue. Use os mortos erguidos como escudo"
+				"Sir Xavier Siri Galvar é imune a veneno e wither e resiste a sangue. Use os mortos erguidos como escudo"
 				"contra os Escudeiros Ocos e bata de longe, nas costas, enquanto ele persegue as invocações."
 				"Marque quando estiver pronto para a Cripta."
 			]

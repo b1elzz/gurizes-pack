@@ -5,7 +5,7 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "5B1FF997A2909185"
-	order_index: 30
+	order_index: 35
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -14,7 +14,6 @@
 			description: [
 				"Abra o portal (lago de flores e um diamante) e entre na Floresta Crepuscular."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:fern"
 			id: "03A12149735D51D6"
 			rewards: [
@@ -41,7 +40,6 @@
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["O pátio de pedra onde a Naga se enrola."]
-			hide_until_deps_complete: true
 			icon: "twilightforest:naga_scale"
 			id: "5AF47FA3A070C8CD"
 			rewards: [
@@ -66,7 +64,6 @@
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["Uma torre alta, cheia de esqueletos e um mago."]
-			hide_until_deps_complete: true
 			icon: "minecraft:bone"
 			id: "332E7250C347CF88"
 			rewards: [
@@ -91,7 +88,6 @@
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["O labirinto subterrâneo do Minoshroom."]
-			hide_until_deps_complete: true
 			icon: "twilightforest:diamond_minotaur_axe"
 			id: "523C753CD6ED1242"
 			rewards: [
@@ -115,8 +111,7 @@
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
-			description: ["O covil no Pântano de Fogo. Lá mora um Deus Errante."]
-			hide_until_deps_complete: true
+			description: ["O covil no Pântano de Fogo. Lá mora um Deus do Panteão."]
 			icon: "twilightforest:fiery_tears"
 			id: "4D4DA0748521136C"
 			rewards: [
@@ -141,7 +136,6 @@
 		{
 			dependencies: ["5B17AA16DD0A5BEC"]
 			description: ["A torre do Ur-Ghast, na Floresta Sombria."]
-			hide_until_deps_complete: true
 			icon: "minecraft:ghast_tear"
 			id: "0949181EDE541BA5"
 			rewards: [

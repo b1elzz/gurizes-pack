@@ -1,0 +1,760 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10_panteao_semideuses"
+	group: "3DC2DB31CDAC58A5"
+	icon: "meetyourfight:haunted_bell"
+	id: "6AEC9E50543BE307"
+	order_index: 29
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"Pelas rachaduras do Selo passaram criaturas de outros reinos. O povo as chama de deuses; os &5Observadores de Kaelum&r catalogam cada uma em três níveis:"
+				"&5Semideuses&r (bosses fortes, abertos desde o Ato I), &6Deuses&r (os mais fortes de cada mod, do Ato II em diante) e &cAlter-Deuses&r (os nossos bosses, em versão de pós-jogo)."
+				"A Arquivista Lune paga quem vencer. O Panteão nunca trava a campanha: cada nível abre no seu ato, e vencer antes da hora não conta."
+				""
+				"&eDica:&r as conquistas Intocável, Sozinho e Relâmpago valem para qualquer boss do Panteão; as quests ao lado mostram quais."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:spyglass"
+			id: "428767F33F1E8530"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "05040053BAF6F06B"
+					type: "checkmark"
+				}
+			]
+			title: "Os Observadores de Kaelum"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r o Sino Assombrado chama o Bellringer (receita no JEI: ouro e ardósia). Lute em campo aberto."
+				"&6Força:&r nível 12, 310 de vida (solo). Recomendado: ferro completo, escudo e 8 comidas."
+				"&aPonto fraco:&r ele golpeia em arcos largos e lentos: esquive para o lado e bata logo depois do golpe."
+				"&cPerigo:&r os arcos largos pegam quem fica na frente, e a vida alta pede paciência."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: "meetyourfight:haunted_bell"
+			id: "59E250CF4063B689"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "736C984B142D2E6E"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "0664FD88B186DAD4"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "716F65FCE671BD45"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Semideus &7(Nível 12)"
+			tasks: [
+				{
+					entity: "meetyourfight:bellringer"
+					id: "20149DC7B99832A4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bellringer"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r a Isca de Fóssil (2 olhos de aranha, 3 ossos e 4 carnes podres), usada num pântano, chama o Swampjaw."
+				"&6Força:&r nível 12, 100 de vida e dano 12. Recomendado: ferro completo e escudo. O mais fácil dos cinco."
+				"&aPonto fraco:&r não brigue dentro d'água, onde ele é mais rápido: fique em terra firme e bata quando ele investe."
+				"&cPerigo:&r muito dano para pouca vida: não tome golpe de graça."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (1:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: "meetyourfight:fossil_bait"
+			id: "14143A46980161B8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7496C1472E8292D7"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "69A493F25275A1A6"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "085E2D02F8980B6B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Semideus &7(Nível 12)"
+			tasks: [
+				{
+					entity: "meetyourfight:swampjaw"
+					id: "2810B34D9515DF8B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Swampjaw"
+			x: 0.0d
+			y: 4.2d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r a Caveira do Hirschgeist (Whisperwoods), numa floresta assombrada. Só dá para vencê-lo à noite."
+				"&6Força:&r nível 12, 150 de vida e dano 6. Recomendado: ferro completo, tochas e poções de cura."
+				"&aPonto fraco:&r durante o dia ele é imortal: espere o sol cair e lute com a noite a seu favor."
+				"&cPerigo:&r a floresta à noite: monstros comuns aparecem enquanto você luta."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: "whisperwoods:hirschgeist_skull"
+			id: "5F6FB0CA25581170"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "5383453D4377C90A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+				{
+					id: "2D090F0642953DEA"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "7D34AB4A548A9ACF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Semideus &7(Nível 12)"
+			tasks: [
+				{
+					entity: "whisperwoods:hirschgeist"
+					id: "687B5B0D2CF7CD0F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hirschgeist"
+			x: 0.0d
+			y: 8.4d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r o Ninho de Areia, no deserto, bem longe do spawn (mais de 4.000 blocos na seed de teste). Entra em cena sozinho, em 12 s."
+				"&6Força:&r nível 16, 200 de vida e dano 10. Recomendado: ferro completo, escudo, poções de cura e um amigo."
+				"&aPonto fraco:&r depois da investida ele cai e fica exposto por 8 s: bata forte nessa janela."
+				"&cPerigo:&r terremoto de 9 s e cuspe de veneno: leve leite e não fique parado."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			id: "1602A18BA38D9669"
+			optional: true
+			rewards: [
+				{
+					id: "6C85796C0AE6467B"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "4811A1C30634D90B"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "4D578A2D7FF9F418"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65CD0B56CCB36FB0"
+					table_id: 267320392318009964L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Semideus &7(Nível 16)"
+			tasks: [
+				{
+					entity: "block_factorys_bosses:sandworm"
+					id: "6C50DAA5FE82AEC4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Sirok, o Verme da Areia"
+			x: 0.0d
+			y: 12.6d
+		}
+		{
+			dependencies: ["3484B276FE312BD7"]
+			description: [
+				"&6Onde:&r o Esconderijo do Yeti, numa planície nevada (a mais de 1.400 blocos do spawn na seed de teste)."
+				"&6Força:&r nível 14, 250 de vida e dano 18. O desafio difícil do ato: ferro completo, escudo, cura e um grupo."
+				"&aPonto fraco:&r ele fica exposto nas pausas entre o salto e o próximo golpe: bata aí e recue."
+				"&cPerigo:&r dano base 18 (três socos derrubam) e uma chuva de espetos de gelo de 9 s: use blocos como cobertura."
+				""
+				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
+				"&7Quem dá o golpe final conta para o time inteiro."
+			]
+			icon: "block_factorys_bosses:yeti_spawn_egg"
+			id: "2525150E21FF53EC"
+			optional: true
+			rewards: [
+				{
+					id: "6941482ECC0F3392"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+				{
+					id: "6E5D0FD3F1CAD629"
+					item: "gurizes:espolio_ato_1"
+					type: "item"
+				}
+				{
+					id: "4F765E28DABE65E3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "356685A89B4678AF"
+					table_id: 267320392318009964L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&5Semideus &7(Nível 14)"
+			tasks: [
+				{
+					entity: "block_factorys_bosses:yeti"
+					id: "7B477FFB42BDF095"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Skor, o Yeti"
+			x: 0.0d
+			y: 16.8d
+		}
+		{
+			dependencies: ["59E250CF4063B689"]
+			description: [
+				"Vença Bellringer sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: "meetyourfight:haunted_bell"
+			id: "1A788B6BD0C74F3B"
+			optional: true
+			rewards: [
+				{
+					id: "6F03D8FB312F5641"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/bellringer/intocavel"
+					criterion: ""
+					id: "661E2AA37D255E1B"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Bellringer"
+			x: 3.4d
+			y: -1.3d
+		}
+		{
+			dependencies: ["59E250CF4063B689"]
+			description: [
+				"Vença Bellringer sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: "meetyourfight:haunted_bell"
+			id: "19D5146E5091ED50"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "1FA702BACAD7F0DD"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/bellringer/sozinho"
+					criterion: ""
+					id: "05D08D17A5714F15"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Bellringer"
+			x: 3.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59E250CF4063B689"]
+			description: [
+				"Vença Bellringer em menos de 2:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: "meetyourfight:haunted_bell"
+			id: "55494C9B0941AF8F"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "4CAAB59420698765"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/bellringer/relampago"
+					criterion: ""
+					id: "4DA2AD11D4078591"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Bellringer"
+			x: 3.4d
+			y: 1.3d
+		}
+		{
+			dependencies: ["14143A46980161B8"]
+			description: [
+				"Vença Swampjaw sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: "meetyourfight:fossil_bait"
+			id: "6A8B1B9271EA7C54"
+			optional: true
+			rewards: [
+				{
+					id: "55D4FCE8F491ECB7"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/swampjaw/intocavel"
+					criterion: ""
+					id: "36DD91DA9B3E0C50"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Swampjaw"
+			x: 3.4d
+			y: 2.9d
+		}
+		{
+			dependencies: ["14143A46980161B8"]
+			description: [
+				"Vença Swampjaw sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: "meetyourfight:fossil_bait"
+			id: "16D72DF5E473BD9E"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2F6C96761D60746A"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/swampjaw/sozinho"
+					criterion: ""
+					id: "2EEA7F2FC7BEBDD3"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Swampjaw"
+			x: 3.4d
+			y: 4.2d
+		}
+		{
+			dependencies: ["14143A46980161B8"]
+			description: [
+				"Vença Swampjaw em menos de 1:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: "meetyourfight:fossil_bait"
+			id: "4C36AE8B7CB7BAC9"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "60A9076BB4EB4662"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/swampjaw/relampago"
+					criterion: ""
+					id: "763999B9FF350BD2"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Swampjaw"
+			x: 3.4d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F6FB0CA25581170"]
+			description: [
+				"Vença Hirschgeist sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: "whisperwoods:hirschgeist_skull"
+			id: "0031637ED6654E93"
+			optional: true
+			rewards: [
+				{
+					id: "5BBE6B9059D6A47A"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/hirschgeist/intocavel"
+					criterion: ""
+					id: "0EB51F58DB981C92"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Hirschgeist"
+			x: 3.4d
+			y: 7.1d
+		}
+		{
+			dependencies: ["5F6FB0CA25581170"]
+			description: [
+				"Vença Hirschgeist sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: "whisperwoods:hirschgeist_skull"
+			id: "1365B5ED476B357E"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "19D4E64C18EEA1E3"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/hirschgeist/sozinho"
+					criterion: ""
+					id: "45DFC5A515A679A6"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Hirschgeist"
+			x: 3.4d
+			y: 8.4d
+		}
+		{
+			dependencies: ["5F6FB0CA25581170"]
+			description: [
+				"Vença Hirschgeist em menos de 2:00."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: "whisperwoods:hirschgeist_skull"
+			id: "19E10A51D84FCC9C"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2EE06C927CE3D8E6"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/hirschgeist/relampago"
+					criterion: ""
+					id: "1615ED65B8A7ACB8"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Hirschgeist"
+			x: 3.4d
+			y: 9.7d
+		}
+		{
+			dependencies: ["1602A18BA38D9669"]
+			description: [
+				"Vença Sirok sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			id: "5000A9DFE098448F"
+			optional: true
+			rewards: [
+				{
+					id: "01313742DDCE45D3"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/sirok/intocavel"
+					criterion: ""
+					id: "1E082AFD40DABD1C"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Sirok"
+			x: 3.4d
+			y: 11.3d
+		}
+		{
+			dependencies: ["1602A18BA38D9669"]
+			description: [
+				"Vença Sirok sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			id: "033A8BB37F0704D7"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "77F6C250AAE9385D"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/sirok/sozinho"
+					criterion: ""
+					id: "3FD5A6F45CA2B24E"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Sirok"
+			x: 3.4d
+			y: 12.6d
+		}
+		{
+			dependencies: ["1602A18BA38D9669"]
+			description: [
+				"Vença Sirok em menos de 2:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			id: "4628B1532C053EFD"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "0F002988C4212A06"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/sirok/relampago"
+					criterion: ""
+					id: "022EF279588AFEB7"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Sirok"
+			x: 3.4d
+			y: 13.9d
+		}
+		{
+			dependencies: ["2525150E21FF53EC"]
+			description: [
+				"Vença Skor sem tomar nenhum dano dele."
+				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
+			]
+			icon: "block_factorys_bosses:yeti_spawn_egg"
+			id: "224E43F84F334A5A"
+			optional: true
+			rewards: [
+				{
+					id: "2DDAE53419DB5D8F"
+					item: "gurizes:moeda_prata"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/skor/intocavel"
+					criterion: ""
+					id: "407F532610518531"
+					type: "advancement"
+				}
+			]
+			title: "Intocável: Skor"
+			x: 3.4d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2525150E21FF53EC"]
+			description: [
+				"Vença Skor sem ajuda: só você lutou."
+				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
+			]
+			icon: "block_factorys_bosses:yeti_spawn_egg"
+			id: "12D002591F0AAD5F"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "70E93A9A4764EDF4"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/skor/sozinho"
+					criterion: ""
+					id: "086F2CDA298D198D"
+					type: "advancement"
+				}
+			]
+			title: "Sozinho contra um Deus: Skor"
+			x: 3.4d
+			y: 16.8d
+		}
+		{
+			dependencies: ["2525150E21FF53EC"]
+			description: [
+				"Vença Skor em menos de 2:30."
+				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
+			]
+			icon: "block_factorys_bosses:yeti_spawn_egg"
+			id: "7DD84F966EB8E124"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "0503B9C82EE023C4"
+					item: "gurizes:moeda_bronze"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.9d
+			subtitle: "&7Conquista · opcional"
+			tasks: [
+				{
+					advancement: "gurizes:panteao/skor/relampago"
+					criterion: ""
+					id: "5DE5970AED266340"
+					type: "advancement"
+				}
+			]
+			title: "Relâmpago: Skor"
+			x: 3.4d
+			y: 18.1d
+		}
+	]
+	subtitle: ["Bosses fortes de outros mods, abertos desde o Ato I"]
+	title: "Panteão: Semideuses"
+}

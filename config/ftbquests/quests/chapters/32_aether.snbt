@@ -5,14 +5,13 @@
 	group: "6F1E073C46BCCFFD"
 	icon: "minecraft:glowstone"
 	id: "0BC033DEE1383034"
-	order_index: 31
+	order_index: 36
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["299A96D053605996"]
 			description: ["Um portal de glowstone com água leva aos céus."]
-			hide_until_deps_complete: true
 			icon: "minecraft:feather"
 			id: "18348474DADFCC27"
 			rewards: [
@@ -38,7 +37,6 @@
 		{
 			dependencies: ["299A96D053605996"]
 			description: ["A masmorra do Slider."]
-			hide_until_deps_complete: true
 			icon: "aether:golden_feather"
 			id: "383215CE3CD618D7"
 			rewards: [
@@ -62,7 +60,6 @@
 		{
 			dependencies: ["299A96D053605996"]
 			description: ["O templo das Valquírias."]
-			hide_until_deps_complete: true
 			icon: "aether:valkyrie_lance"
 			id: "186B16B31E9DC277"
 			rewards: [
@@ -86,7 +83,6 @@
 		{
 			dependencies: ["299A96D053605996"]
 			description: ["A ilha do Espírito do Sol."]
-			hide_until_deps_complete: true
 			icon: "aether:sun_altar"
 			id: "3301AE0645C7234E"
 			rewards: [

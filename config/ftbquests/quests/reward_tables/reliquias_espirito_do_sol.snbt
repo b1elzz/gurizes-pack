@@ -2,7 +2,7 @@
 	icon: "aether:sun_altar"
 	id: "2E4D63DF7E091314"
 	loot_size: 1
-	order_index: 4
+	order_index: 9
 	rewards: [
 		{
 			item: "aether:flaming_sword"

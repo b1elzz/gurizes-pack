@@ -2,7 +2,7 @@
 	icon: "iceandfire:dragon_skull_fire"
 	id: "64DD0EE1688B83BE"
 	loot_size: 1
-	order_index: 10
+	order_index: 15
 	rewards: [
 		{
 			item: "iceandfire:dragonsteel_fire_sword"

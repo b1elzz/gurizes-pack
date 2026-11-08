@@ -2,7 +2,7 @@
 	icon: "twilightforest:hydra_trophy"
 	id: "4AFDA804294BD911"
 	loot_size: 1
-	order_index: 1
+	order_index: 6
 	rewards: [
 		{
 			item: "twilightforest:fiery_sword"

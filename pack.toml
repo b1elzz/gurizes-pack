@@ -1,12 +1,12 @@
 name = "Gurizes RPG Fantasy"
 author = "Gurizes"
-version = "0.1.1"
+version = "0.1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0def26d9564157253603723b565d7e868c58af8b24e476b25e2e5f27a71e0248"
+hash = "e78bccf9ec85d6baa221d65c57636566d45194ba28078bce0e032819b5327411"
 
 [versions]
 forge = "47.4.28"

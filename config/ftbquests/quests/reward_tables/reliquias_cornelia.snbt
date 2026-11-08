@@ -2,7 +2,7 @@
 	icon: "aquamirae:shell_horn"
 	id: "1D3774DBEE981B6B"
 	loot_size: 1
-	order_index: 2
+	order_index: 7
 	rewards: [
 		{
 			item: "aquamirae:terrible_sword"

@@ -2,7 +2,7 @@
 	icon: "irons_spellbooks:blood_staff"
 	id: "51A1F9C799DFFC34"
 	loot_size: 1
-	order_index: 6
+	order_index: 11
 	rewards: [
 		{
 			item: "irons_spellbooks:misery"

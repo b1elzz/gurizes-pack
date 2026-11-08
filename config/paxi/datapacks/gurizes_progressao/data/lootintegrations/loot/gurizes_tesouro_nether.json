@@ -6,6 +6,8 @@
     "minecraft:chests/bastion_treasure": 3,
     "minecraft:chests/bastion_other": 2,
     "minecraft:chests/bastion_bridge": 2,
-    "minecraft:chests/bastion_hoglin_stable": 2
+    "minecraft:chests/bastion_hoglin_stable": 2,
+    "dungeons_plus:chests/soul_prison/common": 2,
+    "dungeons_plus:chests/soul_prison/rare": 3
   }
 }

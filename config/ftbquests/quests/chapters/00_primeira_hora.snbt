@@ -53,7 +53,7 @@
 		{
 			dependencies: ["3889F93F344D9395"]
 			description: [
-				"Escolha as quatro camadas do seu personagem: &eRaça&r, &eBênção&r, &eClasse&r e &eOfício&r."
+				"Escolha as três camadas do seu personagem: &eRaça&r, &eBênção&r e &eClasse&r."
 				"A classe pesa mais; as outras dão um tempero. Antes de vencer o primeiro porteiro,"
 				"o Pergaminho do Recomeço troca tudo de graça uma vez."
 			]
@@ -319,7 +319,7 @@
 		{
 			dependencies: ["72E8F8F942E79625"]
 			description: [
-				"O primeiro Fragmento está com Sir Galvar, na Cripta do Primeiro Cavaleiro."
+				"O primeiro Fragmento está com Sir Xavier Siri Galvar, na Cripta do Primeiro Cavaleiro."
 				"Itens com a marca &6Selado pelo Juramento&r podem ser guardados, mas só funcionam"
 				"quando o ato deles chegar. O capítulo do Ato I está aberto."
 			]

@@ -12,9 +12,8 @@
 			dependencies: ["1F82201E3EE0EE78"]
 			description: [
 				"Ignar viu Kharzul livre e reacendeu a forja dos deuses."
-				"Sua &eBênção Maior&r despertou e seu Ofício chegou a &eMestre&r: receitas novas na bancada."
+				"Sua &eBênção Maior&r despertou e as Profissões chegaram a &eMestre&r: itens novos de Ferreiro, Alquimista e companhia ficam liberados."
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:enchanted_book"
 			id: "28FBF6D18351472B"
 			rewards: [
@@ -40,7 +39,6 @@
 				"A Almirante Coral Sete-Ventos navega o oceano profundo."
 				"Encontre a Companhia da Maré em alto-mar."
 			]
-			hide_until_deps_visible: true
 			icon: "minecraft:oak_boat"
 			id: "0E3ABA8733D7AC8E"
 			rewards: [
@@ -69,7 +67,6 @@
 				"Traga três, e não pergunte o que eles compram com elas.\""
 				"Coral entrega a Carta Náutica em troca da prova."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:perola_negra"
 			id: "48B9A1153A465FDF"
 			rewards: [
@@ -102,7 +99,6 @@
 				"Explore uma Cidade Antiga no Escuro Profundo e volte vivo."
 				"Dizem que uma página da Crônica dorme lá embaixo."
 			]
-			hide_until_deps_visible: true
 			icon: "minecraft:echo_shard"
 			id: "2A4B57CA8FFF34EF"
 			optional: true
@@ -137,7 +133,6 @@
 			description: [
 				"Crafte a Concha da Tempestade: 3 Pérolas Negras, 1 coração do mar, 4 cristais de prismarinho e a Carta Náutica (devolvida)."
 			]
-			hide_until_deps_visible: true
 			icon: "gurizes:concha_da_tempestade"
 			id: "140C355D702A1C18"
 			rewards: [
@@ -206,6 +201,29 @@
 			]
 			title: "O Olho da Tormenta"
 			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F82201E3EE0EE78"]
+			description: [
+				"Uma tempestade que nunca passa guarda um templo que nunca afunda. O mar tem pressa."
+				""
+				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
+			]
+			icon: "minecraft:barrier"
+			id: "3760E48552EF4EDE"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8Ato IV · selado"
+			tasks: [
+				{
+					id: "600455F4DFE6E208"
+					type: "checkmark"
+				}
+			]
+			title: "???"
+			x: -3.5d
 			y: 3.0d
 		}
 	]

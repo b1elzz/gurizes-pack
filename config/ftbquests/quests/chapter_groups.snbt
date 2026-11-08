@@ -5,12 +5,20 @@
 			title: "{\"text\": \"Campanha\", \"color\": \"#F2C14E\"}"
 		}
 		{
+			id: "16A9D409E972219F"
+			title: "{\"text\": \"Guia do Juramentado\", \"color\": \"#2E86C1\"}"
+		}
+		{
 			id: "1C6D4DEFEA67D157"
 			title: "{\"text\": \"Sua Classe\", \"color\": \"#8E44AD\"}"
 		}
 		{
 			id: "4DA834C500C67B4B"
-			title: "{\"text\": \"Seu Ofício\", \"color\": \"#E67E22\"}"
+			title: "{\"text\": \"Profissões\", \"color\": \"#E67E22\"}"
+		}
+		{
+			id: "3DC2DB31CDAC58A5"
+			title: "{\"text\": \"Panteão\", \"color\": \"#B16AD6\"}"
 		}
 		{
 			id: "4B7C29A84FC2FC08"

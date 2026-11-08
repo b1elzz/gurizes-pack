@@ -1,7 +1,0 @@
-{
-  "criteria": {
-    "concedido": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}

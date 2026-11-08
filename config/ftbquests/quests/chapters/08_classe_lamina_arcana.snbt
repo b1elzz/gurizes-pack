@@ -5,7 +5,7 @@
 	group: "1C6D4DEFEA67D157"
 	icon: "gurizes:lamina_runica"
 	id: "4C220D92D87FBD05"
-	order_index: 14
+	order_index: 17
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -213,7 +213,7 @@
 		{
 			dependencies: ["2C6E33C723D3393F", "7ABAA7913A8CD461"]
 			description: [
-				"Sir Galvar é fraco a raio. Quando ele ficar atordoado na Investida, avance com a Investida Voltaica."
+				"Sir Xavier Siri Galvar é fraco a raio. Quando ele ficar atordoado na Investida, avance com a Investida Voltaica."
 				"Cuidado: o Canal Exposto faz você tomar mais dano de magia."
 				"Marque quando estiver pronto para a Cripta."
 			]
