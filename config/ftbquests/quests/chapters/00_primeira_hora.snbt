@@ -90,7 +90,7 @@
 		{
 			dependencies: ["4DDB3E9E6F0CC55F"]
 			description: [
-				"Derrube 5 criaturas hostis. Cada arma tem um movimento próprio e a tecla de &eesquiva&r salva vidas."
+				"Derrube 5 criaturas hostis. Cada arma tem um movimento próprio e a &eesquiva&r (tecla &eR&r) salva vidas."
 				"&eDica:&r olhe um monstro para ver o nível dele: quanto mais longe do spawn, mais forte."
 			]
 			icon: "minecraft:iron_sword"
@@ -216,7 +216,7 @@
 		{
 			dependencies: ["2004C8818AF46DB1"]
 			description: [
-				"Tenha um pergaminho de magia, ponha no livro (slot de Curios) e lance com a tecla de magia."
+				"Tenha um pergaminho de magia, ponha no livro (slot de Curios) e lance com a tecla &eV&r (a roda de magias fica no &eZ&r)."
 				"&eDica:&r a mana regenera sozinha; cada classe tem suas escolas."
 			]
 			icon: "irons_spellbooks:copper_spell_book"

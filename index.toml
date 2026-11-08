@@ -74,7 +74,7 @@ hash = "ec96857670beee3c9c7202b04d979e5c6854803e2cbf58cb88ce1f917e497e1e"
 
 [[files]]
 file = "config/fancymenu/customization/gurizes_tela_inicial.txt"
-hash = "dfb163b628828ee0ffb8ed19938e6e451b3f0f528e4a35beca286566df1ebafd"
+hash = "2c2d668f6be3c7d9080e0b596d1a81b1956553c97967af1270b8018fe2148fad"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -86,7 +86,7 @@ hash = "813822059e17ca725306030e6ddaa966ed1c2b6d2a2d35c6f348d735485ccdbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/00_primeira_hora.snbt"
-hash = "184a4ba543017af8b4e771f8a07881cdc115a551f84022a702c88b0f20a1165e"
+hash = "1e418557ed9a8e34e146c02aa5d579ec46e48bcc9784e5920556b7179ae9de3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_ato1_a_coroa_oca.snbt"
@@ -166,7 +166,7 @@ hash = "7f8f6c88f7ff6e9fe3ed538e14e6bb37ed7f49c2d1b0b1ada4ea880a1e1e9d4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_guia_como_funciona.snbt"
-hash = "8f45cb1c35858e8098163f3576be5368d3221911e5a11a5198fab70cfa0bfb8b"
+hash = "bfcab672aea750575b8836271ebb0d35db64d84fef7e737387b35f177eddea11"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_guia_equipamento.snbt"
@@ -318,7 +318,7 @@ hash = "42896baf496364d06933b88a1cb93cb54390f94b33c6e0db603fef943c68e75b"
 
 [[files]]
 file = "config/gurizes/wiki/index.html"
-hash = "899faafe7835a9e9e17cd329ec9756b03ff0d3aae2214aca8e302dc1ce453459"
+hash = "b18e93b4920105cc59a081a106b58fc7a036847c7980d8ddc8ba8138e8d85175"
 
 [[files]]
 file = "config/iceandfire-client.toml"
@@ -2005,6 +2005,10 @@ file = "kubejs/assets/ftblibrary/lang/pt_pt.json"
 hash = "fa805a9f0c45d3035e6c91e72fd5b5d66e263dbebfdb9ea5cb6a8daf201c5757"
 
 [[files]]
+file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
+hash = "ffcfe683310159edace6993f5926b06104e57eb7e601c961d997655c80fda657"
+
+[[files]]
 file = "kubejs/assets/ftbquests/lang/pt_pt.json"
 hash = "7b09e83b706303377bc3fbb2c853a85fdcdf100d5521a440e94e49fd0cb14674"
 
@@ -2019,6 +2023,10 @@ hash = "cfe803c2b33b741c74c204567b11734d57d8fc130adcb639c62aaebd393e25bb"
 [[files]]
 file = "kubejs/assets/guardvillagers/lang/pt_pt.json"
 hash = "3feeb185d986a654059068410e5e2fab03c43c0b0fc3b687c793064deee8437c"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/gui/livro_fundo.png"
+hash = "d770b4880ec9783aeb2981cb8eddc42b6ed5016b3c9ebc835ac34beb19a8b3f7"
 
 [[files]]
 file = "kubejs/assets/gurizes/textures/quests/estandarte_guia.png"
@@ -2134,7 +2142,7 @@ hash = "4358d544be0d9068c86979fa787d0739c8a4aae7826a7d277c78f8c599843dff"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/00_estagios.js"
-hash = "88cee7d9b72371f1588d951379f2bad17cf699453388b8e7a49de07bb778ac06"
+hash = "09959faa6d89640e32f55325c75d78a124c7c3140b497eea8cedfae466e34425"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/10_tags_trava.js"
@@ -2534,7 +2542,7 @@ metafile = true
 
 [[files]]
 file = "mods/gurizes.pw.toml"
-hash = "7c800dd5f1ec945bc85f0be0be9539be0008a9647be07e2225857647a837f03f"
+hash = "57cdfc5ee475e64623606a93f3b2cc77803f9973b9adcb1a3d9c84330cb1d627"
 metafile = true
 
 [[files]]
@@ -2600,6 +2608,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "7ffe94c2daa8151edea01fccefaa2bbb87e648d92dd0ca9ae485880053e50e20"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-structures.pw.toml"
+hash = "4c8ee70e8e78ac51e1c621fde1ee0defbe0f44fc591f933fae071a2487ea749e"
 metafile = true
 
 [[files]]

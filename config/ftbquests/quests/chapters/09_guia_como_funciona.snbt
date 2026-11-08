@@ -210,8 +210,8 @@
 			description: [
 				"\"Magia não é truque, é caligrafia com consequências.\""
 				"&7- Capitã Isolde"
-				"Coloque um livro de magias no slot de Curios, grave pergaminhos nele na Mesa de Inscrição e lance com a tecla de magia. A mana regenera sozinha, e cada classe tem as suas escolas."
 				"{@pagebreak}"
+				"Coloque um livro de magias no slot de Curios, grave pergaminhos nele na Mesa de Inscrição e lance com a tecla V (a roda de magias fica no Z). A mana regenera sozinha, e cada classe tem as suas escolas."
 				"&eDica:&r o Livro de Cobre se faz com 2 lingotes de cobre, 1 barbante e 4 papéis."
 			]
 			icon: "irons_spellbooks:copper_spell_book"

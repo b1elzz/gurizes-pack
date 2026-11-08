@@ -49,11 +49,9 @@ global.GURIZES_ESTAGIOS_SERVIDOR.forEach(estagio => {
   global.gurizesTentar(`customizeStage ${estagio}`, () => {
     const s = AStages.customizeStage(estagio, global.GURIZES_NOME_ESTAGIO[estagio] || estagio).serverOnly()
     global.gurizesTentar(`silenciar ${estagio}`, () => s.set(GURIZES_STAGE_ATTR.SHOW_DEFAULT, false))
-    if (estagio.startsWith('ato_') && estagio !== 'ato_1') {
-      global.gurizesTentar(`titulo ${estagio}`, () => s
-        .titleOnAdd(st => Text.of(global.GURIZES_NOME_ESTAGIO[st] || st).gold())
-        .subTitleOnAdd(st => Text.of('Um novo capítulo do Juramento se abre').yellow()))
-    }
+    // Sem titleOnAdd aqui: o avanço de ato já tem o cartão de fim de ato do mod (HistoriaCenas) e, onde não há
+    // cartão, o título curto do ActService. O título do AStages saía junto, em escala 4, maior que a tela, por cima
+    // do cartão (visto no cliente em 08/11).
     global.gurizesTentar(`whenGranted ${estagio}`, () => s.whenGranted(e => {
       let server = null
       global.gurizesTentar('server do evento', () => { server = e.server })

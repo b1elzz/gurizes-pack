@@ -1,0 +1,13 @@
+name = "Just Enough Structures"
+filename = "JustEnoughStructures-forge-1.20.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb29ca99a223be791847ba8f04f496a0e43be78f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9455549
+project-id = 1733995

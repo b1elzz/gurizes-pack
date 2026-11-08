@@ -143,7 +143,7 @@ element {
   height = 14
   stay_on_screen = false
   source_mode = direct
-  source = Gurizes RPG Fantasy 0.1.3 · Minecraft 1.20.1 · Forge
+  source = Gurizes RPG Fantasy 0.1.4 · Minecraft 1.20.1 · Forge
   shadow = true
   base_color = #CDBBE8
   scale = 1.0
