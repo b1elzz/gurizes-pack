@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Pena de Kaelum (Menor)",
-  "description": "Cada palavra anotada vira um pouco de poder.\n+10% de mana máxima e +5% de regeneração de mana.",
+  "description": "§o§7Cada palavra anotada vira um pouco de poder.§r\n+10% de mana máxima e +5% de regeneração de mana.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:max_mana",

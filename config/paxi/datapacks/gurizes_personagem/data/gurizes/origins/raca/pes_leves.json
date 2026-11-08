@@ -1,8 +1,8 @@
 {
-  "name": "Pés-Leves",
-  "description": "Pequeninos do Vale Redondo. Pequenos para passar despercebidos, rápidos para não serem pegos.",
+  "name": "§6Pés-Leves",
+  "description": "§o§fPequeninos do Vale Redondo. Pequenos para passar despercebidos, rápidos para não serem pegos.",
   "icon": {
-    "item": "artifacts:running_shoes"
+    "item": "gurizes:emblema_raca_pes_leves"
   },
   "impact": 2,
   "order": 6,

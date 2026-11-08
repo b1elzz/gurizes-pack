@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_projectile_damage",
   "name": "Olhos de Lúmen",
-  "description": "Treinaram o arco desde o berço.\n+8% de dano de projéteis.",
+  "description": "§o§7Treinaram o arco desde o berço.§r\n+8% de dano de projéteis.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.08

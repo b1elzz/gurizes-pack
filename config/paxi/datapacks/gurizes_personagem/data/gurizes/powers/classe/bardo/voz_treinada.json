@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Voz Treinada",
-  "description": "Voz de cantor, ouvido de santo.\n+10% de poder Sagrado e +10% de redução de recarga.",
+  "description": "§o§7Voz de cantor, ouvido de santo.§r\n+10% de poder Sagrado e +10% de redução de recarga.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:holy_spell_power",

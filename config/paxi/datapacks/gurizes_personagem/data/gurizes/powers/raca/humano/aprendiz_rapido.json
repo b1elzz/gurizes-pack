@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Aprendiz Rápido",
-  "description": "Quem reconstrói um reino aprende no caminho.\n+10% de experiência recebida.",
+  "description": "§o§7Quem reconstrói um reino aprende no caminho.§r\n+10% de experiência recebida.",
   "modifiers": [
     {
       "attribute": "attributeslib:experience_gained",

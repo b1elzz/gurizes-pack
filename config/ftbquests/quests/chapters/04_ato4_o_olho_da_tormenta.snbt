@@ -5,6 +5,20 @@
 	group: "7A0A9C2928225198"
 	icon: "gurizes:concha_da_tempestade"
 	id: "06BB2500134599D2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_04_ato4_o_olho_da_tormenta.png"
+			rotation: 0.0d
+			width: 13.875d
+			x: 3.5d
+			y: -1.4d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

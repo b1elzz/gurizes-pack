@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Sem Pressa",
-  "description": "Quem guarda portões não corre.\nPreço: -6% de velocidade de ataque.",
+  "description": "§o§7Quem guarda portões não corre.§r\n§cPreço:§r -6% de velocidade de ataque.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.attack_speed",

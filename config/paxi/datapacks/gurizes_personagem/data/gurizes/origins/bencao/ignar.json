@@ -1,8 +1,8 @@
 {
-  "name": "Ignar",
-  "description": "O Ferreiro do Mundo bate o aço dos que não recuam. A forja dele ainda arde.",
+  "name": "§6Ignar",
+  "description": "§o§fO Ferreiro do Mundo bate o aço dos que não recuam. A forja dele ainda arde.",
   "icon": {
-    "item": "gurizes:oleo_de_tempera"
+    "item": "gurizes:emblema_bencao_ignar"
   },
   "impact": 2,
   "order": 4,

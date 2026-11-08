@@ -1,8 +1,8 @@
 {
-  "name": "Mago Elemental",
-  "description": "\"Fogo para abrir caminho, gelo para a defesa, raio para encerrar a conversa.\" Armas: cajado e livro. Dificuldade: média.",
+  "name": "§bMago Elemental",
+  "description": "§o§f\"Fogo para abrir caminho, gelo para a defesa, raio para encerrar a conversa.\" Armas: cajado e livro. Dificuldade: média.",
   "icon": {
-    "item": "gurizes:cetro_do_selo"
+    "item": "gurizes:emblema_classe_mago_elemental"
   },
   "impact": 3,
   "order": 6,
@@ -16,6 +16,7 @@
     "gurizes:classe/mago_elemental/cataclismo",
     "gurizes:classe/mago_elemental/elemento_ativo",
     "gurizes:classe/mago_elemental/corpo_de_estudioso",
-    "gurizes:classe/mago_elemental/corpo_de_estudioso_vida"
+    "gurizes:classe/mago_elemental/corpo_de_estudioso_vida",
+    "gurizes:classe/mago_elemental/aviso_supremo"
   ]
 }

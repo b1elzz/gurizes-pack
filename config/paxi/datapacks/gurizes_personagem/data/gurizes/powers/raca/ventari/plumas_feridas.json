@@ -1,7 +1,7 @@
 {
   "type": "origins:self_action_when_hit",
   "name": "Plumas Feridas",
-  "description": "Cada golpe no ar tira o rumo e o fôlego.\nFraqueza: cada golpe recebido em pleno voo gasta 20 de Fôlego.",
+  "description": "§o§7Cada golpe no ar tira o rumo e o fôlego.§r\n§cFraqueza:§r cada golpe recebido em pleno voo gasta 20 de Fôlego.",
   "cooldown": 10,
   "condition": {
     "type": "apoli:fall_flying"

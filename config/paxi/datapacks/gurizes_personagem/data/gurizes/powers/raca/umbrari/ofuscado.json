@@ -1,0 +1,26 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Ofuscado",
+  "description": "§o§7O sol cega quem nasceu no subsolo.§r\n§cFraqueza:§r de dia, sob o céu aberto, -10% de velocidade de ataque.",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "apoli:daytime"
+      },
+      {
+        "type": "origins:exposed_to_sky"
+      }
+    ]
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "multiply_base",
+      "value": -0.1,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

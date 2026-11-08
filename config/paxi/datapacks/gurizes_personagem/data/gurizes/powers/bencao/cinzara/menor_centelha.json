@@ -1,7 +1,7 @@
 {
   "type": "origins:target_action_on_hit",
   "name": "Fogo de Cinzara (Menor)",
-  "description": "Cada golpe solta uma fagulha da brasa antiga.\nGolpes corpo a corpo têm 20% de chance de incendiar o alvo por 4 s; +6% de poder de Fogo.",
+  "description": "§o§7Cada golpe solta uma fagulha da brasa antiga.§r\nGolpes corpo a corpo têm 20% de chance de incendiar o alvo por 4 s; +6% de poder de Fogo.",
   "cooldown": 20,
   "damage_condition": {
     "type": "origins:in_tag",

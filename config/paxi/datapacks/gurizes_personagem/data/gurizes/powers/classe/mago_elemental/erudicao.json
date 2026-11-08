@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Erudição",
-  "description": "Anos de estudo viraram um oceano de mana.\n+25% de mana máxima e +15% de regeneração de mana.",
+  "description": "§o§7Anos de estudo viraram um oceano de mana.§r\n+25% de mana máxima e +15% de regeneração de mana.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:max_mana",

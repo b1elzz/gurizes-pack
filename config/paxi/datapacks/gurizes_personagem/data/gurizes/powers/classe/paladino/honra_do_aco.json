@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_item_use",
   "name": "Honra do Aço",
-  "description": "Um paladino olha o inimigo nos olhos.\nRestrição: não usa arcos nem bestas.",
+  "description": "§o§7Um paladino olha o inimigo nos olhos.§r\n§cRestrição:§r não usa arcos nem bestas.",
   "item_condition": {
     "type": "origins:or",
     "conditions": [

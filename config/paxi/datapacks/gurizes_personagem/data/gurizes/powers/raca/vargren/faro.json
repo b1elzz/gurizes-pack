@@ -1,0 +1,19 @@
+{
+  "type": "origins:night_vision",
+  "name": "Faro",
+  "description": "§o§7Quem cresce na mata aprende a farejar no escuro.§r\nÀ noite: visão noturna fraca.",
+  "strength": 0.4,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "type": "apoli:daytime",
+        "inverted": true
+      }
+    ]
+  }
+}

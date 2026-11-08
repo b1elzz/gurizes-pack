@@ -1,8 +1,8 @@
 {
-  "name": "Nymara",
-  "description": "A Senhora da Tormenta cavalga o raio e o mar. Seus escolhidos nunca ficam parados.",
+  "name": "§3Nymara",
+  "description": "§o§fA Senhora da Tormenta cavalga o raio e o mar. Seus escolhidos nunca ficam parados.",
   "icon": {
-    "item": "gurizes:escama_da_tormenta"
+    "item": "gurizes:emblema_bencao_nymara"
   },
   "impact": 2,
   "order": 5,

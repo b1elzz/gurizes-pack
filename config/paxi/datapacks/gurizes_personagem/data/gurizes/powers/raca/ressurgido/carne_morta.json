@@ -1,0 +1,6 @@
+{
+  "type": "origins:entity_group",
+  "name": "Carne Morta",
+  "description": "§o§7A cova levou a vida e deixou o corpo.§r\nConta como morto-vivo: imune a Veneno e a Regeneração de poção; poções de Cura ferem e as de Dano curam; Smite fere mais.",
+  "group": "undead"
+}

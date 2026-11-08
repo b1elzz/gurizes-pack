@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Constelação (Maior)",
-  "description": "As estrelas agora respondem pelo nome.\nApós o porteiro do Ato III: +8% de poder mágico e +8% de redução de recarga.",
+  "description": "§o§7As estrelas agora respondem pelo nome.§r\n§6Após o porteiro do Ato III:§r +8% de poder mágico e +8% de redução de recarga.",
   "condition": {
     "type": "origins:advancement",
     "advancement": "gurizes:campanha/ato_3_vencido"

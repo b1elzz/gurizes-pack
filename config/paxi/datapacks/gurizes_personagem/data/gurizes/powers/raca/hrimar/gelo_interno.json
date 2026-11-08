@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Gelo Interno",
+  "description": "§o§7Uma geada viva corre sob a pele.§r\n+10% de poder da magia de Gelo.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "operation": "addition",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

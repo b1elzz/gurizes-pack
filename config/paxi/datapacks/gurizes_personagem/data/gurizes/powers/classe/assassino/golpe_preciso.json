@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Golpe Preciso",
-  "description": "Um corte só, no ponto exato.\n+8% de chance de crítico e +15% de dano crítico.",
+  "description": "§o§7Um corte só, no ponto exato.§r\n+8% de chance de crítico e +15% de dano crítico.",
   "modifiers": [
     {
       "attribute": "attributeslib:crit_chance",

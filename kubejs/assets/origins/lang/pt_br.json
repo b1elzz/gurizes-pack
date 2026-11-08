@@ -1,0 +1,10 @@
+{
+  "item.origins.orb_of_origin.layer_generic": "Permite escolher uma nova %s.",
+  "item.origins.orb_of_origin.layer_specific": "Define sua %1$s como \"%2$s\".",
+  "origins.gui.badge.active": "Habilidade ativa, use com %s.",
+  "origins.gui.badge.recipe.crafting.shaped": "Receita de criação (com forma):",
+  "origins.gui.badge.recipe.crafting.shapeless": "Receita de criação (sem forma):",
+  "origins.gui.badge.toggle": "Alterne com %s.",
+  "origins.gui.unbound_key": "§onão definida§r",
+  "origins.gui.waiting_for_powers": "Aguardando os poderes carregarem"
+}

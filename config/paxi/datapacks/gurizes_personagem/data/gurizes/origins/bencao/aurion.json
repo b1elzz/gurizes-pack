@@ -1,8 +1,8 @@
 {
-  "name": "Aurion",
-  "description": "O Sol do Juramento: quem jura sob a luz dele nunca anda sozinho.",
+  "name": "§eAurion",
+  "description": "§o§fO Sol do Juramento: quem jura sob a luz dele nunca anda sozinho.",
   "icon": {
-    "item": "gurizes:luz_do_juramento"
+    "item": "gurizes:emblema_bencao_aurion"
   },
   "impact": 2,
   "order": 2,

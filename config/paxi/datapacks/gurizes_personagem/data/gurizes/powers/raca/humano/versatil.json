@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_dealt",
   "name": "Versátil",
-  "description": "Sabem um pouco de tudo e fazem direito.\n+5% de dano de todas as fontes.",
+  "description": "§o§7Sabem um pouco de tudo e fazem direito.§r\n+5% de dano de todas as fontes.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.05

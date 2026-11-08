@@ -1,0 +1,20 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Avesso ao Sol",
+  "description": "§o§7A luz lembra aos mortos o que eles perderam.§r\n§cFraqueza:§r de dia, sob o céu aberto, -10% de dano causado.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.1
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "apoli:daytime"
+      },
+      {
+        "type": "origins:exposed_to_sky"
+      }
+    ]
+  }
+}

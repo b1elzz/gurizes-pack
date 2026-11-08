@@ -1,0 +1,21 @@
+{
+  "type": "origins:active_self",
+  "hidden": true,
+  "cooldown": 40,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "gurizes:campanha/ato_4_vencido",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "title @s actionbar {\"text\":\"Seu Supremo desperta depois do porteiro do Ato IV.\",\"color\":\"#E8C670\"}"
+  }
+}

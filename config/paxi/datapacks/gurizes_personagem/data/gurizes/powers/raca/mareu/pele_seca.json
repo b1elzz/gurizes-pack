@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Pele Seca",
-  "description": "Longe da água, a pele resseca e o braço pesa.\nFraqueza: -10% de velocidade de ataque no calor ou no Nether.",
+  "description": "§o§7Longe da água, a pele resseca e o braço pesa.§r\n§cFraqueza:§r -10% de velocidade de ataque no calor ou no Nether.",
   "condition": {
     "type": "origins:or",
     "conditions": [

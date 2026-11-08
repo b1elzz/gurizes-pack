@@ -5,6 +5,20 @@
 	group: "3DC2DB31CDAC58A5"
 	icon: "gurizes:coroa_oca"
 	id: "45FA33F84D2EA208"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_10_panteao_alter_deuses.png"
+			rotation: 0.0d
+			width: 8.475d
+			x: 3.4d
+			y: -1.9d
+		}
+	]
 	order_index: 31
 	progression_mode: "flexible"
 	quest_links: [ ]

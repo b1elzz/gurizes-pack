@@ -5,6 +5,20 @@
 	group: "7A0A9C2928225198"
 	icon: "gurizes:coracao_de_seiva"
 	id: "673607FD7D095B9A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_02_ato2_o_bosque_que_sangra.png"
+			rotation: 0.0d
+			width: 14.175d
+			x: 3.5d
+			y: -1.4d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

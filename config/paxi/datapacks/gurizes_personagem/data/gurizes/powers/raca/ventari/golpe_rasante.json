@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_dealt",
   "name": "Golpe Rasante",
-  "description": "Quem cai do céu bate mais forte.\n+25% de dano corpo a corpo enquanto plana.",
+  "description": "§o§7Quem cai do céu bate mais forte.§r\n+25% de dano corpo a corpo enquanto plana.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.25

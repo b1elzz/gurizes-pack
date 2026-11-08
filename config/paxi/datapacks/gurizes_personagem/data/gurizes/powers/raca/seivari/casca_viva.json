@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Casca Viva",
-  "description": "As flechas ricocheteiam na casca.\n-20% de dano de projéteis.",
+  "description": "§o§7As flechas ricocheteiam na casca.§r\n-20% de dano de projéteis.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": -0.2

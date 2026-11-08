@@ -5,6 +5,20 @@
 	group: "7A0A9C2928225198"
 	icon: "gurizes:brasa_primordial"
 	id: "753006B8C52E559C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_03_ato3_a_forja_afundada.png"
+			rotation: 0.0d
+			width: 13.275d
+			x: 3.5d
+			y: -1.4d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

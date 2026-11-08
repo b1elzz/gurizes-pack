@@ -1,0 +1,17 @@
+{
+  "name": "§6Vargren",
+  "description": "§o§fHomens-lobo das matas do norte de Valdren. Quando a lua sobe, a fera lembra quem manda.",
+  "icon": {
+    "item": "gurizes:emblema_raca_vargren"
+  },
+  "impact": 2,
+  "order": 9,
+  "powers": [
+    "gurizes:raca/vargren/noite_selvagem",
+    "gurizes:raca/vargren/noite_selvagem_golpe",
+    "gurizes:raca/vargren/faro",
+    "gurizes:raca/vargren/pelagem",
+    "gurizes:raca/vargren/fome_de_fera",
+    "gurizes:raca/vargren/registro"
+  ]
+}

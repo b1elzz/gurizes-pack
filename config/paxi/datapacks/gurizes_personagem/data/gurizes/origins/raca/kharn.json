@@ -1,8 +1,8 @@
 {
-  "name": "Kharn",
-  "description": "Meio-gigantes das Estepes de Ferro. O mais forte carrega o mais fraco.",
+  "name": "§6Kharn",
+  "description": "§o§fMeio-gigantes das Estepes de Ferro. O mais forte carrega o mais fraco.",
   "icon": {
-    "item": "twilightforest:giant_sword"
+    "item": "gurizes:emblema_raca_kharn"
   },
   "impact": 2,
   "order": 5,

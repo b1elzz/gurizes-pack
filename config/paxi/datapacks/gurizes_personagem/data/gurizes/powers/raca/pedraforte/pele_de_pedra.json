@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Pele de Pedra",
-  "description": "A montanha ensina a não se mover.\n+2 de armadura e resistência a empurrões.",
+  "description": "§o§7A montanha ensina a não se mover.§r\n+2 de armadura e resistência a empurrões.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.armor",

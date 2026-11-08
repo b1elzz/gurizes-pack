@@ -1,11 +1,11 @@
 {
-  "name": "Ventari",
-  "description": "Gente do Vendaval, das Agulhas de Karrum. O chão é só o lugar onde pousam.",
+  "name": "§6Ventari",
+  "description": "§o§fGente do Vendaval, das Agulhas de Karrum. O chão é só o lugar onde pousam.",
   "icon": {
-    "item": "minecraft:elytra"
+    "item": "gurizes:emblema_raca_ventari"
   },
   "impact": 3,
-  "order": 10,
+  "order": 13,
   "powers": [
     "gurizes:raca/ventari/asas",
     "gurizes:raca/ventari/batida_de_asas",

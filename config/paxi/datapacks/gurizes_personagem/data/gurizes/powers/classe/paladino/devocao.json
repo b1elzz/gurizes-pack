@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Devoção",
-  "description": "Cada prece é um golpe a favor do grupo.\n+10% de poder Sagrado e +5% de cura recebida.",
+  "description": "§o§7Cada prece é um golpe a favor do grupo.§r\n+10% de poder Sagrado e +5% de cura recebida.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:holy_spell_power",

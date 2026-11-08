@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Determinação",
-  "description": "Caíram duas vezes e levantaram duas vezes.\n+1 coração de vida máxima.",
+  "description": "§o§7Caíram duas vezes e levantaram duas vezes.§r\n+1 coração de vida máxima.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",

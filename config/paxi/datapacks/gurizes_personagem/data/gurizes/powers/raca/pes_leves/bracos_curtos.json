@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Braços Curtos",
-  "description": "Pequenos demais para alcançar o inimigo.\nFraqueza: -0,5 de alcance.",
+  "description": "§o§7Pequenos demais para alcançar o inimigo.§r\n§cFraqueza:§r -0,5 de alcance.",
   "modifiers": [
     {
       "attribute": "forge:entity_reach",

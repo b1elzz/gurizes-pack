@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Pouso de Emergência",
-  "description": "Sem fôlego, as asas ainda sabem cair com graça.\nSem Fôlego e em queda livre, as asas freiam a queda (Queda Lenta).",
+  "description": "§o§7Sem fôlego, as asas ainda sabem cair com graça.§r\nSem Fôlego e em queda livre, as asas freiam a queda (Queda Lenta).",
   "interval": 10,
   "entity_action": {
     "type": "origins:apply_effect",

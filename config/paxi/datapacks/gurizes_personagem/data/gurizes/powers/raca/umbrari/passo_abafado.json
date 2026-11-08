@@ -1,0 +1,9 @@
+{
+  "type": "origins:prevent_game_event",
+  "name": "Passo Abafado",
+  "description": "§o§7Nem a pedra ouve onde eles pisam.§r\nNão gera vibrações de sculk: sensores e o Warden não ouvem seus passos nem seus golpes.",
+  "tags": [
+    "minecraft:vibrations",
+    "minecraft:warden_can_listen"
+  ]
+}

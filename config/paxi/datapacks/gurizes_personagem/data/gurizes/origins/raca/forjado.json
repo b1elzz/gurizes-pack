@@ -1,0 +1,16 @@
+{
+  "name": "§6Forjado",
+  "description": "§o§fAutômatos de bronze que Ignar animou antes da Queda. O Selo lhes deu alma.",
+  "icon": {
+    "item": "gurizes:emblema_raca_forjado"
+  },
+  "impact": 2,
+  "order": 11,
+  "powers": [
+    "gurizes:raca/forjado/chapa_de_bronze",
+    "gurizes:raca/forjado/engrenagem_firme",
+    "gurizes:raca/forjado/sem_sangue",
+    "gurizes:raca/forjado/peso_de_metal",
+    "gurizes:raca/forjado/registro"
+  ]
+}

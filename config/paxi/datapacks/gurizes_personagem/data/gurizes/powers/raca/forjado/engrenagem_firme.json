@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Engrenagem Firme",
+  "description": "§o§7Pés presos ao chão por dentes de engrenagem.§r\n+0,2 de resistência a repulsão.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.2,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

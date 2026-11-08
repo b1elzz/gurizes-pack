@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_death",
   "name": "Renascer (Maior)",
-  "description": "Da cinza, a brasa levanta o herói caído.\nApós o porteiro do Ato III: um golpe fatal te deixa vivo com 15 de vida e em chamas que queimam os inimigos a 5 blocos. A brasa leva 25 min para reacender.",
+  "description": "§o§7Da cinza, a brasa levanta o herói caído.§r\n§6Após o porteiro do Ato III:§r um golpe fatal te deixa vivo com 15 de vida e em chamas que queimam os inimigos a 5 blocos. A brasa leva 25 min para reacender.",
   "condition": {
     "type": "origins:and",
     "conditions": [

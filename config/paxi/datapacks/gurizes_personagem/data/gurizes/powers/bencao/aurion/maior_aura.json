@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Aura de Aurion (Maior)",
-  "description": "Quem jura ao lado dele nunca fica sem amparo.\nApós o porteiro do Ato III: a cada 5 s, você e os aliados a até 8 blocos curam 2. Várias auras não se somam.",
+  "description": "§o§7Quem jura ao lado dele nunca fica sem amparo.§r\n§6Após o porteiro do Ato III:§r a cada 5 s, você e os aliados a até 8 blocos curam 2. Várias auras não se somam.",
   "interval": 100,
   "entity_action": {
     "type": "origins:area_of_effect",

@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Recusa em Cair (II)",
-  "description": "Ferido, ele só fica mais perigoso.\nApós o porteiro do Ato II: +12% de roubo de vida abaixo de 30% de vida.",
+  "description": "§o§7Ferido, ele só fica mais perigoso.§r\n§6Após o porteiro do Ato II:§r +12% de roubo de vida abaixo de 30% de vida.",
   "condition": {
     "type": "origins:and",
     "conditions": [

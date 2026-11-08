@@ -1,8 +1,8 @@
 {
-  "name": "Estelari",
-  "description": "Nascidos sob a chuva de estrelas que partiu o Selo. O céu noturno ainda sabe o nome deles.",
+  "name": "§6Estelari",
+  "description": "§o§fNascidos sob a chuva de estrelas que partiu o Selo. O céu noturno ainda sabe o nome deles.",
   "icon": {
-    "item": "gurizes:poeira_estelar"
+    "item": "gurizes:emblema_raca_estelari"
   },
   "impact": 2,
   "order": 8,

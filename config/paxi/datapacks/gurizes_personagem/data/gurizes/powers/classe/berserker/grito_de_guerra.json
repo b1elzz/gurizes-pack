@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Grito de Guerra (G)",
-  "description": "O urro que faz o inimigo duvidar.\nGasta 50 de Fúria: Força I por 8 s e Fraqueza nos inimigos a até 6 blocos. Recarga de 20 s.",
+  "description": "§o§7O urro que faz o inimigo duvidar.§r\nGasta 50 de Fúria: Força I por 8 s e Fraqueza nos inimigos a até 6 blocos. Recarga de 20 s.",
   "cooldown": 400,
   "hud_render": {
     "should_render": true

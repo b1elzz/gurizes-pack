@@ -1,8 +1,8 @@
 {
-  "name": "Assassino",
-  "description": "\"O monstro tem muita vida. Eu só preciso achar o lugar certo.\" Armas: adagas. Dificuldade: alta.",
+  "name": "§dAssassino",
+  "description": "§o§f\"O monstro tem muita vida. Eu só preciso achar o lugar certo.\" Armas: adagas. Dificuldade: alta.",
   "icon": {
-    "item": "gurizes:adaga_do_ultimo_suspiro"
+    "item": "gurizes:emblema_classe_assassino"
   },
   "impact": 3,
   "order": 10,
@@ -13,6 +13,7 @@
     "gurizes:classe/assassino/passo_sangrento",
     "gurizes:classe/assassino/execucao",
     "gurizes:classe/assassino/veu_da_noite",
-    "gurizes:classe/assassino/corpo_esguio"
+    "gurizes:classe/assassino/corpo_esguio",
+    "gurizes:classe/assassino/aviso_supremo"
   ]
 }

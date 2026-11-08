@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Passo Sangrento (G)",
-  "description": "Ele some e reaparece atrás de você.\nTeleporte curto de sangue (nível 3). Recarga de 20 s.",
+  "description": "§o§7Ele some e reaparece atrás de você.§r\nTeleporte curto de sangue (nível 3). Recarga de 20 s.",
   "cooldown": 400,
   "hud_render": {
     "should_render": true

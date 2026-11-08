@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Disparo Venenoso (G)",
-  "description": "Uma flecha, um veneno, nenhuma pressa.\nFlecha Venenosa nível 5. Recarga de 30 s.",
+  "description": "§o§7Uma flecha, um veneno, nenhuma pressa.§r\nFlecha Venenosa nível 5. Recarga de 30 s.",
   "cooldown": 600,
   "hud_render": {
     "should_render": true

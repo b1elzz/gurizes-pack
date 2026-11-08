@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Mente Aberta",
-  "description": "Quem lê o céu inteiro fica sem escudo.\nPreço: +10% de dano mágico recebido.",
+  "description": "§o§7Quem lê o céu inteiro fica sem escudo.§r\n§cPreço:§r +10% de dano mágico recebido.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.1

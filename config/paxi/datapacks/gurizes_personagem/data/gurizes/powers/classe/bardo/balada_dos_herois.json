@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Balada dos Heróis (III, H)",
-  "description": "A canção que ninguém esquece depois de ouvir.\nApós o porteiro do Ato IV: Resistência, Regeneração e Absorção I nos aliados por 10 s; Lentidão II nos inimigos próximos. Recarga de 2 min 30 s.",
+  "description": "§o§7A canção que ninguém esquece depois de ouvir.§r\n§6Após o porteiro do Ato IV:§r Resistência, Regeneração e Absorção I nos aliados por 10 s; Lentidão II nos inimigos próximos. Recarga de 2 min 30 s.",
   "cooldown": 3000,
   "hud_render": {
     "should_render": true

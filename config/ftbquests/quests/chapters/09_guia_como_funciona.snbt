@@ -18,6 +18,18 @@
 			x: 8.5d
 			y: -4.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_09_guia_como_funciona.png"
+			rotation: 0.0d
+			width: 8.625d
+			x: 0.0d
+			y: -6.5d
+		}
 	]
 	order_index: 8
 	progression_mode: "flexible"

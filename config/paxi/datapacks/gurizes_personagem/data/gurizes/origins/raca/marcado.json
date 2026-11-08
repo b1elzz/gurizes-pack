@@ -1,8 +1,8 @@
 {
-  "name": "Marcado",
-  "description": "Tocados pela Corrupção, juraram combatê-la. Carregam a marca como quem carrega um juramento.",
+  "name": "§6Marcado",
+  "description": "§o§fTocados pela Corrupção, juraram combatê-la. Carregam a marca como quem carrega um juramento.",
   "icon": {
-    "item": "gurizes:seiva_corrompida"
+    "item": "gurizes:emblema_raca_marcado"
   },
   "impact": 1,
   "order": 2,

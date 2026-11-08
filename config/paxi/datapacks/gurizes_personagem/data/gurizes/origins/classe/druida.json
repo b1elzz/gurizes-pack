@@ -1,8 +1,8 @@
 {
-  "name": "Druida",
-  "description": "\"A floresta não escolhe lados. Eu escolho.\" Armas: cajado e foice. Dificuldade: média.",
+  "name": "§aDruida",
+  "description": "§o§f\"A floresta não escolhe lados. Eu escolho.\" Armas: cajado e foice. Dificuldade: média.",
   "icon": {
-    "item": "gurizes:cajado_do_carvalho_primevo"
+    "item": "gurizes:emblema_classe_druida"
   },
   "impact": 2,
   "order": 4,
@@ -13,6 +13,7 @@
     "gurizes:classe/druida/circulo_verdejante",
     "gurizes:classe/druida/casca_de_carvalho",
     "gurizes:classe/druida/ira_da_floresta",
-    "gurizes:classe/druida/avesso_ao_metal"
+    "gurizes:classe/druida/avesso_ao_metal",
+    "gurizes:classe/druida/aviso_supremo"
   ]
 }

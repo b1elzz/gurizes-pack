@@ -1,0 +1,8 @@
+{
+  "type": "origins:effect_immunity",
+  "name": "Sem Sangue",
+  "description": "§o§7Não há veias para o veneno correr.§r\nImune a veneno.",
+  "effects": [
+    "minecraft:poison"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Pacto Profano",
-  "description": "Poder de além-túmulo cobra da própria carne.\nRestrição: -1 coração e -10% de cura recebida.",
+  "description": "§o§7Poder de além-túmulo cobra da própria carne.§r\n§cRestrição:§r -1 coração e -10% de cura recebida.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",

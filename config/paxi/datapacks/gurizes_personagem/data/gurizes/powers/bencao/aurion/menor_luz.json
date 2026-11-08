@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Luz de Aurion (Menor)",
-  "description": "O sol do Juramento aquece quem cuida dos outros.\n+10% de cura recebida e +5% de poder Sagrado.",
+  "description": "§o§7O sol do Juramento aquece quem cuida dos outros.§r\n+10% de cura recebida e +5% de poder Sagrado.",
   "modifiers": [
     {
       "attribute": "attributeslib:healing_received",

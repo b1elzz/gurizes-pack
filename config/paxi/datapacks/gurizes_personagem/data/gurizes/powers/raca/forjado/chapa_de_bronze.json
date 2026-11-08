@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Chapa de Bronze",
+  "description": "§o§7Bronze batido por Ignar não amassa fácil.§r\n+3 de armadura.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 3,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

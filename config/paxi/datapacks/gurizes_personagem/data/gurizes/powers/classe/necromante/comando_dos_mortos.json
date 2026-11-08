@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Comando dos Mortos",
-  "description": "Os mortos obedecem a quem sabe chamar.\n+20% de dano das invocações e +10% de poder de Sangue.",
+  "description": "§o§7Os mortos obedecem a quem sabe chamar.§r\n+20% de dano das invocações e +10% de poder de Sangue.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:summon_damage",

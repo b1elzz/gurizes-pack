@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Ritmo de Batalha (II)",
-  "description": "O compasso da guerra, bem marcado.\nApós o porteiro do Ato II: aliados a até 10 blocos ganham Pressa I.",
+  "description": "§o§7O compasso da guerra, bem marcado.§r\n§6Após o porteiro do Ato II:§r aliados a até 10 blocos ganham Pressa I.",
   "interval": 60,
   "entity_action": {
     "type": "origins:area_of_effect",

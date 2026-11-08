@@ -1,8 +1,8 @@
 {
-  "name": "Maréu",
-  "description": "Povo das marés, nascido nos recifes. Onde o mar começa, eles estão em casa.",
+  "name": "§6Maréu",
+  "description": "§o§fPovo das marés, nascido nos recifes. Onde o mar começa, eles estão em casa.",
   "icon": {
-    "item": "gurizes:concha_cantante"
+    "item": "gurizes:emblema_raca_mareu"
   },
   "impact": 2,
   "order": 7,

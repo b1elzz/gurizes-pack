@@ -5,6 +5,20 @@
 	group: "3DC2DB31CDAC58A5"
 	icon: "meetyourfight:haunted_bell"
 	id: "6AEC9E50543BE307"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_10_panteao_semideuses.png"
+			rotation: 0.0d
+			width: 7.425d
+			x: 2.5d
+			y: -6.4d
+		}
+	]
 	order_index: 29
 	progression_mode: "flexible"
 	quest_links: [ ]

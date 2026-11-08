@@ -1,0 +1,17 @@
+{
+  "name": "§6Ressurgido",
+  "description": "§o§fMortos que a cova devolveu ao Juramento. Voltaram de pé, mas o sol já não os aceita.",
+  "icon": {
+    "item": "gurizes:emblema_raca_ressurgido"
+  },
+  "impact": 3,
+  "order": 16,
+  "powers": [
+    "gurizes:raca/ressurgido/carne_morta",
+    "gurizes:raca/ressurgido/carne_morta_imune",
+    "gurizes:raca/ressurgido/sem_folego",
+    "gurizes:raca/ressurgido/frio_da_cova",
+    "gurizes:raca/ressurgido/avesso_ao_sol",
+    "gurizes:raca/ressurgido/registro"
+  ]
+}

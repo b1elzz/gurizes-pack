@@ -1,0 +1,28 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Noite Selvagem",
+  "description": "§o§7A lua acorda o que o homem tenta esconder.§r\nÀ noite: +10% de velocidade e +8% de dano corpo a corpo.",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "type": "apoli:daytime",
+        "inverted": true
+      }
+    ]
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.1,
+      "name": "gurizes"
+    }
+  ],
+  "tick_rate": 20,
+  "update_health": true
+}

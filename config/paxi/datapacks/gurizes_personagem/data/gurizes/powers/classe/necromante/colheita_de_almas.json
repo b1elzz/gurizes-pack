@@ -1,7 +1,7 @@
 {
   "type": "origins:self_action_on_kill",
   "name": "Colheita de Almas",
-  "description": "Cada alma colhida volta como força.\nCada abate cura 2 de vida.",
+  "description": "§o§7Cada alma colhida volta como força.§r\nCada abate cura 2 de vida.",
   "cooldown": 20,
   "entity_action": {
     "type": "origins:heal",

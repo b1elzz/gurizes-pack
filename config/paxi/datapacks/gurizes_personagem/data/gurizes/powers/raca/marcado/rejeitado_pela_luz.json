@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_healing",
   "name": "Rejeitado pela Luz",
-  "description": "A luz recua diante da marca.\nFraqueza: -15% de cura recebida.",
+  "description": "§o§7A luz recua diante da marca.§r\n§cFraqueza:§r -15% de cura recebida.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": -0.15

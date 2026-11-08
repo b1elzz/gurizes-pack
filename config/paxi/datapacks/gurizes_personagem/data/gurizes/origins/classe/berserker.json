@@ -1,8 +1,8 @@
 {
-  "name": "Berserker",
-  "description": "\"Dor é só a batalha avisando que você ainda está nela.\" Armas: machados e montantes. Dificuldade: média.",
+  "name": "§cBerserker",
+  "description": "§o§f\"Dor é só a batalha avisando que você ainda está nela.\" Armas: machados e montantes. Dificuldade: média.",
   "icon": {
-    "item": "gurizes:machado_rubro"
+    "item": "gurizes:emblema_classe_berserker"
   },
   "impact": 3,
   "order": 5,
@@ -18,6 +18,7 @@
     "gurizes:classe/berserker/recusa_em_cair",
     "gurizes:classe/berserker/furia_rubra",
     "gurizes:classe/berserker/sem_escudo",
-    "gurizes:classe/berserker/guarda_aberta"
+    "gurizes:classe/berserker/guarda_aberta",
+    "gurizes:classe/berserker/aviso_supremo"
   ]
 }

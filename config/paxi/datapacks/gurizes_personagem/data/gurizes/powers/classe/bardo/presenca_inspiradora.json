@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Presença Inspiradora",
-  "description": "Onde ele chega, o ânimo sobe.\nVocê e os aliados a até 10 blocos ganham Velocidade I.",
+  "description": "§o§7Onde ele chega, o ânimo sobe.§r\nVocê e os aliados a até 10 blocos ganham Velocidade I.",
   "interval": 60,
   "entity_action": {
     "type": "origins:area_of_effect",

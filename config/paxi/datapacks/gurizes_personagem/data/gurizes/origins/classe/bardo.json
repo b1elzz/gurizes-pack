@@ -1,8 +1,8 @@
 {
-  "name": "Bardo de Guerra",
-  "description": "\"Uma canção certa vale por um exército. Eu trouxe os dois.\" Armas: lanças e rapieiras. Dificuldade: média.",
+  "name": "§6Bardo de Guerra",
+  "description": "§o§f\"Uma canção certa vale por um exército. Eu trouxe os dois.\" Armas: lanças e rapieiras. Dificuldade: média.",
   "icon": {
-    "item": "gurizes:estandarte_do_ultimo_reino"
+    "item": "gurizes:emblema_classe_bardo"
   },
   "impact": 2,
   "order": 3,
@@ -13,6 +13,7 @@
     "gurizes:classe/bardo/hino_de_coragem",
     "gurizes:classe/bardo/ritmo_de_batalha",
     "gurizes:classe/bardo/balada_dos_herois",
-    "gurizes:classe/bardo/mao_leve"
+    "gurizes:classe/bardo/mao_leve",
+    "gurizes:classe/bardo/aviso_supremo"
   ]
 }

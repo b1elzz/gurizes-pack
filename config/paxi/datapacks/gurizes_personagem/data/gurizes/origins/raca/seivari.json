@@ -1,11 +1,11 @@
 {
-  "name": "Seivari",
-  "description": "Filhos da seiva do Carvalho Primevo, pacientes como o inverno.",
+  "name": "§6Seivari",
+  "description": "§o§fFilhos da seiva do Carvalho Primevo, pacientes como o inverno.",
   "icon": {
-    "item": "gurizes:coracao_de_seiva"
+    "item": "gurizes:emblema_raca_seivari"
   },
   "impact": 3,
-  "order": 11,
+  "order": 14,
   "powers": [
     "gurizes:raca/seivari/fotossintese",
     "gurizes:raca/seivari/casca_viva",

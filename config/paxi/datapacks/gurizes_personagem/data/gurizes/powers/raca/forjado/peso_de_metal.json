@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "name": "Peso de Metal",
+  "description": "§o§7Bronze afunda e arrasta.§r\n§cFraqueza:§r -40% de velocidade de nado e -5% de velocidade.",
+  "modifiers": [
+    {
+      "attribute": "forge:swim_speed",
+      "operation": "addition",
+      "value": -0.4,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.05,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

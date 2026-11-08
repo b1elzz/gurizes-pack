@@ -1,8 +1,8 @@
 {
-  "name": "Kaelum",
-  "description": "O Escriba das Estrelas lê o céu e anota o destino de quem estuda.",
+  "name": "§dKaelum",
+  "description": "§o§fO Escriba das Estrelas lê o céu e anota o destino de quem estuda.",
   "icon": {
-    "item": "gurizes:mapa_celeste"
+    "item": "gurizes:emblema_bencao_kaelum"
   },
   "impact": 2,
   "order": 6,

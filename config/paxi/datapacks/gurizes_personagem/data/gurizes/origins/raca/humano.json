@@ -1,8 +1,8 @@
 {
-  "name": "Humano",
-  "description": "Humanos de Valdren: sem dons de nascença, mas com a teimosia de quem reconstruiu um reino duas vezes.",
+  "name": "§6Humano",
+  "description": "§o§fHumanos de Valdren: sem dons de nascença, mas com a teimosia de quem reconstruiu um reino duas vezes.",
   "icon": {
-    "item": "gurizes:estandarte_do_juramento"
+    "item": "gurizes:emblema_raca_humano"
   },
   "impact": 1,
   "order": 1,

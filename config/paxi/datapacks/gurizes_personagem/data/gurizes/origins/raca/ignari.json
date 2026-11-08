@@ -1,11 +1,11 @@
 {
-  "name": "Ignari",
-  "description": "Dracônicos das Fornalhas do Sul, de escamas em brasa. O fogo os obedece; o frio, nunca.",
+  "name": "§6Ignari",
+  "description": "§o§fDracônicos das Fornalhas do Sul, de escamas em brasa. O fogo os obedece; o frio, nunca.",
   "icon": {
-    "item": "iceandfire:dragonscale_red"
+    "item": "gurizes:emblema_raca_ignari"
   },
   "impact": 3,
-  "order": 9,
+  "order": 15,
   "powers": [
     "gurizes:raca/ignari/sangue_quente",
     "gurizes:raca/ignari/sopro_interno",

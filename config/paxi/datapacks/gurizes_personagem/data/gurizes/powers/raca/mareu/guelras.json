@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Filho do Recife",
-  "description": "O mar nunca foi obstáculo, foi casa.\nRespira debaixo d'água e enxerga bem no fundo.",
+  "description": "§o§7O mar nunca foi obstáculo, foi casa.§r\nRespira debaixo d'água e enxerga bem no fundo.",
   "interval": 40,
   "entity_action": {
     "type": "origins:apply_effect",

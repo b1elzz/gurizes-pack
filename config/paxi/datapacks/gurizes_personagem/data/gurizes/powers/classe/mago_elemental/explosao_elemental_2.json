@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Explosão Maior (II)",
-  "description": "A mesma magia, agora com mais ira.\nApós o porteiro do Ato II, a Explosão Elemental sobe para o nível 5.",
+  "description": "§o§7A mesma magia, agora com mais ira.§r\nApós o porteiro do Ato II, a Explosão Elemental sobe para o nível 5.",
   "cooldown": 400,
   "hud_render": {
     "should_render": true

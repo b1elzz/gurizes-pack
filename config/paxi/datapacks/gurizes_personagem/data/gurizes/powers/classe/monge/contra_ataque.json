@@ -1,7 +1,7 @@
 {
   "type": "origins:attacker_action_when_hit",
   "name": "Contra-ataque (II)",
-  "description": "Quem o toca paga duas vezes.\nApós o porteiro do Ato II: quem te acerta corpo a corpo fica lento, e você ganha Força I por 3 s. Recarga de 4 s.",
+  "description": "§o§7Quem o toca paga duas vezes.§r\n§6Após o porteiro do Ato II:§r quem te acerta corpo a corpo fica lento, e você ganha Força I por 3 s. Recarga de 4 s.",
   "condition": {
     "type": "origins:advancement",
     "advancement": "gurizes:campanha/ato_2_vencido"

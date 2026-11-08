@@ -1,8 +1,8 @@
 {
-  "name": "Lâmina Arcana",
-  "description": "\"A espada abre a guarda. A magia termina o serviço.\" Armas: espadas longas e katanas. Dificuldade: alta.",
+  "name": "§9Lâmina Arcana",
+  "description": "§o§f\"A espada abre a guarda. A magia termina o serviço.\" Armas: espadas longas e katanas. Dificuldade: alta.",
   "icon": {
-    "item": "gurizes:lamina_runica"
+    "item": "gurizes:emblema_classe_lamina_arcana"
   },
   "impact": 3,
   "order": 8,
@@ -13,6 +13,7 @@
     "gurizes:classe/lamina_arcana/investida_voltaica",
     "gurizes:classe/lamina_arcana/eco_das_laminas",
     "gurizes:classe/lamina_arcana/lanca_do_trovao",
-    "gurizes:classe/lamina_arcana/canal_exposto"
+    "gurizes:classe/lamina_arcana/canal_exposto",
+    "gurizes:classe/lamina_arcana/aviso_supremo"
   ]
 }

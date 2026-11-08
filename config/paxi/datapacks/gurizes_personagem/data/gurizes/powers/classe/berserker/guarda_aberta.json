@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Guarda Aberta",
-  "description": "Escudo é coisa de quem tem medo.\nRestrição: não usa escudos e recebe +10% de dano.",
+  "description": "§o§7Escudo é coisa de quem tem medo.§r\n§cRestrição:§r não usa escudos e recebe +10% de dano.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.1

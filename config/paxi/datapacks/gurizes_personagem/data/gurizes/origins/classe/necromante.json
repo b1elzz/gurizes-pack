@@ -1,8 +1,8 @@
 {
-  "name": "Necromante",
-  "description": "\"Os mortos de Valdren ainda lutam pelo reino. Só precisam de alguém que os chame.\" Armas: foice e livro. Dificuldade: alta.",
+  "name": "§3Necromante",
+  "description": "§o§f\"Os mortos de Valdren ainda lutam pelo reino. Só precisam de alguém que os chame.\" Armas: foice e livro. Dificuldade: alta.",
   "icon": {
-    "item": "gurizes:grimorio_partido"
+    "item": "gurizes:emblema_classe_necromante"
   },
   "impact": 3,
   "order": 7,
@@ -15,6 +15,7 @@
     "gurizes:classe/necromante/pacto_de_sangue",
     "gurizes:classe/necromante/mare_sombria",
     "gurizes:classe/necromante/pacto_profano",
-    "gurizes:classe/necromante/pacto_profano_cura"
+    "gurizes:classe/necromante/pacto_profano_cura",
+    "gurizes:classe/necromante/aviso_supremo"
   ]
 }

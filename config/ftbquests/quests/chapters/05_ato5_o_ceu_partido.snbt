@@ -5,6 +5,20 @@
 	group: "7A0A9C2928225198"
 	icon: "gurizes:lente_estelar"
 	id: "6BAB7A4E5903F058"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.35d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_05_ato5_o_ceu_partido.png"
+			rotation: 0.0d
+			width: 11.325d
+			x: 3.5d
+			y: -1.4d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

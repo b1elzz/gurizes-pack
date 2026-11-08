@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Passos Pesados",
-  "description": "Rocha firme, passo lento.\nFraqueza: -5% de velocidade.",
+  "description": "§o§7Rocha firme, passo lento.§r\n§cFraqueza:§r -5% de velocidade.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",

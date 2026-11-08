@@ -1,0 +1,18 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Lâmina na Sombra",
+  "description": "§o§7No escuro, o aço deles já está no pescoço.§r\n+10% de dano corpo a corpo no escuro.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.1
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "gurizes:corpo_a_corpo"
+  },
+  "condition": {
+    "type": "apoli:brightness",
+    "comparison": "<",
+    "compare_to": 0.25
+  }
+}

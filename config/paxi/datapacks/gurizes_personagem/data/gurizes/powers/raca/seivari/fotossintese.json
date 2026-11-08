@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Fotossíntese",
-  "description": "O sol é alimento e remédio.\nSob o sol: Regeneração I periódica.",
+  "description": "§o§7O sol é alimento e remédio.§r\nSob o sol: Regeneração I periódica.",
   "interval": 40,
   "entity_action": {
     "type": "origins:apply_effect",

@@ -1,8 +1,8 @@
 {
-  "name": "Cinzara",
-  "description": "Não é um dos Sete: é a brasa que sobrou na forja de Ignar. Quem cai com ela se levanta.",
+  "name": "§6Cinzara",
+  "description": "§o§fNão é um dos Sete: é a brasa que sobrou na forja de Ignar. Quem cai com ela se levanta.",
   "icon": {
-    "item": "gurizes:brasa_eterna"
+    "item": "gurizes:emblema_bencao_cinzara"
   },
   "impact": 3,
   "order": 8,

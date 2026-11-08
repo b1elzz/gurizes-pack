@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_death",
   "name": "Recusa da Morte (Maior)",
-  "description": "Os portões ainda não se abrem para você.\nApós o porteiro do Ato III: um golpe fatal te deixa vivo (cura 8, Resistência I por 3 s). A barra recarrega em 15 min.",
+  "description": "§o§7Os portões ainda não se abrem para você.§r\n§6Após o porteiro do Ato III:§r um golpe fatal te deixa vivo (cura 8, Resistência I por 3 s). A barra recarrega em 15 min.",
   "condition": {
     "type": "origins:and",
     "conditions": [

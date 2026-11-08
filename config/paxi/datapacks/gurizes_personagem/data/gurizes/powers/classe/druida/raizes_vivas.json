@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Raízes Vivas",
-  "description": "A mata empresta a voz a quem sabe ouvir.\n+10% de poder da Natureza e Sagrado.",
+  "description": "§o§7A mata empresta a voz a quem sabe ouvir.§r\n+10% de poder da Natureza e Sagrado.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:nature_spell_power",

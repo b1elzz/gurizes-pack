@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Bigorna de Ignar (Menor)",
-  "description": "Aço batido na forja do mundo não cede.\n+2 de armadura.",
+  "description": "§o§7Aço batido na forja do mundo não cede.§r\n+2 de armadura.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.armor",

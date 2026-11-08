@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Sem Guarda",
-  "description": "Quem avança não se cobre.\nPreço: -2 de armadura.",
+  "description": "§o§7Quem avança não se cobre.§r\n§cPreço:§r -2 de armadura.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.armor",

@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_exhaustion",
+  "name": "Fome de Fera",
+  "description": "§o§7A fera dentro de casa nunca está satisfeita.§r\n§cFraqueza:§r +25% de fome gasta.",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.25
+  }
+}

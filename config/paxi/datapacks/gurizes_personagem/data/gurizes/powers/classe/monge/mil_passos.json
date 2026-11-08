@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Os Mil Passos (III, H)",
-  "description": "Ele já estava em outro lugar quando o golpe chegou.\nApós o porteiro do Ato IV: Evasão nível 5, Velocidade III e Pressa II por 8 s. Recarga de 1 min 30 s.",
+  "description": "§o§7Ele já estava em outro lugar quando o golpe chegou.§r\n§6Após o porteiro do Ato IV:§r Evasão nível 5, Velocidade III e Pressa II por 8 s. Recarga de 1 min 30 s.",
   "cooldown": 1800,
   "hud_render": {
     "should_render": true

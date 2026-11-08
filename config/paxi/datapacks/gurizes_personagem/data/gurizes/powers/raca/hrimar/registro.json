@@ -1,0 +1,30 @@
+{
+  "type": "origins:action_on_callback",
+  "hidden": true,
+  "entity_action_added": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "tag @s add gurizes.raca.hrimar"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only gurizes:interno/raca_hrimar"
+      }
+    ]
+  },
+  "entity_action_removed": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "tag @s remove gurizes.raca.hrimar"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement revoke @s only gurizes:interno/raca_hrimar"
+      }
+    ]
+  }
+}

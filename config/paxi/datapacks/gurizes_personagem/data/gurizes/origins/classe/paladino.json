@@ -1,8 +1,8 @@
 {
-  "name": "Paladino",
-  "description": "\"Enquanto eu estiver de pé, ninguém atrás de mim cai.\" Armas: espada e escudo. Dificuldade: baixa.",
+  "name": "§ePaladino",
+  "description": "§o§f\"Enquanto eu estiver de pé, ninguém atrás de mim cai.\" Armas: espada e escudo. Dificuldade: baixa.",
   "icon": {
-    "item": "gurizes:egide_do_juramento"
+    "item": "gurizes:emblema_classe_paladino"
   },
   "impact": 2,
   "order": 1,
@@ -13,6 +13,7 @@
     "gurizes:classe/paladino/luz_restauradora",
     "gurizes:classe/paladino/escudo_dos_fieis",
     "gurizes:classe/paladino/juramento_inquebravel",
-    "gurizes:classe/paladino/honra_do_aco"
+    "gurizes:classe/paladino/honra_do_aco",
+    "gurizes:classe/paladino/aviso_supremo"
   ]
 }

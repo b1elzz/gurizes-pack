@@ -18,6 +18,18 @@
 			x: 20.5d
 			y: -4.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_01_ato1_a_coroa_oca.png"
+			rotation: 0.0d
+			width: 10.425d
+			x: 9.0d
+			y: -5.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]

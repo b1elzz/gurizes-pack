@@ -1,8 +1,8 @@
 {
-  "name": "Tellura",
-  "description": "A Mãe das Raízes guarda a terra, a colheita e o caçador paciente.",
+  "name": "§2Tellura",
+  "description": "§o§fA Mãe das Raízes guarda a terra, a colheita e o caçador paciente.",
   "icon": {
-    "item": "gurizes:semente_de_tellura"
+    "item": "gurizes:emblema_bencao_tellura"
   },
   "impact": 1,
   "order": 1,

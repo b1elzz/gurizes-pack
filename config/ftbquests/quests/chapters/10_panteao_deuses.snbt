@@ -5,6 +5,20 @@
 	group: "3DC2DB31CDAC58A5"
 	icon: "gurizes:insignia_dos_deuses"
 	id: "47644B6A10446894"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_10_panteao_deuses.png"
+			rotation: 0.0d
+			width: 5.775d
+			x: 1.0d
+			y: -1.9d
+		}
+	]
 	order_index: 30
 	progression_mode: "flexible"
 	quest_links: [ ]

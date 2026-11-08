@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_status_effect_duration",
   "name": "Resiliência Sombria",
-  "description": "A Corrupção já fez o pior com eles.\nO efeito Murchar dura metade do tempo.",
+  "description": "§o§7A Corrupção já fez o pior com eles.§r\nO efeito Murchar dura metade do tempo.",
   "status_effect": "minecraft:wither",
   "modifier": {
     "operation": "multiply_base_multiplicative",

@@ -1,8 +1,8 @@
 {
-  "name": "Vesperis",
-  "description": "A Guardiã dos Portões vigia a lua e as almas, e guarda o que o herói deixa na cova.",
+  "name": "§7Vesperis",
+  "description": "§o§fA Guardiã dos Portões vigia a lua e as almas, e guarda o que o herói deixa na cova.",
   "icon": {
-    "item": "gurizes:bussola_cova"
+    "item": "gurizes:emblema_bencao_vesperis"
   },
   "impact": 3,
   "order": 7,

@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Abrigo Verde",
-  "description": "Chuva e folhas fecham feridas.\nNa chuva ou em florestas: Regeneração I periódica.",
+  "description": "§o§7Chuva e folhas fecham feridas.§r\nNa chuva ou em florestas: Regeneração I periódica.",
   "interval": 100,
   "entity_action": {
     "type": "origins:apply_effect",

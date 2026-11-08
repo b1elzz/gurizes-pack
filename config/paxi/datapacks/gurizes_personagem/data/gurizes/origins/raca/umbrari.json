@@ -1,0 +1,16 @@
+{
+  "name": "§6Umbrari",
+  "description": "§o§fElfos das profundezas sob Karrum, que fugiram da luz. Onde a tocha atrapalha, eles enxergam.",
+  "icon": {
+    "item": "gurizes:emblema_raca_umbrari"
+  },
+  "impact": 2,
+  "order": 12,
+  "powers": [
+    "gurizes:raca/umbrari/olhos_da_penumbra",
+    "gurizes:raca/umbrari/passo_abafado",
+    "gurizes:raca/umbrari/lamina_na_sombra",
+    "gurizes:raca/umbrari/ofuscado",
+    "gurizes:raca/umbrari/registro"
+  ]
+}

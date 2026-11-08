@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+  "name": "Pelagem",
+  "description": "§o§7O pelo grosso segura o primeiro golpe.§r\n+1 de armadura.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 1,
+      "name": "gurizes"
+    }
+  ],
+  "update_health": true
+}

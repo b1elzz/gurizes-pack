@@ -1,8 +1,8 @@
 {
-  "name": "Brava",
-  "description": "A Mãe das Batalhas abençoa quem encara a guerra de frente e sem medo.",
+  "name": "§cBrava",
+  "description": "§o§fA Mãe das Batalhas abençoa quem encara a guerra de frente e sem medo.",
   "icon": {
-    "item": "gurizes:fragmento_coragem"
+    "item": "gurizes:emblema_bencao_brava"
   },
   "impact": 2,
   "order": 3,

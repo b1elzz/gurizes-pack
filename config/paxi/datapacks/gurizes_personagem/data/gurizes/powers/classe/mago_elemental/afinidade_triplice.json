@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Afinidade Tríplice",
-  "description": "Fogo, gelo e raio atendem ao chamado.\n+10% de poder de Fogo, Gelo e Raio.",
+  "description": "§o§7Fogo, gelo e raio atendem ao chamado.§r\n+10% de poder de Fogo, Gelo e Raio.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:fire_spell_power",

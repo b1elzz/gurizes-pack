@@ -1,8 +1,8 @@
 {
-  "name": "Pedraforte",
-  "description": "Anões das Montanhas de Karrum. A montanha ensina paciência; a forja ensina o resto.",
+  "name": "§6Pedraforte",
+  "description": "§o§fAnões das Montanhas de Karrum. A montanha ensina paciência; a forja ensina o resto.",
   "icon": {
-    "item": "gurizes:martelo_runico"
+    "item": "gurizes:emblema_raca_pedraforte"
   },
   "impact": 2,
   "order": 3,

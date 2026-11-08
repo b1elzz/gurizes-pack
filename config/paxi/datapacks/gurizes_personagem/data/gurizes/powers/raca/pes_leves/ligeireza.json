@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Ligeireza",
-  "description": "Pés que mal tocam o chão.\n+8% de velocidade.",
+  "description": "§o§7Pés que mal tocam o chão.§r\n+8% de velocidade.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",

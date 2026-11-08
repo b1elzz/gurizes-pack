@@ -5,6 +5,20 @@
 	group: "7A0A9C2928225198"
 	icon: "gurizes:coracao_do_selo"
 	id: "1DB5C5D9F1A837A2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_06_ato6_o_trono_do_selo.png"
+			rotation: 0.0d
+			width: 12.525d
+			x: 3.5d
+			y: -0.9d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [

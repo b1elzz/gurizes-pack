@@ -1,0 +1,16 @@
+{
+  "name": "§6Hrimar",
+  "description": "§o§fPovo do gelo das Geleiras de Hrim, espelho dos Ignari. O frio é casa; o calor, ameaça.",
+  "icon": {
+    "item": "gurizes:emblema_raca_hrimar"
+  },
+  "impact": 2,
+  "order": 10,
+  "powers": [
+    "gurizes:raca/hrimar/sangue_gelado",
+    "gurizes:raca/hrimar/gelo_interno",
+    "gurizes:raca/hrimar/derrete",
+    "gurizes:raca/hrimar/derrete_lento",
+    "gurizes:raca/hrimar/registro"
+  ]
+}

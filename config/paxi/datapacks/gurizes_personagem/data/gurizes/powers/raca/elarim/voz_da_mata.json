@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Voz da Mata",
-  "description": "A floresta responde quando eles chamam.\n+5% de poder da magia da Natureza.",
+  "description": "§o§7A floresta responde quando eles chamam.§r\n+5% de poder da magia da Natureza.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:nature_spell_power",

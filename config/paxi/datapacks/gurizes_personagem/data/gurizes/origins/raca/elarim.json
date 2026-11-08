@@ -1,8 +1,8 @@
 {
-  "name": "Elarim",
-  "description": "Elfos das Matas de Lúmen. Ouvem a floresta antes de ver o inimigo.",
+  "name": "§6Elarim",
+  "description": "§o§fElfos das Matas de Lúmen. Ouvem a floresta antes de ver o inimigo.",
   "icon": {
-    "item": "magistuarmory:longbow"
+    "item": "gurizes:emblema_raca_elarim"
   },
   "impact": 2,
   "order": 4,

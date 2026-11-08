@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_exhaustion",
   "name": "Chama Faminta",
-  "description": "Fogo vivo precisa de lenha.\nPreço: +20% de fome gasta.",
+  "description": "§o§7Fogo vivo precisa de lenha.§r\n§cPreço:§r +20% de fome gasta.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.2

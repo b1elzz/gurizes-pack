@@ -5,6 +5,20 @@
 	group: "7A0A9C2928225198"
 	icon: "gurizes:estandarte_do_juramento"
 	id: "329C3963FA6235A3"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.125d
+			hover: [ ]
+			image: "gurizes:textures/quests/titulo_00_primeira_hora.png"
+			rotation: 0.0d
+			width: 8.475d
+			x: 4.0d
+			y: -1.9d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

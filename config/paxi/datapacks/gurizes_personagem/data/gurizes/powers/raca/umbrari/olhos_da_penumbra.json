@@ -1,0 +1,11 @@
+{
+  "type": "origins:night_vision",
+  "name": "Olhos da Penumbra",
+  "description": "§o§7Quem fugiu da luz aprendeu a ver sem ela.§r\nVisão noturna onde a luz é baixa.",
+  "strength": 0.6,
+  "condition": {
+    "type": "apoli:brightness",
+    "comparison": "<",
+    "compare_to": 0.25
+  }
+}

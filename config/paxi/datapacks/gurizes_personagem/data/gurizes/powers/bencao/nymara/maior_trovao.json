@@ -1,7 +1,7 @@
 {
   "type": "origins:target_action_on_hit",
   "name": "Toque do Trovão (Maior)",
-  "description": "O raio ficou preso nas mãos.\nApós o porteiro do Ato III: golpes têm 25% de chance de causar 5 de dano de raio e lentidão; +5% de velocidade de ataque.",
+  "description": "§o§7O raio ficou preso nas mãos.§r\n§6Após o porteiro do Ato III:§r golpes têm 25% de chance de causar 5 de dano de raio e lentidão; +5% de velocidade de ataque.",
   "condition": {
     "type": "origins:advancement",
     "advancement": "gurizes:campanha/ato_3_vencido"

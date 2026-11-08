@@ -1,8 +1,8 @@
 {
-  "name": "Caçador",
-  "description": "\"Nenhuma presa é grande demais. Só longe demais.\" Armas: arcos e bestas. Dificuldade: baixa.",
+  "name": "§2Caçador",
+  "description": "§o§f\"Nenhuma presa é grande demais. Só longe demais.\" Armas: arcos e bestas. Dificuldade: baixa.",
   "icon": {
-    "item": "gurizes:arco_de_valdren"
+    "item": "gurizes:emblema_classe_cacador"
   },
   "impact": 2,
   "order": 2,
@@ -14,6 +14,7 @@
     "gurizes:classe/cacador/disparo_venenoso",
     "gurizes:classe/cacador/marca_do_cacador",
     "gurizes:classe/cacador/chuva_estelar",
-    "gurizes:classe/cacador/maos_de_arqueiro"
+    "gurizes:classe/cacador/maos_de_arqueiro",
+    "gurizes:classe/cacador/aviso_supremo"
   ]
 }
