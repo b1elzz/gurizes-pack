@@ -15,34 +15,17 @@ customization {
   action = setscale
   scale = 2
 }
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
-}
 
 menu_background {
   instance_identifier = gz_carga_fundo
-  background_type = color_fancymenu
+  background_type = image
   show_background = true
-  color = #0F0A18
+  image_path = [source:local]/config/fancymenu/assets/gurizes/carga_fundo.png
+  slide = false
+  repeat_texture = false
+  parallax = false
 }
 
-element {
-  element_type = image
-  instance_identifier = gz_carga_logo
-  appearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  anchor_point = mid-centered
-  sticky_anchor = true
-  x = 0
-  y = -40
-  width = 420
-  height = 194
-  stay_on_screen = false
-  source = [source:local]/config/fancymenu/assets/gurizes/logo.png
-}
 
 element {
   element_type = drippy_vanilla_bar

@@ -49,6 +49,10 @@ file = "config/fancymenu/assets/gurizes/botao_inativo.png"
 hash = "6601b23e80b591dc45a53b88a52e216fe9bd1746c5ecfed4ef6892a59966e29e"
 
 [[files]]
+file = "config/fancymenu/assets/gurizes/carga_fundo.png"
+hash = "0d8777352cdd568726d61929bf8933509f1d28b934881cc9941789137ad87492"
+
+[[files]]
 file = "config/fancymenu/assets/gurizes/fundo.png"
 hash = "b840d8c5af5b0caf243e5a606ab0a6e2ab6fe370bf260b76806ae801416fd413"
 
@@ -66,7 +70,7 @@ hash = "8e15b8fdd11e054e25d49c37ce6a448807a7e6e34f9c3b46dc4d222aa0aca44b"
 
 [[files]]
 file = "config/fancymenu/customization/gurizes_tela_carregamento.txt"
-hash = "1d893b179dc40df3ea83f9ad31440cbed0349e65adafda8eabd01cb47e32fa7e"
+hash = "ec96857670beee3c9c7202b04d979e5c6854803e2cbf58cb88ce1f917e497e1e"
 
 [[files]]
 file = "config/fancymenu/customization/gurizes_tela_inicial.txt"
