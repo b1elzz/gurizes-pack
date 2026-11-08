@@ -2460,11 +2460,6 @@ hash = "c83385838fbf5cdd40684e5f6d4b7bcc2126de4abca229a60b7063e57a5a4615"
 metafile = true
 
 [[files]]
-file = "mods/farmers-respite.pw.toml"
-hash = "dbf9faeb328cdb0cb7a41a8c9c238c59ea9c70e7683c5bfc55b783ad80e85a39"
-metafile = true
-
-[[files]]
 file = "mods/fast-async-world-save-forge-fabric.pw.toml"
 hash = "e6362452d4834dc0919f89ea95b7242c3a5c4d61a0ebfc425ecfc6c71dc5afd0"
 metafile = true
