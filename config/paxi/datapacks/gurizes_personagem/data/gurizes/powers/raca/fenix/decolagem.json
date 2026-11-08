@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Decolagem em Chamas",
-  "description": "§o§7Do chão ao céu num estalo de brasa.§r\nAgachado no chão, aperte Espaço: salto de chamas de uns 8 blocos; pule de novo no ar para abrir as asas. Gasta 30 de Chama. Recarga de 3 s.",
+  "description": "§o§7Do chão ao céu num estalo de brasa.§r\nAgachado, aperte Espaço: salto de chamas de uns 8 blocos e descida lenta; pule de novo no ar para abrir as asas. Gasta 30 de Chama. Recarga de 3 s.",
   "cooldown": 60,
   "hud_render": {
     "should_render": true,
@@ -20,10 +20,18 @@
         "change": -30
       },
       {
-        "type": "apoli:add_velocity",
-        "x": 0.0,
-        "y": 1.25,
-        "z": 0.0
+        "type": "origins:execute_command",
+        "command": "gurizes impulso 1.25"
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slow_falling",
+          "duration": 60,
+          "amplifier": 0,
+          "show_particles": false,
+          "show_icon": false
+        }
       },
       {
         "type": "apoli:spawn_particles",
@@ -46,10 +54,16 @@
     "type": "origins:and",
     "conditions": [
       {
-        "type": "apoli:on_block"
+        "type": "apoli:sneaking"
       },
       {
-        "type": "apoli:sneaking"
+        "type": "apoli:fall_flying",
+        "inverted": true
+      },
+      {
+        "type": "apoli:fall_distance",
+        "comparison": "<",
+        "compare_to": 1
       },
       {
         "type": "origins:resource",

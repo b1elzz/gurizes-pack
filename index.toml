@@ -78,7 +78,7 @@ hash = "ec96857670beee3c9c7202b04d979e5c6854803e2cbf58cb88ce1f917e497e1e"
 
 [[files]]
 file = "config/fancymenu/customization/gurizes_tela_inicial.txt"
-hash = "9a827e40a06d672972d3868c7bf1b90754759411eb0bba960110e982dfa107b8"
+hash = "2ce0bd4ea2341ba6cc3cccbc863d61deedaebaf11ca09343d869632455a4da0f"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -1386,7 +1386,7 @@ hash = "008cbef83924293b52ea781a82ff2468fc4d4b371820fdf070c630f8b67862d5"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/decolagem.json"
-hash = "85c745f43b709b6720e3c424cd9b623c8242cbe5eb64360e36679fedcb5f0d18"
+hash = "fc033d0e2e0a0616a0c4411f8c45d3219a273ce4dfb838811d768f334446bdb6"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/frio_mortal.json"
@@ -1406,7 +1406,7 @@ hash = "09b240ef89e9c5c987423c07fc74ca16e6454a1dda0c6f25ab3c98ade5602d33"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/fenix/sopro_de_chama.json"
-hash = "747033e67078eb107775cd0c0aeb269e9c79a976435c66cbcba53dbc68f6050a"
+hash = "dce819e7ed4ab3b59f5eb8cfef88f8476566b4f3a49c48778bce4b07f7967a38"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/forjado/chapa_de_bronze.json"
@@ -1634,7 +1634,7 @@ hash = "b887a5b8c91868bb98c52deda58c8f0d56da00eb3d39b3eb97d9cb2da3b51642"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/pouso_sereno.json"
-hash = "5ed60c02315dcd765d14b7773fffa2dc7eeffdb819476166c662b6a28a7ab49f"
+hash = "ce1bfb2118d209e5380871dd5eb09965b2cc68378c9c5e163ef7bf22ddaec09a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/valquiria/rastro_de_luz.json"
@@ -3114,7 +3114,7 @@ metafile = true
 
 [[files]]
 file = "mods/gurizes.pw.toml"
-hash = "b72dea1a216e5e34dc473634afd50b636fe3f8052fe0e1d8ff72dc9b5822d957"
+hash = "c69ce67d682c6bab14fbbe1098178c40ee324c51f8a12cfd519dae3fe52856b1"
 metafile = true
 
 [[files]]

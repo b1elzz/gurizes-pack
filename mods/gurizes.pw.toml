@@ -1,8 +1,8 @@
 name = "Gurizes RPG Fantasy (mod)"
-filename = "gurizes-1.0.0.jar"
+filename = "gurizes-1.0.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/b1elzz/gurizes-pack/releases/download/v1.0.0/gurizes-1.0.0.jar"
+url = "https://github.com/b1elzz/gurizes-pack/releases/download/v1.0.1/gurizes-1.0.1.jar"
 hash-format = "sha256"
-hash = "f4482cc337d340d0d542fbca076a97ccd3a81ddba497e97d4677ad34588cdc4e"
+hash = "2e991137e44b83221c8b0fb383ec37c0a32dce16b4574200aea7e3bb9346a754"

@@ -20,11 +20,8 @@
         "change": -20
       },
       {
-        "type": "apoli:add_velocity",
-        "x": 0.0,
-        "y": 0.3,
-        "z": 1.4,
-        "space": "local"
+        "type": "origins:execute_command",
+        "command": "gurizes impulso 0.3 1.4"
       },
       {
         "type": "apoli:spawn_particles",
