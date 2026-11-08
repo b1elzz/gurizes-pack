@@ -16,18 +16,8 @@ global.gurizesRaridadeApotheosis = stack => {
   }
 }
 
-global.gurizesModeloServidorExiste = id => {
-  try {
-    return !!Java.loadClass('com.alessandro.astages.engine.AModelManager').MODELS.getModel(id)
-  } catch (err) {
-    return false
-  }
-}
-
 global.GURIZES_RARIDADES_SELADAS.forEach(raridade => {
-  const id = `gurizes:raridade_${raridade}`
-  if (global.gurizesModeloServidorExiste(id)) return
   global.gurizesTentar(`modelo de raridade ${raridade}`, () =>
-    AModels.createPredicateModel(id,
+    AModels.createPredicateModel(`gurizes:raridade_${raridade}`,
       stack => global.gurizesRaridadeApotheosis(stack) === `apotheosis:${raridade}`))
 })

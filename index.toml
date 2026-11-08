@@ -2106,7 +2106,7 @@ hash = "90cf6041fa5446a1ae56b5b070424e9a21503e4ac85cdab8f22b7819e9ec0e84"
 
 [[files]]
 file = "kubejs/client_scripts/progressao/predicados.js"
-hash = "301f2acd2ab71162b07f0f2e379d401980bfccf54b462fe87018162f77a27cde"
+hash = "0ec4070b70c4cbf1dc788b2d97cd765c27c2f10ef5e9e3c5e1dfb8b88ad2dc5c"
 
 [[files]]
 file = "kubejs/server_scripts/ftbquests/tarefas_custom.js"
@@ -2130,7 +2130,7 @@ hash = "b8e8d0090bb180b6e51e9543863819dd7d6afab6d4fe6607314f02e67b05d326"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/15_predicados.js"
-hash = "590b8abf1cddf6df4daeb778bcdaae72ce73a30161560005f424e9ab32ee6b5b"
+hash = "4e7ac1899acccf4b353088c21eb957eed37e278bccd46199240e89ac60373f05"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/20_travas.js"

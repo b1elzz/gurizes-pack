@@ -12,19 +12,9 @@ const gurizesRaridadeCliente = stack => {
   }
 }
 
-const gurizesModeloClienteExiste = id => {
-  try {
-    return !!Java.loadClass('com.alessandro.astages.engine.AClientModelManager').MODELS.getModel(id)
-  } catch (err) {
-    return false
-  }
-}
-
 ;['rare', 'epic', 'mythic', 'ancient'].forEach(raridade => {
   try {
-    const id = `gurizes:raridade_${raridade}`
-    if (gurizesModeloClienteExiste(id)) return
-    AModels.createPredicateModel(id,
+    AModels.createPredicateModel(`gurizes:raridade_${raridade}`,
       stack => gurizesRaridadeCliente(stack) === `apotheosis:${raridade}`)
   } catch (err) {
     console.warn(`[gurizes] modelo de raridade ${raridade} (cliente) não criado: ${err}`)
