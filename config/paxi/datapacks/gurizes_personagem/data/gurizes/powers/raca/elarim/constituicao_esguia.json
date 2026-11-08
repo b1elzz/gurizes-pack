@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Constituição Esguia",
-  "description": "Fraqueza: −1 coração.",
+  "description": "Leves como a brisa e quase tão frágeis.\nFraqueza: -1 coração de vida máxima.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",

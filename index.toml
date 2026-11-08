@@ -18,7 +18,7 @@ hash = "5e9f9f1022e1707ed6b1930508384572fe42c659e331bfa8fe2e84f6aa2fb246"
 
 [[files]]
 file = "config/autoleveling-common.toml"
-hash = "81fa9d0a59d2d5f9df6d0de7647974480daa31c2bd50946b852c125cfbcc112f"
+hash = "abce08e7b4e6525109c4ba465684e230f6f8d11552238976fb14bda552fe7a19"
 
 [[files]]
 file = "config/bettercombat/server.json5"
@@ -74,7 +74,7 @@ hash = "ec96857670beee3c9c7202b04d979e5c6854803e2cbf58cb88ce1f917e497e1e"
 
 [[files]]
 file = "config/fancymenu/customization/gurizes_tela_inicial.txt"
-hash = "b29ffb1f5225843ffe2d95ea05481925a2a50f8000be616b317e2ae717bf04ba"
+hash = "dfb163b628828ee0ffb8ed19938e6e451b3f0f528e4a35beca286566df1ebafd"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -86,167 +86,167 @@ hash = "813822059e17ca725306030e6ddaa966ed1c2b6d2a2d35c6f348d735485ccdbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/00_primeira_hora.snbt"
-hash = "08e8b26d539967c415f3fc2ebb72f2bf17cb52d7afd1261e51d5847458700508"
+hash = "184a4ba543017af8b4e771f8a07881cdc115a551f84022a702c88b0f20a1165e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_ato1_a_coroa_oca.snbt"
-hash = "fc0be9e83fd6f6409dee02bc13176871ad294433a3a9f83c663d46f059b42ca6"
+hash = "04c111f103ff6de418fefd3ddfc02e752517c26954eb0df126a03264cfc8b79b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_ato2_o_bosque_que_sangra.snbt"
-hash = "7d6cf208204f6bebc608face51a586f5ca492815d457ddf8cf4d47a4d549e728"
+hash = "52d58533c7ef488d6db4b89851ab92a92e7347d3393c3ae30858b78aff7582f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_ato3_a_forja_afundada.snbt"
-hash = "a80ae8eed72406aecd90adaacf4d8ee89e7e99e29705599ad453142a3c90b79c"
+hash = "a7203ed309b3c7284b461f2ac5a71e2cf9b602272c72dc104cf6b84911d88379"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_ato4_o_olho_da_tormenta.snbt"
-hash = "97c88f4a22ba56889ddcda7f347483226c1780076cb82b5ce4d83510579fd436"
+hash = "2b3bb8294f2552df34ed93f82d2948d4a95f04b0d6602d4681a144bb2dac858a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_ato5_o_ceu_partido.snbt"
-hash = "bb9071b1fc174c598c75e8e637a3daf6e57cb44fbd8129d02ad47231a6353d0a"
+hash = "dda217fa373e62bd2f29c23c716f4ec1d6a287257e648e7ab8a3c2775244db26"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_ato6_o_trono_do_selo.snbt"
-hash = "045b0a85301b097a5082d0875060a7f1fd368ece0dce8d17e0fdcccc837a6910"
+hash = "88ecbb1345179327715255920efc0b458f081058e38f86cb47fd47f062fd89cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_juramento_eterno.snbt"
-hash = "c9b5dc296810fbbc2a0f8bc708194925b5b03b37066cdd2309ff75aedf87ebf0"
+hash = "df6ddbac50c03e7a8119d7bc89f0162b3ce9f5ba9d15deb72d9f12bd1cc65a25"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_assassino.snbt"
-hash = "71d1d8505d735e1e2014ce9da920ade8b2e2aae4b814d46291f2ddda69c241b4"
+hash = "4149404a62b81fe014c148e07a4dc05a3575d21d5ac24ef53c2e12f0668b5a9b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_bardo.snbt"
-hash = "a5b9001b9b0cece2b65bb6e2141e9b18bf13b63f7aa5cc0df0f96ff28f847a91"
+hash = "3a201f6fd86601c43d37731ea11a669a70829149c919ceea2d1ef05fa9a4252b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_berserker.snbt"
-hash = "c96a875210e28dc6e5e95466026a7f68ee2ac0ce5830736779b6b8b9c690a801"
+hash = "dceb61bb0174ba6f8d716138d1440afdf1b1fbf16cd79e3b4fb7bdff0b2d5d66"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_cacador.snbt"
-hash = "ec5697790003499eb735fec5055319fc5520f7ea8cffd12561bb63b3da5b4239"
+hash = "db407b36c86aefd433c43d8a1932ec6d32d54677b2b90fa8425484a1ab1f02e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_druida.snbt"
-hash = "7e24a085d57965f9c560d8ff935ffb149580886ef937368cecb47a823b5c3d81"
+hash = "aaf1daa671bf93b816474f8ff2d5b4b25c2bbde3479e2928b966e9cf6abe6222"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_lamina_arcana.snbt"
-hash = "93c4dbcf8fcc130ef6bd7e189773b6f6f868e8686e9d95c13a4f6473485f8dc6"
+hash = "4dc5103f5fcf2aeb70a37b9586a0a0bfdbefc9ca4624cfc74cc47701bbf433ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_mago_elemental.snbt"
-hash = "84f89aa199b97d6967b8b5b39b4c880c54d078f924d10afa23a5890c0ee3dde2"
+hash = "b42f1e0b7e754065eef14296c14c7c996c7218675c2e808c307982077abf9c80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_monge.snbt"
-hash = "63802e7ddab4eef272b350a91d1cafcf9577e526eb8bb95e4b9e97c8f6081bef"
+hash = "6a646b0803e4afcff8c0b1ed197c80a0eba8fc5d729931f37ed323d8b3bb79e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_necromante.snbt"
-hash = "3aa1758d3a8db057dd98bbc850a99d0236f8bbae179ebd7bebb5ef7c7fd5e816"
+hash = "1c70d69f50603f15285438bec921326f86a89eaf363c4706815ad2d7e010f829"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_classe_paladino.snbt"
-hash = "5e7efb827f0ae61a8b47cd3ed9f880075f3396cb58725b6cbe243829f90a7ce0"
+hash = "b91dba52b54793c171ccb15922009fc75b74a26c576c96a19f9cbbef8dac48e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_sua_classe.snbt"
-hash = "eb102a1e2cf0b954c942b431a33646006c776a59462daa2088976fee04a4037f"
+hash = "03c21dc04ebc57eac8e8e3b28fd99ed683d3bf78b3369936a662220594d849eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_guia_armas.snbt"
-hash = "2feb3cbb35440d4a6a5aabe1a535d30d3295f25f7c38c43d65e766cebdad1809"
+hash = "7f8f6c88f7ff6e9fe3ed538e14e6bb37ed7f49c2d1b0b1ada4ea880a1e1e9d4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_guia_como_funciona.snbt"
-hash = "c9fa95354e69525324dd28c9dffbe93bd0aaf1abc144d789da33b289f078c86d"
+hash = "8f45cb1c35858e8098163f3576be5368d3221911e5a11a5198fab70cfa0bfb8b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_guia_equipamento.snbt"
-hash = "578188e6f23c5323cf48082a238f2f06577b61de4275f1d648757c30d60dde91"
+hash = "cb34420874e40d4acbc8ee7e0630b9cdd3066a6fdf3b812fe1e225c3dc51bb89"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_panteao_alter_deuses.snbt"
-hash = "70224bf3a5a26cec8de463f6849dab7299e905e020d325e9a5815772eed63ae0"
+hash = "fccb250a1614e8b1d40f4b93cd8e4cf9aefd998ce7dfa5f06c9857059b429d3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_panteao_deuses.snbt"
-hash = "9dcd2f9e6d2982d9a4cf46d430ed223e4bc01b5b0be999e3ee397e8db3cac07b"
+hash = "136e4da85d753c9d9ed33c30c24815acc0da7766e92cc998fa7a5528bc70675a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_panteao_semideuses.snbt"
-hash = "7f3619a1585d794d8ceffc4bdc181c92071b8ff3e415bca08e324362d88be74b"
+hash = "b8be2bf393a20f3ce8935cd3bd700164b5ca741b86380e517cde77b02ba40d44"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_contratos_de_caca.snbt"
-hash = "35d77b09f07e4624f5b56fdfcc972df38c07a40ba94474b2d9604faa5a747868"
+hash = "6adac58abb587219409b48368c933489a1e16713b951a6a2d00a804a430101a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19_seu_oficio.snbt"
-hash = "b3b405c9a2dc709c8b06999bd344aa0b18d47bfa6e88f85140bbeb219cf0d541"
+hash = "78d2d526ee46c1fa8d719d8f3f6fe611ba54999db33a733a34f455661d8f5a18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_alquimista.snbt"
-hash = "c503b30894bebb5a3cde72b4c6a71832648dc524e2f60eb1a8b6e11fb53fe386"
+hash = "242fe8bc25a00bc4526297ac7282cd6ed7af9225a49a050d684d55305053ea13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_cozinheiro.snbt"
-hash = "06c13cfca5e80c427995537c9ff4fdd16c095a383f9936916dba8891c6867a9b"
+hash = "b47230149b0892d7dbe017a9fdacdc7a9251090911bc4c1c38116d7b3e1e1a05"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_encantador.snbt"
-hash = "0c8d3a93aff5d73d592144bce3cca33b6e065b8cfb2a3d33f2cf2ab20178765e"
+hash = "24db6dbe41d6561843e1cfb61879fbdb3c683fb7988c2131a4c14c14f0cb61bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_explorador.snbt"
-hash = "121cf5cfc3dea30ebb3ac0f4273d614d945e7cce4374c2d95ac82a3f64ae7690"
+hash = "83fc2c8db920137e9685f81ae5825c0e6515e4adecfb3e7d1ea15acb050174b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_ferreiro.snbt"
-hash = "925b49c46625b2fed338e98209eceeb9648f78a31112e157e05c0744cff5f845"
+hash = "8b15f82fafa1df89f93dc2ea2956bf1c01a12ac184f51570797478b298fdd6d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/20_oficio_mercador.snbt"
-hash = "e8b86338dc34bcfe318a204499427767418b46a783dddd706dd69faa1aa0a455"
+hash = "faadfe5e40a0ec20f881fa196ec0090a44d388a3f218721914c9ca328f00d728"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/30_mundo.snbt"
-hash = "207165a41e7d17802b66089aee61fae3c2f1714925e87c66a764f7a932db87c5"
+hash = "370ffb56cc45f8dd86d27e3de9ffc088ced007e40720bedca65ba965e224bbc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/31_floresta_crepuscular.snbt"
-hash = "35805a8b0aee0a6b14e57458d57cb05f6b9595ed69fc9833d51dba05a3d504f0"
+hash = "92f0e4fdc31899f540691be3bd8b41c283d319f77be14453ae792938574574c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/32_aether.snbt"
-hash = "e1b45ae7c73df69485a969c1105c03e60f2493a8167065972a4cdd27ec8b5572"
+hash = "96055b96a600170dfd56e233cd3b05bdfcacfb3ebeee973bc727b877677d6627"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/33_otherside.snbt"
-hash = "055ba51337daeaa3d899802338c034517c63bf6a5ca8c744d59666f293723620"
+hash = "1f28df31ea6290756cc2ecfb97e66d0079837cfd0f625be9e963f18df9df18d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/34_dragoes.snbt"
-hash = "187ba5e82702b21db2b46f8c09959897a0981b40d8cfce81757981b81f446983"
+hash = "81ce571d9aa711e04918e9ee594f0d19577c54663297b5c2d5c54f2c6d577508"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40_mercador_da_coroa.snbt"
-hash = "5600fb183f03708a40b6003ae70d2e011318cd2bcfbe636e14eb087bae49988e"
+hash = "e17a1132344ac21b464a1f42a2b7660669266a4b7425b4a8c264b5ee26d77de2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/41_melhorias_da_base.snbt"
-hash = "67dbc374107b5e2dcd1bc68950fe87b714e8936a185e114b8266268720647d49"
+hash = "71779a202a5879622b112f8db4d151cd4932c381a6b5f6867e75a5926c6c2135"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/50_coliseu.snbt"
-hash = "a4b0f1cf519410203a475a0d33ee2148aada7384d01ca998bcd46504b9cee3dc"
+hash = "715560cf269d6a23e1ea40943a7416dda30094ff5a3f8cdfa175bda0ddcd7c63"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -274,35 +274,35 @@ hash = "891b1b37b8bf34bd9cb8eded52b1ae497da2fe4ac04f8c7b5d25a78fd0cf9c96"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_cornelia.snbt"
-hash = "1100c63c44c90e270a42b629866739c5e39d006911340e15b78f80362a7662aa"
+hash = "04dab8988b1e9e670c4ea405d1307eba592d1bcf9a59415d3c47532081fd5fba"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_dragao_anciao.snbt"
-hash = "a465220d17a57ddaabbfc1c3f631fe02ee852d5725930c5801329e0d4ba94432"
+hash = "aef725887283907edf72021f9b6576ee9dbd40590ee9a6c06491027b42c3a274"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_enderman_mutante.snbt"
-hash = "3548ec9b7a6edc58330860c6b948acbc16590db01209288334bc5534dd643c91"
+hash = "608f4499bf2673967763d37e87377131334d5c9f85392e929bc9ceba82bb3102"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_espirito_do_sol.snbt"
-hash = "e23b9e697842883f5a52642a0c033dfc92240c62a4dc3f6b816f2a6a036a8f16"
+hash = "9db9a0db625d2fe911a9effd54aa5da4613bad3528b85fb97605142fc06fbda3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_frostmaw.snbt"
-hash = "c4312db22c4eef863e73615780107550cf4ff72bf09c695c9d561f358f03e31e"
+hash = "f729a7a6922ec6ad592b8d5590f3a01ac967aa523e0bda0e3d2ea1f4d6a7493d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_hidra.snbt"
-hash = "a4cc6caf80a2d7a588c71b48d10a986366b31ca98bd5a615525f2469c2b1d52c"
+hash = "901ad63832f9a09e2317418e67c8fda453401670441aa6914ca833b73b77b133"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_leviata.snbt"
-hash = "e82abfa2ed4da47b2edb844b2d33843753380c584fcdae868fec4ecd4a0729d6"
+hash = "20fe4186d50301224f832a8331102d20bbce8f78b22d9d7788bf676d6c84542a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_lorde_abobora.snbt"
-hash = "91a9db113ecf1ba9550202d425b5f8f550771dc36860193943d470250e0f3568"
+hash = "45a01439039ed3ae9072e037a5a553abed73a4e70d3ec8f313c585bdf31742cd"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_obsidilith.snbt"
@@ -310,15 +310,15 @@ hash = "f32f84980a069f109e47a3248410847d25a3435227f8b747d9d375c0d36e2980"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_rei_morto.snbt"
-hash = "9a39599459dbc6280caa0a11e7825e2fccd036c6eb3af936e20c35e65682d2e4"
+hash = "c232744ca2f08f997f1515491eb68c44f1e4f9655bca58fb10d60a09fa26550f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/reliquias_rosalyne.snbt"
-hash = "7fd045269231c8b322858fb3a1e1bada3a0d762733ceaae490a5b0e1a8463d50"
+hash = "42896baf496364d06933b88a1cb93cb54390f94b33c6e0db603fef943c68e75b"
 
 [[files]]
 file = "config/gurizes/wiki/index.html"
-hash = "a38e1fcb16a6cd80792716cde07d8ea0f52b011284dae337f80cb3512cc15bc7"
+hash = "899faafe7835a9e9e17cd329ec9756b03ff0d3aae2214aca8e302dc1ce453459"
 
 [[files]]
 file = "config/iceandfire-client.toml"
@@ -339,6 +339,10 @@ hash = "f2e02864a6d5a5ce2a7d7f7cf3de22037bb3f668230eb1049826484c239d9867"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "0ba156932060b4e8c16d39902c6c0b30ed7fe58d1d833d67c8329051dbe298d2"
+
+[[files]]
+file = "config/neat-client.toml"
+hash = "a84f2d4def6dba7dfbc4acbe81ebd33acdf428d9c9ff3daec5c25edce74ce7cb"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
@@ -590,131 +594,131 @@ hash = "e185de140b8bc154f75ff4f0b0da75b196a0aa71e1adf5e6a03a270831970d2c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/aurion.json"
-hash = "b743370e30f40d4b645015bc0e7c6f50d563f5bfef0d155dba519bcd5013218b"
+hash = "43d098635d05bdf0b65e43acfe13ecd78ceca0e6cc5421244dbaffd85e542ad1"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/brava.json"
-hash = "27f7293ae3ee29b823685a9fadd94d2e4493703d83ea90e7ad5349f6100c0c94"
+hash = "d2c1d1fc9180dd3ce78465045dc3d5d33594731af973be33754378a9675f4a3a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/cinzara.json"
-hash = "8c2d5e8aec18e4d22fc65ea06497fffb91f7d276752d1f9b32f4bef0fed42e8c"
+hash = "30d63837f7eba6c012b52d69bef37f9d10f8ac3702037ae4a6d30298a6e04947"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/ignar.json"
-hash = "b7182974e561271083a65f2de2d00269bdef3462da75c1c8d74656ee49f14f8b"
+hash = "ee5d8b3e6f90b29f0414dd9a8eee2bb041321399294f3783a8e3abf23344357c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/kaelum.json"
-hash = "fb3537d20064a93258e51ac6c5f453790ad8ddec29fc205a0776b20e75af23df"
+hash = "b439a285ff27adc870fcc3a92c53a5cf6a586cd246cc104727cdcdf3e79766ae"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/nymara.json"
-hash = "42eb37370c742fccf630dfc8a439f1d32eed48c72b95a9ca63245455904fe183"
+hash = "86c4ad35a94e17479f3bae02e3d281b4532155ce10304e4e82dfe91520f09b87"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/tellura.json"
-hash = "de27814080e15f0e5d21484c77a7b1bab880a53fbd6d54c18092986a1df3b319"
+hash = "92b0f2247bd779d23ac5513c037cc02a0fa60fad2876b1b662a3f9801a3387bd"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/bencao/vesperis.json"
-hash = "0cc905d9af59db1ecfefd484763e186b7f26dd4daccee37c0986e7d32af34c31"
+hash = "3f2d20c1dd7be65f383ec880a28f119fad6db63238791cc2253867600b030dba"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/assassino.json"
-hash = "e9b860aa0b8ac76fe8cef993101e7deef3f30a8db5c5e452466cb05879ac0b79"
+hash = "278c60cd3aca23c328797a780d56cd85fb43994654f176c502c8075b788b904f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/bardo.json"
-hash = "a2643836891b8979fd914326398ff156d5d0751f7e61959b3216a0bbe49e0573"
+hash = "0183828fe0d921ee303faa9a1e00a0daa047edd0c7e7c3a69978b88c9402a128"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/berserker.json"
-hash = "c40581a8f913db5bef31564bec0730c3a3c0d19b4ee60a60986bc4255135c9dd"
+hash = "191f2bb188ff1f423ce8e7828ed464345994de3d77d1b353c61709f8e5c70147"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/cacador.json"
-hash = "cde1cae5b57a8dc22105044db5f35bdd4da847e27bd39ce9b662e071e55e7664"
+hash = "af2c6686bde9121a6c73a79ba86428f3f6d4ae4b15239d33fd65112f856e4286"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/druida.json"
-hash = "9667015f07705cd3f29d4563bdbc8c702e0e859f3c065f6992a5434cb25e0f47"
+hash = "cba1fec8cf47a0687aed07ffb146c3b16d45fa4bf8e4540468ae4c111eb655f8"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/lamina_arcana.json"
-hash = "667695b2da74ed3fffebc4d54ff557ea771a36d3a063ba12b37fa9facd7c019b"
+hash = "2ac47a97ca62c51c9612681ae457723ad8798dbb5d8b61a33f351a19a724a806"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/mago_elemental.json"
-hash = "60499d09b0a019e7edb3f752c628bfe9b658fc673a65ddc67fe62223c8c31bee"
+hash = "be40667a0be2e63af03379921b2249bca7b6a90c77b5b5eb77a1ccfd19406465"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/monge.json"
-hash = "c91cafae404fbae5e963c8932821d62e20d92a6dffd51e545181dbf6a297cc86"
+hash = "df14504edf10ac7310d97f01137cfa0957ddb42c210f661145d0e1c2ead69682"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/necromante.json"
-hash = "cea99321b894e0e85632208e2690209ac33c64b56b9b3efcb0235dd1677082fe"
+hash = "e4c2cff594be615f6cf76060db27eb1bc66a1a20dc95cec248a23531ef329865"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/classe/paladino.json"
-hash = "7e712bacbb69d8ddebea6c2243031a2966b4770d4916977cc86238dc2bf7c9d5"
+hash = "e31e4302dfe8a2d7efbbf469eb4a25cad8ef57ddb018c2f880eec868accb28db"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/elarim.json"
-hash = "f42ca1422e27f3a3283999afdd961badf96e9966c374f0b9578980c64a6952d3"
+hash = "3df71cc29a6c894e75c1607cc2a6204c4d1fe793c545a6bf83b8915da48d7ebe"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/estelari.json"
-hash = "c93b3738459fc04c962439aacce091f6d5738186de8bdafbec9b165c95c27857"
+hash = "4f6804abc58ae7cc4c00b64cd428bb8b51436adc3c051f014fb8e3aa08a49389"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/humano.json"
-hash = "619034e7af9769ce5c11d508d7565c403220e275e857222aad3c11693140b1ee"
+hash = "2a810b8ba385d89da9afb3bd1f39250566cc3e6ffe63c2d84f8464ac7e25a9dd"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/ignari.json"
-hash = "f83ad23a263278a296d4da665f5f23959f3465e0d601b8849f59f426ba36404c"
+hash = "6afe8026df986d68d0ebaaca4554893a4afb0c839d95bd58ab223f0b0dfd48c9"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/kharn.json"
-hash = "6d75505e90d957bf39f5571b77c45f3b5030fe8218b470a6764ff2c3afaba452"
+hash = "7e1538933ad913b7d1ef147b50e944f1178af3087e3260ec1b70fb052ca0c720"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/marcado.json"
-hash = "6760036e02e11255326142dff109a70fb931eb0fb1c9668da74d0f7f9a2a5745"
+hash = "ce97482e154d15c5f72722a949da07b80f69df97cfece751410ae1d9529306b2"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/mareu.json"
-hash = "ed6f51ddcac7cc690646eb73cad2b62413916750113363f625a67e2fa1cac82b"
+hash = "81de26001ac6fd29b3d6cc65c030205de9ee6389156928dffcb26527a9c74501"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/pedraforte.json"
-hash = "e511244571c2775048a944541571899b438edecd9f7d070796311acc4c6309ae"
+hash = "24514a204703f8de82ca1f9f48531c18aeea34e50fbe62086bc5713c43943293"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/pes_leves.json"
-hash = "9336dd93778e3206fc90f37b37ff5250845da34e0e25beb2af643ab0a3d65639"
+hash = "3f0b81c93133d09da7613ebd23890b30387b6c30fe98194c15a9eeca3706a6f2"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/seivari.json"
-hash = "6f37e7dd1612c773239dca3e27e4a3848a65c3913ed4f41bd11430351dea456c"
+hash = "89e6ae685d61368327af5df45f4ac3f11401e360c72971e3cf9427c34927b64e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/origins/raca/ventari.json"
-hash = "f96180608a8030bea5b8fd43edb71f220c17d185044fc8866074692178010894"
+hash = "0af186833529f12b35ed0045b240be2befb4dcd76ba8d425488d64d1eba8173d"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/aurion/maior_aura.json"
-hash = "8b0f751decff4641b701c4ca93ab39a93f8446f43d76d2ddbf0b70f46d800fcc"
+hash = "5f825a78d57aa18fc7fc14538f3782901b5e3fa08d2fb8abd60db78b76a7b84f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/aurion/menor_luz.json"
-hash = "7d508a22b463933eb921b4ac2215139ceef451c9359346f93284310929533649"
+hash = "dec033f184d56b6f45c2a834c3f9828389d091ddf5f2be93062fe0ee42bc2199"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/aurion/preco_paz.json"
-hash = "ab6a87d5a8a44834325d18ebb73033b201534fd916e308d696406ff97c67ce8f"
+hash = "710311f9f26840e0b333b75ba14360149baa5cb777f092ed374cd2cf87839897"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/brava/maior_golpe.json"
@@ -722,19 +726,19 @@ hash = "1c421c286d80516fa54161db2190a081e77fa09240136f5126a1941b04c6c3eb"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/brava/maior_investida.json"
-hash = "7fc03c866d81009f11807e0d7e3462193a8672dcb069fc67492450968a529d26"
+hash = "517ab98e3bdef4e2ed52e962d8359c7d615faa05f3c21f610cd2449e1f67a4c5"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/brava/menor_coragem.json"
-hash = "c7c5fd0ef1540d76eb0118d5250c7dc946504372a312cc09b24e2d02ebdead35"
+hash = "d332fb6c0bd31bba8be8b4db71d7c1fdbd855fd89deeab0c35bd870126c51b68"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/brava/preco_ousadia.json"
-hash = "30f7a4deacade6c33939ce67e10c36feece1f5e9ff4a1bb285da612cf5cde810"
+hash = "80a0f1f9154503e8e8c709b8025812d0c80af940eda8724a3d2a89f35fb1e196"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/cinzara/maior_apagada.json"
-hash = "d6c91de2b2b7493764e4e15435fa38c37809e4adb7498ab5295a31966467e163"
+hash = "7f39f5e1247860ff6886f4b719c33547a600991a3166becf3cdb57337901b17a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/cinzara/maior_brasa.json"
@@ -746,7 +750,7 @@ hash = "a3395d742f65f2032e87e8eef7d288cc15e4cfcd77680c98bcafd25d1358a5f0"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/cinzara/maior_renascer.json"
-hash = "c70fbedb6d438d8069d58baa2e62bdec29e47512f9ab889d0f11d51fc5f1486c"
+hash = "753006f2235ccbc28c4c43cd62f8c1f31d931578dea00be701d2f05fc087f87c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/cinzara/menor_brasa.json"
@@ -754,11 +758,11 @@ hash = "cdb6c9e7962d04ee2772d6326f5f732c135ae56741efc60efcea7e362876218f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/cinzara/menor_centelha.json"
-hash = "3d302958ceb17aecf4ffc0be857f76d06f4f6b7f19c1e4719e25bf5dd7e9eb89"
+hash = "0ce7238c9416a59f579737c6057d9ea3e7003104616d91e5da14209ad3234842"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/cinzara/preco_chama.json"
-hash = "3d1c5bdb53f5a01abc804779dc6e2f9f9c6c35c9f6469aff2eb5e104cf197f31"
+hash = "95c047bbdb3dc4ab49a6a0e0c5cbb307d00fe40c1b6120abe75beab00a43b776"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/cinzara/registro.json"
@@ -766,27 +770,27 @@ hash = "31588311e20f51b7d45987210a0c8caba8e39f4bc33c9f2d65d4efbabab952d2"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/ignar/maior_tempera.json"
-hash = "e53d85665210bba238e1616728720430146aeb2359538caaa774ac7ce496acc7"
+hash = "e42ad5181d9de4ff102846742184aa4be74a9650ff6aa89be9c4c972e985b172"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/ignar/menor_bigorna.json"
-hash = "8ae81f8b8dd09ee075740d9a49e37d96f1c178c95c8eb35cab2ce92e40ccbceb"
+hash = "e36b351c4413d16efe0b1c4aff26361d4a9823cdfca4a837c142a9b79b21d38f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/ignar/preco_aco.json"
-hash = "45f6f2a2cb23573482883601d0600c2f56bbd8c32bb80279aa77bb0652ad4ebe"
+hash = "2ac41e3828028b16bade4e1226f8f7a4f48315372a784748cb5f67729778190c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/kaelum/maior_constelacao.json"
-hash = "ad847b8086415f651ea57a3c019d57d004d857eec54ad02276d469fe54b0f0b7"
+hash = "969b9bdb43764e27c46326242d180fae4b6f4fd1fb0e33101cf24f700a78c5d7"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/kaelum/menor_escriba.json"
-hash = "989dc1464392c2d111fd3eda6d7baf7d6d807e700b7b2a1fcac60198a17cbcc1"
+hash = "f9b7bcce2c9eacb067bbb89680a2a03c33cb50a12048ac96580fed5ef4b2f05f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/kaelum/preco_estudo.json"
-hash = "df3d7618e841134b20418333196f46a249de9071d5360df3076eb7846971747e"
+hash = "7f1a8c10516a19432febd7fcfb622e5102dbc9e0f9ebecdd9f1486cf7f9d3e3a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/nymara/maior_ritmo.json"
@@ -794,19 +798,19 @@ hash = "38f3be2ad0fef5efc1b111dfb82ff8304373c8fc0f8873c023ea3ddf520aa510"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/nymara/maior_trovao.json"
-hash = "5d340de8320213614e432fbb1474c9577a50403f8034858d3a0def8d32e10384"
+hash = "fdff2c7aac5630ff78363359488d34c500609513381ebe8102c98b05a2ebbcb9"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/nymara/menor_vento.json"
-hash = "4ee383d95025472a1e702f0dd7e735b4d5c9a0fa89b54f215bfc6e5f498818cf"
+hash = "b0c2d21fd8927e2525efcec4e2d9bb7b15bd184f0c542c8739f7c3021842d41e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/nymara/preco_tormenta.json"
-hash = "6cd685ffd0f65a9734f6750cb322bd053b8c0797aed0778573eecc4a063f7453"
+hash = "2fcd130efbe1f1f6a2c1adb97844951dc61cf15c6b5a21128e0ecba92034c408"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/tellura/maior_folego.json"
-hash = "1b6dcee119f8db9278c4eae58f005e3f993dcf955aaf9b1a85cc243bcd82d1db"
+hash = "aecba8b4542baae1602eda154d615cb296714b81a2735449ba2f84484dd35aee"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/tellura/maior_mira.json"
@@ -814,7 +818,7 @@ hash = "81cd1686bc8d42a9d356a75ba4d08c582f3853868a67391b69afadb7014ab327"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/tellura/menor_caca.json"
-hash = "33e5948bd817b7a77a0f26cf3accdea98185b2e809b061fbb8bb33d54e8a5d82"
+hash = "5bc90f5c14a288f26fd0c766459f535668fcfa763126158b843d3c4168c0a601"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/tellura/menor_raiz.json"
@@ -822,7 +826,7 @@ hash = "716d3079a05a702b0a0296e35d60d0ed20e42030b376210879e02a7163b06537"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/tellura/preco_raiz.json"
-hash = "d9ef7dd94ae7c228ccaa98aa02635e67aeca168247bf5bd40a9776de878896ec"
+hash = "9b66151e313911130d3f29a262026f39f5ae5e0fe2378d49bd9e4b8d7ec55ad3"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/vesperis/maior_carga.json"
@@ -834,35 +838,35 @@ hash = "64a97d4d85fc3430c82c6c35023533834fc5f054eb31c739097c7d89809342d7"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/vesperis/maior_recusa.json"
-hash = "60d001b5780b2523cc4badf77f43e640a8c9dcf269f8d460d54b982deec12e55"
+hash = "08d17994f1e366a57aa8954762419009b3fef7dd5ec41d18b5bb4f6bd892e0fb"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/vesperis/menor_memoria.json"
-hash = "0a680a34459029ece57a7f9c6da64ae2986b0c8adcdd9277e982e2e9f473f4f5"
+hash = "e1499c1f57bef4ee5f321e3255d3468322eeb2a99e1c3595e2c5e800d6985641"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/bencao/vesperis/preco_portao.json"
-hash = "6bf943cfef17c1e3169f28cba8a48d7da14d2d332858df2884461d0cfa4c3d23"
+hash = "e77babeeef21f0593cf500d1fb4a155ebccd09fcfbb42f8e383266c032c7edd3"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/assassino/corpo_esguio.json"
-hash = "0e8f02aee203dc5e182614f8bf3bc732bf724106e201c3ee4fd019c79a3155d4"
+hash = "88919de23aec6d038ff4d242842a95fd0a489eb4382201fe5808ba07d419dff5"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/assassino/emboscada.json"
-hash = "96a7b073934f2175fc0da38fbf3b744080ec3f3b9fb548a5875d79553f8940f3"
+hash = "24c0f79a6a4d28938037f213fe450f99c8d080236e30ff6230f59fec163863a3"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/assassino/execucao.json"
-hash = "a721adb8132ffba4f6b5dc82365c69e4aff1aa609749455d845d15bacfcf2194"
+hash = "c824cca9a752157bc480e6bb6a6816a982790056a5fcddf5298680ce08dc5400"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/assassino/golpe_preciso.json"
-hash = "bd7290fdf48ac66d380cbc6714cbdd4b852ef9e8fe43b1354e6f4747658de85a"
+hash = "fb6aaf634d32fc063be99d3f14fd77b7d3583ec224d23f1cccb2f2ff871d9832"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/assassino/passo_sangrento.json"
-hash = "f886bf21905a64585fbcc283ff544d7c7a686e72b110b2e6bc73dd4f1fecc8b0"
+hash = "a482f3aded12665a0e493f1bd44e22d640f86f232038c889bc877270588b3982"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/assassino/registro.json"
@@ -870,23 +874,23 @@ hash = "983fff692ef3f1e9cce5efc3eca242203421d71df403530298d3d19a48c7c347"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/assassino/veu_da_noite.json"
-hash = "42985eb3b9301258736ca6fd96a1afbc791497da2300c7b3a06fad8c1004fc3e"
+hash = "22a78575a81a12221423d418efbef0fabc09c8e42441b219c21f5cdb4623aa19"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/bardo/balada_dos_herois.json"
-hash = "db35df033125ee9eb07ec2d4843fd9beb1a733cac206005f2d387edf425391da"
+hash = "2f55eafb9cecd411efaf4d86d248cc606561a2ef9c6ac395b81b9fa539aa5efc"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/bardo/hino_de_coragem.json"
-hash = "c671c89325b535ae6c9ad883236c39fd581e04801f5d1a592c601fe56d9db0e3"
+hash = "caca64e18ca17a9405dc65fb63239f86bcca675ad331f4b9b75ef29c21b3dcf6"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/bardo/mao_leve.json"
-hash = "6b05fc9ee05001df6adf1d9fe9a3663f6628fcd9036af391bc2bb31d4ce549c3"
+hash = "e6b288f7715872ec56adec1aba55c5a6c7ee22970c50eef60b9b5726ee0dffaa"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/bardo/presenca_inspiradora.json"
-hash = "384a77bc80c2f5c982d24044adcc1477ae04b48c08e3592c8bba23fcd529742c"
+hash = "8856605c074be3bc6f662dd9f79164f09e1324b8beb4e5eae01b023cfd3a6de7"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/bardo/registro.json"
@@ -894,11 +898,11 @@ hash = "629ba6f16971d8b1f56bf1d68f7478d69403902256202c316e7818f7dc29a4ec"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/bardo/ritmo_de_batalha.json"
-hash = "6bd08a5e6a442e126dae9e9050b4dbfc2e046d6db4f6e273c1cae3447f8e6961"
+hash = "bcf4adc344c89fda43aa0cf728853e9d457e0cacff92ed42d7a1e1702f2a408f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/bardo/voz_treinada.json"
-hash = "bd3c1da8d2e573cf05a7fa818776921ce756431198085a509ad063700d63201c"
+hash = "2495838b14a68ddf797325e2891edc6a1894705697dfc278c3e339b071b2af97"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/furia.json"
@@ -918,15 +922,15 @@ hash = "03dbe1a8f4164d0bae9a7028a98e14a64bb21e3c587741ed3fd1aecdac1bff3b"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/furia_rubra.json"
-hash = "630cd1f61de96f826f173eea45fdcdcb4e36fe7e31a74d81b395f0fb24ce1451"
+hash = "625f2b57f1dc6e90dd6996884cb2ed80e3b646818bea032b0394e9970129b026"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/grito_de_guerra.json"
-hash = "feb6b90939fd262ff5f26e64aad45639f076c17ebaea4c1b8cf205dde61e1d54"
+hash = "14ea7c89142dde1eb3a5a1f7c5d7b5eeabde4b66b0849c48118700f9a1553aca"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/guarda_aberta.json"
-hash = "8b4cc2baeb35276f28f541e3412d0773ff1f84a75b1de116eb70035c88d6c94e"
+hash = "a63a1872b232b05d3892bb3ee14536c42b019630deff80257c8a802042b3f4f8"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/impeto.json"
@@ -934,7 +938,7 @@ hash = "bf66f388ea13b9e75ea49542e4f7aab4c9c78cd7b74cf0f26deac4a0fb251039"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/recusa_em_cair.json"
-hash = "397970f5499ecf046fcd223a6887edd1ea230631482676389d7f173a0f4e4cfc"
+hash = "b206a1342bd8ee554f328d8d6ee5e6515de794d98d40241a67cc6e0014beeacf"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/registro.json"
@@ -942,31 +946,31 @@ hash = "e5079174b735293c490e9fe81628f7f6408f24bca331aa161bf584a2e2b4d12d"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/sede_de_batalha.json"
-hash = "91eebdf0966a222b5a86ce206dcf1d293e610c817e57a6aaed932a2513b1519d"
+hash = "028929c5d00adb404b63aacd70700d6afbfbfe50934034338782209cbb8b06c1"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/berserker/sem_escudo.json"
-hash = "970de1b6c45cdbf9ccb5199e9a52d752c282fb3067ab46901f6e33b74e4cc876"
+hash = "9d714456e8a927e804ae2491b4e5a4b73a27c5c52232aae151f909bfacbde212"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/chuva_estelar.json"
-hash = "f548dafd018fbc62798e04d282495b39ac5843cb4fb1b008644d2679f3e15bdd"
+hash = "eee38657a37f34c1c85b59c124d1063c86ba642a3ef03848edb8512da0f570ea"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/disparo_venenoso.json"
-hash = "4ff98babf19e5444332ddc0a7440981ce9b52708491d7bb5eaa9b80b80ee2b7e"
+hash = "0460c005947a4f32354b4f97e3b74b3316c7f161956084e51711982ba88acf28"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/maos_de_arqueiro.json"
-hash = "2239b59b9097ae4f34dc1c97943c62cd0cc14e0564fd986e08b0a2c5c9dc732a"
+hash = "a046e91800c41ccd655357b1f65e45597209f35610bbfa6fa1680fed9d0c1d8c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/marca_do_cacador.json"
-hash = "4ee491efb639d0d98dc4b2167e52cbebd3c9d90c3294fc318df3ae6ce2d1f814"
+hash = "d43e82640e8d1fae0156e5a078aff5861d22817b771cee3874c11bfd90c0a787"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/olho_de_falcao.json"
-hash = "f93f21a06e2b72db871d6dbb8372afbee5bfe9ee10a8006ab59a493144ed3f95"
+hash = "55b2c1e44ca5d680eb2ab4d356f09aad42ae72a231d25b24a86dcd67a340f026"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/olho_de_falcao_flecha.json"
@@ -974,7 +978,7 @@ hash = "d11c380cc0400b65af101e27e64bc4d086b0e450c70882452885fcf14f13af3a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/rastreador.json"
-hash = "86807d4af985117b264aaa6f3a8ad1b73b109be321606d86363b8282d44d7448"
+hash = "cf575fad6c1b97cb2f9152ca4a36cf8a5867cd6d9dffab691e1bb2b4fd50ddf3"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/cacador/registro.json"
@@ -982,27 +986,27 @@ hash = "9cb74c22ede43dc4247d99b16ba1bfd476910ec3f72c3862e17fe6b50eb91c65"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/druida/abrigo_verde.json"
-hash = "0cad0f12db1b4bd977302b06b24673595355a7baa289650f610a07dab9e2b290"
+hash = "e24469641fef30a7aa8716d95aee58456832b884ebf51a9ff21028989060b547"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/druida/avesso_ao_metal.json"
-hash = "e40258ed7af0d090ec7424fc9f5fb766cffe4582398b38b48dbfaa16bc302b6f"
+hash = "e30752f4d07db8f400da20a0466c8987982eb63155cb8beee3c20e144cf041b6"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/druida/casca_de_carvalho.json"
-hash = "24f3caef9c500d4104dace92ef585eb36be4c7d68c4073e557e8b28e984766bc"
+hash = "37605df1c4aea7336f08d3b1c54addea6b6ff5a9eadb07fbee0a86161f41ad1a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/druida/circulo_verdejante.json"
-hash = "e017164c63b0f7cd8a4cda97067e3f3bfcb05c3934abce0c5d01b8d1097b74c8"
+hash = "c9457fa59748f8ceb67608bd409b845e3bd5058d9b4e3be8010e2266e622b273"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/druida/ira_da_floresta.json"
-hash = "6d6a506a9e5b560293db2c33b7c994b70e1cffaca2c9ae56eaecd033670e9b88"
+hash = "f4ce685b5d059cfc20ca21093b190123186320d47e1b2e59eb926a87f779635c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/druida/raizes_vivas.json"
-hash = "331f48e4d660afb645606705b243e6c2ba0a8333af06afa3ac45e55d85b08421"
+hash = "87a1731da7cc7fd3aa3234095a3df28296dd9696bebf5374cc69a41180a94bbc"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/druida/registro.json"
@@ -1010,27 +1014,27 @@ hash = "4ae4b1d4d9817197deb4161efee3dff372d081fba0768ce20eeab6ccbfed56c0"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/lamina_arcana/canal_exposto.json"
-hash = "1d1966b65435f1d2538c57726a451fae482b4902e3c34e933fa19bb0a6be02c3"
+hash = "813517d5c60e01809d48581bd34975aee55576b333fb5fea6414ffe2834f1457"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/lamina_arcana/eco_das_laminas.json"
-hash = "644cc563b1073bb7236fa9a3d71643fc63c4496012199cab6f9f9542579fd7b5"
+hash = "b7225a05c5c31d6d43b7f9bcc30057a0ea8d00b1b6b49d3aab4c7cd2d2c27a8b"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/lamina_arcana/golpe_canalizado.json"
-hash = "c76fcf1f4cfbc75101ad88b33357d70d7c55c3320eb065c8a726bdec9b1388c6"
+hash = "a22c84e4afdc15770def6bba40d49506af046ad9c75ffcbce3870d50edaf2059"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/lamina_arcana/investida_voltaica.json"
-hash = "2d87609352ae5ae865a77f109f34eab64f7ba7501fb886def03b3950c989197f"
+hash = "8684406def15c9891388f335dc46e3bf40ee147bdca5e15eb8735de2cc46320c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/lamina_arcana/lamina_encantada.json"
-hash = "3a85c8769646d655c09d2772ac20759a08cc195594bfb3d5f517afbb487b836e"
+hash = "6f3dff30f164dbe3a57ac46e7964e95130bd29ee35e0cc09ebe84f32de3e860a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/lamina_arcana/lanca_do_trovao.json"
-hash = "0e050bd1399b9ff1cbbeaafb671015155ca4728b2825c6fe649d66ce0e5fbdbd"
+hash = "19a81dcd2311eb6f4c3b1c5a9203e6fd0f8d45869af1fce272a2a292dfd0eb82"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/lamina_arcana/registro.json"
@@ -1038,15 +1042,15 @@ hash = "e4ef5cb4b6a1b7e5e5f7365ba3961bf77589ba595e6e70d3dc4a3d3bcd057778"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/afinidade_triplice.json"
-hash = "43559bb8cc39aa234637cd62cad0be5a5cd4f8a7fa8a26c22357525749cddf6d"
+hash = "6261935618d3cdc26d5d42c375c3d00561161475e4e6690040797f306175e3b3"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/cataclismo.json"
-hash = "dd58cf22ceef7edc3ae31d5e15976d79e079aa13bcde0ee210e1acbae7737f35"
+hash = "d4f86df4369796e4b671268b2a28dc3025b025f42a9e624378e6548db92b4b96"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/corpo_de_estudioso.json"
-hash = "910f3a1186e234b5b576b47634b7138c041d150f6bb33a29ace088b2dbefe301"
+hash = "4c7ef11b55a1022a8c4b3bd88a7febf1c7a2ab333b128a48cb9de6c7b07c3139"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/corpo_de_estudioso_vida.json"
@@ -1058,15 +1062,15 @@ hash = "516a9bdd3fa54ca864c2e3b852705c28782b25aa7f4b245f8ca3a6cccc257982"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/erudicao.json"
-hash = "eb5a17f62fbf5ec8f9aa486a9f4c02cfba4774cf4df8882aaeab7116be733ceb"
+hash = "e6d1be56bfb42107e5e88130fb3d548491d76e885289ef40e5974f15203cd83a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/explosao_elemental.json"
-hash = "85fbb09ae4467501ac3f22dff1a7497b384414e689f1f02c8ebab765e3ffc24b"
+hash = "46ee9937526ee301bbcf5a82d78c5d2eb135659d9336de8eb630b70fe618ae2e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/explosao_elemental_2.json"
-hash = "2ed53825da94116c5271e716e8cacbbf53b58b487a70d6bf38b388f9acf93968"
+hash = "41e864fe7294368638380edd921d1bd47442718f2421dbafe4c9edb7729bfa59"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/registro.json"
@@ -1074,11 +1078,11 @@ hash = "d06c76f33061160e45a588e24a6ebe30485e50c519e9608dcafc168dabdb5e9e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/mago_elemental/sobrecarga.json"
-hash = "8dca342c89521b397e4d7aa027a29392edf7f1965e3467dd0428f2e847c22247"
+hash = "63541e0e2f686760e555e288ffe5265b4c83dee84f88e7da700d4c737ad5ac21"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/contra_ataque.json"
-hash = "bfa9891ae71d6162b343bdaec84633901b465284cc20cd3375e3af34861234c6"
+hash = "b7418920c26b4d254b67e8429bc3250e281822654198acec89b5b2fe1ffd6a17"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/contra_ataque_forca.json"
@@ -1086,19 +1090,19 @@ hash = "31d8f8e2cb1553e9934d1c522cf0f2700610e7aec6f4e155f91bb1474c3a0660"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/corpo_disciplinado.json"
-hash = "e3084f9737705a183d305f098d94661128a1de39a48f0f285f18ce4276d6ec3a"
+hash = "adda1220181e8f4e4842504a9f9ba8b89af0f1c7e5dcdb7e6f3cb842caa999c1"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/mil_passos.json"
-hash = "1fef6be302eee1dff2720e8255aefa60182c35471675ae179b282043f988ae4e"
+hash = "557e2d4197e7f8e1b0835b9197a08fbf2d28da9c7fc94f05956642f8967b4aab"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/palma_do_trovao.json"
-hash = "0a42aa12ca64e6e52d8ac1c7644fd1f2a40280a1d8f9b5e5bb129ca2445ad202"
+hash = "40867f6f642052413e0cbdfefbcc391160228ac70c44bed6a85725669d569395"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/postura.json"
-hash = "92ea0cdce9795fa9debe7db5e1bdd3310532a55acc070988545589f511ad331e"
+hash = "51477e5018b937869a30c9ad2635f61a61dcbef8acdef5d8b525e460094422d4"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/registro.json"
@@ -1106,27 +1110,27 @@ hash = "af2890c233c4875b3943c1dffb689d098260e1479edf9485114deb7921b8b84c"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/monge/voto_de_leveza.json"
-hash = "3bfb26aafe8509537a4e33860e14346f65e35872db89ba0a9adb672708eef410"
+hash = "fe2703cc3509eccbfcf3561b692c1c21bea0a86c5acb992997ba8499e3134475"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/colheita_de_almas.json"
-hash = "2a60b66f484f783782e056c29cb601dcf3ac02c69ef9f75a2b27f14796a06fcf"
+hash = "5bfc7cb035c2114b4b719c1f826e356182ee2f0f71cdee46ac6959c96e1dfaaa"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/comando_dos_mortos.json"
-hash = "6a6f7ed0cb12f198d541f603a265ca7cac653763c135eccbf77310fb901d59a3"
+hash = "7185beae904074f411ea1e35bb531dab73f2f98f982f380d51b6d83eb05a762e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/erguer_os_caidos.json"
-hash = "70bc518367241557e7248649a9701b89daff0577523bf25b8f8d41002150d840"
+hash = "e7d85b626c17ea29a5bbbe28c2adc9225f235fed75fbbf261dff0fe26c7e3b30"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/erguer_os_caidos_2.json"
-hash = "b7e26e5e19a9a48a194a23f99c4d5546b5e228bb0771562a85c98867ef7e821e"
+hash = "a5f5dedf05d75d34f9801d39ffee7846753cc57309142a4bc2f43af54146dd1b"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/mare_sombria.json"
-hash = "45566b2e4a668bb5af8ec37c4a541ba9a9672fa6ec6f125b27355ec2161eb0b9"
+hash = "0a4df0f06d733d414e75fee42ee13e793dbc1b2ff3c55f01a16862d52149e987"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/pacto_de_sangue.json"
@@ -1134,7 +1138,7 @@ hash = "8bdbefa9f2b4adff181acd527799c406c7a346f0cc78e534bd3867c2ff49203f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/pacto_profano.json"
-hash = "b2df279f12a60c5ef610c4f8c4bc7525f024db3f1875cffe7179603c7d18873d"
+hash = "446c82d9e31338952f38e9816090e337132fae98c2782092c871755ee9fa2323"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/necromante/pacto_profano_cura.json"
@@ -1146,27 +1150,27 @@ hash = "c2b11daad7748c6b502e6997fb3c51e9d60063300521e55fea33ea378097f720"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/paladino/couraca.json"
-hash = "eaba9099ae3942f369c0f91da5b78eba0d35b969723ee9304d5edeff718b8135"
+hash = "564ce9d1919eab15e512cd5923e0c4386baf6b2584b9bbb1c852fa876c6aa925"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/paladino/devocao.json"
-hash = "3dba27990b429cbd6c801ee18db85e62bb01377d59a0a0c2f985e707e84705c3"
+hash = "f98267c39412a6ea3d7df8edda80d9118be2f24895fe10d073c38d69af6b37b4"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/paladino/escudo_dos_fieis.json"
-hash = "3867c481fa6f40ff06130891f22897135f186c85e1bdb0421121b81d84c5cd1b"
+hash = "b90191be21aa750bf42f5214bf89124726c692bbb794a812286c97f53ed6a618"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/paladino/honra_do_aco.json"
-hash = "6d6ff44bfca57fa3db3a35a5264f187822d39ad927a11d88511b2a707e73f225"
+hash = "c61ff0f40664f23cef7962ab70ba746cb4354ede75a90f8e1bdbb98972557d4f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/paladino/juramento_inquebravel.json"
-hash = "993fa046ff6051f9b8e5e57b9d6581edf6d6961666b96ed85968aeb327e60921"
+hash = "3f1c9bbe1d56520f5a52ed43366b04a0b56e27112d32bc842e8847e15cd75f2a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/paladino/luz_restauradora.json"
-hash = "1cbd3528ea8bf4f1243178a777a109010c811812add18a03e344ec45fa8c952a"
+hash = "bb5093f6f44d92a33e4a79f50cb7071bc4d9c72a2a69435945e06cd4ec236872"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/classe/paladino/registro.json"
@@ -1174,31 +1178,31 @@ hash = "dbb1bb15b65b64d4d72f0a76f1a18e7d13d489985eb09db907c3dba1a63b0b6a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/elarim/constituicao_esguia.json"
-hash = "509ee2eb8ed420515050a47807ddecedc5494cfe996399cd18a6a28f7dfe0fc0"
+hash = "98f0126587377e9ccb959a959d247b2f5a611aba37912043e839e7ed34cdf164"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/elarim/olhos_de_lumen.json"
-hash = "2faa73b19f44eb160243f0d44a69c223d4e34182d8fcd9732c0eb9412708ed17"
+hash = "09d09f328697cbaf1a76f78c788801b73310a082a9c111e8c6a216c3bd9d0243"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/elarim/passo_leve.json"
-hash = "6bb31767dd6e1aad0319b15673fef4d56d469349d73d2df916e17573ca9f8ddb"
+hash = "9ec4e38a2612874d1b582696f634947699eb649aa139ffbacce71a67f39f52d9"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/elarim/voz_da_mata.json"
-hash = "a3114d5a4677f8f6812afb0f5f906c0dc2bbe25e3e8c92f230c337253e33a098"
+hash = "dbfd82504140f75fb9818555f6e6d262f0ac08fbf9e0742bc3bf4382ab1e23c9"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/estelari/brilho_fragil.json"
-hash = "42a4cf1f803ec62798572e19a95ef6b9155383ee8f224d270392b4037b43a1bc"
+hash = "dd42aedf3e27d5f92023a60512fd6c3bc1d88b3b2f85739dda091d88f36e7cda"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/estelari/ceu_noturno.json"
-hash = "b8179bd0a99369bd10d6234ac0add526e65ca3cd081cd9a4278b012695f0346e"
+hash = "7883e93793c8f01fa69b5246ec422f2d310f5b39ca8fe87175ac0a228c725599"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/estelari/mente_clara.json"
-hash = "dfb76367bced5181e6d07cfe7763f5b5846964411693fc17138fd8461d39eac3"
+hash = "40ea41126f6d670c15a365ca075f319ceda9079e4429992abc835799cbb31564"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/estelari/registro.json"
@@ -1206,35 +1210,35 @@ hash = "5979443e76a4bad351c8eb9889dfba9d20d301ed942cda341708436f959a2276"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/estelari/reserva_arcana.json"
-hash = "04b87e131bda461b22bb6c39efe218bff68bf88066bf85a7a8851291c49e1ed2"
+hash = "51e9e11cdd652c53fcf81829a496847d6771eecce636649a290659d0f2818d12"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/humano/aprendiz_rapido.json"
-hash = "87b946ae3c70023ebc0070ffa3ac0fda0084c84d9a043ecb2bbd2f4fda3fb881"
+hash = "6f66b572e95e110e0c89648545539160ac6bd180bc32bdd7ce87d1791a4f0f04"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/humano/determinacao.json"
-hash = "a15f311e7f1594004684b4cb1d913a5c7578a4b85436eeb260080c03eb3026dc"
+hash = "a4b6ea129909353426e801a50ec512a2771705c11271253d41012c68e98277c2"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/humano/fome_de_estrada.json"
-hash = "d22528ebef865ee75fb277e4b4b65baa7c2a463d4f25b33886a53198d1831fb2"
+hash = "e658c45feafeaffdf88bf41279447134b35018008cf5855aad33fd5612578282"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/humano/versatil.json"
-hash = "044dcc12a180d54eac668551a46863cdbf841ec78138db4a235a7a676fe3c0b4"
+hash = "c18bdd272d74ef48ba514f2620becdbf156ecc0824f714b1ea46106ea1bb196e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ignari/escamas_frias.json"
-hash = "fc28034e47f1cd0381e22d014e4e96893e22d304745e5ee23d7960cd57874aec"
+hash = "3118b46baaa7654e297068885a1ba4576d5a647bbf75a747e724492ca8fe5d06"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ignari/sangue_quente.json"
-hash = "91955b5196f0f90d3f01a7d9d23ae5fca88d86730d6e7d0ad8f96d37e837c547"
+hash = "d018b3e5e13b5992ddb94b211d7f04e025dd3d136ffe48f8c050a988c177068f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ignari/sopro_interno.json"
-hash = "ff7f6dbc9f69f158a5196ee149ed39a677f3f79e8a36d03291158427076e3988"
+hash = "b76e0d411e4ea1bc6114861987f53de94d0a01fd7e4171e88659489770eb5b02"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ignari/torpor.json"
@@ -1242,91 +1246,87 @@ hash = "e86425db8e804a0b6b2053d689b49615d031b1d4da21976ede1202c652050d88"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/kharn/braco_de_ferro.json"
-hash = "e8361abab384facb019d5051c55d4a53978d1779114df4b4ee781d6f39559c66"
+hash = "3964b5f7866cc25fff774e305cd3ee922a1067159b5fe238bd5d4fec6c338406"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/kharn/mente_teimosa.json"
-hash = "f532e33f599c6f31fa086767e8a06775e6a217c6c1f49839f11d074138d4cc8c"
+hash = "223d0f42c6667eeec2c4698111dc2e4a3916619555c61c8d7e7b32732611fc2e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/kharn/ossos_largos.json"
-hash = "8c7a991ac3fff2c759be2afa45748a478ab89b494e4593f8820a3307f12518c6"
+hash = "8bcb2ebceb8da5ba630503cdbca4cd9e786c1ed92094f0ea5bfebda40900744f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/marcado/eco_sombrio.json"
-hash = "c9cd4f04653271de8e77c3bc1e9b385c98b31cc0552be21601c8257a505554f4"
+hash = "0f54716fa65742acb878a44afa37e24d662ee44879ad6bd7a22e4e3a97f9dd72"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/marcado/rejeitado_pela_luz.json"
-hash = "2d845cb61591a768c8939bda114506d3b77c14fa03f1c036613c474606e9955e"
+hash = "0e783f62ab59e4418a89bfe0720f139e9362c8721dac0106eeb5d0a2535adef6"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/marcado/resiliencia_sombria.json"
-hash = "edf48145f19a7e4bafea9e93aaebdee0984108132f57109bd4dd52e8520371d2"
+hash = "91f33d2698b75f4159a6926fb181dea155df0147afa1e28485f3ed0630247033"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/marcado/vista_da_penumbra.json"
-hash = "df29b92f77cd4ba485a5ac35a9b22dde8ded97a284a62afd8ec1b992c6f03108"
+hash = "085ec53634cc5e383cb1fd5784f79ab7c58689b9652ff24abe404847fddc3bf8"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/mareu/guelras.json"
-hash = "57b04a8e4e6a713c7db544562306b96c2d470f8e3ecb2ff9fe7e5d95c7e770b0"
+hash = "3497f37e65419ddb4bc8d6abc7259db31e986337fcf8b67ab2566f05def53b83"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/mareu/nadador.json"
-hash = "e0dc27f09a9ad72ff13cd2dc6a728e16ae230132f088f1d816cd7e4b638c91e5"
+hash = "432175692919b8a509a46e31794683cc684ab9a1e1eaace04375da7669209286"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/mareu/olhos_abissais.json"
-hash = "d95e9d1a0d221fad42c4203b5776fcf1ee6a7d93bc3f7da9fe72ae950a9b7de9"
+hash = "7fa4a9de00b7bbbfa9dfbace8afdc12476064eacb57ad32b5ca4209d86f5d193"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/mareu/pele_seca.json"
-hash = "7743765d16f19dfbf2fffd2229ee84b153bb99d4ca1b075c7524cd96e7682006"
-
-[[files]]
-file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pedraforte/firmeza.json"
-hash = "231553dce7b88a5a972f2527c91af952fbdf8c98a45b198b8468f3f50b0a606d"
+hash = "e239f2e2ebc6af00f92a124905074b4397491071578cb36e95fc939a9797656f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pedraforte/maos_de_mineiro.json"
-hash = "45f41c7da4496cd712496900576db3633208ec964b9f53a00af9306f57000b70"
+hash = "ae85516eab3a3f2e7f98b0e99692da58b852600cbd2e000b119d21c086c2948e"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pedraforte/passos_pesados.json"
-hash = "391daf98a9ae38f051ce5ad8cff84a4e4f48c1461c4c9e5af05da72fb2980a50"
+hash = "c288c92e00a8ba5dcbd83e7904e5b750ce46f1b54d88143bb8fec380e150a945"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pedraforte/pele_de_pedra.json"
-hash = "ec5f7752c53cb2cfd8e797e2ad32fbca25060d4c5046981c29c2def77c6e92a0"
+hash = "d781d94170691ad06cbc8e66e32fe6b4dc383161ac4761c892ba3927dc3d1175"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pes_leves/bracos_curtos.json"
-hash = "475cef0c1d9c337b132e95d12beabe5c88fbfdf147be9f6b81a27c1173056d0c"
+hash = "2b88b19adfe91143322042e1d2e4a7924e38dbc7ab2a9b7d623092395978c3f1"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pes_leves/esquiva_natural.json"
-hash = "a22cd37aff8dc8307f0bcdeb0342291baba008db5dba0382c6446a9f5a067f11"
+hash = "a0beded4c65ef8855bd526d7c2bc2b86b4f3d9c3c4f791f7daab8ba4eddfee74"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pes_leves/ligeireza.json"
-hash = "f18d62c5e4aec5b99b5fe69d2cd5c06a401e09ef8cdd2cfd8cbfa846cdfcb7c7"
+hash = "08dc033f60e218b33f6469d345832bf93acfd766f4bf339738c66de1f75641b1"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/pes_leves/queda_suave.json"
-hash = "a280b3703c47bddad0625349ddaccf473e37c9fc63c18130e7f13ed80c191845"
+hash = "3d82f569c4b34bedef0743c2babf74c8099b7885f8113b8f8a57a635344e2ff5"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/seivari/casca_viva.json"
-hash = "6eeb90296faea31d6e40211ec0cfa425645017fef723f12d2890ebeb987c6e1a"
+hash = "a331dce8c4c0f591a8326bf8bd06d4c32ecde6ab922e29cbe91f6d4c9dc88980"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/seivari/fotossintese.json"
-hash = "20433faf5dcaa1d1f3d4ab3a792dad23f2ba09ab6018ec1158c950225d2814f7"
+hash = "10b66ea48b1c7abd06bd0c41a22642bd386b18d4594e14b60ae156b899e5d165"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/seivari/madeira_seca.json"
-hash = "ce13904e4d3b6d787716ee367f8f07e19f0728da7dac256069e6aadd173e2ece"
+hash = "9705c191351f7de8421741b61d40fc0afb53f86d888ed545af634e20165c48ce"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/seivari/registro.json"
@@ -1334,15 +1334,15 @@ hash = "15657c5fc555badd5a5c166804b7759a16f64bc7f9b698d95adbf6c8233d050a"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/seivari/seiva_da_mata.json"
-hash = "db24a87b40e2bdc8bbe070a54445fbc87ac7cbc7e51e2749f3e71c9779cf1a4b"
+hash = "854d4c8bbbd140bd2007df141e7043419e90157783fd7baf7b82abeada427120"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/asas.json"
-hash = "1bb041d90f0603d97c02044bfe4acc2cdefd56968a4c182da70dd6db333b5ef5"
+hash = "040f960ec357f5a1740704f9e412eb7349f330d7c3c5c4c12df0e375a4be9dbd"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/batida_de_asas.json"
-hash = "df5c26021cb5295cd8698bf1b92aac956d75087394cb5b27f8b08cd54df70241"
+hash = "55eb6c01e703048c2a42612add94a53ae04f1853204ac06fbad8bd68c8233583"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/folego.json"
@@ -1358,23 +1358,23 @@ hash = "2985bf7f28f861f7e0d8fa57179d3b3812acd5f6ec9926b7472ccbadd97202b2"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/golpe_rasante.json"
-hash = "bd42693833f204984b3ddef203b7dcac1536c446ee9b15bfc0024edd2bcbe788"
+hash = "5eecadf8a1631754e8c813da2677713b3845e925ec767b786c62b9fb25ca9f4f"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/impacto_duro.json"
-hash = "4a2a9bddeb2a5c2155c34ec6a26565c51d418002ddbf63075afb71284cc7b847"
+hash = "cf26e7593b5cc586a7cd7e799500263fdfe7ad872aa1c098a9b65a2454a274f4"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/ossos_ocos.json"
-hash = "6b5179e286ca8fa3300fd2ab68d09957f3179fb4dcf3faac71a4810e44e64638"
+hash = "53a08f9eb2227786fe9e14d8671f3a0dc49e86c4ba55bbf47ffc6a324ebff904"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/plumas_feridas.json"
-hash = "4d99f7a59251266782f9b5c6fb8b383421dcf1e941de899c510a32ea8ab10c6f"
+hash = "7571c4b8b426d23baa6caae24926baf1780de3d174b73c7ca5c90f45f8635881"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/pouso_de_emergencia.json"
-hash = "b8f776151b6f4aaf888ee8a3c98a2a34bebe7a3bc4d6f7c7421ba76a05b67c71"
+hash = "3126ccf827d997a3d6dd3a62b2712b11211e692df3d4125834402250924e5512"
 
 [[files]]
 file = "config/paxi/datapacks/gurizes_personagem/data/gurizes/powers/raca/ventari/registro.json"
@@ -1881,6 +1881,10 @@ file = "config/paxi/resourcepacks/gurizes_textos/pack.mcmeta"
 hash = "87e59d9014475c215a6e74cc1a1c76af34012ae238bfa21ddd5ba8313a437b61"
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "777d8a8e28ab49257cba1bf73c501673f92fd15b6957b086869e3091f88bdf86"
+
+[[files]]
 file = "defaultconfigs/irons_spellbooks-server.toml"
 hash = "a43d7ecc4b533781227438f9a6b4db4245a70d96ac7e1003567601f3b080a5e2"
 
@@ -2017,6 +2021,14 @@ file = "kubejs/assets/guardvillagers/lang/pt_pt.json"
 hash = "3feeb185d986a654059068410e5e2fab03c43c0b0fc3b687c793064deee8437c"
 
 [[files]]
+file = "kubejs/assets/gurizes/textures/quests/estandarte_guia.png"
+hash = "72768961342b6bb855f32c4f6f05476836f072b37366575b1711c1bdc08004fc"
+
+[[files]]
+file = "kubejs/assets/gurizes/textures/quests/galvar_pose.png"
+hash = "8cf80074beae76a8d1841f1568da858b3492b109a0bb60e988cc3c5194202bc4"
+
+[[files]]
 file = "kubejs/assets/iceandfire/lang/pt_pt.json"
 hash = "f5340cd8e9ab01d20c2b12d8ba853ef058be727953a20c061956430cb1e7b821"
 
@@ -2130,7 +2142,7 @@ hash = "b8e8d0090bb180b6e51e9543863819dd7d6afab6d4fe6607314f02e67b05d326"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/20_travas.js"
-hash = "e8a46bbcc7c496b98fa61f52ad32d91504f65b60fae980a7361caf7f9c59e492"
+hash = "51da48d0c55d5b24ca1e1fb6c97a03044ae8e7c188bdb142be99f8d795dc4c44"
 
 [[files]]
 file = "kubejs/server_scripts/progressao/30_porteiros.js"
@@ -2522,7 +2534,7 @@ metafile = true
 
 [[files]]
 file = "mods/gurizes.pw.toml"
-hash = "20cf8e3583764b1fac3af7455503e05c499916920e60edf9d946e0e5b02a1254"
+hash = "7c800dd5f1ec945bc85f0be0be9539be0008a9647be07e2225857647a837f03f"
 metafile = true
 
 [[files]]
@@ -2713,6 +2725,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "8cad1023bbc6e5c13961de6248a88b91538f3ad315dfdbb40c969e25606d98eb"
+metafile = true
+
+[[files]]
+file = "mods/neat.pw.toml"
+hash = "a7a72e924c31b9e4153e6e4fcd575349b4cdf77571f2a2dd6ef1346aef3b1eae"
 metafile = true
 
 [[files]]

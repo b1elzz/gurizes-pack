@@ -1,7 +1,7 @@
 {
   "type": "origins:self_action_when_hit",
   "name": "Casca de Carvalho (II)",
-  "description": "Após o porteiro do Ato II: ao ser atingido abaixo de 40% de vida, ganha Pele de Carvalho. Recarga de 1 min.",
+  "description": "Quando a coisa aperta, a pele vira casca.\nApós o porteiro do Ato II: ao ser atingido abaixo de 40% de vida, ganha Pele de Carvalho. Recarga de 1 min.",
   "cooldown": 1200,
   "condition": {
     "type": "origins:and",

@@ -1,0 +1,16 @@
+#Gurizes RPG Fantasy (ponto 2.3). Neat 1.20.1-37 desenha a barra de vida e, por integração do Auto Leveling, o nível do mob.
+#Versão travada na 37: o Auto Leveling 1.19b injeta em HealthBarRenderer.hookRender(Entity, PoseStack, MultiBufferSource, Quaternionf),
+#assinatura que a 41 mudou (Camera, EntityRenderer, float, double...), o que derrubaria o cliente no mixin.
+[general]
+	#Bem perto do alcance de combate; mais longe vira poluição visual em grupo.
+	"Max Distance" = 20
+	"Max Distance Without Line of Sight" = 6
+	#Vaca e galinha não são perigo.
+	showOnPassive = false
+	"Display on Players" = false
+	#O nível do Auto Leveling ("Lv") é desenhado no canto direito da placa, onde o Neat põe os ícones de atributo
+	#(carne podre = morto-vivo) e de armadura: os ícones cobriam o número (visto no cliente em 08/11). Sem os ícones, o nível aparece.
+	"Show Attributes" = false
+	"Show Armor" = false
+	#Boss já tem a barra no topo da tela; outra em cima da cabeça polui a luta e as cenas.
+	"Display on Bosses" = false

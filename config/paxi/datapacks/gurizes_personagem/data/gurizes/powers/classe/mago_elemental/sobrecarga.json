@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Sobrecarga (II)",
-  "description": "Após o porteiro do Ato II: +5% de poder mágico e +5% de redução de recarga.",
+  "description": "O poder transborda quando o Selo se rompe.\nApós o porteiro do Ato II: +5% de poder mágico e +5% de redução de recarga.",
   "condition": {
     "type": "origins:advancement",
     "advancement": "gurizes:campanha/ato_2_vencido"

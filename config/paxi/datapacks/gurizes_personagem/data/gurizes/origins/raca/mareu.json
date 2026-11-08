@@ -1,10 +1,10 @@
 {
   "name": "Maréu",
-  "description": "Povo das marés, nascido nos recifes. Estilo: anfíbio. Nada rápido, respira e enxerga debaixo d'água. Fraqueza: −10% de velocidade de ataque no calor e no Nether.",
+  "description": "Povo das marés, nascido nos recifes. Onde o mar começa, eles estão em casa.",
   "icon": {
-    "item": "minecraft:nautilus_shell"
+    "item": "gurizes:concha_cantante"
   },
-  "impact": 1,
+  "impact": 2,
   "order": 7,
   "powers": [
     "gurizes:raca/mareu/nadador",

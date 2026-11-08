@@ -1,10 +1,10 @@
 {
-  "name": "Vesperis, a Guardiã dos Portões",
-  "description": "Lua, morte e almas; guarda o que o herói deixa na cova. Estilo: sobrevivente. Menor: +3% de roubo de vida. Maior (Ato III): Recusa da Morte, uma vez a cada 15 min. Preço: −6% de velocidade de ataque.",
+  "name": "Vesperis",
+  "description": "A Guardiã dos Portões vigia a lua e as almas, e guarda o que o herói deixa na cova.",
   "icon": {
-    "item": "minecraft:totem_of_undying"
+    "item": "gurizes:bussola_cova"
   },
-  "impact": 1,
+  "impact": 3,
   "order": 7,
   "powers": [
     "gurizes:bencao/vesperis/menor_memoria",

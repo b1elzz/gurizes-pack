@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Esquiva Natural",
-  "description": "+5% de chance de esquiva.",
+  "description": "É difícil acertar quem já saiu de lá.\n+5% de chance de esquiva.",
   "modifiers": [
     {
       "attribute": "attributeslib:dodge_chance",

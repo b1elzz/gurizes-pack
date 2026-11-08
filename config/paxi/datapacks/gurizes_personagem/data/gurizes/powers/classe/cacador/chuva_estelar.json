@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
-  "name": "Chuva de Flechas Estelares (III, H)",
-  "description": "Após o porteiro do Ato IV: Queda Estelar nível 6. Recarga de 1 min 30 s.",
+  "name": "Chuva Estelar (III, H)",
+  "description": "O céu inteiro vira aljava.\nApós o porteiro do Ato IV: Queda Estelar nível 6. Recarga de 1 min 30 s.",
   "cooldown": 1800,
   "hud_render": {
     "should_render": true

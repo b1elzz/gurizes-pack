@@ -1,10 +1,9 @@
 {
   "type": "origins:night_vision",
-  "name": "Olhos Abissais",
-  "description": "Enxerga bem debaixo d'água.",
   "strength": 0.8,
   "condition": {
     "type": "origins:submerged_in",
     "fluid": "minecraft:water"
-  }
+  },
+  "hidden": true
 }

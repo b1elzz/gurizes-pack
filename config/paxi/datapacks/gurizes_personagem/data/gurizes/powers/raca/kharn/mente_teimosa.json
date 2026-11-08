@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Mente Teimosa",
-  "description": "Fraqueza: −10% de poder mágico.",
+  "description": "Palavra de feitiço escorrega da cabeça dura.\nFraqueza: -10% de poder mágico.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:spell_power",

@@ -1,11 +1,11 @@
 {
   "name": "Berserker",
-  "description": "“Dor é só a batalha avisando que você ainda está nela.” Dano corpo a corpo que cresce com a Fúria. Armas: machados e montantes. ★★☆",
+  "description": "\"Dor é só a batalha avisando que você ainda está nela.\" Armas: machados e montantes. Dificuldade: média.",
   "icon": {
-    "item": "simplyswords:iron_greataxe"
+    "item": "gurizes:machado_rubro"
   },
   "impact": 3,
-  "order": 2,
+  "order": 5,
   "powers": [
     "gurizes:classe/berserker/registro",
     "gurizes:classe/berserker/furia",

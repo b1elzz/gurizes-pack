@@ -22,7 +22,8 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
+			subtitle: "&aEscada para o céu"
 			tasks: [
 				{
 					dimension: "aether:the_aether"
@@ -46,6 +47,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aPrimeira masmorra"
 			tasks: [
 				{
 					id: "59E01995F6E8A390"
@@ -69,6 +73,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aSegunda masmorra"
 			tasks: [
 				{
 					id: "5342521D987C15B6"
@@ -92,6 +99,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aTerceira masmorra"
 			tasks: [
 				{
 					id: "4C8C29795C48BF5F"

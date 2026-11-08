@@ -13,6 +13,8 @@
 			dependencies: ["0924316264A2A2A8"]
 			description: [
 				"Vença um duelo na Arena. Vale só lá dentro: fora dela o Juramento não deixa um amigo ferir o outro."
+				""
+				"&8Requer:&r Coliseu dos Gurizes."
 			]
 			icon: "minecraft:iron_sword"
 			id: "36A5DF1D6730B8EA"
@@ -25,6 +27,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
+			subtitle: "&cIrmão contra irmão"
 			tasks: [
 				{
 					advancement: "gurizes:pvp/primeiro_duelo"
@@ -50,6 +53,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&cAquecimento"
 			tasks: [
 				{
 					id: "23722C643BB5C08F"
@@ -73,6 +79,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&cVeterano da Arena"
 			tasks: [
 				{
 					id: "2FD8A0F63072E023"
@@ -96,7 +105,8 @@
 				}
 			]
 			shape: "octagon"
-			size: 1.5d
+			size: 1.25d
+			subtitle: "&cLenda do Coliseu"
 			tasks: [
 				{
 					id: "566AB935DA01FFC0"

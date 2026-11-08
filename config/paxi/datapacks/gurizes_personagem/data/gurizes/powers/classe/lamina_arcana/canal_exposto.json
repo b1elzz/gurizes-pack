@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Canal Exposto",
-  "description": "Restrição: recebe +10% de dano mágico.",
+  "description": "Quem canaliza demais fica aberto.\nRestrição: recebe +10% de dano mágico.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.1

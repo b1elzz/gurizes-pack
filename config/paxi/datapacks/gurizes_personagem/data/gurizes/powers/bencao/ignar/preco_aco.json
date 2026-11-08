@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Aço Não Conjura",
-  "description": "Preço: −8% de poder mágico.",
+  "description": "Quem veste forja não escuta magia.\nPreço: -8% de poder mágico.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:spell_power",

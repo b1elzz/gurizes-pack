@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Avesso ao Metal",
-  "description": "Restrição: com peitoral pesado, −25% de poder mágico.",
+  "description": "Aço demais abafa o canto da floresta.\nRestrição: com peitoral pesado, -25% de poder mágico.",
   "condition": {
     "type": "origins:equipped_item",
     "equipment_slot": "chest",

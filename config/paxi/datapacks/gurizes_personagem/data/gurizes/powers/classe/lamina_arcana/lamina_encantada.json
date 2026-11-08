@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Lâmina Encantada",
-  "description": "+10% de Evocação e Raio, +5% de chance de crítico.",
+  "description": "O aço canta quando a magia passa por ele.\n+10% de Evocação e Raio e +5% de chance de crítico.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:evocation_spell_power",

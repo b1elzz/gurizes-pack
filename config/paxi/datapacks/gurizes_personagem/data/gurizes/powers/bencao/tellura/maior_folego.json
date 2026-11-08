@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Fôlego da Mata (Maior)",
-  "description": "Desperta após o porteiro do Ato III: sob o céu aberto do mundo normal, Regeneração I periódica e +5% de projéteis.",
+  "description": "Sob o céu aberto, a mata respira por você.\nApós o porteiro do Ato III: sob o céu aberto do mundo normal, Regeneração I periódica e +5% de projéteis.",
   "interval": 100,
   "entity_action": {
     "type": "origins:apply_effect",

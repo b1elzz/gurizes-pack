@@ -1,11 +1,11 @@
 {
   "name": "Necromante",
-  "description": "“Os mortos de Valdren ainda lutam pelo reino. Só precisam de alguém que os chame.” Invoca mortos-vivos e drena vida. Armas: foice e livro. ★★★",
+  "description": "\"Os mortos de Valdren ainda lutam pelo reino. Só precisam de alguém que os chame.\" Armas: foice e livro. Dificuldade: alta.",
   "icon": {
-    "item": "minecraft:wither_skeleton_skull"
+    "item": "gurizes:grimorio_partido"
   },
   "impact": 3,
-  "order": 4,
+  "order": 7,
   "powers": [
     "gurizes:classe/necromante/registro",
     "gurizes:classe/necromante/comando_dos_mortos",

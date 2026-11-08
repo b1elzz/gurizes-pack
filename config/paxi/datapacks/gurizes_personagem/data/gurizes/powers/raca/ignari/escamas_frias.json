@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Escamas Frias",
-  "description": "Fraqueza: +25% de dano de frio e lentidão em biomas gelados.",
+  "description": "O inverno entra por entre as escamas.\nFraqueza: +25% de dano de frio e lentidão em biomas gelados.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.25

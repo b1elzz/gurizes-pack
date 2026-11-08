@@ -1,7 +1,7 @@
 {
   "type": "origins:target_action_on_hit",
   "name": "Marca do Caçador (II)",
-  "description": "Após o porteiro do Ato II: a cada 5 s, uma flecha marca o alvo com Marca da Presa (+10% de dano recebido) por 6 s.",
+  "description": "Quem foi marcado não escapa.\nApós o porteiro do Ato II: a cada 5 s, uma flecha marca o alvo com Marca da Presa (+10% de dano recebido) por 6 s.",
   "condition": {
     "type": "origins:advancement",
     "advancement": "gurizes:campanha/ato_2_vencido"

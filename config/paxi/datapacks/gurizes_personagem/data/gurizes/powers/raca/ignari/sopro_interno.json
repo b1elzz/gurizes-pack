@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Sopro Interno",
-  "description": "+10% de poder da magia de Fogo.",
+  "description": "Uma brasa viva respira dentro do peito.\n+10% de poder da magia de Fogo.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:fire_spell_power",

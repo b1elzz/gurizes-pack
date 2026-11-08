@@ -1,11 +1,11 @@
 {
-  "name": "Tellura, a Mãe das Raízes",
-  "description": "Terra, colheita e raízes. Estilo: caçador de campo aberto. Menor: +5% de projéteis, +8% de Natureza. Maior (Ato III): Fôlego da Mata, regenera sob o céu aberto. Preço: −4% de velocidade.",
+  "name": "Tellura",
+  "description": "A Mãe das Raízes guarda a terra, a colheita e o caçador paciente.",
   "icon": {
-    "item": "minecraft:oak_sapling"
+    "item": "gurizes:semente_de_tellura"
   },
   "impact": 1,
-  "order": 3,
+  "order": 1,
   "powers": [
     "gurizes:bencao/tellura/menor_caca",
     "gurizes:bencao/tellura/menor_raiz",

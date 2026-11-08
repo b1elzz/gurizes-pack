@@ -1,5 +1,5 @@
 {
-	icon: "iceandfire:dragon_skull_fire"
+	icon: "iceandfire:spawn_egg_fire_dragon"
 	id: "64DD0EE1688B83BE"
 	loot_size: 1
 	order_index: 15

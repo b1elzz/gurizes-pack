@@ -24,13 +24,15 @@
 					command: "/gurizes ng avancar"
 					elevate_perms: true
 					exclude_from_claim_all: true
+					icon: "gurizes:selo_refeito"
 					id: "57C31E4FA7EC5BB6"
 					silent: true
+					title: "Renovar o Juramento"
 					type: "command"
 				}
 			]
-			shape: "gear"
-			size: 2.5d
+			shape: "circle"
+			size: 4.0d
 			subtitle: "&6Juramento Eterno"
 			tasks: [
 				{
@@ -40,7 +42,7 @@
 			]
 			title: "Renovar o Juramento: Ciclo 1"
 			x: 0.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
@@ -55,8 +57,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Guardião da Coroa Oca"
 			tasks: [
 				{
 					advancement: "gurizes:ng/1/ato_1_vencido"
@@ -66,7 +69,7 @@
 				}
 			]
 			title: "Sir Xavier Siri Galvar (Ciclo 1)"
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -82,8 +85,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Bosque que Sangra"
 			tasks: [
 				{
 					advancement: "gurizes:ng/1/ato_2_vencido"
@@ -93,8 +97,8 @@
 				}
 			]
 			title: "Vorthra (Ciclo 1)"
-			x: 4.0d
-			y: 1.6d
+			x: 8.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
@@ -109,8 +113,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Da Forja Afundada"
 			tasks: [
 				{
 					advancement: "gurizes:ng/1/ato_3_vencido"
@@ -120,8 +125,8 @@
 				}
 			]
 			title: "Kharzul (Ciclo 1)"
-			x: 4.0d
-			y: 3.2d
+			x: 11.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
@@ -136,8 +141,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Olho da Tormenta"
 			tasks: [
 				{
 					advancement: "gurizes:ng/1/ato_4_vencido"
@@ -147,8 +153,8 @@
 				}
 			]
 			title: "Nerezza (Ciclo 1)"
-			x: 4.0d
-			y: 4.8d
+			x: 15.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
@@ -163,8 +169,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Céu Partido"
 			tasks: [
 				{
 					advancement: "gurizes:ng/1/ato_5_vencido"
@@ -174,8 +181,8 @@
 				}
 			]
 			title: "Astrael (Ciclo 1)"
-			x: 4.0d
-			y: 6.4d
+			x: 18.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
@@ -195,8 +202,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Trono do Selo"
 			tasks: [
 				{
 					advancement: "gurizes:ng/1/ato_6_vencido"
@@ -206,19 +214,19 @@
 				}
 			]
 			title: "Morvhal (Ciclo 1)"
-			x: 4.0d
-			y: 8.0d
+			x: 22.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "meetyourfight:violet_bloom"
+			icon: "meetyourfight:rosalyne_spawn_egg"
 			id: "4A989023BC1B0C3D"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -229,19 +237,19 @@
 				}
 			]
 			title: "Rosalyne (Ciclo 1)"
-			x: 8.0d
-			y: 2.5d
+			x: 4.4d
+			y: 3.8d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "twilightforest:hydra_trophy"
+			icon: "twilightforest:hydra_spawn_egg"
 			id: "24289563D2CB8DD4"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -252,19 +260,19 @@
 				}
 			]
 			title: "Hidra (Ciclo 1)"
-			x: 10.2d
-			y: 2.5d
+			x: 6.6d
+			y: 3.8d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aquamirae:shell_horn"
+			icon: "aquamirae:captain_cornelia_spawn_egg"
 			id: "5CA3F80291B7A972"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -275,19 +283,19 @@
 				}
 			]
 			title: "Capitã Cornelia (Ciclo 1)"
-			x: 12.4d
-			y: 2.5d
+			x: 8.8d
+			y: 3.8d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mowziesmobs:ice_crystal"
+			icon: "mowziesmobs:frostmaw_spawn_egg"
 			id: "397688975BA9FC7F"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -298,19 +306,19 @@
 				}
 			]
 			title: "Frostmaw (Ciclo 1)"
-			x: 14.6d
-			y: 2.5d
+			x: 11.0d
+			y: 3.8d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aether:sun_altar"
+			icon: "aether:sun_spirit_spawn_egg"
 			id: "69C5E79FFC9EF005"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -321,19 +329,19 @@
 				}
 			]
 			title: "Espírito do Sol (Ciclo 1)"
-			x: 16.8d
-			y: 2.5d
+			x: 13.2d
+			y: 3.8d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
 			id: "4D588668C716DDDC"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -344,19 +352,19 @@
 				}
 			]
 			title: "Lorde Cabeça-de-Abóbora (Ciclo 1)"
-			x: 19.0d
-			y: 2.5d
+			x: 15.4d
+			y: 3.8d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:blood_staff"
+			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
 			id: "240EA51C14520D01"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -367,19 +375,19 @@
 				}
 			]
 			title: "Rei Morto (Ciclo 1)"
-			x: 8.0d
-			y: 5.0d
+			x: 4.4d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "minecraft:splash_potion"
+			icon: "mutantmonsters:mutant_enderman_spawn_egg"
 			id: "208861C9A5E68CFC"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -390,8 +398,8 @@
 				}
 			]
 			title: "Enderman Mutante (Ciclo 1)"
-			x: 10.2d
-			y: 5.0d
+			x: 6.6d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
@@ -401,8 +409,8 @@
 			id: "45DECF9AB2B36CAC"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -413,19 +421,19 @@
 				}
 			]
 			title: "Obsidilith (Ciclo 1)"
-			x: 12.4d
-			y: 5.0d
+			x: 8.8d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "cataclysm:abyssal_sacrifice"
+			icon: "cataclysm:the_leviathan_spawn_egg"
 			id: "6AB373C831200959"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -436,19 +444,19 @@
 				}
 			]
 			title: "O Leviatã (Ciclo 1)"
-			x: 14.6d
-			y: 5.0d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50B280E714D744B8"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "iceandfire:dragon_skull_fire"
+			icon: "iceandfire:spawn_egg_fire_dragon"
 			id: "5B764BB5CDA76D8F"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -459,8 +467,8 @@
 				}
 			]
 			title: "Dragão Ancião (Ciclo 1)"
-			x: 16.8d
-			y: 5.0d
+			x: 13.2d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -476,7 +484,11 @@
 				"6AB373C831200959"
 				"5B764BB5CDA76D8F"
 			]
-			description: ["Três Deuses do Panteão vencidos neste ciclo."]
+			description: [
+				"Três Deuses do Panteão vencidos neste ciclo."
+				""
+				"&8Requer:&r 3 de 11 quests anteriores."
+			]
 			hide_dependency_lines: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "5AB20F670E46B7BD"
@@ -494,8 +506,9 @@
 					xp_levels: 10
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "&6Fecho do ciclo 1"
 			tasks: [
 				{
 					id: "2238A8CACCCB34B9"
@@ -503,8 +516,8 @@
 				}
 			]
 			title: "Três Deuses (Ciclo 1)"
-			x: 22.0d
-			y: 4.0d
+			x: 17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1382C2414181AAEC"]
@@ -522,13 +535,15 @@
 					command: "/gurizes ng avancar"
 					elevate_perms: true
 					exclude_from_claim_all: true
+					icon: "gurizes:selo_refeito"
 					id: "46B0082D2C432C70"
 					silent: true
+					title: "Renovar o Juramento"
 					type: "command"
 				}
 			]
-			shape: "gear"
-			size: 2.5d
+			shape: "circle"
+			size: 4.0d
 			subtitle: "&6Juramento Eterno"
 			tasks: [
 				{
@@ -553,8 +568,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Guardião da Coroa Oca"
 			tasks: [
 				{
 					advancement: "gurizes:ng/2/ato_1_vencido"
@@ -564,8 +580,8 @@
 				}
 			]
 			title: "Sir Xavier Siri Galvar (Ciclo 2)"
-			x: 4.0d
-			y: 11.0d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
@@ -580,8 +596,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Bosque que Sangra"
 			tasks: [
 				{
 					advancement: "gurizes:ng/2/ato_2_vencido"
@@ -591,8 +608,8 @@
 				}
 			]
 			title: "Vorthra (Ciclo 2)"
-			x: 4.0d
-			y: 12.6d
+			x: 8.4d
+			y: 12.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
@@ -607,8 +624,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Da Forja Afundada"
 			tasks: [
 				{
 					advancement: "gurizes:ng/2/ato_3_vencido"
@@ -618,8 +636,8 @@
 				}
 			]
 			title: "Kharzul (Ciclo 2)"
-			x: 4.0d
-			y: 14.2d
+			x: 11.8d
+			y: 12.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
@@ -634,8 +652,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Olho da Tormenta"
 			tasks: [
 				{
 					advancement: "gurizes:ng/2/ato_4_vencido"
@@ -645,8 +664,8 @@
 				}
 			]
 			title: "Nerezza (Ciclo 2)"
-			x: 4.0d
-			y: 15.8d
+			x: 15.2d
+			y: 12.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
@@ -661,8 +680,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Céu Partido"
 			tasks: [
 				{
 					advancement: "gurizes:ng/2/ato_5_vencido"
@@ -672,8 +692,8 @@
 				}
 			]
 			title: "Astrael (Ciclo 2)"
-			x: 4.0d
-			y: 17.4d
+			x: 18.6d
+			y: 12.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
@@ -693,8 +713,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Trono do Selo"
 			tasks: [
 				{
 					advancement: "gurizes:ng/2/ato_6_vencido"
@@ -704,19 +725,19 @@
 				}
 			]
 			title: "Morvhal (Ciclo 2)"
-			x: 4.0d
-			y: 19.0d
+			x: 22.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "meetyourfight:violet_bloom"
+			icon: "meetyourfight:rosalyne_spawn_egg"
 			id: "43B9A2225CDBC616"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -727,19 +748,19 @@
 				}
 			]
 			title: "Rosalyne (Ciclo 2)"
-			x: 8.0d
-			y: 13.5d
+			x: 4.4d
+			y: 15.8d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "twilightforest:hydra_trophy"
+			icon: "twilightforest:hydra_spawn_egg"
 			id: "588671423EE5159C"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -750,19 +771,19 @@
 				}
 			]
 			title: "Hidra (Ciclo 2)"
-			x: 10.2d
-			y: 13.5d
+			x: 6.6d
+			y: 15.8d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aquamirae:shell_horn"
+			icon: "aquamirae:captain_cornelia_spawn_egg"
 			id: "4E397C19D75DBE14"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -773,19 +794,19 @@
 				}
 			]
 			title: "Capitã Cornelia (Ciclo 2)"
-			x: 12.4d
-			y: 13.5d
+			x: 8.8d
+			y: 15.8d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mowziesmobs:ice_crystal"
+			icon: "mowziesmobs:frostmaw_spawn_egg"
 			id: "15992FFDFB82CCF8"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -796,19 +817,19 @@
 				}
 			]
 			title: "Frostmaw (Ciclo 2)"
-			x: 14.6d
-			y: 13.5d
+			x: 11.0d
+			y: 15.8d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aether:sun_altar"
+			icon: "aether:sun_spirit_spawn_egg"
 			id: "5C74A74B12B085D7"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -819,19 +840,19 @@
 				}
 			]
 			title: "Espírito do Sol (Ciclo 2)"
-			x: 16.8d
-			y: 13.5d
+			x: 13.2d
+			y: 15.8d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
 			id: "5B33476C47183FBD"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -842,19 +863,19 @@
 				}
 			]
 			title: "Lorde Cabeça-de-Abóbora (Ciclo 2)"
-			x: 19.0d
-			y: 13.5d
+			x: 15.4d
+			y: 15.8d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:blood_staff"
+			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
 			id: "0C24BD8651F592AC"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -865,19 +886,19 @@
 				}
 			]
 			title: "Rei Morto (Ciclo 2)"
-			x: 8.0d
-			y: 16.0d
+			x: 4.4d
+			y: 18.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "minecraft:splash_potion"
+			icon: "mutantmonsters:mutant_enderman_spawn_egg"
 			id: "67E2FF07CF8067C4"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -888,8 +909,8 @@
 				}
 			]
 			title: "Enderman Mutante (Ciclo 2)"
-			x: 10.2d
-			y: 16.0d
+			x: 6.6d
+			y: 18.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
@@ -899,8 +920,8 @@
 			id: "5DD5AA8275CD589A"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -911,19 +932,19 @@
 				}
 			]
 			title: "Obsidilith (Ciclo 2)"
-			x: 12.4d
-			y: 16.0d
+			x: 8.8d
+			y: 18.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "cataclysm:abyssal_sacrifice"
+			icon: "cataclysm:the_leviathan_spawn_egg"
 			id: "73C0E35A5E4EEBAE"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -934,19 +955,19 @@
 				}
 			]
 			title: "O Leviatã (Ciclo 2)"
-			x: 14.6d
-			y: 16.0d
+			x: 11.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["17BAA3077E1AC463"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "iceandfire:dragon_skull_fire"
+			icon: "iceandfire:spawn_egg_fire_dragon"
 			id: "1180370ABECD7425"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -957,8 +978,8 @@
 				}
 			]
 			title: "Dragão Ancião (Ciclo 2)"
-			x: 16.8d
-			y: 16.0d
+			x: 13.2d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -974,7 +995,11 @@
 				"73C0E35A5E4EEBAE"
 				"1180370ABECD7425"
 			]
-			description: ["Três Deuses do Panteão vencidos neste ciclo."]
+			description: [
+				"Três Deuses do Panteão vencidos neste ciclo."
+				""
+				"&8Requer:&r 3 de 11 quests anteriores."
+			]
 			hide_dependency_lines: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "3D172DE78C06F383"
@@ -992,8 +1017,9 @@
 					xp_levels: 15
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "&6Fecho do ciclo 2"
 			tasks: [
 				{
 					id: "08022F9D293453C5"
@@ -1001,8 +1027,8 @@
 				}
 			]
 			title: "Três Deuses (Ciclo 2)"
-			x: 22.0d
-			y: 15.0d
+			x: 17.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["58B3DC1D9A45209A"]
@@ -1020,13 +1046,15 @@
 					command: "/gurizes ng avancar"
 					elevate_perms: true
 					exclude_from_claim_all: true
+					icon: "gurizes:selo_refeito"
 					id: "3581B69E5D1A20E8"
 					silent: true
+					title: "Renovar o Juramento"
 					type: "command"
 				}
 			]
-			shape: "gear"
-			size: 2.5d
+			shape: "circle"
+			size: 4.0d
 			subtitle: "&6Juramento Eterno"
 			tasks: [
 				{
@@ -1036,7 +1064,7 @@
 			]
 			title: "Renovar o Juramento: Ciclo 3"
 			x: 0.0d
-			y: 26.0d
+			y: 27.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
@@ -1051,8 +1079,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Guardião da Coroa Oca"
 			tasks: [
 				{
 					advancement: "gurizes:ng/3/ato_1_vencido"
@@ -1062,8 +1091,8 @@
 				}
 			]
 			title: "Sir Xavier Siri Galvar (Ciclo 3)"
-			x: 4.0d
-			y: 22.0d
+			x: 5.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
@@ -1078,8 +1107,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Bosque que Sangra"
 			tasks: [
 				{
 					advancement: "gurizes:ng/3/ato_2_vencido"
@@ -1089,8 +1119,8 @@
 				}
 			]
 			title: "Vorthra (Ciclo 3)"
-			x: 4.0d
-			y: 23.6d
+			x: 8.4d
+			y: 24.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
@@ -1105,8 +1135,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Da Forja Afundada"
 			tasks: [
 				{
 					advancement: "gurizes:ng/3/ato_3_vencido"
@@ -1116,8 +1147,8 @@
 				}
 			]
 			title: "Kharzul (Ciclo 3)"
-			x: 4.0d
-			y: 25.2d
+			x: 11.8d
+			y: 24.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
@@ -1132,8 +1163,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Olho da Tormenta"
 			tasks: [
 				{
 					advancement: "gurizes:ng/3/ato_4_vencido"
@@ -1143,8 +1175,8 @@
 				}
 			]
 			title: "Nerezza (Ciclo 3)"
-			x: 4.0d
-			y: 26.8d
+			x: 15.2d
+			y: 24.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
@@ -1159,8 +1191,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Céu Partido"
 			tasks: [
 				{
 					advancement: "gurizes:ng/3/ato_5_vencido"
@@ -1170,8 +1203,8 @@
 				}
 			]
 			title: "Astrael (Ciclo 3)"
-			x: 4.0d
-			y: 28.4d
+			x: 18.6d
+			y: 24.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
@@ -1191,8 +1224,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.0d
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Do Trono do Selo"
 			tasks: [
 				{
 					advancement: "gurizes:ng/3/ato_6_vencido"
@@ -1202,19 +1236,19 @@
 				}
 			]
 			title: "Morvhal (Ciclo 3)"
-			x: 4.0d
-			y: 30.0d
+			x: 22.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "meetyourfight:violet_bloom"
+			icon: "meetyourfight:rosalyne_spawn_egg"
 			id: "5D49998FCE62A580"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1225,19 +1259,19 @@
 				}
 			]
 			title: "Rosalyne (Ciclo 3)"
-			x: 8.0d
-			y: 24.5d
+			x: 4.4d
+			y: 27.8d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "twilightforest:hydra_trophy"
+			icon: "twilightforest:hydra_spawn_egg"
 			id: "7113506F825C325C"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1248,19 +1282,19 @@
 				}
 			]
 			title: "Hidra (Ciclo 3)"
-			x: 10.2d
-			y: 24.5d
+			x: 6.6d
+			y: 27.8d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aquamirae:shell_horn"
+			icon: "aquamirae:captain_cornelia_spawn_egg"
 			id: "7CA71F57918BF113"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1271,19 +1305,19 @@
 				}
 			]
 			title: "Capitã Cornelia (Ciclo 3)"
-			x: 12.4d
-			y: 24.5d
+			x: 8.8d
+			y: 27.8d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "mowziesmobs:ice_crystal"
+			icon: "mowziesmobs:frostmaw_spawn_egg"
 			id: "7B70019A1DE86AC1"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1294,19 +1328,19 @@
 				}
 			]
 			title: "Frostmaw (Ciclo 3)"
-			x: 14.6d
-			y: 24.5d
+			x: 11.0d
+			y: 27.8d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "aether:sun_altar"
+			icon: "aether:sun_spirit_spawn_egg"
 			id: "51EFF26ED63BAB6E"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1317,19 +1351,19 @@
 				}
 			]
 			title: "Espírito do Sol (Ciclo 3)"
-			x: 16.8d
-			y: 24.5d
+			x: 13.2d
+			y: 27.8d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
 			id: "70D9527249FA406A"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1340,19 +1374,19 @@
 				}
 			]
 			title: "Lorde Cabeça-de-Abóbora (Ciclo 3)"
-			x: 19.0d
-			y: 24.5d
+			x: 15.4d
+			y: 27.8d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:blood_staff"
+			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
 			id: "301C3B8B0758E729"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1363,19 +1397,19 @@
 				}
 			]
 			title: "Rei Morto (Ciclo 3)"
-			x: 8.0d
-			y: 27.0d
+			x: 4.4d
+			y: 30.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "minecraft:splash_potion"
+			icon: "mutantmonsters:mutant_enderman_spawn_egg"
 			id: "5238B2184FC42E67"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1386,8 +1420,8 @@
 				}
 			]
 			title: "Enderman Mutante (Ciclo 3)"
-			x: 10.2d
-			y: 27.0d
+			x: 6.6d
+			y: 30.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
@@ -1397,8 +1431,8 @@
 			id: "36A6CE7BC206F03E"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1409,19 +1443,19 @@
 				}
 			]
 			title: "Obsidilith (Ciclo 3)"
-			x: 12.4d
-			y: 27.0d
+			x: 8.8d
+			y: 30.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "cataclysm:abyssal_sacrifice"
+			icon: "cataclysm:the_leviathan_spawn_egg"
 			id: "449332AB4787EA7B"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1432,19 +1466,19 @@
 				}
 			]
 			title: "O Leviatã (Ciclo 3)"
-			x: 14.6d
-			y: 27.0d
+			x: 11.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["57ABED10664DB4E0"]
 			description: ["Qualquer três Deuses do Panteão valem para o ciclo."]
 			hide_dependency_lines: true
-			icon: "iceandfire:dragon_skull_fire"
+			icon: "iceandfire:spawn_egg_fire_dragon"
 			id: "4FC90D490925F7DD"
 			optional: true
 			rewards: [ ]
-			shape: "octagon"
-			size: 0.9d
+			shape: "square"
+			size: 1.0d
 			subtitle: "&7Escolha 3"
 			tasks: [
 				{
@@ -1455,8 +1489,8 @@
 				}
 			]
 			title: "Dragão Ancião (Ciclo 3)"
-			x: 16.8d
-			y: 27.0d
+			x: 13.2d
+			y: 30.0d
 		}
 		{
 			dependencies: [
@@ -1472,7 +1506,11 @@
 				"449332AB4787EA7B"
 				"4FC90D490925F7DD"
 			]
-			description: ["Três Deuses do Panteão vencidos neste ciclo."]
+			description: [
+				"Três Deuses do Panteão vencidos neste ciclo."
+				""
+				"&8Requer:&r 3 de 11 quests anteriores."
+			]
 			hide_dependency_lines: true
 			icon: "gurizes:insignia_dos_deuses"
 			id: "68A30966786FA573"
@@ -1490,8 +1528,9 @@
 					xp_levels: 20
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "&6Fecho do ciclo 3"
 			tasks: [
 				{
 					id: "2A021E00CF26F07F"
@@ -1499,8 +1538,8 @@
 				}
 			]
 			title: "Três Deuses (Ciclo 3)"
-			x: 22.0d
-			y: 26.0d
+			x: 17.0d
+			y: 30.0d
 		}
 	]
 	subtitle: ["Novo Jogo+: três ciclos depois do Selo refeito"]

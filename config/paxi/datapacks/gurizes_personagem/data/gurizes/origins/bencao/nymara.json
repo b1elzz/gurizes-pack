@@ -1,10 +1,10 @@
 {
-  "name": "Nymara, a Senhora da Tormenta",
-  "description": "Mares e tempestades. Estilo: veloz e elétrico. Menor: +4% de velocidade, +8% de Raio. Maior (Ato III): Toque do Trovão, raios nos golpes. Preço: −1 coração.",
+  "name": "Nymara",
+  "description": "A Senhora da Tormenta cavalga o raio e o mar. Seus escolhidos nunca ficam parados.",
   "icon": {
-    "item": "minecraft:trident"
+    "item": "gurizes:escama_da_tormenta"
   },
-  "impact": 1,
+  "impact": 2,
   "order": 5,
   "powers": [
     "gurizes:bencao/nymara/menor_vento",

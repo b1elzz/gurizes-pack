@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_projectile_damage",
   "name": "Caça de Tellura (Menor)",
-  "description": "+5% de dano de projéteis, +8% de poder da Natureza.",
+  "description": "A Mãe das Raízes guia a flecha.\n+5% de dano de projéteis e +8% de poder da Natureza.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.05

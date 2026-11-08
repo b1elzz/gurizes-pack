@@ -1,0 +1,18 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+// Gurizes RPG Fantasy (0.1.3). O fator geral 2 continua: o mapa tem ~180 inícios de estrutura no raio de 300 a 1.500 blocos
+// e não entope (medição em docs/build-log/mod.md, "0.1.3 — combate e emoção"). Só vilas e a cripta do Ato I estavam longe demais.
+{
+  "spreadFactor": 2,
+  "idBasedSalt": true,
+  "customSpreadFactors": [
+    { "structure": "minecraft:mansion", "factor": 2 },
+    // Vilas (vanilla e CTOV entram neste conjunto): fator 2 punha a vila mais próxima a 1,4 km do spawn, e o capítulo
+    // "A Estrada de Valdren" manda achar uma logo no começo. Fator 1 devolve o espaçamento original (34 chunks).
+    { "structure": "minecraft:villages", "factor": 1 },
+    // Towns and Towers: espaçamento próprio de 48 chunks; com fator 2 virava 96 (1,5 km).
+    { "structure": "towns_and_towers:towns", "factor": 1 },
+    // Cripta do Primeiro Cavaleiro (arena do Galvar): com fator 2 sobravam ~3 no raio e o /locate chegou a 1.529 blocos.
+    // Medido: fator 1 = ~21 criptas (demais), 1,5 = ~6. O 1,25 dá ~12 (uma a cada ~760 x 760 blocos).
+    { "structure": "gurizes:cripta_primeiro_cavaleiro", "factor": 1.25 }
+  ]
+}

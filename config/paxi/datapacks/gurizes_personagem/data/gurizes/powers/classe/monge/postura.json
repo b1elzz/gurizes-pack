@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Postura",
-  "description": "+2 de armadura e firmeza contra empurrões.",
+  "description": "Raiz na terra, calma no peito.\n+2 de armadura e resistência a empurrões.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.knockback_resistance",

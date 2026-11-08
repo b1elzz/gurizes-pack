@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Couraça da Fé",
-  "description": "+2 de armadura e firmeza contra empurrões.",
+  "description": "A fé que veste o peito vale mais que o aço.\n+2 de armadura e resistência a empurrões.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.armor",

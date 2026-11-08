@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_dealt",
   "name": "Execução (II)",
-  "description": "Após o porteiro do Ato II: +20% de dano em alvos abaixo de 30% de vida.",
+  "description": "Alvo ferido já está meio morto.\nApós o porteiro do Ato II: +20% de dano em alvos abaixo de 30% de vida.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.2

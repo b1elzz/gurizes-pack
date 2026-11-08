@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Véu da Noite (III, H)",
-  "description": "Após o porteiro do Ato IV: invisível e veloz por 6 s; o próximo golpe causa +50%. Recarga de 1 min 40 s.",
+  "description": "A noite o veste, e ninguém o vê.\nApós o porteiro do Ato IV: invisível e veloz por 6 s; o próximo golpe causa +50%. Recarga de 1 min 40 s.",
   "cooldown": 2000,
   "hud_render": {
     "should_render": true

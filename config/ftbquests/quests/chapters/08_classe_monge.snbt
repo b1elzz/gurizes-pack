@@ -11,13 +11,14 @@
 	quests: [
 		{
 			description: ["Você escolheu a classe Monge."]
-			icon: "minecraft:stick"
+			icon: "gurizes:bastao_dos_mil_passos"
 			id: "250FDCC3608B1C89"
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [ ]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dJuramento"
 			tasks: [
 				{
 					advancement: "gurizes:interno/classe_monge"
@@ -48,6 +49,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dKit do juramento"
 			tasks: [
 				{
 					id: "2BE7EB27D267B8B4"
@@ -81,6 +85,9 @@
 					xp_levels: 1
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dTecla G"
 			tasks: [
 				{
 					advancement: "gurizes:interno/habilidade_monge"
@@ -109,6 +116,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dPrimeira caçada"
 			tasks: [
 				{
 					entity: "minecraft:spider"
@@ -143,6 +153,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dAntes da Cripta"
 			tasks: [
 				{
 					id: "1898CF5E0CD5A012"
@@ -187,8 +200,8 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
-			size: 2.0d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Monge · Forma I"
 			tasks: [
 				{
@@ -238,8 +251,8 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.25d
 			subtitle: "&6Rumo ao Galvar"
 			tasks: [
 				{
@@ -248,7 +261,7 @@
 				}
 			]
 			title: "Dança com o Cavaleiro"
-			x: 11.0d
+			x: 11.4d
 			y: 3.0d
 		}
 	]

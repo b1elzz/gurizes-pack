@@ -1,12 +1,18 @@
 {
   "type": "origins:attribute",
   "name": "Pele de Pedra",
-  "description": "+2 de armadura.",
+  "description": "A montanha ensina a não se mover.\n+2 de armadura e resistência a empurrões.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.armor",
       "operation": "addition",
       "value": 2,
+      "name": "gurizes"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.15,
       "name": "gurizes"
     }
   ],

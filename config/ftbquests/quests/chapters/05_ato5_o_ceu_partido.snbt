@@ -24,6 +24,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6O outro lado do céu"
 			tasks: [
 				{
 					dimension: "minecraft:the_end"
@@ -50,6 +53,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Pó de olhos fechados"
 			tasks: [
 				{
 					count: 8L
@@ -84,6 +90,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Com um gato na margem"
 			tasks: [
 				{
 					id: "2B98019CB754199D"
@@ -109,6 +118,9 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "&6Ver o invisível"
 			tasks: [
 				{
 					id: "77FD53A76501BD8E"
@@ -123,9 +135,10 @@
 		{
 			description: [
 				"\"Use a Lente Estelar em qualquer pedra do End e a fenda se abre. Lá dentro, alinhe os anéis com a constelação do chão. Quando o olho abrir, alguém vai olhar de volta. Não é Kaelum.\""
-				""
+				"{@pagebreak}"
 				"&6Como invocar:&r Lente Estelar numa pedra do End (a Fenda abre por 60 s), alinhe os 3 Anéis e encaixe a lente no Astrolábio."
 				"&6Como vencer:&r destrua as Estrelas Guardiãs primeiro (elas reduzem o dano em até 60%). Bata nas janelas em que ele desce; na fase 3 voltam os ecos dos Guardiões anteriores."
+				"{@pagebreak}"
 				"&aFraquezas:&r sagrado, projéteis, Estrelas Guardiãs destruídas."
 				"&cPontos fortes:&r imune a queda, repulsão, lentidão e congelamento; resiste a magia do Ender; voa."
 				""
@@ -141,22 +154,16 @@
 					xp_levels: 15
 				}
 				{
+					icon: "gurizes:selo_refeito"
 					id: "0C8F07146823BE78"
 					stage: "ato_6"
+					title: "Ato VI liberado"
 					type: "astages_ftbquests:server"
 				}
-				{
-					command: "/advancement grant {p} only gurizes:campanha/ato_5_vencido"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					id: "0D7F4549537CCCE0"
-					silent: true
-					type: "command"
-				}
 			]
-			shape: "gear"
-			size: 2.5d
-			subtitle: "&6Porteiro"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Porteiro · Astrael"
 			tasks: [
 				{
 					advancement: "gurizes:campanha/ato_5_vencido"
@@ -176,11 +183,11 @@
 				""
 				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:lente_estelar"
 			id: "03621B48057453F9"
 			rewards: [ ]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "&8Ato V · selado"
 			tasks: [
 				{

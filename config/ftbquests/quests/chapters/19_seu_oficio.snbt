@@ -14,7 +14,7 @@
 			description: [
 				"Seis profissões, todas abertas a todos: não há escolha, cada jogador faz o que quiser."
 				"Cada uma tem a sua página ao lado. O nível de Mestre abre com o porteiro do Ato III."
-				""
+				"{@pagebreak}"
 				"&eFerreiro&r: Repara o que o grupo quebra e afia o que o grupo usa."
 				"&eAlquimista&r: Frascos de cura em grupo, tônicos e óleos de lâmina."
 				"&eCozinheiro&r: Comida de viagem e banquetes que deixam o grupo Bem Alimentado."
@@ -25,8 +25,9 @@
 			icon: "minecraft:anvil"
 			id: "467E40E0600E466F"
 			rewards: [ ]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "circle"
+			size: 4.0d
+			subtitle: "&eSeis ofícios, nenhuma escolha"
 			tasks: [
 				{
 					id: "3539501164769ADA"

@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Eco das Lâminas (II)",
-  "description": "Após o porteiro do Ato II: +15% de dano crítico e +10% de redução de recarga.",
+  "description": "Cada corte ressoa duas vezes.\nApós o porteiro do Ato II: +15% de dano crítico e +10% de redução de recarga.",
   "condition": {
     "type": "origins:advancement",
     "advancement": "gurizes:campanha/ato_2_vencido"

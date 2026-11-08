@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Passo Leve",
-  "description": "+5% de velocidade.",
+  "description": "Pisam na folhagem sem acordar um galho.\n+5% de velocidade.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",

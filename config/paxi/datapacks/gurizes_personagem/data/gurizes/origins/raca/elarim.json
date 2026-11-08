@@ -1,11 +1,11 @@
 {
   "name": "Elarim",
-  "description": "Elfos das Matas de Lúmen: ouvem a floresta antes de ver o inimigo. Estilo: arqueiro ágil. +8% de projéteis, +5% de velocidade, +5% de Natureza. Fraqueza: −1 coração.",
+  "description": "Elfos das Matas de Lúmen. Ouvem a floresta antes de ver o inimigo.",
   "icon": {
-    "item": "minecraft:bow"
+    "item": "magistuarmory:longbow"
   },
-  "impact": 1,
-  "order": 3,
+  "impact": 2,
+  "order": 4,
   "powers": [
     "gurizes:raca/elarim/olhos_de_lumen",
     "gurizes:raca/elarim/passo_leve",

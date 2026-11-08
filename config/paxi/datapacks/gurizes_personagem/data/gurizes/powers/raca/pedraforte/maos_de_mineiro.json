@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Mãos de Mineiro",
-  "description": "+15% de velocidade de mineração.",
+  "description": "A pedra cede a quem a conhece desde criança.\n+15% de velocidade de mineração.",
   "modifiers": [
     {
       "attribute": "attributeslib:mining_speed",

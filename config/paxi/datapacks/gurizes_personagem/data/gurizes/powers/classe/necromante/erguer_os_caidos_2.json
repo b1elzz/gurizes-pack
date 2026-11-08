@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Exército Maior (II)",
-  "description": "Após o porteiro do Ato II, Erguer os Caídos sobe para o nível 5.",
+  "description": "Mais mortos, mais fome de guerra.\nApós o porteiro do Ato II, Erguer os Caídos sobe para o nível 5.",
   "cooldown": 900,
   "hud_render": {
     "should_render": true

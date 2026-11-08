@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Seiva da Mata",
-  "description": "+8% de poder da Natureza.",
+  "description": "A seiva do Carvalho corre nas veias.\n+8% de poder da magia da Natureza.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:nature_spell_power",

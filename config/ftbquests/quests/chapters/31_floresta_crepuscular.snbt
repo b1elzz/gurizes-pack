@@ -25,7 +25,8 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
+			subtitle: "&aPortal do crepúsculo"
 			tasks: [
 				{
 					dimension: "twilightforest:twilight_forest"
@@ -50,6 +51,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aSerpente de pedra"
 			tasks: [
 				{
 					id: "233BA092DEA7DA0E"
@@ -74,6 +78,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aMagia e cinza"
 			tasks: [
 				{
 					id: "4A35054CCFA73CFC"
@@ -98,6 +105,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aSangue de minotauro"
 			tasks: [
 				{
 					id: "472434E2BE5DD2F1"
@@ -122,6 +132,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aTrês cabeças"
 			tasks: [
 				{
 					id: "000B4F9F97A1921D"
@@ -146,6 +159,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aFogo de ghast"
 			tasks: [
 				{
 					id: "0458AD4004785854"

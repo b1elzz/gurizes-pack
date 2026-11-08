@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Reserva Arcana",
-  "description": "+15% de mana máxima.",
+  "description": "O céu em que nasceram ainda corre nas veias.\n+15% de mana máxima.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:max_mana",

@@ -1,11 +1,11 @@
 {
   "name": "Estelari",
-  "description": "Nascidos sob a chuva de estrelas que partiu o Selo. Estilo: conjurador. +15% de mana, +6% de recarga, mana volta mais rápido sob o céu noturno. Fraqueza: +15% de dano mágico recebido.",
+  "description": "Nascidos sob a chuva de estrelas que partiu o Selo. O céu noturno ainda sabe o nome deles.",
   "icon": {
-    "item": "minecraft:nether_star"
+    "item": "gurizes:poeira_estelar"
   },
-  "impact": 1,
-  "order": 11,
+  "impact": 2,
+  "order": 8,
   "powers": [
     "gurizes:raca/estelari/reserva_arcana",
     "gurizes:raca/estelari/mente_clara",

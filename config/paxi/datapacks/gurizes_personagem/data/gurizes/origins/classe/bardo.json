@@ -1,11 +1,11 @@
 {
   "name": "Bardo de Guerra",
-  "description": "“Uma canção certa vale por dez espadas. Eu trouxe as duas.” Auras que fortalecem o grupo. Armas: lanças e rapieiras. ★★☆",
+  "description": "\"Uma canção certa vale por um exército. Eu trouxe os dois.\" Armas: lanças e rapieiras. Dificuldade: média.",
   "icon": {
-    "item": "minecraft:goat_horn"
+    "item": "gurizes:estandarte_do_ultimo_reino"
   },
   "impact": 2,
-  "order": 7,
+  "order": 3,
   "powers": [
     "gurizes:classe/bardo/registro",
     "gurizes:classe/bardo/presenca_inspiradora",

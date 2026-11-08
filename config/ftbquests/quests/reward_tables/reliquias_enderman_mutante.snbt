@@ -1,5 +1,5 @@
 {
-	icon: "minecraft:splash_potion"
+	icon: "mutantmonsters:mutant_enderman_spawn_egg"
 	id: "0420E83294EE279F"
 	loot_size: 1
 	order_index: 12

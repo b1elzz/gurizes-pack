@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Ossos Largos",
-  "description": "+2 corações.",
+  "description": "Sangue de gigante enche cada osso.\n+2 corações de vida máxima.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",

@@ -25,6 +25,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
+			subtitle: "&ePrimeiros passos"
 			tasks: [
 				{
 					id: "24D10D7AD025F8A5"
@@ -47,6 +48,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de aprendiz"
 			tasks: [
 				{
 					id: "3C4C087CA638E260"
@@ -62,6 +66,8 @@
 			dependencies: ["5BA97FC8B2837FBC", "1F82201E3EE0EE78"]
 			description: [
 				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
+				""
+				"&8Requer:&r Apito do Mascate, A Forja Afundada."
 			]
 			icon: "minecraft:emerald"
 			id: "61F83C638BEEBF0C"
@@ -73,8 +79,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 2.0d
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&eMestre · Ato III"
 			tasks: [
 				{
 					id: "6EB7382C9D34CEA0"
@@ -98,6 +105,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de mestre"
 			tasks: [
 				{
 					id: "28072EA3BB194FE8"

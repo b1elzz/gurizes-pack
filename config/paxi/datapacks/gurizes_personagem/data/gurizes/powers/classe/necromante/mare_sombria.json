@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Maré Sombria (III, H)",
-  "description": "Após o porteiro do Ato IV: Tentáculos de Sculk nível 6. Recarga de 2 min.",
+  "description": "A noite sobe pelo chão e agarra tudo.\nApós o porteiro do Ato IV: Tentáculos de Sculk nível 6. Recarga de 2 min.",
   "cooldown": 2400,
   "hud_render": {
     "should_render": true

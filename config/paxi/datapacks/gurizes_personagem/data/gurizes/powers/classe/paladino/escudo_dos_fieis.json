@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Escudo dos Fiéis (II)",
-  "description": "Após o porteiro do Ato II: com escudo na segunda mão, aliados a até 6 blocos ganham Resistência I.",
+  "description": "O escudo se ergue por todos.\nApós o porteiro do Ato II: com escudo na segunda mão, aliados a até 6 blocos ganham Resistência I.",
   "interval": 40,
   "entity_action": {
     "type": "origins:area_of_effect",

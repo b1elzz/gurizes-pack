@@ -23,6 +23,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Bênçãos maiores"
 			tasks: [
 				{
 					id: "135DEA35FC4AD64E"
@@ -49,6 +52,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Almirante Coral"
 			tasks: [
 				{
 					biome: "minecraft:deep_ocean"
@@ -81,6 +87,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Moeda dos afogados"
 			tasks: [
 				{
 					count: 3L
@@ -115,8 +124,8 @@
 				}
 			]
 			shape: "square"
-			size: 0.9d
-			subtitle: "&7Opcional"
+			size: 1.0d
+			subtitle: "&6Opcional · Cidade no escuro"
 			tasks: [
 				{
 					id: "250EB4072F91E80A"
@@ -143,6 +152,9 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "&6A voz da tormenta"
 			tasks: [
 				{
 					id: "6302B317E140115A"
@@ -157,9 +169,10 @@
 		{
 			description: [
 				"\"No meio da tempestade que não acaba há um templo que não afunda. Toque o Sino da Maré e a rainha do mar vem ver quem ousou. Se ela cantar, não olhe. Sério. Não olhe.\""
-				""
+				"{@pagebreak}"
 				"&6Como invocar:&r Concha da Tempestade no Sino da Maré do Templo do Olho da Tormenta; toque o sino."
 				"&6Como vencer:&r fique nas plataformas: dentro d'água ela bate 50% mais. Use os para-raios e as torres; quando ela cantar, vire de costas. Na fase 3 ela sobe à plataforma."
+				"{@pagebreak}"
 				"&aFraquezas:&r gelo (e fica lenta na água), fora d'água, Empalamento do tridente."
 				"&cPontos fortes:&r imune a raio e afogamento; projéteis valem metade com ela submersa; empurra para fora."
 				""
@@ -175,22 +188,16 @@
 					xp_levels: 12
 				}
 				{
+					icon: "gurizes:selo_refeito"
 					id: "1E1383B242E2720A"
 					stage: "ato_5"
+					title: "Ato V liberado"
 					type: "astages_ftbquests:server"
 				}
-				{
-					command: "/advancement grant {p} only gurizes:campanha/ato_4_vencido"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					id: "1EB46D951275B411"
-					silent: true
-					type: "command"
-				}
 			]
-			shape: "gear"
-			size: 2.5d
-			subtitle: "&6Porteiro"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Porteiro · Nerezza"
 			tasks: [
 				{
 					advancement: "gurizes:campanha/ato_4_vencido"
@@ -210,11 +217,11 @@
 				""
 				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:concha_da_tempestade"
 			id: "3760E48552EF4EDE"
 			rewards: [ ]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "&8Ato IV · selado"
 			tasks: [
 				{

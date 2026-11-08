@@ -25,6 +25,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
+			subtitle: "&ePrimeiros passos"
 			tasks: [
 				{
 					id: "2FA760C0CA0382A1"
@@ -47,6 +48,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de aprendiz"
 			tasks: [
 				{
 					id: "07BA68F9546219A2"
@@ -70,6 +74,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de aprendiz"
 			tasks: [
 				{
 					id: "7463DD9DDF5D5401"
@@ -85,6 +92,8 @@
 			dependencies: ["31E5C9E51E7D13D0", "1F82201E3EE0EE78"]
 			description: [
 				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
+				""
+				"&8Requer:&r Tônico de Mana, A Forja Afundada."
 			]
 			icon: "minecraft:brewing_stand"
 			id: "5E597D622C5EF941"
@@ -96,8 +105,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 2.0d
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&eMestre · Ato III"
 			tasks: [
 				{
 					id: "390DF18137AEA6FB"
@@ -121,6 +131,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de mestre"
 			tasks: [
 				{
 					id: "24FD4555D802F826"
@@ -145,6 +158,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de mestre"
 			tasks: [
 				{
 					id: "42D3488B8DF33526"

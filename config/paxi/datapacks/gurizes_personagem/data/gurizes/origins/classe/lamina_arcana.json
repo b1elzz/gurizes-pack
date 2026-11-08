@@ -1,11 +1,11 @@
 {
   "name": "Lâmina Arcana",
-  "description": "“A espada abre a guarda. A magia termina o serviço.” Híbrido de corte e magia. Armas: espadas longas e katanas. ★★★",
+  "description": "\"A espada abre a guarda. A magia termina o serviço.\" Armas: espadas longas e katanas. Dificuldade: alta.",
   "icon": {
-    "item": "simplyswords:iron_katana"
+    "item": "gurizes:lamina_runica"
   },
   "impact": 3,
-  "order": 6,
+  "order": 8,
   "powers": [
     "gurizes:classe/lamina_arcana/registro",
     "gurizes:classe/lamina_arcana/lamina_encantada",

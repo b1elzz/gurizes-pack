@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Batida de Asas",
-  "description": "Espaço em pleno planeio: impulso para frente e para cima. Gasta 25 de Fôlego. Recarga de 5 s.",
+  "description": "Uma pancada de asas empurra o vento.\nEspaço em pleno planeio: impulso para frente e para cima. Gasta 25 de Fôlego. Recarga de 5 s.",
   "cooldown": 100,
   "hud_render": {
     "should_render": true,

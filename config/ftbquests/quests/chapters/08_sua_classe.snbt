@@ -13,7 +13,7 @@
 			description: [
 				"Sua classe define a arma-assinatura, as habilidades e a árvore de passivas por onde começar."
 				"Escolha na tela de personagem (ou troque no Pergaminho do Recomeço, de graça, uma vez)."
-				""
+				"{@pagebreak}"
 				"&ePaladino&r: Égide do Juramento"
 				"&eBerserker&r: Machado Rubro"
 				"&eMago Elemental&r: Cetro do Selo"
@@ -30,9 +30,9 @@
 			icon: "minecraft:shield"
 			id: "26BDAAC04D579B9A"
 			rewards: [ ]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "&6Passo 1"
+			shape: "circle"
+			size: 4.0d
+			subtitle: "&dPasso 1 · Jure sua classe"
 			tasks: [
 				{
 					advancement: "gurizes:tutorial/camadas_escolhidas"
@@ -51,12 +51,15 @@
 				"Cada classe tem uma arma-assinatura que cresce com a campanha (Formas I a V)."
 				"A Forma I sai aqui, depois do primeiro porteiro: 3 Ferro Votivo e 1 Centelha do Selo."
 				"As Formas seguintes são na mesa de ferraria, com a Centelha e o material de cada ato."
+				"{@pagebreak}"
 				"A arma só reconhece quem fez o juramento da classe dela."
 			]
 			icon: "gurizes:centelha_do_selo"
 			id: "08980327ADCB5557"
 			rewards: [ ]
 			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&dArma-assinatura"
 			tasks: [
 				{
 					id: "222A57151A826E24"
@@ -64,8 +67,8 @@
 				}
 			]
 			title: "A Arma que Lembra"
-			x: 4.0d
-			y: 2.5d
+			x: 4.4d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Escolha e arma-assinatura"]

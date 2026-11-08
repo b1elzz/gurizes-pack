@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Palma do Trovão (G)",
-  "description": "Onda de choque ao redor (nível 3). Recarga de 18 s.",
+  "description": "Uma palma que faz o chão responder.\nOnda de choque ao redor (nível 3). Recarga de 18 s.",
   "cooldown": 360,
   "hud_render": {
     "should_render": true

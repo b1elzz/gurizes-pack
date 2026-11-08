@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Nadador",
-  "description": "Nado muito mais rápido.",
+  "description": "Cortam a água como golfinhos.\nNado muito mais rápido (+50% de velocidade na água).",
   "modifiers": [
     {
       "attribute": "forge:swim_speed",

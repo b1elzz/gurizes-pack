@@ -1,11 +1,11 @@
 {
   "name": "Kharn",
-  "description": "Meio-gigantes das Estepes de Ferro: o mais forte carrega o mais fraco. Estilo: bruto da linha de frente. +2 corações, +8% de dano corpo a corpo. Fraqueza: −10% de poder mágico.",
+  "description": "Meio-gigantes das Estepes de Ferro. O mais forte carrega o mais fraco.",
   "icon": {
-    "item": "minecraft:iron_axe"
+    "item": "twilightforest:giant_sword"
   },
-  "impact": 1,
-  "order": 4,
+  "impact": 2,
+  "order": 5,
   "powers": [
     "gurizes:raca/kharn/ossos_largos",
     "gurizes:raca/kharn/braco_de_ferro",

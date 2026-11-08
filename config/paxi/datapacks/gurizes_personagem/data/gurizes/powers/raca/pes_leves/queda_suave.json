@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Queda Suave",
-  "description": "−50% de dano de queda.",
+  "description": "Caem como pluma e levantam rindo.\n-50% de dano de queda.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": -0.5

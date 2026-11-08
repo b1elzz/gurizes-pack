@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_exhaustion",
   "name": "Fome de Estrada",
-  "description": "Fraqueza: gasta 15% mais fome.",
+  "description": "Quem marcha o dia inteiro come como soldado.\nFraqueza: gasta 15% mais fome.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.15

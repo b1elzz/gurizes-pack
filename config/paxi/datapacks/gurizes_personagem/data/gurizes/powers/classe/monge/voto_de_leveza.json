@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Voto de Leveza",
-  "description": "Restrição: com peitoral pesado, −10% de velocidade e perde o Corpo Disciplinado.",
+  "description": "Quem jura leveza não carrega ferro.\nRestrição: com peitoral pesado, -10% de velocidade e perde o Corpo Disciplinado.",
   "condition": {
     "type": "origins:equipped_item",
     "equipment_slot": "chest",

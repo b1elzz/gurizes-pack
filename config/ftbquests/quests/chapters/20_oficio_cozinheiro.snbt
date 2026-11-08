@@ -25,6 +25,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
+			subtitle: "&ePrimeiros passos"
 			tasks: [
 				{
 					id: "3573C15064A32BD9"
@@ -47,6 +48,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de aprendiz"
 			tasks: [
 				{
 					id: "6FC31C6C86BE55D1"
@@ -70,6 +74,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de aprendiz"
 			tasks: [
 				{
 					id: "0195F4C78DC5C4DF"
@@ -85,6 +92,8 @@
 			dependencies: ["10DF936F2EFD3F12", "1F82201E3EE0EE78"]
 			description: [
 				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
+				""
+				"&8Requer:&r Banquete do Acampamento, A Forja Afundada."
 			]
 			icon: "minecraft:campfire"
 			id: "436B2329BF66D0AC"
@@ -96,8 +105,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 2.0d
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&eMestre · Ato III"
 			tasks: [
 				{
 					id: "26E10C26D60D567B"
@@ -121,6 +131,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de mestre"
 			tasks: [
 				{
 					id: "30C58F98760A6696"

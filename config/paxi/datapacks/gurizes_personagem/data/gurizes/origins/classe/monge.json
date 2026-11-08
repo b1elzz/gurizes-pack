@@ -1,8 +1,8 @@
 {
   "name": "Monge",
-  "description": "“Não precisei de armadura. Precisei não estar lá quando o golpe chegou.” Esquiva e golpes rápidos, sem peitoral pesado. Armas: bastão. ★★★",
+  "description": "\"Não precisei de armadura. Precisei não estar lá quando o golpe chegou.\" Armas: bastão. Dificuldade: alta.",
   "icon": {
-    "item": "minecraft:stick"
+    "item": "gurizes:bastao_dos_mil_passos"
   },
   "impact": 3,
   "order": 9,

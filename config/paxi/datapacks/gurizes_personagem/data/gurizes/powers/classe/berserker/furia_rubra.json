@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Fúria Rubra (III, H)",
-  "description": "Após o porteiro do Ato IV, com Fúria cheia: +25% de dano corpo a corpo e +10% de velocidade de ataque por 10 s, com −15% de armadura.",
+  "description": "A fúria sobe e o mundo fica vermelho.\nApós o porteiro do Ato IV, com Fúria cheia: +25% de dano corpo a corpo e +10% de velocidade de ataque por 10 s, com -15% de armadura.",
   "cooldown": 1800,
   "hud_render": {
     "should_render": true

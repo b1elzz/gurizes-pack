@@ -62,6 +62,6 @@ GURIZES_ENC_LISTA.forEach(enc => GURIZES_ENC_TETO.forEach(par =>
   global.gurizesTentar(`trava de encantamento ${enc} ${par[0]}`, () =>
     AStages.addRestrictionForEnchant(`gurizes/enc/${enc.split(':')[1]}_${par[0]}`, par[0], enc, 'great', par[1]))))
 
-// A trava de raridade do Apotheosis (Raro no Ato III, Épico no IV, Mítico no V, Antigo no NG+ 1) saiu daqui em 08/11.
-// A restrição por predicado do AStages derrubava o cliente: NPE em AClientItemPredicateRestriction.isRestricted ao
-// mostrar qualquer tooltip, porque o modelo do predicado some do registro do cliente. Vai para o SealLock do mod.
+// A trava de raridade do Apotheosis (Raro no Ato III, Épico no IV, Mítico no V, Antigo no NG+ 1) não fica mais aqui.
+// A restrição por predicado do AStages derrubava o cliente (NPE em AClientItemPredicateRestriction.isRestricted ao mostrar
+// qualquer tooltip), então ela foi refeita no SealLock do mod (08/11), lendo affix_data.rarity. Nada a fazer neste arquivo.

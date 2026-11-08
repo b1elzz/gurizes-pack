@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Sangue Quente",
-  "description": "−35% de dano de fogo.",
+  "description": "Nasceram nas fornalhas; o fogo mal os toca.\n-35% de dano de fogo.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": -0.35

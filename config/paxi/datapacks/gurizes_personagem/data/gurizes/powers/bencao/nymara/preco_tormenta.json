@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Tempestade Cobra",
-  "description": "Preço: −1 coração.",
+  "description": "Toda tempestade cobra o seu preço.\nPreço: -1 coração.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",

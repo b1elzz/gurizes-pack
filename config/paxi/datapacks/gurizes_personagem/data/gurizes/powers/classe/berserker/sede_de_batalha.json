@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Sede de Batalha",
-  "description": "Golpes e dor enchem a Fúria. Com 50 ou mais: +10% de velocidade de ataque, +3% de roubo de vida e +10% de dano corpo a corpo.",
+  "description": "Cada golpe e cada ferida alimentam a Fúria.\nGolpes e dor enchem a Fúria. Com 50 ou mais: +10% de velocidade de ataque, +3% de roubo de vida e +10% de dano corpo a corpo.",
   "condition": {
     "type": "origins:resource",
     "resource": "gurizes:classe/berserker/furia",

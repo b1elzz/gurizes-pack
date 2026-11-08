@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Mente Clara",
-  "description": "+6% de redução de recarga.",
+  "description": "O foco de quem já viu estrelas caírem.\n+6% de redução de recarga.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:cooldown_reduction",

@@ -13,15 +13,16 @@
 			description: [
 				"\"Toda classe tem uma arma que lembra de quem a segura. Ela cresce com a campanha, e eu aposto que a sua vai ser a melhor da mesa.\""
 				"&7- Capitã Isolde"
+				"{@pagebreak}"
 				"A Forma I sai depois do Galvar: 3 Ferro Votivo (que ele solta) e 1 Centelha do Selo (a primeira vitória dá uma). A arma só reconhece quem jurou a classe dela."
 				"&eDica:&r a habilidade da arma é agachar + botão direito."
 			]
 			icon: "gurizes:centelha_do_selo"
 			id: "1C81F9620F933131"
 			rewards: [ ]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "&bGuia"
+			shape: "circle"
+			size: 4.0d
+			subtitle: "&bA arma que lembra"
 			tasks: [
 				{
 					id: "25F151461D703114"
@@ -36,6 +37,7 @@
 			description: [
 				"Cada Forma é uma etapa da arma, na mesa de ferraria, sempre com 1 Centelha do Selo:"
 				"&6Forma I&r (Ato I, Galvar): 3 Ferro Votivo. &6Forma II&r (Ato II, Vorthra): 3 Cerne Vivo. &6Forma III&r (Ato III, Kharzul): 3 Brasa Eterna."
+				"{@pagebreak}"
 				"&6Forma IV&r (Ato IV, Nerezza): 3 Escama da Tormenta. &6Forma V&r (Ato V, Astrael): 3 Vidro Estelar. Pós-jogo: Forma V Ascendida, com 3 Luz do Juramento."
 				"&eDica:&r a Forma N só funciona depois do porteiro do ato dela; a Centelha cai 1 por jogador na primeira vitória sobre cada porteiro."
 			]
@@ -44,7 +46,7 @@
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "&bGuia"
+			subtitle: "&bCinco formas, uma lembrança"
 			tasks: [
 				{
 					id: "381F6F068EB6CFD4"
@@ -53,7 +55,7 @@
 				}
 			]
 			title: "As Cinco Formas"
-			x: 3.6d
+			x: 4.4d
 			y: 6.0d
 		}
 		{
@@ -64,8 +66,8 @@
 			icon: "gurizes:egide_do_juramento"
 			id: "313AD9CB0C5CF9F8"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Paladino · Forma I"
 			tasks: [
 				{
@@ -75,8 +77,8 @@
 				}
 			]
 			title: "Égide do Juramento"
-			x: 8.0d
-			y: -3.3d
+			x: 8.5d
+			y: -0.4d
 		}
 		{
 			description: [
@@ -86,8 +88,8 @@
 			icon: "gurizes:machado_rubro"
 			id: "50FC1E34AA02277A"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Berserker · Forma I"
 			tasks: [
 				{
@@ -97,8 +99,8 @@
 				}
 			]
 			title: "Machado Rubro"
-			x: 8.0d
-			y: -1.4d
+			x: 11.7d
+			y: -0.4d
 		}
 		{
 			description: [
@@ -108,8 +110,8 @@
 			icon: "gurizes:cetro_do_selo"
 			id: "4FD87239CC8547DF"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Mago Elemental · Forma I"
 			tasks: [
 				{
@@ -119,8 +121,8 @@
 				}
 			]
 			title: "Cetro do Selo"
-			x: 8.0d
-			y: 0.5d
+			x: 8.5d
+			y: 2.8d
 		}
 		{
 			description: [
@@ -130,8 +132,8 @@
 			icon: "gurizes:grimorio_partido"
 			id: "4BAEDE5E0DABDD6F"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Necromante · Forma I"
 			tasks: [
 				{
@@ -141,8 +143,8 @@
 				}
 			]
 			title: "Grimório Partido"
-			x: 8.0d
-			y: 2.4d
+			x: 11.7d
+			y: 2.8d
 		}
 		{
 			description: [
@@ -152,8 +154,8 @@
 			icon: "gurizes:arco_de_valdren"
 			id: "50791D8935B79EE9"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Caçador · Forma I"
 			tasks: [
 				{
@@ -163,8 +165,8 @@
 				}
 			]
 			title: "Arco de Valdren"
-			x: 8.0d
-			y: 4.3d
+			x: 8.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -174,8 +176,8 @@
 			icon: "gurizes:lamina_runica"
 			id: "2145078CA976C269"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Lâmina Arcana · Forma I"
 			tasks: [
 				{
@@ -185,8 +187,8 @@
 				}
 			]
 			title: "Lâmina Rúnica"
-			x: 8.0d
-			y: 6.2d
+			x: 11.7d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -196,8 +198,8 @@
 			icon: "gurizes:estandarte_do_ultimo_reino"
 			id: "4F44DA8653CE860F"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Bardo de Guerra · Forma I"
 			tasks: [
 				{
@@ -207,8 +209,8 @@
 				}
 			]
 			title: "Estandarte do Último Reino"
-			x: 8.0d
-			y: 8.1d
+			x: 8.5d
+			y: 9.2d
 		}
 		{
 			description: [
@@ -218,8 +220,8 @@
 			icon: "gurizes:cajado_do_carvalho_primevo"
 			id: "4E1817333D1DC2A8"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Druida · Forma I"
 			tasks: [
 				{
@@ -229,8 +231,8 @@
 				}
 			]
 			title: "Cajado do Carvalho Primevo"
-			x: 8.0d
-			y: 10.0d
+			x: 11.7d
+			y: 9.2d
 		}
 		{
 			description: [
@@ -240,8 +242,8 @@
 			icon: "gurizes:bastao_dos_mil_passos"
 			id: "354BC0987FB2C5EF"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Monge · Forma I"
 			tasks: [
 				{
@@ -251,8 +253,8 @@
 				}
 			]
 			title: "Bastão dos Mil Passos"
-			x: 8.0d
-			y: 11.9d
+			x: 8.5d
+			y: 12.4d
 		}
 		{
 			description: [
@@ -262,8 +264,8 @@
 			icon: "gurizes:adaga_do_ultimo_suspiro"
 			id: "4EB1CE2F7944CE5F"
 			rewards: [ ]
-			shape: "rsquare"
-			size: 1.25d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Assassino · Forma I"
 			tasks: [
 				{
@@ -273,8 +275,8 @@
 				}
 			]
 			title: "Adaga do Último Suspiro"
-			x: 8.0d
-			y: 13.8d
+			x: 11.7d
+			y: 12.4d
 		}
 	]
 	subtitle: ["Forma I agora; Formas II a V nos atos seguintes"]

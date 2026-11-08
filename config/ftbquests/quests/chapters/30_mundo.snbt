@@ -24,6 +24,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aTeto e mercador"
 			tasks: [
 				{
 					id: "27C0B8BC4F206A1D"
@@ -48,6 +51,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aA Corte Partida"
 			tasks: [
 				{
 					id: "6DD26027F37E04CD"
@@ -72,6 +78,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aEscuro e baú"
 			tasks: [
 				{
 					id: "263569DDF6122D0C"
@@ -96,6 +105,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aCerveja e boato"
 			tasks: [
 				{
 					id: "5497760F52497779"
@@ -120,6 +132,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aPirâmide armadilhada"
 			tasks: [
 				{
 					id: "6C16B1A793E4D395"
@@ -144,6 +159,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aIllagers e segredos"
 			tasks: [
 				{
 					id: "6C903F074C169F83"
@@ -168,6 +186,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aForte dos illagers"
 			tasks: [
 				{
 					id: "2E668D45D8479062"
@@ -192,6 +213,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aSono dos mortos"
 			tasks: [
 				{
 					id: "7830ABD5B46CD296"

@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Corpo Disciplinado",
-  "description": "Sem peitoral pesado: +10% de esquiva e +10% de velocidade de ataque.",
+  "description": "Anos de treino no lugar da armadura.\nSem peitoral pesado: +10% de esquiva e +10% de velocidade de ataque.",
   "condition": {
     "type": "origins:equipped_item",
     "equipment_slot": "chest",

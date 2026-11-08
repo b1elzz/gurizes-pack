@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Explosão Elemental (G)",
-  "description": "Lança a magia do elemento ativo: Bola de Fogo, Cone de Frio ou Relâmpago em Cadeia. Troque o elemento com o Cetro do Selo ou com /trigger gurizes.elemento set 0, 1 ou 2. Recarga de 20 s.",
+  "description": "Um elemento por vez, e todos furiosos.\nLança a magia do elemento ativo: Bola de Fogo, Cone de Frio ou Relâmpago em Cadeia. Troque o elemento com o Cetro do Selo ou com /trigger gurizes.elemento set 0, 1 ou 2. Recarga de 20 s.",
   "cooldown": 400,
   "hud_render": {
     "should_render": true

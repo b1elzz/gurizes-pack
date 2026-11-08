@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Passo de Raiz",
-  "description": "Preço: −4% de velocidade.",
+  "description": "Quem tem raízes anda devagar.\nPreço: -4% de velocidade.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",

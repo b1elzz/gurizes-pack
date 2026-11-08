@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Corpo Esguio",
-  "description": "Restrição: −15% de vida máxima.",
+  "description": "Rápido demais para armadura, frágil demais para erro.\nRestrição: -15% de vida máxima.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",

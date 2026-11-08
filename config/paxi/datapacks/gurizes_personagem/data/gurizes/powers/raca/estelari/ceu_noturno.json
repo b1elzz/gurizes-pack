@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Céu Noturno",
-  "description": "Sob o céu aberto à noite: +15% de regeneração de mana.",
+  "description": "Sob as estrelas, a mana volta como maré.\nSob o céu aberto à noite: +15% de regeneração de mana.",
   "condition": {
     "type": "origins:and",
     "conditions": [

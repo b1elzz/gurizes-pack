@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Eco Sombrio",
-  "description": "+8% de poder de Sangue e Eldritch.",
+  "description": "A marca sussurra, e eles escutam.\n+8% de poder de Sangue e Eldritch.",
   "modifiers": [
     {
       "attribute": "irons_spellbooks:blood_spell_power",

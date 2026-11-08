@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Brasa Apagada",
-  "description": "Fraqueza: enquanto a brasa recarrega, −1 coração.",
+  "description": "Sem brasa, o corpo pesa.\nFraqueza: enquanto a brasa recarrega, -1 coração.",
   "condition": {
     "type": "origins:and",
     "conditions": [

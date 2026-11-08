@@ -1,11 +1,11 @@
 {
   "name": "Druida",
-  "description": "“A floresta não escolhe lados. Eu escolho.” Curandeiro e controle de área. Armas: cajado e foice. ★★☆",
+  "description": "\"A floresta não escolhe lados. Eu escolho.\" Armas: cajado e foice. Dificuldade: média.",
   "icon": {
-    "item": "minecraft:oak_leaves"
+    "item": "gurizes:cajado_do_carvalho_primevo"
   },
   "impact": 2,
-  "order": 8,
+  "order": 4,
   "powers": [
     "gurizes:classe/druida/registro",
     "gurizes:classe/druida/raizes_vivas",

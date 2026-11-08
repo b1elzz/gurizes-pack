@@ -1,15 +1,14 @@
 {
   "name": "Pedraforte",
-  "description": "Anões das Montanhas de Karrum: a montanha ensina paciência; a forja ensina o resto. Estilo: tanque e minerador. +15% de mineração, +2 de armadura, firmeza. Fraqueza: −5% de velocidade.",
+  "description": "Anões das Montanhas de Karrum. A montanha ensina paciência; a forja ensina o resto.",
   "icon": {
-    "item": "minecraft:iron_pickaxe"
+    "item": "gurizes:martelo_runico"
   },
-  "impact": 1,
-  "order": 2,
+  "impact": 2,
+  "order": 3,
   "powers": [
     "gurizes:raca/pedraforte/maos_de_mineiro",
     "gurizes:raca/pedraforte/pele_de_pedra",
-    "gurizes:raca/pedraforte/firmeza",
     "gurizes:raca/pedraforte/passos_pesados"
   ]
 }

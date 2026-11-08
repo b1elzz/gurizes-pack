@@ -25,6 +25,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
+			subtitle: "&ePrimeiros passos"
 			tasks: [
 				{
 					id: "06E04CEB620474F6"
@@ -47,6 +48,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de aprendiz"
 			tasks: [
 				{
 					id: "4EAAEF6EC40C515D"
@@ -70,6 +74,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de aprendiz"
 			tasks: [
 				{
 					id: "65799E164DB02E7B"
@@ -85,6 +92,8 @@
 			dependencies: ["241B0D593AF89A4E", "1F82201E3EE0EE78"]
 			description: [
 				"Com o porteiro do Ato III vencido, Ignar reacende a forja dos deuses: a profissão chega a Mestre."
+				""
+				"&8Requer:&r Pedra de Amolar, A Forja Afundada."
 			]
 			icon: "minecraft:anvil"
 			id: "1908E7E663E14C38"
@@ -96,8 +105,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 2.0d
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&eMestre · Ato III"
 			tasks: [
 				{
 					id: "2247C22ABFA758D0"
@@ -121,6 +131,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de mestre"
 			tasks: [
 				{
 					id: "609D366BC0FB2A87"
@@ -145,6 +158,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eReceita de mestre"
 			tasks: [
 				{
 					id: "7C987D11BE1F7073"

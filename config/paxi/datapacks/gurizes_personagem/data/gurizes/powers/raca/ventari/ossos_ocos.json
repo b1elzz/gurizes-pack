@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Ossos Ocos",
-  "description": "Fraqueza: −2 corações.",
+  "description": "Osso leve voa alto e quebra fácil.\nFraqueza: -2 corações; quedas e batidas em paredes doem 40% mais.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",

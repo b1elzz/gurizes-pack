@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
-  "name": "Juramento Inquebrável (III, H)",
-  "description": "Após o porteiro do Ato IV: Absorção IV e Resistência II por 6 s em você; Absorção II nos aliados a até 8 blocos. Recarga de 2 min.",
+  "name": "Voto Inquebrável (III, H)",
+  "description": "O juramento final: a muralha que não cai.\nApós o porteiro do Ato IV: Absorção IV e Resistência II por 6 s em você; Absorção II nos aliados a até 8 blocos. Recarga de 2 min.",
   "cooldown": 2400,
   "hud_render": {
     "should_render": true

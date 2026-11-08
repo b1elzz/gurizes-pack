@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Hino de Coragem (G)",
-  "description": "Aliados a até 10 blocos ganham Força I e Inspiração por 10 s. Recarga de 40 s.",
+  "description": "Um refrão capaz de acender um exército.\nAliados a até 10 blocos ganham Força I e Inspiração por 10 s. Recarga de 40 s.",
   "cooldown": 800,
   "hud_render": {
     "should_render": true

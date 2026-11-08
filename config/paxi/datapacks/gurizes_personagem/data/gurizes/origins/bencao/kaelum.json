@@ -1,10 +1,10 @@
 {
-  "name": "Kaelum, o Escriba das Estrelas",
-  "description": "Saber, estrelas e arcano. Estilo: conjurador. Menor: +10% de mana, +5% de regeneração de mana. Maior (Ato III): Constelação, +8% de poder e de recarga. Preço: +10% de dano mágico recebido.",
+  "name": "Kaelum",
+  "description": "O Escriba das Estrelas lê o céu e anota o destino de quem estuda.",
   "icon": {
-    "item": "minecraft:enchanted_book"
+    "item": "gurizes:mapa_celeste"
   },
-  "impact": 1,
+  "impact": 2,
   "order": 6,
   "powers": [
     "gurizes:bencao/kaelum/menor_escriba",

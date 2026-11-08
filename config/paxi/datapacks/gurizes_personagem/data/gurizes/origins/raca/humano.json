@@ -1,8 +1,8 @@
 {
-  "name": "Humano de Valdren",
-  "description": "Sem dons de nascença, com a teimosia de quem reconstruiu um reino duas vezes. Estilo: coringa. +1 coração, +10% de XP, +5% de dano. Fraqueza: +15% de fome gasta.",
+  "name": "Humano",
+  "description": "Humanos de Valdren: sem dons de nascença, mas com a teimosia de quem reconstruiu um reino duas vezes.",
   "icon": {
-    "item": "minecraft:iron_sword"
+    "item": "gurizes:estandarte_do_juramento"
   },
   "impact": 1,
   "order": 1,

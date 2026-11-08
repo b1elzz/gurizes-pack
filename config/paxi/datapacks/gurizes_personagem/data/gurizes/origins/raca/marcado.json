@@ -1,11 +1,11 @@
 {
   "name": "Marcado",
-  "description": "Tocados pela Corrupção, juraram combatê-la e carregam a marca como juramento. Estilo: sombrio e resistente. Meia visão no escuro, +8% de Sangue e Eldritch, Murchar dura metade. Fraqueza: −15% de cura recebida.",
+  "description": "Tocados pela Corrupção, juraram combatê-la. Carregam a marca como quem carrega um juramento.",
   "icon": {
-    "item": "minecraft:echo_shard"
+    "item": "gurizes:seiva_corrompida"
   },
   "impact": 1,
-  "order": 8,
+  "order": 2,
   "powers": [
     "gurizes:raca/marcado/vista_da_penumbra",
     "gurizes:raca/marcado/eco_sombrio",

@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
-  "name": "Memória de Vesperis (Menor)",
-  "description": "+3% de roubo de vida.",
+  "name": "Eco de Vesperis (Menor)",
+  "description": "Ela lembra cada alma que você já tirou.\n+3% de roubo de vida.",
   "modifiers": [
     {
       "attribute": "attributeslib:life_steal",

@@ -18,8 +18,9 @@
 			icon: "gurizes:estandarte_do_juramento"
 			id: "66D7C9E1EC0465BC"
 			rewards: [ ]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "circle"
+			size: 4.0d
+			subtitle: "&7Onde tudo começa"
 			tasks: [
 				{
 					id: "1DBD73B97374BDC3"
@@ -47,6 +48,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Planos de grupo"
 			tasks: [
 				{
 					id: "1AE113A944B7BDBC"
@@ -72,6 +74,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Viagem sem pressa"
 			tasks: [
 				{
 					consume_items: true
@@ -114,6 +117,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Todos na bigorna"
 			tasks: [
 				{
 					consume_items: true
@@ -142,6 +146,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Memória do Panteão"
 			tasks: [
 				{
 					consume_items: true
@@ -172,6 +177,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Arena dos amigos"
 			tasks: [
 				{
 					consume_items: true
@@ -200,6 +206,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Moeda em casa"
 			tasks: [
 				{
 					id: "6C6940204F423F98"
@@ -233,6 +240,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Forja de anão"
 			tasks: [
 				{
 					id: "7875E0104C49B211"
@@ -245,7 +253,11 @@
 		}
 		{
 			dependencies: ["66D7C9E1EC0465BC", "0E3ABA8733D7AC8E"]
-			description: ["A Companhia da Maré deixa barcos e um ancoradouro no Pouso."]
+			description: [
+				"A Companhia da Maré deixa barcos e um ancoradouro no Pouso."
+				""
+				"&8Requer:&r O Pouso do Juramento, Sete Ventos."
+			]
 			icon: "minecraft:oak_boat"
 			id: "4F8624BE5C527A34"
 			rewards: [
@@ -259,6 +271,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Mar à porta"
 			tasks: [
 				{
 					id: "1E8F9E72FDC47C4D"
@@ -287,6 +300,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "&7Olhos nas estrelas"
 			tasks: [
 				{
 					id: "02D8267DB3196172"

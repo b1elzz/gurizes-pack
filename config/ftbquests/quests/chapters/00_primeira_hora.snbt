@@ -13,7 +13,7 @@
 				"\"Ajoelhe, levante a mão e repita comigo: &opela Coroa, pelo Selo e pelos amigos que não deixo para trás.&r"
 				"Pronto. Agora você é um Juramentado. Ah, e arrume uma espada. Juramento não corta.\""
 				"&7- Capitã Isolde"
-				""
+				"{@pagebreak}"
 				"Valdren está partido: o rei Morvhal quebrou o Selo dos Sete e a Mácula acordou."
 				"Recupere os Fragmentos, liberte os Guardiões e refaça o Selo."
 			]
@@ -37,8 +37,8 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.25d
 			subtitle: "&6Prólogo"
 			tasks: [
 				{
@@ -53,16 +53,17 @@
 		{
 			dependencies: ["3889F93F344D9395"]
 			description: [
-				"Escolha as três camadas do seu personagem: &eRaça&r, &eBênção&r e &eClasse&r."
-				"A classe pesa mais; as outras dão um tempero. Antes de vencer o primeiro porteiro,"
-				"o Pergaminho do Recomeço troca tudo de graça uma vez."
+				"Escolha as três camadas do herói: &eRaça&r, &eBênção&r e &eClasse&r. A classe pesa mais; as outras dão tempero."
+				"&eDica:&r o Pergaminho do Recomeço troca tudo de graça, uma vez."
 			]
-			icon: "minecraft:player_head"
+			icon: "gurizes:espelho_das_origens"
 			id: "4DDB3E9E6F0CC55F"
 			rewards: [
 				{
+					icon: "gurizes:estandarte_do_juramento"
 					id: "1CD0B405FEAD7338"
 					stage: "juramentado"
+					title: "Juramentado"
 					type: "astages_ftbquests:player"
 				}
 				{
@@ -71,6 +72,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Três escolhas, um herói"
 			tasks: [
 				{
 					advancement: "gurizes:tutorial/camadas_escolhidas"
@@ -86,9 +90,8 @@
 		{
 			dependencies: ["4DDB3E9E6F0CC55F"]
 			description: [
-				"Derrube 5 criaturas hostis. Cada arma tem um movimento próprio (Better Combat)"
-				"e a tecla de &eesquiva&r (Combat Roll) salva vidas. Olhe para um monstro para ver o nível dele:"
-				"quanto mais longe do spawn e mais fundo, mais forte."
+				"Derrube 5 criaturas hostis. Cada arma tem um movimento próprio e a tecla de &eesquiva&r salva vidas."
+				"&eDica:&r olhe um monstro para ver o nível dele: quanto mais longe do spawn, mais forte."
 			]
 			icon: "minecraft:iron_sword"
 			id: "5939A507121EB426"
@@ -112,6 +115,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Espada na mão"
 			tasks: [
 				{
 					id: "609DB3CA10684DF8"
@@ -127,9 +133,8 @@
 		{
 			dependencies: ["5939A507121EB426"]
 			description: [
-				"Fornalha, ferramentas de pedra e uma cama no Pouso."
-				"Faltou a cama? São três lãs brancas e três tábuas na bancada."
-				"Ninguém salva um reino dormindo no chão."
+				"Fornalha, ferramentas de pedra e uma cama no Pouso. Ninguém salva um reino dormindo no chão."
+				"&eDica:&r faltou a cama? Três lãs brancas e três tábuas na bancada."
 			]
 			icon: "minecraft:campfire"
 			id: "432854924D718AFB"
@@ -146,6 +151,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Casa, ainda que de lona"
 			tasks: [
 				{
 					id: "73EDA95FB8A7D6ED"
@@ -180,9 +188,8 @@
 		{
 			dependencies: ["432854924D718AFB"]
 			description: [
-				"Abra a árvore de habilidades passivas (tecla da Passive Skill Tree)."
-				"Cada ponto vem de XP; o Pergaminho da Amnésia refaz a árvore."
-				"Sua classe diz por qual ramo começar."
+				"Abra a árvore de habilidades passivas. Cada ponto vem de XP, e sua classe diz por qual ramo começar."
+				"&eDica:&r o Pergaminho da Amnésia refaz a árvore."
 			]
 			icon: "skilltree:wisdom_scroll"
 			id: "2004C8818AF46DB1"
@@ -193,6 +200,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Raízes do poder"
 			tasks: [
 				{
 					id: "780F5AE0092641BE"
@@ -206,8 +216,8 @@
 		{
 			dependencies: ["2004C8818AF46DB1"]
 			description: [
-				"Tenha um pergaminho de magia. Coloque-o no livro de magias (slot de Curios)"
-				"e lance com a tecla de magia. Mana regenera sozinha; cada classe tem suas escolas."
+				"Tenha um pergaminho de magia, ponha no livro (slot de Curios) e lance com a tecla de magia."
+				"&eDica:&r a mana regenera sozinha; cada classe tem suas escolas."
 			]
 			icon: "irons_spellbooks:copper_spell_book"
 			id: "33F4705178B7A8F6"
@@ -219,6 +229,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Palavras que queimam"
 			tasks: [
 				{
 					id: "2CE46AA3E30B17DF"
@@ -233,10 +246,10 @@
 		{
 			dependencies: ["33F4705178B7A8F6"]
 			description: [
-				"Ao morrer, seus itens vão para uma &ecova&r no lugar da morte e o XP fica com você."
-				"A Bússola da Cova aponta o caminho. Com pressa? Pague níveis de XP na tela de morte"
-				"para resgatar tudo na hora: é a Oferenda a Vesperis. Quanto mais itens e mais longe na"
-				"campanha, mais caro; resgatar de novo em 30 minutos sai mais caro ainda."
+				"Ao morrer, seus itens vão para uma &ecova&r e o XP fica com você. A Bússola da Cova mostra o caminho."
+				"{@pagebreak}"
+				"Com pressa? Pague níveis na tela de morte para resgatar tudo na hora (Oferenda a Vesperis)."
+				"Quanto mais itens e mais longe na campanha, mais caro; resgatar de novo em 30 minutos sai ainda mais caro."
 			]
 			icon: "minecraft:skeleton_skull"
 			id: "105078CDCE404C28"
@@ -247,6 +260,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6A segunda chance"
 			tasks: [
 				{
 					id: "7EF467FD1B6FAD52"
@@ -261,8 +277,7 @@
 			dependencies: ["105078CDCE404C28"]
 			description: [
 				"Tenha 5 Moedas de Bronze. 9 bronze viram 1 prata; 9 prata, 1 ouro (na bancada, sem perda)."
-				"Moeda compra no capítulo &eMercador da Coroa&r, que abre agora."
-				"Este marco entrega ao grupo o &eEstandarte do Juramento&r, para a próxima etapa."
+				"&eDica:&r moeda compra no &eMercador da Coroa&r, que abre agora. Este marco entrega o Estandarte do Juramento ao grupo."
 			]
 			icon: "gurizes:moeda_bronze"
 			id: "457DAF33C1BBACDF"
@@ -274,6 +289,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6O peso do bronze"
 			tasks: [
 				{
 					count: 5L
@@ -289,9 +307,8 @@
 		{
 			dependencies: ["457DAF33C1BBACDF"]
 			description: [
-				"Coloque o Estandarte do Juramento (entregue na quest anterior) onde o grupo vai morar:"
-				"ali é o &ePouso do Juramento&r, ponto de renascimento de todos."
-				"O Pouso cresce a cada ato (capítulo Melhorias da Base)."
+				"Coloque o Estandarte do Juramento onde o grupo vai morar: o &ePouso do Juramento&r, ponto de renascimento de todos."
+				"&eDica:&r o Pouso cresce a cada ato (capítulo Melhorias da Base)."
 			]
 			icon: "gurizes:estandarte_do_juramento"
 			id: "72E8F8F942E79625"
@@ -304,6 +321,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Onde o grupo volta"
 			tasks: [
 				{
 					advancement: "gurizes:interno/estandarte_colocado"
@@ -320,14 +340,14 @@
 			dependencies: ["72E8F8F942E79625"]
 			description: [
 				"O primeiro Fragmento está com Sir Xavier Siri Galvar, na Cripta do Primeiro Cavaleiro."
-				"Itens com a marca &6Selado pelo Juramento&r podem ser guardados, mas só funcionam"
-				"quando o ato deles chegar. O capítulo do Ato I está aberto."
+				"&eDica:&r itens &6Selado pelo Juramento&r podem ser guardados, mas só funcionam quando o ato deles chegar."
 			]
 			icon: "gurizes:bussola_do_selo"
 			id: "3484B276FE312BD7"
 			rewards: [ ]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
+			subtitle: "&6A Cripta espera"
 			tasks: [
 				{
 					id: "21672CDEA89A832D"

@@ -25,6 +25,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Sangue de árvore"
 			tasks: [
 				{
 					count: 8L
@@ -53,6 +56,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Gente da mata"
 			tasks: [
 				{
 					biome: "minecraft:dark_forest"
@@ -85,6 +91,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Terra curada"
 			tasks: [
 				{
 					consume_items: true
@@ -127,6 +136,9 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "&6O pulso do bosque"
 			tasks: [
 				{
 					id: "33AC2429D0E45916"
@@ -141,9 +153,10 @@
 		{
 			description: [
 				"\"Vorthra cuidava deste bosque quando o mundo ainda era verde. Agora ela só lembra de crescer. Plante o Coração de Seiva no Altar de Raízes e fique longe das raízes que se mexem. Todas se mexem.\""
-				""
+				"{@pagebreak}"
 				"&6Como invocar:&r plante o Coração de Seiva no Altar de Raízes do Bosque Sangrado."
 				"&6Como vencer:&r saia das nuvens roxas de esporos, mate as raízes que curam e interrompa o Florescer. Na fase 2, o coração fica exposto nas costas."
+				"{@pagebreak}"
 				"&aFraquezas:&r fogo, machados, coração exposto (dano dobrado)."
 				"&cPontos fortes:&r imune a veneno; quase imune a natureza; casca resiste a projéteis; regenera se ficar 5 s sem apanhar."
 				""
@@ -159,22 +172,16 @@
 					xp_levels: 8
 				}
 				{
+					icon: "gurizes:selo_refeito"
 					id: "79BC9703C6D477D8"
 					stage: "ato_3"
+					title: "Ato III liberado"
 					type: "astages_ftbquests:server"
 				}
-				{
-					command: "/advancement grant {p} only gurizes:campanha/ato_2_vencido"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					id: "43E15EA59FD4FF1D"
-					silent: true
-					type: "command"
-				}
 			]
-			shape: "gear"
-			size: 2.5d
-			subtitle: "&6Porteiro"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Porteiro · Vorthra"
 			tasks: [
 				{
 					advancement: "gurizes:campanha/ato_2_vencido"
@@ -194,11 +201,11 @@
 				""
 				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior e leia a Página Final."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:coracao_de_seiva"
 			id: "5EDE011E12106EAC"
 			rewards: [ ]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "&8Ato II · selado"
 			tasks: [
 				{

@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
-  "name": "Coragem de Brava (Menor)",
-  "description": "+5% de chance de crítico.",
+  "name": "Brio de Brava (Menor)",
+  "description": "A Mãe das Batalhas sorri a quem não vira o rosto.\n+5% de chance de crítico.",
   "modifiers": [
     {
       "attribute": "attributeslib:crit_chance",

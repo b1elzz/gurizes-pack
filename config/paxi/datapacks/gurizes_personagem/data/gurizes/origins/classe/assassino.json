@@ -1,8 +1,8 @@
 {
   "name": "Assassino",
-  "description": "“O boss tem muita vida. Eu só preciso achar o lugar certo.” Explosão de dano num alvo; frágil. Armas: adagas. ★★★",
+  "description": "\"O monstro tem muita vida. Eu só preciso achar o lugar certo.\" Armas: adagas. Dificuldade: alta.",
   "icon": {
-    "item": "simplyswords:iron_sai"
+    "item": "gurizes:adaga_do_ultimo_suspiro"
   },
   "impact": 3,
   "order": 10,

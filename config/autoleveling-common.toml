@@ -10,7 +10,8 @@
 	#If this list is not empty only these mobs will be able to level up
 	#Example: ["minecraft:zombie", "minecraft:skeleton"]
 	"List of mobs that should be able to level up" = []
-	"Always show mobs levels" = false
+	#Com o Neat (barra de vida sobre o mob), o nível aparece em toda barra e não só no mob para o qual você olha.
+	"Always show mobs levels" = true
 	"Only show levels when you look at the mob" = true
 	#+4% de XP por nível.
 	"Bonus experience per level" = 0.04

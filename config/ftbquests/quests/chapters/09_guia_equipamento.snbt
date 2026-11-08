@@ -14,14 +14,15 @@
 				"\"Na Cripta, vista o que o Ato I permite: ferro, raridade comum ou incomum, encantamento até II. O resto está selado, e eu tenho o tooltip como testemunha.\""
 				"&7- Capitã Isolde"
 				"Sete linhas de equipamento: o que usar, de onde vem e para quem serve."
+				"{@pagebreak}"
 				"&eDica:&r se um item mostrar \"Selado pelo Juramento\", deixe no baú e volte quando o ato dele chegar."
 			]
 			icon: "minecraft:iron_chestplate"
 			id: "6D9B10DD7FC8D738"
 			rewards: [ ]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "&bGuia"
+			shape: "circle"
+			size: 4.0d
+			subtitle: "&bO que usar, e de onde vem"
 			tasks: [
 				{
 					id: "1E4D9E79FDCC66A3"
@@ -44,7 +45,7 @@
 			rewards: [ ]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "&bEquipamento · Ato I"
+			subtitle: "&bMuralha de ferro"
 			tasks: [
 				{
 					id: "095BAC1FCDAA1600"
@@ -53,14 +54,15 @@
 				}
 			]
 			title: "Armadura Pesada"
-			x: 3.2d
-			y: 0.0d
+			x: 3.4d
+			y: -1.3d
 		}
 		{
 			description: [
 				"Cota de malha: a vanilla (de vilas e baús) e a de aço do Epic Knights (chainmail_*), feita de correntes de aço. Um meio-termo entre couro e ferro."
 				"O aço sai do lingote de ferro na fornalha de fundição."
 				"&6Para:&r Caçador, Lâmina Arcana e Bardo."
+				"{@pagebreak}"
 				"&6Vem de:&r vilas, baús de masmorra e a bancada."
 				"&eDica:&r o gambeson (acolchoado do Epic Knights, feito de tecido de lã) é a opção ainda mais leve."
 			]
@@ -69,7 +71,7 @@
 			rewards: [ ]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "&bEquipamento · Ato I"
+			subtitle: "&bO meio-termo"
 			tasks: [
 				{
 					id: "4735DE0DB4EEF862"
@@ -78,14 +80,15 @@
 				}
 			]
 			title: "Armadura Média"
-			x: 5.8d
-			y: 0.0d
+			x: 6.0d
+			y: -1.3d
 		}
 		{
 			description: [
 				"Couro vanilla e o conjunto Wandering Magician (Iron's), que sai de uma peça de couro e uma Essência Arcana. Pouca defesa, muita liberdade."
 				"&6Para:&r Mago, Necromante, Druida, Assassino e Monge."
 				"&6Vem de:&r bancada e itens de Iron's Spells."
+				"{@pagebreak}"
 				"&eDica:&r quem lança magia precisa de mana, não de aço: troque defesa por mobilidade."
 			]
 			icon: "minecraft:leather_chestplate"
@@ -93,7 +96,7 @@
 			rewards: [ ]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "&bEquipamento · Ato I"
+			subtitle: "&bPasso ligeiro"
 			tasks: [
 				{
 					id: "725429D88A30C76C"
@@ -102,13 +105,14 @@
 				}
 			]
 			title: "Armadura Leve"
-			x: 8.4d
-			y: 0.0d
+			x: 8.6d
+			y: -1.3d
 		}
 		{
 			description: [
 				"Escudo vanilla e os escudos de ferro do Epic Knights (heatershield, kiteshield, roundshield). Todos aparam, todos valem."
 				"Cada escudo de ferro do Epic Knights leva o escudo de madeira da mesma forma (tábuas e 1 lingote de aço) mais 4 lingotes de ferro."
+				"{@pagebreak}"
 				"&6Para:&r todos: aparar é para todo mundo."
 				"&6Vem de:&r bancada; a Lição de Escudo dá um de presente."
 				"&eDica:&r o escudo do Primeiro Cavaleiro (do Galvar) vem depois e apara com uma janela 30% maior."
@@ -118,7 +122,7 @@
 			rewards: [ ]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "&bEquipamento · Ato I"
+			subtitle: "&bA melhor arma"
 			tasks: [
 				{
 					id: "6554B62FCD018EC2"
@@ -127,12 +131,13 @@
 				}
 			]
 			title: "Escudos"
-			x: 11.0d
-			y: 0.0d
+			x: 11.2d
+			y: -1.3d
 		}
 		{
 			description: [
 				"O kit da sua classe já trouxe a primeira arma: espada de ferro (Paladino, Lâmina Arcana), machado (Berserker), foice (Necromante), arco (Caçador), lança (Bardo), sai (Assassino), cajado (Mago, Druida) e Bastão de Treino (Monge)."
+				"{@pagebreak}"
 				"Mais opções de ferro: Simply Swords (iron_longsword, iron_claymore, iron_katana...) e Epic Knights (iron_katzbalger, iron_shortsword...)."
 				"&6Para:&r cada classe, a sua."
 				"&6Vem de:&r o kit do juramento, a bancada e baús de masmorra."
@@ -143,7 +148,7 @@
 			rewards: [ ]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "&bEquipamento · Ato I"
+			subtitle: "&bAço de Valdren"
 			tasks: [
 				{
 					id: "51BC0F88F7D66FA2"
@@ -152,14 +157,15 @@
 				}
 			]
 			title: "Armas"
-			x: 3.2d
-			y: 2.6d
+			x: 3.4d
+			y: 1.3d
 		}
 		{
 			description: [
 				"Curios do Artifacts que servem desde o começo: Running Shoes, Cross Necklace, Snorkel, Feral Claws, Lucky Scarf e Universal Attractor."
 				"&6Para:&r todos."
 				"&6Vem de:&r baús de masmorra (Lootr) e mímicos."
+				"{@pagebreak}"
 				"&eDica:&r os acessórios ocupam slots de Curios e não aparecem na sua armadura: confira o slot antes de pensar que perdeu o item."
 			]
 			icon: "artifacts:running_shoes"
@@ -167,7 +173,7 @@
 			rewards: [ ]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "&bEquipamento · Ato I"
+			subtitle: "&bPequenos poderes"
 			tasks: [
 				{
 					id: "4492FB3A99AB086E"
@@ -176,13 +182,14 @@
 				}
 			]
 			title: "Acessórios"
-			x: 5.8d
-			y: 2.6d
+			x: 6.0d
+			y: 1.3d
 		}
 		{
 			description: [
 				"Pratos do Farmer's Delight (beef_stew, vegetable_soup, roast_chicken), poções de cura e as peças de Aprendiz do Pouso: Kit de Reparo de Campo, Pedra de Amolar, Frasco de Cura em Grupo, Tônico de Mana, Ração de Viagem e Banquete do Acampamento."
 				"&6Para:&r todos."
+				"{@pagebreak}"
 				"&6Vem de:&r cozinha, alquimia e a bancada das Profissões."
 				"&eDica:&r o Óleo de Têmpera e os frascos \"maiores\" são de nível Mestre: só do Ato IV em diante."
 			]
@@ -191,7 +198,7 @@
 			rewards: [ ]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "&bEquipamento · Ato I"
+			subtitle: "&bProvisões de guerra"
 			tasks: [
 				{
 					id: "10B00DF2A208D57D"
@@ -200,8 +207,8 @@
 				}
 			]
 			title: "Consumíveis"
-			x: 8.4d
-			y: 2.6d
+			x: 8.6d
+			y: 1.3d
 		}
 		{
 			dependencies: [
@@ -217,7 +224,10 @@
 				"\"Armadura de ferro completa, escudo na mão e a mochila cheia. É o que eu peço a qualquer um que vai bater na porta de um cavaleiro mal-humorado.\""
 				"&7- Capitã Isolde"
 				"Com as quatro peças de ferro e o escudo em mãos, o Kit de cura é por minha conta."
+				"{@pagebreak}"
 				"&eDica:&r a quest \"Preparação para a Cripta\" (Campanha) confere comida, poções e arma. As duas pagam kit de cura: o grupo precisa."
+				""
+				"&8Requer:&r todas as 7 quests anteriores."
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:iron_helmet"
@@ -236,9 +246,9 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "&bGuia · fecho"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&bTudo conferido"
 			tasks: [
 				{
 					id: "7B75EF3CA51D4EDE"
@@ -267,8 +277,8 @@
 				}
 			]
 			title: "Pronto para a Cripta"
-			x: 7.1d
-			y: 5.4d
+			x: 7.3d
+			y: 3.9d
 		}
 	]
 	subtitle: ["O que usar até o Galvar, e de onde vem"]

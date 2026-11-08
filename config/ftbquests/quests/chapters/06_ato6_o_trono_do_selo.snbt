@@ -23,6 +23,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Cinco pedaços de um juramento"
 			tasks: [
 				{
 					id: "4DC340B3159FCA87"
@@ -70,6 +73,9 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "&6Onde o Selo se refaz"
 			tasks: [
 				{
 					id: "6344D6328B75EFFF"
@@ -99,8 +105,8 @@
 				}
 			]
 			shape: "square"
-			size: 0.9d
-			subtitle: "&7Opcional"
+			size: 1.0d
+			subtitle: "&6Opcional · A arma completa"
 			tasks: [
 				{
 					id: "32C6B3E5D4DD11AF"
@@ -115,9 +121,10 @@
 			dependencies: ["07590E150745C9B8"]
 			description: [
 				"\"Morvhal partiu o Selo e partiu a si mesmo. Metade dele ainda é rei. A outra metade é fome. Vençam as duas, e no fim talvez o rei peça desculpas. Talvez.\""
-				""
+				"{@pagebreak}"
 				"&6Como invocar:&r os 5 Fragmentos na Mesa do Selo do Pouso abrem o Portal do Selo por 30 s; cruze a Linha do Juramento no salão."
 				"&6Como vencer:&r fase 1 é duelo; na fase 2 ele parte em Metade Rei e Metade Sombra (dividam o grupo); na fase 3 a arena encolhe. Use as estátuas dos deuses."
+				"{@pagebreak}"
 				"&aFraquezas:&r Metade Rei: raio; Metade Sombra: sagrado; arma-assinatura Forma V; Bênção de Aurion pela estátua."
 				"&cPontos fortes:&r imune a controle (atordoar, lentidão, congelar); toda magia vale 80%; nenhum golpe passa de 3% da vida dele."
 				""
@@ -133,22 +140,16 @@
 					xp_levels: 20
 				}
 				{
+					icon: "gurizes:selo_refeito"
 					id: "423233897030F5F8"
 					stage: "epilogo"
+					title: "Epílogo liberado"
 					type: "astages_ftbquests:server"
 				}
-				{
-					command: "/advancement grant {p} only gurizes:campanha/ato_6_vencido"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					id: "0D4A93C44CA8DFCB"
-					silent: true
-					type: "command"
-				}
 			]
-			shape: "gear"
+			shape: "diamond"
 			size: 3.0d
-			subtitle: "&6Porteiro"
+			subtitle: "&6Porteiro · Morvhal"
 			tasks: [
 				{
 					advancement: "gurizes:campanha/ato_6_vencido"
@@ -178,7 +179,8 @@
 				}
 			]
 			shape: "hexagon"
-			size: 2.0d
+			size: 2.5d
+			subtitle: "&6A Mácula dorme"
 			tasks: [
 				{
 					advancement: "gurizes:campanha/selo_restaurado"
@@ -198,11 +200,11 @@
 				""
 				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:coracao_do_selo"
 			id: "2217D7B1AA33597B"
 			rewards: [ ]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "&8Ato VI · selado"
 			tasks: [
 				{

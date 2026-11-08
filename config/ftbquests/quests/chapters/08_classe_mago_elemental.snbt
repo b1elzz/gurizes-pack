@@ -16,8 +16,9 @@
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [ ]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dJuramento"
 			tasks: [
 				{
 					advancement: "gurizes:interno/classe_mago_elemental"
@@ -48,6 +49,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dKit do juramento"
 			tasks: [
 				{
 					id: "2C2DC24E4DC6CDA1"
@@ -86,6 +90,9 @@
 					xp_levels: 1
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dTecla G"
 			tasks: [
 				{
 					advancement: "gurizes:interno/habilidade_mago_elemental"
@@ -115,6 +122,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dPrimeira caçada"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -149,6 +159,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dAntes da Cripta"
 			tasks: [
 				{
 					id: "140A5EA49E76ED11"
@@ -182,8 +195,8 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
-			size: 2.0d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Mago Elemental · Forma I"
 			tasks: [
 				{
@@ -233,8 +246,8 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.25d
 			subtitle: "&6Rumo ao Galvar"
 			tasks: [
 				{
@@ -243,7 +256,7 @@
 				}
 			]
 			title: "Raio no Cavaleiro"
-			x: 11.0d
+			x: 11.4d
 			y: 3.0d
 		}
 	]

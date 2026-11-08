@@ -10,16 +10,43 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"&5Tier I · Semideuses&r: bosses fortes de outros mods, abertos desde o Ato I (níveis 12 a 16)."
+				"&6Tier II · Deuses&r: os mais fortes de cada mod. Cada fileira abre com o porteiro do ato anterior (níveis 20 a 90)."
+				"&cTier III · Alter-Deuses&r: os nossos bosses, em versão de pós-jogo. Chegam depois do Selo refeito."
+				"{@pagebreak}"
+				"Cada Deus paga uma Marca ao cair; 4, 8 e todas as Marcas abrem as três Insígnias, e as Insígnias abrem o Desafio dos Sete."
+				"&eDica:&r o nível recomendado de cada boss está no subtítulo da quest, e a frase de como achar ou invocar vem logo abaixo do tier."
+			]
+			icon: "minecraft:spyglass"
+			id: "0CA34B4310F0A120"
+			rewards: [ ]
+			shape: "circle"
+			size: 4.0d
+			subtitle: "&5Guia · Tiers"
+			tasks: [
+				{
+					id: "553F17666154BBCF"
+					type: "checkmark"
+				}
+			]
+			title: "Tiers do Panteão"
+			x: -5.0d
+			y: 6.8d
+		}
+		{
 			dependencies: ["5B17AA16DD0A5BEC", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato II"
 				"&6Como invocar:&r use a Chave do Crepúsculo do Meet Your Fight (receita no JEI); o item fica selado até o Ato II."
+				"{@pagebreak}"
 				"&aFraquezas:&r janelas logo depois das investidas; corpo a corpo quando ela para."
 				"&cPontos fortes:&r rajadas de pétalas cortantes e espíritos de rosa; muito rápida."
 				""
 				"&7Abre após o porteiro do Ato I. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "meetyourfight:violet_bloom"
+			icon: "meetyourfight:rosalyne_spawn_egg"
 			id: "5E8F37C507D8FA62"
 			rewards: [
 				{
@@ -39,9 +66,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 20)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato II · Nível 20"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/rosalyne"
@@ -51,20 +78,22 @@
 				}
 			]
 			title: "Rosalyne"
-			x: -9.0d
-			y: 4.15d
+			x: 1.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5B17AA16DD0A5BEC", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato II"
 				"&6Como invocar:&r Covil da Hidra no Pântano de Fogo da Floresta Crepuscular, depois de Naga, Lich e Minoshroom."
+				"{@pagebreak}"
 				"&aFraquezas:&r acerte as cabeças quando elas descem para morder; leve Resistência ao Fogo."
 				"&cPontos fortes:&r morteiros de fogo, chão em chamas, três cabeças com alcance longo."
 				""
 				"&7Abre após o porteiro do Ato I. Escala de grupo: só dano."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "twilightforest:hydra_trophy"
+			icon: "twilightforest:hydra_spawn_egg"
 			id: "17636F822C3F051C"
 			rewards: [
 				{
@@ -84,9 +113,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 30)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato II · Nível 30"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/hidra"
@@ -96,20 +125,22 @@
 				}
 			]
 			title: "Hidra"
-			x: -9.0d
-			y: 6.85d
+			x: 5.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["299A96D053605996", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato III"
 				"&6Como invocar:&r navio fantasma no Labirinto de Gelo (Aquamirae); a Corneta de Concha, usada perto da água, chama a capitã (selada até o Ato III)."
+				"{@pagebreak}"
 				"&aFraquezas:&r golpes pelos lados enquanto ela gira devagar; mantenha distância da âncora."
 				"&cPontos fortes:&r golpes de longo alcance, chama a tripulação, resiste ao frio do mapa."
 				""
 				"&7Abre após o porteiro do Ato II. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "aquamirae:shell_horn"
+			icon: "aquamirae:captain_cornelia_spawn_egg"
 			id: "40CBB3F4EECDF668"
 			rewards: [
 				{
@@ -129,9 +160,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 35)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato III · Nível 35"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/cornelia"
@@ -141,20 +172,22 @@
 				}
 			]
 			title: "Capitã Cornelia"
-			x: -4.5d
-			y: 2.8d
+			x: 0.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["299A96D053605996", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato III"
 				"&6Como invocar:&r dorme em biomas gelados; acorda quando atacado ou quando alguém chega perto."
+				"{@pagebreak}"
 				"&aFraquezas:&r fogo; puna depois do salto e do rugido."
 				"&cPontos fortes:&r sopro que congela, socos em área, salto que derruba; muita vida."
 				""
 				"&7Abre após o porteiro do Ato II. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "mowziesmobs:ice_crystal"
+			icon: "mowziesmobs:frostmaw_spawn_egg"
 			id: "1B7FDE7DE18DFA51"
 			rewards: [
 				{
@@ -174,9 +207,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 40)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato III · Nível 40"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/frostmaw"
@@ -186,20 +219,22 @@
 				}
 			]
 			title: "Frostmaw"
-			x: -4.5d
-			y: 5.5d
+			x: 3.5d
+			y: 3.4d
 		}
 		{
 			dependencies: ["299A96D053605996", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato III"
 				"&6Como invocar:&r Masmorra de Ouro do Aether, depois do Slider e da Rainha Valquíria."
+				"{@pagebreak}"
 				"&aFraquezas:&r só toma dano dos próprios cristais de gelo devolvidos com um golpe."
 				"&cPontos fortes:&r imune a golpes diretos; bolas de fogo e chão em chamas; a arena queima."
 				""
 				"&7Abre após o porteiro do Ato II. Escala de grupo: só dano."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "aether:sun_altar"
+			icon: "aether:sun_spirit_spawn_egg"
 			id: "576BFD8A98900BEE"
 			rewards: [
 				{
@@ -219,9 +254,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 45)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato III · Nível 45"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/espirito_do_sol"
@@ -231,20 +266,22 @@
 				}
 			]
 			title: "Espírito do Sol"
-			x: -4.5d
-			y: 8.2d
+			x: 7.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato IV"
 				"&6Como invocar:&r use a Lanterna do Lorde Cabeça-de-Abóbora, do Born in Chaos (receita no JEI); o item fica selado até o Ato IV."
+				"{@pagebreak}"
 				"&aFraquezas:&r derrube o Lorde do corcel; foco nele, não nas abóboras."
 				"&cPontos fortes:&r cavalga rápido, joga bombas de abóbora e invoca servos."
 				""
 				"&7Abre após o porteiro do Ato III. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
 			id: "23A325A34CCE2743"
 			rewards: [
 				{
@@ -264,9 +301,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 50)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato IV · Nível 50"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/lorde_abobora"
@@ -276,20 +313,22 @@
 				}
 			]
 			title: "Lorde Cabeça-de-Abóbora"
-			x: 0.0d
-			y: 4.15d
+			x: 1.75d
+			y: 6.8d
 		}
 		{
 			dependencies: ["1F82201E3EE0EE78", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato IV"
 				"&6Como invocar:&r catacumbas do Iron's Spells: desperte o corpo do rei no trono."
+				"{@pagebreak}"
 				"&aFraquezas:&r sagrado e Julgamento (smite); interrompa quando ele conjura."
 				"&cPontos fortes:&r magia de sangue, foice com alcance, invoca mortos e drena vida."
 				""
 				"&7Abre após o porteiro do Ato III. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "irons_spellbooks:blood_staff"
+			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
 			id: "7A2B6456EC77AD93"
 			rewards: [
 				{
@@ -310,9 +349,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 55)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato IV · Nível 55"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/rei_morto"
@@ -322,20 +361,22 @@
 				}
 			]
 			title: "Rei Morto"
-			x: 0.0d
-			y: 6.85d
+			x: 5.25d
+			y: 6.8d
 		}
 		{
 			dependencies: ["1E489942504DD2AF", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato V"
 				"&6Como invocar:&r arremesse Chemical X num enderman (selado até o Ato V; também nasce raro à noite)."
+				"{@pagebreak}"
 				"&aFraquezas:&r água; não olhe nos olhos; capacete de abóbora ajuda."
 				"&cPontos fortes:&r teleporte, arremessa blocos, cria clones e escurece a visão."
 				""
 				"&7Abre após o porteiro do Ato IV. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "minecraft:splash_potion"
+			icon: "mutantmonsters:mutant_enderman_spawn_egg"
 			id: "23023661FFF2DDD5"
 			rewards: [
 				{
@@ -356,9 +397,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 60)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato V · Nível 60"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/enderman_mutante"
@@ -368,13 +409,15 @@
 				}
 			]
 			title: "Enderman Mutante"
-			x: 4.5d
-			y: 4.15d
+			x: 1.75d
+			y: 10.2d
 		}
 		{
 			dependencies: ["1E489942504DD2AF", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato V"
 				"&6Como invocar:&r arena do Obsidilith no End: ritual com olhos do ender no altar."
+				"{@pagebreak}"
 				"&aFraquezas:&r bata entre as ondas de ataque, nunca durante o escudo."
 				"&cPontos fortes:&r pilares que sobem do chão, picos em linha, teleporte e escudo que reflete."
 				""
@@ -402,9 +445,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 65)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato V · Nível 65"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/obsidilith"
@@ -414,20 +457,22 @@
 				}
 			]
 			title: "Obsidilith"
-			x: 4.5d
-			y: 6.85d
+			x: 5.25d
+			y: 10.2d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato VI"
 				"&6Como invocar:&r Cidade Afundada (ache com o Olho do Abismo); Sacrifício Abissal no altar (selado até o Ato VI)."
+				"{@pagebreak}"
 				"&aFraquezas:&r fique fora da linha do laser e bata quando ele morde e trava."
 				"&cPontos fortes:&r luta debaixo d'água: leve Respiração Aquática. Laser abissal, puxões e mordidas fortes."
 				""
 				"&7Abre após o porteiro do Ato V. Escala de grupo: padrão."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "cataclysm:abyssal_sacrifice"
+			icon: "cataclysm:the_leviathan_spawn_egg"
 			id: "22A64A88B5C24FEE"
 			rewards: [
 				{
@@ -448,9 +493,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 90)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato VI · Nível 90"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/leviata"
@@ -460,20 +505,22 @@
 				}
 			]
 			title: "O Leviatã"
-			x: 9.0d
-			y: 4.15d
+			x: 1.75d
+			y: 13.6d
 		}
 		{
 			dependencies: ["2E64F5B91C5F61D4", "428767F33F1E8530"]
 			description: [
+				"                &6Tier II · Deus &7· Ato VI"
 				"&6Como invocar:&r ninhos e cavernas nas terras distantes (a 5000 blocos ou mais); vale dragão de fogo, gelo ou raio adulto."
+				"{@pagebreak}"
 				"&aFraquezas:&r elemento oposto (gelo contra fogo, fogo contra gelo); flechas e armas de osso de dragão."
 				"&cPontos fortes:&r sopro elemental, voo, vida enorme; os ninhos têm guardas."
 				""
 				"&7Abre após o porteiro do Ato V. Escala de grupo: só dano."
 				"&7A Marca do Deus cai na vitória; esta quest paga a recompensa dos Observadores."
 			]
-			icon: "iceandfire:dragon_skull_fire"
+			icon: "iceandfire:spawn_egg_fire_dragon"
 			id: "1B7E2D8FC888FCF1"
 			rewards: [
 				{
@@ -494,9 +541,9 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&6Deus &7(Nível 80)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Deus &7· Ato VI · Nível 80"
 			tasks: [
 				{
 					advancement: "gurizes:trilha/dragao_anciao"
@@ -506,8 +553,8 @@
 				}
 			]
 			title: "Dragão Ancião"
-			x: 9.0d
-			y: 6.85d
+			x: 5.25d
+			y: 13.6d
 		}
 		{
 			dependencies: [
@@ -525,6 +572,8 @@
 			]
 			description: [
 				"Quatro Deuses caíram. Os Observadores forjam a sua Insígnia."
+				""
+				"&8Requer:&r 4 de 11 quests anteriores."
 			]
 			hide_dependency_lines: true
 			icon: "gurizes:insignia_dos_deuses"
@@ -542,8 +591,8 @@
 					xp_levels: 5
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			shape: "octagon"
+			size: 1.25d
 			subtitle: "&64 Marcas"
 			tasks: [
 				{
@@ -552,8 +601,8 @@
 				}
 			]
 			title: "Insígnia dos Deuses I"
-			x: -4.5d
-			y: 12.0d
+			x: 0.0d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -572,6 +621,8 @@
 			description: [
 				"Oito Marcas. Leve a Insígnia e quatro Marcas à mesa de ferraria: as Marcas"
 				"servem de molde e não são gastas."
+				""
+				"&8Requer:&r 8 de 11 quests anteriores."
 			]
 			hide_dependency_lines: true
 			icon: "gurizes:insignia_dos_deuses"
@@ -584,8 +635,8 @@
 					xp_levels: 10
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			shape: "octagon"
+			size: 1.25d
 			subtitle: "&68 Marcas"
 			tasks: [
 				{
@@ -594,8 +645,8 @@
 				}
 			]
 			title: "Insígnia dos Deuses II"
-			x: 0.0d
-			y: 12.0d
+			x: 3.5d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -615,6 +666,8 @@
 			description: [
 				"Todos os Deuses da lista vencidos e o Selo refeito."
 				"O Panteão reconhece o grupo e o Desafio dos Sete se abre."
+				""
+				"&8Requer:&r todas as 12 quests anteriores."
 			]
 			hide_dependency_lines: true
 			icon: "gurizes:insignia_dos_deuses"
@@ -626,8 +679,8 @@
 					xp_levels: 15
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			shape: "octagon"
+			size: 1.25d
 			subtitle: "&6Todas as Marcas"
 			tasks: [
 				{
@@ -636,8 +689,8 @@
 				}
 			]
 			title: "Insígnia dos Deuses III"
-			x: 4.5d
-			y: 12.0d
+			x: 7.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6EF3766A506C655B"]
@@ -645,6 +698,7 @@
 				"&6Como invocar:&r Mesa do Selo com o Selo Refeito e todas as Marcas."
 				"&6Como vencer:&r é Morvhal Ascendido: vida da campanha ×1,5, todas as mecânicas de NG+ e uma fase"
 				"final em que a arena inteira é o boss por 60 s. Sobrevivam a três Juízos dos Sete seguidos."
+				"{@pagebreak}"
 				"&aFraquezas:&r as mesmas de Morvhal. &cPontos fortes:&r tudo o que Morvhal tem, mais forte."
 				""
 				"Vencer abre o primeiro ciclo de NG+ sem repetir a campanha."
@@ -658,8 +712,10 @@
 					type: "item"
 				}
 				{
+					icon: "gurizes:selo_refeito"
 					id: "4F1EA12BB288CFB0"
 					stage: "ng_1"
+					title: "Novo Jogo+ liberado"
 					type: "astages_ftbquests:server"
 				}
 				{
@@ -668,7 +724,7 @@
 					xp_levels: 20
 				}
 			]
-			shape: "gear"
+			shape: "diamond"
 			size: 3.0d
 			subtitle: "&5Fecho do Panteão"
 			tasks: [
@@ -680,123 +736,8 @@
 				}
 			]
 			title: "Desafio dos Sete"
-			x: 4.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["5B17AA16DD0A5BEC"]
-			description: [
-				"Duas rachaduras do Selo cuspiram uma florista de pétalas cortantes e uma fera de muitas cabeças."
-				""
-				"&eDica:&r abre quando o Selo do ato anterior se refizer: vença o porteiro do Ato I."
-			]
-			icon: "minecraft:barrier"
-			id: "3B20BB72101AC5B1"
-			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Deuses · abrem no Ato II"
-			tasks: [
-				{
-					id: "13A8DC6473C1C75A"
-					type: "checkmark"
-				}
-			]
-			title: "???"
-			x: -9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["299A96D053605996"]
-			description: [
-				"Uma capitã de navio fantasma, um colosso de gelo e um espírito de fogo que mora no céu."
-				""
-				"&eDica:&r abre quando o Selo do ato anterior se refizer: vença o porteiro do Ato II."
-			]
-			icon: "minecraft:barrier"
-			id: "4F5F104A3AAB14AD"
-			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Deuses · abrem no Ato III"
-			tasks: [
-				{
-					id: "1149F65C932AE905"
-					type: "checkmark"
-				}
-			]
-			title: "???"
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1F82201E3EE0EE78"]
-			description: [
-				"Um cavaleiro de abóbora e um rei morto que ainda não notou que morreu."
-				""
-				"&eDica:&r abre quando o Selo do ato anterior se refizer: vença o porteiro do Ato III."
-			]
-			icon: "minecraft:barrier"
-			id: "449F3662EDC293C5"
-			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Deuses · abrem no Ato IV"
-			tasks: [
-				{
-					id: "1CE0FEA576F5B17D"
-					type: "checkmark"
-				}
-			]
-			title: "???"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1E489942504DD2AF"]
-			description: [
-				"Um Enderman que cresceu demais e uma pedra negra que levanta pilares do chão."
-				""
-				"&eDica:&r abre quando o Selo do ato anterior se refizer: vença o porteiro do Ato IV."
-			]
-			icon: "minecraft:barrier"
-			id: "04DF593100E302AE"
-			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Deuses · abrem no Ato V"
-			tasks: [
-				{
-					id: "300A5DF1A857D112"
-					type: "checkmark"
-				}
-			]
-			title: "???"
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E64F5B91C5F61D4"]
-			description: [
-				"Algo enorme que dorme debaixo do mar e um dragão de verdade, dos que chamam de ancião."
-				""
-				"&eDica:&r abre quando o Selo do ato anterior se refizer: vença o porteiro do Ato V."
-			]
-			icon: "minecraft:barrier"
-			id: "1E246455C649A9DD"
-			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Deuses · abrem no Ato VI"
-			tasks: [
-				{
-					id: "7252D9AE2AE4F643"
-					type: "checkmark"
-				}
-			]
-			title: "???"
-			x: 9.0d
-			y: 0.0d
+			x: 3.5d
+			y: 22.0d
 		}
 	]
 	subtitle: ["Os mais fortes de cada mod, a partir do Ato II"]

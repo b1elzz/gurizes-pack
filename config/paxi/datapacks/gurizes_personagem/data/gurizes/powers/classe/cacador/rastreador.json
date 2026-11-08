@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Passo do Rastreador",
-  "description": "+5% de velocidade e +10% de velocidade de puxada.",
+  "description": "Pegou o rastro e não solta mais.\n+5% de velocidade e +10% de velocidade de puxada.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",

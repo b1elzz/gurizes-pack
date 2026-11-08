@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Investida Voltaica (G)",
-  "description": "Avança com um golpe elétrico (Golpe Voltaico nível 4). Recarga de 15 s.",
+  "description": "Um raio avança junto com a lâmina.\nAvança com um golpe elétrico (Golpe Voltaico nível 4). Recarga de 15 s.",
   "cooldown": 300,
   "hud_render": {
     "should_render": true

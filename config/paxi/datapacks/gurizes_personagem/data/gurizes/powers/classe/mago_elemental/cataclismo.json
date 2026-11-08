@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Cataclismo (III, H)",
-  "description": "Após o porteiro do Ato IV: Tempestade de Chamas, Onda Gélida ou Tempestade de Raios, conforme o elemento. Recarga de 2 min 30 s.",
+  "description": "O fim do mundo, em escala de bolso.\nApós o porteiro do Ato IV: Tempestade de Chamas, Onda Gélida ou Tempestade de Raios, conforme o elemento. Recarga de 2 min 30 s.",
   "cooldown": 3000,
   "hud_render": {
     "should_render": true

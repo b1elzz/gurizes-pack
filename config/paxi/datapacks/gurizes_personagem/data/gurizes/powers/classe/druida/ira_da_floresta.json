@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Ira da Floresta (III, H)",
-  "description": "Após o porteiro do Ato IV: Terremoto nível 6 e Regeneração II nos aliados a até 10 blocos. Recarga de 2 min.",
+  "description": "A mata inteira se levanta.\nApós o porteiro do Ato IV: Terremoto nível 6 e Regeneração II nos aliados a até 10 blocos. Recarga de 2 min.",
   "cooldown": 2400,
   "hud_render": {
     "should_render": true

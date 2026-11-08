@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_dealt",
   "name": "Emboscada",
-  "description": "Agachado: +15% de dano corpo a corpo.",
+  "description": "Quem espera na sombra bate primeiro.\nAgachado: +15% de dano corpo a corpo.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.15

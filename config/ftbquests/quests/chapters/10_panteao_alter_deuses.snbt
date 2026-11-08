@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "10_panteao_alter_deuses"
 	group: "3DC2DB31CDAC58A5"
-	icon: "minecraft:barrier"
+	icon: "gurizes:coroa_oca"
 	id: "45FA33F84D2EA208"
 	order_index: 31
 	progression_mode: "flexible"
@@ -12,138 +12,150 @@
 		{
 			dependencies: ["234510F261251473"]
 			description: [
+				"                &cTier III · Alter-Deus"
 				"O primeiro guardião jurou de novo, mais forte e sem a Coroa a lhe pesar."
 				""
-				"&eDica:&r Sir Xavier Siri Galvar, o Juramento Eterno — Epílogo. Chega numa atualização, depois do Selo refeito."
+				"&eDica:&r chega numa atualização, depois do Selo refeito (última quest do Ato VI). Vale Epílogo."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:coroa_oca"
 			id: "4EA7B55AC38CBDAA"
 			rewards: [ ]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "&8Alter-Deus · Epílogo"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&cAlter-Deus &7· Epílogo"
 			tasks: [
 				{
 					id: "50EC87610E054CC3"
+					title: "Chega numa atualização"
 					type: "checkmark"
 				}
 			]
-			title: "???"
+			title: "Sir Xavier Siri Galvar, o Juramento Eterno"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["234510F261251473"]
 			description: [
+				"                &cTier III · Alter-Deus"
 				"O porteiro do Ato II volta com as mecânicas do Juramento Eterno."
 				""
-				"&eDica:&r o porteiro do Ato II, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+				"&eDica:&r chega numa atualização, depois do Selo refeito (última quest do Ato VI). Vale Epílogo e NG+."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:coracao_de_seiva"
 			id: "73EB95DAD6307DF3"
 			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&cAlter-Deus &7· Epílogo e NG+"
 			tasks: [
 				{
 					id: "55FD2BF7BEB0E770"
+					title: "Chega numa atualização"
 					type: "checkmark"
 				}
 			]
-			title: "???"
+			title: "Vorthra, o Juramento Eterno"
 			x: 3.4d
 			y: 0.0d
 		}
 		{
 			dependencies: ["234510F261251473"]
 			description: [
+				"                &cTier III · Alter-Deus"
 				"O porteiro do Ato III volta com as mecânicas do Juramento Eterno."
 				""
-				"&eDica:&r o porteiro do Ato III, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+				"&eDica:&r chega numa atualização, depois do Selo refeito (última quest do Ato VI). Vale Epílogo e NG+."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:brasa_primordial"
 			id: "5F9286ECDBC9F6E0"
 			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&cAlter-Deus &7· Epílogo e NG+"
 			tasks: [
 				{
 					id: "3221CA9ED0F9C74A"
+					title: "Chega numa atualização"
 					type: "checkmark"
 				}
 			]
-			title: "???"
+			title: "Kharzul, o Juramento Eterno"
 			x: 6.8d
 			y: 0.0d
 		}
 		{
 			dependencies: ["234510F261251473"]
 			description: [
+				"                &cTier III · Alter-Deus"
 				"O porteiro do Ato IV volta com as mecânicas do Juramento Eterno."
 				""
-				"&eDica:&r o porteiro do Ato IV, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+				"&eDica:&r chega numa atualização, depois do Selo refeito (última quest do Ato VI). Vale Epílogo e NG+."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:concha_da_tempestade"
 			id: "73E40C0A68AA0F33"
 			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&cAlter-Deus &7· Epílogo e NG+"
 			tasks: [
 				{
 					id: "607C9314EB6AF605"
+					title: "Chega numa atualização"
 					type: "checkmark"
 				}
 			]
-			title: "???"
+			title: "Nerezza, o Juramento Eterno"
 			x: 0.0d
 			y: 3.4d
 		}
 		{
 			dependencies: ["234510F261251473"]
 			description: [
+				"                &cTier III · Alter-Deus"
 				"O porteiro do Ato V volta com as mecânicas do Juramento Eterno."
 				""
-				"&eDica:&r o porteiro do Ato V, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+				"&eDica:&r chega numa atualização, depois do Selo refeito (última quest do Ato VI). Vale Epílogo e NG+."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:lente_estelar"
 			id: "3226193D4193D502"
 			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&cAlter-Deus &7· Epílogo e NG+"
 			tasks: [
 				{
 					id: "225A628C2355E77A"
+					title: "Chega numa atualização"
 					type: "checkmark"
 				}
 			]
-			title: "???"
+			title: "Astrael, o Juramento Eterno"
 			x: 3.4d
 			y: 3.4d
 		}
 		{
 			dependencies: ["234510F261251473"]
 			description: [
+				"                &cTier III · Alter-Deus"
 				"O porteiro do Ato VI volta com as mecânicas do Juramento Eterno."
 				""
-				"&eDica:&r o porteiro do Ato VI, ascendido — Epílogo e NG+. Chega numa atualização, depois do Selo refeito."
+				"&eDica:&r chega numa atualização, depois do Selo refeito (última quest do Ato VI). Vale Epílogo e NG+."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:coracao_do_selo"
 			id: "4E9CBC21AA46DE61"
 			rewards: [ ]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&8Alter-Deus · Epílogo e NG+"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&cAlter-Deus &7· Epílogo e NG+"
 			tasks: [
 				{
 					id: "49B93F73BF9FFD26"
+					title: "Chega numa atualização"
 					type: "checkmark"
 				}
 			]
-			title: "???"
+			title: "Morvhal, o Juramento Eterno"
 			x: 6.8d
 			y: 3.4d
 		}

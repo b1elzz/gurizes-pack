@@ -23,6 +23,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Cama explode"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -54,6 +57,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Martelo-Brasa"
 			tasks: [
 				{
 					id: "6A69EF35A76175A9"
@@ -85,6 +91,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&6Resto de fornalha"
 			tasks: [
 				{
 					consume_items: true
@@ -112,6 +121,9 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "&6A brasa-mãe"
 			tasks: [
 				{
 					id: "0680579D98B4B37A"
@@ -126,9 +138,10 @@
 		{
 			description: [
 				"\"Kharzul forjou as correntes do Selo. Hoje forja só raiva. Ponha a Brasa Primordial na Bigorna de Ignar e bombeie os dois foles juntos. Quando o chão começar a brilhar, não fique em cima dele.\""
-				""
+				"{@pagebreak}"
 				"&6Como invocar:&r Brasa Primordial na Bigorna de Ignar e os 2 foles bombeados juntos."
 				"&6Como vencer:&r controle o Calor (5 acúmulos queimam): fuja do chão brilhante e use a cobertura. Na fase 2, bata quando a fornalha do peito abrir."
+				"{@pagebreak}"
 				"&aFraquezas:&r gelo, fornalha aberta (dano dobrado), poção de água arremessada (Resfriado: -20% armadura)."
 				"&cPontos fortes:&r imune a fogo e lava; armadura alta pune golpes fracos; resiste a projéteis."
 				""
@@ -144,22 +157,16 @@
 					xp_levels: 10
 				}
 				{
+					icon: "gurizes:selo_refeito"
 					id: "528F6B3CCD7D62C3"
 					stage: "ato_4"
+					title: "Ato IV liberado"
 					type: "astages_ftbquests:server"
 				}
-				{
-					command: "/advancement grant {p} only gurizes:campanha/ato_3_vencido"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					id: "636B0E65EAAD1375"
-					silent: true
-					type: "command"
-				}
 			]
-			shape: "gear"
-			size: 2.5d
-			subtitle: "&6Porteiro"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&6Porteiro · Kharzul"
 			tasks: [
 				{
 					advancement: "gurizes:campanha/ato_3_vencido"
@@ -179,11 +186,11 @@
 				""
 				"&eDica:&r abre quando o Selo do ato anterior se refizer. Vença o porteiro do ato anterior."
 			]
-			icon: "minecraft:barrier"
+			icon: "gurizes:brasa_primordial"
 			id: "765DBCC5B6ACA2E1"
 			rewards: [ ]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "&8Ato III · selado"
 			tasks: [
 				{

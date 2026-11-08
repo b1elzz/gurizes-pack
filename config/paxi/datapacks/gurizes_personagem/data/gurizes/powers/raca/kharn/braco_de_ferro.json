@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_dealt",
   "name": "Braço de Ferro",
-  "description": "+8% de dano corpo a corpo.",
+  "description": "Um soco de Kharn derruba muro.\n+8% de dano corpo a corpo.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.08

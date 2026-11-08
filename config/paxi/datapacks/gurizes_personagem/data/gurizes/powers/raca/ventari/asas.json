@@ -1,7 +1,7 @@
 {
   "type": "origins:elytra_flight",
   "name": "Asas de Vendaval",
-  "description": "Pule no ar para abrir as asas e planar. Cada segundo de voo gasta Fôlego (cerca de 12 s no total); só recupera em terra firme. Não abre com peitoral pesado.",
+  "description": "O céu é o único chão que aceitam.\nPule no ar para abrir as asas e planar. Cada segundo gasta Fôlego (cerca de 12 s no total); só recupera em terra firme. Não abre com peitoral pesado.",
   "render_elytra": true,
   "condition": {
     "type": "origins:and",

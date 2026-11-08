@@ -24,6 +24,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aEscama que arde"
 			tasks: [
 				{
 					id: "4B7AEAA2796D08AB"
@@ -48,6 +51,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aEscama que gela"
 			tasks: [
 				{
 					id: "43A21D879522860F"
@@ -72,6 +78,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&aEscama que estala"
 			tasks: [
 				{
 					id: "7827136901A00C4D"
@@ -97,7 +106,8 @@
 				}
 			]
 			shape: "octagon"
-			size: 1.5d
+			size: 1.25d
+			subtitle: "&aForja de dragão"
 			tasks: [
 				{
 					id: "5542A7042E8D8FFB"

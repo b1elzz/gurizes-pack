@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_dealt",
   "name": "Última Investida (Maior)",
-  "description": "Desperta após o porteiro do Ato III: +20% de dano abaixo de 35% de vida e +10% de dano crítico.",
+  "description": "No fim, quando tudo parece perdido, ela empurra.\nApós o porteiro do Ato III: +20% de dano abaixo de 35% de vida e +10% de dano crítico.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.2

@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "name": "Madeira Seca",
-  "description": "Fraqueza: +35% de dano de fogo.",
+  "description": "Madeira e fogo nunca foram amigos.\nFraqueza: +35% de dano de fogo.",
   "modifier": {
     "operation": "multiply_base_multiplicative",
     "value": 0.35

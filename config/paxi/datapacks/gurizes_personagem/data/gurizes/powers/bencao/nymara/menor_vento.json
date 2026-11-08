@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "name": "Vento de Nymara (Menor)",
-  "description": "+4% de velocidade, +8% de poder de Raio.",
+  "description": "A tormenta empurra por trás.\n+4% de velocidade e +8% de poder de Raio.",
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",

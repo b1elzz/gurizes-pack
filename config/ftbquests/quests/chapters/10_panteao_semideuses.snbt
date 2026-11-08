@@ -13,6 +13,7 @@
 			dependencies: ["3484B276FE312BD7"]
 			description: [
 				"Pelas rachaduras do Selo passaram criaturas de outros reinos. O povo as chama de deuses; os &5Observadores de Kaelum&r catalogam cada uma em três níveis:"
+				"{@pagebreak}"
 				"&5Semideuses&r (bosses fortes, abertos desde o Ato I), &6Deuses&r (os mais fortes de cada mod, do Ato II em diante) e &cAlter-Deuses&r (os nossos bosses, em versão de pós-jogo)."
 				"A Arquivista Lune paga quem vencer. O Panteão nunca trava a campanha: cada nível abre no seu ato, e vencer antes da hora não conta."
 				""
@@ -22,8 +23,9 @@
 			icon: "minecraft:spyglass"
 			id: "428767F33F1E8530"
 			rewards: [ ]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "circle"
+			size: 4.0d
+			subtitle: "&5Guia do Panteão"
 			tasks: [
 				{
 					id: "05040053BAF6F06B"
@@ -31,13 +33,15 @@
 				}
 			]
 			title: "Os Observadores de Kaelum"
-			x: 4.0d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: [
-				"&6Onde:&r o Sino Assombrado chama o Bellringer (receita no JEI: ouro e ardósia). Lute em campo aberto."
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Sino Assombrado chama o Bellringer (receita no JEI: ouro e ardósia). Lute em campo aberto."
+				"{@pagebreak}"
 				"&6Força:&r nível 12, 310 de vida (solo). Recomendado: ferro completo, escudo e 8 comidas."
 				"&aPonto fraco:&r ele golpeia em arcos largos e lentos: esquive para o lado e bata logo depois do golpe."
 				"&cPerigo:&r os arcos largos pegam quem fica na frente, e a vida alta pede paciência."
@@ -45,7 +49,7 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:30), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "meetyourfight:haunted_bell"
+			icon: "meetyourfight:bellringer_spawn_egg"
 			id: "59E250CF4063B689"
 			optional: true
 			rewards: [
@@ -66,9 +70,9 @@
 					xp_levels: 2
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&5Semideus &7(Nível 12)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato I · Nível 12"
 			tasks: [
 				{
 					entity: "meetyourfight:bellringer"
@@ -84,7 +88,9 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: [
-				"&6Onde:&r a Isca de Fóssil (2 olhos de aranha, 3 ossos e 4 carnes podres), usada num pântano, chama o Swampjaw."
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Isca de Fóssil (2 olhos de aranha, 3 ossos e 4 carnes podres), usada num pântano, chama o Swampjaw."
+				"{@pagebreak}"
 				"&6Força:&r nível 12, 100 de vida e dano 12. Recomendado: ferro completo e escudo. O mais fácil dos cinco."
 				"&aPonto fraco:&r não brigue dentro d'água, onde ele é mais rápido: fique em terra firme e bata quando ele investe."
 				"&cPerigo:&r muito dano para pouca vida: não tome golpe de graça."
@@ -92,7 +98,7 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (1:30), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "meetyourfight:fossil_bait"
+			icon: "meetyourfight:swampjaw_spawn_egg"
 			id: "14143A46980161B8"
 			optional: true
 			rewards: [
@@ -113,9 +119,9 @@
 					xp_levels: 2
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&5Semideus &7(Nível 12)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato I · Nível 12"
 			tasks: [
 				{
 					entity: "meetyourfight:swampjaw"
@@ -131,7 +137,9 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: [
-				"&6Onde:&r a Caveira do Hirschgeist (Whisperwoods), numa floresta assombrada. Só dá para vencê-lo à noite."
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r a Caveira do Hirschgeist (Whisperwoods), numa floresta assombrada. Só dá para vencê-lo à noite."
+				"{@pagebreak}"
 				"&6Força:&r nível 12, 150 de vida e dano 6. Recomendado: ferro completo, tochas e poções de cura."
 				"&aPonto fraco:&r durante o dia ele é imortal: espere o sol cair e lute com a noite a seu favor."
 				"&cPerigo:&r a floresta à noite: monstros comuns aparecem enquanto você luta."
@@ -139,7 +147,7 @@
 				"&eDesafios:&r Intocável, Sozinho contra um Deus e Relâmpago (2:00), nas quests ao lado."
 				"&7Quem dá o golpe final conta para o time inteiro."
 			]
-			icon: "whisperwoods:hirschgeist_skull"
+			icon: "whisperwoods:hirschgeist_spawn_egg"
 			id: "5F6FB0CA25581170"
 			optional: true
 			rewards: [
@@ -160,9 +168,9 @@
 					xp_levels: 2
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&5Semideus &7(Nível 12)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato I · Nível 12"
 			tasks: [
 				{
 					entity: "whisperwoods:hirschgeist"
@@ -178,7 +186,9 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: [
-				"&6Onde:&r o Ninho de Areia, no deserto, bem longe do spawn (mais de 4.000 blocos na seed de teste). Entra em cena sozinho, em 12 s."
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Ninho de Areia, no deserto, bem longe do spawn (mais de 4.000 blocos na seed de teste). Entra em cena sozinho, em 12 s."
+				"{@pagebreak}"
 				"&6Força:&r nível 16, 200 de vida e dano 10. Recomendado: ferro completo, escudo, poções de cura e um amigo."
 				"&aPonto fraco:&r depois da investida ele cai e fica exposto por 8 s: bata forte nessa janela."
 				"&cPerigo:&r terremoto de 9 s e cuspe de veneno: leve leite e não fique parado."
@@ -212,9 +222,9 @@
 					type: "random"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&5Semideus &7(Nível 16)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato I · Nível 16"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:sandworm"
@@ -230,7 +240,9 @@
 		{
 			dependencies: ["3484B276FE312BD7"]
 			description: [
-				"&6Onde:&r o Esconderijo do Yeti, numa planície nevada (a mais de 1.400 blocos do spawn na seed de teste)."
+				"                &5Tier I · Semideus"
+				"&6Como achar:&r o Esconderijo do Yeti, numa planície nevada (a mais de 1.400 blocos do spawn na seed de teste)."
+				"{@pagebreak}"
 				"&6Força:&r nível 14, 250 de vida e dano 18. O desafio difícil do ato: ferro completo, escudo, cura e um grupo."
 				"&aPonto fraco:&r ele fica exposto nas pausas entre o salto e o próximo golpe: bata aí e recue."
 				"&cPerigo:&r dano base 18 (três socos derrubam) e uma chuva de espetos de gelo de 9 s: use blocos como cobertura."
@@ -264,9 +276,9 @@
 					type: "random"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&5Semideus &7(Nível 14)"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&5Semideus &7· Ato I · Nível 14"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:yeti"
@@ -285,7 +297,7 @@
 				"Vença Bellringer sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "meetyourfight:haunted_bell"
+			icon: "meetyourfight:bellringer_spawn_egg"
 			id: "1A788B6BD0C74F3B"
 			optional: true
 			rewards: [
@@ -295,8 +307,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -316,7 +328,7 @@
 				"Vença Bellringer sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "meetyourfight:haunted_bell"
+			icon: "meetyourfight:bellringer_spawn_egg"
 			id: "19D5146E5091ED50"
 			optional: true
 			rewards: [
@@ -327,8 +339,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -348,7 +360,7 @@
 				"Vença Bellringer em menos de 2:30."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "meetyourfight:haunted_bell"
+			icon: "meetyourfight:bellringer_spawn_egg"
 			id: "55494C9B0941AF8F"
 			optional: true
 			rewards: [
@@ -359,8 +371,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -380,7 +392,7 @@
 				"Vença Swampjaw sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "meetyourfight:fossil_bait"
+			icon: "meetyourfight:swampjaw_spawn_egg"
 			id: "6A8B1B9271EA7C54"
 			optional: true
 			rewards: [
@@ -390,8 +402,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -411,7 +423,7 @@
 				"Vença Swampjaw sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "meetyourfight:fossil_bait"
+			icon: "meetyourfight:swampjaw_spawn_egg"
 			id: "16D72DF5E473BD9E"
 			optional: true
 			rewards: [
@@ -422,8 +434,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -443,7 +455,7 @@
 				"Vença Swampjaw em menos de 1:30."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "meetyourfight:fossil_bait"
+			icon: "meetyourfight:swampjaw_spawn_egg"
 			id: "4C36AE8B7CB7BAC9"
 			optional: true
 			rewards: [
@@ -454,8 +466,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -475,7 +487,7 @@
 				"Vença Hirschgeist sem tomar nenhum dano dele."
 				"&eDica:&r apare ou esquive tudo: um único golpe dele que acerte você já tira a conquista."
 			]
-			icon: "whisperwoods:hirschgeist_skull"
+			icon: "whisperwoods:hirschgeist_spawn_egg"
 			id: "0031637ED6654E93"
 			optional: true
 			rewards: [
@@ -485,8 +497,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -506,7 +518,7 @@
 				"Vença Hirschgeist sem ajuda: só você lutou."
 				"&eDica:&r conta quem dá ou toma dano do boss; amigo que só assiste não atrapalha."
 			]
-			icon: "whisperwoods:hirschgeist_skull"
+			icon: "whisperwoods:hirschgeist_spawn_egg"
 			id: "1365B5ED476B357E"
 			optional: true
 			rewards: [
@@ -517,8 +529,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -538,7 +550,7 @@
 				"Vença Hirschgeist em menos de 2:00."
 				"&eDica:&r o relógio corre do primeiro golpe, dado ou tomado, até a morte do boss."
 			]
-			icon: "whisperwoods:hirschgeist_skull"
+			icon: "whisperwoods:hirschgeist_spawn_egg"
 			id: "19E10A51D84FCC9C"
 			optional: true
 			rewards: [
@@ -549,8 +561,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -580,8 +592,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -612,8 +624,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -644,8 +656,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -675,8 +687,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -707,8 +719,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{
@@ -739,8 +751,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 0.9d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&7Conquista · opcional"
 			tasks: [
 				{

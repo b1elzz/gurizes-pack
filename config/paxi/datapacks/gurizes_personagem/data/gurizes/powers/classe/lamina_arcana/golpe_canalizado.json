@@ -1,7 +1,7 @@
 {
   "type": "origins:conditioned_attribute",
   "name": "Golpe Canalizado",
-  "description": "Com espada na mão: +10% de poder mágico.",
+  "description": "Cada estocada leva um pouco de feitiço.\nCom espada na mão: +10% de poder mágico.",
   "condition": {
     "type": "origins:equipped_item",
     "equipment_slot": "mainhand",

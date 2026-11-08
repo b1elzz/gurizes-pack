@@ -1,8 +1,8 @@
 {
   "name": "Paladino",
-  "description": "“Enquanto eu estiver de pé, ninguém atrás de mim cai.” Tanque que cura em emergência. Armas: espada e escudo. ★☆☆",
+  "description": "\"Enquanto eu estiver de pé, ninguém atrás de mim cai.\" Armas: espada e escudo. Dificuldade: baixa.",
   "icon": {
-    "item": "minecraft:shield"
+    "item": "gurizes:egide_do_juramento"
   },
   "impact": 2,
   "order": 1,

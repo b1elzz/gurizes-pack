@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Erguer os Caídos (G)",
-  "description": "Ergue mortos-vivos aliados (Erguer Mortos nível 3). Recarga de 45 s.",
+  "description": "Levantem-se, soldados de Valdren.\nErgue mortos-vivos aliados (Erguer Mortos nível 3). Recarga de 45 s.",
   "cooldown": 900,
   "hud_render": {
     "should_render": true

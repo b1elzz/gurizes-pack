@@ -16,8 +16,9 @@
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [ ]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dJuramento"
 			tasks: [
 				{
 					advancement: "gurizes:interno/classe_bardo"
@@ -48,6 +49,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dKit do juramento"
 			tasks: [
 				{
 					id: "248CE0E3CF35B4EA"
@@ -86,6 +90,9 @@
 					xp_levels: 1
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dTecla G"
 			tasks: [
 				{
 					advancement: "gurizes:interno/habilidade_bardo"
@@ -115,6 +122,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dPrimeira caçada"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -149,6 +159,9 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&dAntes da Cripta"
 			tasks: [
 				{
 					id: "1B5289EF18525FF5"
@@ -187,8 +200,8 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
-			size: 2.0d
+			shape: "hexagon"
+			size: 2.5d
 			subtitle: "&6Bardo de Guerra · Forma I"
 			tasks: [
 				{
@@ -238,8 +251,8 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.25d
 			subtitle: "&6Rumo ao Galvar"
 			tasks: [
 				{
@@ -248,7 +261,7 @@
 				}
 			]
 			title: "Coragem Antes da Cripta"
-			x: 11.0d
+			x: 11.4d
 			y: 3.0d
 		}
 	]
